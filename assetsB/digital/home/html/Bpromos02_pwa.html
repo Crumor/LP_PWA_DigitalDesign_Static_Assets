@@ -1,5 +1,9 @@
 <style>	
-	.o-mainBanner {
+	body {
+        background-color: #fff !important;
+    }
+    
+    .o-mainBanner {
         padding-left: 0px;
         padding-right: 0px;
         padding-bottom: 15px;
@@ -23,6 +27,74 @@
         margin: 0 auto;
         display: block;
         margin-bottom: 40px;
+    }
+    
+    .o-promoOne {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-flow: row;
+        margin-bottom: 40px;
+    }
+    
+    .a-promoOne__image {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .a-promoThree__image {
+        float: right;
+        margin-bottom: 20px;
+    }
+    
+    .m-promoVideo__container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-flow: row;
+        justify-content: center;
+    }
+    
+    .a-promoVideo__video {
+        width: 100%;
+    }
+    
+    .a-promoVideo__link:first-child {
+        padding-right: 15px;
+    }
+    
+    .a-promoVideo__link:last-child {
+        padding-left: 15px;
+    }
+    
+    .a-promoAll__title {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 1.2px;
+        margin-bottom: 25px;
+    }
+    
+    @media (max-width: 991px) {
+        .o-promoVideo {
+            display: none;
+        }
+        .o-promoOne {
+            flex-flow: column;
+        }
+        .m-promoVideo__container {
+            flex-flow: column;
+        }
+        .a-promoVideo__link:first-child {
+            padding-right: 0px;
+        }
+        .a-promoVideo__link:last-child {
+            padding-left: 0px;
+        }
+
+       
     }
 </style>
 
