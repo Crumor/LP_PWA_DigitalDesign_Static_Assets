@@ -1,0 +1,49 @@
+{
+	"bannerType": "grid-4",
+	"bannerContent": [{
+			"redirectsTo": "catst4003105",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03a_110519ella_sales.jpg",
+			"type": "plp",
+			"title": "ella_110519",
+			"campaign": "Ella hasta 15% de desc",
+			"view": "h_app_banner_secun",
+			"position": "0"
+		},
+
+
+
+		{
+			"redirectsTo": "catst9886245",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03b_200519set_sales.jpg",
+			"type": "plp",
+			"title": "sets_de_perfumes_200519",
+			"campaign": "Sets de perfumes",
+			"view": "h_app_banner_secun",
+			"position": "1"
+		},
+
+
+		{
+			"redirectsTo": "catst6220045",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03c_200519rel_sales_2.jpg",
+			"type": "plp",
+			"title": "relojes_200519",
+			"campaign": "Relojes hasta 20% de desc",
+			"view": "h_app_banner_secun",
+			"position": "2"
+		},
+
+
+
+		{
+			"redirectsTo": "cat5020003",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03d_110519el_sales.jpg",
+			"type": "plp",
+			"title": "el_110519",
+			"campaign": "Él hasta 15% de desc",
+			"view": "h_app_banner_secun",
+			"position": "3"
+		}
+	]
+
+}

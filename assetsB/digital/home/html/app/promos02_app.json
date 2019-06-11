@@ -1,0 +1,27 @@
+
+{
+	"bannerType": "stack",
+	"bannerContent": [
+		{
+			"redirectsTo": "catst9886245",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo02c_200519set_m.jpg",
+			"type": "plp",
+			"title": "sets_de_perfumes_200519",
+			"campaign": "Sets de perfumes",
+			"view": "h_app_banner_secun",
+			"position": "0"
+		},
+
+
+
+		{
+			"redirectsTo": "catst6220045",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo02d_200519rel_m_2.jpg",
+			"type": "plp",
+			"title": "relojes_200519",
+			"campaign": "Relojes hasta 20% de desc",
+			"view": "h_app_banner_secun",
+			"position": "1"
+		}
+	]
+}

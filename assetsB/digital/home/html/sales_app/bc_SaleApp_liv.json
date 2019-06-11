@@ -1,0 +1,12 @@
+{
+	"bannerType": "stack",
+	"bannerContent": [{
+		"type": "plp",
+		"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bc_200519dep_sales.jpg",
+		"redirectsTo": "cat480332",
+		"title": "deportes_200519",
+		"campaign": "Deportes hasta 20% de desc",
+		"view": "h_app_banner_secun",
+		"position": "1"
+	}]
+}

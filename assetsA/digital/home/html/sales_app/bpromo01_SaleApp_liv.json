@@ -1,0 +1,50 @@
+{
+	"bannerType": "grid-4",
+	"bannerContent": [{
+			"redirectsTo": "catst10267862",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01a_200519apa_sales.jpg",
+			"type": "plp",
+			"title": "aparatos_de_ejercicio_200519",
+			"campaign": "Aparatos de ejercicio hasta 20% de desc",
+			"view": "h_app_banner_secun",
+			"position": "0"
+		},
+
+
+
+		{
+			"redirectsTo": "catst13716528",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01b_200519ten_sales.jpg",
+			"type": "plp",
+			"title": "tenis_200519",
+			"campaign": "Tenis hasta 20% de desc",
+			"view": "h_app_banner_secun",
+			"position": "1"
+		},
+
+
+
+		{
+			"redirectsTo": "cat660130",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01c_200519bic_sales.jpg",
+			"type": "plp",
+			"title": "bicicletas_200519",
+			"campaign": "Bicicletas hasta 15% de desc",
+			"view": "h_app_banner_secun",
+			"position": "2"
+		},
+
+
+
+		{
+			"redirectsTo": "cat480023",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01d_200519pan_sales.jpg",
+			"type": "plp",
+			"title": "pantallas_200519",
+			"campaign": "Pantallas hasta 47% de desc",
+			"view": "h_app_banner_secun",
+			"position": "3"
+		}
+	]
+
+}
