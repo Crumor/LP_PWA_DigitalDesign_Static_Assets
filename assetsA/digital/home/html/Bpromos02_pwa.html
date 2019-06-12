@@ -29,13 +29,16 @@
         margin-bottom: 40px;
     }
     
-    .o-promoOne {
+    .o-promoOne,.o-promoOneMoviepicture {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-flow: row;
         margin-bottom: 40px;
     }
+	.o-promoOneMoviepicture{
+		display:none;
+	}
     
     .a-promoOne__image {
         margin-top: .5rem;
@@ -93,6 +96,9 @@
         .a-promoVideo__link:last-child {
             padding-left: 0px;
         }
+		.o-promoOneMoviepicture{
+			display:block;
+		}
 
        
     }
@@ -107,7 +113,7 @@
     <div class="m-promoVideo__content">
         <div class="container-fluid m-promoVideo__container">
             <a href="/tienda/él/cat5020003" class="a-promoVideo__link">
-                <video class="a-promoVideo__video" src="https://assetspwaqa.liverpool.com.mx/assets/digital/home/vid/brpomos02b_el.mp4" autoplay="autoplay" loop="" muted="" preload="auto" id="videoBanner" height="400" poster="https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/bpromo02b_260519ella.jpg"
+                <video class="a-promoVideo__video" src="https://assetspwaqa.liverpool.com.mx/assets/digital/home/vid/brpomos02b_el.mp4" autoplay="autoplay" loop="" muted="" preload="auto" id="videoBanner" height="400" poster="https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/bpromo02b_110519el.jpg"
                     alt="Ella, Zapatos, Bolsas, Vestidos, Accesorios, Tacones, Curvy, Petite, Ropa de Mujer | Liverpool" title="Ella - HOT SALE | Liverpool"></video></a>
             <a href="/tienda/blusas/cat4310018" class="a-promoVideo__link">
                 <video class="a-promoVideo__video" src="https://assetspwaqa.liverpool.com.mx/assets/digital/home/vid/brpomos02b_ella.mp4" autoplay="autoplay" loop="" muted="" preload="auto" id="videoBanner" height="400" poster="https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/bpromo02b_260519ella.jpg"
@@ -115,6 +121,48 @@
         </div>
     </div>
 </section>
+<section class="o-promoOneMoviepicture container">
+		  <a class="m-promoOne__link" href="#" onclick="dataLayer.push({
+				   'event':'promotionClick',
+				   'ecommerce':{
+				   'promoClick':{
+				   'promotions': [
+				   {
+				   'id':'pb_dispensadores_110619',
+				   'name':'Dispensadores hasta 20% de desc',
+				   'creative':'h_banner_central',
+				   'position':'7'
+				   }]
+				   }
+				   }
+				   });">
+				  <picture class="m-promoOne__picture">
+					  	
+					  <img class="a-promoOne__image lazyload" src="https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/bpromo02c_260519el_m.jpg" alt="Dispensadores | Pottery Barn" title="Dispensadores | Pottery Barn">
+				  </picture>
+		  </a>
+				  
+				  
+		<a class="m-promoOne__link" href="#" onclick="dataLayer.push({
+			   'event':'promotionClick',
+			   'ecommerce':{
+			   'promoClick':{
+			   'promotions': [
+			   {
+			   'id':'pb_duvets_colchas_110619',
+			   'name':'Duvets y Colchas hasta 20% de desc',
+			   'creative':'h_banner_central',
+			   'position':'8'
+			   }]
+			   }
+			   }
+			   });">			  
+				  <picture class="m-promoOne__picture">
+					 
+					  <img class="a-promoOne__image lazy" src="https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/bpromo02b_260519ella_m.jpg" alt="Duvets y Colchas | Pottery Barn" title="Duvets y Colchas | Pottery Barn"></picture>
+				  </a>
+
+		</section>
 
 <!--fin promos 02
 -->
