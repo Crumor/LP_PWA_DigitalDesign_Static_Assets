@@ -1,16 +1,16 @@
 {
 	"bannerType": "stack",
 	"bannerContent": [{
-			"redirectsTo": "catst10267862",
+			"redirectsTo": "cat480332",
 			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo01a_200519apa_app.jpg",
-			"type": "plp",
+			"type": "clp",
 			"title": "aparatos_de_ejercicio_200519",
 			"campaign": "Aparatos de ejercicio hasta 20% de desc",
 			"view": "h_banner_m_central",
 			"position": "0"
 		},
 		{
-			"redirectsTo": "catst13716528",
+			"redirectsTo": "cat490423",
 			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo01b_200519ten_m.jpg",
 			"type": "plp",
 			"title": "tenis_200519",
