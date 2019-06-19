@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,700');
+
+
+/*REGALO CON COMPRA */
+
+.container-regalo{
+    position:relative;
+    opacity:1;
+    transition:1s all;
+
+}
+
+.container-regalo:hover{
+    opacity:0.6;
+    transition:1s all;
+}
+
+.texto-regalo{
+    position:absolute;
+    left:3%;
+    width:40% !important;
+}
+
+.texto-regalo h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:700;
+    text-align:center;
+    font-size:30px;
+    color:black;
+    padding:0;
+    padding-top: 13%;
+    margin:0;
+}
+
+.texto-regalo p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:400;
+    text-align:center;
+    font-size:15px;
+    color:black;
+    padding-top:0;
+    padding-top:10px;
+
+}
+
+
+/* INTERMEDIOS SPA Y SUEROS*/
+
+.container-inter{
+    position:relative;
+    transition:1s all;
+}
+
+
+.container-inter:hover{
+    opacity:0.6;
+    transition:1s all;
+}
+
+
+.texto-inter{
+    position:absolute;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    
+}
+
+
+.texto-inter p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:700;
+    text-align:center;
+    font-size:28px;
+    color:white;
+    padding-top:0;
+
+}
+
+/*CATEGORIAS BELLEZA*/
+
+.container-catego{
+    position:relative;
+    width:100% !important;
+}
+
+.elemento-catego{
+    width:20% !important;
+    position:relative;
+    float:left;
+    opacity:1;
+    transition:1s all;
+}
+
+
+.elemento-catego:hover{
+    opacity:0.6;
+    transition:1s all; 
+}
+
+.elemento-catego img{
+    max-width:95% !important;
+    display:block;
+    margin:0 auto;
+}
+
+.elemento-catego p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:300;
+    text-align:center;
+    font-size:20px;
+    color:black;
+    padding:10px;
+    margin:0;  
+}
+
+
+
+
+/*PIEL Y VIDEO*/
+
+
+.texto-piel h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:700;
+    text-align:center;
+    font-size:30px;
+    color:black;
+    padding:0;
+    padding-top:25px;
+    margin:0;
+}
+
+.lista-piel{
+    width:100% !important;
+    
+}
+
+.lista-piel ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.lista-piel ul li{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:17px;
+    font-weight:300;
+    display:inline;
+    list-style:none;
+    text-align:center;
+    padding:8px;
+}
+
+.lista-piel ul li{
+    opacity:1;
+    transition:0.5s all;
+    border-bottom:1px solid white;
+}
+
+.lista-piel ul li:hover{
+    border-bottom:1px solid black;
+    transition:0.5s all;
+}
+
+.lista-texto {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:15px;
+    font-weight:300;
+    display:inline;
+    list-style:none;
+    text-align:center;
+    padding:8px;
+}
+
+/*LISTA MARCAS*/
+
+
+.container-marcas{
+    background-color:#f5f5f5;
+}
+
+.container-marcas h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:700;
+    text-align:center;
+    font-size:30px;
+    color:black;
+    padding:0;
+    margin:0;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.lista-marcas{
+    width:100% !important;
+}
+
+.lista-marcas ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.lista-marcas ul li{
+    width:13.2587% !important;
+    display:inline-block;
+    list-style:none;
+    text-align:center;
+    vertical-align:top;
+    opacity:1;
+    transition:1s all;
+}
+
+.lista-marcas ul li:hover{
+    opacity:0.4;
+    transition:1s all;
+}
+
