@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'SignPainter HouseScript';
+    src: url('https://assets.liverpool.com.mx/landings/vinos/fonts/SignPainterHouseScript.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/vinos/fonts/SignPainterHouseScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+
+
+
+
+
+/*AGAVE*/
+
+.agave-container{
+    width:100% !important;
+    height:auto;
+    background:url('https://assets.liverpool.com.mx/landings/vinos/img/fondo-agave.jpg');
+    background-position:center;
+    background-size:cover;
+    height:280px;
+}
+
+.agave-logo{
+    width:30% !important;
+    height:auto;
+    position:relative;
+    float:left;
+    display:inline-block;
+}
+
+.agave-logo img{
+    width:80% !important;
+    padding:10px;
+    margin: 0 auto;
+}
+
+.agave-botellas{
+    width:70% !important;
+    height:auto;
+    position:relative;
+    float:left;
+    display:inline-block;
+}
+
+.agave-botellas ul{
+    display:inline-block;
+    width:100% !important;
+    list-style:none;
+    margin:0;
+    padding:0;
+    padding-top:20px;
+}
+
+.agave-botellas ul li{
+    display:inline-block;
+    width:24% !important;
+    color:black;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    margin:0;
+    font-size:18px;
+}
+
+
+
+/*BANNER VIDEO*/
+
+.bvino-container{
+    position:relative;
+    width:100% !important;
+    height:auto;
+}
+
+
+.bvino-video{
+    position:relative;
+    width:100% !important;
+    height:auto;
+    z-index:90;
+    
+}
+
+.bvino-overlay{
+    width:100% !important;
+    display:block;
+    position:absolute;
+    opacity:0;
+    height:100%;
+    z-index:95;
+    background-color:#750c40;
+    transition: 0.4s all;    
+    
+}
+
+.bvino-imagen{
+    position:absolute;
+    width:100% !important;
+    left:0px;
+    z-index:99;
+    top:10%;
+    transition: 0.4s all;    
+}
+
+.bvino-container:hover .bvino-overlay{
+    visibility:visible;
+    width:100% !important;
+    opacity:0.6;
+    transition: 0.4s all;    
+}
+
+
+/*PLECA TEXTO*/
+
+.texto-vinos{
+    width:100% !important;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+
+.texto-vinos h3{
+    font-family: 'Crimson Text', serif;
+    font-size:40px;
+    color:black;
+    font-weight:600;
+    margin:0;
+}
+
+
+.texto-vinos p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size:15px;
+    color:black;
+    margin:0;
+    
+}
+
+
+
+/* BANNER TERCIOS*/
+
+.vino1-contenedor{
+    position:relative;  
+    text-align:center;
+}
+
+.vino1-texto{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+}
+
+.vino1-texto p{
+    font-family: 'SignPainter HouseScript';  
+    color:white;
+    font-size:50px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.27);
+}
+
+
+
+
+
+
+/*VIDEO BANNER*/
+
+.video-contenedor{
+    position:relative;
+    width:100% !important;
+    height: 508px !important;
+    background:url('https://assets.liverpool.com.mx/landings/vinos/img/fondo-bebida.jpg');
+    background-position:center;
+    background-size:cover;
+}
+
+.video-texto{
+    position:relative;
+    width:40% !important;
+    float:left;
+    text-align:center;
+}
+
+.video-texto h3{
+    font-family: 'SignPainter HouseScript';   
+    margin:0;
+    font-size:65px;
+    vertical-align:center;
+    padding-top:70px;
+    color:white;
+    text-shadow: 3px 3px 7px rgba(150, 150, 150, 1);
+}
+
+.video-texto p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    margin:0;
+    font-size:20px;
+    vertical-align:center;   
+    color:white;
+    text-shadow: 3px 3px 7px rgba(150, 150, 150, 1);
+}
+
+
+.video-video{
+    position:relative;
+    width:60% !important;
+    float:left;
+}
+
+
+.video-frame{
+    padding: 15px;
+    margin-top:30px;
+    max-width: 80% !important;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+/*TE*/
+
+.contenedor-te{
+    position:relative;
+    width:100% !important;
+    height:350px;
+    background:url('https://assets.liverpool.com.mx/landings/vinos/img/fondo-te.png');
+    background-position:center;
+    background-size:cover;    
+}
+
+.te-imagen{
+    width: 70% !important;
+    position:relative;
+    float:left;
+    height:auto;
+}
+
+.te-imagen img{
+    display:block;
+    max-width:100%;
+    margin:0 auto;
+}
+
+.te-texto{
+    width: 30% !important;
+    position:relative;
+    float:left;
+    height:auto;
+}
+
+
+
+.te-texto h3{
+    font-family: 'SignPainter HouseScript';   
+    margin:0;
+    font-size:65px;
+    vertical-align:center;
+    padding-top:90px;
+    color:white;
+    text-shadow: 3px 3px 7px rgba(150, 150, 150, 1);
+}
+
+.te-texto p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    margin:0;
+    font-size:20px;
+    vertical-align:center;   
+    color:white;
+    text-shadow: 3px 3px 7px rgba(150, 150, 150, 1);
+}

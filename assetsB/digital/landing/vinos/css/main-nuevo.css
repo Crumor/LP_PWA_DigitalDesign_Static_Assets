@@ -1,0 +1,92 @@
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'Futura';
+    src: url('https://assets.liverpool.com.mx/landings/vinos/fonts/FuturaBT-Book.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/vinos/fonts/FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://assets.liverpool.com.mx/landings/vinos/fonts/Antonio-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/vinos/fonts/Antonio-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.titulo-vinos{
+    font-family: 'Antonio';
+    font-size:40px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    
+}
+
+.contenedor-vinos{
+    background:url('https://assets.liverpool.com.mx/landings/vinos/img/vinos-fondo.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100% !important;
+    position:relative;
+    width:100% !important;
+}
+
+.lista-vinos{
+    display:flex;
+    padding-top:10px;
+}
+
+.objeto-vinos p{
+    font-family: 'Futura';
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+    margin:0;
+    padding-top:10px;
+}
+
+.item-destilados{
+    position:relative;
+    width:100% !important;
+}
+
+.item-destilados:nth-child(2){
+    padding-top:15px;
+}
+
+.texto-destilados p{
+    font-family: 'Futura';
+    font-size:25px;
+    color:white;
+    position:absolute;
+    top:10%;
+    right:10px;
+}
+
+
+/*TEXTO COMPLEMENTOS*/
+
+.item-complementos{
+    position:relative;
+    width:100% !important;
+}
+
+
+.texto-complementos p{
+    font-family: 'Futura';
+    font-size:18px;
+    color:black;
+    text-align:right;
+    position:absolute;
+    top:50%;
+    right:10px;
+}

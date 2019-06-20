@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+
+
+.cocina-main{
+    position:relative;
+    width:100% !important;
+}
+
+.cocina-texto{
+    font-family: 'Open Sans', sans-serif;
+    position:absolute;
+    font-size:22px;
+    color:white;
+    width: 100% !important;
+    text-align:right;
+    z-index:99;
+    bottom:5px;
+    right:15px;
+}
+
+.cocina-texto h4{
+    margin:0;
+    padding:0;
+    font-weight:300;
+    font-size:22px;
+
+}
+
+.cocina-imagen{
+    position:relative;
+    width:100% !important;
+}
+
+
+
+.texto-cocina-banner{
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.texto-cocina-banner a{
+    text-decoration:none !important;
+    color:black !important;
+}
+
+.texto-cocina-banner h3{
+    margin:0;
+    padding:0;
+    font-size:38px;
+}
+
+.texto-cocina-banner p{
+    margin:0;
+    padding:0;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+/*BATERÍAS*/
+
+.bateria-main{
+    position:relative;
+    width:100% !important;
+}
+
+.bateria-texto{
+    position:absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    color:white;
+    width: 40% !important;
+    text-align:center;  
+    height:50px;
+    bottom:0px;
+    right:0;
+}
+
+.bateria-texto h4{
+    font-size:24px;
+    margin:0;
+    padding:0;
+    font-weight:700;
+    color:white;
+    text-shadow: 4px 3px 20px rgba(0,0,0,0.63);
+}
+
+
+/*PRESIÓN*/
+
+.presion-main{
+    position:relative;
+    width:100% !important;
+}
+
+.presion-texto{
+    position:absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    color:white;
+    width: 100% !important;
+    text-align:right;  
+    height:50px;
+    bottom:5px;
+    right:0;
+}
+
+.presion-texto h4{
+    margin:0;
+    padding:0;
+    font-size:24px;
+    font-weight:700;
+    color:white;
+    text-shadow: 4px 3px 20px rgba(0,0,0,0.63);
+    padding-right:5px;
+}
