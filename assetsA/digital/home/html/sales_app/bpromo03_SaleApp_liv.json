@@ -2,10 +2,10 @@
 	"bannerType": "grid-4",
 	"bannerContent": [{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03a_110519ella_sales.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03a_170619mue_sales.jpg",
 			"type": "plp",
-			"title": "ella_110519",
-			"campaign": "Ella hasta 15% de desc",
+			"title": "muebles_170619",
+			"campaign": "Muebles hasta 30% de desc",
 			"view": "h_app_banner_secun",
 			"position": "0"
 		},
@@ -14,10 +14,10 @@
 
 		{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03b_200519set_sales.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03b_170619coc_sales.jpg",
 			"type": "plp",
-			"title": "sets_de_perfumes_200519",
-			"campaign": "Sets de perfumes",
+			"title": "cocina_170619",
+			"campaign": "Cocina hasta 32% de desc",
 			"view": "h_app_banner_secun",
 			"position": "1"
 		},
@@ -25,10 +25,10 @@
 
 		{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03c_200519rel_sales_2.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03c_170619col_sales.jpg",
 			"type": "plp",
-			"title": "relojes_200519",
-			"campaign": "Relojes hasta 20% de desc",
+			"title": "colchones_170619",
+			"campaign": "Colchones hasta 36% de desc",
 			"view": "h_app_banner_secun",
 			"position": "2"
 		},
@@ -37,10 +37,10 @@
 
 		{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03d_110519el_sales.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03d_170619cam_sales.jpg",
 			"type": "plp",
-			"title": "el_110519",
-			"campaign": "Él hasta 15% de desc",
+			"title": "camaras_170619",
+			"campaign": "Cámaras hasta 36% de desc",
 			"view": "h_app_banner_secun",
 			"position": "3"
 		}

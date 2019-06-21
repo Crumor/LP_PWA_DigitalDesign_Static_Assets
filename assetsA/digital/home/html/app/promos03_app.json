@@ -1,40 +1,49 @@
 {
 	"bannerType": "stack",
 	"bannerContent": [{
-			"redirectsTo": "cat480023",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo03a_060519pan_app.jpg",
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03a_170619mue_app.jpg",
 			"type": "plp",
-			"title": "pantallas_050619",
-			"campaign": "Pantallas hasta 50% de desc",
+			"title": "muebles_170619",
+			"campaign": "Muebles hasta 30% de desc",
 			"view": "h_banner_m_central",
-			"position": "0"
+			"position": "9"
 		},
 		{
-			"redirectsTo": "cat4450194",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo03b_240519son_m.jpg",
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03b_170619coc_m.jpg",
 			"type": "plp",
-			"title": "sonido_240519",
-			"campaign": "Sonido hasta 30% de desc",
+			"title": "cocina_170619",
+			"campaign": "Cocina hasta 32% de desc",
 			"view": "h_app_banner_secun",
-			"position": "1"
+			"position": "10"
+		},
+        {
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03c_170619col_m.jpg",
+			"type": "plp",
+			"title": "colchones_170619",
+			"campaign": "Colchones hasta 36% de desc",
+			"view": "h_app_banner_secun",
+			"position": "11"
 		},
 		{
-			"redirectsTo": "catst11558560",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo03c_200519fer_m.jpg",
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03d_170619wes_m.jpg",
 			"type": "plp",
-			"title": "ferreteria_200519",
-			"campaign": "Ferretería hasta 15% de desc",
+			"title": "west_elm_170619",
+			"campaign": "West Elm hasta 20% de desc",
 			"view": "h_app_banner_secun",
-			"position": "2"
+			"position": "12"
 		},
 		{
-			"redirectsTo": "catst11986550",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bpromo04c_110519inmu_m_2.jpg",
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03e_170619cam_m.jpg",
 			"type": "plp",
-			"title": "instrumentos_musicales_110519",
-			"campaign": "Instrumentos Musicales hasta 25% de desc",
+			"title": "camaras_170619",
+			"campaign": "Cámaras hasta 36% de desc",
 			"view": "h_app_banner_secun",
-			"position": "3"
+			"position": "13"
 		}
 
 	]

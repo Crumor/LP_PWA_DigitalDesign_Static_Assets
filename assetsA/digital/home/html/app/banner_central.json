@@ -1,11 +1,11 @@
 {
 	"bannerType": "stack",
 	"bannerContent": [{
-			"redirectsTo": "cat5020003",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/app/bc_030619el_m.jpg",
-			"type": "blp",
-			"title": "el_030619",
-			"campaign": "ÉL mes del papá",
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bc_170619ella_m.jpg",
+			"type": "plp",
+			"title": "ella_170619",
+			"campaign": "Ella hasta 40% de desc",
 			"view": "h_banner_m_central",
 			"position": "1"
 		}

@@ -2,10 +2,10 @@
 	"bannerType": "grid-4",
 	"bannerContent": [{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01a_200519apa_sales.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01a_170619bol_sales.jpg",
 			"type": "plp",
-			"title": "aparatos_de_ejercicio_200519",
-			"campaign": "Aparatos de ejercicio hasta 20% de desc",
+			"title": "bolsas_170619",
+			"campaign": "Bolsas hasta 40% de desc",
 			"view": "h_app_banner_secun",
 			"position": "0"
 		},
@@ -14,10 +14,10 @@
 
 		{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01b_200519ten_sales.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01b_170619rel_sales.jpg",
 			"type": "plp",
-			"title": "tenis_200519",
-			"campaign": "Tenis hasta 20% de desc",
+			"title": "relojes_170619",
+			"campaign": "Relojes hasta 50% de desc",
 			"view": "h_app_banner_secun",
 			"position": "1"
 		},
@@ -26,10 +26,10 @@
 
 		{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01c_200519bic_sales.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01c_170619zap_sales.jpg",
 			"type": "plp",
-			"title": "bicicletas_200519",
-			"campaign": "Bicicletas hasta 15% de desc",
+			"title": "zapatos_170619",
+			"campaign": "Zapatos hasta 40% de desc",
 			"view": "h_app_banner_secun",
 			"position": "2"
 		},
@@ -38,10 +38,10 @@
 
 		{
 			"redirectsTo": "cat480332",
-			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo01d_200519pan_sales.jpg",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01d_170619beb_sales.jpg",
 			"type": "plp",
-			"title": "pantallas_200519",
-			"campaign": "Pantallas hasta 47% de desc",
+			"title": "bebes_170619",
+			"campaign": "Bebés hasta 40% de desc",
 			"view": "h_app_banner_secun",
 			"position": "3"
 		}
