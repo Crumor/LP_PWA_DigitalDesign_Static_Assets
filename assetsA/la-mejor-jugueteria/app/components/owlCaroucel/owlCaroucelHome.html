@@ -1,0 +1,15 @@
+<div>
+     <div class="navigationCustom1 {{classControls}} hidden-xs hidden-sm" >
+            <div class="back hidden-xs" style="width: 55px;height: 55px;">
+                <img src="assets/images/caroucel/flechaBlanca.svg">
+            </div>
+            <div class="next hidden-xs" style="width: 55px;height: 55px;">
+                <img src="assets/images/caroucel/flechaBlanca.svg">
+            </div>
+            <div class="line-border-carousel hidden-xs">&nbsp;</div>
+        </div>
+        <div class="owl-carousel" id="{{idElement}}" >
+            <div  class="item slidermainhome-background mf-listen" ng-repeat="dd in itemsD" ng-style="{'background-color':dd.info.fondoColor,'background-image':'url('+dd.info.picture+')','cursor':'pointer'}" ng-click="irHome(dd.info.link)">
+            </div>
+        </div>
+</div>

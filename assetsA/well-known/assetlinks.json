@@ -1,0 +1,26 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "mx.com.liverpool.shoppingapp.dev",
+      "sha256_cert_fingerprints": ["FA:3C:44:44:F8:F2:75:9F:76:1B:A1:FF:77:9D:66:31:FD:39:CD:76:CF:5E:C7:85:82:C9:30:45:2B:31:56:6E"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "mx.com.liverpool.shoppingapp.qa",
+      "sha256_cert_fingerprints": ["FA:3C:44:44:F8:F2:75:9F:76:1B:A1:FF:77:9D:66:31:FD:39:CD:76:CF:5E:C7:85:82:C9:30:45:2B:31:56:6E"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "mx.com.liverpool.shoppingapp",
+      "sha256_cert_fingerprints": ["07:13:0C:AF:7E:E7:4C:91:E1:E6:AE:35:E6:F9:9E:84:03:06:BE:73:23:C7:13:C1:E2:CB:DA:7A:26:18:03:35"]
+    }
+  }
+]

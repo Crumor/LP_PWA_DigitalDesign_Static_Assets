@@ -1,0 +1,44 @@
+{
+  "applinks": {
+    "apps": [
+      
+    ],
+    "details": {
+      "95GB72XJX7.mx.com.liverpool.appcliente": {
+        "paths": [
+          "/tienda/home.jsp",
+          "/tienda/m/home.jsp",
+          "/tienda/",
+          "/tienda/m/",
+          "/tienda/group/*",
+          "/tienda/m/group/*",
+          "/tienda/pdp/*/*",
+          "/tienda/m/pdp/*/*",
+          "/tienda/pdp/hp/*/*",
+          "/tienda/m/pdp/hp/s*/*",
+          "/tienda/*/cat*",
+          "/tienda/m/*/cat*",
+          "/tienda/*/catst*",
+          "/tienda/m/*/catst*",
+          "/tienda/common/trackOrderDetails/trackingNo*",
+          "/tienda/m/common/trackOrderDetails/trackingNo*",
+          "/tienda/common/trackOrderDetail/trackingNo*",
+          "/tienda/m/common/trackOrderDetail/trackingNo*",
+          "/tienda/common/trackOrderDetails.jsp*",
+          "/tienda/m/common/trackOrderDetails.jsp*",
+          "/tienda/users/credit/requestCard.jsp",
+          "/tienda/m/users/credit/requestCard.jsp",
+          "/tienda/users/credit/myCards.jsp",
+          "/tienda/m/users/credit/myCards.jsp",
+          "/tienda/cart/cart*",
+          "/tienda/m/cart/cart*"
+        ]
+      }
+    }
+  },
+  "webcredentials": {
+    "apps": [
+      "95GB72XJX7.mx.com.liverpool.appcliente"
+    ]
+  }
+}

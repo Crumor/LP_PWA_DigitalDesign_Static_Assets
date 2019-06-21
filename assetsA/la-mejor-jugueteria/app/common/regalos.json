@@ -1,0 +1,1785 @@
+{
+  "contents": [
+    {
+      "title": "Discover Electronics",
+      "headerContent": [
+        
+      ],
+      "@type": "TwoColumnPage",
+      "name": "Two-Column Page",
+      "metaKeywords": "camera cameras electronics",
+      "metaDescription": "Endeca eBusiness reference application.",
+      "mainContent": [
+        {
+          "contents": [
+            
+          ],
+          "@type": "ContentSlotMain",
+          "name": "Banners PLP Collection",
+          "ruleLimit": "1",
+          "contentCollection": "/content/Liverpool/Banners/ProductLisitngPage"
+        },
+        {
+          "contents": [
+            
+          ],
+          "@type": "ContentSlotMain",
+          "name": "HTML Collection",
+          "ruleLimit": "1",
+          "contentCollection": "/content/Liverpool/ProductListingPage/HTMLCollection"
+        },
+        {
+          "contents": [
+            {
+              "totalNumRecs": 7,
+              "sortOptions": [
+                {
+                  "selected": false,
+                  "navigationState": "/hot-wheels/N-35vs?Ns=product.repositoryId&d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+                  "siteRootPath": "/pages",
+                  "label": "Relevancia"
+                },
+                {
+                  "selected": false,
+                  "navigationState": "/hot-wheels/N-35vs?Ns=sortPrice|0&d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+                  "siteRootPath": "/pages",
+                  "label": "Menor precio"
+                },
+                {
+                  "selected": false,
+                  "navigationState": "/hot-wheels/N-35vs?Ns=sortPrice|1&d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+                  "siteRootPath": "/pages",
+                  "label": "Mayor Precio"
+                },
+                {
+                  "selected": false,
+                  "navigationState": "/hot-wheels/N-35vs?Ns=product.displayName|0&d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+                  "siteRootPath": "/pages",
+                  "label": "Alfabéticamente (A a Z)"
+                },
+                {
+                  "selected": false,
+                  "navigationState": "/hot-wheels/N-35vs?Ns=product.displayName|1&d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "@class": "com.endeca.infront.cartridge.model.SortOptionLabel",
+                  "siteRootPath": "/pages",
+                  "label": "Alfabéticamente (Z a A)"
+                }
+              ],
+              "@type": "ResultsList",
+              "firstRecNum": 1,
+              "name": "Results List",
+              "lastRecNum": 7,
+              "pagingActionTemplate": {
+                "navigationState": "/hot-wheels/N-35vs?No=%7Boffset%7D&Nrpp=%7BrecordsPerPage%7D&d3106047a194921c01969dfdec083925=json",
+                "contentPath": "/listing",
+                "@class": "com.endeca.infront.cartridge.model.NavigationAction",
+                "siteRootPath": "/pages",
+                "label": null
+              },
+              "recsPerPage": 60,
+              "records": [
+                {
+                  "@class": "com.endeca.infront.cartridge.model.Record",
+                  "detailsAction": {
+                    "recordState": "/step-2-recreativo-hot-wheels-coaster-/1047573676?d3106047a194921c01969dfdec083925=json",
+                    "contentPath": "/listing",
+                    "@class": "com.endeca.infront.cartridge.model.RecordAction",
+                    "siteRootPath": "/pages",
+                    "label": null
+                  },
+                  "numRecords": 1,
+                  "attributes": {
+                    "isShipPleasant": [
+                      "false"
+                    ],
+                    "product.description": [
+                      "Step 2  Hot Wheels Coaster"
+                    ],
+                    "product.brand": [
+                      "HOT WHEELS"
+                    ],
+                    "product.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1047573676.jpg"
+                    ],
+                    "limitedPiecesEndDate": [
+                      "1461724570"
+                    ],
+                    "materialGroup": [
+                      "42403"
+                    ],
+                    "isExclusiveProduct": [
+                      "false"
+                    ],
+                    "product.displayName": [
+                      "Step 2 Recreativo Hot Wheels Coaster\n"
+                    ],
+                    "presaleEndDate": [
+                      "1461724570"
+                    ],
+                    "isGiftWithPurchase": [
+                      "false"
+                    ],
+                    "productType": [
+                      "Big Ticket"
+                    ],
+                    "availabilityShopStartDate": [
+                      "1461724570"
+                    ],
+                    "sku.galleriaImage": [
+                      "http://ss424.liverpool.com.mx/xl/1047573676_1p.jpg",
+                      "http://ss424.liverpool.com.mx/xl/1047573676_2p.jpg",
+                      "http://ss424.liverpool.com.mx/xl/1047573676_3p.jpg",
+                      "http://ss424.liverpool.com.mx/xl/1047573676_4p.jpg",
+                      "http://ss424.liverpool.com.mx/xl/1047573676_5p.jpg"
+                    ],
+                    "sku.list_Price": [
+                      "9299.0"
+                    ],
+                    "expressDeliveryStartDate": [
+                      "1461724570"
+                    ],
+                    "importBook": [
+                      "true"
+                    ],
+                    "exclusivePromotionStartDate": [
+                      "1461724570"
+                    ],
+                    "isExclusivePrice": [
+                      "false"
+                    ],
+                    "isAvailabilityShop": [
+                      "false"
+                    ],
+                    "expressDeliveryEndDate": [
+                      "1461724570"
+                    ],
+                    "exclusiveProductStartDate": [
+                      "1461724570"
+                    ],
+                    "limitedPiecesStartDate": [
+                      "1461724570"
+                    ],
+                    "productAvgRating": [
+                      "0.0"
+                    ],
+                    "exclusivePriceEndDate": [
+                      "1461724570"
+                    ],
+                    "isExpressDelivery": [
+                      "false"
+                    ],
+                    "sku.repositoryId": [
+                      "1047573676"
+                    ],
+                    "sku.thumbnailImage": [
+                      "http://ss424.liverpool.com.mx/xl/1047573676.jpg"
+                    ],
+                    "giftWithPurchaseStartDate": [
+                      "1461724570"
+                    ],
+                    "minimumPromoPrice": [
+                      "7904.15"
+                    ],
+                    "sku.promoPrice": [
+                      "7904.15"
+                    ],
+                    "exclusivePriceStartDate": [
+                      "1461724570"
+                    ],
+                    "product.repositoryId": [
+                      "1047573676"
+                    ],
+                    "product.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1047573676.jpg"
+                    ],
+                    "isNewProduct": [
+                      "false"
+                    ],
+                    "product.productRatingCount": [
+                      "0"
+                    ],
+                    "isLimitedPieces": [
+                      "false"
+                    ],
+                    "isExclusivDiscount": [
+                      "false"
+                    ],
+                    "ancestorCategories.displayName": [
+                      "juguetes>al-aire-libre>exteriores>m-s>por-categoria>por-marca>ni-o>auto-escala>disney>por-edad>juegos-de-jard-n>5-a-7-a-os>exteriores>hot-wheels>"
+                    ],
+                    "isExclusivePackage": [
+                      "false"
+                    ],
+                    "maximumPromoPrice": [
+                      "7904.15"
+                    ],
+                    "newProductStartDate": [
+                      "1461724570"
+                    ],
+                    "latestPartsStartDate": [
+                      "1461724570"
+                    ],
+                    "isPresale": [
+                      "false"
+                    ],
+                    "exclusivDiscountEndDate": [
+                      "1461724570"
+                    ],
+                    "shipPleasantEndDate": [
+                      "1461724570"
+                    ],
+                    "sku.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1047573676.jpg"
+                    ],
+                    "exclusivePackageEndDate": [
+                      "1461724570"
+                    ],
+                    "exclusivePackageStartDate": [
+                      "1461724570"
+                    ],
+                    "isLatestParts": [
+                      "false"
+                    ],
+                    "deliveryOnlyStoreStartDate": [
+                      "1461724570"
+                    ],
+                    "availabilityShopEndDate": [
+                      "1461724570"
+                    ],
+                    "exclusivDiscountStartDate": [
+                      "1461724570"
+                    ],
+                    "sku.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1047573676.jpg"
+                    ],
+                    "deliveryOnlyStoreEndDate": [
+                      "1461724570"
+                    ],
+                    "giftWithPurchaseEndDate": [
+                      "1461724570"
+                    ],
+                    "presaleStartDate": [
+                      "1461724570"
+                    ],
+                    "exclusivePromotionEndDate": [
+                      "1461724570"
+                    ],
+                    "newProductEndDate": [
+                      "1461724570"
+                    ],
+                    "noRefund": [
+                      "true"
+                    ],
+                    "InventoryStatus": [
+                      "1000"
+                    ],
+                    "latestPartsEndDate": [
+                      "1461724570"
+                    ],
+                    "minimumListPrice": [
+                      "9299.0"
+                    ],
+                    "shipPleasantStartDate": [
+                      "1461724570"
+                    ],
+                    "maximumListPrice": [
+                      "9299.0"
+                    ],
+                    "sortPrice": [
+                      "7904.150000"
+                    ],
+                    "allAncestors.repositoryId": [
+                      "cat1080656",
+                      "cat170620",
+                      "cat170669",
+                      "cat5020029",
+                      "catst1833786",
+                      "catst1833787",
+                      "catst1833788",
+                      "catst1833791",
+                      "catst1857468",
+                      "catst1857507",
+                      "catst1858334",
+                      "catst1858342",
+                      "catst1858346",
+                      "catst1896485"
+                    ],
+                    "skipInventory": [
+                      "dontSkip"
+                    ],
+                    "isExclusivePromotion": [
+                      "false"
+                    ],
+                    "isDeliveryOnlyStore": [
+                      "false"
+                    ],
+                    "exclusiveProductEndDate": [
+                      "1461724570"
+                    ],
+                    "Language": [
+                      "español"
+                    ],
+                    "sku.sale_Price": [
+                      "9299.0"
+                    ],
+                    "common.id": [
+                      "sku-1047573676..1047573676.es__MX"
+                    ]
+                  }
+                },
+                {
+                  "@class": "com.endeca.infront.cartridge.model.Record",
+                  "detailsAction": {
+                    "recordState": "/mattel-hot-wheels-coche-blindado-de-batman/1046140571?d3106047a194921c01969dfdec083925=json",
+                    "contentPath": "/listing",
+                    "@class": "com.endeca.infront.cartridge.model.RecordAction",
+                    "siteRootPath": "/pages",
+                    "label": null
+                  },
+                  "numRecords": 1,
+                  "attributes": {
+                    "isShipPleasant": [
+                      "false"
+                    ],
+                    "product.description": [
+                      "Mattel Lat Dc Large Scale Feature Car"
+                    ],
+                    "product.brand": [
+                      "HOT WHEELS"
+                    ],
+                    "product.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1046140571.jpg"
+                    ],
+                    "limitedPiecesEndDate": [
+                      "1455594529"
+                    ],
+                    "materialGroup": [
+                      "42403"
+                    ],
+                    "isExclusiveProduct": [
+                      "false"
+                    ],
+                    "product.displayName": [
+                      "Mattel Hot Wheels Coche Blindado de Batman"
+                    ],
+                    "presaleEndDate": [
+                      "1455594529"
+                    ],
+                    "isGiftWithPurchase": [
+                      "false"
+                    ],
+                    "productType": [
+                      "Soft Line"
+                    ],
+                    "availabilityShopStartDate": [
+                      "1455594529"
+                    ],
+                    "sku.list_Price": [
+                      "339.0"
+                    ],
+                    "expressDeliveryStartDate": [
+                      "1455594529"
+                    ],
+                    "importBook": [
+                      "true"
+                    ],
+                    "exclusivePromotionStartDate": [
+                      "1455594529"
+                    ],
+                    "isExclusivePrice": [
+                      "false"
+                    ],
+                    "isAvailabilityShop": [
+                      "false"
+                    ],
+                    "product.swatchColors": [
+                      "MULTICOLOR|http://ss424.liverpool.com.mx/lg/1046140571.jpg|1046140571"
+                    ],
+                    "expressDeliveryEndDate": [
+                      "1455594529"
+                    ],
+                    "exclusiveProductStartDate": [
+                      "1455594529"
+                    ],
+                    "limitedPiecesStartDate": [
+                      "1455594529"
+                    ],
+                    "productAvgRating": [
+                      "0.0"
+                    ],
+                    "exclusivePriceEndDate": [
+                      "1455594529"
+                    ],
+                    "isExpressDelivery": [
+                      "false"
+                    ],
+                    "sku.repositoryId": [
+                      "1046140571"
+                    ],
+                    "sku.thumbnailImage": [
+                      "http://ss424.liverpool.com.mx/xl/1046140571.jpg"
+                    ],
+                    "giftWithPurchaseStartDate": [
+                      "1455594529"
+                    ],
+                    "minimumPromoPrice": [
+                      "254.25"
+                    ],
+                    "sku.promoPrice": [
+                      "254.25"
+                    ],
+                    "exclusivePriceStartDate": [
+                      "1455594529"
+                    ],
+                    "product.repositoryId": [
+                      "1046140571"
+                    ],
+                    "product.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1046140571.jpg"
+                    ],
+                    "isNewProduct": [
+                      "false"
+                    ],
+                    "product.productRatingCount": [
+                      "0"
+                    ],
+                    "isLimitedPieces": [
+                      "false"
+                    ],
+                    "isExclusivDiscount": [
+                      "false"
+                    ],
+                    "ancestorCategories.displayName": [
+                      "juguetes>de-ni-o>veh-culos-autopistas>superh-roes>personajes-y-figuras-de-acci-n>m-s>juguetes-exclusivos>ni-os>batman-vs-superman>por-categoria>ni-o>auto-escala>por-marca>por-edad>5-a-7-a-os>hot-wheels>"
+                    ],
+                    "isExclusivePackage": [
+                      "false"
+                    ],
+                    "maximumPromoPrice": [
+                      "254.25"
+                    ],
+                    "newProductStartDate": [
+                      "1455594529"
+                    ],
+                    "latestPartsStartDate": [
+                      "1455594529"
+                    ],
+                    "isPresale": [
+                      "false"
+                    ],
+                    "exclusivDiscountEndDate": [
+                      "1455594529"
+                    ],
+                    "shipPleasantEndDate": [
+                      "1455594529"
+                    ],
+                    "sku.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1046140571.jpg"
+                    ],
+                    "exclusivePackageEndDate": [
+                      "1455594529"
+                    ],
+                    "exclusivePackageStartDate": [
+                      "1455594529"
+                    ],
+                    "isLatestParts": [
+                      "false"
+                    ],
+                    "deliveryOnlyStoreStartDate": [
+                      "1455594529"
+                    ],
+                    "availabilityShopEndDate": [
+                      "1455594529"
+                    ],
+                    "exclusivDiscountStartDate": [
+                      "1455594529"
+                    ],
+                    "sku.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1046140571.jpg"
+                    ],
+                    "deliveryOnlyStoreEndDate": [
+                      "1455594529"
+                    ],
+                    "giftWithPurchaseEndDate": [
+                      "1455594529"
+                    ],
+                    "presaleStartDate": [
+                      "1455594529"
+                    ],
+                    "exclusivePromotionEndDate": [
+                      "1455594529"
+                    ],
+                    "newProductEndDate": [
+                      "1455594529"
+                    ],
+                    "noRefund": [
+                      "true"
+                    ],
+                    "InventoryStatus": [
+                      "1000"
+                    ],
+                    "latestPartsEndDate": [
+                      "1455594529"
+                    ],
+                    "minimumListPrice": [
+                      "339.0"
+                    ],
+                    "shipPleasantStartDate": [
+                      "1455594529"
+                    ],
+                    "maximumListPrice": [
+                      "339.0"
+                    ],
+                    "sortPrice": [
+                      "254.250000"
+                    ],
+                    "allAncestors.repositoryId": [
+                      "cat1080656",
+                      "cat170634",
+                      "cat170711",
+                      "cat170724",
+                      "cat4170091",
+                      "cat5020029",
+                      "cat5510142",
+                      "cat5510143",
+                      "cat5510144",
+                      "catst1833786",
+                      "catst1833787",
+                      "catst1833788",
+                      "catst1833791",
+                      "catst1857507",
+                      "catst1858334",
+                      "catst1858346"
+                    ],
+                    "skipInventory": [
+                      "dontSkip"
+                    ],
+                    "isExclusivePromotion": [
+                      "false"
+                    ],
+                    "isDeliveryOnlyStore": [
+                      "false"
+                    ],
+                    "exclusiveProductEndDate": [
+                      "1455594529"
+                    ],
+                    "Language": [
+                      "español"
+                    ],
+                    "sku.sale_Price": [
+                      "339.0"
+                    ],
+                    "common.id": [
+                      "sku-1046140571..1046140571.es__MX"
+                    ]
+                  }
+                },
+                {
+                  "@class": "com.endeca.infront.cartridge.model.Record",
+                  "detailsAction": {
+                    "recordState": "/hot-wheels-star-wars-droi-troo-/1043535575?d3106047a194921c01969dfdec083925=json",
+                    "contentPath": "/listing",
+                    "@class": "com.endeca.infront.cartridge.model.RecordAction",
+                    "siteRootPath": "/pages",
+                    "label": null
+                  },
+                  "numRecords": 1,
+                  "attributes": {
+                    "isShipPleasant": [
+                      "false"
+                    ],
+                    "product.description": [
+                      "Hot Wheels Star Wars DROI TROO"
+                    ],
+                    "product.brand": [
+                      "HOT WHEELS"
+                    ],
+                    "product.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1043535575.jpg"
+                    ],
+                    "limitedPiecesEndDate": [
+                      "1447897017"
+                    ],
+                    "materialGroup": [
+                      "42403"
+                    ],
+                    "isExclusiveProduct": [
+                      "false"
+                    ],
+                    "product.displayName": [
+                      "Hot Wheels Star Wars Droi Troo\n"
+                    ],
+                    "presaleEndDate": [
+                      "1447897017"
+                    ],
+                    "isGiftWithPurchase": [
+                      "false"
+                    ],
+                    "productType": [
+                      "Soft Line"
+                    ],
+                    "availabilityShopStartDate": [
+                      "1447897017"
+                    ],
+                    "sku.list_Price": [
+                      "245.0"
+                    ],
+                    "expressDeliveryStartDate": [
+                      "1447897017"
+                    ],
+                    "importBook": [
+                      "true"
+                    ],
+                    "exclusivePromotionStartDate": [
+                      "1447897017"
+                    ],
+                    "isExclusivePrice": [
+                      "false"
+                    ],
+                    "isAvailabilityShop": [
+                      "false"
+                    ],
+                    "expressDeliveryEndDate": [
+                      "1447897017"
+                    ],
+                    "exclusiveProductStartDate": [
+                      "1447897017"
+                    ],
+                    "limitedPiecesStartDate": [
+                      "1447897017"
+                    ],
+                    "productAvgRating": [
+                      "0.0"
+                    ],
+                    "exclusivePriceEndDate": [
+                      "1447897017"
+                    ],
+                    "isExpressDelivery": [
+                      "false"
+                    ],
+                    "sku.repositoryId": [
+                      "1043535575"
+                    ],
+                    "sku.thumbnailImage": [
+                      "http://ss424.liverpool.com.mx/xl/1043535575.jpg"
+                    ],
+                    "giftWithPurchaseStartDate": [
+                      "1447897017"
+                    ],
+                    "minimumPromoPrice": [
+                      "183.75"
+                    ],
+                    "sku.promoPrice": [
+                      "183.75"
+                    ],
+                    "exclusivePriceStartDate": [
+                      "1447897017"
+                    ],
+                    "product.repositoryId": [
+                      "1043535575"
+                    ],
+                    "product.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1043535575.jpg"
+                    ],
+                    "isNewProduct": [
+                      "false"
+                    ],
+                    "product.productRatingCount": [
+                      "0"
+                    ],
+                    "isLimitedPieces": [
+                      "false"
+                    ],
+                    "isExclusivDiscount": [
+                      "false"
+                    ],
+                    "ancestorCategories.displayName": [
+                      "juguetes>de-ni-o>veh-culos-autopistas>star-wars>juguetes>star-wars>por-categoria>por-marca>ni-o>auto-escala>hot-wheels>"
+                    ],
+                    "isExclusivePackage": [
+                      "false"
+                    ],
+                    "maximumPromoPrice": [
+                      "183.75"
+                    ],
+                    "newProductStartDate": [
+                      "1447897017"
+                    ],
+                    "latestPartsStartDate": [
+                      "1447897017"
+                    ],
+                    "isPresale": [
+                      "false"
+                    ],
+                    "exclusivDiscountEndDate": [
+                      "1447897017"
+                    ],
+                    "shipPleasantEndDate": [
+                      "1447897017"
+                    ],
+                    "sku.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1043535575.jpg"
+                    ],
+                    "exclusivePackageEndDate": [
+                      "1447897017"
+                    ],
+                    "exclusivePackageStartDate": [
+                      "1447897017"
+                    ],
+                    "isLatestParts": [
+                      "false"
+                    ],
+                    "deliveryOnlyStoreStartDate": [
+                      "1447897017"
+                    ],
+                    "availabilityShopEndDate": [
+                      "1447897017"
+                    ],
+                    "exclusivDiscountStartDate": [
+                      "1447897017"
+                    ],
+                    "sku.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1043535575.jpg"
+                    ],
+                    "deliveryOnlyStoreEndDate": [
+                      "1447897017"
+                    ],
+                    "giftWithPurchaseEndDate": [
+                      "1447897017"
+                    ],
+                    "presaleStartDate": [
+                      "1447897017"
+                    ],
+                    "exclusivePromotionEndDate": [
+                      "1447897017"
+                    ],
+                    "newProductEndDate": [
+                      "1447897017"
+                    ],
+                    "noRefund": [
+                      "true"
+                    ],
+                    "InventoryStatus": [
+                      "1000"
+                    ],
+                    "latestPartsEndDate": [
+                      "1447897017"
+                    ],
+                    "minimumListPrice": [
+                      "245.0"
+                    ],
+                    "shipPleasantStartDate": [
+                      "1447897017"
+                    ],
+                    "maximumListPrice": [
+                      "245.0"
+                    ],
+                    "sortPrice": [
+                      "183.750000"
+                    ],
+                    "allAncestors.repositoryId": [
+                      "cat1080656",
+                      "cat170634",
+                      "cat170711",
+                      "cat4890125",
+                      "cat4990367",
+                      "cat5150001",
+                      "catst1833786",
+                      "catst1833787",
+                      "catst1833791",
+                      "catst1857507",
+                      "catst1858346"
+                    ],
+                    "skipInventory": [
+                      "dontSkip"
+                    ],
+                    "isExclusivePromotion": [
+                      "false"
+                    ],
+                    "isDeliveryOnlyStore": [
+                      "false"
+                    ],
+                    "exclusiveProductEndDate": [
+                      "1447897017"
+                    ],
+                    "Language": [
+                      "español"
+                    ],
+                    "sku.sale_Price": [
+                      "245.0"
+                    ],
+                    "common.id": [
+                      "sku-1043535575..1043535575.es__MX"
+                    ]
+                  }
+                },
+                {
+                  "@class": "com.endeca.infront.cartridge.model.Record",
+                  "detailsAction": {
+                    "recordState": "/mattel-hot-wheels-set-de-coches-de-star-wars/1041386319?d3106047a194921c01969dfdec083925=json",
+                    "contentPath": "/listing",
+                    "@class": "com.endeca.infront.cartridge.model.RecordAction",
+                    "siteRootPath": "/pages",
+                    "label": null
+                  },
+                  "numRecords": 1,
+                  "attributes": {
+                    "isShipPleasant": [
+                      "false"
+                    ],
+                    "product.description": [
+                      "Mattel Hot Wheels Star Wars Paquete de 2"
+                    ],
+                    "product.brand": [
+                      "HOT WHEELS"
+                    ],
+                    "product.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1041386319.jpg"
+                    ],
+                    "materialGroup": [
+                      "42405"
+                    ],
+                    "isExclusiveProduct": [
+                      "false"
+                    ],
+                    "isGiftWithPurchase": [
+                      "false"
+                    ],
+                    "presaleEndDate": [
+                      "1440829649"
+                    ],
+                    "product.displayName": [
+                      "Mattel Hot Wheels Set de Coches de Star Wars"
+                    ],
+                    "productType": [
+                      "Soft Line"
+                    ],
+                    "sku.list_Price": [
+                      "179.0"
+                    ],
+                    "expressDeliveryStartDate": [
+                      "1440829649"
+                    ],
+                    "importBook": [
+                      "true"
+                    ],
+                    "exclusivePromotionStartDate": [
+                      "1440829649"
+                    ],
+                    "isExclusivePrice": [
+                      "false"
+                    ],
+                    "isAvailabilityShop": [
+                      "false"
+                    ],
+                    "expressDeliveryEndDate": [
+                      "1440829649"
+                    ],
+                    "exclusiveProductStartDate": [
+                      "1440829649"
+                    ],
+                    "productAvgRating": [
+                      "0.0"
+                    ],
+                    "isExpressDelivery": [
+                      "false"
+                    ],
+                    "sku.repositoryId": [
+                      "1041386319"
+                    ],
+                    "sku.thumbnailImage": [
+                      "http://ss424.liverpool.com.mx/xl/1041386319.jpg"
+                    ],
+                    "giftWithPurchaseStartDate": [
+                      "1440829649"
+                    ],
+                    "minimumPromoPrice": [
+                      "134.25"
+                    ],
+                    "sku.promoPrice": [
+                      "134.25"
+                    ],
+                    "product.repositoryId": [
+                      "1041386319"
+                    ],
+                    "product.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1041386319.jpg"
+                    ],
+                    "isNewProduct": [
+                      "false"
+                    ],
+                    "product.productRatingCount": [
+                      "0"
+                    ],
+                    "isExclusivDiscount": [
+                      "false"
+                    ],
+                    "isExclusivePackage": [
+                      "false"
+                    ],
+                    "ancestorCategories.displayName": [
+                      "juguetes>de-ni-o>star-wars>juguetes>star-wars>veh-culos-autopistas>por-categoria>ni-o>auto-escala>por-marca>por-edad>5-a-7-a-os>hot-wheels>star-wars>"
+                    ],
+                    "maximumPromoPrice": [
+                      "134.25"
+                    ],
+                    "latestPartsStartDate": [
+                      "1440829649"
+                    ],
+                    "isPresale": [
+                      "false"
+                    ],
+                    "exclusivDiscountEndDate": [
+                      "1440829649"
+                    ],
+                    "shipPleasantEndDate": [
+                      "1440829649"
+                    ],
+                    "sku.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1041386319.jpg"
+                    ],
+                    "exclusivePackageEndDate": [
+                      "1440829649"
+                    ],
+                    "exclusivePackageStartDate": [
+                      "1440829649"
+                    ],
+                    "isLatestParts": [
+                      "false"
+                    ],
+                    "sku.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1041386319.jpg"
+                    ],
+                    "exclusivDiscountStartDate": [
+                      "1440829649"
+                    ],
+                    "giftWithPurchaseEndDate": [
+                      "1440829649"
+                    ],
+                    "presaleStartDate": [
+                      "1440829649"
+                    ],
+                    "exclusivePromotionEndDate": [
+                      "1440829649"
+                    ],
+                    "noRefund": [
+                      "true"
+                    ],
+                    "InventoryStatus": [
+                      "1000"
+                    ],
+                    "latestPartsEndDate": [
+                      "1440829649"
+                    ],
+                    "minimumListPrice": [
+                      "179.0"
+                    ],
+                    "shipPleasantStartDate": [
+                      "1440829649"
+                    ],
+                    "maximumListPrice": [
+                      "179.0"
+                    ],
+                    "sortPrice": [
+                      "134.250000"
+                    ],
+                    "allAncestors.repositoryId": [
+                      "cat1080656",
+                      "cat170634",
+                      "cat170711",
+                      "cat4890125",
+                      "cat4990367",
+                      "cat5150001",
+                      "catst1833786",
+                      "catst1833787",
+                      "catst1833788",
+                      "catst1833791",
+                      "catst1857507",
+                      "catst1858334",
+                      "catst1858346",
+                      "catst1858366"
+                    ],
+                    "skipInventory": [
+                      "dontSkip"
+                    ],
+                    "isExclusivePromotion": [
+                      "false"
+                    ],
+                    "exclusiveProductEndDate": [
+                      "1440829649"
+                    ],
+                    "Language": [
+                      "español"
+                    ],
+                    "sku.sale_Price": [
+                      "179.0"
+                    ],
+                    "common.id": [
+                      "sku-1041386319..1041386319.es__MX"
+                    ]
+                  }
+                  
+                },
+                {
+                  "@class": "com.endeca.infront.cartridge.model.Record",
+                  "detailsAction": {
+                    "recordState": "/hot-wheels-carrera-s-per-explosiva/1035500410?d3106047a194921c01969dfdec083925=json",
+                    "contentPath": "/listing",
+                    "@class": "com.endeca.infront.cartridge.model.RecordAction",
+                    "siteRootPath": "/pages",
+                    "label": null
+                  },
+                  "numRecords": 1,
+                  "attributes": {
+                    "isShipPleasant": [
+                      "false"
+                    ],
+                    "product.description": [
+                      "Carrera Súper Explosiva Hot Wheels Mattel"
+                    ],
+                    "product.brand": [
+                      "HOT WHEELS"
+                    ],
+                    "product.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1035500410.jpg"
+                    ],
+                    "materialGroup": [
+                      "42405"
+                    ],
+                    "isExclusiveProduct": [
+                      "false"
+                    ],
+                    "isGiftWithPurchase": [
+                      "false"
+                    ],
+                    "presaleEndDate": [
+                      "1432875229"
+                    ],
+                    "product.displayName": [
+                      "Hot Wheels Carrera Súper Explosiva"
+                    ],
+                    "productType": [
+                      "Soft Line"
+                    ],
+                    "sku.list_Price": [
+                      "469.0"
+                    ],
+                    "expressDeliveryStartDate": [
+                      "1432875229"
+                    ],
+                    "importBook": [
+                      "true"
+                    ],
+                    "exclusivePromotionStartDate": [
+                      "1432875229"
+                    ],
+                    "isExclusivePrice": [
+                      "false"
+                    ],
+                    "isAvailabilityShop": [
+                      "false"
+                    ],
+                    "expressDeliveryEndDate": [
+                      "1432875229"
+                    ],
+                    "exclusiveProductStartDate": [
+                      "1432875229"
+                    ],
+                    "productAvgRating": [
+                      "0.0"
+                    ],
+                    "isExpressDelivery": [
+                      "false"
+                    ],
+                    "sku.repositoryId": [
+                      "1035500410"
+                    ],
+                    "sku.thumbnailImage": [
+                      "http://ss424.liverpool.com.mx/xl/1035500410.jpg"
+                    ],
+                    "giftWithPurchaseStartDate": [
+                      "1432875229"
+                    ],
+                    "minimumPromoPrice": [
+                      "351.75"
+                    ],
+                    "sku.promoPrice": [
+                      "351.75"
+                    ],
+                    "product.repositoryId": [
+                      "1035500410"
+                    ],
+                    "product.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1035500410.jpg"
+                    ],
+                    "isNewProduct": [
+                      "false"
+                    ],
+                    "product.productRatingCount": [
+                      "0"
+                    ],
+                    "isExclusivDiscount": [
+                      "false"
+                    ],
+                    "isExclusivePackage": [
+                      "false"
+                    ],
+                    "ancestorCategories.displayName": [
+                      "juguetes>de-ni-o>veh-culos-autopistas>por-categoria>por-marca>ni-o>autopistas>hot-wheels>por-edad>5-a-7-a-os>"
+                    ],
+                    "maximumPromoPrice": [
+                      "351.75"
+                    ],
+                    "latestPartsStartDate": [
+                      "1432875229"
+                    ],
+                    "isPresale": [
+                      "false"
+                    ],
+                    "exclusivDiscountEndDate": [
+                      "1432875229"
+                    ],
+                    "shipPleasantEndDate": [
+                      "1432875229"
+                    ],
+                    "sku.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1035500410.jpg"
+                    ],
+                    "exclusivePackageEndDate": [
+                      "1432875229"
+                    ],
+                    "exclusivePackageStartDate": [
+                      "1432875229"
+                    ],
+                    "isLatestParts": [
+                      "false"
+                    ],
+                    "sku.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1035500410.jpg"
+                    ],
+                    "exclusivDiscountStartDate": [
+                      "1432875229"
+                    ],
+                    "giftWithPurchaseEndDate": [
+                      "1432875229"
+                    ],
+                    "presaleStartDate": [
+                      "1432875229"
+                    ],
+                    "exclusivePromotionEndDate": [
+                      "1432875229"
+                    ],
+                    "noRefund": [
+                      "true"
+                    ],
+                    "InventoryStatus": [
+                      "1000"
+                    ],
+                    "latestPartsEndDate": [
+                      "1432875229"
+                    ],
+                    "minimumListPrice": [
+                      "469.0"
+                    ],
+                    "shipPleasantStartDate": [
+                      "1432875229"
+                    ],
+                    "maximumListPrice": [
+                      "469.0"
+                    ],
+                    "sortPrice": [
+                      "351.750000"
+                    ],
+                    "allAncestors.repositoryId": [
+                      "cat1080656",
+                      "cat170634",
+                      "cat170711",
+                      "catst1833786",
+                      "catst1833787",
+                      "catst1833788",
+                      "catst1833791",
+                      "catst1857512",
+                      "catst1858334",
+                      "catst1858346"
+                    ],
+                    "skipInventory": [
+                      "dontSkip"
+                    ],
+                    "isExclusivePromotion": [
+                      "false"
+                    ],
+                    "exclusiveProductEndDate": [
+                      "1432875229"
+                    ],
+                    "Language": [
+                      "español"
+                    ],
+                    "sku.sale_Price": [
+                      "469.0"
+                    ],
+                    "common.id": [
+                      "sku-1035500410..1035500410.es__MX"
+                    ]
+                  }
+                },
+                {
+                  "@class": "com.endeca.infront.cartridge.model.Record",
+                  "detailsAction": {
+                    "recordState": "/hot-wheels-monster-jam-1-24-mattel/1024665964?d3106047a194921c01969dfdec083925=json",
+                    "contentPath": "/listing",
+                    "@class": "com.endeca.infront.cartridge.model.RecordAction",
+                    "siteRootPath": "/pages",
+                    "label": null
+                  },
+                  "numRecords": 1,
+                  "attributes": {
+                    "isShipPleasant": [
+                      "false"
+                    ],
+                    "product.description": [
+                      "Monster Jam 1:24 Hot Wheels Mattel"
+                    ],
+                    "product.brand": [
+                      "HOT WHEELS"
+                    ],
+                    "product.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1024665964.jpg"
+                    ],
+                    "materialGroup": [
+                      "42405"
+                    ],
+                    "isExclusiveProduct": [
+                      "false"
+                    ],
+                    "isGiftWithPurchase": [
+                      "false"
+                    ],
+                    "presaleEndDate": [
+                      "1409190693"
+                    ],
+                    "product.displayName": [
+                      "Hot Wheels Monster Jam 1:24 Mattel"
+                    ],
+                    "productType": [
+                      "Soft Line"
+                    ],
+                    "sku.list_Price": [
+                      "359.0"
+                    ],
+                    "expressDeliveryStartDate": [
+                      "1409190693"
+                    ],
+                    "importBook": [
+                      "true"
+                    ],
+                    "exclusivePromotionStartDate": [
+                      "1409190693"
+                    ],
+                    "isExclusivePrice": [
+                      "false"
+                    ],
+                    "isAvailabilityShop": [
+                      "false"
+                    ],
+                    "expressDeliveryEndDate": [
+                      "1409190693"
+                    ],
+                    "exclusiveProductStartDate": [
+                      "1409190693"
+                    ],
+                    "productAvgRating": [
+                      "0.0"
+                    ],
+                    "isExpressDelivery": [
+                      "false"
+                    ],
+                    "sku.repositoryId": [
+                      "1024665964"
+                    ],
+                    "sku.thumbnailImage": [
+                      "http://ss424.liverpool.com.mx/xl/1024665964.jpg"
+                    ],
+                    "giftWithPurchaseStartDate": [
+                      "1409190693"
+                    ],
+                    "minimumPromoPrice": [
+                      "269.25"
+                    ],
+                    "sku.promoPrice": [
+                      "269.25"
+                    ],
+                    "product.repositoryId": [
+                      "1024665964"
+                    ],
+                    "product.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1024665964.jpg"
+                    ],
+                    "isNewProduct": [
+                      "false"
+                    ],
+                    "product.productRatingCount": [
+                      "0"
+                    ],
+                    "isExclusivDiscount": [
+                      "false"
+                    ],
+                    "isExclusivePackage": [
+                      "false"
+                    ],
+                    "ancestorCategories.displayName": [
+                      "juguetes>de-ni-o>veh-culos-autopistas>por-categoria>ni-o>auto-escala>por-marca>por-edad>5-a-7-a-os>hot-wheels>"
+                    ],
+                    "maximumPromoPrice": [
+                      "269.25"
+                    ],
+                    "latestPartsStartDate": [
+                      "1409190693"
+                    ],
+                    "isPresale": [
+                      "false"
+                    ],
+                    "exclusivDiscountEndDate": [
+                      "1409190693"
+                    ],
+                    "shipPleasantEndDate": [
+                      "1409190693"
+                    ],
+                    "sku.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1024665964.jpg"
+                    ],
+                    "exclusivePackageEndDate": [
+                      "1409190693"
+                    ],
+                    "exclusivePackageStartDate": [
+                      "1409190693"
+                    ],
+                    "isLatestParts": [
+                      "false"
+                    ],
+                    "sku.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1024665964.jpg"
+                    ],
+                    "exclusivDiscountStartDate": [
+                      "1409190693"
+                    ],
+                    "giftWithPurchaseEndDate": [
+                      "1409190693"
+                    ],
+                    "presaleStartDate": [
+                      "1409190693"
+                    ],
+                    "exclusivePromotionEndDate": [
+                      "1409190693"
+                    ],
+                    "noRefund": [
+                      "true"
+                    ],
+                    "InventoryStatus": [
+                      "1000"
+                    ],
+                    "latestPartsEndDate": [
+                      "1409190693"
+                    ],
+                    "minimumListPrice": [
+                      "359.0"
+                    ],
+                    "shipPleasantStartDate": [
+                      "1409190693"
+                    ],
+                    "maximumListPrice": [
+                      "359.0"
+                    ],
+                    "sortPrice": [
+                      "269.250000"
+                    ],
+                    "allAncestors.repositoryId": [
+                      "cat1080656",
+                      "cat170634",
+                      "cat170711",
+                      "catst1833786",
+                      "catst1833787",
+                      "catst1833788",
+                      "catst1833791",
+                      "catst1857507",
+                      "catst1858334",
+                      "catst1858346"
+                    ],
+                    "skipInventory": [
+                      "dontSkip"
+                    ],
+                    "isExclusivePromotion": [
+                      "false"
+                    ],
+                    "exclusiveProductEndDate": [
+                      "1409190693"
+                    ],
+                    "Language": [
+                      "español"
+                    ],
+                    "sku.sale_Price": [
+                      "359.0"
+                    ],
+                    "common.id": [
+                      "sku-1024665964..1024665964.es__MX"
+                    ]
+                  }
+                  
+                },
+                {
+                  "@class": "com.endeca.infront.cartridge.model.Record",
+                  "detailsAction": {
+                    "recordState": "/hot-wheels-auto-lavado-triple-acc-mattel/1015140018?d3106047a194921c01969dfdec083925=json",
+                    "contentPath": "/listing",
+                    "@class": "com.endeca.infront.cartridge.model.RecordAction",
+                    "siteRootPath": "/pages",
+                    "label": null
+                  },
+                  "numRecords": 1,
+                  "attributes": {
+                    "maximumPromoPrice": [
+                      "426.75"
+                    ],
+                    "ancestorCategories.displayName": [
+                      "juguetes>de-ni-o>veh-culos-autopistas>por-categoria>por-marca>ni-o>autopistas>hot-wheels>por-edad>5-a-7-a-os>"
+                    ],
+                    "product.description": [
+                      "Auto Lavado Triple ACC Hot Wheels Mattel"
+                    ],
+                    "product.brand": [
+                      "HOT WHEELS"
+                    ],
+                    "product.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1015140018.jpg"
+                    ],
+                    "materialGroup": [
+                      "42405"
+                    ],
+                    "product.displayName": [
+                      "Hot Wheels Auto Lavado Triple ACC Mattel"
+                    ],
+                    "exclusivDiscountEndDate": [
+                      "1382608998"
+                    ],
+                    "productType": [
+                      "Soft Line"
+                    ],
+                    "sku.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1015140018.jpg"
+                    ],
+                    "sku.list_Price": [
+                      "569.0"
+                    ],
+                    "sku.smallImage": [
+                      "http://ss424.liverpool.com.mx/sm/1015140018.jpg"
+                    ],
+                    "exclusivDiscountStartDate": [
+                      "1382608998"
+                    ],
+                    "importBook": [
+                      "true"
+                    ],
+                    "exclusivePromotionStartDate": [
+                      "1382608998"
+                    ],
+                    "isExclusivePrice": [
+                      "false"
+                    ],
+                    "isAvailabilityShop": [
+                      "false"
+                    ],
+                    "giftWithPurchaseEndDate": [
+                      "1382608998"
+                    ],
+                    "exclusivePromotionEndDate": [
+                      "1382608998"
+                    ],
+                    "noRefund": [
+                      "true"
+                    ],
+                    "productAvgRating": [
+                      "0.0"
+                    ],
+                    "sku.repositoryId": [
+                      "1015140018"
+                    ],
+                    "sku.thumbnailImage": [
+                      "http://ss424.liverpool.com.mx/xl/1015140018.jpg"
+                    ],
+                    "InventoryStatus": [
+                      "1000"
+                    ],
+                    "giftWithPurchaseStartDate": [
+                      "1382608998"
+                    ],
+                    "minimumPromoPrice": [
+                      "426.75"
+                    ],
+                    "minimumListPrice": [
+                      "569.0"
+                    ],
+                    "sku.promoPrice": [
+                      "426.75"
+                    ],
+                    "product.repositoryId": [
+                      "1015140018"
+                    ],
+                    "maximumListPrice": [
+                      "569.0"
+                    ],
+                    "sortPrice": [
+                      "426.750000"
+                    ],
+                    "allAncestors.repositoryId": [
+                      "cat1080656",
+                      "cat170634",
+                      "cat170711",
+                      "catst1833786",
+                      "catst1833787",
+                      "catst1833788",
+                      "catst1833791",
+                      "catst1857512",
+                      "catst1858334",
+                      "catst1858346"
+                    ],
+                    "skipInventory": [
+                      "dontSkip"
+                    ],
+                    "product.largeImage": [
+                      "http://ss424.liverpool.com.mx/lg/1015140018.jpg"
+                    ],
+                    "Language": [
+                      "español"
+                    ],
+                    "isNewProduct": [
+                      "false"
+                    ],
+                    "sku.sale_Price": [
+                      "569.0"
+                    ],
+                    "common.id": [
+                      "sku-1015140018..1015140018.es__MX"
+                    ],
+                    "product.productRatingCount": [
+                      "0"
+                    ]
+                  }
+                }
+              ],
+              "precomputedSorts": [
+                
+              ]
+            }
+          ],
+          "@type": "ContentSlotMain",
+          "name": "Results List Collection",
+          "ruleLimit": "1",
+          "contentCollection": "/content/Liverpool/ProductListingPage/PLPResults"
+        }
+      ],
+      "secondaryContent": [
+        {
+          "removeAllAction": {
+            "navigationState": "?d3106047a194921c01969dfdec083925=json",
+            "contentPath": "/listing",
+            "@class": "com.endeca.infront.cartridge.model.NavigationAction",
+            "siteRootPath": "/pages",
+            "label": null
+          },
+          "refinementCrumbs": [
+            {
+              "multiSelect": false,
+              "count": 7,
+              "@class": "com.endeca.infront.cartridge.model.RefinementBreadcrumb",
+              "ancestors": [
+                {
+                  "navigationState": "/juguetes/N-2a9m?d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "@class": "com.endeca.infront.cartridge.model.Ancestor",
+                  "siteRootPath": "/pages",
+                  "label": "Juguetes",
+                  "properties": {
+                    "DisplayOrder": "0",
+                    "category.siteId": "LP_SITE_400,LP_SITE_100,LP_SITE_300",
+                    "category.rootCatalogId": "ICatalog1000",
+                    "category.ancestorCatalogIds": "ICatalog1000",
+                    "category.repositoryId": "cat1080656",
+                    "SourceId": "cat1080656",
+                    "category.catalogs.repositoryId": "ICatalog1000"
+                  }
+                },
+                {
+                  "navigationState": "/por-marca/N-35vl?d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "@class": "com.endeca.infront.cartridge.model.Ancestor",
+                  "siteRootPath": "/pages",
+                  "label": "Por Marca",
+                  "properties": {
+                    "groupType": "Not Specified",
+                    "DisplayOrder": "1",
+                    "category.siteId": "LP_SITE_400,LP_SITE_100,LP_SITE_300",
+                    "category.rootCatalogId": "ICatalog1000",
+                    "category.ancestorCatalogIds": "ICatalog1000",
+                    "category.repositoryId": "catst1833787",
+                    "SourceId": "cat1080656.catst1833787",
+                    "category.catalogs.repositoryId": "ICatalog1000"
+                  }
+                }
+              ],
+              "label": "Hot Wheels",
+              "properties": {
+                "groupType": "Not Specified",
+                "category.largeImage": "http://assets.liverpool.com.mx/assets/images/categorias/juguetes/Marca-HotWheels.jpg",
+                "DisplayOrder": "8",
+                "category.siteId": "LP_SITE_400,LP_SITE_100,LP_SITE_300",
+                "category.rootCatalogId": "ICatalog1000",
+                "category.ancestorCatalogIds": "ICatalog1000",
+                "category.repositoryId": "catst1858346",
+                "SourceId": "cat1080656.catst1833787.catst1858346",
+                "category.catalogs.repositoryId": "ICatalog1000",
+                "dimensionValueId": "35vs"
+              },
+              "displayName": "product.category",
+              "dimensionName": "product.category",
+              "removeAction": {
+                "navigationState": "?d3106047a194921c01969dfdec083925=json",
+                "contentPath": "/listing",
+                "@class": "com.endeca.infront.cartridge.model.NavigationAction",
+                "siteRootPath": "/pages",
+                "label": null
+              }
+            }
+          ],
+          "geoFilterCrumb": null,
+          "@type": "Breadcrumbs",
+          "name": "Breadcrumbs",
+          "searchCrumbs": [
+            
+          ],
+          "rangeFilterCrumbs": [
+            
+          ]
+        },
+        {
+          "navigation": [
+            {
+              "@type": "RefinementMenu",
+              "name": "Categorias",
+              "dimensionName": "product.category"
+            },
+            {
+              "@type": "RefinementMenu",
+              "name": "Marcas",
+              "dimensionName": "product.brand"
+            },
+            {
+              "refinements": [
+                {
+                  "multiSelect": true,
+                  "navigationState": "/hot-wheels/N-27khZ35vs?d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "count": 6,
+                  "@class": "com.endeca.infront.cartridge.model.Refinement",
+                  "siteRootPath": "/pages",
+                  "label": "$100 - $500",
+                  "properties": {
+                    "DisplayOrder": "2",
+                    "SourceId": "$100 - $500",
+                    "dimensionValueId": "27kh",
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "multiSelect": true,
+                  "navigationState": "/hot-wheels/N-27kmZ35vs?d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "count": 1,
+                  "@class": "com.endeca.infront.cartridge.model.Refinement",
+                  "siteRootPath": "/pages",
+                  "label": "$7&#44;500 - $10&#44;000",
+                  "properties": {
+                    "DisplayOrder": "7",
+                    "SourceId": "$7500 - $10000",
+                    "dimensionValueId": "27km",
+                    "currency": "USD"
+                  }
+                }
+              ],
+              "multiSelect": true,
+              "@type": "RefinementMenu",
+              "name": "Precios",
+              "ancestors": [
+                
+              ],
+              "displayName": "Price",
+              "dimensionName": "Price",
+              "whyPrecedenceRuleFired": null
+            },
+            {
+              "@type": "RefinementMenu",
+              "name": "Tallas",
+              "dimensionName": "sku.size"
+            },
+            {
+              "refinements": [
+                {
+                  "multiSelect": true,
+                  "navigationState": "/hot-wheels/N-35vsZ1z13c0a?d3106047a194921c01969dfdec083925=json",
+                  "contentPath": "/listing",
+                  "count": 1,
+                  "@class": "com.endeca.infront.cartridge.model.Refinement",
+                  "siteRootPath": "/pages",
+                  "label": "Multicolor",
+                  "properties": {
+                    "dimensionValueId": "1z13c0a"
+                  }
+                }
+              ],
+              "multiSelect": true,
+              "@type": "RefinementMenu",
+              "name": "Color",
+              "ancestors": [
+                
+              ],
+              "displayName": "sku.color",
+              "dimensionName": "sku.color",
+              "whyPrecedenceRuleFired": null
+            },
+            {
+              "@type": "RefinementMenu",
+              "name": "Autor",
+              "dimensionName": "Author"
+            },
+            {
+              "@type": "RefinementMenu",
+              "name": "Idioma",
+              "dimensionName": "CDLLanguage"
+            },
+            {
+              "@type": "RefinementMenu",
+              "name": "Editorial",
+              "dimensionName": "Editorial"
+            }
+          ],
+          "@type": "GuidedNavigation",
+          "name": "Facets"
+        }
+      ]
+    }
+  ],
+  "@type": "PageSlot",
+  "name": "Static Page Slot",
+  "endeca:contentPath": "/listing",
+  "atg:currentSiteProductionURL": "/tienda",
+  "ruleLimit": "1",
+  "endeca:siteRootPath": "/pages",
+  "contentCollection": "/content/Liverpool/ProductListingPage/PLPNavigation"
+}

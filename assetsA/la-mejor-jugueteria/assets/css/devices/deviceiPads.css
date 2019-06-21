@@ -1,0 +1,459 @@
+body{overflow-x:hidden; }
+.pleca-micarta{
+	font-size:16px;
+}
+.btn-ir-micarta{
+	width: 180px;
+	font-size:16px;
+}
+.contentBannerMosaico .loader_generic{
+	margin:10% 45%;
+}
+.bannerNinoNina .loader_generic{
+margin:14% 48%;	
+}
+
+.ver-mas{
+	font-size: 1.2em;
+}
+.owl-controls
+{ margin-top:30px !important;}
+.menu-categorias{
+	padding-left: 20px;
+	padding-right:20px;
+}
+.navigationCustom1 .back_clp {
+    display:none;
+}
+.navigationCustom1 .next_clp {
+ display:none;
+}
+
+#menu-categorias-mobile-content{
+	top:3.5em!important;
+}
+.itemIteractivoCaroucel .descripcion {
+    min-height: 35px;
+   }
+.text-menu-principal{
+		 font-size:0.8em;
+		font-family: 'robotoregular';
+		font-weight: 600;
+		color: #3b3c3f;
+}
+.itemIteractivoCaroucel .descripcion {
+    margin-top: 1em;
+    text-align: center;
+    min-height: 45px;
+    height: 30px;
+    overflow: hidden;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+/*CSS categoria*/
+.ver-todo-span{
+	float: left;
+	font-size: 0.9em;
+}
+.ver-todo-span-flecha{
+	float:left; margin-top: 3px;margin-left: 5px;
+}
+.owl-border-top > div.owl-controls > div > div.owl-next{
+	top:55%!important;
+}
+.owl-border-top > div.owl-controls > div > div.owl-prev{
+	top:55%!important;
+}
+
+.button-tuto{
+top: 380px;
+}
+/*CSS categoria*/
+/*Carousel*/
+.item-categoria img{
+		margin-top: 19px;
+		margin-bottom: 18px;
+}
+.owl-border-top{
+	margin-bottom: 4em;
+}
+/*fleachas caruseles*/
+.navigationCustom1 .back {
+		left: 0px;
+		margin-top: 9%;
+}
+.navigationCustom1 .next {
+		right: 0px;
+		margin-top: 9%;
+}
+/*CSS resultado de busquedas u subcategories*/
+.titulo-sub-categoria{
+	width:317px;height:144px;position:absolute;top: 60%;left:-.50%;
+}
+/*carruceles */
+.mediaItemImage{
+  height:340px;
+}
+.btn-rosa{
+		font-size:1.3em !important;
+		font-family: 'robotoregular';
+		height: 3em;
+		padding: 0px;
+}
+.margin1{margin-bottom:0%;}
+.img-juguetes-busqueda{
+	padding: 6px;
+	margin-bottom: 4em;
+}
+.p-titulo-producto-plp{
+margin-top:10%;
+margin-bottom: 20%;
+font-size: 1.5em;
+font-family: 'robotoregular';
+font-weight: 100;
+line-height: 1em;
+
+}
+.main-title-searchresult{
+	font-family: 'robotoregular';
+	 font-size: 2.1em;
+	font-weight: bold;
+}
+.line-division-title{
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+figure {
+		margin: 10px 0px 0px 0px;
+}
+.no-padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*dialogos*/
+.title-dialog-carta{
+	font-size:1.9em;
+}
+.text-dialog-carta{
+	font-size: 1.1em;
+}
+.title-dialog-add-toy{
+font-size: 2.5em;
+display: block;
+margin-bottom: 10px;
+}
+.btn-dialog-agregar{margin-bottom: 10px;}
+.texto-dialogo-add{
+	font-size: 1.5em;
+}
+.search-contenedor{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.owl-marcas-carousel > .owl-wrapper-outer > .owl-wrapper > .owl-item > .item > img{
+	height: auto;
+}
+.div-return-plp-detail{
+border: 1px solid #000;
+		font-family: 'robotoregular';
+		font-weight: 100;
+		display: block;
+		padding: 5px 35px;
+		background: #fff;
+		margin-top: 60px;
+}
+.retrun-arrow-detail{
+		color: #000;
+		font-weight: 900;
+		font-size: 8px;
+		display: inline-block;
+		position: absolute;
+		top: 71px;
+		left: 27px;
+}
+.etiquetaMobile{
+ 	left:15px;
+ }
+ .itemTop10:hover .addProductoTop10{
+	display: none;
+}
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+	.agregar-pedido-top10 .btn-rosa{
+		font-size: 1.4em;
+	}
+	.btn-rosa{
+		font-size:.9em;
+		font-family: 'robotoregular';
+		height: 3em;
+		padding: 0px;
+}
+
+.item-productoTopDiez{
+	width:50%;
+	margin-bottom:0px;
+}	
+.btn_rosa{
+	font-size:1.5em;
+}
+#slidermaindemo .owl-item div.item{
+	padding:5px;
+
+	display: block;
+	width: 100%;
+	height: 280px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.carta-total {
+		top:12px;
+		left:165px;	 
+}
+.container-full-for-categories-carousel{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*banners medios*/
+.banners-medios{
+	width:100%;
+	padding: 0;
+		margin-top:1%;
+}
+.banners-medios img{
+	width:100%;
+}
+/*banners medios*/
+.container-full-banner {
+	width: 100%;
+		 padding-right: 0;
+		padding-left: 0;
+		margin-right: 0;
+		margin-left: 0;
+}
+.container-full-header-ipad {
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.carta-margintop{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.mediaItemImage{
+				height:290px;
+		}
+		.mediaItemIteractivoImage{
+				height:180px;
+		}
+				.subItemVoid{
+				display: block;
+		}
+.gridPlp .itemPlp {
+    width: 23%;
+    margin-bottom: 0px;
+    margin: 0 10px 0 0;
+ }
+ .itemPlp figcaption {
+    font-size: 1.2em;
+    height: 55px;
+	}
+}
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	.pleca-micarta{
+	font-size:1.2em;
+}
+.btn-ir-micarta{
+	font-size:1.1em;
+}
+.pleca-micarta-mobil{
+  display: none;
+}
+	.bannerPrincipal{
+		display: none;
+	}
+	.linkTop10 figure {
+    min-height: 100px;
+}
+.linkTop10 .loader_generic{
+	margin:15% 38%;
+}
+.bannerNinoNina .loader_generic{
+margin:16% 42%;	
+}
+.contentBannerMosaico .loader_generic {
+    margin: 28% 41%;
+}
+	.titulo-top{
+		width:25%;
+	}
+	.lineTop10{
+		width: 37.3%;
+	}
+	.addToy{
+		display: none;
+	}
+	.btn-eliminar{
+		display:block !important;
+	}
+	.imgsTop10{
+		display: none;
+	}
+	.agregar-pedido-top10 .btn-rosa{
+		font-size: 1em;
+	}
+	.footer-web{
+		display: none;
+	}
+	.btn-agregar-pedido{
+		
+	}
+	.item-categoria:hover .subItemIteractivoCaroucel{
+	display: none;
+	}
+	
+.item-productoTopDiez{
+	margin-bottom:0px;
+}	
+	.btn-rosa{
+		font-size:1.2em;
+		font-family: 'robotoregular';
+		height: 3em;
+		padding: 0px;
+}
+.btn-caroucel-agregar 	.btn-rosa{
+		font-size:1.2em;
+}
+#slidermaindemo .owl-item div.item{
+	padding:5px;
+
+	display: block;
+	width: 100%;
+	height: 350px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+/*Circulos con categorias*/
+.content-articulo-cir{
+		 width: 100%;
+		height: 100%;
+		border-radius: 100%;
+		border: solid 1px #c8c8c8;
+		margin: 0 auto;
+		cursor: pointer;
+		padding: 2em;
+}
+.titulo-articulo-cir{
+	font-size: 1em;
+}
+.content-articulo-cir > img{
+	width:98px;
+	height: 98px;
+		margin: 0 auto 0 auto;
+		display: block;
+}
+/*Circulos con categorias*/
+.container-full-banner {
+	width: 100%;
+		 padding-right: 0px;
+		padding-left: 0px;
+		margin-right: 0;
+		margin-left: 0;
+}
+.container-full-header-ipad {
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.slidermain-controls .next{
+				right:0px;
+		margin-top:2%;
+}
+.slidermain-controls .back{
+		left:0px;
+		margin-top:2%;
+}
+.slidermain1-controls .next{
+		width:35px; height:35px;
+				right:0px;
+		margin-top:7%;
+}
+.slidermain1-controls .back{
+width:35px; height:35px;
+		left:0px;
+		margin-top:7%;
+}
+/*CSS Escribe tu carta*/
+.texto-carta-titulo{
+	font-size: 2em;
+	font-family: 'robotoregular';
+	line-height:30px;
+	color:#e62c9a;
+	left:20%;
+}
+.label-carta{
+		font-size: 1.1em;
+}
+.contenedor-form-carta{
+			padding-right: 15px;
+}
+.btn-agregar{
+	font-size: 1em;
+	font-family: 'robotoregular';
+	font-weight: 100;
+}
+.texto-carta-tusregalos{
+	font-size: 1.5em;
+	font-family: 'robotoregular';
+	line-height:30px;
+	font-weight: bold;
+}
+.carta-margintop{
+	margin-top: 20px;
+}
+.content-img-desc{margin-top: 3em;}
+.content-img-desc img{margin-top: 10px; margin-bottom: 10px;}
+.content-img-desc p{margin-bottom: 1em;font-size:1.1em;line-height: 1.2em;font-weight: 100;}
+/*CSS Escribe tu carta*/
+ .subItemVoid{
+				display: block;
+		}
+		.mediaItemImage{
+				height:340px;
+		}
+		.mediaItemIteractivoImage{
+				height:180px;
+		}
+		#slidermain > div > div > div:nth-child(1) > div > div.itemIteractivoCaroucel.mediaItemIteractivoImage{
+		 border-left: 0px;
+		}
+		.line-border-carousel{
+	position:absolute;
+	border-left:1px solid #ccc;
+	width:1px;
+	height:180px;
+	z-index:9; 
+	top:0px;
+	right:0px;
+}
+.gridPlp .itemPlp {
+    width: 23%;
+    margin-bottom: 0px;
+    margin: 10px 5px 0 10px;
+ }
+ .itemPlp figcaption{
+ 	height: 60px;
+ }
+ .bannerPrincipal{
+ 	display: none;
+ }
+ .bannerIpad.mobile{
+ 	display: none;
+ }
+}
+.header-mobile-ipad{
+	height:72px;
+}
