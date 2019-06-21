@@ -1,0 +1,22 @@
+{
+	"bannerType": "grid",
+	"bannerContent": [{
+			"type": "plp",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo03b_240519son_sales.jpg",
+			"redirectsTo": "cat480332",
+			"title": "sonido_240519",
+			"campaign": "Sonido hasta 30% de desc",
+			"view": "h_app_banner_secun",
+			"position": "0"
+		},
+		{
+			"type": "plp",
+			"image": "https://assetspwaqa.liverpool.com.mx/assets/digital/home/img/sales_app/bpromo02b_110519inmu_sales.jpg",
+			"redirectsTo": "cat480332",
+			"title": "instrumentos_musicales_110519",
+			"campaign": "Instrumentos Musicales hasta 25% de desc",
+			"view": "h_app_banner_secun",
+			"position": "1"
+		}
+	]
+}
