@@ -1,0 +1,165 @@
+@media(min-width:991px ) and (max-width: 1200px){
+	.bannerIpad{
+		display: block;
+	}
+	.bannerPrincipal{
+		display:none;
+	}
+}
+@media(max-width : 768px){/*movil version*/
+		#movil-header-menu{
+			 display: block;
+			 float:none;
+		}
+		#header-menu{
+			display: none;
+		}
+		#id-menu-categorias{
+			display:none;
+		}
+		.item-producto{
+		 width:176px;
+		}
+/*home*/
+		#header-menu{
+			display: none;
+		}
+		#id-menu-categorias{
+			display:none;
+		}
+		.item-producto{
+		 width:176px;
+		}
+		.row{
+			margin-right: 0;
+		margin-left: 0;
+		}
+		.bannerBgMobile{
+			margin-right: -45px;
+			margin-left: -15px;
+		}
+		.rowContentMobile{
+			margin-right: -15px;
+		}
+		.row.clp-line{
+			margin-left:-15px; 
+			margin-right:-15px;
+		}
+		.container-fluid{
+			padding-right: 0;
+		padding-left: 0;
+		}
+		.lineTop10{
+			padding:78px 0 0 0;
+		}
+
+/*footer*/
+		footer > .fondoNoche{
+   		 height: 88px;
+		}
+		footer > .fondoNoche > .container{
+			position: absolute !important;
+			bottom: 2px;
+		}
+/*mi carta*/
+		.bodyCarta{
+			padding: 15px;
+		}
+	.custom-form{
+		font-size:1em;
+	}
+	.btn-agregar{
+		font-size: 0.8em !important;
+	}
+	.descriptionMicarta{
+		display: none;
+	}
+	.btn-eliminar{
+		display: block !important;
+		margin-top:10px;
+	}
+	.myGifts{
+		min-height: 0 !important;
+	}
+	/* PDP detalle de juguete*/
+	.img-content-detail img{
+		height: auto;
+	}
+	.contentPDP {
+		width: auto;
+		margin-bottom: 40px;
+	}
+	/*Slider*/
+	#slider > div.owl-controls.clickable{
+		display: none!important;
+	}
+	.texto-carta-tusregalos{
+		color: #e10098;
+	}
+	.plecaRecibidasMobil .total {
+    	font-size: 2.3em;
+	}
+	.itemPlp figcaption {
+    	font-size: 1.4em;
+	}
+}
+@media(max-width:992px){
+		.item-productoTopDiez{
+			width:50%;
+			margin-bottom: 0;
+		}
+			 #id-menu-categorias{
+			display:none;
+		}
+				.padding-flechas-marcas{
+				padding:0;
+		}
+		/*Slider*/
+		#slider > div.owl-controls.clickable{
+			display: none!important;
+		}
+		.mediaItemImage{
+/*			height:300px;*/
+		}
+		.btn-rosa{
+    height: 40px;
+    font-size: 1em;
+    line-height: 15px;
+		}
+		.itemPlp figcaption{
+			font-size:12px;
+			text-align: left;
+		}
+		.gridPlp .itemPlp{
+			width:45%;
+			margin-bottom: 0px;
+			 margin: 0 10px 20px 0;
+		}
+		.itemPlp figcaption{
+			font-size: 1.2em;
+			height: 55px;
+		}
+}
+@media(min-width : 768px){
+
+		#menu-movil{       
+			display:none !important;
+		}
+		.marcaPImg1{
+				padding-right: 0;
+				
+		}
+		.marcaPImg2{
+				padding-left: 0;
+		}
+		/*Slider*/
+#slider > div.owl-controls.clickable{
+	display: none!important;
+}
+}
+@media (min-width: 1200px){
+  /*Slider*/
+#slider > div.owl-controls.clickable{
+	display: none!important;
+}
+}

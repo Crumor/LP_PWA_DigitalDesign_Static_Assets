@@ -1,0 +1,13 @@
+<div class="menu-categorias-mobile hidden-lg hidden-md">
+    <ul>
+        <li ng-repeat="c in menuCategorias">
+                <a href ng-click="irA(c.categoryid)" analytics-on="click" title="{{c.label}}" ng-style="{'border-color':c.color}" analytics-event="MainMenu-{{c.label}}" value="{{c.label}}" ng-class="{'active':'/categoria/'+c.categoryid === rutaActual}">
+                    <div class="imgMenu" ng-style="getBackground(c.picture)">
+
+                    </div>
+                    <span class="text-menu-principal"  ng-bind="c.label"></span>
+                </a>
+        </li>
+
+    </ul>
+</div>

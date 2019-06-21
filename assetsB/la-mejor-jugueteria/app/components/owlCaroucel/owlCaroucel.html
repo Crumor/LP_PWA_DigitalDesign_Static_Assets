@@ -1,0 +1,31 @@
+<div>
+     <div class="navigationCustom1 clp {{classControls}} hidden-xs hidden-sm">
+        <div class="back_clp">
+            <img src="assets/images/caroucel/flecha.svg">
+        </div>
+        <div class="next_clp">
+            <img src="assets/images/caroucel/flecha.svg">
+        </div>
+    </div>
+        <div class="{{classOwl}}" style="{{styleOwl}}">
+            <div class="owl-carousel" id="{{idElement}}">
+                <!--start caroucel-->
+                <div class="item-categoria mediaItemImage"  ng-repeat="cc in itemsD">
+                    <div class="itemIteractivoCaroucel" ng-click="irDetalle(cc.id)">
+                        <div class="imgProduct">
+                            <img ng-src="{{cc.imageBg}}">
+                        </div>
+                        <div class="descripcion" ng-click="irDetalle(cc.id)" ng-bind="cc.description">
+                            
+                        </div> 
+                    </div>
+                    <div class="subItemIteractivoCaroucel hidden-xs hidden-sm">
+                        <agregar-pedidos producto="cc"></agregar-pedidos>
+                    </div>
+                    <agregar-pedidos producto="cc" class="btn-caroucel-agregar hidden-lg"></agregar-pedidos>
+                <!--end caroucel-->
+            </div>
+        </div>
+            
+    </div>
+

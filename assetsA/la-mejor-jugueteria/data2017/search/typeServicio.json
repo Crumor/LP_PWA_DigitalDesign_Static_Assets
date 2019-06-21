@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+{"@type":"ContentSlot","contentCollection":"\/content\/visualTypeAheadCollection","contents":[{"@type":"AutoSuggestPanel","name":"Auto-Suggest Panel","autoSuggest":[{"@type":"DimensionSearchAutoSuggestItem","dimensionSearchGroups":[{"@class":"com.endeca.infront.cartridge.model.DimensionSearchGroup","dimensionSearchValues":[{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[{"@class":"com.endeca.infront.cartridge.model.Ancestor","properties":{"category.siteId":"LP_SITE_100,LP_SITE_300,LP_SITE_400","category.rootCatalogId":"ICatalog1000","category.ancestorCatalogIds":"ICatalog1000","category.repositoryId":"cat670055","acercaDeSillas":"<p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">Lo mejor del mundo de los Videojuegos en Liverpool.com.mx<o:p><\/o:p><\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">&#160;<\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">¿Eres amante de los videojuegos o quieres&#160; ser un verdadero gamer? ¿Qué género es de tu agrado, acción, aventura, disparos&#160; o deportes? <o:p><\/o:p><\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">No te preocupes en liverpool.com.mx, tenemos amplia gama de&#160; videojuegos de las plataformas más populares del mercado, consolas y las&#160; mejores portátiles, que te llenarán de fabulosas horas de entretenimiento y&#160; diversión.<o:p><\/o:p><\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">&#160;<\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">Videojuegos para todas las consolas<o:p><\/o:p><\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">Ingresa a Liverpool.com.mx compra todo tipo de videojuegos y consolas Play&#160; Station, Nintendo y Xbox, ideales para tus ratos libres o diversión en familia&#160; y amigos. Además adquiere accesorios, controles de todas las consolas, volantes&#160; ideales para videojuegos de carreras, controles inalámbricos y de edición &#160;limitada, figuras interactivas, tarjetas de prepago y preventas exclusivas.<o:p><\/o:p><\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">&#160;<\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">Se el primero en adquirir con un solo click en liverpool.com.mx grandes títulos&#160; de Xbox, Xbox One, Kinect, Play Station 3, Play Station 4, PS Vita, Nintendo DS&#160; y 3DS, Wii, Wii U, consolas y videojuegos de edición limitada, acércate a&#160; nuestra tienda en línea y consulta nuestro catálogo.<o:p><\/o:p><\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">&#160;<\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">Videojuegos | Liverpool.com.mx<o:p><\/o:p><\/span><\/b><\/p>","SourceId":"cat670055","category.catalogs.repositoryId":"ICatalog1000","DisplayOrder":"0"}
+,"label":"Videojuegos","navigationState":"\/videojuegos\/N-0Z2bpn","siteRootPath":"\/pages","contentPath":"\/shop"}
+]
+,"properties":{"category.siteId":"LP_SITE_100,LP_SITE_300,LP_SITE_400","category.rootCatalogId":"ICatalog1000","category.ancestorCatalogIds":"ICatalog1000","category.repositoryId":"cat940610","SourceId":"cat670055.cat940610","category.catalogs.repositoryId":"ICatalog1000","DisplayOrder":"2"}
+,"label":"XBOX 360","multiSelect":false,"navigationState":"\/xbox-360\/N-0Z2brv","siteRootPath":"\/pages","contentPath":"\/shop","count":115}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[{"@class":"com.endeca.infront.cartridge.model.Ancestor","properties":{"category.siteId":"LP_SITE_100,LP_SITE_300,LP_SITE_400","category.rootCatalogId":"ICatalog1000","category.ancestorCatalogIds":"ICatalog1000","category.repositoryId":"cat670055","acercaDeSillas":"<p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">Lo mejor del mundo de los Videojuegos en Liverpool.com.mx<o:p><\/o:p><\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">&#160;<\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">¿Eres amante de los videojuegos o quieres&#160; ser un verdadero gamer? ¿Qué género es de tu agrado, acción, aventura, disparos&#160; o deportes? <o:p><\/o:p><\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">No te preocupes en liverpool.com.mx, tenemos amplia gama de&#160; videojuegos de las plataformas más populares del mercado, consolas y las&#160; mejores portátiles, que te llenarán de fabulosas horas de entretenimiento y&#160; diversión.<o:p><\/o:p><\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">&#160;<\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">Videojuegos para todas las consolas<o:p><\/o:p><\/span><\/b><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">Ingresa a Liverpool.com.mx compra todo tipo de videojuegos y consolas Play&#160; Station, Nintendo y Xbox, ideales para tus ratos libres o diversión en familia&#160; y amigos. Además adquiere accesorios, controles de todas las consolas, volantes&#160; ideales para videojuegos de carreras, controles inalámbricos y de edición &#160;limitada, figuras interactivas, tarjetas de prepago y preventas exclusivas.<o:p><\/o:p><\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">&#160;<\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">Se el primero en adquirir con un solo click en liverpool.com.mx grandes títulos&#160; de Xbox, Xbox One, Kinect, Play Station 3, Play Station 4, PS Vita, Nintendo DS&#160; y 3DS, Wii, Wii U, consolas y videojuegos de edición limitada, acércate a&#160; nuestra tienda en línea y consulta nuestro catálogo.<o:p><\/o:p><\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><span lang=\"ES-MX\">&#160;<\/span><\/p>  <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt;\"><b><span lang=\"ES-MX\">Videojuegos | Liverpool.com.mx<o:p><\/o:p><\/span><\/b><\/p>","SourceId":"cat670055","category.catalogs.repositoryId":"ICatalog1000","DisplayOrder":"0"}
+,"label":"Videojuegos","navigationState":"\/videojuegos\/N-0Z2bpn","siteRootPath":"\/pages","contentPath":"\/shop"}
+]
+,"properties":{"category.siteId":"LP_SITE_100,LP_SITE_300,LP_SITE_400","category.rootCatalogId":"ICatalog1000","category.ancestorCatalogIds":"ICatalog1000","category.repositoryId":"cat21100001","SourceId":"cat670055.cat21100001","category.catalogs.repositoryId":"ICatalog1000","DisplayOrder":"5"}
+,"label":"XBOX ONE","multiSelect":false,"navigationState":"\/xbox-one\/N-0Z2ia9","siteRootPath":"\/pages","contentPath":"\/shop","count":119}
+]
+,"dimensionName":"product.category","displayName":"product.category"}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchGroup","dimensionSearchValues":[{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"XBOX 360","multiSelect":true,"navigationState":"\/xbox-360\/N-0Z1z141fw","siteRootPath":"\/pages","contentPath":"\/shop","count":81}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"XBOX ONE","multiSelect":true,"navigationState":"\/xbox-one\/N-0Z1z132kc","siteRootPath":"\/pages","contentPath":"\/shop","count":85}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"XBOX LIVE","multiSelect":true,"navigationState":"\/xbox-live\/N-0Z1z12zfr","siteRootPath":"\/pages","contentPath":"\/shop","count":6}
+]
+,"dimensionName":"product.brand","displayName":"product.brand"}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchGroup","dimensionSearchValues":[{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"1017259144|Call Of Duty Ghosts para Xbox 360|null","multiSelect":false,"navigationState":"\/N-0Z1z0yra9","siteRootPath":"\/pages","contentPath":"\/shop","count":1}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"1019991551|Fifa 14 Xbox One|null","multiSelect":false,"navigationState":"\/N-0Z1z0yocw","siteRootPath":"\/pages","contentPath":"\/shop","count":1}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"1025710211|Murdered Soul Suspect Xbox One|null","multiSelect":false,"navigationState":"\/N-0Z1z0wjpn","siteRootPath":"\/pages","contentPath":"\/shop","count":1}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"1021205237|Angry Birds: Star Wars Xbox 360|null","multiSelect":false,"navigationState":"\/N-0Z1z0vqio","siteRootPath":"\/pages","contentPath":"\/shop","count":1}
+,{"@class":"com.endeca.infront.cartridge.model.DimensionSearchValue","ancestors":[]
+,"properties":{}
+,"label":"1000431229|Cars 2 Xbox 360|http:\/\/media20.liverpool.com.mx\/web\/images\/products\/es_MX\/sm\/1000431229.jpg","multiSelect":false,"navigationState":"\/N-0Z1z0m2v0","siteRootPath":"\/pages","contentPath":"\/shop","count":1}
+]
+,"dimensionName":"product.typeahead_prodTitle_prodId","displayName":"product.typeahead_prodTitle_prodId"}
+]
+,"totalNumResults":10,"title":"Search Suggestions:","displayImage":true,"name":"Dimension Search Auto-Suggest"}
+]
+}
+]
+,"atg:currentSiteProductionURL":"\/tienda","ruleLimit":3}
