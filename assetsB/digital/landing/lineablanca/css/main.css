@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500');
+
+
+
+/*BANNER PRINCIPAL*/
+
+.principal-lb{
+    position:relative !important;
+}
+
+.principal-lb-texto{
+    position:absolute !important;
+    width: 30% !important;
+    right:5%;
+    padding-top:4%;
+}
+
+.principal-lb-circulo{
+    position: relative;
+    border-radius: 50%;
+    width: 300px !important;
+    height: 300px !important;
+    background: white;
+    transition:1s all;
+    right:4%;
+    margin: 0;
+}
+
+.principal-lb-circulo p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px;
+    text-align:center;
+    padding-top:30%;
+    transition:1s all;
+}
+
+
+.principal-lb-circulo h5{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:25px;
+    text-align:center;
+    font-weight:300;
+    margin:10px;
+    transition:1s all;
+}
+
+
+.linea-lb{
+    position:relative;
+    margin:0 auto;
+    display:block;
+    width:40% !important;
+    height:1px;
+    background-color:black;
+    transition:1s all;
+}
+
+
+
+/*SMART */
+
+.smart-container{
+    position:relative;
+    width:100% !important;
+    transition:1s all;
+    opacity:1;
+    
+}
+
+.smart-texto{
+    position:absolute;
+    right:0;
+    bottom:0;
+    text-align:center;
+}
+
+.smart-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px !important;
+    text-align:right;
+    font-weight:400;
+    margin-bottom:0px;
+    
+    bottom:15px;
+    transition:1s all;
+}
+
+.smart-container:hover .smart-texto p{
+    transition:1s all;
+    margin-bottom:10px;
+}
+
+/*LAVADORAS*/
+
+.principal-lavadoras{
+    position:relative !important;
+}
+
+.principal-lavadoras-texto{
+    position:absolute !important;
+    width:42% !important;
+    bottom:10%;
+    right:0px;
+    opacity:1;
+    transition:1s all;
+}
+
+
+
+.principal-lavadoras-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:left;
+    padding-left:0;
+    margin:0px;
+    padding-bottom:10px;
+    font-weight:400;
+    line-height:0.9;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.principal-lavadoras-texto-2{
+    position:absolute !important;
+    width:50%;
+    bottom:0px;
+    right:30%;
+    opacity:0;
+    transition:1s all;
+
+}
+
+.principal-lavadoras-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.raya-lavadoras{
+  display:block;
+  height:1px;
+  background-color:black;
+  width:100%;
+}
+
+
+
+/*LAVADORAS*/
+
+.principal-integrales{
+    position:relative !important;
+}
+
+.principal-integrales-texto{
+    position:absolute !important;
+    width:50% !important;
+    bottom:10%;
+    right:0px;
+    opacity:1;
+    transition:1s all;
+}
+
+
+
+.principal-integrales-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:left;
+    padding-left:0;
+    margin:0px;
+    padding-bottom:10px;
+    font-weight:400;
+    line-height:0.9;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.principal-integrales-texto-2{
+    position:absolute !important;
+    width:50%;
+    bottom:0px;
+    right:30%;
+    opacity:0;
+    transition:1s all;
+
+}
+
+.principal-integrales-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.raya-lavadoras{
+  display:block;
+  height:1px;
+  background-color:black;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECADORAS*/
+
+.principal-secadoras{
+    position:relative !important;
+}
+
+.principal-secadoras-texto{
+    position:absolute !important;
+    width:100%;
+    top:0px;
+    transition:1s all;
+    right:0;
+    opacity:1;
+}
+
+.principal-secadoras-texto-2{
+    position:absolute !important;
+    width:100%;
+    top:0px;
+    transition:1s all;
+    opacity:0;
+    right:30%;
+}
+
+
+
+.principal-secadoras-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px !important;
+    text-align:center;
+    margin:0px;
+    padding-top:30px;
+}
+
+
+.principal-secadoras-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px !important;
+    text-align:center;
+    margin:0px;
+    padding-top:10px;
+}
+
+
+/*AIRE*/
+
+.principal-aire{
+    position:relative !important;
+}
+
+.principal-aire-texto{
+    position:absolute !important;
+    width:100% !important;
+    top:0px;
+    right:0;
+    transition:1s all;
+}
+
+
+
+.principal-aire-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:right;
+    margin:0px;
+    padding-top:25px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+    padding-right:5%;
+}
+
+.principal-aire-texto-2{
+    position:absolute !important;
+    width:50% !important;
+    bottom:0px;
+    right:30%;
+    opacity:0;
+    transition:1s all;
+
+}
+
+.principal-aire-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+
+
+/*ESTUFAS*/
+
+.principal-estufas{
+    position:relative !important;
+    margin-top:18px;
+}
+
+.principal-estufas-texto{
+    position:absolute !important;
+    width:100% !important;
+    bottom:0px;
+    transition:1s all;
+    right:0;
+}
+
+
+
+.principal-estufas-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:right;
+    margin:0px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+    padding-right:5%;
+    padding-bottom:3%;
+}
+
+.principal-estufas-texto-2{
+    position:absolute !important;
+    width:50% !important;
+    bottom:0px;
+    right:30%;
+    opacity:0;
+    transition:1s all;
+
+}
+
+.principal-estufas-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    font-size:30px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+
+/*CAFE*/
+
+.principal-cafe{
+    position:relative !important;
+    margin-top:17px;
+}
+
+.principal-cafe-texto{
+    position:absolute !important;
+    width:40% !important;
+    top:0px;
+    right:0px;
+    transition:1s all;
+    opacity:1;
+}
+
+
+
+.principal-cafe-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px !important;
+    text-align:center;
+    margin:0px;
+    padding-top:50%;
+}
+
+
+.principal-cafe-texto-2{
+    position:absolute !important;
+    width:100% !important;
+    top:0px;
+    transition:1s all;
+    opacity:0;
+    right:30%;
+}
+
+
+
+.principal-cafe-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px !important;
+    text-align:right;
+    margin:0px;
+    padding-top:25%;
+}
+
+
+/*MICRO*/
+
+.principal-micro{
+    position:relative !important;
+    margin-top:20px;
+}
+
+.principal-micro-texto{
+    position:absolute !important;
+    width:40% !important;
+    top:0px;
+    right:0px;
+    transition:1s all;
+    opacity:1;
+}
+
+
+
+.principal-micro-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px !important;
+    text-align:center;
+    margin:0px;
+    padding-top:50%;
+}
+
+
+.principal-micro-texto-2{
+    position:absolute !important;
+    width:100% !important;
+    top:0px;
+    transition:1s all;
+    opacity:0;
+    right:30%;
+}
+
+
+
+.principal-micro-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:black !important;
+    font-size:30px !important;
+    text-align:right;
+    margin:0px;
+    padding-top:25%;
+}
+
+
+
+/*FRIGO*/
+
+.principal-frigo{
+    position:relative !important;
+
+}
+
+.principal-frigo-texto{
+    position:absolute !important;
+    width:40% !important;
+    top:0px;
+    right:20px;
+    opacity:1;
+    transition:1s all;
+}
+
+
+
+.principal-frigo-texto p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    text-shadow: 1px 2px 7px rgba(0,0,0,0.82);    
+    font-size:30px !important;
+    text-align:center;
+    margin:0px;
+    padding-top:50%;
+}
+
+
+
+.principal-frigo-texto-2{
+    position:absolute !important;
+    width:100% !important;
+    top:0px;
+    transition:1s all;
+    opacity:0;
+    right:30%;
+}
+
+
+
+.principal-frigo-texto-2 p{
+    font-family: 'Rubik', sans-serif;
+    color:white !important;
+    text-shadow: 1px 2px 7px rgba(0,0,0,0.82);    
+    font-size:30px !important;
+    text-align:right;
+    margin:0px;
+    padding-top:25%;
+}
+
+
