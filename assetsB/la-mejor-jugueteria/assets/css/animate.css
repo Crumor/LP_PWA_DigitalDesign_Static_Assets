@@ -1,0 +1,401 @@
+.fondoNoche {
+    overflow: hidden;
+    position: relative;
+    background: rgba(23,7,127,1);
+    background: -moz-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23,7,127,1)), color-stop(77%, rgba(88,7,180,1)), color-stop(100%, rgba(88,7,180,1)));
+    background: -webkit-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
+    background: -o-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
+    background: -ms-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
+    background: linear-gradient(to bottom, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17077f', endColorstr='#5807b4', GradientType=0 );
+}
+
+.animationMainBig,
+.animationMainBig2 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+.animationMainBig img {
+    width: 100%;
+}
+
+.level1 {
+    z-index: 888;
+}
+
+.level2 {
+    z-index: 889;
+}
+
+.level3 {
+    z-index: 890;
+}
+
+.level4 {
+    z-index: 891;
+}
+
+.level5 {
+    z-index: 892;
+}
+
+.level6 {
+    z-index: 893;
+}
+
+.level7 {
+    z-index: 894;
+}
+
+#nube {
+    /* animation-name: nubeAnimation; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 100s;
+    opacity: 0;
+}
+
+#estrellas {}
+
+.snow1,
+.snow2 {
+    color: #fff;
+    top: -10%;
+    z-index: 1000;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #fff;
+    opacity: .8;
+    position: absolute;
+    animation-name: snow_animation1;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 7s;
+}
+
+.snow2 {
+    animation-name: snow_animation2;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 7.1s;
+}
+
+.snow3 {
+    animation-name: snow_animation3;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 7.4s;
+}
+
+@keyframes nubeAnimation {
+    0% {
+        left: -5%;
+        opacity: 0;
+    }
+    2% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        left: calc( 100% + 100px);
+    }
+}
+
+@keyframes estrellaAnimation {
+    from {
+        left: calc( 100% + 100px);
+        top: -400px;
+    }
+    to {
+        left: -100px;
+        top: 40%;
+    }
+}
+
+@keyframes particleAnimation {
+    0% {
+        top: -2%;
+        /*calc( 70% + 100px );*/
+        alpha: 1;
+    }
+    10% {
+        top: 150%;
+        left: -50%;
+        alpha: 0;
+    }
+    100% {
+        top: 150%;
+        left: -50%;
+        alpha: 0;
+    }
+}
+
+@keyframes snow_animation1 {
+    90% {
+        opacity: .8;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        top: 90%;
+        opacity: 0;
+        -webkit-transform: rotate(-280deg) translate(100px, 90%)
+    }
+}
+
+@keyframes snow_animation2 {
+    90% {
+        opacity: .8;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        top: 90%;
+        opacity: 0;
+        -webkit-transform: rotate(-380deg)
+    }
+}
+
+@keyframes snow_animation3 {
+    90% {
+        opacity: .8;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        top: 90%;
+        opacity: 0;
+        -webkit-transform: rotate(-280deg) translate(0px, 90%)
+    }
+}
+
+.pcometa {
+    position: absolute;
+    left: 100%;
+    top: -100px;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotate(140deg)
+}
+
+.pcometa::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100px;
+    right: 1px;
+    top: 0px;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.4) 100%);
+}
+
+.p-1 {
+    animation-name: particleAnimation;
+    animation-duration: 10s;
+    left: 40%;
+}
+
+.p-2 {
+    animation-name: particleAnimation;
+    animation-duration: 15s;
+    left: 60%;
+}
+
+.p-3 {
+    animation-name: particleAnimation;
+    animation-duration: 20s;
+    left: 90%;
+}
+
+@keyframes lucesAnimation {
+    0% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.luces1 {
+    animation-name: lucesAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.luces2 {
+    animation-name: lucesAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+}
+
+.luces3 {
+    animation-name: lucesAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.efectZoom {
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+
+.efectZoom:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1); // IE 9
+    -moz-transform: scale(1.1); // Firefox
+    -webkit-transform: scale(1.1); // Safari and Chrome
+    -o-transform: scale(1.1); // Opera
+}
+
+@-webkit-keyframes animate120 {
+    0% {
+        transform: rotate(45deg)
+    }
+    50% {
+        transform: rotate(120deg)
+    }
+    100% {
+        transform: rotate(45deg)
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes animate120 {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(30deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+.baston {
+    -webkit-animation-name: animate120;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;
+    /* Safari 4.0 - 8.0 */
+    animation-duration: 2s;
+    animation-name: animate120;
+    animation-iteration-count: infinite;
+}
+
+.baston1 {
+    bottom: -4%;
+    width: 4%;
+    top: auto;
+    left: 13%;
+    -webkit-animation-duration: 3s;
+    /* Safari 4.0 - 8.0 */
+    animation-duration: 3s;
+}
+
+.baston2 {
+    width: 2.5%;
+    right: 26%;
+    top: 69%;
+    -webkit-animation-duration: 2.5s;
+    /* Safari 4.0 - 8.0 */
+    animation-duration: 2.5s;
+}
+
+.baston3 {
+    bottom: -4%;
+    width: 2%;
+    top: auto;
+    left: 46%;
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-duration: 4s;
+}
+
+.baston4 {
+    width: 2%;
+    right: 56%;
+    top: 69%;
+}
+
+.baston5 {
+    bottom: -4%;
+    width: 4%;
+    top: auto;
+    right: 30%;
+}
+
+.baston6 {
+    width: 2.5%;
+    top: 76%;
+    right: 39%;
+    -webkit-animation-duration: 5s;
+    /* Safari 4.0 - 8.0 */
+    animation-duration: 5s;
+}
+
+
+/*loader*/
+
+.loader_generic {
+    position: absolute;
+    top: 0px;
+    margin: 20% 40%;
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #E10098;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

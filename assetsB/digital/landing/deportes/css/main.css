@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,700');
+
+
+/*MAIN BANNER*/
+
+.deportes-main{
+    width:100% !important;
+    height:auto;
+    position:relative;
+}
+
+.deportes-texto{
+    position:absolute;
+    width:40% !important;
+    text-align:center;
+    right:0;
+    bottom:20px;
+}
+
+.deportes-texto p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:24px;
+    font-weight:700;
+    color:white;
+}
+
+
+
+/*BANNER DE TRES*/
+
+.fondo-temporada{
+    background:url('https://assets.liverpool.com.mx/landings/deportes/img/deportes-fondo.jpg');
+    height:550px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.temporal-contenedor{
+    width: 75% !important;
+    position:relative;
+    margin:0 auto;
+    height:350px;
+    padding-top:2%;
+}
+
+
+
+/*DISCIPLINA 1*/
+
+.dis1-contenedor{
+    width:31% !important;
+    float:left;
+    position:relative;
+    margin: 1% !important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:300;
+    -webkit-box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.3);
+    transition:1s all;
+    top:0;
+}
+
+
+.dis1-contenedor:hover{
+    top:-20px;
+    -webkit-box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    -moz-box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    transition:1s all;
+}
+
+
+.dis1-texto{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position:absolute;
+    font-weight:800;
+    font-size:27px;
+    color:white;
+    top:55%;
+    text-align:center;
+    width: 100%;
+    text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.45);
+}
+
+.dis1-texto p{
+    margin:0;
+}
+
+
+/*DISCIPLINA 2*/
+
+.dis2-contenedor{
+    width:31% !important;
+    float:left;
+    position:relative;
+    margin: 1% !important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:300;
+    -webkit-box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.3);
+    transition:1s all;
+    top:0;
+}
+
+.dis2-contenedor:hover{
+    top:-20px;
+    -webkit-box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    -moz-box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    transition:1s all;
+
+    
+}
+
+.dis2-texto{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position:absolute;
+    font-weight:800;
+    font-size:27px;
+    color:white;
+    top:55%;
+    text-align:center;
+    width: 100%;
+    text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.45);
+}
+
+.dis2-texto p{
+    margin:0;
+}
+
+
+
+
+/*DISCIPLINA 3*/
+
+.dis3-contenedor{
+    width:31% !important;
+    float:left;
+    position:relative;
+    margin: 1% !important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:300;
+    -webkit-box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 6px -9px rgba(0,0,0,0.3);
+    transition:1s all;
+    top:0;
+}
+
+.dis3-contenedor:hover{
+    top:-20px;
+    -webkit-box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    -moz-box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    box-shadow: 25px 43px 95px -45px rgba(0,0,0,0.75);
+    transition:1s all;
+
+    
+}
+
+.dis3-texto{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position:absolute;
+    font-weight:800;
+    font-size:27px;
+    color:white;
+    top:55%;
+    text-align:center;
+    width: 100%;
+    text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.45);
+}
+
+.dis3-texto p{
+    margin:0;
+}
+
+
+
+
+/*BANNER SNEAKERS*/
+
+.fondo-sneakers{
+    background:url('https://assets.liverpool.com.mx/landings/deportes/img/tenis-fondo.png');
+    height: 300px;
+    background-size:cover;
+    background-position:center;
+    width:100% !important;
+    margin-top:-170px;
+}
+
+.sneakers-contenedor{
+    width: 75% !important;
+    position:relative;
+    margin:0 auto;
+    height:430px;
+    padding-top:9%;
+}
+
+
+
+/*SNEAKERS 1*/
+
+.snea1-contenedor{
+    width:45% !important;
+    float:left;
+    position:relative;
+    margin: 2% !important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    transition:1s all;
+    top:0;
+}
+
+.snea1-contenedor:hover{
+    top:-20px;
+    transition:1s all;
+
+    
+}
+
+.snea1-texto{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position:absolute;
+    font-weight:300;
+    font-size:27px;
+    color:black;
+    top:93%;
+    text-align:center;
+    width: 100%;
+}
+
+.snea1-texto p{
+    margin:0;
+}
+
+
+
+
+
+/*SNEAKERS 2*/
+
+.snea2-contenedor{
+    width:45% !important;
+    float:left;
+    position:relative;
+    margin: 2% !important;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    transition:1s all;
+    top:0;
+}
+
+.snea2-contenedor:hover{
+    top:-20px;
+    transition:1s all;
+
+    
+}
+
+.snea2-texto{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position:absolute;
+    font-weight:300;
+    font-size:27px;
+    color:black;
+    top:93%;
+    text-align:center;
+    width: 100%;
+}
+
+.snea2-texto p{
+    margin:0;
+}
+
+
+/*BANNERS FOOTER*/
+
+.contenedor-ropa p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align:center;
+    font-weight:300;
+    font-size:24px;
+    color:black;
+    margin:0;
+    padding:0;
+}
+
+
+
+.hvr-bob{
+    display:block !important;
+}

@@ -1,0 +1,91 @@
+{
+	"principal-banner":{
+        "picture": "./assets/images/categorias/08_coleccionables_art.png",
+        "patron":"./assets/images/categorias/08_patron_coleccionables.png",
+        "colorFondo":"#000000",
+        "analytics":"coleccionables"
+	},
+	"categories": {
+		"category-main":[
+		  {
+			"info":{
+			"categoryid": "catst1857449",
+			"label": "Marvel",
+        	"picture": "./assets/images/categorias/subcategorias/coleccionables/1coleccionables_marvel.jpg",
+        	"video":"",
+        	"catid":"1047677480",
+			"navigationState": "Marvel/N-35v7",
+            "colorfondo":"#ff1724"
+			},
+			"toys":[
+			{"id":"1047677480","image":"https://ss424.liverpool.com.mx/lg/1047677480.jpg","description":"Kotobukiya Hulk","longDescription":""},{"id":"1035141631","image":"https://ss424.liverpool.com.mx/lg/1035141631.jpg","description":"The Avengers Figura de Acción Hero Series Titan Ultimate","longDescription":""},{"id":"1035073511","image":"https://ss424.liverpool.com.mx/lg/1035073511.jpg","description":"The Avengers Figura de Capitán América","longDescription":""},{"id":"1035078025","image":"https://ss424.liverpool.com.mx/lg/1035078025.jpg","description":"The Avengers Figura de Thor Sólido","longDescription":""},{"id":"1035073490","image":"https://ss424.liverpool.com.mx/lg/1035073490.jpg","description":"The Avengers Figura de Iron Man","longDescription":""},{"id":"1035078041","image":"https://ss424.liverpool.com.mx/lg/1035078041.jpg","description":"Hasbro The Avengers Figura Hulk Sólido 12 Pulgadas","longDescription":""}
+					]
+		  },{
+		  "info":{
+			"categoryid": "catst1857450",
+			"label": "DC Comics",
+        	"picture": "./assets/images/categorias/subcategorias/coleccionables/2coleccionables_DC_COMICS.jpg",
+        	"video":"",
+        	"catid":"1058458801",
+			"navigationState": "dc-comics/N-35v8",
+            "colorfondo":"#040615"
+			},
+			"toys":[
+			{"id":"1060963424","image":"https://ss424.liverpool.com.mx/lg/1060963424.jpg","description":"Accesorio DX Morpher Power Rangers Ninja Steel","longDescription":""},{"id":"1051018784","image":"https://ss424.liverpool.com.mx/lg/1051018784.jpg","description":"Mattel Cinturón Multiusos de Batgirl","longDescription":""},{"id":"1051018776","image":"https://ss424.liverpool.com.mx/lg/1051018776.jpg","description":"Mattel Escudo de Súper Hero Girls Mujer Maravilla","longDescription":""},{"id":"1051018768","image":"https://ss424.liverpool.com.mx/lg/1051018768.jpg","description":"Mattel DC Superhero Girls Escuela","longDescription":""},{"id":"1051812880","image":"https://ss424.liverpool.com.mx/lg/1051812880.jpg","description":"Mattel Superhero Girls Supergirl Voladora","longDescription":""},{"id":"1051812898","image":"https://ss424.liverpool.com.mx/lg/1051812898.jpg","description":"Mattel Super Hero Girls Walkie Talkies","longDescription":""}
+					]
+			},{
+		"info":{
+			"categoryid": "catst1857451",
+			"label": "Star Wars",
+        	"picture": "./assets/images/categorias/subcategorias/coleccionables/3coleccionables_STAR_WARS.jpg",
+        	"video":"",
+        	"catid":"1061876711",
+			"navigationState": "star-Wars/N-35v9",
+            "colorfondo":"#1a1a1a"
+			},
+			"toys":[
+			{"id":"1062184171","image":"https://ss610.liverpool.com.mx/lg/1062184171.jpg","description":"Droide BB-9E Sphero Star Wars","longDescription":""},{"id":"1062184180","image":"https://ss610.liverpool.com.mx/lg/1062184180.jpg","description":"Droide R2-D2 Sphero Star Wars","longDescription":""},{"id":"1061419221","image":"https://ss424.liverpool.com.mx/lg/1061419221.jpg","description":"Figura Armable Elite Praetorian Guard Lego Star Wars","longDescription":""},{"id":"1061419281","image":"https://ss424.liverpool.com.mx/lg/1061419281.jpg","description":"Bombardero de la Resistencia Lego Star Wars","longDescription":""},{"id":"1061876673","image":"https://ss424.liverpool.com.mx/lg/1061876673.jpg","description":"Set Luke Skywalkers y Landspeeder Hasbro Star Wars","longDescription":""},{"id":"1061878731","image":"https://ss424.liverpool.com.mx/lg/1061878731.jpg","description":"Sable de Luz Giratorio Hasbro Star Wars Bladebuilders","longDescription":""},{"id":"1061419264","image":"https://ss424.liverpool.com.mx/lg/1061419264.jpg","description":"Set de Construcción Kylo Ren's Tie Fighter Lego Star Wars","longDescription":""},{"id":"1061878684","image":"https://ss424.liverpool.com.mx/lg/1061878684.jpg","description":"Blaster Nerf Star Wars Trooper Deluxe","longDescription":""},{"id":"1061876690","image":"https://ss424.liverpool.com.mx/lg/1061876690.jpg","description":"Máscara Electrónica Kylo Ren Hasbro Star Wars","longDescription":""},{"id":"1061419248","image":"https://ss424.liverpool.com.mx/lg/1061419248.jpg","description":"Set de Construcción Resistance Transport Pod Lego Star Wars","longDescription":""}
+					]
+			},
+			{
+			"info":{
+			"categoryid": "catst1857452",
+			"label": "Funko",
+        	"picture": "./assets/images/categorias/subcategorias/coleccionables/4coleccionables_funko.jpg",
+        	"video":"","catid":"1059566748",
+			"navigationState": "funko/N-35va",
+            "colorfondo":"#00aaff"
+			},
+			"toys":[
+			{"id":"1056212139","image":"https://ss424.liverpool.com.mx/lg/1056212139.jpg","description":"Funko Pop Game of Thrones Figura de Margaery Tyrell","longDescription":""},{"id":"1056212147","image":"https://ss424.liverpool.com.mx/lg/1056212147.jpg","description":"Funko Pop Game of Thrones Figura de Melisandre","longDescription":""},{"id":"1056212121","image":"https://ss424.liverpool.com.mx/lg/1056212121.jpg","description":"Funko Pop Game of Thrones Figura de Jorah Mormont","longDescription":""},{"id":"1056212082","image":"https://ss424.liverpool.com.mx/lg/1056212082.jpg","description":"Funko Pop Game of Thrones Figura de Bronn","longDescription":""},{"id":"1056212112","image":"https://ss424.liverpool.com.mx/lg/1056212112.jpg","description":"Funko Pop Game of Thrones Figura de Harpy","longDescription":""},{"id":"1056212180","image":"https://ss424.liverpool.com.mx/lg/1056212180.jpg","description":"Funko Pop Game of Thrones Figura de Stannis Baratheon","longDescription":""},{"id":"1056212171","image":"https://ss424.liverpool.com.mx/lg/1056212171.jpg","description":"Funko Pop Game of Thrones Figura de Rhaegal","longDescription":""},{"id":"1056212163","image":"https://ss424.liverpool.com.mx/lg/1056212163.jpg","description":"Funko Pop Game of Thrones Figura de Night King","longDescription":""},{"id":"1061289549","image":"https://ss424.liverpool.com.mx/lg/1061289549.jpg","description":"Figura Funko Pop! Liga de la Justicia Aquaman","longDescription":""},{"id":"1061289557","image":"https://ss424.liverpool.com.mx/lg/1061289557.jpg","description":"Figura Funko Pop! Liga de la Justicia Cyborg","longDescription":""}
+					]
+			},
+			{
+			"info":{
+			"categoryid": "cat6250100",
+			"label": "Metals",
+        	"picture": "./assets/images/categorias/subcategorias/coleccionables/4coleccionables_funko.jpg",
+        	"video":"","catid":"",
+			"navigationState": "metals/N-361b",
+            "colorfondo":"#00aaff"
+			},
+			"toys":[
+			{"id":"1054229336","image":"https://ss424.liverpool.com.mx/lg/1054229336.jpg","description":"Gese Metals Spider-Man Black Suit","longDescription":""},{"id":"1054229395","image":"https://ss424.liverpool.com.mx/lg/1054229395.jpg","description":"Gese Metals The Walkin Dead Michonne","longDescription":""},{"id":"1053549183","image":"https://ss424.liverpool.com.mx/lg/1053549183.jpg","description":"Gese Metals Figura de Catwoman","longDescription":""},{"id":"1053549191","image":"https://ss424.liverpool.com.mx/lg/1053549191.jpg","description":"Gese Metals Figura de Supergirl","longDescription":""},{"id":"1053550467","image":"https://ss424.liverpool.com.mx/lg/1053550467.jpg","description":"Gese Metals Figura de Wonder Woman","longDescription":""},{"id":"1053550441","image":"https://ss424.liverpool.com.mx/lg/1053550441.jpg","description":"Gese Metals Figura de Katana","longDescription":""},{"id":"1053550424","image":"https://ss424.liverpool.com.mx/lg/1053550424.jpg","description":"Gese Metals Figura de Poison Ivy","longDescription":""},{"id":"1051127966","image":"https://ss424.liverpool.com.mx/lg/1051127966.jpg","description":"Metals Die Cast Marvel Figura Winter Soldier","longDescription":""},{"id":"1051878716","image":"https://ss424.liverpool.com.mx/lg/1051878716.jpg","description":"Gese Metals Ghostbusters Zeddemore","longDescription":""},{"id":"1051128032","image":"https://ss424.liverpool.com.mx/lg/1051128032.jpg","description":"Metals Die Cast Killer Croc","longDescription":""}
+					]
+			},
+			{
+			"info":{
+			"categoryid": "catst1857453",
+			"label": "Otras Colecciones",
+        	"picture": "./assets/images/categorias/subcategorias/coleccionables/5coleccionables_otra.jpg",
+        	"video":"","catid":"1058458810",
+			"navigationState": "otras-colecciones/N-35vb",
+            "colorfondo":"#182633"
+			},
+			"toys":[
+			{"id":"1062074619","image":"https://ss424.liverpool.com.mx/lg/1062074619.jpg","description":"Set Batilanzador 2 en 1 Imaginext Super Friends","longDescription":""},{"id":"1062074571","image":"https://ss424.liverpool.com.mx/lg/1062074571.jpg","description":"Figura  Espada y Pico Minecraft","longDescription":""},{"id":"1053784069","image":"https://ss424.liverpool.com.mx/lg/1053784069.jpg","description":"Figura Mystery Minis Funko AMC the Walking Dead","longDescription":""},{"id":"1058460920","image":"https://ss424.liverpool.com.mx/lg/1058460920.jpg","description":"Coche de Colección Batman Batimobile","longDescription":""},{"id":"1058458780","image":"https://ss424.liverpool.com.mx/lg/1058458780.jpg","description":"Coche de Colección Fast & Furious Mitsubishi Eclipse","longDescription":""},{"id":"1058457911","image":"https://ss424.liverpool.com.mx/lg/1058457911.jpg","description":"Coche de Colección Transformers Barricade","longDescription":""},{"id":"1058457881","image":"https://ss424.liverpool.com.mx/lg/1058457881.jpg","description":"Coche de Colección Disney Cars Fillmore","longDescription":""},{"id":"1058457872","image":"https://ss424.liverpool.com.mx/lg/1058457872.jpg","description":"Coche de Colección Disney Dinoco Lightning McQueen","longDescription":""},{"id":"1058458739","image":"https://ss424.liverpool.com.mx/lg/1058458739.jpg","description":"Coche de Colección Transformers Bumblebee","longDescription":""},{"id":"1058458721","image":"https://ss424.liverpool.com.mx/lg/1058458721.jpg","description":"Coche de Colección Transformers Crosshairs","longDescription":""}
+					]
+			}	
+		
+	  ]}
+	  }

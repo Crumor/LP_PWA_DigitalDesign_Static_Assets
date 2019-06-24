@@ -1,0 +1,151 @@
+	  <!--modal-->
+	<div class="modal fade" id="modalAgrego" role="dialog">
+		<div class="modal-dialog modal-responsive-agregar">
+			<div class="modal-content " style="border-radius:0px;">
+				<div class="modal-header" style="border:none;">
+					<button type="button" class="custom-btn-close"  ng-click="cerrar()"><span class="modal-close icon-cerrar"></span></button>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-12">
+							<span class="style2 title-dialog-add-toy">¡Felicidades!</span>
+							</div>
+						<div class="col-md-12" style="margin-bottom:20px">
+							<span class="subTitle-dialog-add-toy">Agregaste un juguete a tu carta</span>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-5 col-xs-5">
+								   <img src="{{globalProducto.imageBg}}" class="img-responsive">
+								</div>
+								<div class="col-md-7 col-xs-7">
+									<p class="style3 texto-dialogo-add text-left" ng-bind="globalProducto.description">
+
+									</p>
+								</div>
+							</div>
+						</div>
+						<p>&nbsp;</p>
+						<div class="row" style="margin-bottom:2%; text-align: center;">
+							<div class="col-md-12">
+
+									<button type="button" id="md1-ver-micarta" class="btn-dialog-ver" ng-click="irMicarta()">Ver mi carta</button>
+
+
+									<button type="button" class="btn-dialog-agregar" ng-click="agregarMas()">Agregar más juguetes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		   </div>
+		</div>
+	<div class="modal fade" id="modalAgregado" role="dialog">
+		<div class="modal-dialog modal-responsive-agregar">
+			<div class="modal-content " style="border-radius:0px;">
+				<div class="modal-header" style="border:none;">
+					<button type="button" class="custom-btn-close"  ng-click="cerrar()"><span class="modal-close icon-cerrar"></span></button>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+							<div class="col-md-3 col-xs-3 col-sm-3" style="margin-bottom:20px">
+								<img src="assets/images/manita.png" style="width:100%;">
+							</div>
+							<div class="col-md-9 col-xs-9 col-sm-9" style="margin-bottom:20px">
+								<span class="subTitle-dialog-add-toy" style="font-size:26px;">Este producto ya esta agregado</span>
+							</div>
+						<p>&nbsp;</p>
+						<div class="row" style="margin-bottom:2%; text-align: center;">
+							<div class="col-md-12">
+
+									<button type="button" id="md1-ver-micarta" class="btn-dialog-ver" ng-click="irMicarta()">Ver mi carta</button>
+
+
+									<button type="button" class="btn-dialog-agregar" ng-click="agregarMas()">Agregar más juguetes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		   </div>
+		</div>
+<div class="modal fade" id="modalEnvioMal" role="dialog">
+		<div class="modal-dialog modal-sm modal-responsive-agregar">
+
+			<div class="modal-content" style="border-radius:0px;">
+				<div class="modal-header" style="border:none;">
+					<button type="button" class="custom-btn-close" data-dismiss="modal"><span class="modal-close icon-cerrar"></span></button>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12 text-center">
+						<div class="row">
+							<span class="style5 " style="">¡Ups! parece que algo salió mal</span>
+						</div>
+						<div class="row" style="margin-top:2%; padding-left:30px; padding-right:30px;">
+							<div class="col-md-2 col-xs-2">
+								   <img src="assets/images/alerta_wrong_app_75.png" class="img-responsive">
+							</div>
+							<p class="style6 text-left " style="">
+								Agrega algunos juguetes para enviar tu carta a los Reyes Magos.
+							</p>
+						</div>
+						<div class="row" style="margin-top:4%; margin-bottom:2%;">
+							<div class="col-md-12 col-xs-12">
+								<div class="col-md-12 col-xs-12">
+									<button type="button" class="btn-dialog-ver" ng-click="regresemosHome()"  data-dismiss="modal">Regresar a la Juguetería<i class="fa fa-angle-right" aria-hidden="true"></i></button>
+								</div>
+							</div>
+						</div><!---->
+					</div>
+				</div><!---->
+			</div>
+		</div>
+</div>
+<div class="modal fade" id="modalEnvioMalFalta" role="dialog">
+		<div class="modal-dialog modal-sm modal-responsive-agregar">
+
+			<div class="modal-content" style="border-radius:0px;">
+				<div class="modal-header" style="border:none;">
+					<button type="button" class="custom-btn-close" data-dismiss="modal"><span class="modal-close icon-cerrar"></span></button>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12 text-center">
+						<div class="row" style="text-align: left; margin-left: 10%;">
+							<div class="ups-image">
+								   <img src="assets/images/error.svg">
+							</div>
+							<p class="ups">¡Ups!</p>
+						</div>
+						<div class="row" style="margin-top:2%; padding-left:30px; padding-right:30px;">
+								<p class="style6 text-left " style="padding: 0 8%;">
+								   Parece que hay un error en el nombre o en el correo, revisa e intenta otra vez.
+								</p>
+
+						</div>
+						<div class="row" style="margin-top:4%; margin-bottom:2%;">
+							<div class="col-md-12 col-xs-12">
+								<div class="col-md-12 col-xs-12">
+								<button type="button" class="btn-dialog-ver"  data-dismiss="modal">Regresar a la juguetería <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		   </div>
+		</div>
+
+<div class="modal fade" id="modalInstrucciones" role="dialog">
+		<div class="modal-dialog modal-dialog-video modal-sm">
+  				<div class="modal-header" style="border:none;">
+					<button type="button" class="custom-btn-close" style="background:none; right:-20px;"data-dismiss="modal"><span class="modal-close icon-cerrar" style="color:#fff;"></span></button>
+
+				</div>
+			<div class="modal-video" style="border-radius:0px;">
+<iframe id="videoinstrucciones"src="https://www.youtube.com/embed/ZsZUxDkseCU" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+</div>

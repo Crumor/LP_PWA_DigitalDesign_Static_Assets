@@ -1,0 +1,114 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.col-sm-12{
+	padding: 0;
+}
+.header{
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -160px 0px;
+}
+.header.celebraciones{
+	background-image: url("https://assetsqa.liverpool.com.mx/appAssets/modal-mesaderegalos/images/celebraciones/bpm_celebracion_m_2.jpg");
+	background-position: right;
+}
+.header.todotipo{
+	background-image: url("https://assetsqa.liverpool.com.mx/appAssets/modal-mesaderegalos/images/bpm_ocasion_m.jpg");
+	background-position: left;
+}
+.modalgris{
+		padding: 20px;
+}
+h1{
+	color: white;
+	font-size:24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	position: absolute;
+	top: 20%;
+	left: 20px;
+}
+h2{
+	color: white;
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	 position: absolute;
+	width: 40%;
+	top: 31%;
+	left: 20px;
+}
+h3{
+	color: #828282;
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	padding: 10px 30px;
+}
+.events{
+	background: #f2f2f2;
+	padding: 20px 0;
+}
+
+.benefit{
+	background:white;
+	margin: 0 20px;
+	padding: 10px;
+}
+.benefits{
+	text-align: center;
+		padding: 20px;
+}
+.benefits img {
+	height: 130px;
+}
+p{
+	color: #828282;
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+}
+p.disclaimer{
+	font-size: 12px;
+	color: black;
+	margin: 0;
+	font-weight: 700;
+}
+ul{
+	padding-left: 20px;
+}
+li{
+	color: #828282;
+	font-size:13px;
+	line-height: 2em;
+	list-style-image: url('//assetsqa.liverpool.com.mx/appAssets/modal-mesaderegalos/images/celebraciones/check.png');
+}
+.modalgris ul li{
+	color: #828282;
+	font-size:13px;
+	line-height: 2em;
+	list-style-image: url('//assetsqa.liverpool.com.mx/appAssets/modal-mesaderegalos/images/celebraciones/rectangulo.png');
+}
+li.estrofa{
+	font-size: 11px;
+	list-style-type: none;
+	list-style-image:none;
+}
+button{
+	border: none;
+	margin-top:20px;
+	padding: 0;
+	height: 60px;
+}
+button a{
+	color:white;
+	background-color: #e10098;
+	padding: 20px 40px;
+}
+button a:hover{
+	color:white;
+	text-decoration: none;
+}

@@ -1,0 +1,84 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+
+
+@font-face {
+  font-family: 'Adineue';
+  src: url("fonts/adineue/adineuePRO-Regular.eot");
+  src: url("fonts/adineue/adineuePRO-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/adineue/adineuePRO-Regular.woff") format('woff'), url("../fonts/adineue/adineuePRO-Regular.ttf") format('truetype'), url("../fonts/adineue/adineuePRO-Regular.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adineue-Light';
+  src: url("fonts/adineue/adineuePRO-Light.eot");
+  src: url("fonts/adineue/adineuePRO-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/adineue/adineuePRO-Light.woff") format('woff'), url("../fonts/adineue/adineuePRO-Light.ttf") format('truetype'), url("../fonts/adineue/adineuePRO-Light.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adineue-Bold';
+  src: url("fonts/adineue/adineuePRO-Black.eot");
+  src: url("fonts/adineue/adineuePRO-Black.eot?#iefix") format('embedded-opentype'), url("../fonts/adineue/adineuePRO-Black.woff") format('woff'), url("../fonts/adineue/adineuePRO-Black.ttf") format('truetype'), url("../fonts/adineue/adineuePRO-Black.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon/icomoon.eot");
+  src: url("fonts/icomoon/icomoon.eot?#iefix") format('embedded-opentype'), url("../fonts/icomoon/icomoon.woff") format('woff'), url("../fonts/icomoon/icomoon.ttf") format('truetype'), url("../fonts/icomoon/icomoon.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.contenedor-adidas-main{
+    position:relative;
+    width:100% !important;
+}
+
+.contenedor-adidas-menu{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:#ebebeb;
+    width:90% !important;
+    height:50px;
+}
+
+.contenedor-adidas-menu ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    
+}
+
+.contenedor-adidas-menu ul li{
+    display:inline-block;
+    text-align:center;
+    padding:10px 50px;
+}
+
+.contenedor-adidas-menu ul li a{
+  font-family:Adineue-Bold,sans-serif;
+    font-size:18px;
+  text-decoration: underline;
+    color:black;
+    text-underline-position:below;
+}
+
+
+
+.adidas-banners-contenedor{
+    position:relative;
+    width:90% !important;
+    margin:0 auto;
+    border:1px solid #ebebeb;
+}
+
+

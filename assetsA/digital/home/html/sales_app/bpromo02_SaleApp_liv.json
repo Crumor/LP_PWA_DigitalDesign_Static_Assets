@@ -1,0 +1,22 @@
+{
+	"bannerType": "grid",
+	"bannerContent": [{
+			"type": "plp",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo02a_170619el_sales.jpg",
+			"redirectsTo": "cat480332",
+			"title": "el_170619",
+			"campaign": "Él hasta 40% de desc",
+			"view": "h_app_banner_secun",
+			"position": "0"
+		},
+		{
+			"type": "plp",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo02b_170619dep_sales.jpg",
+			"redirectsTo": "cat480332",
+			"title": "deportes_170619",
+			"campaign": "Deportes hasta 40% de desc",
+			"view": "h_app_banner_secun",
+			"position": "1"
+		}
+	]
+}
