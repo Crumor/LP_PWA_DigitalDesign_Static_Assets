@@ -1,0 +1,84 @@
+
+/*BOLD*/
+
+@font-face {
+    font-family: 'Century Gothic Std';
+    src: url('https://assets.liverpool.com.mx/landings/diorexpertise/fonts/CenturyGothicStd-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/diorexpertise/fonts/CenturyGothicStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*STD*/
+
+@font-face {
+    font-family: 'Century Gothic Std';
+    src: url('https://assets.liverpool.com.mx/landings/diorexpertise/fonts/CenturyGothicStd.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/diorexpertise/fonts/CenturyGothicStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.titulos-dior h4{
+    text-align:center;
+    font-family: 'Century Gothic Std';
+    font-weight:bold;
+    font-size:40px;
+    padding:0;
+    margin:0
+}
+
+.subtitulo-dior h6{
+    text-align:left;
+    font-family: 'Century Gothic Std';
+    font-weight:normal; 
+    font-size:24px;
+    margin:0;
+    padding:0;
+}
+
+.subtitulo-dior h5{
+    text-align:left;
+    font-family: 'Century Gothic Std';
+    font-weight:normal; 
+    font-size:30px;
+    margin:0;
+    padding:0;
+}
+
+.texto-dior p{
+    text-align:left;
+    font-family: 'Century Gothic Std';
+    font-weight:normal; 
+    font-size:17px;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+.tratamiento-dior h5{
+    text-align:center;
+    font-family: 'Century Gothic Std';
+    font-weight:normal; 
+    font-size:30px;
+    margin:0;
+    padding:0; 
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.tratamiento-dior p{
+    text-align:center;
+    font-family: 'Century Gothic Std';
+    font-weight:normal; 
+    font-size:17px;
+    margin:0 auto;
+    padding:0;   
+    margin-top:30px;
+    margin-bottom:30px;
+    width:80%;
+    
+}

@@ -1,0 +1,21 @@
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'Century Gothic Std';
+    src: url('https://assets.liverpool.com.mx/landings/dior/css/fonts/CenturyGothicStd.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/dior/css/fonts/CenturyGothicStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.efecto-dior{
+    opacity:1;
+    transition:1s all;
+}
+
+.efecto-dior:hover{
+    opacity:0.6;
+    transition:1s all;
+}
