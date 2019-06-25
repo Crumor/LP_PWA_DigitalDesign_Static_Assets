@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Century Gothic Std';
+    src: url('CenturyGothicStd.woff2') format('woff2'),
+        url('CenturyGothicStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
