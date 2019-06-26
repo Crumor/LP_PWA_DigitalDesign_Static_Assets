@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montblanc Type';
+    src: url('MontblancType-Regular.woff2') format('woff2'),
+        url('MontblancType-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montblanc Type';
+    src: url('MontblancType-Bold.woff2') format('woff2'),
+        url('MontblancType-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montblanc Type';
+    src: url('MontblancType-Italic.woff2') format('woff2'),
+        url('MontblancType-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
