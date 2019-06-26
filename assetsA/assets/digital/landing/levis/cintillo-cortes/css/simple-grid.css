@@ -1,0 +1,258 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* UNIVERSAL */
+
+/*html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}*/
+
+
+
+/* TYPOGRAPHY */
+
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.secc_blp {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100% !important;
+}
+
+.row [class^="col"] {
+  float: left;
+  padding: 10px 10px;
+  min-height: 0.125rem;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+
+}
+
+.row-derecha [class^="col"] {
+  float: right;
+  padding: 10px 10px;
+  min-height: 0.125rem;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+  clear:both;
+}
+
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 100% !important;
+}
+
+.col-1-sm {
+  width: 8.33% !important;
+}
+
+.col-2-sm {
+  width: 16.66% !important;
+}
+
+.col-3-sm {
+  width: 25% !important;
+}
+
+.col-4-sm {
+  width: 33.33% !important;
+}
+
+.col-5-sm {
+  width: 41.66% !important;
+}
+
+.col-6-sm {
+  width: 50% !important;
+}
+
+.col-7-sm {
+  width: 58.33% !important;
+}
+
+.col-8-sm {
+  width: 66.66% !important;
+}
+
+.col-9-sm {
+  width: 75% !important;
+}
+
+.col-10-sm {
+  width: 83.33% !important;
+}
+
+.col-11-sm {
+  width: 91.66% !important;
+}
+
+.col-12-sm {
+  width: 100% !important;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .secc_blp {
+    max-width: 1250px !important;
+  }
+
+    #main_wrapper .slotdiv{
+   max-width: 1250px!important;
+}
+
+#main_wrapper .slotdiv div {
+   width: auto;
+}
+#main_wrapper .slotdiv div img {
+   width: auto;
+}
+
+
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+.col-1 {
+  width: 8.33% !important;
+}
+
+.col-2 {
+  width: 16.66% !important;
+}
+
+.col-3 {
+  width: 25% !important;
+}
+
+.col-4 {
+  width: 33.33% !important;
+}
+
+.col-5 {
+  width: 41.66% !important;
+}
+
+.col-6 {
+  width: 50% !important;
+}
+
+.col-7 {
+  width: 58.33% !important;
+}
+
+.col-8 {
+  width: 66.66% !important;
+}
+
+.col-9 {
+  width: 75% !important;
+}
+
+.col-10 {
+  width: 83.33% !important;
+}
+
+.col-11 {
+  width: 91.66% !important;
+}
+
+.col-12 {
+  width: 100% !important;
+}
+
+  .hidden-sm {
+    display: block;
+  }
+
+    #main_wrapper .slotdiv{
+   width: 100% !important;
+}
+
+#main_wrapper .slotdiv div {
+   width: auto;
+}
+#main_wrapper .slotdiv div img {
+   width: auto;
+}
+
+
+
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .secc_blp {
+    width: 100% !important;
+  }
+
+    #main_wrapper .slotdiv{
+   width: 100% !important;
+}
+
+#main_wrapper .slotdiv div {
+   width: auto;
+}
+#main_wrapper .slotdiv div img {
+   width: auto;
+}
+
+
+
+}

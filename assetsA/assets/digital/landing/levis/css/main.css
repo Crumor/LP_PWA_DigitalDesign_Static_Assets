@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'Interstate';
+    src: url('../fonts/Interstate-Bold.woff2') format('woff2'),
+        url('../fonts/Interstate-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.contenedor-levis{
+    position:relative;
+    width:100% !important;
+    height: auto;
+}
+
+
+.texto-levis{
+    position:absolute;
+    width:100% !important;
+    right:0;
+    left:0;
+    margin:0 auto;
+    z-index:99;
+    top:40%;
+}
+
+.texto-levis h3{
+    font-family: 'Interstate' !important;
+    color:white !important;
+    font-size:28px !important;
+    text-align:center;
+    margin:0;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.imagen-levis{
+    position:relative;
+    width:100% !important;
+    margin:0 auto;
+    z-index:80;
+}
+
+
+
+
+
+
+
+ /* JEANS*/
+
+.jeans-ae{
+    width:100% !important;
+    position:relative;
+    height:auto;
+    top:3%;
+    z-index:99;
+}
+
+.jeans-texto{
+    position:relative;
+    width:100% !important;
+    float:left; 
+}
+
+.jeans-texto h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+    padding-top:60px;
+    padding-left:100px;
+}
+
+.jeans-texto p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+    padding-top:20px;
+    padding-left:100px;
+}
+
+.jeans-imagen{
+    position:relative;
+    width: 50% !important;
+    float:left;
+}
+
+.jeans-imagen img{
+    display:block;
+    max-width:250px;
+    margin-left:0px;
+}
+
+
+
+
+/* PLAYERAS*/
+
+.playeras-ae{
+    width:50% !important;
+    position:relative;
+    height:auto;
+    float:left;
+    top:-120px;
+}
+
+.playeras-texto{
+    position:relative;
+    width:100% !important;
+}
+
+.playeras-texto h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+    padding-top:30px;
+}
+
+.playeras-texto p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+    padding-top:20px;
+}
+
+.playeras-imagen{
+    position:relative;
+    width:100% !important;
+}
+
+.playeras-imagen img{
+    display:block;
+    max-width:250px;
+    margin:0 auto;
+}
+
+
+
+/* SHORTS*/
+
+.shorts-ae{
+    width:50% !important;
+    position:relative;
+    height:auto;
+    float:left;
+    top:-40px;
+    z-index:95;
+
+}
+
+.shorts-texto{
+    position:relative;
+    width:100% !important;
+}
+
+.shorts-texto h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+    padding-top:30px;
+}
+
+.shorts-texto p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+    padding-top:20px;
+}
+
+.shorts-imagen{
+    position:relative;
+    width:100% !important;
+}
+
+.shorts-imagen img{
+    display:block;
+    max-width:250px;
+    margin:0 auto;
+}
+
+
+
+.ae-segundo{
+    height:890px;
+    width:100% !important;
+    position:relative;
+    background:url('img/fondo-ae-2.jpg');
+    background-position:center;
+    background-size:cover;
+    
+}
+
+
+
+/* CHAMARRAS*/
+
+.chamarras-ae{
+    width:100% !important;
+    position:relative;
+    height:auto;
+    top:3%;
+    z-index:99;
+}
+
+.chamarras-texto{
+    position:relative;
+    width:50% !important;
+    float:left; 
+}
+
+.chamarras-texto h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+    padding-top:30px;
+}
+
+.chamarras-texto p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+    padding-top:20px;
+}
+
+.chamarras-imagen{
+    position:relative;
+    width:50% !important;
+    float:left;
+}
+
+.chamarras-imagen img{
+    display:block;
+    max-width:340px;
+    margin:0 auto;
+}
+
+
+
+/* CAMISAS*/
+
+.camisas-ae{
+    width:100% !important;
+    position:relative;
+    height:auto;
+    top:20%;
+    z-index:99;
+}
+
+.camisas-texto{
+    position:relative;
+    width:50% !important;
+    float:left; 
+    top:-40px;
+}
+
+.camisas-texto h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+    padding-top:40px;
+}
+
+.camisas-texto p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+    padding-top:20px;
+}
+
+.camisas-imagen{
+    position:relative;
+    width:50% !important;
+    float:left;
+    top:250px;
+}
+
+.camisas-imagen img{
+    display:block;
+    max-width:310px;
+    margin:0 auto;
+}
+
+
+/*CUADROS FINALES */
+
+.cuadros-texto{
+    width:100% !important;
+    text-align:center;
+}
+
+.cuadros-texto h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+    padding-top:20px;
+}
+
+.cuadros-texto p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+    padding-top:20px;
+}
+
+.hvr-bob{
+    display:block !important;
+}
+

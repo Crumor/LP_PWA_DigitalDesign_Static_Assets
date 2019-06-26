@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Book.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Light.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+/*American Eagle Banner*/
+
+.ae-main-container{
+    position:relative;
+}
+
+.ae-main-categorias{
+    position:absolute;
+    width:100% !important;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.ae-main-categorias ul{
+    width:100% !important;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    padding-top:5%;
+}
+
+.ae-main-categorias h4{
+    font-family: 'Gotham Medium';
+    font-size:45px;
+    text-align:center;
+    color:white;
+    padding:0;
+    margin:0;
+    padding-top:8%;
+}
+
+.ae-main-categorias ul li{
+    font-family: 'Gotham Light';
+    font-size:24px;
+    display:inline-block;
+    background-color:none;
+    color:white;
+    transition:1s all;
+    border:2px solid white;
+    padding:5px 80px;
+    margin:0px 20px;
+}
+
+.ae-main-categorias ul li:hover{
+    background-color:darkgrey;
+    transition:1s all;
+}
+
+.ae-main-categorias ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+/*SECUNDARIOS*/
+
+.secundarios-container{
+    position:relative;
+    opacity:1;
+    transition:1s all;
+    margin:0 auto;
+
+}
+
+
+.secundarios-container:hover{
+    opacity:0.7;
+    transition:1s all;
+}
+
+.secundarios-texto{
+    width:100% !important;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.secundarios-texto h4{
+    font-family: 'Gotham Medium';
+    font-size:37px;
+    color:white;
+    text-align:center;
+}
+
+/* AE ME*/
+
+.ae-me{
+    display:block;
+    max-width:30% !important;
+    margin:0 auto;
+}
