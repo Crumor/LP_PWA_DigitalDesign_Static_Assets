@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    src: url(https://assets.liverpool.com.mx/ralphlauren2018_landing/fonts/TradeGothicforNike365-BdCn.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/ralphlauren2018_landing/fonts/TradeGothicforNike365-BdCn.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.slots-nike{
+    position:relative;
+    width:100% !important;
+}
+
+.slots-nike-texto{
+    position:absolute;
+    width:100% !important;
+}
+
+.slots-nike-texto p{
+    display:inline-block;
+    color:white;
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    font-size:24px;
+    width:100% !important;
+    text-align:center;
+    padding-top:30%;
+    
+}
+
+/* TEXTO FUTBOL*/
+
+.texto-futbol h3{
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    text-align:center;
+    font-size:35px;
+    color:black;
+}
+
+.texto-futbol p{
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    text-align:center;
+    font-size:16px;
+    color:black;
+}
+
+
+.slots-futbol{
+    position:relative;
+    width:100% !important;
+}
+
+.slots-futbol-texto{
+    position:absolute;
+    width:100% !important;
+}
+
+.slots-futbol-texto h3{
+    display:inline-block;
+    color:white;
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    font-size:50px;
+    width:100% !important;
+    text-align:left;
+    padding-top:12%;
+    padding-left:15%;
+    
+}
+
+/* SEGUNDOS SLOTS*/
+
+.slots-neymar{
+    background-image:url('img/nike-neymar.jpg');
+    width:100% !important;
+    height:250px;
+    background-size:cover;
+-webkit-clip-path: polygon(0% 0, 100% 0%, 95% 100%, 0% 100%);
+clip-path: polygon(0% 0, 100% 0%, 95% 100%, 0% 100%);
+}
+
+
+.slots-neymar p{
+    display:inline-block;
+    color:white;
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    font-size:24px;
+    width:100% !important;
+    text-align:center;
+    padding-top:30%;
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 1);
+}
+
+
+
+.slots-entrenamiento-el{
+    background-image:url('img/nike-entrenamiento-el.jpg');
+    width:100% !important;
+    height:250px;
+    background-size:cover;
+-webkit-clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+}
+
+.slots-entrenamiento-el p{
+    display:inline-block;
+    color:white;
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    font-size:24px;
+    width:100% !important;
+    text-align:center;
+    padding-top:30%;
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 1);
+}
+
+
+.slots-estilo-el{
+    background-image:url('img/nike-estilo-el.jpg');
+    width:100% !important;
+    height:250px;
+    background-size:cover;
+-webkit-clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+.slots-estilo-el p{
+    display:inline-block;
+    color:white;
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    font-size:24px;
+    width:100% !important;
+    text-align:center;
+    padding-top:30%;
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 1);
+}
+
+
+
+/*CORRER ÉL*/
+
+
+.slots-correr-el{
+    position:relative;
+    width:100% !important;
+}
+
+.slots-correr-el-texto{
+    position:absolute;
+    width:100% !important;
+}
+
+.slots-correr-el-texto h3{
+    color:white;
+    font-family: 'Trade Gothic for Nike 365 BdCn';
+    font-size:50px;
+    text-align:right;
+    padding-top:12%;
+    padding-right:15%;
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 1);
+
+    
+}
+

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+
+.logo-aero{
+    max-width:320px;
+    display:block;
+    margin:0 auto;
+}
+
+
+.texto-benetton p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    text-align:center;
+    color:dimgrey;
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+}
+
+
+/*MAIN*/
+
+.main-general{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.main-general p{
+    position:absolute;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    z-index:99;
+    font-size:50px;
+    font-weight:500;
+    padding-top:29%;
+    text-align:center;
+    text-shadow: 4px 4px 11px rgba(150, 150, 150, 1);
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+
+
+
+/*SHORTS ELLA*/
+
+.shorts-ella-general{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.shorts-ella-general p{
+    position:absolute;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    z-index:99;
+    font-size:35px;
+    font-weight:500;
+    right:10%;
+    padding-top:10%;
+    text-shadow: 4px 4px 11px rgba(150, 150, 150, 1);
+}
+
+/*SUDADERAS*/
+
+.sudaderas-general{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.sudaderas-general p{
+    position:absolute;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    z-index:99;
+    font-size:35px;
+    font-weight:500;
+    right:10%;
+    padding-top:10%;
+    text-shadow: 4px 4px 11px rgba(150, 150, 150, 1);
+}
+
+/*CAMISAS*/
+
+.camisas-general{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.camisas-general p{
+    position:absolute;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    z-index:99;
+    font-size:35px;
+    font-weight:500;
+    right:10%;
+    padding-top:10%;
+    text-shadow: 4px 4px 11px rgba(150, 150, 150, 1);
+}
+
+
+/*JEANS*/
+
+.jeans-general{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.jeans-general p{
+    position:absolute;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    z-index:99;
+    font-size:35px;
+    font-weight:500;
+    padding-top:40%;
+    text-align:center;
+    text-shadow: 4px 4px 11px rgba(150, 150, 150, 1);
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+/*NINAS*/
+
+.ninas-general{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.ninas-general p{
+    position:absolute;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    z-index:99;
+    font-size:35px;
+    font-weight:500;
+    right:10%;
+    padding-top:10%;
+    text-shadow: 4px 4px 11px rgba(150, 150, 150, 1);
+}
+
+/*NINOS*/
+
+.ninos-general{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.ninos-general p{
+    position:absolute;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    z-index:99;
+    font-size:35px;
+    font-weight:500;
+    right:10%;
+    padding-top:10%;
+    text-shadow: 4px 4px 11px rgba(150, 150, 150, 1);
+}

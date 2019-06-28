@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500');
+
+
+
+/*BANNER PRINCIPAL*/
+
+.principal-muebles{
+    position:relative !important;
+}
+
+.principal-muebles-texto{
+    position:absolute !important;
+    width:30% !important;
+    right:5%;
+    padding-top:4%;
+}
+
+.principal-muebles-circulo{
+    position: relative;
+    border-radius: 50%;
+    width: 300px !important;
+    height: 300px !important;
+    background: white;
+    transition:1s all;
+    right:4%;
+}
+
+.principal-muebles-circulo p{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:black !important;
+    font-size:28px ;
+    text-align:center;
+    padding-top:25%;
+    transition:1s all; 
+    margin-bottom:10px;
+}
+
+
+.principal-muebles-circulo h5{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:black !important;
+    font-size:23px;
+    text-align:center;
+    font-weight:300;
+    margin:10px;
+    transition:1s all;
+}
+
+
+.linea-lb{
+    position:relative;
+    margin:0 auto;
+    display:block;
+    width:40% !important;
+    height:1px;
+    background-color:black;
+    transition:1s all;
+}
+
+
+/*MESAS*/
+
+.principal-mesas{
+    position:relative !important;
+}
+
+.principal-mesas-texto{
+    position:absolute !important;
+    width:50% !important;
+    bottom:0px;
+    right:0px;
+    opacity:1;
+    transition:1s all;
+}
+
+
+
+.principal-mesas-texto p{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:white !important;
+    font-size:28px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.principal-mesas-texto-2{
+    position:absolute !important;
+    width:50% !important;
+    bottom:0px;
+    right:30%;
+    opacity:0;
+    transition:1s all;
+
+}
+
+.principal-mesas-texto-2 p{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:white !important;
+    font-size:28px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+
+/*RECAMARA*/
+
+.principal-recamara{
+    position:relative !important;
+}
+
+.principal-recamara-texto{
+    position:absolute !important;
+    width:50% !important;
+    bottom:0px;
+    right:0px;
+    opacity:1;
+    transition:1s all;
+}
+
+
+
+.principal-recamara-texto p{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:white !important;
+    font-size:28px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.principal-recamara-texto-2{
+    position:absolute !important;
+    width:50% !important;
+    bottom:0px;
+    right:30%;
+    opacity:0;
+    transition:1s all;
+
+}
+
+.principal-recamara-texto-2 p{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:white !important;
+    font-size:28px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+/*DECORACIÃ“N*/
+
+.decoracion-contenedor{
+    position:relative;
+    width:100% !important;
+    background-color:#f5f5f5;
+    transition:1s all;
+}
+
+.decoracion-contenedor:hover .hover-decoracion{
+    visibility:visible;
+    opacity:0.5;
+    transition:1s all;
+}
+
+
+.decoracion-texto{
+    font-family: FuturaBT-Book;
+    position:absolute;
+    width:100% !important;
+    font-size:23px;
+    text-align:center;
+    color:white;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+    padding-top:30%;
+    z-index:99;
+}
+
+.hover-decoracion{
+    background-color:black;
+    width:100% !important;
+    height:100% !important;
+    position:absolute;
+    display:block;
+    visibility:hidden;
+    opacity:0;
+    transition:1s all;
+}
+
+.decoracion-texto p{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+
+
+/*JARDÃƒÂN*/
+
+.principal-jardin{
+    position:relative !important;
+}
+
+.principal-jardin-texto{
+    position:absolute !important;
+    width:100% !important;
+    bottom:0px;
+    right:0px;
+    opacity:1;
+    transition:1s all;
+}
+
+
+
+.principal-jardin-texto p{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:white !important;
+    font-size:28px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.principal-jardin-texto-2{
+    position:absolute !important;
+    width:50% !important;
+    bottom:0px;
+    right:30%;
+    opacity:0;
+    transition:1s all;
+
+}
+
+.principal-jardin-texto-2 p{
+    font-family: 'Helvetica Neue', Helvetica, Arial,;
+    color:white !important;
+    font-size:28px !important;
+    text-align:right;
+    padding-right:6%;
+    margin:0px;
+    padding-bottom:10px;
+    text-shadow: 3px 3px 17px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+

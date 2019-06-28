@@ -1,0 +1,382 @@
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Book.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Light.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+.logo-ae{
+    display:block;
+    max-width:350px;
+    height:auto;
+    margin:0 auto;
+}
+
+
+
+/*JEANS 2018-2019 */
+
+.ae-jeans-container{
+    width:100% !important;
+    min-height:390px;
+    background-image:url('https://assets.liverpool.com.mx/landings/americaneagle/img/ae-jeans.jpg');
+    background-position:center;
+    background-size:cover;
+}
+
+
+.ae-jeans-texto-uno{
+    text-align:center;
+    color:white;
+}
+
+.ae-jeans-texto-uno p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:white;
+    margin:0;
+    font-size:15px;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.ae-jeans-texto-uno h4{
+    font-family: 'Gotham Bold';
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin:0;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+    padding-top:8%;
+    
+}
+
+
+.ae-jeans-texto-dos{
+    text-align:center;
+    color:white;
+    width:100% !important;
+}
+
+
+.ae-jeans-texto-dos-uno{
+    text-align:center;
+    color:white;
+    width:50% !important;
+    float:left;
+}
+
+.ae-jeans-texto-dos-uno h4{
+    font-family: 'Gotham Bold';
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding:5px;
+    border:1px solid white;
+    width:50%;
+}
+
+.ae-jeans-texto-dos-uno p{
+    font-family: 'Gotham Light';
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:4%;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+.ae-jeans-texto-dos-dos{
+    text-align:center;
+    color:white;
+    width:50% !important;
+    float:left;
+}
+
+.ae-jeans-texto-dos-dos h4{
+    font-family: 'Gotham Bold';
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding:5px;
+    border:1px solid white;
+    width:50%;
+}
+
+.ae-jeans-texto-dos-dos p{
+    font-family: 'Gotham Light';
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:4%;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+/*CHAMARRAS 2018-2019*/
+
+.ae-chamarras-container{
+    width:100% !important;
+    min-height:680px;
+    background-image:url('https://assets.liverpool.com.mx/landings/americaneagle/img/ae-chamarras.jpg');
+    background-position:center;
+    background-size:cover;
+}
+
+
+.ae-chamarras-texto-uno{
+    text-align:center;
+    color:white;
+}
+
+.ae-chamarras-texto-uno img{
+    width:90% !important;
+}
+
+.ae-chamarras-texto-uno p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:white;
+    margin:0;
+    font-size:15px;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.ae-chamarras-texto-uno h4{
+    font-family: 'Gotham Bold';
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin:0;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+    padding-top:8%;
+    
+}
+
+
+.ae-chamarras-texto-dos{
+    text-align:center;
+    color:white;
+    width:100% !important;
+}
+
+
+.ae-chamarras-texto-dos-uno{
+    text-align:center;
+    color:white;
+    width:50% !important;
+    float:left;
+}
+
+.ae-chamarras-texto-dos-uno h4{
+    font-family: 'Gotham Bold';
+    font-size:22px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding:5px;
+    margin-top:30px;
+}
+
+.ae-chamarras-texto-dos-uno p{
+    font-family: 'Gotham Light';
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:4%;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+.ae-chamarras-texto-dos-dos{
+    text-align:center;
+    color:white;
+    width:50% !important;
+    float:left;
+}
+
+.ae-chamarras-texto-dos-dos h4{
+    font-family: 'Gotham Bold';
+    font-size:22px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding:5px;
+    margin-top:30px;
+
+}
+
+.ae-chamarras-texto-dos-dos p{
+    font-family: 'Gotham Light';
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:4%;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+.ae-chamarras-texto-dos-tres{
+    text-align:center;
+    color:white;
+    width:50% !important;
+    float:left;
+}
+
+.ae-chamarras-texto-dos-tres h4{
+    font-family: 'Gotham Bold';
+    font-size:22px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding:5px;
+    margin-top:30px;
+}
+
+.ae-chamarras-texto-dos-tres p{
+    font-family: 'Gotham Light';
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:4%;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*PANTALONES 2018-2019*/
+
+.ae-pantalones-container{
+    width:100% !important;
+    min-height:350px;
+    background-image:url('https://assets.liverpool.com.mx/landings/americaneagle/img/ae-pantalones.jpg');
+    background-position:center;
+    background-size:cover;
+}
+
+.ae-pantalones-texto{
+    width:50% !important;
+    float:right;
+    text-align:center;
+}
+
+
+
+.ae-pantalones-texto-uno{
+    text-align:center;
+    color:white;
+    width:100% !important;
+    float:left;
+}
+
+.ae-pantalones-texto-uno h4{
+    font-family: 'Gotham Bold';
+    font-size:22px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding:5px;
+    margin-top:40px;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.ae-pantalones-texto-uno p{
+    font-family: 'Gotham Light';
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:4%;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+/*PANTALONES 2018-2019*/
+
+.ae-camisas-container{
+    width:100% !important;
+    min-height:310px;
+    background-image:url('https://assets.liverpool.com.mx/landings/americaneagle/img/ae-camisas.jpg');
+    background-position:center;
+    background-size:cover;
+}
+
+.ae-camisas-texto{
+    width:35% !important;
+    float:right;
+    text-align:center;
+}
+
+
+
+.ae-camisas-texto-uno{
+    text-align:center;
+    color:white;
+    width:100%;
+    float:left;
+}
+
+.ae-camisas-texto-uno h4{
+    font-family: 'Gotham Bold';
+    font-size:22px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding:5px;
+    margin-top:40px;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.ae-camisas-texto-uno p{
+    font-family: 'Gotham Light';
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    padding-top:4%;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+

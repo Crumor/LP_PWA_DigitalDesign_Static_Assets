@@ -1,0 +1,110 @@
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('https://assets.liverpool.com.mx/landings/hugoboss/fonts/UniversLTStd-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/hugoboss/fonts/UniversLTStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('https://assets.liverpool.com.mx/landings/hugoboss/fonts/UniversLTStd-Light.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/hugoboss/fonts/UniversLTStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*LOGO*/
+
+.logo-hugo{
+    display:block;
+    margin:0 auto;
+    width:18% !important;
+    padding:10px;
+}
+
+
+
+/* HUGO VIDEO*/
+
+.hugo-texto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.hugo-container{
+    position:relative;
+    width:100%; !important;
+}
+
+.hugo-container h5{
+    font-family: 'Univers LT Std';
+    font-weight:300;
+    color:white;
+    margin:0;
+    padding:0;
+    font-size:30px;
+}
+
+.hugo-container h3{
+    font-family: 'Univers LT Std';
+    font-weight: bold;
+    color:white;
+    margin:0;
+    padding:0;
+    font-size:20px;
+}
+
+/*TITULOS*/
+
+
+.titulo-sec-hugo{
+    opacity:1;
+    transition:1s all;
+}
+
+.titulo-sec-hugo:hover{
+    opacity:0.5;
+    transition:1s all;
+}
+
+
+
+.titulo-hugo h3{
+    font-family: 'Univers LT Std';
+    font-weight:300 !important;
+    text-align:center;
+    color:black;
+    margin:0px;
+    padding:0;
+    font-size:18px;
+    margin-top:15px;
+}
+
+.titulo-sec-hugo h5{
+    font-family: 'Univers LT Std';
+    font-weight:bold;
+    text-align:center;
+    color:black;
+    margin:15px;
+    padding:0;
+    font-size:17px; 
+    letter-spacing: 1px;
+
+}
+
+.titulo-hugo p{
+    font-family: 'Univers LT Std';
+    font-weight:300;
+    text-align:center;
+    color:black;
+    margin:20px;
+    padding:0;
+    font-size:15px;   
+}

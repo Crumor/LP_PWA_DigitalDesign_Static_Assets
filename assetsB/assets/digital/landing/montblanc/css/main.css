@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Montblanc Type';
+    src: url('https://assets.liverpool.com.mx/landings/montblanc/fonts/MontblancType-Regular.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/montblanc/fonts/MontblancType-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montblanc Type';
+    src: url('https://assets.liverpool.com.mx/landings/montblanc/fonts/MontblancType-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/montblanc/fonts/MontblancType-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montblanc Type';
+    src: url('https://assets.liverpool.com.mx/landings/montblanc/fonts/MontblancType-Italic.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/montblanc/fonts/MontblancType-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.row a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.contenedor-texto{
+    font-family: 'Montblanc Type';
+    font-size:24px;
+    text-align:center;   
+}

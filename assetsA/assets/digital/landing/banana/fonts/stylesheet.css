@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Futura Std';
+    src: url('..foFuturaStd-Bold.woff2') format('woff2'),
+        url('FuturaStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('FuturaBT-Book.woff2') format('woff2'),
+        url('FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('FuturaLT-CondensedBold.woff2') format('woff2'),
+        url('FuturaLT-CondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

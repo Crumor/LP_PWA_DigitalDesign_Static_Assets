@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://assets.liverpool.com.mx/landings/mac/fonts/Antonio-Regular.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/mac/fonts/Antonio-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://assets.liverpool.com.mx/landings/mac/fonts/Antonio-Light.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/mac/fonts/Antonio-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://assets.liverpool.com.mx/landings/mac/fonts/Antonio-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/mac/fonts/Antonio-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.mac-titulos{
+    text-align:center;
+}
+
+.mac-titulos h2{
+    font-family: 'Antonio';
+    font-weight:bold;
+    font-size:40px;
+    padding:0;
+    margin:0;
+    
+}
+
+.mac-titulos p{
+    font-family: 'Antonio';
+    font-weight:300;
+    font-size:18px;
+    padding:0;
+    margin:0;
+    
+}
+
+.mac-categoria{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.mac-categoria-texto{
+  font-family: 'Antonio';
+  opacity:0;
+  font-weight:bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size:15px;
+    transition:1s all;
+}
+
+.mac-categoria-texto h2{
+    font-family: 'Antonio';
+    font-weight:bolder;
+    color:white;
+    font-size:34px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.44);
+}
+
+.mac-categoria:hover .mac-categoria-texto{
+    opacity:1;
+    transition:1s all;
+}
