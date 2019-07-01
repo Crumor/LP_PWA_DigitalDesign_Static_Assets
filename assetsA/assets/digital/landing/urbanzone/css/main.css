@@ -1,0 +1,66 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+/*MAIN URBAN ZONE*/
+
+.ella-container{
+    width:100% !important;
+    position:relative;
+    height:auto;
+    transition:1s all;
+}
+
+
+.ella-container:hover{
+    transition:1s all;
+    opacity:0.5;
+    z-index:1;
+}
+
+
+.el-container{
+    width:100% !important;
+    position:relative;
+    height:auto;
+    transition:1s all;
+}
+
+
+.el-container:hover{
+    transition:1s all;
+    opacity:0.5;
+    z-index:1;
+}
+
+
+
+.ella-texto{
+    width:100% !important;
+    position:absolute;
+    bottom:0;
+
+}
+
+.ella-texto p{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size:40px;  
+    padding-left:5%;
+    z-index:99;
+    
+}
+
+.imagen-uz{
+    transition:1s all;
+}
+
+.imagen-uz:hover{
+    transition:1s all;
+    opacity:0.5;
+}
+
+
+

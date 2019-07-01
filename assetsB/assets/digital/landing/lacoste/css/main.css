@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600');
+
+.row a{
+    text-decoration:none;
+}
+
+
+
+
+/*ELLA*/
+
+.contenedor-ella{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:black;
+}
+
+.contenedor-ella h4{
+    font-size:22px;
+    margin:0;
+    padding:5px;
+    font-weight:600;
+}
+
+.contenedor-ella p{
+    font-size:17px;
+    margin:0;
+    padding:5px;
+}
+
+/*CONTENEDOR EL*/
+
+.contenedor-el{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:black;
+}
+
+.contenedor-el h4{
+    font-size:22px;
+    margin:0;
+    padding:5px;
+    font-weight:600;
+}
+
+.contenedor-el p{
+    font-size:17px;
+    margin:0;
+    padding:5px;
+}
+
+
+/*CONTENEDOR ACCESORIOS*/
+
+
+.contenedor-accesorios{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:black;
+}
+
+.contenedor-accesorios h4{
+    font-size:22px;
+    margin:0;
+    padding:5px;
+    font-weight:600;
+}
+
+
+
+/*CONTENEDOR LENTES*/
+
+
+.contenedor-lentes{
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:black;
+}
+
+.contenedor-lentes img{
+    position:relative;
+    width:100% !important;
+}
+
+
+.contenedor-lentes h4{
+    position:absolute;
+    width:100% !important;
+    font-size:22px;
+    margin:0;
+    font-weight:600;
+    bottom:8%;
+}
+
+
+/*CONTENEDOR RELOJES*/
+
+
+.contenedor-relojes{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:black;
+}
+
+.contenedor-relojes h4{
+    font-size:22px;
+    margin:0;
+    padding:5px;
+    font-weight:600;
+}
+
+/*CONTENEDOR fragancias*/
+
+
+.contenedor-fragancias{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:black;
+}
+
+.contenedor-fragancias h4{
+    font-size:22px;
+    margin:0;
+    padding:5px;
+    font-weight:600;
+}
+
