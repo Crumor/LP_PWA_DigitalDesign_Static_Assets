@@ -1,0 +1,288 @@
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+	
+	font-family: 'georgiapro-light-2';
+    src: url('https://assets.liverpool.com.mx/pb-landing/font/georgiapro-light-2.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/pb-landing/font/georgiapro-light-2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/*MUEBLES BEBÉ*/
+
+.muebles-container{
+    font-family: 'Lato' !important;
+    width:100% !important;
+    display:inline-block;
+}
+
+.muebles-texto{
+    width:50% !important;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.muebles-texto h4{
+    font-family: 'Lato'  !important;
+    font-size:23px;
+    margin:0;
+    padding:0;
+    color:#000000;
+    text-align:center;
+
+}
+
+.muebles-texto p{
+    font-family: 'Lato' !important;
+    font-size:16px;
+    margin:0;
+    padding:10px 0 0 0;
+    color:#000000;
+    text-align:center;
+
+}
+
+
+/*MUEBLES INFANTIL*/
+
+.mueblesi-container{
+    font-family: 'Lato' !important;
+    width:100% !important;
+    display:inline-block;
+}
+
+.mueblesi-texto{
+    width:80% !important;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.mueblesi-texto h4{
+    font-family: 'Lato'  !important;
+    font-size:23px;
+    margin:0;
+    padding:0;
+    color:#000000;
+    text-align:center;
+
+}
+
+.mueblesi-texto p{
+    font-family: 'Lato' !important;
+    font-size:16px;
+    margin:0;
+    padding:10px 0 0 0;
+    color:#000000;
+    text-align:center;
+
+}
+
+
+
+/*ESTANCIA COMEDOR*/
+
+.estancia-container{
+    font-family: 'Lato' !important;
+    width:100% !important;
+    display:inline-block;
+    margin-top:50px;
+    border-right:none;
+}
+
+.estancia-texto{
+    width:100% !important;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.estancia-texto h4{
+    font-family: 'georgiapro-light-2' !important;
+    font-size:40px;
+    margin:0;
+    padding:30px 20px 0 0;
+    color:#000000;
+    text-align:right;
+
+}
+
+.estancia-texto p{
+    font-family: 'Lato' !important;
+    font-size:16px;
+    margin:0;
+    padding:10px 20px 30px 0;
+    color:#000000;
+    text-align:right;
+
+}
+
+
+/*MESA*/
+
+.mesa-container{
+    font-family: 'Lato' !important;
+    width:100% !important;
+    display:inline-block;
+    margin-top:60px;
+    border-left:none;
+}
+
+.mesa-texto{
+    width:100% !important;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.mesa-texto h4{
+    font-family: 'georgiapro-light-2' !important;
+    font-size:40px;
+    margin:0;
+    padding:60px 20px 0 20px;
+    color:#000000;
+    text-align:left;
+
+}
+
+.mesa-texto p{
+    font-family: 'Lato' !important;
+    font-size:16px;
+    margin:0;
+    padding:10px 20px 60px 20px;
+    color:#000000;
+    text-align:left;
+
+}
+
+
+
+/*PB 3*/
+
+.pbbla-container{
+    font-family: 'Lato';
+    width:100% !important;
+    display:inline-block;
+}
+
+.pbbla-texto{
+    width:80% !important;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.pbbla-texto h4{
+    font-family: 'Lato'  !important;
+    font-size:23px;
+    margin:0;
+    padding:0;
+    color:#000000;
+    text-align:center;
+
+}
+
+.pbbla-texto p{
+    font-family: 'Lato' !important;
+    font-size:16px;
+    margin:0;
+    padding:10px 0 0 0;
+    color:#000000;
+    text-align:center;
+
+}
+
+
+
+/*ACERCA DE*/
+
+.linea-acerca{
+    width:40% !important;
+    height:1px;
+    left:0;
+    right:0;
+    margin:10px auto;
+    position:absolute;
+    background-color:#666666;
+    position:relative;
+}
+
+.acerca-container{
+    font-family: 'Lato';
+    width:100% !important;
+    display:inline-block;
+}
+
+.acerca-texto{
+    width:80% !important;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.acerca-texto h4{
+    font-family: 'Lato' !important;
+    font-size:23px;
+    margin:0;
+    padding:0 0 20px 0;
+    color:#000000;
+    text-align:center;
+
+}
+
+.acerca-texto p{
+    font-family: 'Lato' !important;
+    font-size:16px;
+    margin:0;
+    padding:10px 0 0 0;
+    color:#000000;
+    text-align:center;
+
+}
+
+
+
+
+
+
+/*NUESTROS*/
+
+.nuestros-container{
+    font-family: 'Lato';
+    width:100% !important;
+    display:inline-block;
+    position:relative;
+}
+
+.nuestros-texto{
+    width:60% !important;
+    left:0;
+    right:0;
+    margin:40px auto;
+    position:absolute;
+    background-color: rgba(255,255,255,0.7);
+    padding:15px;
+    display:inline-block;
+}
+
+.nuestros-texto h4{
+    font-family: 'Lato' !important;
+    font-size:38px;
+    margin:0;
+    padding:0 0 10px 0;
+    color:#000000;
+    text-align:center;
+
+}
+
+.nuestros-texto p{
+    font-family: 'Lato' !important;
+    font-size:13px;
+    margin:0;
+    padding:5px 0 0 0;
+    color:#000000;
+    text-align:center;
+
+}
+
+
+
