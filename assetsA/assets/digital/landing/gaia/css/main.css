@@ -1,0 +1,9 @@
+.img-resp{
+    transition:1s all;
+    opacity:1;
+}
+
+.img-resp:hover{
+    transition:1s all;
+    opacity:0.5;
+}
