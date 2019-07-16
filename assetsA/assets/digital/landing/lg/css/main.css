@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+
+/*MAIN BANNER*/
+
+.lavado-container{
+    width:100% !important;
+    position:relative;
+    text-align:center;
+}
+
+.lavado-texto{
+    font-family: 'Roboto', sans-serif;
+    font-size:29px;
+    font-weight:500;
+    position:absolute;
+    text-align:right;
+    top:15%;
+    right:8%;
+}
+
+.lavado-texto p{
+    margin:0;
+    padding:0;
+    color:black;
+}
+
+
+
+
+/*PANTALLAS BANNER*/
+
+.pantallas-container{
+    width:100% !important;
+    position:relative;
+    text-align:center;
+}
+
+.pantallas-texto{
+    font-family: 'Roboto', sans-serif;
+    font-size:29px;
+    font-weight:500;
+    position:absolute;
+    text-align:right;
+    top:8%;
+    right:8%;
+}
+
+.pantallas-texto p{
+    margin:0;
+    padding:0;
+    color:white;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.65);
+}
+
+
+
+/*REFRIGERADORES BANNER*/
+
+.refrigeradores-container{
+    width:100% !important;
+    position:relative;
+    text-align:center;
+}
+
+.refrigeradores-texto{
+    font-family: 'Roboto', sans-serif;
+    font-size:29px;
+    font-weight:500;
+    position:absolute;
+    text-align:right;
+    top:50%;
+    right:8%;
+}
+
+.refrigeradores-texto p{
+    margin:0;
+    padding:0;
+    color:white;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.65);
+}
+
+
+/*CELULARES BANNER*/
+
+.celulares-container{
+    width:100% !important;
+    position:relative;
+    text-align:center;
+    margin-top:13px;
+}
+
+.celulares-texto{
+    font-family: 'Roboto', sans-serif;
+    font-size:29px;
+    font-weight:500;
+    position:absolute;
+    text-align:right;
+    top:50%;
+    right:8%;
+}
+
+.celulares-texto p{
+    margin:0;
+    padding:0;
+    color:white;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.65);
+}
+
+
+
+
+
+.hvr-bob{
+    display:block !important;
+}

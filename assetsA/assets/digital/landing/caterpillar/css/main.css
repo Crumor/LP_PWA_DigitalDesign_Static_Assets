@@ -1,0 +1,45 @@
+
+
+
+/*MAIN BANNER VIDEO */
+
+
+
+.container-general-video{
+    width:100% !important;
+    position:relative;
+    z-index:90;
+}
+
+.container-video{
+    position:relative;
+    width:100% !important;
+}
+
+.overlay-video{
+    width:100% !important;
+    position:absolute;
+    background-color:rgba(0,0,0,0.3);
+    z-index:99;
+    height: 100% !important;
+    transition:1s all;
+}
+
+.overlay-video h3{
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    font-weight:300;
+    font-size:38px;
+    color:white;
+    margin:0;
+    padding:0;
+    bottom:0;
+    text-align:center;
+    padding-top:18%;
+}
+
+
+.overlay-video:hover{
+    background-color:rgba(0,0,0,0.8);
+    transition:1s all;
+}
