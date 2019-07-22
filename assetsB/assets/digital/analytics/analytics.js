@@ -89,7 +89,6 @@
     		break;
     		case '/tienda/él/cat5020003':
 
-
 dataLayer.push({
 'event': 'impresionCampaign',
 'ecommerce': {
@@ -404,3 +403,4 @@ dataLayer.push({
     	
     	
     }
+}
