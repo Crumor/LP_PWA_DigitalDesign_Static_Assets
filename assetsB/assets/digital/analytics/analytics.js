@@ -1,6 +1,6 @@
 
     function myOnloadFunction(pageName,path) {
-    	switch(path){
+    	switch(pageName){
 
     		case '/tienda/home':
 				dataLayer.push({
