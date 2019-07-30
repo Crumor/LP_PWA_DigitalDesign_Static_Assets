@@ -1,5 +1,32 @@
+function showBlp(){
+  var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:'showPLP'},
+                   {catId:"catst11034202",validate:"true",id:"cat-0002", action:'showPLP'},
+                   {catId:"cat6910000",validate:"true",id:"cat-0003", action:'showPLP'},
+                   {catId:"cat6600048",validate:"true",id:"cat-0004", action:'showPLP'},
+                   {catId:"cat7230028",validate:"true",id:"cat-0001", action:'showPLP'},
+                   {catId:"cat7530016",validate:"true",id:"cat-0001", action:'showPLP'},
+                   {catId:"catst12274633",validate:"true",id:"cat-0001", action:'showPLP'}];
 
+
+  var catElements = (document.getElementById("target0")) ? document.getElementById("target0").children[0].children[0].children : '';
+  if(catElements){
+
+    for (var i = 0; i < catExcludeList.length; i++) {
+        var catExcludeId = catExcludeList[i].catId;
+        for (var i = 0; i < catElements.length; i++) {
+          var elements = catElements[i].children[0];
+          var catRefTitle = elements.getAttribute("href").substring(elements.getAttribute("href").lastIndexOf("/") + 1).split("?showPLP")[0];
+          if(catExcludeId != catRefTitle){
+              var catRef = elements.getAttribute("href").split("?showPLP")[0]+"?showPLP";
+              elements.setAttribute("href",catRef);
+          }
+        }
+      }
+   }
+
+}
     function myOnloadFunction(pageName,path) {
+        showBlp();
         switch(pageName){
 
             case '/tienda/home':
