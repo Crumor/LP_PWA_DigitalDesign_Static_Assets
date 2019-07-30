@@ -1593,11 +1593,404 @@ dataLayer.push({
 }
 });			
 				
+		
+				
+	// Brand Etam
+break;
+case '/tienda/etam/cat1200649':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+
+
+{
+'id': 'blp_etam_main_200619',
+'name': 'etam_Principal',
+'creative': 'blp_etam_main',
+'position': '01'
+},
+{
+'id': 'blp_etam_bra_200519',
+'name': 'Etam Bra',
+'creative': 'blp_etam_bra',
+'position': '02'
+},
+{
+'id': 'blp_etam_bodys_200519',
+'name': 'Etam Bodys',
+'creative': 'blp_etam_pantys',
+'position': '03'
+},
+{
+'id': 'etam_200519',
+'name': 'etam',
+'creative': 'blp_etam_bodys',
+'position': '04'
+},
+{
+'id': 'blp_etam_pijamas_200519',
+'name': 'Etam Pijamas',
+'creative': 'blp_etam_pijamas',
+'position': '05'
+},
+{
+'id': 'blp_etam_trajebanio_200519',
+'name': 'Etam Trajes de Baño',
+'creative': 'blp_etam_trajebano',
+'position': '06'
+},
+{
+'id': 'blp_etam_novias_200519',
+'name': 'Etam Novias',
+'creative': 'blp_etam_novias',
+'position': '07'
+}
+]
+}
+}
+});
+
+
+// Brand Raíces
+break;
+case '/tienda/raíces-mx/catst9673334':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+
+
+{
+'id': 'blp_raices_ropa_200519',
+'name': 'raices ropa',
+'creative': 'blp_raices_ropa',
+'position': '01'
+},
+{
+'id': 'blp_raices_bolsas_200519',
+'name': 'raices bolsas',
+'creative': 'blp_raices_bolsas',
+'position': '02'
+},
+{
+'id': 'blp_raices_zapatos_200519',
+'name': 'raices zapatos',
+'creative': 'blp_raices_zapatos',
+'position': '03'
+},
+{
+'id': 'blp_raices_accesorios_200519',
+'name': 'raices accesorios',
+'creative': 'blp_raices_accesorios',
+'position': '04'
+},
+{
+'id': 'blp_raices_maquillaje_200519',
+'name': 'raices maquillaje',
+'creative': 'blp_raices_maquillaje',
+'position': '05'
+},
+]
+}
+}
+});
+
+
+// Nine West
+break;
+case '//tienda/nine-west/cat4260003':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+
+{
+'id': 'ninewest_200519',
+'name': 'ninewest',
+'creative': 'blp_ninewest_zapatos',
+'position': '01'
+},
+{
+'id': 'ninewest_200519',
+'name': 'ninewest',
+'creative': 'blp_ninewest_coleccion',
+'position': '02'
+},
+{
+'id': 'ninewest_200519',
+'name': 'ninewest',
+'creative': 'blp_ninewest_bolsas',
+'position': '03'
+},
+{
+'id': 'ninewest_200519',
+'name': 'ninewest',
+'creative': 'blp_ninewest_kids',
+'position': '04'
+},
+
+]
+}
+}
+});
+				
+
+// Punt Roma
+				
+break;
+case '/tienda/punt-roma/cat1200686':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+
+{
+'id': 'punto_roma_180619',
+'name': 'punto_roma',
+'creative': 'blp_punto_roma_banner_principal',
+'position': '01'
+},
+{
+'id': 'punto_roma_180619',
+'name': 'punto_roma',
+'creative': 'blp_punto_roma_look',
+'position': '02'
+},
+{
+'id': 'punto_roma_180619',
+'name': 'punto_roma',
+'creative': 'blp_punto_roma_bolsas',
+'position': '03'
+},
+{
+'id': 'punto_roma_180619',
+'name': 'punto_roma',
+'creative': 'blp_punto_roma_exclusivos',
+'position': '04'
+},
+{
+'id': 'punto_roma_180619',
+'name': 'punto_roma',
+'creative': 'blp_punto_roma_video',
+'position': '05'
+},
+
+]
+}
+}
+});
+
+/* That´s it */ 
+
+break;
+case '/tienda/that-s-it/cat21010228':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_principal_thats_it',
+'position': '01'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_vestidos_thats_it',
+'position': '02'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_playeras_thats_it',
+'position': '03'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_blusas_thats_it',
+'position': '04'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_accesorios_thats_it',
+'position': '05'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_trajes_bano_thats_it',
+'position': '06'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_pantalones_thats_it',
+'position': '07'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_shorts_thats_it',
+'position': '08'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_trajes_ninas_thats_it',
+'position': '09'
+},
+{
+'id': 'thats_it_200619',
+'name': 'thats_it',
+'creative': 'blp_banner_ninos_thats_it',
+'position': '10'
+},
+]
+}
+}
+});
+
+
+/* Michael Kors*/ 
+
+break;
+case '/tienda/michael-kors/cat4980014':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+
+{
+'id': 'Michael_Kors_200619',
+'name': 'Michael_Kors',
+'creative': 'blp_michael_banner_wap_kors',
+'position': '01'
+},
+{
+'id': 'Michael_Kors_200619',
+'name': 'Michael_Kors',
+'creative': 'blp_banner_michael_kors_smart',
+'position': '02'
+},
+{
+'id': 'Michael_Kors_200619',
+'name': 'Michael_Kors',
+'creative': 'blp_banner_lentes_michael_kors',
+'position': '03'
+},
+{
+'id': 'Michael_Kors_200619',
+'name': 'Michael_Kors',
+'creative': 'blp_banner_smartwatch_michael_kors',
+'position': '04'
+},
+{
+'id': 'Michael_Kors_200619',
+'name': 'Michael_Kors',
+'creative': 'blp_banner_joyeria_michael_kors',
+'position': '05'
+},
+{
+'id': 'Michael_Kors_200619',
+'name': 'Michael_Kors',
+'creative': 'blp_banner_wonderlust_michael_kors',
+'position': '06'
+},
+]
+}
+}
+});
+
+
+/* GAP */ 
+
+break;
+case '/tienda/gap/catst1312370':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+
+{
+'id': 'gap_main_200619',
+'name': 'gap_Principal',
+'creative': 'blp_gap_main',
+'position': '01'
+},
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_blusas',
+'position': '02'
+},
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_playeras',
+'position': '03'
+},
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_vestidos',
+'position': '04'
+},
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_camisas',
+'position': '05'
+},
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_faldas',
+'position': '06'
+},
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_pantalones',
+'position': '07'
+},
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_denim',
+'position': '08'
+},
+]
+}
+}
+});			
+				
+				
+				
+				
 				
 				
 				
 
 /* BLP west elm*/
+				
 				
 			break;
             case '/tienda/west-elm/cat6600048':	
@@ -1650,13 +2043,6 @@ dataLayer.push({
 }
 }
 });
-
-
-
-
-
-
-
 
 
 
@@ -1829,120 +2215,7 @@ dataLayer.push({
 });            
             
             
-           /*BLP ETAM*/ 
-
-            break;
-            case '/tienda/etam/cat1200649':  
-            
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'blp_etam_main_200619',
-'name': 'etam_Principal',
-'creative': 'blp_etam_main',
-'position': '01'
-},
-{
-'id': 'blp_etam_bra_200519',
-'name': 'Etam Bra',
-'creative': 'blp_etam_bra',
-'position': '02'
-},
-{
-'id': 'blp_etam_pantys_200519',
-'name': 'Etam Pantys',
-'creative': 'blp_etam_pantys',
-'position': '03'
-},
-{
-'id': 'blp_etam_bodys_200519',
-'name': 'Etam Bodys',
-'creative': 'blp_etam_bodys',
-'position': '04'
-},
-{
-'id': 'blp_etam_pijamas_200519',
-'name': 'Etam Pijamas',
-'creative': 'blp_etam_pijamas',
-'position': '05'
-},
-{
-'id': 'blp_etam_trajebanio_200519',
-'name': 'Etam Trajes de Baño',
-'creative': 'blp_etam_trajebanio',
-'position': '06'
-},
-{
-'id': 'blp_etam_novias_200519',
-'name': 'Etam Novias',
-'creative': 'blp_etam_novias',
-'position': '07'
-}
-]
-}
-}
-});         
-				
           
-				       /*BLP RAICES*/ 
-
-            break;
-            case '/tienda/raíces-mx/catst9673334':  
-            
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'blp_raices_ropa_200519',
-'name': 'raices ropa',
-'creative': 'blp_raices_ropa',
-'position': '01'
-},
-{
-'id': 'blp_raices_bolsas_200519',
-'name': 'raices bolsas',
-'creative': 'blp_raices_bolsas',
-'position': '02'
-},
-{
-'id': 'blp_raices_zapatos_200519',
-'name': 'raices zapatos',
-'creative': 'blp_raices_zapatos',
-'position': '03'
-},
-{
-'id': 'blp_raices_accesorios_200519',
-'name': 'raices accesorios',
-'creative': 'blp_raices_accesorios',
-'position': '04'
-},
-{
-'id': 'blp_raices_maquillaje_200519',
-'name': 'raices maquillaje',
-'creative': 'blp_raices_maquillaje',
-'position': '05'
-},
-{
-'id': 'blp_etam_trajebanio_200519',
-'name': 'Etam Trajes de Baño',
-'creative': 'blp_etam_trajebanio',
-'position': '06'
-},
-{
-'id': 'blp_etam_novias_200519',
-'name': 'Etam Novias',
-'creative': 'blp_etam_novias',
-'position': '07'
-}
-]
-}
-}
-});  
             
       
             
