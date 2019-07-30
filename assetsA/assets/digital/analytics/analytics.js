@@ -119,7 +119,7 @@ function showBlp(){
  /*AQUÍ INICIA LANDING*/    
  
  
- /*PRIMER NIVEL EL*/ 
+  /*PRIMER NIVEL EL*/ 
        
             break;
             case '/tienda/él/cat5020003':
@@ -131,27 +131,27 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'lifestyle_main_180619',
-'name': 'Lifestyle Principal',
-'creative': 'blp_el_lifestyle_main',
+'id': 'bts_main_180619',
+'name': 'Back to School Liverpool',
+'creative': 'blp_el_bts_main',
 'position': '01'
 },
 {
-'id': 'el_jeans_180619',
-'name': 'El Jeans',
-'creative': 'blp_el_jeans',
+'id': 'acapella_300719',
+'name': 'Acapella Él',
+'creative': 'blp_el_acapella',
 'position': '02'
 },
 {
-'id': 'el_accesorios_180619',
-'name': 'El Accesorios',
-'creative': 'blp_el_accesorios',
+'id': 'camisas_formales_300719',
+'name': 'Camisas formales',
+'creative': 'blp_el_camisas_formales',
 'position': '03'
 },
 {
-'id': 'el_polo_180619',
-'name': 'El Polo',
-'creative': 'blp_el_polo',
+'id': 'american_eagle_300719',
+'name': 'American Eagle',
+'creative': 'blp_el_american_eagle',
 'position': '04'
 },
 {
@@ -203,21 +203,21 @@ dataLayer.push({
 'position': '12'
 },
 {
-'id': 'street_playeras_130519',
-'name': 'Street Playeras',
+'id': 'camisas_casuales_130519',
+'name': 'Camisas Casuales',
 'creative': 'blp_el_street_playeras',
 'position': '13'
 },
 {
-'id': 'street_mochilas_130519',
+'id': 'street_sueter_130519',
 'name': 'Street Mochilas',
 'creative': 'blp_el_street_mochilas',
 'position': '14'
 },
 {
-'id': 'street_outerwear_130519',
-'name': 'Street OuterWear',
-'creative': 'blp_el_street_outerwear',
+'id': 'chamarras_130519',
+'name': 'Chamarras',
+'creative': 'blp_el_chamarras',
 'position': '15'
 },
 {
@@ -290,9 +290,9 @@ dataLayer.push({
 'position': '01'
 },
 {
-'id': 'paco_rabanne_040619',
-'name': 'Paco Rabanne',
-'creative': 'blp_belleza_paco_rabanne',
+'id': 'palettes_300719',
+'name': 'Palettes Belleza',
+'creative': 'blp_belleza_palettes',
 'position': '02'
 },
 {
@@ -437,7 +437,6 @@ dataLayer.push({
 }
 }
 });
-
 
 /*PRIMER NIVEL DEPORTES*/ 
 
@@ -2071,6 +2070,1794 @@ dataLayer.push({
 }
 });
 
+                
+                
+/*BLP AMERICAN EAGLE*/ 
+       
+            break;
+            case '/tienda/american-eagle/catst9485126':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'jeans_ella_210619',
+    'name': 'AE Jeans Ella',
+    'creative': 'blp_ae_jeans_ella',
+    'position': '01'
+},
+{
+    'id': 'jeans_el_210619',
+    'name': 'AE Jeans El',
+    'creative': 'blp_ae_jeans_el',
+    'position': '02'
+},
+{
+    'id': 'curvy_jeans_210619',
+    'name': 'AE Curvy Jeans',
+    'creative': 'blp_ae_curvy_jeans',
+    'position': '03'
+},
+{
+    'id': 'airflex_210619',
+    'name': 'AE Airflex',
+    'creative': 'blp_ae_airflex',
+    'position': '04'
+},
+{
+    'id': 'playeras_ella_210619',
+    'name': 'AE Playeras Ella',
+    'creative': 'blp_ae_playeras_ella',
+    'position': '05'
+},
+{
+    'id': 'playeras_el_210619',
+    'name': 'AE Playeras El',
+    'creative': 'blp_ae_playeras_el',
+    'position': '06'
+},
+{
+    'id': 'blusas_ella_210619',
+    'name': 'AE Blusas Ella',
+    'creative': 'blp_ae_blusas_ella',
+    'position': '07'
+},
+{
+    'id': 'polos_el_210619',
+    'name': 'AE Polos El',
+    'creative': 'blp_ae_polos_el',
+    'position': '08'
+}
+]
+}
+}
+});            
+     
+ 
+/* BLP PUMA*/ 
+       
+            break;
+            case '/tienda/puma/cat4190004':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'puma_cabeza_210619',
+    'name': 'Cabeza Puma',
+    'creative': 'blp_puma_cabeza',
+    'position': '01'
+},
+{
+    'id': 'sportstyle_210619',
+    'name': 'SportStyle Puma',
+    'creative': 'blp_puma_sportstyle',
+    'position': '02'
+},
+{
+    'id': 'futbol_210619',
+    'name': 'Futbol Puma',
+    'creative': 'blp_puma_futbol',
+    'position': '03'
+},
+{
+    'id': 'training_210619',
+    'name': 'Training Puma',
+    'creative': 'blp_puma_training',
+    'position': '04'
+},
+{
+    'id': 'woman_210619',
+    'name': 'Woman Puma',
+    'creative': 'blp_puma_woman',
+    'position': '05'
+},
+{
+    'id': 'accesorios_210619',
+    'name': 'Accesorios Puma',
+    'creative': 'blp_puma_accesorios',
+    'position': '06'
+},
+{
+    'id': 'motosport_210619',
+    'name': 'Motosport Puma',
+    'creative': 'blp_puma_motosport',
+    'position': '07'
+},
+{
+    'id': 'kids_210619',
+    'name': 'Kids Puma',
+    'creative': 'blp_puma_kids',
+    'position': '08'
+}
+]
+}
+}
+});       
+                
+                
+/* BLP ADIDAS*/ 
+       
+            break;
+            case '/tienda/adidas/cat4190005':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'adidas_cabeza_210619',
+    'name': 'Cabeza Adidas',
+    'creative': 'blp_adidas_cabeza',
+    'position': '01'
+},
+{
+    'id': 'primeknit_210619',
+    'name': 'Adidas Primeknit',
+    'creative': 'blp_adidas_primeknit',
+    'position': '02'
+},
+{
+    'id': 'mujer_210619',
+    'name': 'Adidas Mujer',
+    'creative': 'blp_adidas_mujer',
+    'position': '03'
+},
+{
+    'id': 'hombre_210619',
+    'name': 'Adidas Hombre',
+    'creative': 'blp_adidas_hombre',
+    'position': '04'
+},
+{
+    'id': 'nino_210619',
+    'name': 'Adidas Niño',
+    'creative': 'blp_adidas_niño',
+    'position': '05'
+},
+{
+    'id': 'nina_210619',
+    'name': 'Adidas Niña',
+    'creative': 'blp_adidas_niña',
+    'position': '06'
+},
+{
+    'id': 'nofakers_210619',
+    'name': 'Adidas No Fakers',
+    'creative': 'blp_adidas_nofakers',
+    'position': '07'
+},
+{
+    'id': 'ultraboost_210619',
+    'name': 'Adidas Ultraboost',
+    'creative': 'blp_adidas_ultraboost',
+    'position': '08'
+},
+{
+    'id': 'sleek_210619',
+    'name': 'Adidas Sleek',
+    'creative': 'blp_adidas_sleek',
+    'position': '09'
+},
+{
+    'id': 'nino_210619',
+    'name': 'Adidas Niño',
+    'creative': 'blp_adidas_niño',
+    'position': '10'
+},
+{
+    'id': 'nina_210619',
+    'name': 'Adidas Niña',
+    'creative': 'blp_adidas_niña',
+    'position': '11'
+}
+]
+}
+}
+});    
+      
+                
+/* BLP NIKE*/ 
+       
+            break;
+            case '/tienda/nike/cat4190003':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'nike_woman_240619',
+'name': 'Nike Woman Main',
+'creative': 'blp_nike_woman_main',
+'position': '01'
+},
+{
+'id': 'correr_woman_240619',
+'name': 'Nike Woman Correr',
+'creative': 'blp_nike_woman_correr',
+'position': '02'
+},
+{
+'id': 'entrenamiento_woman_240619',
+'name': 'Nike Woman Entrenamiento',
+'creative': 'blp_nike_woman_entrenamiento',
+'position': '03'
+},
+{
+'id': 'lifestyle_woman_240619',
+'name': 'Nike Woman Lifestyle',
+'creative': 'blp_nike_woman_lifestyle',
+'position': '04'
+},
+{
+'id': 'endit_240619',
+'name': 'Nike End It',
+'creative': 'blp_nike_endit',
+'position': '05'
+},
+{
+'id': 'correr_man_240619',
+'name': 'Nike Man Correr',
+'creative': 'blp_nike_man_correr',
+'position': '06'
+},
+{
+'id': 'entrenamiento_man_240619',
+'name': 'Nike Man Entrenamiento',
+'creative': 'blp_nike_man_entrenamiento',
+'position': '07'
+},
+{
+'id': 'lifestyle_man_240619',
+'name': 'Nike Man Lifestyle',
+'creative': 'blp_nike_man_lifestyle',
+'position': '08'
+},
+{
+'id': 'allforone_240619',
+'name': 'Nike All for One',
+'creative': 'blp_nike_man_allforone',
+'position': '09'
+},
+{
+'id': 'nina_240619',
+'name': 'Nike Niña',
+'creative': 'blp_nike_nina',
+'position': '10'
+},
+{
+'id': 'nino_240619',
+'name': 'Nike Niño',
+'creative': 'blp_nike_nino',
+'position': '11'
+}
+]
+}
+}
+});                
+      
+/* BLP URBAN DECAY*/ 
+       
+            break;
+            case '/tienda/urban-decay/cat5190059':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'ud_main_210619',
+    'name': 'UD Cabeza',
+    'creative': 'blp_ud_cabeza',
+    'position': '01'
+},
+{
+    'id': 'naked_210619',
+    'name': 'UD Naked',
+    'creative': 'blp_ud_naked',
+    'position': '02'
+},
+{
+    'id': 'perversion_210619',
+    'name': 'UD Perversion',
+    'creative': 'blp_ud_perversion',
+    'position': '03'
+},
+{
+    'id': 'eyes_210619',
+    'name': 'UD Eyes',
+    'creative': 'blp_ud_eyes',
+    'position': '04'
+},
+{
+    'id': 'brush_210619',
+    'name': 'UD Brush',
+    'creative': 'blp_ud_brush',
+    'position': '05'
+},
+{
+    'id': 'labios_210619',
+    'name': 'UD Labios',
+    'creative': 'blp_ud_labios',
+    'position': '06'
+},
+{
+    'id': 'labios_210619',
+    'name': 'UD Skin',
+    'creative': 'blp_ud_skin',
+    'position': '07'
+}
+]
+}
+}
+});
+       
+      
+/* BLP PICKBOX*/ 
+       
+            break;
+            case '/tienda/pick-box/catst11034202':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'pickbox1_260619',
+    'name': 'Pickbox Caja 1',
+    'creative': 'blp_pickbox_1',
+    'position': '01'
+},
+{
+    'id': 'pickbox2_260619',
+    'name': 'Pickbox Caja 2',
+    'creative': 'blp_pickbox_2',
+    'position': '02'
+},
+{
+    'id': 'pickbox3_260619',
+    'name': 'Pickbox Caja 3',
+    'creative': 'blp_pickbox_3',
+    'position': '03'
+},
+{
+    'id': 'pickbox4_260619',
+    'name': 'Pickbox Caja 4',
+    'creative': 'blp_pickbox_4',
+    'position': '04'
+},
+{
+    'id': 'pickbox5_260619',
+    'name': 'Pickbox Caja 5',
+    'creative': 'blp_pickbox_5',
+    'position': '05'
+},
+{
+    'id': 'pickbox6_260619',
+    'name': 'Pickbox Caja 6',
+    'creative': 'blp_pickbox_6',
+    'position': '06'
+}
+]
+}
+}
+});
+                
+                
+/* BLP MAC*/ 
+       
+            break;
+            case '/tienda/mac/cat4450237':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'prolong_210619',
+    'name': 'Mac Prolong',
+    'creative': 'blp_mac_prolong',
+    'position': '01'
+},
+{
+    'id': 'vivaglam_210619',
+    'name': 'Mac Vivaglam',
+    'creative': 'blp_mac_vivaglam',
+    'position': '02'
+},
+{
+    'id': 'electricwonder_210619',
+    'name': 'Mac Electricwonder',
+    'creative': 'blp_mac_electricwonder',
+    'position': '03'
+},
+{
+    'id': 'bases_210619',
+    'name': 'Mac Bases',
+    'creative': 'blp_mac_bases',
+    'position': '04'
+},
+{
+    'id': 'lipstick_210619',
+    'name': 'Mac Lipstick',
+    'creative': 'blp_mac_lipstick',
+    'position': '05'
+},
+{
+    'id': 'primer_210619',
+    'name': 'Mac Primer',
+    'creative': 'blp_mac_primer',
+    'position': '06'
+},
+{
+    'id': 'sombras_210619',
+    'name': 'Mac Sombras',
+    'creative': 'blp_mac_sombras',
+    'position': '07'
+}
+]
+}
+}
+});
+                
+/* BLP ANASTASIA*/ 
+       
+            break;
+            case '/tienda/anastasia-beverly-hills/catst11447465':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'anastasia_main_210619',
+    'name': 'Anastasia Cabeza',
+    'creative': 'blp_anastasia_cabeza',
+    'position': '01'
+},
+{
+    'id': 'cejas_210619',
+    'name': 'Anastasia Cejas',
+    'creative': 'blp_anastasia_cejas',
+    'position': '02'
+},
+{
+    'id': 'powerduo_210619',
+    'name': 'Anastasia Powerduo',
+    'creative': 'blp_anastasia_power',
+    'position': '03'
+},
+{
+    'id': 'brows_210619',
+    'name': 'Anastasia Brows',
+    'creative': 'blp_anastasia_brows',
+    'position': '04'
+},
+{
+    'id': 'eyes_210619',
+    'name': 'Anastasia Eyes',
+    'creative': 'blp_anastasia_eyes',
+    'position': '05'
+},
+{
+    'id': 'face_210619',
+    'name': 'Anastasia Face',
+    'creative': 'blp_anastasia_face',
+    'position': '06'
+},
+{
+    'id': 'lipstcik_210619',
+    'name': 'Anastasia Lipstick',
+    'creative': 'blp_anastasia_lipstick',
+    'position': '07'
+}
+]
+}
+}
+});
+                
+/* BLP THE NORTH FACE TNF*/ 
+       
+            break;
+            case '/tienda/the-north-face/catst12274633':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'chamarras_210619',
+    'name': 'TNF Chamarras',
+    'creative': 'blp_tnf_chamarras',
+    'position': '01'
+},
+{
+    'id': 'ropa_210619',
+    'name': 'TNF Ropa',
+    'creative': 'blp_tnf_ropa',
+    'position': '02'
+},
+{
+    'id': 'calzado_210619',
+    'name': 'TNF Calzado',
+    'creative': 'blp_tnf_calzado',
+    'position': '03'
+},
+{
+    'id': 'accesorios_210619',
+    'name': 'TNF Accesorios',
+    'creative': 'blp_tnf_accesorios',
+    'position': '04'
+}
+]
+}
+}
+});
+                
+                
+/* BLP LEVIS*/ 
+       
+            break;
+            case '/tienda/levi-s/cat910605':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'levis_main_210619',
+    'name': 'Levis Main',
+    'creative': 'blp_levis_main',
+    'position': '01'
+},
+{
+    'id': 'el_210619',
+    'name': 'Levis El',
+    'creative': 'blp_levis_el',
+    'position': '02'
+},
+{
+    'id': 'ella_210619',
+    'name': 'Levis Ella',
+    'creative': 'blp_levis_ella',
+    'position': '03'
+},
+{
+    'id': 'plus_210619',
+    'name': 'Levis Plus',
+    'creative': 'blp_levis_plus',
+    'position': '04'
+},
+{
+    'id': 'chamarras_210619',
+    'name': 'Levis Chamarras',
+    'creative': 'blp_levis_chamarras',
+    'position': '05'
+},
+{
+    'id': 'camisas_210619',
+    'name': 'Levis Camisas',
+    'creative': 'blp_levis_camisas',
+    'position': '06'
+},
+{
+    'id': 'accesorios_210619',
+    'name': 'Levis Accesorios',
+    'creative': 'blp_levis_accesorios',
+    'position': '07'
+},
+{
+    'id': 'zapatos_210619',
+    'name': 'Levis Zapatos',
+    'creative': 'blp_levis_zapatos',
+    'position': '08'
+},
+{
+    'id': 'kids_210619',
+    'name': 'Levis Kids',
+    'creative': 'blp_levis_kids',
+    'position': '09'
+}
+]
+}
+}
+});
+                
+/* BLP HUGO BOSS*/ 
+       
+            break;
+            case '/tienda/hugo/catst12694505':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'tops_el_210619',
+    'name': 'Hugo Tops Él',
+    'creative': 'blp_hugo_tops_el',
+    'position': '01'
+},
+{
+    'id': 'accesorios_el_210619',
+    'name': 'Hugo Accesorios',
+    'creative': 'blp_hugo_accesorios_el',
+    'position': '02'
+},
+{
+    'id': 'bottoms_el_210619',
+    'name': 'Hugo Bottoms',
+    'creative': 'blp_hugo_bottoms_el',
+    'position': '03'
+},
+{
+    'id': 'tops_ella_210619',
+    'name': 'Hugo Tops Ella',
+    'creative': 'blp_hugo_tops_ella',
+    'position': '04'
+},
+{
+    'id': 'bottoms_ella_210619',
+    'name': 'Hugo Bottoms Ella',
+    'creative': 'blp_hugo_bottoms_ella',
+    'position': '05'
+},
+{
+    'id': 'accesorios_ella_210619',
+    'name': 'Hugo Accesorios Ella',
+    'creative': 'blp_hugo_accesorios_ella',
+    'position': '06'
+}
+]
+}
+}
+});
+                
+/* BLP CALVIN KLEIN CK*/ 
+       
+            break;
+            case '/tienda/calvin-klein/cat4990262':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'underwear_ella_210619',
+    'name': 'CK Underwear Ella',
+    'creative': 'blp_ck_underwear_ella',
+    'position': '01'
+},
+{
+    'id': 'underwear_el_210619',
+    'name': 'CK Underwear El',
+    'creative': 'blp_ck_underwear_el',
+    'position': '02'
+},
+{
+    'id': 'ropa_ella_210619',
+    'name': 'CK Ropa Ella',
+    'creative': 'blp_ck_ropa_ella',
+    'position': '03'
+},
+{
+    'id': 'ropa_el_210619',
+    'name': 'CK Ropa El',
+    'creative': 'blp_ck_ropa_el',
+    'position': '04'
+},
+{
+    'id': 'ella_210619',
+    'name': 'CK Ella',
+    'creative': 'blp_ck_ella',
+    'position': '05'
+},
+{
+    'id': 'el_210619',
+    'name': 'CK El',
+    'creative': 'blp_ck_el',
+    'position': '06'
+},
+{
+    'id': 'footwear_ella_210619',
+    'name': 'CK Footwear Ella',
+    'creative': 'blp_ck_footwear_ella',
+    'position': '07'
+},
+{
+    'id': 'footwear_el_210619',
+    'name': 'CK Footwear El',
+    'creative': 'blp_ck_footwear_el',
+    'position': '08'
+},
+{
+    'id': 'relojes_210619',
+    'name': 'CK Relojes',
+    'creative': 'blp_ck_relojes',
+    'position': '09'
+},
+{
+    'id': 'fragancias_210619',
+    'name': 'CK Fragancias',
+    'creative': 'blp_ck_fragancias',
+    'position': '10'
+},
+{
+    'id': 'lentes_210619',
+    'name': 'CK Lentes',
+    'creative': 'blp_ck_lentes',
+    'position': '11'
+}
+]
+}
+}
+});
+                
+      
+/* BLP APPLE*/ 
+       
+            break;
+            case '/tienda/apple/catst2145072':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_210619',
+    'name': 'Apple Main',
+    'creative': 'blp_apple_main',
+    'position': '01'
+},
+{
+    'id': 'watch_210619',
+    'name': 'Apple Watch',
+    'creative': 'blp_apple_watch',
+    'position': '02'
+},
+{
+    'id': 'macbook_210619',
+    'name': 'Apple Macbook',
+    'creative': 'blp_apple_macbook',
+    'position': '03'
+},
+{
+    'id': 'homepod_210619',
+    'name': 'Apple Homepedo',
+    'creative': 'blp_apple_homepod',
+    'position': '04'
+},
+{
+    'id': 'macbookair_210619',
+    'name': 'Apple Macbookair',
+    'creative': 'blp_apple_macbookair',
+    'position': '05'
+},
+{
+    'id': 'ipad_210619',
+    'name': 'Apple Ipad',
+    'creative': 'blp_apple_ipad',
+    'position': '06'
+},
+{
+    'id': 'imac_210619',
+    'name': 'Apple Imac',
+    'creative': 'blp_apple_imac',
+    'position': '07'
+},
+{
+    'id': 'accesorios_210619',
+    'name': 'Apple Accesorios',
+    'creative': 'blp_apple_accesorios',
+    'position': '08'
+},
+{
+    'id': 'macpro_210619',
+    'name': 'Apple Macpro',
+    'creative': 'blp_apple_macpro',
+    'position': '09'
+}
+]
+}
+}
+});
+                
+                
+/* BLP MONTBLANC*/ 
+       
+            break;
+            case '/tienda/montblanc/cat4470002':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'summit2_210619',
+    'name': 'MontBlanc Summit',
+    'creative': 'blp_mont_summit',
+    'position': '01'
+},
+{
+    'id': 'brazaletes_210619',
+    'name': 'MontBlanc Brazaletes',
+    'creative': 'blp_mont_brazaletes',
+    'position': '02'
+},
+{
+    'id': 'boligrafos_210619',
+    'name': 'MontBlanc Boligrafos',
+    'creative': 'blp_mont_boligrafos',
+    'position': '03'
+},
+{
+    'id': 'escritura_210619',
+    'name': 'MontBlanc Escritura',
+    'creative': 'blp_mont_escritura',
+    'position': '04'
+},
+{
+    'id': 'accesorios_210619',
+    'name': 'MontBlanc Accesorios',
+    'creative': 'blp_mont_accesorios',
+    'position': '05'
+},
+{
+    'id': 'joyeria_210619',
+    'name': 'MontBlanc Joyería',
+    'creative': 'blp_mont_joyeria',
+    'position': '06'
+}
+]
+}
+}
+});
+     
+                
+/* BLP URBAN ZONE*/ 
+       
+            break;
+            case '/tienda/urban-zone/catst6806801':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'ella_210619',
+    'name': 'UZ Ella',
+    'creative': 'blp_uz_ella',
+    'position': '01'
+},
+{
+    'id': 'topsella_210619',
+    'name': 'UZ Tops Ella',
+    'creative': 'blp_uz_tops_ella',
+    'position': '02'
+},
+{
+    'id': 'topsel_210619',
+    'name': 'UZ Tops El',
+    'creative': 'blp_uz_tops_el',
+    'position': '03'
+},
+{
+    'id': 'bottomsella_210619',
+    'name': 'UZ Bottoms Ella',
+    'creative': 'blp_uz_bottoms_ella',
+    'position': '04'
+},
+{
+    'id': 'bottomsel_210619',
+    'name': 'UZ Bottoms El',
+    'creative': 'blp_uz_bottoms_el',
+    'position': '05'
+},
+{
+    'id': 'el_210619',
+    'name': 'UZ El',
+    'creative': 'blp_uz_el',
+    'position': '06'
+},
+{
+    'id': 'accesorios_ella_210619',
+    'name': 'UZ Accesorios Ella',
+    'creative': 'blp_uz_accesorios_ella',
+    'position': '07'
+},
+{
+    'id': 'tenis_ella_210619',
+    'name': 'UZ Tenis Ella',
+    'creative': 'blp_uz_tenis_ella',
+    'position': '08'
+},
+{
+    'id': 'accesorios_el_210619',
+    'name': 'UZ Accesorios El',
+    'creative': 'blp_uz_accesorios_el',
+    'position': '09'
+},
+{
+    'id': 'tenis_el_210619',
+    'name': 'UZ Tenis El',
+    'creative': 'blp_uz_tenis_el',
+    'position': '10'
+}
+]
+}
+}
+});
+                
+/* BLP CATERPILLAR CAT*/ 
+       
+            break;
+            case '/tienda/caterpillar/catst6652931':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'maincat_210619',
+    'name': 'Caterpillar Main',
+    'creative': 'blp_cat_main',
+    'position': '01'
+},
+{
+    'id': 'men_210619',
+    'name': 'Caterpillar Men',
+    'creative': 'blp_cat_men',
+    'position': '02'
+},
+{
+    'id': 'women_210619',
+    'name': 'Caterpillar Women',
+    'creative': 'blp_cat_women',
+    'position': '03'
+},
+{
+    'id': 'equipaje_210619',
+    'name': 'Caterpillar Equipaje',
+    'creative': 'blp_cat_equipaje',
+    'position': '04'
+},
+{
+    'id': 'work_210619',
+    'name': 'Caterpillar Work',
+    'creative': 'blp_cat_work',
+    'position': '05'
+},
+{
+    'id': 'accesorios_210619',
+    'name': 'Caterpillar Accesorios',
+    'creative': 'blp_cat_accesorios',
+    'position': '06'
+},
+{
+    'id': 'video_210619',
+    'name': 'Caterpillar Video',
+    'creative': 'blp_cat_video',
+    'position': '07'
+}
+]
+}
+}
+});
+          
+/* BLP DIOR*/ 
+       
+            break;
+            case '/tienda/dior/catst8828070':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'dior_sauvage_210619',
+    'name': 'Dior Sauvage',
+    'creative': 'blp_dior_sauvage',
+    'position': '01'
+},
+{
+    'id': 'dior_expertise_210619',
+    'name': 'Dior Expertise',
+    'creative': 'blp_dior_expertise',
+    'position': '02'
+}
+]
+}
+}
+});
+        
+/* BLP DIOR*/ 
+       
+            break;
+            case '/tienda/dior/catst8828070':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'dior_sauvage_210619',
+    'name': 'Dior Sauvage',
+    'creative': 'blp_dior_sauvage',
+    'position': '01'
+},
+{
+    'id': 'dior_expertise_210619',
+    'name': 'Dior Expertise',
+    'creative': 'blp_dior_expertise',
+    'position': '02'
+}
+]
+}
+}
+});
+   
+/* BLP BANAN REPUBLIC*/ 
+       
+            break;
+            case '/tienda/banana-republic/catst1316206':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_210619',
+    'name': 'BR Main',
+    'creative': 'blp_br_main',
+    'position': '01'
+},
+{
+    'id': 'workinglife_210619',
+    'name': 'BR Working Life',
+    'creative': 'blp_br_working',
+    'position': '02'
+},
+{
+    'id': 'ella_210619',
+    'name': 'BR Ella',
+    'creative': 'blp_br_ella',
+    'position': '03'
+},
+{
+    'id': 'el_210619',
+    'name': 'BR Él',
+    'creative': 'blp_br_el',
+    'position': '04'
+},
+{
+    'id': 'fragrance_210619',
+    'name': 'BR Fragrance',
+    'creative': 'blp_br_fragrance',
+    'position': '05'
+},
+{
+    'id': 'vestidos_210619',
+    'name': 'BR Vestidos',
+    'creative': 'blp_br_vestidos',
+    'position': '06'
+},
+{
+    'id': 'blusas_210619',
+    'name': 'BR Blusas',
+    'creative': 'blp_br_blusas',
+    'position': '07'
+},
+{
+    'id': 'camisas_210619',
+    'name': 'BR Camisas',
+    'creative': 'blp_br_camisas',
+    'position': '08'
+},
+{
+    'id': 'polos_210619',
+    'name': 'BR Polos',
+    'creative': 'blp_br_polos',
+    'position': '09'
+},
+{
+    'id': 'pantalones_ella_210619',
+    'name': 'BR Pantalones Ella',
+    'creative': 'blp_br_pantalones_ella',
+    'position': '10'
+},
+{
+    'id': 'sueteres_ella_210619',
+    'name': 'BR Sueteres Ella',
+    'creative': 'blp_br_sueteres_ella',
+    'position': '11'
+},
+{
+    'id': 'pantalones_el_210619',
+    'name': 'BR Pantalones El',
+    'creative': 'blp_br_pantalones_el',
+    'position': '12'
+},
+{
+    'id': 'sueteres_el_210619',
+    'name': 'BR Sueteres El',
+    'creative': 'blp_br_sueteres_el',
+    'position': '13'
+}
+]
+}
+}
+});
+                
+/* BLP RALPH LAUREN POLO*/ 
+       
+            break;
+            case '/tienda/ralph-lauren/cat4920000':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_210619',
+    'name': 'RL Main',
+    'creative': 'blp_rl_main',
+    'position': '01'
+},
+{
+    'id': 'ella_210619',
+    'name': 'RL Ella',
+    'creative': 'blp_rl_ella',
+    'position': '02'
+},
+{
+    'id': 'bebes_210619',
+    'name': 'RL Bebes',
+    'creative': 'blp_rl_bebes',
+    'position': '03'
+},
+{
+    'id': 'nina_210619',
+    'name': 'RL Nina',
+    'creative': 'blp_rl_nina',
+    'position': '04'
+},
+{
+    'id': 'nino_210619',
+    'name': 'RL Nino',
+    'creative': 'blp_rl_nino',
+    'position': '05'
+}
+]
+}
+}
+});
+      
+                
+/* BLP GAIA*/ 
+       
+            break;
+            case '/tienda/gaia/catst13196369':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_210619',
+    'name': 'Gaia Main',
+    'creative': 'blp_gaia_main',
+    'position': '01'
+},
+{
+    'id': 'accesorios_210619',
+    'name': 'Gaia Accesorios',
+    'creative': 'blp_gaia_accesorios',
+    'position': '02'
+},
+{
+    'id': 'sofa_210619',
+    'name': 'Gaia Sofa',
+    'creative': 'blp_gaia_sofa',
+    'position': '03'
+},
+{
+    'id': 'iluminacion_210619',
+    'name': 'Gaia Iluminacion',
+    'creative': 'blp_gaia_iluminacion',
+    'position': '04'
+},
+{
+    'id': 'sillas_210619',
+    'name': 'Gaia Sillas',
+    'creative': 'blp_gaia_sillas',
+    'position': '05'
+}
+]
+}
+}
+});
+                
+/* BLP DISNEY*/ 
+       
+            break;
+            case '/tienda/disney-collection/cat21010034':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_210619',
+    'name': 'Disney Main',
+    'creative': 'blp_disney_main',
+    'position': '01'
+},
+{
+    'id': 'lluvia_210619',
+    'name': 'Disney Lluvia',
+    'creative': 'blp_disney_lluvia',
+    'position': '02'
+},
+{
+    'id': 'playeras_210619',
+    'name': 'Disney Playeras',
+    'creative': 'blp_disney_playeras',
+    'position': '03'
+},
+{
+    'id': 'stitch_210619',
+    'name': 'Disney Stitch',
+    'creative': 'blp_disney_stitch',
+    'position': '04'
+},
+{
+    'id': 'peluches_210619',
+    'name': 'Disney Peluches',
+    'creative': 'blp_disney_peluches',
+    'position': '05'
+},
+{
+    'id': 'princesas_210619',
+    'name': 'Disney Princesas',
+    'creative': 'blp_disney_princesas',
+    'position': '06'
+},
+{
+    'id': 'munecas_210619',
+    'name': 'Disney Muñecas',
+    'creative': 'blp_disney_muñecas',
+    'position': '07'
+},
+{
+    'id': 'figuras_210619',
+    'name': 'Disney Figuras',
+    'creative': 'blp_disney_figuras',
+    'position': '08'
+}
+]
+}
+}
+});
+                
+/* BLP LEGO*/ 
+       
+            break;
+            case '/tienda/lego/cat4050000':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'avengers_210619',
+    'name': 'Lego Avengers',
+    'creative': 'blp_lego_avengers',
+    'position': '01'
+},
+{
+    'id': 'architecture_210619',
+    'name': 'Lego Architecture',
+    'creative': 'blp_lego_architecture',
+    'position': '02'
+},
+{
+    'id': 'city_210619',
+    'name': 'Lego City',
+    'creative': 'blp_lego_city',
+    'position': '03'
+},
+{
+    'id': 'ninjago_210619',
+    'name': 'Lego Ninjago',
+    'creative': 'blp_lego_ninjago',
+    'position': '04'
+},
+{
+    'id': 'starwars_210619',
+    'name': 'Lego Starwars',
+    'creative': 'blp_lego_starwars',
+    'position': '05'
+},
+{
+    'id': 'minecraft_210619',
+    'name': 'Lego Minecraft',
+    'creative': 'blp_lego_minecraft',
+    'position': '06'
+},
+{
+    'id': 'technic_210619',
+    'name': 'Lego Technic',
+    'creative': 'blp_lego_technic',
+    'position': '07'
+},
+{
+    'id': 'superheroesdc_210619',
+    'name': 'Lego Super Heroes DC',
+    'creative': 'blp_lego_superheroesdc',
+    'position': '08'
+},
+{
+    'id': 'superheroesmarvel_210619',
+    'name': 'Lego Super Heroes Marvel',
+    'creative': 'blp_lego_superheroesmarvel',
+    'position': '09'
+},
+{
+    'id': 'harrypotter_210619',
+    'name': 'Lego Harry Potter',
+    'creative': 'blp_lego_harry',
+    'position': '10'
+},
+{
+    'id': 'beasts_210619',
+    'name': 'Lego Beasts',
+    'creative': 'blp_lego_beasts',
+    'position': '11'
+},
+{
+    'id': 'classic_210619',
+    'name': 'Lego Classic',
+    'creative': 'blp_lego_classic',
+    'position': '12'
+},
+{
+    'id': 'duplo_210619',
+    'name': 'Lego Duplo',
+    'creative': 'blp_lego_duplo',
+    'position': '13'
+},
+{
+    'id': 'friends_210619',
+    'name': 'Lego Friends',
+    'creative': 'blp_lego_friends',
+    'position': '14'
+},
+{
+    'id': 'creator_210619',
+    'name': 'Lego Creator',
+    'creative': 'blp_lego_creator',
+    'position': '15'
+},
+{
+    'id': 'juniors_210619',
+    'name': 'Lego Juniors',
+    'creative': 'blp_lego_juniors',
+    'position': '16'
+},
+{
+    'id': 'batman_210619',
+    'name': 'Lego Batman',
+    'creative': 'blp_lego_batman',
+    'position': '17'
+},
+{
+    'id': 'speed_210619',
+    'name': 'Lego Speed',
+    'creative': 'blp_lego_speed',
+    'position': '18'
+},
+{
+    'id': 'jurassic_210619',
+    'name': 'Lego Jurassic',
+    'creative': 'blp_lego_jurassic',
+    'position': '19'
+},
+{
+    'id': 'disney_210619',
+    'name': 'Lego Disney',
+    'creative': 'blp_lego_disney',
+    'position': '20'
+}
+]
+}
+}
+});
+                
+                
+/* BLP SAMSUNG*/ 
+       
+            break;
+            case '/tienda/samsung/cat850172':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_210619',
+    'name': 'Samsung Main',
+    'creative': 'blp_samsung_main',
+    'position': '01'
+},
+{
+    'id': 'watch_210619',
+    'name': 'Samsung Watch',
+    'creative': 'blp_samsung_watch',
+    'position': '02'
+},
+{
+    'id': 'family_210619',
+    'name': 'Samsung Family',
+    'creative': 'blp_samsung_family',
+    'position': '03'
+},
+{
+    'id': 'tab_210619',
+    'name': 'Samsung Tab',
+    'creative': 'blp_samsung_tab',
+    'position': '04'
+},
+{
+    'id': 'lavadora_210619',
+    'name': 'Samsung Lavadora',
+    'creative': 'blp_samsung_lavadora',
+    'position': '05'
+}
+]
+}
+}
+});
+                
+/* BLP LG*/ 
+       
+            break;
+            case '/tienda/lg/cat4990127':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'main_240619',
+'name': 'LG Main',
+'creative': 'blp_lg_main',
+'position': '01'
+},
+{
+'id': 'pantallas_240619',
+'name': 'LG Pantallas',
+'creative': 'blp_lg_pantallas',
+'position': '02'
+},
+{
+'id': 'refrigeradores_240619',
+'name': 'LG Refrigeradores',
+'creative': 'blp_lg_refrigeradores',
+'position': '03'
+},
+{
+'id': 'celulares_240619',
+'name': 'LG Celulares',
+'creative': 'blp_lg_celulares',
+'position': '04'
+}
+]
+}
+}
+});
+                
+/* BLP AEROPOSTALE*/ 
+       
+            break;
+            case '/tienda/aéropostale/cat910660':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'principal_290619',
+    'name': 'Aero Principal',
+    'creative': 'blp_aero_principal',
+    'position': '01'
+},
+{
+    'id': 'blusas_210619',
+    'name': 'Aero Blusas',
+    'creative': 'blp_aero_blusas',
+    'position': '02'
+},
+{
+    'id': 'chamarras_210619',
+    'name': 'Aero Chamarras',
+    'creative': 'blp_aero_chamarras',
+    'position': '03'
+},
+{
+    'id': 'playeras_ella_210619',
+    'name': 'Aero Playeras Ella',
+    'creative': 'blp_aero_playeras_ella',
+    'position': '04'
+},
+{
+    'id': 'playeras_el_210619',
+    'name': 'Aero Playeras El',
+    'creative': 'blp_aero_playeras_el',
+    'position': '05'
+},
+{
+    'id': 'ninas_210619',
+    'name': 'Aero Ninas',
+    'creative': 'blp_aero_ninas',
+    'position': '06'
+},
+{
+    'id': 'ninos_210619',
+    'name': 'Aero Ninos',
+    'creative': 'blp_aero_ninos',
+    'position': '07'
+}
+]
+}
+}
+});               
+        
+/* BLP POTTERY BARN*/ 
+       
+            break;
+            case '/tienda/pottery-barn/cat7230028':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'williams_sonoma_300719',
+    'name': 'Williams Sonoma Cintillo',
+    'creative': 'blp_pb_ws',
+    'position': '01'
+},
+{
+    'id': 'west_elm_300719',
+    'name': 'West Elm Cintillo',
+    'creative': 'blp_pb_west_elm',
+    'position': '02'
+},
+{
+    'id': 'pottery_barn_kids_300719',
+    'name': 'Pottery Barn Kids Cintillo',
+    'creative': 'blp_pb_pbk',
+    'position': '03'
+},
+{
+    'id': 'pottery_barn_teen_300719',
+    'name': 'Pottery Barn Teen Cintillo',
+    'creative': 'blp_pb_pbt',
+    'position': '04'
+},    
+{
+    'id': 'estancia_210619',
+    'name': 'PB Estancia',
+    'creative': 'blp_pb_estancia',
+    'position': '05'
+},
+{
+    'id': 'comedores_210619',
+    'name': 'PB Comedores',
+    'creative': 'blp_pb_comedores',
+    'position': '06'
+},
+{
+    'id': 'blancos_210619',
+    'name': 'PB Blancos',
+    'creative': 'blp_pb_blancos',
+    'position': '07'
+},
+{
+    'id': 'recamara_210619',
+    'name': 'PB Recamara',
+    'creative': 'blp_pb_recamara',
+    'position': '08'
+},
+{
+    'id': 'tapetes_210619',
+    'name': 'PB Tapetes',
+    'creative': 'blp_pb_tapetes',
+    'position': '09'
+},
+{
+    'id': 'decoracion_210619',
+    'name': 'PB Decoración',
+    'creative': 'blp_pb_decoracion',
+    'position': '10'
+},
+{
+    'id': 'mueblesex_210619',
+    'name': 'PB Mueblesex',
+    'creative': 'blp_pb_mueblesex',
+    'position': '11'
+},
+{
+    'id': 'mesabar_210619',
+    'name': 'PB Mesabar',
+    'creative': 'blp_pb_mesabar',
+    'position': '12'
+}
+]
+}
+}
+});
+                
+/* BLP WEST ELM*/ 
+       
+            break;
+            case '/tienda/west-elm/cat6600048':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'williams_sonoma_300719',
+    'name': 'Williams Sonoma Cintillo',
+    'creative': 'blp_we_ws',
+    'position': '01'
+},
+{
+    'id': 'pottery_barn_300719',
+    'name': 'Pottery Barn Cintillo',
+    'creative': 'blp_we_pb',
+    'position': '02'
+},
+{
+    'id': 'pottery_barn_kids_300719',
+    'name': 'Pottery Barn Kids Cintillo',
+    'creative': 'blp_we_pbk',
+    'position': '03'
+},
+{
+    'id': 'pottery_barn_teen_300719',
+    'name': 'Pottery Barn Teen Cintillo',
+    'creative': 'blp_we_pbt',
+    'position': '04'
+},
+{
+    'id': 'main_210619',
+    'name': 'West Elm Main',
+    'creative': 'blp_we_main',
+    'position': '05'
+},
+{
+    'id': 'comedores_210619',
+    'name': 'West Elm Comedores',
+    'creative': 'blp_we_comedores',
+    'position': '06'
+},
+{
+    'id': 'salas_210619',
+    'name': 'West Elm Salas',
+    'creative': 'blp_we_salas',
+    'position': '07'
+},
+{
+    'id': 'tapetes_210619',
+    'name': 'West Elm Tapetes',
+    'creative': 'blp_we_tapetes',
+    'position': '08'
+},
+{
+    'id': 'articulos_210619',
+    'name': 'West Elm Articulos',
+    'creative': 'blp_we_articulos',
+    'position': '09'
+},
+{
+    'id': 'cojines_210619',
+    'name': 'West Elm Cojines',
+    'creative': 'blp_we_cojines',
+    'position': '10'
+}
+]
+}
+}
+});                
+                
+                
+                
+                
+                
+                
+                
+                
 
 
 
