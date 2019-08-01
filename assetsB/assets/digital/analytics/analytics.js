@@ -35,81 +35,86 @@ function showBlp(){
                 'ecommerce': {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
-                            {
-           'id':'el_030719',
-           'name':'Ã‰l hasta 50% de desc',
-           'creative':'h_banner_central',
-           'position':'1',
-								
-             },{
-           'id':'ella_030719',
-           'name':'Ella hasta 50% de desc',
-           'creative':'h_banner_secun',
-           'position':'2',
-            },{
-            'id':'bebes_030719',
-           'name':'BebÃ©s y NiÃ±os hasta 50% de desc',
-           'creative':'h_banner_secun',
-           'position':'3',
-             },
-             {
-         'id':'zapatos_030719',
-           'name':'Zapatos hasta 50% de desc',
-           'creative':'h_banner_secun',
-           'position':'4',
-             }, {
-        'id':'relojes_030719',
-           'name':'Relojes hasta 50% de desc',
-           'creative':'h_banner_secun',
-           'position':'5',
-             },
-              {
-          'id':'montblanc_030719',
-           'name':'Montblanc hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'6',
-             },
-             {
-         'id':'motos_030719',
-           'name':'Motos hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'7',
-             }, {
-          'id':'automotriz_030719',
-           'name':'Automotriz hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'8',
-             },
-            {
-            'id':'asadores_030719',
-           'name':'Asadores hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'9',
-             },
+                           {
+		  'id':'computo_010819',
+		   'name':'Cómputo hasta 20% de desc',
+		   'creative':'h_banner_central',
+		   'position':'1'
+			 },
+				 {
+		  'id':'ninos_010819',
+  		'name':'Niños hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'2'
+			 },
                  {
-            'id':'cocina_030719',
-           'name':'Cocina hasta 32% de desc',
-           'creative':'h_banner_secun',
-           'position':'10',
-             },
+		   'id':'ella_010819',
+		   'name':'Ella hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'3'
+			},
+                 {
+		   'id':'zapatos_010819',
+		   'name':'Zapatos hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'4'
+			},
+				   {
+		   'id':'el_010819',
+		   'name':'Él hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'5'
+			},
+                  {
+		   'id':'ipad_6ta_030819',
+		   'name':'iPad 6ta gen',
+		   'creative':'h_banner_secun',
+		   'position':'6'
+			},
+                  {
+		   'id':'apple_030819',
+		   'name':'Apple Watch',
+		   'creative':'h_banner_secun',
+		   'position':'7'
+			},
+                 
+           {
+		   'id':'linea_blanca_010819',
+		   'name':'Línea Blanca hasta 40% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'8'
+			},
+            
+			 {
+		 'id':'colchones_010819',
+		   'name':'Colchones hasta 40% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'9'
+			 },
+             {
+		  'id':'muebles_010819',
+		   'name':'Muebles hasta 25% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'10'
+			 },
             {
-          'id':'linea_blanca_030719',
-           'name':'LÃ­nea Blanca hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'11',
-             },
-             {
-          'id':'muebles_030719',
-           'name':'Muebles hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'12',
-                 },
-             {
-          'id':'viajes_030719',
-           'name':'Viajes hasta 75% de desc y hasta 18 msi',
-           'creative':'h_banner_secun',
-           'position':'13',
-                 }
+			'id':'cocina_010819',
+		   'name':'Cocina hasta 37% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'11'
+			 },
+                 {
+			'id':'celulares_010819',
+		   'name':'Celulares hasta 18 msn',
+		   'creative':'h_banner_secun',
+		   'position':'12'
+			 },
+              {
+		  'id':'deportes_010819',
+		   'name':'Deportes hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'13'
+			 }
                         ]
                     }
                 }
