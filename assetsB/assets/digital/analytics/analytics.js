@@ -1124,6 +1124,98 @@ dataLayer.push({
 }
 });				
 		
+	/*PRIMER NIVEL BEBÉS QA*/ 
+
+            break;
+            case '/tienda/bebés/cat4120003':
+            
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school',
+    'position': '01'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_nina',
+    'position': '02'
+},
+{
+
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_nino',
+    'position': '03'
+                                                
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_principal',
+    'position': '04'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_zap_nina',
+    'position': '05'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_zap_nino',
+    'position': '06'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_accesorios',
+    'position': '07'
+},
+{
+   'id': 'bebes_main_230719',
+   'name': 'Back to school - Liverpool',
+   'creative': 'blp_el_bebes_back_to_school_fisher_nina',
+   'position': '08'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_fisher_nino',
+    'position': '09'
+},
+{
+   'id': 'bebes_main_230719',
+   'name': 'Back to school - Liverpool',
+   'creative': 'blp_el_bebes_back_to_school_carriolas',
+   'position': '10'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_cuna',
+    'position': '11'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_autoasientos',
+    'position': '12'
+
+}
+]
+}
+}
+});				
+				
+				
+				
 				
 				
 /*PRIMER NIVEL CASA*/ 
