@@ -1,28 +1,33 @@
 function showBlp(){
-  var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"catst11034202",validate:"true",id:"cat-0002", action:'showPLP'},
-                   {catId:"cat6910000",validate:"true",id:"cat-0003", action:'showPLP'},
-                   {catId:"cat6600048",validate:"true",id:"cat-0004", action:'showPLP'},
-                   {catId:"cat7230028",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"cat7530016",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"catst12274633",validate:"true",id:"cat-0001", action:'showPLP'}];
-
-
-  var catElements = (document.getElementById("target0")) ? document.getElementById("target0").children[0].children[0].children : '';
-  if(catElements){
-
-    for (var i = 0; i < catExcludeList.length; i++) {
-        var catExcludeId = catExcludeList[i].catId;
-        for (var i = 0; i < catElements.length; i++) {
-          var elements = catElements[i].children[0];
-          var catRefTitle = elements.getAttribute("href").substring(elements.getAttribute("href").lastIndexOf("/") + 1).split("?showPLP")[0];
-          if(catExcludeId != catRefTitle){
-              var catRef = elements.getAttribute("href").split("?showPLP")[0]+"?showPLP";
-              elements.setAttribute("href",catRef);
-          }
+var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:'showPLP'},
+                 {catId:"catst11034202",validate:"true",id:"cat-0002", action:'showPLP'},
+                 {catId:"cat6910000",validate:"true",id:"cat-0003", action:'showPLP'},
+                 {catId:"cat6600048",validate:"true",id:"cat-0004", action:'showPLP'},
+                 {catId:"cat7230028",validate:"true",id:"cat-0005", action:'showPLP'},
+                 {catId:"cat7530016",validate:"true",id:"cat-0006", action:'showPLP'},
+                 {catId:"catst12274633",validate:"true",id:"cat-0007", action:'showPLP'}];
+    var subnav;
+    var catElements = (document.getElementById("target0")) ? document.getElementById("target0").children[0].children[0].children : '';
+    if(catElements){
+    var nav = document.getElementsByClassName('card nav-item');
+    for (var i = 0; i < nav.length; i++) {
+      subnav = nav[i].children[1].children[0];
+      var arrSubnav = Array.from(subnav.children[0].children);
+      for (var p = 0; p < arrSubnav.length; p++) {
+            var arrSubnavChild = Array.from(arrSubnav[p].children);
+              var catRefTitle = arrSubnavChild[0].getAttribute('href').substring(arrSubnavChild[0].getAttribute("href").lastIndexOf("/") + 1).split("?showPLP")[0];
+              var catGetAttribute = arrSubnavChild[0].getAttribute('href');
+              var catRefArray= arrSubnavChild[0];
+              for (var o = 0; o < catExcludeList.length; o++) {
+                  var catExcludeId = catExcludeList[o].catId;
+                  if(catExcludeId != catRefTitle){
+                      var catRef = catRefArray.getAttribute("href").split("?showPLP")[0]+"?showPLP";
+                      catRefArray.setAttribute("href",catRef);
+                }
+              }
+           }
         }
-      }
-   }
+    }
 
 }
     function myOnloadFunction(pageName,path) {
