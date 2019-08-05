@@ -30,6 +30,58 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
     }
 
 }
+function countdownZapatos(){
+        try{
+        let endDate = new Date("Aug 09, 2019 23:59:59").getTime();
+        elDays = document.getElementsByClassName("cdh_days");
+        elHours = document.getElementsByClassName("cdh_hours");
+        elMinutes = document.getElementsByClassName("cdh_minutes");
+        elSeconds = document.getElementsByClassName("cdh_seconds");
+
+    
+
+        operationsTime = ()=>{
+        let nowaday = new Date().getTime();
+        distanceBetweenDays = endDate - nowaday;
+        days = Math.floor(distanceBetweenDays / (1000 * 60 * 60 * 24));
+        hours = Math.floor((distanceBetweenDays % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        minutes = Math.floor((distanceBetweenDays % (1000 * 60 * 60)) / (1000 * 60));
+        seconds = Math.floor((distanceBetweenDays % (1000 * 60)) / 1000);
+        if( distanceBetweenDays < 0 ){
+        clearInterval(engineTime);
+        days = 0;
+        hours = 0;
+        minutes = 0;
+        seconds = 0;
+        }
+        return {
+        "days":days,
+        "hours":hours,
+        "minutes":minutes,
+        "seconds":seconds
+        }
+        }
+        setHtml =(objs,value)=>{
+
+            for( var i = 0;i<objs.length;i++){
+                objs[i].innerHTML = value;
+            }
+        }
+        setDataTime =(d,h,m,s) =>{
+        setHtml(elDays, d < 10 ? "0" + d : d);
+        setHtml(elHours, h < 10 ? "0" + h : h);
+        setHtml(elMinutes, m < 10 ? "0" + m : m);
+        setHtml(elSeconds, s < 10 ?  "0" + s : s);
+        }
+        runTime = ()=>{
+        let dataTime = operationsTime();
+        setDataTime(dataTime.days,dataTime.hours,dataTime.minutes,dataTime.seconds);
+        }
+        let engineTime =  setInterval(runTime,1000);
+        }catch(Exception){
+        console.log("time__fail");
+        }
+}
     function myOnloadFunction(pageName,path) {
         showBlp();
         switch(pageName){
@@ -41,85 +93,85 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
                            {
-		  'id':'computo_010819',
-		   'name':'Cómputo hasta 20% de desc',
-		   'creative':'h_banner_central',
-		   'position':'1'
-			 },
-				 {
-		  'id':'ninos_010819',
-  		'name':'Niños hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'2'
-			 },
+          'id':'computo_010819',
+           'name':'Cómputo hasta 20% de desc',
+           'creative':'h_banner_central',
+           'position':'1'
+             },
                  {
-		   'id':'ella_010819',
-		   'name':'Ella hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'3'
-			},
+          'id':'ninos_010819',
+          'name':'Niños hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'2'
+             },
                  {
-		   'id':'zapatos_010819',
-		   'name':'Zapatos hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'4'
-			},
-				   {
-		   'id':'el_010819',
-		   'name':'Él hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'5'
-			},
+           'id':'ella_010819',
+           'name':'Ella hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'3'
+            },
+                 {
+           'id':'zapatos_010819',
+           'name':'Zapatos hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'4'
+            },
+                   {
+           'id':'el_010819',
+           'name':'Él hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'5'
+            },
                   {
-		   'id':'ipad_6ta_030819',
-		   'name':'iPad 6ta gen',
-		   'creative':'h_banner_secun',
-		   'position':'6'
-			},
+           'id':'ipad_6ta_030819',
+           'name':'iPad 6ta gen',
+           'creative':'h_banner_secun',
+           'position':'6'
+            },
                   {
-		   'id':'apple_030819',
-		   'name':'Apple Watch',
-		   'creative':'h_banner_secun',
-		   'position':'7'
-			},
+           'id':'apple_030819',
+           'name':'Apple Watch',
+           'creative':'h_banner_secun',
+           'position':'7'
+            },
                  
            {
-		   'id':'linea_blanca_010819',
-		   'name':'Línea Blanca hasta 40% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'8'
-			},
+           'id':'linea_blanca_010819',
+           'name':'Línea Blanca hasta 40% de desc',
+           'creative':'h_banner_secun',
+           'position':'8'
+            },
             
-			 {
-		 'id':'colchones_010819',
-		   'name':'Colchones hasta 40% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'9'
-			 },
              {
-		  'id':'muebles_010819',
-		   'name':'Muebles hasta 25% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'10'
-			 },
+         'id':'colchones_010819',
+           'name':'Colchones hasta 40% de desc',
+           'creative':'h_banner_secun',
+           'position':'9'
+             },
+             {
+          'id':'muebles_010819',
+           'name':'Muebles hasta 25% de desc',
+           'creative':'h_banner_secun',
+           'position':'10'
+             },
             {
-			'id':'cocina_010819',
-		   'name':'Cocina hasta 37% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'11'
-			 },
+            'id':'cocina_010819',
+           'name':'Cocina hasta 37% de desc',
+           'creative':'h_banner_secun',
+           'position':'11'
+             },
                  {
-			'id':'celulares_010819',
-		   'name':'Celulares hasta 18 msn',
-		   'creative':'h_banner_secun',
-		   'position':'12'
-			 },
+            'id':'celulares_010819',
+           'name':'Celulares hasta 18 msn',
+           'creative':'h_banner_secun',
+           'position':'12'
+             },
               {
-		  'id':'deportes_010819',
-		   'name':'Deportes hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'13'
-			 }
+          'id':'deportes_010819',
+           'name':'Deportes hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
+             }
                         ]
                     }
                 }
@@ -1127,9 +1179,9 @@ dataLayer.push({
 ]
 }
 }
-});				
-		
-	/*PRIMER NIVEL BEBÉS QA*/ 
+});                
+        
+    /*PRIMER NIVEL BEBÉS QA*/ 
 
             break;
             case '/tienda/bebés/cat4120003':
@@ -1217,12 +1269,12 @@ dataLayer.push({
 ]
 }
 }
-});				
-				
-				
-				
-				
-				
+});                
+                
+                
+                
+                
+                
 /*PRIMER NIVEL CASA*/ 
 
             break;
@@ -1293,9 +1345,9 @@ dataLayer.push({
 ]
 }
 }
-});	
-				
-				
+});    
+                
+                
 /*PRIMER NIVEL CELULARES*/ 
 
             break;
@@ -1336,12 +1388,12 @@ dataLayer.push({
 ]
 }
 }
-});					
+});                    
 
-				
-				
-				
-		/*PRIMER NIVEL COMPUTO*/ 
+                
+                
+                
+        /*PRIMER NIVEL COMPUTO*/ 
 
             break;
             case '/tienda/cómputo-y-electrónica/cat5150041':
@@ -1377,7 +1429,7 @@ dataLayer.push({
 'creative': 'blp_Cómputo_Fotocine',
 'position': '04'
 },
-{	
+{    
 
 'id': 'computo_instrumentos_musicales_200619',
 'name': 'Cómputo_Instrumentos_Musicales',
@@ -1388,11 +1440,11 @@ dataLayer.push({
 ]
 }
 }
-});					
-		
-				
-		
-						/*PRIMER NIVEL JUGUETES*/ 
+});                    
+        
+                
+        
+                        /*PRIMER NIVEL JUGUETES*/ 
 
             break;
             case '/tienda/juguetes/cat1080656':
@@ -1428,14 +1480,14 @@ dataLayer.push({
 'creative': 'blp_Juguetes_Videojuegos',
 'position': '04'
 },
-{	
+{    
 
 'id': 'blp_juguetes_disney_200619',
 'name': 'Juguetes_Disney',
 'creative': 'blp_Juguetes_Disney',
 'position': '05'
 },
-{	
+{    
 'id': 'blp_juguetes_munecas_200619',
 'name': 'Juguetes_Munecas',
 'creative': 'blp_Juguetes_Munecas',
@@ -1443,14 +1495,14 @@ dataLayer.push({
 
 },
 {
-	
+    
 'id': 'blp_juguetes_airelibre_200619',
 'name': 'Juguetes_Aire_Libre',
 'creative': 'blp_Juguetes_Aire_Libre',
 'position': '07'
 },
 {
-	
+    
 'id': 'blp_juguetes_figurasaccion_200619',
 'name': 'Juguetes_Figuras_Acción',
 'creative': 'blp_Juguetes_Figuras_Acción',
@@ -1459,10 +1511,10 @@ dataLayer.push({
 ]
 }
 }
-});	
-				
-				
-						/*PRIMER NIVEL Relojes*/ 
+});    
+                
+                
+                        /*PRIMER NIVEL Relojes*/ 
 
             break;
             case '/tienda/relojes-lentes-y-joyería/cat4570008':
@@ -1498,14 +1550,14 @@ dataLayer.push({
  'creative': 'blp_relojes_ella',
  'position': '04'
 },
-{	
+{    
 
  'id': 'relojes_el_200619',
  'name': 'relojes_El',
  'creative': 'blp_relojes_el',
  'position': '05'
 },
-{	
+{    
  'id': 'lentes_ella_200619',
  'name': 'lentes_ella',
  'creative': 'blp_lentes_ella',
@@ -1513,14 +1565,14 @@ dataLayer.push({
 
 },
 {
-	
+    
  'id': 'lentes_el_200619',
  'name': 'lentes_el',
  'creative': 'blp_lentes_el',
  'position': '07'
 },
 {
-	
+    
  'id': 'relojes_bomberg_200619',
  'name': 'relojes_bomberg',
  'creative': 'blp_relojes_bomberg',
@@ -1546,14 +1598,14 @@ dataLayer.push({
  'creative': 'blp_mido',
  'position': '11'
 },
-{	
+{    
 
  'id': 'relojes_montblanc_200619',
  'name': 'relojes_montblanc',
  'creative': 'blp_montblanc',
  'position': '12'
 },
-{	
+{    
  'id': 'relojes_rado_200619',
  'name': 'relojes_rado',
  'creative': 'blp_rado',
@@ -1561,26 +1613,26 @@ dataLayer.push({
 
 },
 {
-	
+    
  'id': 'relojes_rayban_200619',
  'name': 'relojes_rayban',
  'creative': 'blp_rayban',
  'position': '14'
 },
 {
-	
+    
  'id': 'relojes_swarovski_200619',
  'name': 'relojes_swarovski',
  'creative': 'blp_swarovski',
  'position': '15'
 },
-{	
+{    
  'id': 'relojes_tag_200619',
  'name': 'relojes_tag',
  'creative': 'blp_tag',
  'position': '16'
 },
-{		
+{        
  'id': 'relojes_tissot_200619',
  'name': 'relojes_tissot',
  'creative': 'blp_tissot',
@@ -1589,10 +1641,10 @@ dataLayer.push({
 ]
 }
 }
-});		
-				
-				
-	/*PRIMER NIVEL ELLA*/ 
+});        
+                
+                
+    /*PRIMER NIVEL ELLA*/ 
 
 break;
 case '/tienda/ella/cat5040494':
@@ -1656,7 +1708,7 @@ dataLayer.push({
 break;
 case '/tienda/zapatos/cat5040494':
 
-
+countdownZapatos();
 dataLayer.push({
 'event': 'impresionCampaign',
 'ecommerce': {
@@ -1719,11 +1771,11 @@ dataLayer.push({
 ]
 }
 }
-});			
-				
-		
-				
-	// Brand Etam
+});            
+                
+        
+                
+    // Brand Etam
 break;
 case '/tienda/etam/cat1200649':
 
@@ -1868,10 +1920,10 @@ dataLayer.push({
 }
 }
 });
-				
+                
 
 // Punt Roma
-				
+                
 break;
 case '/tienda/punt-roma/cat1200686':
 
@@ -2108,23 +2160,23 @@ dataLayer.push({
 ]
 }
 }
-});			
-				
-				
-				
-				
-				
-				
-				
+});            
+                
+                
+                
+                
+                
+                
+                
 
 /* BLP west elm*/
-				
-				
-			break;
-            case '/tienda/west-elm/cat6600048':	
-				
-				
-				
+                
+                
+            break;
+            case '/tienda/west-elm/cat6600048':    
+                
+                
+                
 
 dataLayer.push({
 'event': 'impresionCampaign',
