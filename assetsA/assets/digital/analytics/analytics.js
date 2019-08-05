@@ -30,6 +30,58 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
     }
 
 }
+function countdownZapatos(){
+        try{
+        let endDate = new Date("Aug 09, 2019 23:59:59").getTime();
+        elDays = document.getElementsByClassName("cdh_days");
+        elHours = document.getElementsByClassName("cdh_hours");
+        elMinutes = document.getElementsByClassName("cdh_minutes");
+        elSeconds = document.getElementsByClassName("cdh_seconds");
+
+    
+
+        operationsTime = ()=>{
+        let nowaday = new Date().getTime();
+        distanceBetweenDays = endDate - nowaday;
+        days = Math.floor(distanceBetweenDays / (1000 * 60 * 60 * 24));
+        hours = Math.floor((distanceBetweenDays % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        minutes = Math.floor((distanceBetweenDays % (1000 * 60 * 60)) / (1000 * 60));
+        seconds = Math.floor((distanceBetweenDays % (1000 * 60)) / 1000);
+        if( distanceBetweenDays < 0 ){
+        clearInterval(engineTime);
+        days = 0;
+        hours = 0;
+        minutes = 0;
+        seconds = 0;
+        }
+        return {
+        "days":days,
+        "hours":hours,
+        "minutes":minutes,
+        "seconds":seconds
+        }
+        }
+        setHtml =(objs,value)=>{
+
+            for( var i = 0;i<objs.length;i++){
+                objs[i].innerHTML = value;
+            }
+        }
+        setDataTime =(d,h,m,s) =>{
+        setHtml(elDays, d < 10 ? "0" + d : d);
+        setHtml(elHours, h < 10 ? "0" + h : h);
+        setHtml(elMinutes, m < 10 ? "0" + m : m);
+        setHtml(elSeconds, s < 10 ?  "0" + s : s);
+        }
+        runTime = ()=>{
+        let dataTime = operationsTime();
+        setDataTime(dataTime.days,dataTime.hours,dataTime.minutes,dataTime.seconds);
+        }
+        let engineTime =  setInterval(runTime,1000);
+        }catch(Exception){
+        console.log("time__fail");
+        }
+}
     function myOnloadFunction(pageName,path) {
         showBlp();
         switch(pageName){
@@ -1656,7 +1708,7 @@ dataLayer.push({
 break;
 case '/tienda/zapatos/cat5040494':
 
-
+countdownZapatos();
 dataLayer.push({
 'event': 'impresionCampaign',
 'ecommerce': {
