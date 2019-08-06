@@ -1,29 +1,86 @@
 function showBlp(){
-  var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"catst11034202",validate:"true",id:"cat-0002", action:'showPLP'},
-                   {catId:"cat6910000",validate:"true",id:"cat-0003", action:'showPLP'},
-                   {catId:"cat6600048",validate:"true",id:"cat-0004", action:'showPLP'},
-                   {catId:"cat7230028",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"cat7530016",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"catst12274633",validate:"true",id:"cat-0001", action:'showPLP'}];
-
-
-  var catElements = (document.getElementById("target0")) ? document.getElementById("target0").children[0].children[0].children : '';
-  if(catElements){
-
-    for (var i = 0; i < catExcludeList.length; i++) {
-        var catExcludeId = catExcludeList[i].catId;
-        for (var i = 0; i < catElements.length; i++) {
-          var elements = catElements[i].children[0];
-          var catRefTitle = elements.getAttribute("href").substring(elements.getAttribute("href").lastIndexOf("/") + 1).split("?showPLP")[0];
-          if(catExcludeId != catRefTitle){
-              var catRef = elements.getAttribute("href").split("?showPLP")[0]+"?showPLP";
-              elements.setAttribute("href",catRef);
-          }
+var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:'showPLP'},
+                 {catId:"catst11034202",validate:"true",id:"cat-0002", action:'showPLP'},
+                 {catId:"cat6910000",validate:"true",id:"cat-0003", action:'showPLP'},
+                 {catId:"cat6600048",validate:"true",id:"cat-0004", action:'showPLP'},
+                 {catId:"cat7230028",validate:"true",id:"cat-0005", action:'showPLP'},
+                 {catId:"cat7530016",validate:"true",id:"cat-0006", action:'showPLP'},
+                 {catId:"catst12274633",validate:"true",id:"cat-0007", action:'showPLP'}];
+    var subnav;
+    var catElements = (document.getElementById("target0")) ? document.getElementById("target0").children[0].children[0].children : '';
+    if(catElements){
+    var nav = document.getElementsByClassName('card nav-item');
+    for (var i = 0; i < nav.length; i++) {
+      subnav = nav[i].children[1].children[0];
+      var arrSubnav = Array.from(subnav.children[0].children);
+      for (var p = 0; p < arrSubnav.length; p++) {
+            var arrSubnavChild = Array.from(arrSubnav[p].children);
+              var catRefTitle = arrSubnavChild[0].getAttribute('href').substring(arrSubnavChild[0].getAttribute("href").lastIndexOf("/") + 1).split("?showPLP")[0];
+              var catGetAttribute = arrSubnavChild[0].getAttribute('href');
+              var catRefArray= arrSubnavChild[0];
+              for (var o = 0; o < catExcludeList.length; o++) {
+                  var catExcludeId = catExcludeList[o].catId;
+                  if(catExcludeId != catRefTitle){
+                      var catRef = catRefArray.getAttribute("href").split("?showPLP")[0]+"?showPLP";
+                      catRefArray.setAttribute("href",catRef);
+                }
+              }
+           }
         }
-      }
-   }
+    }
 
+}
+function countdownZapatos(){
+        try{
+        let endDate = new Date("Aug 09, 2019 23:59:59").getTime();
+        elDays = document.getElementsByClassName("cdh_days");
+        elHours = document.getElementsByClassName("cdh_hours");
+        elMinutes = document.getElementsByClassName("cdh_minutes");
+        elSeconds = document.getElementsByClassName("cdh_seconds");
+
+    
+
+        operationsTime = ()=>{
+        let nowaday = new Date().getTime();
+        distanceBetweenDays = endDate - nowaday;
+        days = Math.floor(distanceBetweenDays / (1000 * 60 * 60 * 24));
+        hours = Math.floor((distanceBetweenDays % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        minutes = Math.floor((distanceBetweenDays % (1000 * 60 * 60)) / (1000 * 60));
+        seconds = Math.floor((distanceBetweenDays % (1000 * 60)) / 1000);
+        if( distanceBetweenDays < 0 ){
+        clearInterval(engineTime);
+        days = 0;
+        hours = 0;
+        minutes = 0;
+        seconds = 0;
+        }
+        return {
+        "days":days,
+        "hours":hours,
+        "minutes":minutes,
+        "seconds":seconds
+        }
+        }
+        setHtml =(objs,value)=>{
+
+            for( var i = 0;i<objs.length;i++){
+                objs[i].innerHTML = value;
+            }
+        }
+        setDataTime =(d,h,m,s) =>{
+        setHtml(elDays, d < 10 ? "0" + d : d);
+        setHtml(elHours, h < 10 ? "0" + h : h);
+        setHtml(elMinutes, m < 10 ? "0" + m : m);
+        setHtml(elSeconds, s < 10 ?  "0" + s : s);
+        }
+        runTime = ()=>{
+        let dataTime = operationsTime();
+        setDataTime(dataTime.days,dataTime.hours,dataTime.minutes,dataTime.seconds);
+        }
+        let engineTime =  setInterval(runTime,1000);
+        }catch(Exception){
+        console.log("time__fail");
+        }
 }
     function myOnloadFunction(pageName,path) {
         showBlp();
@@ -1651,7 +1708,7 @@ dataLayer.push({
 break;
 case '/tienda/zapatos/cat5040494':
 
-
+countdownZapatos();
 dataLayer.push({
 'event': 'impresionCampaign',
 'ecommerce': {
