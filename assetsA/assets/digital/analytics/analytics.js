@@ -94,6 +94,12 @@ function countdownZapatos(){
                         'promotions': [// Array of promoFieldObjects.
                            {
 		  'id':'computo_010819',
+		   'name':'Cómputo hasta 15% de desc',
+		   'creative':'h_banner_central',
+		   'position':'1'
+			 },
+							   {
+		  'id':'computo_090819',
 		   'name':'Cómputo hasta 20% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
@@ -130,6 +136,24 @@ function countdownZapatos(){
 			},
                   {
 		   'id':'apple_030819',
+		   'name':'Apple Watch',
+		   'creative':'h_banner_secun',
+		   'position':'7'
+			},
+									{
+		   'id':'iphone_090819',
+		   'name':'iPhone hasta 10% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'6_1'
+			},
+							{
+		   'id':'ipad_6ta_090819',
+		   'name':'iPad 6ta gen',
+		   'creative':'h_banner_secun',
+		   'position':'6'
+			},
+                  {
+		   'id':'apple_090819',
 		   'name':'Apple Watch',
 		   'creative':'h_banner_secun',
 		   'position':'7'
