@@ -1,0 +1,120 @@
+html, body{
+   overflow:hidden;
+   height: 100%;
+   min-height: 100%;
+}
+
+#my-object {
+        height : 100%;
+        width : 100%;
+        overflow : hidden;
+    }
+
+a:hover, a:link{color: #000;} 
+.panel{
+    background: none;
+    margin-top: 5px;
+    padding: 5px;
+  }
+#lg a, #hb-container{font-family: 'roboto', helvetica, arial, sans-serif; }
+#lg{}
+.lg-logo{text-align: center;   }
+
+#slider .item a{
+	display: block;
+}
+#slider .item a img{
+    display: block;
+    width: auto;
+    height: auto;
+}
+.square-title {
+background-color:rgba(2,2,2,0.4);
+text-size-adjust: auto;
+height: 60px;
+}
+.square-title h4{
+color:#ffffff;
+padding-top: 15px;
+text-align: center;
+font-size: 17px !important;
+
+}
+
+.columns{
+  text-align:center;
+}
+
+.title-recomendations{
+  color: #be164a;
+  margin-top: 50px;
+}
+.price-prev{
+  color: #666666;
+  font-size: 1em;
+  text-decoration: line-through;
+}
+.price-now{
+  color: #ff0099;
+  font-size: 1.3em;
+}
+.product{
+  color: #666666;
+}
+
+.overlay-container { position: relative; display: inline-block; }
+
+.overlay {
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+
+  /*padding: 1rem;*/
+  background-color: rgba(0, 40, 90, 0.5);
+  color: white;
+  font-size: 1.2rem;
+
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+
+}
+
+.overlay-container:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+@media (min-width: 768px) {
+
+
+}
+  /* Bump up size of carousel content */
+@media screen and (max-width: 768px) and (orientation: portrait){
+ /* .imgBig{display: none;}*/
+
+}
+
+ @media only screen and (min-device-width : 1024px) and (orientation:landscape){
+ 
+  /*.imgBig{display: inline;}*/
+
+ 
+ }
+ @media only screen and (min-width:320px) and (max-width:479px){
+ .imgBig{display: block;}
+ .small-6{width:50%;margin-bottom: 10px;}
+ }
+ @media only screen and (min-width:480px)  and (max-width:667px) and (orientation:landscape){
+ .imgBig{display: block;}
+ .small-6{width:50%;margin-bottom: 10px;}
+ }
+
+.fullWidth{width: 100%;margin-left: auto;margin-right: auto;max-width: initial;}
+
+
+.navbar-brand {
+display: none !important;
+}
+

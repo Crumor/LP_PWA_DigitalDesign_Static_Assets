@@ -1,0 +1,12 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,900|Roboto+Condensed:400,700");
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafbf6;
+}
+header {
+  background-color: #425363;
+  color: #fff;
+}
+#navbar {
+  background-color: #f00;
+}

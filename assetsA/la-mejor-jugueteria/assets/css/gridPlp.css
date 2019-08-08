@@ -1,0 +1,81 @@
+.gridPlp{
+    width: 100%;
+    list-style-type: none;
+    padding:0;
+}
+.gridPlp .itemPlp{
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    width: 23%;
+        margin: 0 15px 0 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.itemPlp{
+    background: transparent;
+    
+    position: relative;
+}
+.addToy{
+    opacity: 0;
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.itemPlp:hover{
+    cursor: pointer;
+}
+.itemPlp:hover .addToy{
+    opacity: 1;
+    background: #e62c9a;
+    color: white;
+}
+.itemPlp figure.itemFigure  img{
+    min-height: 200px;
+}
+.itemPlp figure{
+    height: auto;
+    border: 1px solid #f9f6f6;
+    background-color: #fdfdfd;
+}
+.itemPlp img, .itemPlp figcaption{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'robotoregular', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    font-size:1.4em;
+    color:#636262;
+    overflow: hidden;
+}
+.itemPlp figcaption{
+    height: 60px;
+    text-align: bottom;
+padding:4px;
+    
+}
+.gridPlp .itemPlp.firstElement{
+    
+    width: 47.9%;
+    margin-bottom: 0;
+}
+#player{
+    width: 100%;
+    height:100%;
+}
+.video{
+    
+}
+
+
+
+
+

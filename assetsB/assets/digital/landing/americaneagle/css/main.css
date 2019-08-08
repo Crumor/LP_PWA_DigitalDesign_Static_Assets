@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Book.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Bold.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Light.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('https://assets.liverpool.com.mx/landings/americaneagle/fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+.logo-ae{
+    display:block;
+    max-width:350px;
+    height:auto;
+    margin:0 auto;
+}
+
+
+
+/*JEANS*/
+
+.jeans-container{
+    position:relative;
+    width:100% !important;
+    height:300px;
+}
+
+.jeans-texto{
+    position:absolute;
+    width:30% !important;
+    z-index:99;
+    left:0;
+    right:0;
+    margin:0 auto;
+    margin-top:13%;
+}
+
+
+
+.jeans-texto h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:white;
+    font-size:24px;
+    margin:0;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.jeans-texto p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:white;
+    font-size:15px;
+    margin:0;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+.jeans-el{
+    width:50% !important;
+    position:relative;
+    float:left;
+    overflow:hidden;
+    height:auto;
+}
+
+
+
+.jeans-el img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.jeans-el img:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+
+.jeans-ella{
+    width:50% !important;
+    position:relative;
+    float:left;
+    overflow:hidden;
+    height:auto;
+}
+
+
+
+.jeans-ella img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.jeans-ella img:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+
+/*CAMISAS Y PLAYERAS*/
+
+.camisas-container h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+}
+
+.camisas-container p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+}
+
+
+.camisas-container{
+    margin-top:60px;
+    width:100% !important;
+}
+
+.playeras-container{
+    margin-top:40px;
+    width:100% !important;
+}
+
+.playeras-container h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+}
+
+.playeras-container p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+}
+
+
+/*CHAMARRAS*/
+
+.chamarras-container h4{
+    font-family: 'Gotham Bold';
+    padding:15px;
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+}
+
+.chamarras-container p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+}
+
+/*SHORTS*/
+
+.shorts-container h4{
+    font-family: 'Gotham Bold';
+    padding:15px;
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+}
+
+.shorts-container p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+}
+
+
+/*SHORTS*/
+
+.vestidos-container h4{
+    font-family: 'Gotham Bold';
+    padding:15px;
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+}
+
+.vestidos-container p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+}
+
+
+
+/*CAMISAS Y PLAYERAS*/
+
+.camisas-container h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+}
+
+.camisas-container p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+}
+
+
+.camisas-container{
+    margin-top:60px;
+    width:100% !important;
+}
+
+.playeras-container{
+    margin-top:40px;
+    width:100% !important;
+}
+
+.playeras-container h4{
+    font-family: 'Gotham Bold';
+    text-align:center;
+    color:black;
+    font-size:24px;
+    margin:0;
+}
+
+.playeras-container p{
+    font-family: 'Gotham Light';
+    text-align:center;
+    color:black;
+    font-size:15px;
+    margin:0;
+}
+

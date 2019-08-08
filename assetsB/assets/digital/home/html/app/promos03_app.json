@@ -1,0 +1,51 @@
+{
+	"bannerType": "stack",
+	"bannerContent": [{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03a_170619mue_app.jpg",
+			"type": "plp",
+			"title": "muebles_170619",
+			"campaign": "Muebles hasta 30% de desc",
+			"view": "h_banner_m_central",
+			"position": "9"
+		},
+		{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03b_170619coc_m.jpg",
+			"type": "plp",
+			"title": "cocina_170619",
+			"campaign": "Cocina hasta 32% de desc",
+			"view": "h_app_banner_secun",
+			"position": "10"
+		},
+        {
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03c_170619col_m.jpg",
+			"type": "plp",
+			"title": "colchones_170619",
+			"campaign": "Colchones hasta 36% de desc",
+			"view": "h_app_banner_secun",
+			"position": "11"
+		},
+		{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03d_170619wes_m.jpg",
+			"type": "plp",
+			"title": "west_elm_170619",
+			"campaign": "West Elm hasta 20% de desc",
+			"view": "h_app_banner_secun",
+			"position": "12"
+		},
+		{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo03e_170619cam_m.jpg",
+			"type": "plp",
+			"title": "camaras_170619",
+			"campaign": "Cámaras hasta 36% de desc",
+			"view": "h_app_banner_secun",
+			"position": "13"
+		}
+
+	]
+
+}

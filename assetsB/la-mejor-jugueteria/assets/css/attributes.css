@@ -1,0 +1,208 @@
+
+body {
+	font-family: 'robotoregular', Arial, sans-serif !important;
+}
+.errorAlert {
+	font-size: 12px;
+	color: #f00 !important;
+	display: none;
+	font-weight: bold;
+	margin: 0 0 5px 0 !important;
+	text-transform: none !important;
+}
+
+#productAttributes .productColors {
+	font-size: 0;
+}
+#productAttributes .productColors > p {
+	color: #666;
+	font-size: 12px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+#productAttributes .productColors > p span {
+	font-weight: bold;
+	text-transform: none;
+}
+#productAttributes .productColors ul {
+	margin-top: 2px;
+	max-height: 85px;
+	max-width: 240px;
+	min-height: 35px;
+	overflow-y: auto;
+}
+#productAttributes .productColors ul li {
+	display: inline-block;
+	border: 1px solid transparent;
+	-moz-border-radius: 50%;
+			 border-radius: 50%;
+	margin-right: 2px;
+	padding: 2px;
+	vertical-align: top;
+}
+#productAttributes .productColors ul li.active,
+#productAttributes .productColors ul li:hover {
+	border: 1px solid #b3b3b3;
+}
+#productAttributes .productColors ul li a {
+	display: block;
+	border: 1px solid #dbdbdb;
+	-moz-border-radius: 50%;
+			 border-radius: 50%;
+	height: 22px;
+	vertical-align: middle;
+	position: relative;
+	width: 22px;
+}
+#productAttributes .productColors ul li a:focus {
+	outline: none;
+}
+#productAttributes .productColors ul.macList {
+	height: auto;
+	overflow-y: auto;
+	max-width: 305px;
+	max-height: 240px;
+}
+#productAttributes .productColors ul.macList li {
+	height: auto;
+	padding: 3px;
+    width: 22px;
+}
+#productAttributes .productColors ul.macList li.active,
+#productAttributes .productColors ul.macList li:hover {
+	border: 1px solid #b3b3b3;
+}
+#productAttributes .productColors ul.macList li a {
+	background: #fdfdfd;
+	display: block;
+	height: auto;
+	/*width: 100%;*/
+	width:96%;
+}
+#productAttributes .productColors ul.macList li a img {
+	-moz-border-radius: 50%;
+			 border-radius: 50%;
+		 width: 100%;
+}
+
+#productAttributes #productSize {
+	max-width: 255px;
+	margin-top: 20px;
+	position: relative;
+}
+#productAttributes #productSize #loadingSizeContent {
+	display: block;
+	margin: 5px auto;
+	width: 50px;
+}
+#productAttributes #productSize #sizeModal {
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	display:none;
+}
+#productAttributes #productSize #sizeModal a {
+	color: #e10098;
+	font-size: 13px;
+}
+#productAttributes #productSize #sizeModal span {
+	color: #e10098;
+	font-size: 17px;
+	position: relative;
+	margin-right: 3px;
+	top: 3px;
+}
+#productAttributes #productSize > p {
+	color: #666;
+	font-size: 13px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#productAttributes #productSize ul li {
+	display: inline-block;
+	margin: 0 0 0 2px;
+	vertical-align: top;
+	text-align: center;
+}
+#productAttributes #productSize ul li a {
+	color: #666;
+	font-size: 12px;
+	border: 1px solid #b3b3b3;
+	-moz-box-sizing: border-box;
+			 box-sizing: border-box;
+	cursor: pointer;
+	display: block;
+	height: 35px;
+	padding: 10px 7px 0 7px;
+	margin-bottom: 3px;
+	min-width: 35px;
+	width: auto;
+}
+#productAttributes #productSize ul li a.active,
+#productAttributes #productSize ul li a:hover {
+	border: 2px solid #3b3b3b;
+	font-weight: bold;
+}
+#productAttributes #productSize ul li a.inactive {
+	background: #f2f2f2;
+	position: relative;
+	cursor: default;
+}
+#productAttributes #productSize ul li a.inactive:hover {
+	border: 1px solid #b3b3b3 !important;
+	font-weight: normal !important;
+}
+#productAttributes #productSize ul li a .notAvailable {
+
+background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><line x1='0px' y1='0' x2='100%' y2='100%' stroke='#666' stroke-width='1'/></svg>") no-repeat;
+	left: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#productAttributes #productSize ul li a:focus {
+	outline: none;
+}
+#productAttributes .productMaterial {
+	margin-top: 25px;
+}
+#productAttributes .productMaterial #material {
+	margin-bottom: 25px;
+}
+#productAttributes .productMaterial #material > p,
+#productAttributes .productMaterial #textura > p {
+	color: #666;
+	font-size: 13px;
+	margin: 6px 0 4px;
+	text-transform: uppercase;
+}
+#productAttributes .productMaterial #material select,
+#productAttributes .productMaterial #textura select {
+	border: 1px solid #b3b3b3;
+	color: #666;
+	font-size: 13px;
+	padding: 12px 0 12px 3px;
+}
+#productAttributes .productMaterial #material select.disabled,
+#productAttributes .productMaterial #textura select.disabled {
+	color: #d8d8d8;
+}
+
+
+.productVarientsDisplay {
+width: auto;
+min-height: 80px;
+
+}
+.productVarientsDisplay #loadingSizeContent {
+	display: block;
+	margin: 5px auto;
+	width: 50px;
+	float:left;
+	text-align:center;
+
+}
+#productAttributes .productColors > p.colorMacContainer{
+	display:none;
+}

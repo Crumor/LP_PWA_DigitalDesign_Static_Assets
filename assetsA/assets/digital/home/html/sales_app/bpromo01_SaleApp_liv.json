@@ -1,0 +1,50 @@
+{
+	"bannerType": "grid-4",
+	"bannerContent": [{
+			"redirectsTo": "cat480332",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01a_170619bol_sales.jpg",
+			"type": "plp",
+			"title": "bolsas_170619",
+			"campaign": "Bolsas hasta 40% de desc",
+			"view": "h_app_banner_secun",
+			"position": "0"
+		},
+
+
+
+		{
+			"redirectsTo": "cat480332",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01b_170619rel_sales.jpg",
+			"type": "plp",
+			"title": "relojes_170619",
+			"campaign": "Relojes hasta 50% de desc",
+			"view": "h_app_banner_secun",
+			"position": "1"
+		},
+
+
+
+		{
+			"redirectsTo": "cat480332",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01c_170619zap_sales.jpg",
+			"type": "plp",
+			"title": "zapatos_170619",
+			"campaign": "Zapatos hasta 40% de desc",
+			"view": "h_app_banner_secun",
+			"position": "2"
+		},
+
+
+
+		{
+			"redirectsTo": "cat480332",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo01d_170619beb_sales.jpg",
+			"type": "plp",
+			"title": "bebes_170619",
+			"campaign": "Bebés hasta 40% de desc",
+			"view": "h_app_banner_secun",
+			"position": "3"
+		}
+	]
+
+}

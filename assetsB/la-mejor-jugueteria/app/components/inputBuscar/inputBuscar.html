@@ -1,0 +1,30 @@
+<div class="input-group search-contenedor">
+    <input type="text" class="form-control search-box-border" id="txtBuscar" ng-keyup="buscar($event,inputBuscar)" ng-keypress="irAresultadoKey($event)" ng-blur="blur()" ng-model="inputBuscar" maxlength="50" placeholder="¿Qué juguetes deseas pedir a los Reyes Magos?" aria-describedby="basic-addon1">
+    <div class="iconClose" ng-show="inputBuscar.length > 3">
+        <a href ng-click="cerrarMenu()">
+            <span class="icon-tache2"></span>
+        </a>
+    </div>
+    <div class="iconZoom">
+        <a href  ng-click="irAresultado()">
+            <span class="icon-zoom"></span>
+        </a>
+    </div>
+    <div id="contentSearchs" ng-show="mostrar();">
+        <ul>
+            <li class="firstResult">
+                <a href="#/busquedatype/1/{{inputBuscar}}" style="margin-top:10px; margin-left:5px;">
+                    <span ng-bind="inputBuscar"></span>
+                    <span> en </span>
+                    <span class="departments">Todos los departamentos</span>
+                </a>
+            </li>
+            <li class="resultado" ng-repeat = "resultado in resultados">
+                <a href="#/detalle/{{resultado.sku}}">
+                    <img style="width:40px;" ng-src="{{resultado.image}}"/>
+                    <span class="descripcionSearch" ng-bind-html="resultado.descripcion"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

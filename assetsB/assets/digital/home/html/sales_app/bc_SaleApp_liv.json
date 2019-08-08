@@ -1,0 +1,12 @@
+{
+	"bannerType": "stack",
+	"bannerContent": [{
+		"type": "plp",
+		"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bc_170619ella_sales.jpg",
+		"redirectsTo": "cat480332",
+		"title": "ella_170619",
+		"campaign": "Ella hasta 40% de desc",
+		"view": "h_app_banner_secun",
+		"position": "1"
+	}]
+}

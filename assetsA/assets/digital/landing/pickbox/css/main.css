@@ -1,0 +1,204 @@
+/*ESTILOS CAT*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
+
+
+
+.logo-pickbox{
+    display:block;
+    max-width:300px;
+    margin:0 auto;
+    padding-top:20%;
+}
+
+.descripcion-pickbox{
+    text-align:center;
+}
+
+.descripcion-pickbox h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    font-size:43px;
+    margin:10px;
+}
+
+.descripcion-pickbox p{
+    font-family: 'Nunito', sans-serif;
+    font-weight:300;
+    font-size:20px;
+
+}
+
+
+.pasos-pickbox{
+    text-align:center;
+}
+
+.pasos-pickbox img{
+    display:block;
+    margin:0 auto;
+    max-width:100px;
+}
+
+
+.pasos-pickbox h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    font-size:29px;
+    margin:10px;
+}
+
+.pasos-pickbox p{
+    font-family: 'Nunito', sans-serif;
+    font-weight:300;
+    font-size:18px;
+}
+
+
+/*CANJEABLES*/
+
+.canjeables-container{
+    width:100% !important;
+    position:relative;
+    background-color:#f5f5f5;
+    height:250px;
+}
+
+.canjeables-cajas{
+    width:50% !important;
+    position:relative;
+    float:left;
+    top:-30px;
+}
+
+.canjeables-texto{
+    width:50% !important;
+    position:relative;
+    float:left;
+}
+
+
+.canjeables-texto h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    font-size:34px;
+    margin:10px;
+    text-align:center;
+    margin-top:8%;
+}
+
+.canjeables-texto p{
+    font-family: 'Nunito', sans-serif;
+    font-weight:300;
+    font-size:18px;
+    text-align:center;
+    margin-bottom:15px;
+    
+}
+
+.canjeables-texto ul{
+    width:100% !important;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin-top:5%;
+}
+
+.canjeables-texto ul li{
+    
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size:22px;
+    display:inline;
+    width:50% !important;
+    text-align:center;
+    height:150px;
+    background:red;
+    padding:10px;
+    margin:5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9121a8+0,f23ad0+100 */
+    background: #9121a8; /* Old browsers */
+    background: -moz-linear-gradient(top, #9121a8 0%, #f23ad0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #9121a8 0%,#f23ad0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #9121a8 0%,#f23ad0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9121a8', endColorstr='#f23ad0',GradientType=0 ); /* IE6-9 */     
+    
+}
+
+
+/*Ventajas container*/
+
+.ventajas-container{
+    width:80% !important;
+    margin:0 auto;
+}
+
+.ventajas-container ul{
+    width:100% !important;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.ventajas-container ul li{
+    font-family: 'Nunito', sans-serif;
+    text-align:center;
+    font-weight:300;
+    font-size:17px;    
+    display:block;
+    float:left;
+    width:20%;
+}
+
+.ventajas-container img{
+    max-width:120px;
+    margin:0 auto;
+}
+
+.pickbox-cajas{
+    font-family: 'Oswald', sans-serif;
+    font-size:30px;
+    text-align:center;
+    margin:0;
+}
+
+
+/*PREGUNTAS*/
+
+.preguntas-titulo{
+    font-family: 'Oswald', sans-serif;
+    text-align:left;
+    font-weight:200;
+    font-size:36px; 
+    margin:5px;
+}
+
+.pregunta-pickbox h5{
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    text-align:left;
+    margin:5px;
+}
+
+.pregunta-pickbox p{
+    opacity:0;
+    font-family: 'Nunito', sans-serif;
+    font-size:18px;
+    text-align:left;
+    margin:5px;
+    transition:0.2s all;
+    height:0;
+}
+
+.pickbox-activo p{
+    opacity:1;
+    transition:0.2s all;
+    height:auto;
+}
+
+
+

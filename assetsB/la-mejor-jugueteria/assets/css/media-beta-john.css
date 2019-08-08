@@ -1,0 +1,10 @@
+/*Iphone 4 portrait y landscape, iphone 6 portrait solamente, 6plus portrait solamente,iphone 5 portrait solamente*/
+@import url('devices/device320-480.css') all and (max-width: 480px);
+/*SmartPhones o Phablets and landing posotion*/
+@import url('devices/device481-736.css') all and (min-width: 481px) and (max-width: 736px);
+/*iPad  portrait y landscape*/
+@import url('devices/deviceiPads.css') only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1);
+
+
+
+
