@@ -1,0 +1,54 @@
+<!--WEB home-->
+<div class="grid-container">
+<header-web></header-web>
+	<div class="grid-100 head-category">
+		<div class="grid-70 prefix-15 sufix-75">
+			<div class="grid-40" >
+				<div class="tsunami">
+					<span ng-bind-html="category.icon"></span>
+					<h3 ng-bind="category.titulo"></h3>
+				</div>
+			</div>
+			<div class="grid-60" >
+				<type-head th="web-category" class="typeHeadCategory"></type-head>
+			</div>
+		</div>
+	</div>
+	<div class="opacity"></div>
+	<div class="grid-70 prefix-15 sufix-75">
+		<div class="grid-30">
+			<menu-left category="idCategory" menu="menu"></menu-left>
+		</div>
+		<div class="grid-60 prefix-10">
+			<div class="category-content">
+				<p class="titleResults"> Tu Búsqueda <span ng-bind="wordSearch"></span> muestra <span ng-bind="totalResults"></span> resultados
+				</p>
+				<h4 ng-show="resultPreguntas.length > 0">Preguntas frecuentes</h4>
+				<div class="grid-100 itemResult" ng-repeat="rp in resultPreguntas" ng-click="link('/faq/',rp.menu+'/'+rp.idPregunta)">
+					<p class="result" ng-bind="rp.pregunta"><p>
+					<!--<p class="breadCrumb">breadcrumb</p>-->
+				</div>
+				<h4 ng-show="resultContenidos.length > 0">Artículos en Categorías Principales</h4>
+				<div class="grid-100 itemResult" ng-repeat="rc in resultContenidos" ng-click="link('/sec/',rc.newLink)">
+					<p class="result" ng-bind="rc.contenido | responseSearch"><p>
+						
+					<!--<p class="breadCrumb">breadcrumb</p>-->
+				</div>
+			</div>
+			
+			<div class="category-content" style="padding-top:0;">
+				 <ratings th="web"></ratings>
+				<preguntas-frecuentes th="web"></preguntas-frecuentes>
+
+				<div class="block-stores-category" >
+					<i class="icon-ayuda-contacto"></i>
+					<div class="contact-description">
+						<div class="tiendas">Contáctanos</div>
+						<p>¿No encontraste lo que buscabas?</p>
+						<p class="phone">01 (55) 5262-9999 • atencion@liverpool.com.mx</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

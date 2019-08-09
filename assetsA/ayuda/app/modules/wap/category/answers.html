@@ -1,0 +1,33 @@
+
+        <div class="mobile-grid-100 searchBar">
+            <div class="mobile-grid-80 ">
+                <type-head class="categorytype" th="wap-category"><type-head>
+            </div>
+        </div>
+        <div class="mobile-grid-100 returnBar">
+            <div class="mobile-grid-80 mobile-prefix-10">
+                <div class="returnButton" ng-click="back();"><div class="arrowLeft"><i class="icon-ayuda-flecha-derecha"></i></div> Regresar</div>
+            </div>
+        </div>
+        <div class="mobile-grid-100 submenuMain">
+            <div class="mobile-grid-80 mobile-prefix-10 submenu">
+                <div class="listDiv" ng-bind-html ="category.icon | unsafe">
+                    
+                </div>
+                <div class="listDiv title" ng-bind="category.titulo">
+                    
+                </div>
+            </div>
+            <div class="mobile-grid-80 mobile-prefix-10">
+                <ul class="listSubmenu">
+                    <li ng-repeat="level2 in subnivel" ng-click="goTo(level2)">
+                        <div>{{level2.titulo}}
+                            <div class="listDiv iconArrow">
+                                <span class="icon-ayuda-flecha-derecha"></span>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>

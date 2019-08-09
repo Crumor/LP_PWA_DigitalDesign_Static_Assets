@@ -1,0 +1,45 @@
+
+        <div class="mobile-grid-100 searchBar">
+            <div class="mobile-grid-80 ">
+                <type-head class="categorytype" th="wap-category"><type-head>
+            </div>
+        </div>
+        <div class="mobile-grid-100 returnBar">
+            <div class="mobile-grid-80 mobile-prefix-10">
+                <div class="returnButton" ng-click="back();"><div class="arrowLeft"><i class="icon-ayuda-flecha-derecha"></i></div> Regresar</div>
+            </div>
+        </div>
+        <div class="mobile-grid-100 results">
+        	<div class="mobile-grid-80 mobile-prefix-10 titleResult">
+        		<p >Tu busqueda a <strong ng-bind="wordSearch"></strong> muestra <strong ng-bind="totalResult"></strong>	resultados</p>
+        	</div>
+			<p class="titleTypeResult mobile-prefix-10 mobile-suffix-10" ng-show="resultPreguntas.length > 0">Preguntas frecuentes</p>
+			<div class="mobile-grid-100 itemResult">
+				<div class="mobile-prefix-10 mobile-suffix-10 descript" ng-repeat="p in resultPreguntas">
+					<p><a href="#/faq/{{p.menu}}/{{p.idPregunta}}"  ng-bind-html="p.pregunta"></a></p>
+					<!--<p><a href="">Preguntas frecuentes <span class="icon-ayuda-flecha-derecha"></span> Crédito</a></p>-->
+				</div>
+			</div>
+
+			<p class="titleTypeResult mobile-prefix-10 mobile-suffix-10" ng-show="resultContenidos.length > 0">Articulos en categorias principales</p>
+			<div class="mobile-grid-100 itemResult">
+				<div class="mobile-prefix-10 mobile-suffix-10 descript" ng-repeat="rc in resultContenidos">
+					<p><a href="#/cont/{{rc.newLink}}"  ng-bind="rc.contenido | responseSearch"></a></p>
+					<!--<p><a href="">Preguntas frecuentes <span class="icon-ayuda-flecha-derecha"></span> Crédito</a></p>-->
+				</div>
+			</div>        	
+        	
+        </div>
+
+            <div class="mobile-grid-90 mobile-prefix-5 footerSub3">
+                <h3 class="contactTitle">Contáctanos</h3>
+                <p class="contactSubtitle">No encontraste lo que buscabas</p>
+                <div class="mobile-grid-40 squareContact">
+                    <i class="icon-ayuda-telefono"></i>
+                    <p>Llámanos</p>
+                </div>
+                <div class="mobile-grid-40 squareContact">
+                    <i class="icon-ayuda-sobre"></i>
+                    <p>Escríbenos</p>
+                </div>
+            </div>
