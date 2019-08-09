@@ -967,93 +967,93 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'consolas_xbox_200619',
-    'name': 'Consolas Xbox',
-    'creative': 'blp_videojuegos_consolas_xbox',
+    'id': 'mes_nintendo_m_090819',
+    'name': 'Mes Nintendo',
+    'creative': 'blp_videojuegos_mes_nintendo_m',
     'position': '01'
 },
 {
-    'id': 'juegos_xbox_200619',
-    'name': 'Juegos Xbox',
-    'creative': 'blp_videojuegos_juegos_xbox',
+    'id': 'nintendo_marca_090819',
+    'name': 'Marca Nintendo',
+    'creative': 'blp_videojuegos_marca_nintendo',
     'position': '02'
 },
 {
-    'id': 'accesorios_xbox_200619',
-    'name': 'Accesorios Xbox',
-    'creative': 'blp_videojuegos_accesorios_xbox',
+    'id': 'playstation_marca_090819',
+    'name': 'Marca Playstation',
+    'creative': 'blp_videojuegos_marca_playstation',
     'position': '03'
 },
 {
-    'id': 'consolas_playstation_200619',
-    'name': 'Consolas Playstation',
-    'creative': 'blp_videojuegos_consolas_playstation',
+    'id': 'xbox_marca_090819',
+    'name': 'Marca Xbox',
+    'creative': 'blp_videojuegos_marca_xbox',
     'position': '04'
 },
 {
-    'id': 'juegos_playstation_200619',
-    'name': 'Juegos Playstation',
-    'creative': 'blp_videojuegos_juegos_playstation',
+    'id': 'mes_nintendo_090819',
+    'name': 'Mes Nintendo',
+    'creative': 'blp_videojuegos_mes_nintendo',
     'position': '05'
 },
 {
-    'id': 'accesorios_playstation_200619',
-    'name': 'Accesorios Playstation',
-    'creative': 'blp_videojuegos_accesorios_playstation',
+    'id': 'consolas_090819',
+    'name': 'Consolas',
+    'creative': 'blp_videojuegos_consolas',
     'position': '06'
 },
 {
-    'id': 'consolas_nintendo_200619',
-    'name': 'Consolas Nintendo',
-    'creative': 'blp_videojuegos_consolas_nintendo',
+    'id': 'juegos_090819',
+    'name': 'Juegos',
+    'creative': 'blp_videojuegos_juegos',
     'position': '07'
 },
 {
-    'id': 'juegos_nintendo_200619',
-    'name': 'Juegos Nintendo',
-    'creative': 'blp_videojuegos_juegos_nintendo',
+    'id': 'accesorios_090819',
+    'name': 'Accesorios',
+    'creative': 'blp_videojuegos_accesorios',
     'position': '08'
 },
 {
-    'id': 'accesorios_nintendo_200619',
-    'name': 'Accesorios Nintendo',
-    'creative': 'blp_videojuegos_accesorios_nintendo',
+    'id': 'greatest_hits_090819',
+    'name': 'Greatest Hits',
+    'creative': 'blp_videojuegos_greatest_hits',
     'position': '09'
 },
 {
-    'id': 'playstation_hits_200619',
-    'name': 'Playstation Hits',
-    'creative': 'blp_videojuegos_ps_hits',
+    'id': 'control_090819',
+    'name': 'Control',
+    'creative': 'blp_videojuegos_control',
     'position': '10'
 },
 {
-    'id': 'ctr_200619',
-    'name': 'Crash Nitro',
-    'creative': 'blp_videojuegos_ctr',
+    'id': 'fifa_090819',
+    'name': 'Fifa 20',
+    'creative': 'blp_videojuegos_fifa',
     'position': '11'
 },
 {
-    'id': 'mariomaker_200619',
-    'name': 'Mario Maker',
-    'creative': 'blp_videojuegos_mariomaker',
+    'id': 'starwars_090819',
+    'name': 'Star Wars',
+    'creative': 'blp_videojuegos_starwars',
     'position': '12'
 },
 {
-    'id': 'nesclassic_200619',
-    'name': 'Nes Classic',
-    'creative': 'blp_videojuegos_nesclassic',
+    'id': 'mario_090819',
+    'name': 'Mario',
+    'creative': 'blp_videojuegos_mario',
     'position': '13'
 },
 {
-    'id': 'zonageek_200619',
-    'name': 'Zona Geek',
-    'creative': 'blp_videojuegos_zonageek',
+    'id': 'cod_090819',
+    'name': 'Call of Duty',
+    'creative': 'blp_videojuegos_cod',
     'position': '14'
 },
 {
-    'id': 'nvidia_200619',
-    'name': 'Nvidia',
-    'creative': 'blp_videojuegos_nvidia',
+    'id': 'pcgamer_090819',
+    'name': 'Pc Gamer',
+    'creative': 'blp_videojuegos_pcgamer',
     'position': '15'
 }
 ]
@@ -2516,9 +2516,9 @@ dataLayer.push({
     'position': '02'
 },
 {
-    'id': 'perversion_210619',
-    'name': 'UD Perversion',
-    'creative': 'blp_ud_perversion',
+    'id': 'staynaked_090819',
+    'name': 'UD Stay Naked',
+    'creative': 'blp_ud_staynaked',
     'position': '03'
 },
 {
@@ -2616,15 +2616,22 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'prolong_210619',
-    'name': 'Mac Prolong',
-    'creative': 'blp_mac_prolong',
+ 'id': 'loveme_090819',
+    'name': 'Mac Love me',
+    'creative': 'blpmov_mac_loveme',
     'position': '01'
 },
 {
-    'id': 'vivaglam_210619',
-    'name': 'Mac Vivaglam',
-    'creative': 'blp_mac_vivaglam',
+    'id': 'loveme_090819',
+    'name': 'Mac Love me',
+    'creative': 'blp_mac_loveme',
+    'position': '01'
+},
+{
+
+    'id': 'extradimension_090819',
+    'name': 'Mac Extra Dimension',
+    'creative': 'blp_mac_extradimension',
     'position': '02'
 },
 {
@@ -2661,6 +2668,8 @@ dataLayer.push({
 }
 }
 });
+}
+
                 
 /* BLP ANASTASIA*/ 
        
