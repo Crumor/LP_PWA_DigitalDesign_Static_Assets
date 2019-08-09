@@ -2516,9 +2516,9 @@ dataLayer.push({
     'position': '02'
 },
 {
-    'id': 'perversion_210619',
-    'name': 'UD Perversion',
-    'creative': 'blp_ud_perversion',
+    'id': 'staynaked_090819',
+    'name': 'UD Stay Naked',
+    'creative': 'blp_ud_staynaked',
     'position': '03'
 },
 {
@@ -2616,15 +2616,22 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'prolong_210619',
-    'name': 'Mac Prolong',
-    'creative': 'blp_mac_prolong',
+ 'id': 'loveme_090819',
+    'name': 'Mac Love me',
+    'creative': 'blpmov_mac_loveme',
     'position': '01'
 },
 {
-    'id': 'vivaglam_210619',
-    'name': 'Mac Vivaglam',
-    'creative': 'blp_mac_vivaglam',
+    'id': 'loveme_090819',
+    'name': 'Mac Love me',
+    'creative': 'blp_mac_loveme',
+    'position': '01'
+},
+{
+
+    'id': 'extradimension_090819',
+    'name': 'Mac Extra Dimension',
+    'creative': 'blp_mac_extradimension',
     'position': '02'
 },
 {
@@ -2661,6 +2668,8 @@ dataLayer.push({
 }
 }
 });
+}
+
                 
 /* BLP ANASTASIA*/ 
        
