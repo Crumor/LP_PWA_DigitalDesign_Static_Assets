@@ -1,0 +1,7 @@
+            <div class="mobile-grid-80 mobile-prefix-10 questions">
+                <h3>Preguntas Frecuentes</h3>
+                <ul>
+                    <li ng-repeat="p in topPreguntas | limitTo: 5 track by $index"><a href="#/faq/{{ p.menu}}/{{p.idPregunta}}" ng-bind="p.pregunta"></a></li>
+                    
+                </ul>
+            </div>

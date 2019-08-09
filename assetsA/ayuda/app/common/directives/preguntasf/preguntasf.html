@@ -1,0 +1,8 @@
+<div class="frequent-cat" >
+    <div class="frecuente-tag" > Preguntas Frecuentes</div>
+        <ul class="main-questions">
+            <li ng-repeat="p in topPreguntas | limitTo: 5 track by $index"><a href="#/faq/{{p.menu}}/{{p.idPregunta}}" ng-bind="p.pregunta"></a> </li>
+            
+        </ul>
+    </div>
+</div>

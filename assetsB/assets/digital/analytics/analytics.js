@@ -1,29 +1,86 @@
 function showBlp(){
-  var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"catst11034202",validate:"true",id:"cat-0002", action:'showPLP'},
-                   {catId:"cat6910000",validate:"true",id:"cat-0003", action:'showPLP'},
-                   {catId:"cat6600048",validate:"true",id:"cat-0004", action:'showPLP'},
-                   {catId:"cat7230028",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"cat7530016",validate:"true",id:"cat-0001", action:'showPLP'},
-                   {catId:"catst12274633",validate:"true",id:"cat-0001", action:'showPLP'}];
-
-
-  var catElements = (document.getElementById("target0")) ? document.getElementById("target0").children[0].children[0].children : '';
-  if(catElements){
-
-    for (var i = 0; i < catExcludeList.length; i++) {
-        var catExcludeId = catExcludeList[i].catId;
-        for (var i = 0; i < catElements.length; i++) {
-          var elements = catElements[i].children[0];
-          var catRefTitle = elements.getAttribute("href").substring(elements.getAttribute("href").lastIndexOf("/") + 1).split("?showPLP")[0];
-          if(catExcludeId != catRefTitle){
-              var catRef = elements.getAttribute("href").split("?showPLP")[0]+"?showPLP";
-              elements.setAttribute("href",catRef);
-          }
+var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:'showPLP'},
+                 {catId:"catst11034202",validate:"true",id:"cat-0002", action:'showPLP'},
+                 {catId:"cat6910000",validate:"true",id:"cat-0003", action:'showPLP'},
+                 {catId:"cat6600048",validate:"true",id:"cat-0004", action:'showPLP'},
+                 {catId:"cat7230028",validate:"true",id:"cat-0005", action:'showPLP'},
+                 {catId:"cat7530016",validate:"true",id:"cat-0006", action:'showPLP'},
+                 {catId:"catst12274633",validate:"true",id:"cat-0007", action:'showPLP'}];
+    var subnav;
+    var catElements = (document.getElementById("target0")) ? document.getElementById("target0").children[0].children[0].children : '';
+    if(catElements){
+    var nav = document.getElementsByClassName('card nav-item');
+    for (var i = 0; i < nav.length; i++) {
+      subnav = nav[i].children[1].children[0];
+      var arrSubnav = Array.from(subnav.children[0].children);
+      for (var p = 0; p < arrSubnav.length; p++) {
+            var arrSubnavChild = Array.from(arrSubnav[p].children);
+              var catRefTitle = arrSubnavChild[0].getAttribute('href').substring(arrSubnavChild[0].getAttribute("href").lastIndexOf("/") + 1).split("?showPLP")[0];
+              var catGetAttribute = arrSubnavChild[0].getAttribute('href');
+              var catRefArray= arrSubnavChild[0];
+              for (var o = 0; o < catExcludeList.length; o++) {
+                  var catExcludeId = catExcludeList[o].catId;
+                  if(catExcludeId != catRefTitle){
+                      var catRef = catRefArray.getAttribute("href").split("?showPLP")[0]+"?showPLP";
+                      catRefArray.setAttribute("href",catRef);
+                }
+              }
+           }
         }
-      }
-   }
+    }
 
+}
+function countdownZapatos(){
+        try{
+        let endDate = new Date("Aug 09, 2019 23:59:59").getTime();
+        elDays = document.getElementsByClassName("cdh_days");
+        elHours = document.getElementsByClassName("cdh_hours");
+        elMinutes = document.getElementsByClassName("cdh_minutes");
+        elSeconds = document.getElementsByClassName("cdh_seconds");
+
+    
+
+        operationsTime = ()=>{
+        let nowaday = new Date().getTime();
+        distanceBetweenDays = endDate - nowaday;
+        days = Math.floor(distanceBetweenDays / (1000 * 60 * 60 * 24));
+        hours = Math.floor((distanceBetweenDays % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        minutes = Math.floor((distanceBetweenDays % (1000 * 60 * 60)) / (1000 * 60));
+        seconds = Math.floor((distanceBetweenDays % (1000 * 60)) / 1000);
+        if( distanceBetweenDays < 0 ){
+        clearInterval(engineTime);
+        days = 0;
+        hours = 0;
+        minutes = 0;
+        seconds = 0;
+        }
+        return {
+        "days":days,
+        "hours":hours,
+        "minutes":minutes,
+        "seconds":seconds
+        }
+        }
+        setHtml =(objs,value)=>{
+
+            for( var i = 0;i<objs.length;i++){
+                objs[i].innerHTML = value;
+            }
+        }
+        setDataTime =(d,h,m,s) =>{
+        setHtml(elDays, d < 10 ? "0" + d : d);
+        setHtml(elHours, h < 10 ? "0" + h : h);
+        setHtml(elMinutes, m < 10 ? "0" + m : m);
+        setHtml(elSeconds, s < 10 ?  "0" + s : s);
+        }
+        runTime = ()=>{
+        let dataTime = operationsTime();
+        setDataTime(dataTime.days,dataTime.hours,dataTime.minutes,dataTime.seconds);
+        }
+        let engineTime =  setInterval(runTime,1000);
+        }catch(Exception){
+        console.log("time__fail");
+        }
 }
     function myOnloadFunction(pageName,path) {
         showBlp();
@@ -37,6 +94,12 @@ function showBlp(){
                         'promotions': [// Array of promoFieldObjects.
                            {
 		  'id':'computo_010819',
+		   'name':'Cómputo hasta 15% de desc',
+		   'creative':'h_banner_central',
+		   'position':'1'
+			 },
+							   {
+		  'id':'computo_090819',
 		   'name':'Cómputo hasta 20% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
@@ -73,6 +136,24 @@ function showBlp(){
 			},
                   {
 		   'id':'apple_030819',
+		   'name':'Apple Watch',
+		   'creative':'h_banner_secun',
+		   'position':'7'
+			},
+									{
+		   'id':'iphone_090819',
+		   'name':'iPhone hasta 10% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'6_1'
+			},
+							{
+		   'id':'ipad_6ta_090819',
+		   'name':'iPad 6ta gen',
+		   'creative':'h_banner_secun',
+		   'position':'6'
+			},
+                  {
+		   'id':'apple_090819',
 		   'name':'Apple Watch',
 		   'creative':'h_banner_secun',
 		   'position':'7'
@@ -1124,6 +1205,98 @@ dataLayer.push({
 }
 });				
 		
+	/*PRIMER NIVEL BEBÉS QA*/ 
+
+            break;
+            case '/tienda/bebés/cat4120003':
+            
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school',
+    'position': '01'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_nina',
+    'position': '02'
+},
+{
+
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_nino',
+    'position': '03'
+                                                
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_principal',
+    'position': '04'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_zap_nina',
+    'position': '05'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_zap_nino',
+    'position': '06'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_accesorios',
+    'position': '07'
+},
+{
+   'id': 'bebes_main_230719',
+   'name': 'Back to school - Liverpool',
+   'creative': 'blp_el_bebes_back_to_school_fisher_nina',
+   'position': '08'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_fisher_nino',
+    'position': '09'
+},
+{
+   'id': 'bebes_main_230719',
+   'name': 'Back to school - Liverpool',
+   'creative': 'blp_el_bebes_back_to_school_carriolas',
+   'position': '10'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_cuna',
+    'position': '11'
+},
+{
+    'id': 'bebes_main_230719',
+    'name': 'Back to school - Liverpool',
+    'creative': 'blp_el_bebes_back_to_school_autoasientos',
+    'position': '12'
+
+}
+]
+}
+}
+});				
+				
+				
+				
 				
 				
 /*PRIMER NIVEL CASA*/ 
@@ -1559,7 +1732,7 @@ dataLayer.push({
 break;
 case '/tienda/zapatos/cat5040494':
 
-
+countdownZapatos();
 dataLayer.push({
 'event': 'impresionCampaign',
 'ecommerce': {

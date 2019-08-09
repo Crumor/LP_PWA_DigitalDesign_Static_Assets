@@ -1,0 +1,38 @@
+
+	<input type="text" class="form-control ayuda-busqueda" ng-model="inputBuscar" placeholder="Busca preguntas frecuentes o palabras clave" ng-keyup="buscar($event,inputBuscar)" style="width:100%;"> 
+	<div class="entercancelar" id="cancelar" ng-show="inputBuscar.length > 3 " ng-click="inputBuscar = ''">
+		<i class="icon-ayuda-cancelar-busqueda"></i>
+	</div>
+	<div class="enterbuscar" id="buscar" ng-click="mostrarResultados('/results/',inputBuscar)">
+					 <!--  <i class="icon-ayuda-buscar"></i> -->
+						<i class="icon-ayuda-buscar" ></i> 
+	</div>
+
+
+	<div class="type-down"   ng-hide="resultadoContenidos.length ===0 && resultadoPreguntas.length === 0">
+
+		<p class="titleSearchAll" ng-show="resultadoPreguntas.length > 0" ng-click="mostrarResultados('/results/',inputBuscar)">Mostrar todos los resultados para <strong ng-bind="inputBuscar"></strong></p>
+		<p  class="titleSearch" ng-show="resultadoPreguntas.length > 0"><strong ng-bind="inputBuscar"></strong> en Preguntas</p>
+		
+		<ul class="findResult">
+			<li ng-repeat="rsp in resultadoPreguntas | limitTo:5" class="drop-cont">
+				<span class="typhoon-search"><i class="icon-ayuda-cat-preguntas-frecuentes"></i></span>
+				<span class="anchorResult">
+
+				
+				<a href="#/faq/{{rsp.menu}}/{{rsp.idPregunta}}" ng-bind-html="rsp.pregunta"></a>
+
+
+
+				</span>
+			</li>  
+		</ul>
+		<p  class="titleSearch" ng-show="resultadoContenidos.length > 0"><strong ng-bind="inputBuscar"></strong> en Contenidos</p>
+		
+		<ul class="findResult">
+			<li ng-repeat="rc in resultadoContenidos | limitTo:5" class="drop-cont">
+				<span class="typhoon-search" ng-bind-html="rc.icon"><i class="icon-ayuda-cat-preguntas-frecuentes"></i></span>
+				<span class="anchorResult"><a href="#/sec/{{rc.newLink}}" ng-bind-html="rc.contenido"></a></span>
+			</li>  
+		</ul>
+	</div>
