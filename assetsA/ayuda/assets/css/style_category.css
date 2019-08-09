@@ -1,0 +1,512 @@
+.head-category {
+	background: #f2f2f2;
+	height: 100px;
+	display: inline-block
+}
+.title {
+	font-weight: 400;
+	font-size: 24px;
+	color: #3b3b3b;
+	padding-left: 10px;
+	border-left: 2px solid #d0d0d0;
+		margin: 0px 0px 30px 0px;
+}
+.subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	color: #3b3b3b;
+	padding: 10px 0;
+	line-height: 22px;
+}
+a{
+	text-decoration: none;
+	color: #e10098;
+}
+a:hover{
+	text-decoration: underline;
+	color: #3b3b3b;
+}
+.tsunami{
+	margin-top:5%;
+	display: inline-flex;
+}
+.tsunami h3 {
+	display: inline-block;
+	margin: 5px 10px;
+	font-size: 30px;
+	line-height: 30px;
+}
+.typeHeadCategory{
+	float: left;
+	margin-top: 4%;
+	height: 50px;
+	width: 100%;
+	position: relative;
+	z-index:999;
+}
+.typeHeadCategory > input {
+	height: 40px;
+	padding-left: 22px;
+	font-size: 0.7em;
+	font-style: italic;
+	box-sizing: border-box;
+	background-color: none;
+}
+/*para firefox*/
+.typeHeadCategory > input {
+		border-style: none;
+		border-color: Transparent;
+		overflow: auto;
+		outline: none;
+}
+.typeHeadCategory > .type-down {
+	position: absolute;
+	z-index: 3;
+}
+.typeHeadCategory > .enterbuscar{
+		right: 1%;
+}
+.typeHeadCategory > .entercancelar{
+		right: 50px;
+		top:14px;
+		font-size: .9em;
+}
+.frecuente-tag{
+	font-size: 20px;
+	color: #666666;
+}
+.tsunami i {
+	color: #e10098;
+	font-size: 2em;
+	vertical-align: sub;
+}
+ol {
+	list-style-type: lower-alpha;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #3b3b3e;
+	font-weight: 500;
+}
+ul {
+   
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #3b3b3e;
+	font-weight: 500;
+}
+li{
+	margin-left: 5%;
+}
+
+ul .subtitle{
+	margin-left: 0px;
+}
+
+p {
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 14px;
+	color: #3b3b3b;
+	font-weight: 500;
+}
+/*p.quest{
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 14px;
+	color: #777777;
+	padding: 10px;
+}
+p.quest:hover{
+	background-color: #f2f2f2;
+	cursor: pointer;
+}*/
+.is_active{
+	background-color: white;
+	cursor: pointer;
+}
+.no_active{
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+
+
+p.ans{
+   padding-left: 15px;
+}
+table{
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 12px;
+	color: #3b3b3b;
+}
+.view-image{
+	color: #e10098;
+	margin:5% 0;
+}
+.view-image a{
+	color: #e10098;
+	text-decoration: none;
+}
+.happy-face, .thanks {
+	margin-top: 40px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 30px;
+}
+.happy-face, .thanks p {
+	font-weight: 500;
+	color: #666666;
+	font-size: 14px;
+}
+.faces {
+	font-size: 1.9em;
+	color: #b3b3b3;
+	margin: 20px 0 0;
+	list-style:none; 
+}
+.faces li{
+	display: inline-block;
+	vertical-align: top;
+	color: #666666;
+}
+.faces li:hover{
+	cursor: pointer;
+	color: #e10098;
+}
+.category-content {
+	padding: 40px 20px 20px 0px;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.category-content > p{
+	margin-bottom: 10px;
+}
+.category-content > p >a{
+	color: #e10098;
+}
+.category-content .titleResults{
+	font-size:14px;
+	color: #706666;
+	padding-left: 10px;
+	border-left: 2px solid #d0d0d0;
+	margin: 0px 0px 30px 0px
+}
+ul.mesa{
+	list-style-type: disc;
+    margin-left: 16px;
+}
+.titleResults span{
+	font-weight: 900;
+	color: #000000;
+}
+.category-content h4{
+	border-bottom: solid 1px #d0d0d0;
+	padding-bottom: 20px;
+	font-weight: 900;
+	color: black;
+	font-size: 1em;
+	margin-top: 20px;
+	margin-top: 20px;
+}
+.itemResult{
+	cursor:pointer;
+	padding: 10px 5px;
+}
+.itemResult .result{
+	color:#666;
+	font-size:14px;
+}
+.itemResult .breadCrumb{
+	color:#666;
+	font-size:10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.itemResult:hover{
+	background-color:#f2f2f2;
+}
+.content-points {
+	padding: 40px 25px;
+}
+.menu-ayuda {
+	margin-top: 40px;
+}
+.menu-ayuda .submenu{
+	/*display: none;*/
+}
+ .storm2:hover{
+	background-color: #f2f2f2;
+}
+ .storm2.active, .storm3.active{
+	background-color: #f2f2f2;
+}
+.storm {
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+	margin-top: 15px;
+	cursor: pointer;
+
+	
+}
+.storm2{
+	width: 100%;
+	padding-top: 10px;
+}
+.storm > i:first-child,.storm2 > i:first-child {
+	color: #e10098;
+	font-size: 1.5em;
+	vertical-align: sub;
+}
+.storm > i:last-child,.storm2 > i:last-child {
+	color: #666666;
+	font-size: 0.5em;
+	margin-top: 8px;
+	float: right;
+	margin-right: 2px;
+}
+.storm > span:first-child{
+	margin-top:-2px;
+	float:left;
+	margin-right: 4px;
+	display: inline-block;
+}
+.storm > span:first-child > i{
+		color: #e10098;
+	font-size: 1.5em;
+	vertical-align: sub;
+	
+}
+.quest{
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 14px;
+	color: #777777;
+	padding: 0px 10px ;
+	display: block;
+	position:relative;
+	float:left;
+	cursor:pointer;
+	margin:0;
+}
+.quest:hover{
+	background-color:#f2f2f2;
+}
+.quest.active{
+	background-color:#f2f2f2;
+	margin-bottom: 20px;
+}
+.storm .ask{
+	position:relative;
+	float:left;
+	width:92%;
+	font-size:15px;
+	padding-left: 10px;
+
+}
+.ask{
+	margin: 0;
+	padding: 10px 10px 10px 0;
+}
+.storm .icon{
+	padding: 10px 0 10px 0;
+	width:3%;
+	font-size:12px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.storm .icon > i{
+	position:absolute;
+
+}
+.snow,.snow_active {
+	display: inline-block;
+	font-weight: bold;
+	color: #666666;
+	font-size: 14px;
+	 padding-bottom: 15px;
+	width: 70%;
+	padding-left: 5PX;
+}
+.storm3{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.storm3.active{
+	background: none;
+}
+.storm3 > .option:hover{
+	text-decoration: underline;;
+}
+.storm3.active > .option{
+	text-decoration: underline;;
+}
+.snow_active{
+	color:#e10098;
+}
+.snow:hover {
+	 text-decoration: underline;
+	color: #3b3b3b;
+}
+.level1{
+	width:100%;
+}
+.level1 .ans{
+	padding-left: 40px;
+	display: none;
+	margin: 20px 0;
+	font-size: 0.9em;
+	line-height: normal;
+	color: #555;
+}
+.level1 .active{
+	/*padding-left: 10px;*/
+	display: block !important;
+}
+.quest > .icon  .icon-ayuda-flecha-arriba, .level1 > .storm .icon-ayuda-flecha-arriba,.level2 > .storm2 .icon-ayuda-flecha-arriba {
+	transition:0.4s;
+
+}
+.level1 > .storm .icon-ayuda-flecha-arriba.active,.level2 > .storm2 .icon-ayuda-flecha-arriba.active {
+	-moz-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg); 
+	transform:rotate(-180deg);
+}
+
+.activar_icono {
+	-moz-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg); 
+	transform:rotate(-180deg);
+}
+
+.level2{
+	/*display:none;
+	z-index:888;*/
+border-bottom: 1px solid #E6E6E6;
+}
+.level2 > .storm2 > .option {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	color: #3b3b3b;
+	
+	padding-bottom: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	display: inline-block;
+	width:80%;
+}
+
+.level3 {
+	/*display:none;*/
+}
+.level3 .option {
+	padding-left: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #666666;
+	cursor: pointer;
+}
+.level3 > .option:hover {
+	text-decoration: underline;
+}
+.block-stores-category {
+	background: #f2f2f2;
+	padding: 2% 5%;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.block-stores-category i {
+	color: #e10098;
+	font-size: 4em;
+}
+.frequent-cat {
+	margin: 10% 0;
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from {-webkit-transform:scale(0)} 
+	to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+	from {transform:scale(0)} 
+	to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+	.modal-content {
+		width: 100%;
+	}
+}

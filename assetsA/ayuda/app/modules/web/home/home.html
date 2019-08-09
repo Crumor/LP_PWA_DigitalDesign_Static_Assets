@@ -1,0 +1,175 @@
+<!--WEB home-->
+<div class="grid-container" ng-click="validateResult()">
+    <header-web></header-web>
+    <div class="grid-100 insurgentes">
+        <h2 class="ayuda">¿Cómo podemos ayudarte?</h2>
+        <div class="grid-60 prefix-20">
+
+            <type-head th="web" class="typeHead"></type-head>
+        </div>
+
+    </div>
+    <div class="opacity"></div>
+    <div class="grid-100 ask-frecuentes">
+        <div class="grid-70 prefix-15 sufix-75">
+            <div class="grid-30">
+                <h3 class="ayuda">Preguntas más buscadas</h3>
+                <div class="vertodo">
+                    <a href="#/faq/preguntas-mas-buscadas">Ver todo </a>
+                    <i class="icon-ayuda-flecha-derecha"></i>
+                </div>
+            </div>
+            <div class="grid-30" style="margin-left: 3%;">
+                <ul class="main-questions">
+                    <li ng-repeat="p in topPreguntas | limitTo: 5">
+
+                        <a href="#/faq/{{p.menu}}/{{p.idPregunta}}" ng-bind="p.pregunta" ng-click="addVisit(p.$id)"></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="grid-30" style="margin-left: 5%;">
+                <ul class="main-questions">
+                    <li ng-repeat="p in topPreguntas | limitTo: -5 ">
+                        <a href="#/faq/{{p.menu}}/{{p.idPregunta}}" ng-bind="p.pregunta" ng-click="addVisit(p.$id)"></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="grid-70 prefix-15 sufix-75 cats-prin">
+        <div class="cats"> Categorías principales</div>
+        <div class="grid-100">
+            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 4" ng-hide="n1.idMenu === '1000'">
+                <div class="typhoon">
+                    <span ng-bind-html="n1.icon"></span>
+                    <div class="credito">
+                        <a href="#/sec/{{n1.link}}/{{n1.subnivel | oneOptionMenu}}" ng-bind="n1.titulo"></a>
+                    </div>
+                </div>
+                <ul class="main-topic">
+                    <li ng-repeat="n2 in n1.subnivel">
+                        <a href="#/sec/{{n1.link}}/{{n2.newLink}}" ng-bind="n2.titulo"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-100">
+            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 3: 5" ng-hide="n1.idMenu === '1000'">
+                <div class="typhoon">
+                    <span ng-bind-html="n1.icon"></span>
+                    <div class="credito">
+                        <a href="#/sec/{{n1.link}}/{{n1.subnivel | oneOptionMenu}}" ng-bind="n1.titulo"></a>
+                    </div>
+                </div>
+                <ul class="main-topic">
+
+                    <li ng-repeat="n2 in n1.subnivel">
+                        <a href="#/sec/{{n1.link}}/{{n2.newLink}}" ng-bind="n2.titulo"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-100">
+            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 1 : 8 " ng-hide="n1.idMenu === '1000'">
+                <div class="typhoon">
+                    <span ng-bind-html="n1.icon"></span>
+                    <div class="credito">
+                        <a href="#/sec/{{n1.link}}/{{n1.subnivel | oneOptionMenu}}" ng-bind="n1.titulo"></a>
+                    </div>
+                </div>
+                <ul class="main-topic">
+
+                    <li ng-repeat="n2 in n1.subnivel">
+                        <a href="#/sec/{{n1.link}}/{{n2.newLink}}" ng-bind="n2.titulo"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="grid-70 prefix-15 sufix-75 sub-frecuentes">
+        <div class="cats"> Temas frecuentes</div>
+        <div class="catsboom"></div>
+        <div class="grid-25">
+            <ul class="frequent">
+                <li><a href="#/sec/credito/guia-de-consulta-de-credito/introduccion"> Consulta de Crédito   </a></li>
+                <li><a href="#/sec/pagos-precios-y-promociones/opciones-de-pago">  Opciones de pago  </a></li>
+            </ul>
+        </div>
+        <div class="grid-25">
+            <ul class="frequent">
+                <li><a href="#/sec/pedidos-y-devoluciones/compras-en-linea"> Compras en línea   </a></li>
+                <li><a href="#/sec/pedidos-y-devoluciones/seguimiento-a-pedidos">  Seguimiento a pedidos  </a></li>
+            </ul>
+        </div>
+        <div class="grid-25">
+            <ul class="frequent">
+                <li><a href="#/sec/pagos-precios-y-promociones/codigo-de-facturacion"> Código de facturación   </a></li>
+                <li><a href="#/">  Créditos*  </a></li>
+            </ul>
+        </div>
+        <div class="grid-25">
+            <ul class="frequent">
+                <li><a href="#/"> Tarjeta registrada   </a></li>
+                <li><a href="#/">  Facturación electrónica  </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="grid-100 stores-ayuda">
+        <div class="grid-70 prefix-15 sufix-75 contact">
+            <div class="grid-45 block-stores">
+                <a href="https://www.liverpool.com.mx/tienda/m/browse/store.jsp">
+                    <div style="width: 90px; float: left;">
+
+                        <i class="icon-ayuda-tiendas"></i>
+
+                    </div>
+                    <div class="grid-90" style="margin-left: 20px;">
+                        <div class="contact-description locstore">
+
+                            <div class="tiendas">Tiendas</div>
+                            <p>Ubica tu tienda más cercana</p>
+                            <div class="phone">|</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-45 block-stores">
+                <div style="width: 90px; float: left;">
+                    <i class="icon-ayuda-contacto"></i>
+                </div>
+                <div class="grid-90" style="margin-left: 25px;">
+                    <div class="contact-description">
+                        <div class="tiendas">Contáctanos</div>
+                        <p>¿No encontraste lo que buscabas?</p>
+                        <p class="phone">01 (55) 5262-9999 • atencion@liverpool.com.mx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-100 others-ayuda">
+        <div class="grid-70 prefix-15 sufix-75">
+            <div class="grid-40">
+                <div class="others">Otros temas en liverpool.com.mx</div>
+            </div>
+            <div class="grid-25">
+                <ul class="others">
+                    <li><a href="#/sec/otros-temas/terminos-y-condiciones/aviso-de-privacidad-integral">Aviso de privacidad</a> </li>
+                    <li><a href="#/sec/otros-temas/terminos-y-condiciones/aviso-de-privacidad-integral">Términos y condiciones</a> </li>
+                    <li><a href="https://www.liverpool.com.mx/tienda/home.jsp">Sitio web</a> </li>
+                </ul>
+            </div>
+            <div class="grid-35">
+                <ul class="others">
+                    <li><a href="https://www.liverpool.com.mx/tienda/checkout/airtimeTicket.jsp">Tiempo aire</a> </li>
+                    <li><a href="#/sec/otros-temas/seguridad-del-sitio">Seguridad del sitio</a> </li>
+                    <li><a href="#/sec/otros-temas/terminos-y-condiciones/servicio-y-reparacion-de-relojeria">Políticas de servicio y reparación
+                        de relojería</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
