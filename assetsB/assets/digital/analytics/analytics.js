@@ -42,108 +42,98 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
                            {
-		  'id':'computo_010819',
+		    'id':'computo_120819',
 		   'name':'Cómputo hasta 15% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
-							   {
-		  'id':'computo_090819',
-		   'name':'Cómputo hasta 20% de desc',
-		   'creative':'h_banner_central',
-		   'position':'1'
-			 },
+		
 				 {
-		  'id':'ninos_010819',
-  		'name':'Niños hasta 20% de desc',
+		 'id':'videojuegos_120819',
+  		'name':'Videojuegos hasta 15% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		   'id':'ella_010819',
-		   'name':'Ella hasta 20% de desc',
+		  'id':'celulares_120819',
+		   'name':'Celulares hasta 18 msi',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
-		   'id':'zapatos_010819',
-		   'name':'Zapatos hasta 20% de desc',
+  'id':'ipad_6ta_120819',
+		   'name':'iPad 6ta gen',
 		   'creative':'h_banner_secun',
 		   'position':'4'
 			},
 				   {
-		   'id':'el_010819',
-		   'name':'Él hasta 20% de desc',
+		   'id':'apple_120819',
+		   'name':'Apple Watch',
 		   'creative':'h_banner_secun',
 		   'position':'5'
 			},
                   {
-		   'id':'ipad_6ta_030819',
-		   'name':'iPad 6ta gen',
+		   'id':'zapatos_120819',
+		   'name':'Zapatos hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'6'
 			},
                   {
-		   'id':'apple_030819',
-		   'name':'Apple Watch',
+		  'id':'el_120819',
+		   'name':'Él hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'7'
 			},
-									{
-		   'id':'iphone_090819',
-		   'name':'iPhone hasta 10% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'6_1'
-			},
-							{
-		   'id':'ipad_6ta_090819',
-		   'name':'iPad 6ta gen',
-		   'creative':'h_banner_secun',
-		   'position':'6'
-			},
-                  {
-		   'id':'apple_090819',
-		   'name':'Apple Watch',
-		   'creative':'h_banner_secun',
-		   'position':'7'
-			},
+			
                  
            {
-		   'id':'linea_blanca_010819',
-		   'name':'Línea Blanca hasta 40% de desc',
+		   'id':'deportes_120819',
+		   'name':'Deportes hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'8'
 			},
             
 			 {
-		 'id':'colchones_010819',
-		   'name':'Colchones hasta 40% de desc',
+		 'id':'linea_blanca_120819',
+		   'name':'Línea Blanca hasta 40% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'9'
 			 },
              {
-		  'id':'muebles_010819',
-		   'name':'Muebles hasta 25% de desc',
+		  'id':'cocina_120819',
+		   'name':'Cocina hasta 40% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'10'
 			 },
             {
-			'id':'cocina_010819',
-		   'name':'Cocina hasta 37% de desc',
+ 'id':'muebles_120819',
+		   'name':'Muebles hasta 25% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'11'
 			 },
                  {
-			'id':'celulares_010819',
-		   'name':'Celulares hasta 18 msn',
+			 'id':'cintillo_120819',
+		   'name':'cintillo',
 		   'creative':'h_banner_secun',
 		   'position':'12'
 			 },
               {
-		  'id':'deportes_010819',
-		   'name':'Deportes hasta 20% de desc',
+		  'id':'blancos_120819',
+		   'name':'Blancos hasta 40% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'13'
+			 },
+              {
+		  'id':'colchones_120819',
+		   'name':'Colchones hasta 43% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'14'
+			 },
+              {
+		 'id':'viajes_120819',
+		   'name':'Viajes hasta 65% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'15'
 			 }
                         ]
                     }
@@ -331,9 +321,9 @@ dataLayer.push({
 'position': '02'
 },
 {
-'id': 'bases_maquillaje_040619',
-'name': 'Bases Maquillaje',
-'creative': 'blp_belleza_bases',
+'id': 'mac_love_120819',
+'name': 'Mac Love',
+'creative': 'blp_belleza_mac_love',
 'position': '03'
 },
 {
@@ -397,9 +387,9 @@ dataLayer.push({
 'position': '13'
 },
 {
-'id': 'boss_junio_040619',
-'name': 'Hugo Boss Deco',
-'creative': 'blp_belleza_hugo_boss',
+'id': 'ladeco_120819',
+'name': 'Ladeco Video',
+'creative': 'blp_belleza_ladeco',
 'position': '14'
 },
 {
