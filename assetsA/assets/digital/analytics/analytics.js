@@ -321,9 +321,9 @@ dataLayer.push({
 'position': '02'
 },
 {
-'id': 'bases_maquillaje_040619',
-'name': 'Bases Maquillaje',
-'creative': 'blp_belleza_bases',
+'id': 'mac_love_120819',
+'name': 'Mac Love',
+'creative': 'blp_belleza_mac_love',
 'position': '03'
 },
 {
@@ -387,9 +387,9 @@ dataLayer.push({
 'position': '13'
 },
 {
-'id': 'boss_junio_040619',
-'name': 'Hugo Boss Deco',
-'creative': 'blp_belleza_hugo_boss',
+'id': 'ladeco_120819',
+'name': 'Ladeco Video',
+'creative': 'blp_belleza_ladeco',
 'position': '14'
 },
 {
