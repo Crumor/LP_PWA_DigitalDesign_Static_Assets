@@ -168,9 +168,9 @@ dataLayer.push({
 'position': '02'
 },
 {
-'id': 'camisas_formales_300719',
-'name': 'Camisas formales',
-'creative': 'blp_el_camisas_formales',
+'id': 'aeropostale_130819',
+'name': 'Aeropostale',
+'creative': 'blp_el_aeropostale',
 'position': '03'
 },
 {
