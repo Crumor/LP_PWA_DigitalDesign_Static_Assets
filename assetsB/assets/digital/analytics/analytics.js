@@ -1613,7 +1613,7 @@ dataLayer.push({
 });		
 				
 				
-	/*PRIMER NIVEL ELLA*/ 
+/*PRIMER NIVEL ELLA*/ 
 
 break;
 case '/tienda/ella/cat5040494':
@@ -1625,47 +1625,66 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'ella_main_290719',
-'name': 'ella_Principal',
-'creative': 'blp_el_ella_principal',
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_principal',
 'position': '01'
 },
 {
-'id': 'ella_main_290719',
-'name': 'ella_Principal',
-'creative': 'blp_el_ella_el_back',
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_lenceria',
 'position': '02'
 },
 {
-'id': 'ella_main_290719',
-'name': 'ella_Principal',
-'creative': 'blp_el_ella_ella_zapatos',
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_zapatos',
 'position': '03'
 },
 {
-'id': 'ella_main_290719',
-'name': 'ella_Principal',
-'creative': 'blp_el_ella_el_jeans',
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_bolsas',
 'position': '04'
 },
 {
-'id': 'ella_main_290719',
-'name': 'ella_Principal',
-'creative': 'blp_el_ella_ella_fashion_fest',
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_accesorios',
 'position': '05'
 },
 {
-'id': 'ella_main_290719',
-'name': 'ella_Principal',
-'creative': 'blp_el_ella_el_lenceria',
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_zap_makeup',
 'position': '06'
 },
 {
-'id': 'ella_main_290719',
-'name': 'ella_Principal',
-'creative': 'blp_el_ella_ella_newfashion',
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_zap_skincare',
 'position': '07'
 },
+{
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_curvy',
+'position': '08'
+},
+{
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_jeans',
+'position': '09'
+},
+{
+'id': 'ella_main_230719',
+'name': 'Ella - Liverpool',
+'creative': 'blp_ella_maternidad',
+'position': '10'
+},
+
 ]
 }
 }
@@ -2070,12 +2089,12 @@ dataLayer.push({
 break;
 case '/tienda/gap/catst1312370':
 
+
 dataLayer.push({
 'event': 'impresionCampaign',
 'ecommerce': {
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
-
 {
 'id': 'gap_main_200619',
 'name': 'gap_Principal',
@@ -2085,55 +2104,73 @@ dataLayer.push({
 {
 'id': 'gap_200519',
 'name': 'gap',
-'creative': 'blp_gap_blusas',
+'creative': 'blp_gap_back_nina',
 'position': '02'
 },
 {
 'id': 'gap_200519',
 'name': 'gap',
-'creative': 'blp_gap_playeras',
+'creative': 'blp_gap_back_nino',
 'position': '03'
 },
 {
 'id': 'gap_200519',
 'name': 'gap',
-'creative': 'blp_gap_vestidos',
+'creative': 'blp_gap_back_pantalones_nino',
 'position': '04'
 },
 {
 'id': 'gap_200519',
 'name': 'gap',
-'creative': 'blp_gap_camisas',
+'creative': 'blp_gap_back_pantalones_nina',
 'position': '05'
 },
 {
 'id': 'gap_200519',
 'name': 'gap',
-'creative': 'blp_gap_faldas',
+'creative': 'blp_gap_back_chamarras_nino',
 'position': '06'
 },
 {
 'id': 'gap_200519',
 'name': 'gap',
-'creative': 'blp_gap_pantalones',
+'creative': 'blp_gap_back_chamarras_nina',
 'position': '07'
+},
+{
+'id': 'gap_main_200619',
+'name': 'gap_Principal',
+'creative': 'blp_gap_video_infantiles',
+'position': '08'
+},
+{
+'id': 'gap_main_200619',
+'name': 'gap_Principal',
+'creative': 'blp_gap_video_denim',
+'position': '09'
 },
 {
 'id': 'gap_200519',
 'name': 'gap',
-'creative': 'blp_gap_denim',
-'position': '08'
+'creative': 'blp_gap_back_denim_el',
+'position': '10'
 },
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_back_denim',
+'position': '11'
+}
+{
+'id': 'gap_200519',
+'name': 'gap',
+'creative': 'blp_gap_back_denim_ella',
+'position': '12'
+}
 ]
 }
 }
-});			
-				
-				
-				
-				
-				
-				
+});		
 				
 
 /* BLP west elm*/
@@ -3285,11 +3322,10 @@ dataLayer.push({
 }
 });
    
-/* BLP BANAN REPUBLIC*/ 
-       
-            break;
-            case '/tienda/banana-republic/catst1316206':
+/*BLP BANANA REPUBLIC*/ 
 
+break;
+case '/tienda/banana-republic/catst1316206':
 
 dataLayer.push({
 'event': 'impresionCampaign',
@@ -3297,83 +3333,53 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'main_210619',
-    'name': 'BR Main',
-    'creative': 'blp_br_main',
-    'position': '01'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_principal',
+'position': '01'
 },
 {
-    'id': 'workinglife_210619',
-    'name': 'BR Working Life',
-    'creative': 'blp_br_working',
-    'position': '02'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_video',
+'position': '02'
 },
 {
-    'id': 'ella_210619',
-    'name': 'BR Ella',
-    'creative': 'blp_br_ella',
-    'position': '03'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_sueteres_ella',
+'position': '03'
 },
 {
-    'id': 'el_210619',
-    'name': 'BR Él',
-    'creative': 'blp_br_el',
-    'position': '04'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_blusas_ella',
+'position': '04'
 },
 {
-    'id': 'fragrance_210619',
-    'name': 'BR Fragrance',
-    'creative': 'blp_br_fragrance',
-    'position': '05'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_vestidos',
+'position': '05'
 },
 {
-    'id': 'vestidos_210619',
-    'name': 'BR Vestidos',
-    'creative': 'blp_br_vestidos',
-    'position': '06'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_sueteres_el',
+'position': '06'
 },
 {
-    'id': 'blusas_210619',
-    'name': 'BR Blusas',
-    'creative': 'blp_br_blusas',
-    'position': '07'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_camisas_el',
+'position': '07'
 },
 {
-    'id': 'camisas_210619',
-    'name': 'BR Camisas',
-    'creative': 'blp_br_camisas',
-    'position': '08'
+'id': 'banana_republic_150819',
+'name': 'banana_republic',
+'creative': 'blp_banana_republic_pantalones_el',
+'position': '08'
 },
-{
-    'id': 'polos_210619',
-    'name': 'BR Polos',
-    'creative': 'blp_br_polos',
-    'position': '09'
-},
-{
-    'id': 'pantalones_ella_210619',
-    'name': 'BR Pantalones Ella',
-    'creative': 'blp_br_pantalones_ella',
-    'position': '10'
-},
-{
-    'id': 'sueteres_ella_210619',
-    'name': 'BR Sueteres Ella',
-    'creative': 'blp_br_sueteres_ella',
-    'position': '11'
-},
-{
-    'id': 'pantalones_el_210619',
-    'name': 'BR Pantalones El',
-    'creative': 'blp_br_pantalones_el',
-    'position': '12'
-},
-{
-    'id': 'sueteres_el_210619',
-    'name': 'BR Sueteres El',
-    'creative': 'blp_br_sueteres_el',
-    'position': '13'
-}
 ]
 }
 }
