@@ -1,5 +1,6 @@
 
 
+
 <!doctype html>
 <html>
 <head>
@@ -7,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html;">
-<title>Liverpool - Es parte de mi vida</title>
+<title>Credito Liverpool - Es parte de mi vida</title>
 <style>
 
 	body { 
@@ -199,7 +200,8 @@ td { font-size:1px; line-height:1px;}
 	<tr>
 		<td>
 			<p class="subject2" align="center" style="font-size:10px; color:#999">
-Pagando con tus tarjetas Liverpool	
+
+Pagando con tus tarjetas Liverpool 		
 			</p>
 		</td>
 	</tr>
@@ -211,7 +213,7 @@ Pagando con tus tarjetas Liverpool
         	<table class="contenido0-24-meseseral" cellpadding="0" cellspacing="0" width="100%">
             	<tr>
                     <td class="logo">
-                    <a href="https://www.liverpool.com.mx/tienda/home?utm_source=sms&utm_medium=proveedor&utm_content=chicos_mzo_5620308&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB">
+                    <a href="https://www.liverpool.com.mx/tienda/home?utm_source=email&utm_medium=responsys&utm_content=chicos_mzo_5620308&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB">
                     <img src="images/logo_liv.jpg" alt="" width="600" height="70" style="align: top; border: 0;" title="Liverpool es parte de mi vida" /></a>
                     </td>
                     
@@ -221,10 +223,10 @@ Pagando con tus tarjetas Liverpool
     </tr>
     
 <!-- Nombre -->    
-<!--    <tr cellspacing="0" class="main_cta">
+    <tr cellspacing="0" class="main_cta">
     	<td>
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tbody>
+        <tbody><!--
         	<tr cellspacing="0">
             	<td width="300" align="justify" style="width:300px display:block;">
     	        	<h1 text-align="justify" style="font-size:15px; color:#888; padding: 10px;"> Hola ${NOMBRE}</h1>
@@ -236,37 +238,43 @@ Pagando con tus tarjetas Liverpool
 					</p>
 					</td>
 				</td>
-        	</tr>
+        	</tr>--> 
         </tbody>
         </table>
 		</td>
-   </tr> --> 
+   </tr>  
   
 <!--Arte-->
 
 <tr class="main_cta">
         <td>
-            <a href="https://www.liverpool.com.mx/tienda/home?utm_source=sms&utm_medium=proveedor&utm_content=mg_CR_VENTA_ESPECIAL&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB"  xt="SPCLICKSTREAM" ><img src="images/image_01.gif" alt="" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
+            <a href="https://www.liverpool.com.mx/tienda/home?utm_source=email&utm_medium=responsys&utm_content=mg_CR_BONIFICACIÓN_MONEDERO&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB"  xt="SPCLICKSTREAM" ><img src="images/mg_VENTA.gif" alt="Hasta 15 MSI" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
             </a>
         </td>
     </tr>
 <tr class="main_cta">
- <td>
-            <a href="https://www.liverpool.com.mx/tienda/home?utm_source=sms&utm_medium=proveedor&utm_content=CR_VENTA_ESPECIAL&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB"  xt="SPCLICKSTREAM" ><img src="images/image_02.gif" alt="" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
+        <td>
+            <a href="https://www.liverpool.com.mx/tienda/home?utm_source=email&utm_medium=responsys&utm_content=mg_CR_BONIFICACIÓN_MONEDERO&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB"  xt="SPCLICKSTREAM" ><img src="images/image_02.jpg" alt="Hasta 15 MSI" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
             </a>
-	</td></tr>
+        </td>
+    </tr>
 <tr class="main_cta">
- <td>
-            <a href="https://www.liverpool.com.mx/tienda/home?utm_source=sms&utm_medium=proveedor&utm_content=CR_VENTA_ESPECIAL&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB"  xt="SPCLICKSTREAM" ><img src="images/image_03.gif" alt="" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
+        <td>
+            <a href="https://www.liverpool.com.mx/tienda/home?utm_source=email&utm_medium=responsys&utm_content=mg_CR_BONIFICACIÓN_MONEDERO&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB"  xt="SPCLICKSTREAM" ><img src="images/image_03.gif" alt="Hasta 15 MSI" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
             </a>
-	</td></tr>
+        </td>
+    </tr>
 <tr class="main_cta">
- 
+        <td>
+            <a href="https://www.liverpool.com.mx/tienda/home?utm_source=email&utm_medium=responsys&utm_content=mg_CR_BONIFICACIÓN_MONEDERO&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB"  xt="SPCLICKSTREAM" ><img src="images/image_04.jpg" alt="Hasta 15 MSI" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
+            </a>
+        </td>
+    </tr>
 
 <!--cintillo Pocket-->
 <tr class="main_cta">
         <td>
-            <a href="https://liverpoolshapp.page.link/N1KR?utm_source=sms&utm_medium=proveedor&utm_content=cintillo_pocket_CR_VENTA_ESPECIAL&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB"  xt="SPCLICKSTREAM" ><img src="https://assetspwa.liverpool.com.mx/assets/digital/mailings/img/cintillo_download_app.gif" alt="" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
+            <a href="https://liverpoolshapp.page.link/N1KR?utm_source=email&utm_medium=responsys&utm_content=cintillo_pocket_CR_BONIFICACIÓN_MONEDERO&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB"  xt="SPCLICKSTREAM" ><img src="https://assetspwa.liverpool.com.mx/assets/digital/mailings/img/cintillo_download_app.gif" alt="" width="600" height=""  style="align: top; border: 0; display:block;" title="Liverpool" />
             </a>
         </td>
     </tr>
@@ -278,27 +286,27 @@ Pagando con tus tarjetas Liverpool
                 <tr>
                 <center>
 					<td align="center" width="100px" style="padding-left: 15px;">
-						<a href="https://www.liverpool.com.mx/tienda/computo-y-electronica/cat5150041?utm_source=sms&utm_medium=proveedor&utm_content=menu_multimedia&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Multimedia </a>
+						<a href="https://www.liverpool.com.mx/tienda/computo-y-electronica/cat5150041?utm_source=email&utm_medium=responsys&utm_content=menu_multimedia&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Multimedia </a>
 					</td>
                		<td class="desaparecer" align="center"><a href="" style="text-decoration: none; color: #888;">&bull;</a></td>
                		<td align="center" width="90px">
-               			<a href="https://www.liverpool.com.mx/tienda/casa/catst8233783?utm_source=sms&utm_medium=proveedor&utm_content=menu_casa&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Casa </a>
+               			<a href="https://www.liverpool.com.mx/tienda/casa/catst8233783?utm_source=email&utm_medium=responsys&utm_content=menu_casa&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Casa </a>
 					</td>
                		<td class="desaparecer" align="center"><a href="" style="text-decoration: none; color: #888;">&bull;</a></td>
                		<td align="center" width="90px">
-						<a href="https://www.liverpool.com.mx/tienda/deportes/cat480332?utm_source=sms&utm_medium=proveedor&utm_content=menu_deportes&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Deportes </a>
+						<a href="https://www.liverpool.com.mx/tienda/deportes/cat480332?utm_source=email&utm_medium=responsys&utm_content=menu_deportes&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Deportes </a>
 					</td>
                		<td class="desaparecer" align="center"><a href="" style="text-decoration: none; color: #888;">&bull;</a></td>
                		<td align="center" width="90px">
-						<a href="https://www.liverpool.com.mx/tienda/belleza/cat5020010?utm_source=sms&utm_medium=proveedor&utm_content=menu_belleza&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Belleza </a>
+						<a href="https://www.liverpool.com.mx/tienda/belleza/cat5020010?utm_source=email&utm_medium=responsys&utm_content=menu_belleza&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Belleza </a>
 					</td>
                		<td class="desaparecer" align="center"><a href="" style="text-decoration: none; color: #888;">&bull;</a></td>
                     <td align="center" width="90px">
-						<a href="https://www.liverpool.com.mx/tienda/ella/catst4003072?utm_source=sms&utm_medium=proveedor&utm_content=menu_ella&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Ella </a>
+						<a href="https://www.liverpool.com.mx/tienda/ella/catst4003072?utm_source=email&utm_medium=responsys&utm_content=menu_ella&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> Ella </a>
 					</td>
                		<td class="desaparecer" align="center"><a href="" style="text-decoration: none; color: #888;">&bull;</a></td>
                     <td align="center" width="90px" style="padding-right: 10px">
-                    	<a href="https://www.liverpool.com.mx/tienda/el/cat5020003?utm_source=sms&utm_medium=proveedor&utm_content=menu_el&utm_campaign=CR_VENTA_ESPECIAL_9_MSI_SMS_AGO_9_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> &Eacute;l </a>
+                    	<a href="https://www.liverpool.com.mx/tienda/el/cat5020003?utm_source=email&utm_medium=responsys&utm_content=menu_el&utm_campaign=CR_VENTA_ESPECIAL_15_MSI_SMS_AGO_16_2019_AVB" style="text-decoration: none;  color: #888; font-size: 14px;"> &Eacute;l </a>
 					</td>
 					</center>
                 </tr>
@@ -371,7 +379,8 @@ Pagando con tus tarjetas Liverpool
 						    <td align="center" width="100%" height="0" style="border: 0px solid #f2f2f2; padding: 5px 20px; background-color: #f2f2f2; color: #888;  font-size: 11px; font-weight: lighter;">
 								<p style="color: #888;  font-size: 12px; font-weight: lighter;">
 								<strong>Restricciones</strong> <br>
-								V&aacute;lido: En almacenes Liverpool, internet y ventas por tel&eacute;fono.<br><br> V&aacute;lido del 9 al 12 de agosto de 2019. Consulta restricciones en cartulinas en piso de venta. CAT para Tarjeta Liverpool: 18.0% CAT para Tarjeta Liverpool Visa: 35.7% calculados al 1 de julio de 2019. 
+								V&aacute;lido: En Almacenes e internet. <br><br> *Consulte restricciones, términos, condiciones, modelos y marcas participantes en las cartulinas en piso de venta o en www.liverpool.com.mx. No aplica con otras promociones. CAT 0% Informativo. Los meses sin intereses aplican a partir de $500 de compra.
+
 								</p>  
  
 
@@ -385,7 +394,7 @@ Pagando con tus tarjetas Liverpool
 								D.R., &copy;, DISTRIBUIDORA LIVERPOOL, S.A. DE C.V. Queda prohibida la reproducci&oacute;n total o parcial, por cualquier medio o forma, sin la autorizaci&oacute;n previa, expresa y por escrito de su titular. <br>Servicios Liverpool S.A. de C.V. 2019</p>
 								<br/>
 								Favor de no responder este correo. <br>
-								
+								<br><br>
 							
 								<a href="https://assets.liverpool.com.mx/ayuda/?_ga=2.193149869.1413622455.1526474099-1841854321.1474914212#/sec/otros-temas/terminos-y-condiciones/aviso-de-privacidad-integral" style="text-decoration:none; color:#888">Aviso de Privacidad</a> &nbsp; &bull; &nbsp;
 								<a href="https://assets.liverpool.com.mx/ayuda/?_ga=2.193149869.1413622455.1526474099-1841854321.1474914212#/" style="text-decoration:none; color:#888"> Ayuda</a> &nbsp; &bull; &nbsp; Copyright Liverpool 2019 </td>
