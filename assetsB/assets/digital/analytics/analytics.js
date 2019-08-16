@@ -134,6 +134,82 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 		   'name':'Viajes hasta 65% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'15'
+			 },
+							{
+		     'id':'computo_190819',
+		   'name':'Cómputo hasta 20% de desc',
+		   'creative':'h_banner_central',
+		   'position':'1'
+			 },
+		
+				 {
+		 'id':'ipad_6ta_190819',
+		   'name':'iPad 6ta gen',
+		   'creative':'h_banner_secun',
+		   'position':'2'
+			 },
+                 {
+		   'id':'apple_190819',
+		   'name':'Apple Watch',
+		   'creative':'h_banner_secun',
+		   'position':'3'
+			},
+                 {
+ 		   'id':'muebles_190819',
+		   'name':'Muebles hasta 30% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'4'
+			},
+				   {
+		   'id':'pb_190819',
+		   'name':'PB hasta 20% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'5'
+			},
+                  {
+		   'id':'linea_blanca_190819',
+		   'name':'Línea Blanca hasta 40% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'6'
+			},
+                  {
+		   'id':'cocina_190819',
+		   'name':'Cocina hasta 37% de descu',
+       'creative':'h_banner_secun',
+       'position':'7'
+			},
+			
+                 
+           {
+		   'id':'colchones_190819',
+		   'name':'colchones hasta 43% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
+			},
+            
+			 {
+		 'id':'ninos_010819',
+  		'name':'Niños hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'9'
+			 },
+             {
+		 'id':'el_010819',
+		   'name':'Él hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'10'
+			 },
+            {
+'id':'ella_010819',
+		   'name':'Ella hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'11'
+			 },
+            {
+'id':'deportes_190819',
+		   'name':'Deportes hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'11'
 			 }
                         ]
                     }
