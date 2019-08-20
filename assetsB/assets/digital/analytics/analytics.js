@@ -3973,7 +3973,58 @@ dataLayer.push({
                 
                 
                 
-                
+         
+/* BLP LANCOME*/ 
+       
+            break;
+            case '/tienda/lancôme/catst11420818':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'lancome_lavie_200819',
+    'name': 'Lancome Lavie',
+    'creative': 'blp_lancome_lavie',
+    'position': '01'
+},
+{
+    'id': 'cuidado_piel_200819',
+    'name': 'Lancome Cuidado de Piel',
+    'creative': 'blp_lancome_cuidado_piel',
+    'position': '02'
+},
+{
+    'id': 'maquillaje_200819',
+    'name': 'Lancome Maquillaje',
+    'creative': 'blp_lancome_maquillaje',
+    'position': '03'
+},
+{
+    'id': 'perfumes_200819',
+    'name': 'Lancome Perfumes',
+    'creative': 'blp_lancome_perfumes',
+    'position': '04'
+},
+{
+    'id': 'absolue_200819',
+    'name': 'Lancome Absolue',
+    'creative': 'blp_lancome_absolue',
+    'position': '05'
+}
+]
+}
+}
+});                
+   
+        
+        
+        
+        
+        
                 
                 
                 
