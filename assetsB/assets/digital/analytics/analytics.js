@@ -456,9 +456,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'adidas_jersey_210519',
-    'name': 'Jersey Adidas',
-    'creative': 'blp_deportes_jersey_adidas',
+    'id': 'running_fest_200919',
+    'name': 'Running Fest',
+    'creative': 'blp_deportes_running_fest',
     'position': '01'
 },
 {
