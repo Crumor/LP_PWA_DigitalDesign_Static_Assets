@@ -41,99 +41,82 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                 'ecommerce': {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
-                           {
-		    'id':'computo_120819',
-		   'name':'Cómputo hasta 15% de desc',
+                           
+							{
+		     'id':'computo_190819',
+		   'name':'Cómputo hasta 20% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
 		
 				 {
-		 'id':'videojuegos_120819',
-  		'name':'Videojuegos hasta 15% de desc',
+		 'id':'ipad_6ta_190819',
+		   'name':'iPad 6ta gen',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		  'id':'celulares_120819',
-		   'name':'Celulares hasta 18 msi',
+		   'id':'apple_190819',
+		   'name':'Apple Watch',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
-  'id':'ipad_6ta_120819',
-		   'name':'iPad 6ta gen',
-		   'creative':'h_banner_secun',
+ 		   'id':'muebles_190819',
+		   'name':'Muebles hasta 30% de descu',
+		   'creative':'h_banner_secuun',
 		   'position':'4'
 			},
 				   {
-		   'id':'apple_120819',
-		   'name':'Apple Watch',
-		   'creative':'h_banner_secun',
+		   'id':'pb_190819',
+		   'name':'PB hasta 20% de descu',
+		   'creative':'h_banner_secuun',
 		   'position':'5'
 			},
                   {
-		   'id':'zapatos_120819',
-		   'name':'Zapatos hasta 20% de desc',
+		   'id':'linea_blanca_190819',
+		   'name':'Línea Blanca hasta 40% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'6'
 			},
                   {
-		  'id':'el_120819',
-		   'name':'Él hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'7'
+		   'id':'cocina_190819',
+		   'name':'Cocina hasta 37% de descu',
+       'creative':'h_banner_secun',
+       'position':'7'
 			},
 			
                  
            {
-		   'id':'deportes_120819',
-		   'name':'Deportes hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'8'
+		   'id':'colchones_190819',
+		   'name':'colchones hasta 43% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
 			},
             
 			 {
-		 'id':'linea_blanca_120819',
-		   'name':'Línea Blanca hasta 40% de descu',
+		 'id':'ninos_010819',
+  		'name':'Niños hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'9'
 			 },
              {
-		  'id':'cocina_120819',
-		   'name':'Cocina hasta 40% de descu',
+		 'id':'el_010819',
+		   'name':'Él hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'10'
 			 },
             {
- 'id':'muebles_120819',
-		   'name':'Muebles hasta 25% de desc',
+'id':'ella_010819',
+		   'name':'Ella hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'11'
 			 },
-                 {
-			 'id':'cintillo_120819',
-		   'name':'cintillo',
+            {
+'id':'deportes_190819',
+		   'name':'Deportes hasta 20% de desc',
 		   'creative':'h_banner_secun',
-		   'position':'12'
-			 },
-              {
-		  'id':'blancos_120819',
-		   'name':'Blancos hasta 40% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'13'
-			 },
-              {
-		  'id':'colchones_120819',
-		   'name':'Colchones hasta 43% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'14'
-			 },
-              {
-		 'id':'viajes_120819',
-		   'name':'Viajes hasta 65% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'15'
+		   'position':'11'
 			 }
                         ]
                     }
@@ -473,9 +456,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'adidas_jersey_210519',
-    'name': 'Jersey Adidas',
-    'creative': 'blp_deportes_jersey_adidas',
+    'id': 'running_fest_200919',
+    'name': 'Running Fest',
+    'creative': 'blp_deportes_running_fest',
     'position': '01'
 },
 {
