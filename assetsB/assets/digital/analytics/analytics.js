@@ -4022,7 +4022,63 @@ dataLayer.push({
    
         
         
-        
+/* BLP NYX*/ 
+       
+            break;
+            case '/tienda/nyx-professional-makeup/catst14372788':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'nyx_main_210819',
+    'name': 'Nyx Cabeza',
+    'creative': 'blp_nyx_cabeza',
+    'position': '01'
+},
+{
+    'id': 'nyx_softmate_210819',
+    'name': 'Nyx Softmate',
+    'creative': 'blp_nyx_softmate',
+    'position': '02'
+},
+{
+    'id': 'nyx_barewithme_210819',
+    'name': 'Nyx Barewithme',
+    'creative': 'blp_nyx_bare',
+    'position': '03'
+},
+{
+    'id': 'nyx_rostro_210819',
+    'name': 'Nyx Rostro',
+    'creative': 'blp_nyx_rostro',
+    'position': '04'
+},
+{
+    'id': 'nyx_brochas_210819',
+    'name': 'Nyx Brochas',
+    'creative': 'blp_nyx_brochas',
+    'position': '05'
+},
+{
+    'id': 'nyx_ojos_210819',
+    'name': 'Nyx Ojos',
+    'creative': 'blp_nyx_ojos',
+    'position': '06'
+},
+{
+    'id': 'nyx_labios_210819',
+    'name': 'Nyx Labios',
+    'creative': 'blp_nyx_labios',
+    'position': '07'
+}
+]
+}
+}
+});  
         
         
                 
