@@ -456,9 +456,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'adidas_jersey_210519',
-    'name': 'Jersey Adidas',
-    'creative': 'blp_deportes_jersey_adidas',
+    'id': 'running_fest_200919',
+    'name': 'Running Fest',
+    'creative': 'blp_deportes_running_fest',
     'position': '01'
 },
 {
@@ -3973,7 +3973,114 @@ dataLayer.push({
                 
                 
                 
-                
+         
+/* BLP LANCOME*/ 
+       
+            break;
+            case '/tienda/lancôme/catst11420818':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'lancome_lavie_200819',
+    'name': 'Lancome Lavie',
+    'creative': 'blp_lancome_lavie',
+    'position': '01'
+},
+{
+    'id': 'cuidado_piel_200819',
+    'name': 'Lancome Cuidado de Piel',
+    'creative': 'blp_lancome_cuidado_piel',
+    'position': '02'
+},
+{
+    'id': 'maquillaje_200819',
+    'name': 'Lancome Maquillaje',
+    'creative': 'blp_lancome_maquillaje',
+    'position': '03'
+},
+{
+    'id': 'perfumes_200819',
+    'name': 'Lancome Perfumes',
+    'creative': 'blp_lancome_perfumes',
+    'position': '04'
+},
+{
+    'id': 'absolue_200819',
+    'name': 'Lancome Absolue',
+    'creative': 'blp_lancome_absolue',
+    'position': '05'
+}
+]
+}
+}
+});                
+   
+        
+        
+/* BLP NYX*/ 
+       
+            break;
+            case '/tienda/nyx-professional-makeup/catst14372788':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'nyx_main_210819',
+    'name': 'Nyx Cabeza',
+    'creative': 'blp_nyx_cabeza',
+    'position': '01'
+},
+{
+    'id': 'nyx_softmate_210819',
+    'name': 'Nyx Softmate',
+    'creative': 'blp_nyx_softmate',
+    'position': '02'
+},
+{
+    'id': 'nyx_barewithme_210819',
+    'name': 'Nyx Barewithme',
+    'creative': 'blp_nyx_bare',
+    'position': '03'
+},
+{
+    'id': 'nyx_rostro_210819',
+    'name': 'Nyx Rostro',
+    'creative': 'blp_nyx_rostro',
+    'position': '04'
+},
+{
+    'id': 'nyx_brochas_210819',
+    'name': 'Nyx Brochas',
+    'creative': 'blp_nyx_brochas',
+    'position': '05'
+},
+{
+    'id': 'nyx_ojos_210819',
+    'name': 'Nyx Ojos',
+    'creative': 'blp_nyx_ojos',
+    'position': '06'
+},
+{
+    'id': 'nyx_labios_210819',
+    'name': 'Nyx Labios',
+    'creative': 'blp_nyx_labios',
+    'position': '07'
+}
+]
+}
+}
+});  
+        
+        
                 
                 
                 
