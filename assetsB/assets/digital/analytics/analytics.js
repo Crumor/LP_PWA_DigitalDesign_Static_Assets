@@ -43,80 +43,86 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                         'promotions': [// Array of promoFieldObjects.
                            
 							{
-		     'id':'computo_190819',
+		    'id':'computo_240819',
 		   'name':'Cómputo hasta 20% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
 		
 				 {
-		 'id':'ipad_6ta_190819',
-		   'name':'iPad 6ta gen',
+			'id':'pantallas_240819',
+		   'name':'Pantallas hasta 30% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		   'id':'apple_190819',
-		   'name':'Apple Watch',
+		  	'id':'celulares_240819',
+		   'name':'Celulares hasta 18 msi',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
- 		   'id':'muebles_190819',
-		   'name':'Muebles hasta 30% de descu',
+ 		   'id':'colchones_240819',
+		   'name':'Colchones hasta 43% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'4'
 			},
 				   {
-		   'id':'pb_190819',
-		   'name':'PB hasta 20% de descu',
-		   'creative':'h_banner_secuun',
+		  'id':'muebles_240819',
+		   'name':'Muebles hasta 20% de desc',
+		   'creative':'h_banner_secun',
 		   'position':'5'
 			},
                   {
-		   'id':'linea_blanca_190819',
-		   'name':'Línea Blanca hasta 40% de descu',
+		 'id':'cocina_240819',
+		   'name':'Cocina hasta 37% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'6'
 			},
                   {
-		   'id':'cocina_190819',
-		   'name':'Cocina hasta 37% de descu',
-       'creative':'h_banner_secun',
-       'position':'7'
+		 'id':'linea_blanca_240819',
+		   'name':'Línea Blanca hasta 40% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'7'
 			},
 			
                  
            {
-		   'id':'colchones_190819',
-		   'name':'colchones hasta 43% de desc',
-       'creative':'h_banner_secun',
-       'position':'8'
+			'id':'ella_240819',
+		   'name':'Ella hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'8'
 			},
             
 			 {
-		 'id':'ninos_010819',
-  		'name':'Niños hasta 20% de desc',
+		     	'id':'el_240819',
+		   'name':'Él hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'9'
 			 },
              {
-		 'id':'el_010819',
-		   'name':'Él hasta 20% de desc',
+		 'id':'bebes_ninos_240819',
+		   'name':'Bebés y Niños hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'10'
 			 },
             {
-'id':'ella_010819',
-		   'name':'Ella hasta 20% de desc',
-		   'creative':'h_banner_secun',
+ 'id':'west_elm_240819',
+		   'name':'West Elm hasta 20% de descu',
+		   'creative':'h_banner_secuun',
 		   'position':'11'
 			 },
             {
-'id':'deportes_190819',
+'id':'deportes_240819',
 		   'name':'Deportes hasta 20% de desc',
 		   'creative':'h_banner_secun',
-		   'position':'11'
+		   'position':'12'
+			 },
+            {
+'id':'zapatos_240819',
+		   'name':'Zapatos hasta 20% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'13'
 			 }
                         ]
                     }
@@ -2920,70 +2926,64 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'underwear_ella_210619',
-    'name': 'CK Underwear Ella',
-    'creative': 'blp_ck_underwear_ella',
+    'id': 'ck_main_220819',
+    'name': 'CK Main',
+    'creative': 'blp_ck_main',
     'position': '01'
 },
 {
-    'id': 'underwear_el_210619',
-    'name': 'CK Underwear El',
-    'creative': 'blp_ck_underwear_el',
+    'id': 'ck_main_ella_220819',
+    'name': 'CK Main Ella',
+    'creative': 'blp_ck_main_ella',
     'position': '02'
 },
 {
-    'id': 'ropa_ella_210619',
-    'name': 'CK Ropa Ella',
-    'creative': 'blp_ck_ropa_ella',
+    'id': 'ck_main_el_220819',
+    'name': 'CK Main El',
+    'creative': 'blp_ck_main_el',
     'position': '03'
 },
 {
-    'id': 'ropa_el_210619',
-    'name': 'CK Ropa El',
-    'creative': 'blp_ck_ropa_el',
+    'id': 'ck_ropa_ella_220819',
+    'name': 'CK Ropa Ella',
+    'creative': 'blp_ck_ropa_ella',
     'position': '04'
 },
 {
-    'id': 'ella_210619',
-    'name': 'CK Ella',
-    'creative': 'blp_ck_ella',
+    'id': 'ck_ropa_el_220819',
+    'name': 'CK Ropa El',
+    'creative': 'blp_ck_ropa_el',
     'position': '05'
 },
 {
-    'id': 'el_210619',
-    'name': 'CK El',
-    'creative': 'blp_ck_el',
+    'id': 'ck_footwear_ella_220819',
+    'name': 'CK Footwear Ella',
+    'creative': 'blp_ck_footwear_ella',
     'position': '06'
 },
 {
-    'id': 'footwear_ella_210619',
-    'name': 'CK Footwear Ella',
-    'creative': 'blp_ck_footwear_ella',
+    'id': 'ck_footwear_el_220819',
+    'name': 'CK Footwear El',
+    'creative': 'blp_ck_footwear_el',
     'position': '07'
 },
 {
-    'id': 'footwear_el_210619',
-    'name': 'CK Footwear El',
-    'creative': 'blp_ck_footwear_el',
+    'id': 'ck_relojes_220819',
+    'name': 'CK Relojes',
+    'creative': 'blp_ck_relojes',
     'position': '08'
 },
 {
-    'id': 'relojes_210619',
-    'name': 'CK Relojes',
-    'creative': 'blp_ck_relojes',
+    'id': 'ck_fragancias_220819',
+    'name': 'CK Fragancias',
+    'creative': 'blp_ck_fragancias',
     'position': '09'
 },
 {
-    'id': 'fragancias_210619',
-    'name': 'CK Fragancias',
-    'creative': 'blp_ck_fragancias',
-    'position': '10'
-},
-{
-    'id': 'lentes_210619',
+    'id': 'ck_lentes_220819',
     'name': 'CK Lentes',
     'creative': 'blp_ck_lentes',
-    'position': '11'
+    'position': '10'
 }
 ]
 }
