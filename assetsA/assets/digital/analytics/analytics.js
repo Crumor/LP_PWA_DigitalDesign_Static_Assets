@@ -2920,70 +2920,64 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'underwear_ella_210619',
-    'name': 'CK Underwear Ella',
-    'creative': 'blp_ck_underwear_ella',
+    'id': 'ck_main_220819',
+    'name': 'CK Main',
+    'creative': 'blp_ck_main',
     'position': '01'
 },
 {
-    'id': 'underwear_el_210619',
-    'name': 'CK Underwear El',
-    'creative': 'blp_ck_underwear_el',
+    'id': 'ck_main_ella_220819',
+    'name': 'CK Main Ella',
+    'creative': 'blp_ck_main_ella',
     'position': '02'
 },
 {
-    'id': 'ropa_ella_210619',
-    'name': 'CK Ropa Ella',
-    'creative': 'blp_ck_ropa_ella',
+    'id': 'ck_main_el_220819',
+    'name': 'CK Main El',
+    'creative': 'blp_ck_main_el',
     'position': '03'
 },
 {
-    'id': 'ropa_el_210619',
-    'name': 'CK Ropa El',
-    'creative': 'blp_ck_ropa_el',
+    'id': 'ck_ropa_ella_220819',
+    'name': 'CK Ropa Ella',
+    'creative': 'blp_ck_ropa_ella',
     'position': '04'
 },
 {
-    'id': 'ella_210619',
-    'name': 'CK Ella',
-    'creative': 'blp_ck_ella',
+    'id': 'ck_ropa_el_220819',
+    'name': 'CK Ropa El',
+    'creative': 'blp_ck_ropa_el',
     'position': '05'
 },
 {
-    'id': 'el_210619',
-    'name': 'CK El',
-    'creative': 'blp_ck_el',
+    'id': 'ck_footwear_ella_220819',
+    'name': 'CK Footwear Ella',
+    'creative': 'blp_ck_footwear_ella',
     'position': '06'
 },
 {
-    'id': 'footwear_ella_210619',
-    'name': 'CK Footwear Ella',
-    'creative': 'blp_ck_footwear_ella',
+    'id': 'ck_footwear_el_220819',
+    'name': 'CK Footwear El',
+    'creative': 'blp_ck_footwear_el',
     'position': '07'
 },
 {
-    'id': 'footwear_el_210619',
-    'name': 'CK Footwear El',
-    'creative': 'blp_ck_footwear_el',
+    'id': 'ck_relojes_220819',
+    'name': 'CK Relojes',
+    'creative': 'blp_ck_relojes',
     'position': '08'
 },
 {
-    'id': 'relojes_210619',
-    'name': 'CK Relojes',
-    'creative': 'blp_ck_relojes',
+    'id': 'ck_fragancias_220819',
+    'name': 'CK Fragancias',
+    'creative': 'blp_ck_fragancias',
     'position': '09'
 },
 {
-    'id': 'fragancias_210619',
-    'name': 'CK Fragancias',
-    'creative': 'blp_ck_fragancias',
-    'position': '10'
-},
-{
-    'id': 'lentes_210619',
+    'id': 'ck_lentes_220819',
     'name': 'CK Lentes',
     'creative': 'blp_ck_lentes',
-    'position': '11'
+    'position': '10'
 }
 ]
 }
