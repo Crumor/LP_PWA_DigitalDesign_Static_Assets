@@ -4022,6 +4022,70 @@ dataLayer.push({
    
         
         
+        
+        
+/* BLP WHIRLPOOL*/ 
+       
+            break;
+            case '/tienda/cat1060780':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'whirlpool_main_260819',
+    'name': 'Whirlpool Main',
+    'creative': 'blp_whirlpool_main',
+    'position': '01'
+},
+{
+    'id': 'refrigeradores_260819',
+    'name': 'Whirlpool Refrigeradores',
+    'creative': 'blp_whirlpool_refrigeradores',
+    'position': '02'
+},
+{
+    'id': 'campanas_260819',
+    'name': 'Whirlpool Campanas',
+    'creative': 'blp_whirlpool_campanas',
+    'position': '03'
+},
+{
+    'id': 'aire_260819',
+    'name': 'Whirlpool Aire',
+    'creative': 'blp_whirlpool_aire',
+    'position': '04'
+},
+{
+    'id': 'cocina_260819',
+    'name': 'Whirlpool Cocina',
+    'creative': 'blp_whirlpool_cocina',
+    'position': '05'
+},
+{
+    'id': 'lavadoras_260819',
+    'name': 'Whirlpool Lavadoras',
+    'creative': 'blp_whirlpool_lavadoras',
+    'position': '06'
+}
+]
+}
+}
+});                
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 /* BLP NYX*/ 
        
             break;
