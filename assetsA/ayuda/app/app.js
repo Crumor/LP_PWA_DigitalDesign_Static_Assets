@@ -1,8 +1,8 @@
 (function(){
     angular.module('APP_AYUDA_WEB',["ngRoute","ngSanitize","firebase","moduleHome","moduleCategory","services","componentInputSearch","componentMenuLeft","componentPreguntasFrecuentes","componentRatings",'angulartics','angulartics.google.analytics'])
     .constant('myconfig',{
-      "url":"app/modules/web/",
-      "urlDirectives":"app/common/directives/",
+      "url":"https://assetspwa.liverpool.com.mx/ayuda/app/modules/web/",
+      "urlDirectives":"https://assetspwa.liverpool.com.mx/ayuda/app/common/directives/",
       "path":"./",
       //"database":"https://ayuda-b41be.firebaseio.com/",
       "database":"https://liverpoolapp-ecd02.firebaseio.com/ayuda/",
