@@ -468,76 +468,70 @@ dataLayer.push({
     'position': '01'
 },
 {
-    'id': 'aparatos_210519',
-    'name': 'Aparatos de ejercicio',
-    'creative': 'blp_deportes_aparatos',
+    'id': 'americano_280819',
+    'name': 'Americano',
+    'creative': 'blp_deportes_americano',
     'position': '02'
 },
 {
-    'id': 'motocicletas_210519',
-    'name': 'Motocicletas',
-    'creative': 'blp_deportes_motocicletas',
+    'id': 'running_280819',
+    'name': 'Running',
+    'creative': 'blp_deportes_running',
     'position': '03'
 },
 {
-    'id': 'campismo_210519',
-    'name': 'Campismo',
-    'creative': 'blp_deportes_campismo',
+    'id': 'entrenamiento_280819',
+    'name': 'Entrenamiento',
+    'creative': 'blp_deportes_entrenamiento',
     'position': '04'
 },
 {
-    'id': 'acuaticos_210519',
-    'name': 'Acuáticos',
-    'creative': 'blp_deportes_acuaticos',
+    'id': 'ella_280819',
+    'name': 'Ella',
+    'creative': 'blp_deportes_ella',
     'position': '05'
 },
 {
-    'id': 'lonuevo_210519',
-    'name': 'Lo Nuevo',
-    'creative': 'blp_deportes_nuevo',
+    'id': 'futbol_280819',
+    'name': 'Futbol',
+    'creative': 'blp_deportes_futbol',
     'position': '06'
 },
 {
-    'id': 'fitness_210519',
-    'name': 'Fitness',
-    'creative': 'blp_deportes_fitness',
+    'id': 'basquetbol_280819',
+    'name': 'Basquetbol',
+    'creative': 'blp_deportes_basquetbol',
     'position': '07'
 },
 {
-    'id': 'tenis_ella_210519',
-    'name': 'Tenis Ella',
-    'creative': 'blp_deportes_tenis_ella',
+    'id': 'tenisel_280819',
+    'name': 'Tenis El',
+    'creative': 'blp_deportes_tenisel',
     'position': '08'
 },
 {
-    'id': 'tenis_el_210519',
-    'name': 'Tenis El',
-    'creative': 'blp_deportes_tenis_el',
+    'id': 'tenisella_280819',
+    'name': 'Tenis Ella',
+    'creative': 'blp_deportes_tenisella',
     'position': '09'
 },
 {
-    'id': 'ropa_ella_210519',
-    'name': 'Ropa Ella',
-    'creative': 'blp_deportes_ropa_ella',
+    'id': 'ninas_280819',
+    'name': 'Ninas',
+    'creative': 'blp_deportes_ninas',
     'position': '10'
 },
 {
-    'id': 'ropa_nina_210519',
-    'name': 'Ropa Niña',
-    'creative': 'blp_deportes_ropa_nina',
+    'id': 'ninos_280819',
+    'name': 'Ninos',
+    'creative': 'blp_deportes_ninos',
     'position': '11'
 },
 {
-    'id': 'ropa_el_210519',
-    'name': 'Ropa Él',
-    'creative': 'blp_deportes_ropa_el',
+    'id': 'motos_280819',
+    'name': 'Motos',
+    'creative': 'blp_deportes_motos',
     'position': '12'
-},
-{
-    'id': 'coleccionables_210519',
-    'name': 'Coleccionables',
-    'creative': 'blp_deportes_coleccionables',
-    'position': '13'
 }
 ]
 }
