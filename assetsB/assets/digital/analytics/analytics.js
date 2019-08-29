@@ -42,87 +42,75 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
                            
-							{
-		    'id':'muebles_260819',
-		   'name':'Muebles hasta 30% de desc',
+								{
+		    'id':'consolas_290819',
+		   'name':'Consolas hasta 10% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
 		
 				 {
-			'id':'west_elm_260819',
-		   'name':'West Elm hasta 20% de descu',
+			'id':'videojuegos_290819',
+		   'name':'Videojuegos hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		   'id':'linea_blanca_260819',
-		   'name':'Línea Blanca hasta 44% de descu',
+		   'id':'accesorios_gaming_290819',
+		   'name':'Accesorios Gaming hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
- 		   'id':'cocina_260819',
-		   'name':'Cocina hasta 37% de descu',
+ 		   'id':'pc_gaming_290819',
+		   'name':'PC Gaming hasta 20% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'4'
 			},
 				   {
-		 'id':'asadores_260819',
-		   'name':'Asadores hasta 44% de descu',
+		 'id':'accesorios_pc_290819',
+		   'name':'Accesorios PC hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'5'
 			},
                   {
-		 'id':'pandora_260819',
-		   'name':'Pandora',
+		 'id':'pantallas_290819',
+		   'name':'Pantallas hasta 30% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'6'
 			},
                   {
-		  'id':'ella_260819',
-		   'name':'Ella hasta 15% de descu',
+		  'id':'camaras_290819',
+		   'name':'Cámaras hasta 40% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'7'
 			},
 			
                  
            {
-		   'id':'bebes_ninos_260819',
-		   'name':'Bebés y niños hasta 15% de descu',
+		   'id':'sonido_290819',
+		   'name':'Sonido hasta 30% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'8'
 			},
             
 			 {
-		     'id':'el_260819',
-		   'name':'Él hasta 15% de descu',
+		     'id':'ella_290819',
+		   'name':'Ella hasta 15% de descu',
        'creative':'h_banner_secun',
        'position':'9'
 			 },
              {
-		   'id':'deportes_260819',
-		   'name':'Deportes hasta 20% de desc',
+		   'id':'el_290819',
+		   'name':'Él hasta 15% de desc',
        'creative':'h_banner_secun',
        'position':'10'
 			 },
             {
-  'id':'computo_260819',
-		   'name':'Cómputo hasta 20% de descu',
+  'id':'deportes_290819',
+		   'name':'Deportes hasta 20% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'11'
-			 },
-            {
-  'id':'cámaras_260819',
-		   'name':'Cámaras hasta 40% de descu',
-       'creative':'h_banner_secun',
-       'position':'12'
-			 },
-            {
-  'id':'consola_switch_260819',
-		   'name':'Consola Switch hasta 16% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
 			 }
                         ]
                     }
