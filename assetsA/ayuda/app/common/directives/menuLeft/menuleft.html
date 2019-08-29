@@ -1,5 +1,4 @@
 <div class="menu-ayuda">
-    
     <div  ng-repeat="n1 in menu" class="level1" >
         <div class="storm" ng-click="openLevel1($event)">
             <span ng-bind-html="n1.icon"></span>
@@ -12,7 +11,6 @@
                     <div class="option">{{n2.titulo}}</div>
                     <i ng-if="n2.subnivel" class="icon-ayuda-flecha-arriba"  ng-class="{'active':n2.open}"></i>
                 </div>
-
                 <div ng-if="n2.subnivel" class="submenu" ng-style="{display:(n1.open && n2.open) ? 'block':'none'  }">
                     <div class="level3" ng-repeat="n3 in n2.subnivel" >
                         <div class="storm3" ng-class="{active:n3.active}" ng-click="openLevel3($event,n1,n2,n3)">

@@ -117,7 +117,7 @@
             $scope.goTo = function(n){
                 
                 //var idExpetionAnswers = ["otros-temas","seguridad-del-sitio","acerca-de-nosotros","terminos-y-condiciones","soporte-tecnico","mesa-de-regalos","pagos-precios-y-promociones","pedidos-y-devoluciones","credito","preguntas-mas-buscadas"];
-                var idExpetionAnswers = ["100010","10001","10002","10003","10004","10005","10006","10007","10008","10009","100012","100011","100013"];
+                var idExpetionAnswers = ["200010","20001","20002","20003","20004","20005","20006","20007","20008","20009","200012","200011","200013"];
                 var defaultUrl = "/sec/"+$scope.linkCategory+"/"+n.link;
                 var defaultUrlContent = "/cont/"+$scope.linkCategory+"/"+n.link+"/";
                 if( $scope.linkCategory2!="" ){

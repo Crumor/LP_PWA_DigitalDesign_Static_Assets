@@ -7,7 +7,7 @@
 
             restrict:'E',
             templateUrl: myconfig.urlDirectives+'menuLeft/menuleft.html',
-            scope:{ 
+            scope:{
                 category:'=',
                 menu:'='
             },
@@ -27,14 +27,16 @@
                     }
 
                 };
-                $scope.openLevel2 = function(event,obj1,obj2){
+                $scope.openLevel2 = function(event,obj1,obj2, index){
+      console.log(obj2);
+                  var _rootElement   = $( element );
                     var elemento    = $( event.currentTarget );
                     var submenu     = $( element ).find( ".submenu .submenu" );
-                    //var idExpetionAnswers = ["otros-temas","q-seguridad-del-sitio","q-acerca-de-nosotros","q-terminos-y-condiciones","soporte-tecnico","mesa-de-regalos","pagos-precios-y-promociones","pedidos-y-devoluciones","credito","preguntas-mas-buscadas"];
-                    var idExpetionAnswers = ["100012","100011","100010","10001","10002","10003","10004","10005","10006","10007","10008","10009","100013"];
-                    // var defaultUrl = $location.path().includes('faq') ? "/faq/"+obj1.link+"/" : "/seccion/"+obj1.link+"/";
+                    submenu.slideUp();
+                    _rootElement.find( "[class*='icon-ayuda-flecha-arriba']" ).removeClass( "active" );
+                    var idExpetionAnswers = ["200012","200011","200010","20001","20002","20003","20004","20005","20006","20007","20008","20009","200013"];
                     var defaultUrl = "/sec/"+obj1.link+"/";
-                    if( elemento.next().length ){//verificamos si tiene un submenu
+                    if(obj2.subnivel){//verificamos si tiene un submenu
                         if( !elemento.next().is( ":visible" ) ){
                             submenu.slideUp("slow");
                             elemento.next().slideDown( "slow" );
@@ -45,23 +47,16 @@
                         idExpetionAnswers.forEach(function(val){
                                 if(val === obj2.idMenu)
                                     defaultUrl ="/faq/";
-
-
-                                
-
                         })
-
                         $location.url( defaultUrl+obj2.link+"/" );
-
                     }
-
                 };
                 $scope.openLevel3 = function(event,obj1,obj2,obj3){
-
+                    console.log(obj3);
                         $location.path( "/sec/"+obj1.link+"/"+obj2.link+"/"+obj3.link );
-                        
+
                 };
             }/*en controller*/
         }
-    };/*end menu*/    
+    };/*end menu*/
 })();
