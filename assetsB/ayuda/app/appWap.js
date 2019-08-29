@@ -1,9 +1,9 @@
 (function(){
 		angular.module('APP_AYUDA_WAP',["ngRoute","ngSanitize","firebase","ngAnimate","moduleWapHome","moduleWapCategory","services","componentInputSearch","componentPreguntasFrecuentes","componentRatings",'angulartics','angulartics.google.analytics'])
 		.constant('myconfig',{
-			"url":"https://assetspwa.liverpool.com.mx/ayuda/app/modules/wap/",
+			"url":"../app/modules/wap/",
 			"path":"../",
-			"urlDirectives":"https://assetspwa.liverpool.com.mx/ayuda/app/common/directives/",
+			"urlDirectives":"../app/common/directives/",
 			"path":"../",
 			//"database":"https://ayuda-b41be.firebaseio.com/"
 			"database":"https://liverpoolapp-ecd02.firebaseio.com/ayuda/"
