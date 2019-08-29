@@ -131,7 +131,7 @@
     }
 //modelo factory para almacenar la informacion del valor menu
     function menu(){
-
+ 
         var _menu = [];
 
         return {
@@ -154,6 +154,7 @@
             },
             //operacion que altera y devuelve los datos del menu cuando la coincidencia del idMenu ha sido pasada
             reset:function(idMenu){
+                console.log("iniciado");
                 var _data = _menu;
 
                 var _category = {};
@@ -161,7 +162,6 @@
                 var _beforeCategory = {};
                 var nivel = 0;
                 _data.forEach( function( val ){
-
                     val.open    = false;
                     val.active  = false;
                     if( val.idMenu === idMenu ){
@@ -201,7 +201,7 @@
                                     val.subnivel[ nivel2 ].subnivel[ nivel3 ].active    = false;
 
                                     if( val.subnivel[ nivel2 ].subnivel[ nivel3 ].idMenu === idMenu){
-
+console.log("hre nivle 3");
                                         val.open = true;
                                         val.subnivel[ nivel2 ].open = true;
                                         val.subnivel[ nivel2 ].subnivel[ nivel3 ].open      = true;
