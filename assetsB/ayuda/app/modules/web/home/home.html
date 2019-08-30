@@ -40,8 +40,8 @@
     </div>
     <div class="grid-70 prefix-15 sufix-75 cats-prin">
         <div class="cats"> Categorías principales</div>
-        <div class="grid-100">
-            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 4" ng-hide="n1.idMenu === '1000'">
+        <div class="grid-100 homeContent_category">
+            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 5">
                 <div class="typhoon">
                     <span ng-bind-html="n1.icon"></span>
                     <div class="credito">
@@ -49,47 +49,16 @@
                     </div>
                 </div>
                 <ul class="main-topic">
-                    <li ng-repeat="n2 in n1.subnivel">
+                    <li ng-repeat="n2 in n1.subnivel | limitTo: 5">
                         <a href="#/sec/{{n1.link}}/{{n2.newLink}}" ng-bind="n2.titulo"></a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="grid-100">
-            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 3: 5" ng-hide="n1.idMenu === '1000'">
-                <div class="typhoon">
-                    <span ng-bind-html="n1.icon"></span>
-                    <div class="credito">
-                        <a href="#/sec/{{n1.link}}/{{n1.subnivel | oneOptionMenu}}" ng-bind="n1.titulo"></a>
-                    </div>
-                </div>
-                <ul class="main-topic">
 
-                    <li ng-repeat="n2 in n1.subnivel">
-                        <a href="#/sec/{{n1.link}}/{{n2.newLink}}" ng-bind="n2.titulo"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="grid-100">
-            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 1 : 8 " ng-hide="n1.idMenu === '1000'">
-                <div class="typhoon">
-                    <span ng-bind-html="n1.icon"></span>
-                    <div class="credito">
-                        <a href="#/sec/{{n1.link}}/{{n1.subnivel | oneOptionMenu}}" ng-bind="n1.titulo"></a>
-                    </div>
-                </div>
-                <ul class="main-topic">
-
-                    <li ng-repeat="n2 in n1.subnivel">
-                        <a href="#/sec/{{n1.link}}/{{n2.newLink}}" ng-bind="n2.titulo"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </div>
     <div class="grid-70 prefix-15 sufix-75 sub-frecuentes">
-        <div class="cats"> Temas frecuentes</div>
+        <!-- <div class="cats"> Temas frecuentes</div>
         <div class="catsboom"></div>
         <div class="grid-25">
             <ul class="frequent">
@@ -114,7 +83,7 @@
                 <li><a href="#/"> Tarjeta registrada   </a></li>
                 <li><a href="#/">  Facturación electrónica  </a></li>
             </ul>
-        </div>
+        </div>-->
     </div>
     <div class="grid-100 stores-ayuda">
         <div class="grid-70 prefix-15 sufix-75 contact">
@@ -149,7 +118,7 @@
             </div>
         </div>
     </div>
-    <div class="grid-100 others-ayuda">
+    <!--<div class="grid-100 others-ayuda">
         <div class="grid-70 prefix-15 sufix-75">
             <div class="grid-40">
                 <div class="others">Otros temas en liverpool.com.mx</div>
@@ -171,5 +140,5 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
