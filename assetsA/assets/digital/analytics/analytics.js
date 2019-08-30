@@ -42,81 +42,85 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
                            
-							{
-		     'id':'computo_190819',
+									{
+		     'id':'computo_300819',
 		   'name':'Cómputo hasta 20% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
 		
 				 {
-		 'id':'ipad_6ta_190819',
-		   'name':'iPad 6ta gen',
+			'id':'west_elm_260819',
+		   'name':'West Elm hasta 20% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		   'id':'apple_190819',
-		   'name':'Apple Watch',
+		 	 'id':'linea_blanca_260819',
+		   'name':'Línea Blanca hasta 44% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
- 		   'id':'muebles_190819',
-		   'name':'Muebles hasta 30% de descu',
+ 		  'id':'cocina_260819',
+		   'name':'Cocina hasta 37% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'4'
 			},
 				   {
-		   'id':'pb_190819',
-		   'name':'PB hasta 20% de descu',
-		   'creative':'h_banner_secuun',
+		 	 'id':'asadores_260819',
+		   'name':'Asadores hasta 44% de descu',
+		   'creative':'h_banner_secun',
 		   'position':'5'
 			},
                   {
-		   'id':'linea_blanca_190819',
-		   'name':'Línea Blanca hasta 40% de descu',
+		   'id':'pandora_260819',
+		   'name':'Pandora',
 		   'creative':'h_banner_secun',
 		   'position':'6'
 			},
                   {
-		   'id':'cocina_190819',
-		   'name':'Cocina hasta 37% de descu',
-       'creative':'h_banner_secun',
-       'position':'7'
+		  'id':'ella_260819',
+		   'name':'Ella hasta 15% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'7'
 			},
-			
-                 
            {
-		   'id':'colchones_190819',
-		   'name':'colchones hasta 43% de desc',
-       'creative':'h_banner_secun',
-       'position':'8'
+			  'id':'bebes_ninos_260819',
+		   'name':'Bebés y niños hasta 15% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'8'
 			},
             
 			 {
-		 'id':'ninos_010819',
-  		'name':'Niños hasta 20% de desc',
+	       'id':'el_260819',
+		   'name':'Él hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'9'
 			 },
              {
-		 'id':'el_010819',
-		   'name':'Él hasta 20% de desc',
+		  'id':'deportes_260819',
+		   'name':'Deportes hasta 20% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'10'
 			 },
             {
-'id':'ella_010819',
-		   'name':'Ella hasta 20% de desc',
-		   'creative':'h_banner_secun',
+ 'id':'sonido_260819',
+		   'name':'Sonido hasta 30% de descu',
+		   'creative':'h_banner_secuun',
 		   'position':'11'
 			 },
             {
-'id':'deportes_190819',
-		   'name':'Deportes hasta 20% de desc',
+ 'id':'cámaras_260819',
+		   'name':'Cámaras hasta 40% de descu',
 		   'creative':'h_banner_secun',
-		   'position':'11'
+		   'position':'12'
+			 },
+            {
+ 'id':'consola_switch_260819',
+		   'name':'Consola Switch hasta 16% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'13'
 			 }
                         ]
                     }
@@ -462,76 +466,70 @@ dataLayer.push({
     'position': '01'
 },
 {
-    'id': 'aparatos_210519',
-    'name': 'Aparatos de ejercicio',
-    'creative': 'blp_deportes_aparatos',
+    'id': 'americano_280819',
+    'name': 'Americano',
+    'creative': 'blp_deportes_americano',
     'position': '02'
 },
 {
-    'id': 'motocicletas_210519',
-    'name': 'Motocicletas',
-    'creative': 'blp_deportes_motocicletas',
+    'id': 'running_280819',
+    'name': 'Running',
+    'creative': 'blp_deportes_running',
     'position': '03'
 },
 {
-    'id': 'campismo_210519',
-    'name': 'Campismo',
-    'creative': 'blp_deportes_campismo',
+    'id': 'entrenamiento_280819',
+    'name': 'Entrenamiento',
+    'creative': 'blp_deportes_entrenamiento',
     'position': '04'
 },
 {
-    'id': 'acuaticos_210519',
-    'name': 'Acuáticos',
-    'creative': 'blp_deportes_acuaticos',
+    'id': 'ella_280819',
+    'name': 'Ella',
+    'creative': 'blp_deportes_ella',
     'position': '05'
 },
 {
-    'id': 'lonuevo_210519',
-    'name': 'Lo Nuevo',
-    'creative': 'blp_deportes_nuevo',
+    'id': 'futbol_280819',
+    'name': 'Futbol',
+    'creative': 'blp_deportes_futbol',
     'position': '06'
 },
 {
-    'id': 'fitness_210519',
-    'name': 'Fitness',
-    'creative': 'blp_deportes_fitness',
+    'id': 'basquetbol_280819',
+    'name': 'Basquetbol',
+    'creative': 'blp_deportes_basquetbol',
     'position': '07'
 },
 {
-    'id': 'tenis_ella_210519',
-    'name': 'Tenis Ella',
-    'creative': 'blp_deportes_tenis_ella',
+    'id': 'tenisel_280819',
+    'name': 'Tenis El',
+    'creative': 'blp_deportes_tenisel',
     'position': '08'
 },
 {
-    'id': 'tenis_el_210519',
-    'name': 'Tenis El',
-    'creative': 'blp_deportes_tenis_el',
+    'id': 'tenisella_280819',
+    'name': 'Tenis Ella',
+    'creative': 'blp_deportes_tenisella',
     'position': '09'
 },
 {
-    'id': 'ropa_ella_210519',
-    'name': 'Ropa Ella',
-    'creative': 'blp_deportes_ropa_ella',
+    'id': 'ninas_280819',
+    'name': 'Ninas',
+    'creative': 'blp_deportes_ninas',
     'position': '10'
 },
 {
-    'id': 'ropa_nina_210519',
-    'name': 'Ropa Niña',
-    'creative': 'blp_deportes_ropa_nina',
+    'id': 'ninos_280819',
+    'name': 'Ninos',
+    'creative': 'blp_deportes_ninos',
     'position': '11'
 },
 {
-    'id': 'ropa_el_210519',
-    'name': 'Ropa Él',
-    'creative': 'blp_deportes_ropa_el',
+    'id': 'motos_280819',
+    'name': 'Motos',
+    'creative': 'blp_deportes_motos',
     'position': '12'
-},
-{
-    'id': 'coleccionables_210519',
-    'name': 'Coleccionables',
-    'creative': 'blp_deportes_coleccionables',
-    'position': '13'
 }
 ]
 }
@@ -1741,7 +1739,51 @@ dataLayer.push({
 }
 }
 });			
-				
+
+
+// PRIMER NIVEL Halloween
+break;
+case '/tienda/halloween/catst1718701':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_disfraces',
+'position': '02'
+}
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_decoracion',
+'position': '03'
+}
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_accesorios',
+'position': '04'
+}
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_tradiciones',
+'position': '06'
+}
+
+]
+}
+}
+});
+
+
+
 		
 				
 	// Brand Etam
@@ -2920,70 +2962,64 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'underwear_ella_210619',
-    'name': 'CK Underwear Ella',
-    'creative': 'blp_ck_underwear_ella',
+    'id': 'ck_main_220819',
+    'name': 'CK Main',
+    'creative': 'blp_ck_main',
     'position': '01'
 },
 {
-    'id': 'underwear_el_210619',
-    'name': 'CK Underwear El',
-    'creative': 'blp_ck_underwear_el',
+    'id': 'ck_main_ella_220819',
+    'name': 'CK Main Ella',
+    'creative': 'blp_ck_main_ella',
     'position': '02'
 },
 {
-    'id': 'ropa_ella_210619',
-    'name': 'CK Ropa Ella',
-    'creative': 'blp_ck_ropa_ella',
+    'id': 'ck_main_el_220819',
+    'name': 'CK Main El',
+    'creative': 'blp_ck_main_el',
     'position': '03'
 },
 {
-    'id': 'ropa_el_210619',
-    'name': 'CK Ropa El',
-    'creative': 'blp_ck_ropa_el',
+    'id': 'ck_ropa_ella_220819',
+    'name': 'CK Ropa Ella',
+    'creative': 'blp_ck_ropa_ella',
     'position': '04'
 },
 {
-    'id': 'ella_210619',
-    'name': 'CK Ella',
-    'creative': 'blp_ck_ella',
+    'id': 'ck_ropa_el_220819',
+    'name': 'CK Ropa El',
+    'creative': 'blp_ck_ropa_el',
     'position': '05'
 },
 {
-    'id': 'el_210619',
-    'name': 'CK El',
-    'creative': 'blp_ck_el',
+    'id': 'ck_footwear_ella_220819',
+    'name': 'CK Footwear Ella',
+    'creative': 'blp_ck_footwear_ella',
     'position': '06'
 },
 {
-    'id': 'footwear_ella_210619',
-    'name': 'CK Footwear Ella',
-    'creative': 'blp_ck_footwear_ella',
+    'id': 'ck_footwear_el_220819',
+    'name': 'CK Footwear El',
+    'creative': 'blp_ck_footwear_el',
     'position': '07'
 },
 {
-    'id': 'footwear_el_210619',
-    'name': 'CK Footwear El',
-    'creative': 'blp_ck_footwear_el',
+    'id': 'ck_relojes_220819',
+    'name': 'CK Relojes',
+    'creative': 'blp_ck_relojes',
     'position': '08'
 },
 {
-    'id': 'relojes_210619',
-    'name': 'CK Relojes',
-    'creative': 'blp_ck_relojes',
+    'id': 'ck_fragancias_220819',
+    'name': 'CK Fragancias',
+    'creative': 'blp_ck_fragancias',
     'position': '09'
 },
 {
-    'id': 'fragancias_210619',
-    'name': 'CK Fragancias',
-    'creative': 'blp_ck_fragancias',
-    'position': '10'
-},
-{
-    'id': 'lentes_210619',
+    'id': 'ck_lentes_220819',
     'name': 'CK Lentes',
     'creative': 'blp_ck_lentes',
-    'position': '11'
+    'position': '10'
 }
 ]
 }
@@ -4020,6 +4056,70 @@ dataLayer.push({
 }
 });                
    
+        
+        
+        
+        
+/* BLP WHIRLPOOL*/ 
+       
+            break;
+            case '/tienda/cat1060780':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'whirlpool_main_260819',
+    'name': 'Whirlpool Main',
+    'creative': 'blp_whirlpool_main',
+    'position': '01'
+},
+{
+    'id': 'refrigeradores_260819',
+    'name': 'Whirlpool Refrigeradores',
+    'creative': 'blp_whirlpool_refrigeradores',
+    'position': '02'
+},
+{
+    'id': 'campanas_260819',
+    'name': 'Whirlpool Campanas',
+    'creative': 'blp_whirlpool_campanas',
+    'position': '03'
+},
+{
+    'id': 'aire_260819',
+    'name': 'Whirlpool Aire',
+    'creative': 'blp_whirlpool_aire',
+    'position': '04'
+},
+{
+    'id': 'cocina_260819',
+    'name': 'Whirlpool Cocina',
+    'creative': 'blp_whirlpool_cocina',
+    'position': '05'
+},
+{
+    'id': 'lavadoras_260819',
+    'name': 'Whirlpool Lavadoras',
+    'creative': 'blp_whirlpool_lavadoras',
+    'position': '06'
+}
+]
+}
+}
+});                
+   
+        
+        
+        
+        
+        
+        
+        
+        
         
         
 /* BLP NYX*/ 

@@ -12,7 +12,7 @@
                 $scope.menu     = response.data;
             });
             $scope.openLevel2 = function(n){
-                var idExpetionAnswers = ["100010","10001","10002","10003","10004","10005","10006","10007","10008","10009"];
+                var idExpetionAnswers = ["200010","20001","20002","20003","20004","20005","20006","20007","20008","20009"];
                 var defaultUrl = "/sec/"+n.link+"/";
                 $rootScope.classPageNext = "page-next";
                 if( n.subnivel ){
