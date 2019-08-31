@@ -42,17 +42,16 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
                            
-									{
+										{
 		     'id':'computo_300819',
 		   'name':'Cómputo hasta 20% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
-		
-				 {
-			'id':'west_elm_260819',
-		   'name':'West Elm hasta 20% de descu',
-		   'creative':'h_banner_secun',
+				{
+		    'id':'muebles_260819',
+		   'name':'Muebles hasta 50% de desc',
+		   'creative':'h_banner_central',
 		   'position':'2'
 			 },
                  {
@@ -105,19 +104,19 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 		   'position':'10'
 			 },
             {
- 'id':'sonido_260819',
+ 			'id':'sonido_260819',
 		   'name':'Sonido hasta 30% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'11'
 			 },
             {
- 'id':'cámaras_260819',
+ 			'id':'cámaras_260819',
 		   'name':'Cámaras hasta 40% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'12'
 			 },
             {
- 'id':'consola_switch_260819',
+ 			'id':'consola_switch_260819',
 		   'name':'Consola Switch hasta 16% de desc',
 		   'creative':'h_banner_secun',
 		   'position':'13'
