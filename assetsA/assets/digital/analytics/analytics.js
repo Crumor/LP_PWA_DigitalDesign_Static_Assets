@@ -41,87 +41,93 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                 'ecommerce': {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
-                           
-							
-				{
-		     'id':'computo_300819',
-		   'name':'Cómputo hasta 20% de desc',
-		   'creative':'h_banner_central',
-		   'position':'1'
-			 },
-				{
-		    'id':'muebles_260819',
-		   'name':'Muebles hasta 50% de desc',
-		   'creative':'h_banner_central',
-		   'position':'2'
-			 },
-                 {
-		 	 'id':'linea_blanca_260819',
-		   'name':'Línea Blanca hasta 44% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'3'
-			},
-                 {
- 		  'id':'cocina_260819',
-		   'name':'Cocina hasta 37% de descu',
-		   'creative':'h_banner_secuun',
-		   'position':'4'
-			},
-				   {
-		 	 'id':'asadores_260819',
-		   'name':'Asadores hasta 44% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'5'
-			},
-                  {
-		   'id':'pandora_260819',
-		   'name':'Pandora',
-		   'creative':'h_banner_secun',
-		   'position':'6'
-			},
-                  {
-		  'id':'ella_260819',
-		   'name':'Ella hasta 15% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'7'
-			},
-           {
-			  'id':'bebes_ninos_260819',
-		   'name':'Bebés y niños hasta 15% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'8'
-			},
-            
-			 {
-	       'id':'el_260819',
-		   'name':'Él hasta 15% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'9'
-			 },
-             {
-		  'id':'deportes_260819',
-		   'name':'Deportes hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'10'
-			 },
-            {
- 			'id':'sonido_260819',
-		   'name':'Sonido hasta 30% de descu',
-		   'creative':'h_banner_secuun',
-		   'position':'11'
-			 },
-            {
- 			'id':'cámaras_260819',
-		   'name':'Cámaras hasta 40% de descu',
-		   'creative':'h_banner_secun',
-		   'position':'12'
-			 },
-            {
- 			'id':'consola_switch_260819',
-		   'name':'Consola Switch hasta 16% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'13'
-			 }
+                    
+                            {
+                                'id':'muebles_020919',
+                            'name':'Muebles hasta 50% de desc',
+                            'creative':'h_banner_central',
+                            'position':'1'
+                                },
+                            
+                                    {
+                                'id':'linea_blanca_020919',
+                            'name':'Linea Blanca hasta 44% de descu',
+                            'creative':'h_banner_secun',
+                            'position':'2'
+                                },
+                                    {
+                            'id':'colchones_020919',
+                            'name':'Colchones hasta 36% de descu',
+                            'creative':'h_banner_secun',
+                            'position':'3'
+                                },
+                                    {
+                            'id':'blancos_020919',
+                            'name':'Blancos hasta 30% de descu',
+                            'creative':'h_banner_secun',
+                            'position':'4'
+                                },
+                                    {
+                            'id':'pb_020919',
+                            'name':'Pottery Barn hasta 20% de descu',
+                            'creative':'h_banner_secun',
+                            'position':'5'
+                                },
+                                    {
+                            'id':'ella_020919',
+                            'name':'Ella hasta 15% de descu',
+                            'creative':'h_banner_secuun',
+                            'position':'6'
+                                },
+                                    {
+                            'id':'el_020919',
+                            'name':'Él hasta 15% de descu',
+                            'creative':'h_banner_secuun',
+                            'position':'7'
+                                },                    
+                            {
+                            'id':'bebes_niños_020919',
+                            'name':'Bebés y Niños hasta 15% de descu',
+                            'creative':'h_banner_secun',
+                            'position':'8'
+                                },
+                                
+                                {
+                            'id':'zapatos_020919',
+                            'name':'Zapatos hasta 15% de descu',
+                            'creative':'h_banner_secun',
+                            'position':'9'
+                                },
+                                {
+                            'id':'pandora_020919',
+                            'name':'Pandora',
+                            'creative':'h_banner_secun',
+                            'position':'10'
+                                },
+                                {
+                                'id':'gap_020919',
+                                'name':'GAP hasta 25% de descu',
+                                'creative':'h_banner_secun',
+                                'position':'11'
+                                    },
+                                    {
+                                'id':'idole_020919',
+                                'name':'IDOLE',
+                                'creative':'h_banner_secun',
+                                'position':'11'
+                                    },
+                                    {
+                                'id':'deportes_020919',
+                                'name':'Deportes hasta 20% de descu',
+                                'creative':'h_banner_secun',
+                                'position':'11'
+                                    },
+                                    {
+                                'id':'ipad_020919',
+                                'name':'iPad hasta 20% de descu',
+                                'creative':'h_banner_secun',
+                                'position':'11'
+                                    }                    
                         ]
                     }
                 }
