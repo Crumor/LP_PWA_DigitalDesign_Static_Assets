@@ -950,9 +950,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'mes_nintendo_m_090819',
-    'name': 'Mes Nintendo',
-    'creative': 'blp_videojuegos_mes_nintendo_m',
+    'id': 'gearsofwar_m_090819',
+    'name': 'Gears of War',
+    'creative': 'blp_videojuegos_gears_of_war',
     'position': '01'
 },
 {
@@ -974,9 +974,9 @@ dataLayer.push({
     'position': '04'
 },
 {
-    'id': 'mes_nintendo_090819',
-    'name': 'Mes Nintendo',
-    'creative': 'blp_videojuegos_mes_nintendo',
+    'id': 'gears_of_war_030919',
+    'name': 'Gears of War Escritorio',
+    'creative': 'blp_videojuegos_gears_of_war_e',
     'position': '05'
 },
 {
@@ -1004,34 +1004,76 @@ dataLayer.push({
     'position': '09'
 },
 {
-    'id': 'control_090819',
-    'name': 'Control',
-    'creative': 'blp_videojuegos_control',
+    'id': 'fifa_030919',
+    'name': 'Fifa 2020',
+    'creative': 'blp_videojuegos_fifa',
     'position': '10'
 },
 {
-    'id': 'fifa_090819',
-    'name': 'Fifa 20',
-    'creative': 'blp_videojuegos_fifa',
+    'id': 'PES_030919',
+    'name': 'PES 2020',
+    'creative': 'blp_videojuegos_pes',
     'position': '11'
+},
+{
+    'id': 'switchlite_030919',
+    'name': 'Switch Lite',
+    'creative': 'blp_videojuegos_switchlite',
+    'position': '12'
 },
 {
     'id': 'starwars_090819',
     'name': 'Star Wars',
     'creative': 'blp_videojuegos_starwars',
-    'position': '12'
+    'position': '13'
 },
 {
-    'id': 'mario_090819',
-    'name': 'Mario',
-    'creative': 'blp_videojuegos_mario',
-    'position': '13'
+    'id': 'zelda_030919',
+    'name': 'Switch Zelda',
+    'creative': 'blp_videojuegos_zelda',
+    'position': '14'
 },
 {
     'id': 'cod_090819',
     'name': 'Call of Duty',
     'creative': 'blp_videojuegos_cod',
-    'position': '14'
+    'position': '15'
+},
+{
+    'id': 'aventura_090819',
+    'name': 'Filtros Aventura',
+    'creative': 'blp_videojuegos_aventura',
+    'position': '16'
+},
+{
+    'id': 'deportes_090819',
+    'name': 'Filtros Deportes',
+    'creative': 'blp_videojuegos_deportes',
+    'position': '17'
+},
+{
+    'id': 'disparos_090819',
+    'name': 'Filtros Disparos',
+    'creative': 'blp_videojuegos_disparos',
+    'position': '18'
+},
+{
+    'id': 'peleas_090819',
+    'name': 'Filtros Peleas',
+    'creative': 'blp_videojuegos_peleas',
+    'position': '19'
+},
+{
+    'id': 'terror_090819',
+    'name': 'Filtros Terror',
+    'creative': 'blp_videojuegos_terror',
+    'position': '20'
+},
+{
+    'id': 'carreras_090819',
+    'name': 'Filtros Carreras',
+    'creative': 'blp_videojuegos_carreras',
+    'position': '21'
 },
 {
     'id': 'pcgamer_090819',
@@ -2680,15 +2722,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
- 'id': 'loveme_090819',
-    'name': 'Mac Love me',
-    'creative': 'blpmov_mac_loveme',
-    'position': '01'
-},
-{
-    'id': 'loveme_090819',
-    'name': 'Mac Love me',
-    'creative': 'blp_mac_loveme',
+    'id': 'artstudio_090919',
+    'name': 'Mac Art Studio',
+    'creative': 'blp_mac_artstudio',
     'position': '01'
 },
 {
@@ -3331,9 +3367,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'dior_sauvage_210619',
-    'name': 'Dior Sauvage',
-    'creative': 'blp_dior_sauvage',
+    'id': 'dior_dreamskin_020918',
+    'name': 'Dior Dreamskin',
+    'creative': 'blp_dior_dreamskin',
     'position': '01'
 },
 {
@@ -4245,6 +4281,116 @@ dataLayer.push({
 }
 });
 
+        
+/*PLP DEPORTES MOTOS*/ 
+
+            break;
+            case '/tienda/motos/catst14469674':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_deportes_motodeportiva_200819',
+'name': 'Motos Deportes Deportiva',
+'creative': 'plp_deportes_motodeportiva',
+'position': '01'
+},
+{
+'id': 'plp_deportes_motourbana_200819',
+'name': 'Motos Deportes Urbana',
+'creative': 'plp_deportes_motourbana',
+'position': '02'
+},
+{
+'id': 'plp_deportes_motoproporsito_200819',
+'name': 'Motos Deportes Proposito',
+'creative': 'plp_deportes_motoproposito',
+'position': '03'
+},
+{
+'id': 'plp_deportes_motochopper_200819',
+'name': 'Motos Deportes Chopper',
+'creative': 'plp_deportes_motochopper',
+'position': '04'
+}
+]
+}
+}
+});
+
+        
+        
+        
+/*PLP DEPORTES APARATOS*/ 
+
+            break;
+            case '/tienda/aparatos-de-ejercicio/cat5070030':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_deportes_caminadora_200819',
+'name': 'Aparatos Deportes Caminadora',
+'creative': 'plp_deportes_caminadora',
+'position': '01'
+},
+{
+'id': 'plp_deportes_eliptica_200819',
+'name': 'Aparatos Deportes Eliptica',
+'creative': 'plp_deportes_eliptica',
+'position': '02'
+},
+{
+'id': 'plp_deportes_bicicletas_200819',
+'name': 'Aparatos Deportes Bicicletas',
+'creative': 'plp_deportes_bicicletas',
+'position': '03'
+},
+{
+'id': 'plp_deportes_pesas_200819',
+'name': 'Aparatos Deportes Pesas',
+'creative': 'plp_deportes_pesas',
+'position': '04'
+},
+{
+'id': 'plp_deportes_tv_200819',
+'name': 'Aparatos Deportes TV',
+'creative': 'plp_deportes_tv',
+'position': '05'
+},
+{
+'id': 'plp_deportes_suplementos_200819',
+'name': 'Aparatos Deportes Suplementos',
+'creative': 'plp_deportes_suplementos',
+'position': '06'
+},
+{
+'id': 'plp_deportes_accesorios_200819',
+'name': 'Aparatos Deportes Accesorios',
+'creative': 'plp_deportes_accesorios',
+'position': '07'
+}
+]
+}
+}
+});
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
       /*PLP BOLSAS ELLA*/ 
 
