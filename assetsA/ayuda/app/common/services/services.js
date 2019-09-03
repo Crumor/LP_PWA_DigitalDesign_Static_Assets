@@ -80,7 +80,7 @@
                 });
 
             },
-            //devuelve todas las preguntas relacionadas a una categoria en especifico id(key) 
+            //devuelve todas las preguntas relacionadas a una categoria en especifico id(key)
             getPreguntas: function(key, fn) {
                 var info = { sucess: false, data: {}, code: -1 };
                 var data = new Preguntas(ref.child("preguntas/"));
@@ -408,108 +408,119 @@
             };
         });
 
-    function serviceContenido(Reader, myconfig, Contenido, Contenidos, Preguntas, Pregunta, serviceMenu, PreguntasTop) {
+        function serviceContenido($firebaseObject, $firebaseArray, myconfig, Contenido, Contenidos, Preguntas, Pregunta, serviceMenu, PreguntasTop) {
 
-        var ref = new Firebase(myconfig.database);
+            var ref = new Firebase(myconfig.database);
+            return {
+                //devuelve la informacion del valor contenido mediante un id (key)
+                getContenido: function(key, fn) {
 
-        return {
-            //devuelve la informacion del valor contenido mediante un id (key)
-            getContenido: function(key, fn) {
+                    var info = { sucess: false, data: {}, code: -1 };
+                    var data = new Contenido(ref.child("contenido/"));
 
-                var info = { sucess: false, data: {}, code: -1 };
-                Reader.get("contenido", function(data) {
-                    info.success = true;
-                    info.code = 1;
-                    info.data = Contenido.get(data, key);
-                    fn(info);
-                });
+                    data.$loaded().then(function(response) {
+                        info.success = true;
+                        info.code = 1;
+                        info.data = data.get(key);
+                        fn(info);
+                    }).catch(function(error) {
+                        fn(info);
+                    });
 
-            },
-            //devuelve todas las preguntas relacionadas a una categoria en especifico id(key) 
-            getPreguntas: function(key, fn) {
-                var info = { sucess: false, data: {}, code: -1 };
-                //var data =  new Preguntas( ref.child("preguntas/") );
-                Reader.get("preguntas", function(data) {
+                },
+                //devuelve todas las preguntas relacionadas a una categoria en especifico id(key)
+                getPreguntas: function(key, fn) {
+                    var info = { sucess: false, data: {}, code: -1 };
+                    var data = new Preguntas(ref.child("preguntas/"));
 
-                    info.success = true;
-                    info.code = 1;
-                    info.data = Preguntas.get(data, key);
-                    fn(info);
-                });
-            },
-            //busca y devuelve un valor dentro del valor contenido, alguna cadena String asociada
-            searchContenidos: function(word, fn) {
+                    data.$loaded().then(function(response) {
+                        info.success = true;
+                        info.code = 1;
+                        info.data = data.get(key);
+                        fn(info);
+                    }).catch(function(error) {
+                        fn(info);
+                    });
+                },
+                //busca y devuelve un valor dentro del valor contenido, alguna cadena String asociada
+                searchContenidos: function(word, fn) {
 
-                var info = { sucess: false, data: {}, code: -1 };
-                //var data =  new Contenidos( ref.child("contenido") );
+                    var info = { sucess: false, data: {}, code: -1 };
+                    var data = new Contenidos(ref.child("contenido"));
 
-                Reader.get("contenido", function(data) {
-                    info.success = true;
-                    info.code = 1;
-                    info.data = Contenidos.buscar(data, word);
-                    fn(info);
-                });
+                    data.$loaded().then(function() {
+                        info.success = true;
+                        info.code = 1;
+                        info.data = data.buscar(word);
+                        fn(info);
+                    }).catch(function(error) {
+                        fn(info);
+                    });
 
-            },
-            //busca y devuelve un valor, dentro del valor preguntas, alguna cadena String asociada
-            searchPreguntas: function(word, fn) {
+                },
+                //busca y devuelve un valor, dentro del valor preguntas, alguna cadena String asociada
+                searchPreguntas: function(word, fn) {
 
-                var info = { sucess: false, data: {}, code: -1 };
-                //var data =  new Preguntas( ref.child("preguntas") );
+                    var info = { sucess: false, data: {}, code: -1 };
+                    var data = new Preguntas(ref.child("preguntas"));
 
-                Reader.get("preguntas", function(data) {
-                    info.success = true;
-                    info.code = 1;
-                    info.data = Preguntas.buscar(data, word);
-                    fn(info);
-                });
+                    data.$loaded().then(function() {
+                        info.success = true;
+                        info.code = 1;
+                        info.data = data.buscar(word);
+                        fn(info);
+                    }).catch(function(error) {
+                        fn(info);
+                    });
 
-            },
-            searchReduceAndFormated: function(dataSet, word, dataKey) {
-                var reducedText = "";
-                var formatedText = "";
-                angular.forEach(dataSet, function(element, index) {
-                    element[dataKey] = dataKey === "contenido" ? element[dataKey].replace(/<(?:.|\n)*?>/gm, '') : element[dataKey];
-                    reducedText = element[dataKey].slice(0, 80);
-                    formatedText = reducedText.split(word).join("<b>" + word + "</b>");
-                    element[dataKey] = formatedText.length >= 80 ? formatedText + " ..." : formatedText;
-                });
-                return dataSet;
-            },
-            //optiene las 10 preguntas mas buscadas
-            getPreguntasTop: function(fn) {
-                var info = { sucess: false, data: {}, code: -1 };
-                //var data =  new Preguntas( ref.child("preguntas/") );
+                },
+                searchReduceAndFormated: function(dataSet, word, dataKey) {
+                    var reducedText = "";
+                    var formatedText = "";
+                    angular.forEach(dataSet, function(element, index) {
+                        element[dataKey] = dataKey === "contenido" ? element[dataKey].replace(/<(?:.|\n)*?>/gm, '') : element[dataKey];
+                        reducedText = element[dataKey].slice(0, 80);
+                        formatedText = reducedText.split(word).join("<b>" + word + "</b>");
+                        element[dataKey] = formatedText.length >= 80 ? formatedText + " ..." : formatedText;
+                    });
+                    return dataSet;
+                },
+                //optiene las 10 preguntas mas buscadas
+                getPreguntasTop: function(fn) {
+                    var info = { sucess: false, data: {}, code: -1 };
+                    var data = new Preguntas(ref.child("preguntas/"));
 
-                Reader.get("preguntas", function(data) {
+                    data.$loaded().then(function(response) {
 
-                    info.success = true;
-                    info.code = 1;
-                    if (PreguntasTop.get().length <= 0) {
+                        info.success = true;
+                        info.code = 1;
+                        if (PreguntasTop.get().length <= 0) {
 
-                        var _data = Preguntas.getAll(data);
+                            var _data = data.getAll();
 
-                        _data.sort(function(a, b) {
-                            return b.visitas - a.visitas;
-                        });
+                            _data.sort(function(a, b) {
+                                return b.visitas - a.visitas;
+                            });
 
-                        for (var i = 0; i < 10; i++) {
-                            PreguntasTop.set(_data[i]);
-                        }
+                            for (var i = 0; i < 10; i++) {
+                                PreguntasTop.set(_data[i]);
+                            }
 
-                        info.data = PreguntasTop.get();
+                            info.data = PreguntasTop.get();
 
-                    } else {
+                        } else {
 
-                        info.data = PreguntasTop.get();
+                            info.data = PreguntasTop.get();
 
-                    };
-                    // console.log(info);
-                    fn(info);
-                });
+                        };
+                        // console.log(info);
+                        fn(info);
+                    }).catch(function(error) {
+                        fn(info);
+                    });
+                }
             }
-        }
-    };
+        };
     //devuelve el valor de Menu
     function serviceMenu(Reader, myconfig, Menu) {
 
