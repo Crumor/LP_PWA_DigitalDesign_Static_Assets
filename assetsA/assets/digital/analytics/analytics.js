@@ -1789,9 +1789,9 @@ dataLayer.push({
 });			
 
 
-// PRIMER NIVEL Halloween
+/* PRIMER NIVEL Halloween Navidad */
 break;
-case '/tienda/halloween/catst1718701':
+case '/tienda/navidad-y-halloween/catst1718701':
 
 dataLayer.push({
 'event': 'impresionCampaign',
@@ -1823,6 +1823,60 @@ dataLayer.push({
 'name': 'Halloween',
 'creative': 'blp_Halloween_tradiciones',
 'position': '06'
+},
+{
+'id': 'navidad_040919',
+'name': 'Navidad Principal',
+'creative': 'blp_Navidad_Principal',
+'position': '06'
+},
+{
+'id': 'wonderful_040919',
+'name': 'Navidad Wonderful',
+'creative': 'blp_Navidad_Wonderful',
+'position': '07'
+},
+{
+'id': 'scandic_040919',
+'name': 'Navidad Scandic',
+'creative': 'blp_Navidad_Scandic',
+'position': '08'
+},
+{
+'id': 'black_040919',
+'name': 'Navidad Black',
+'creative': 'blp_Navidad_Black',
+'position': '09'
+},
+{
+'id': 'nordic_040919',
+'name': 'Navidad Nordic',
+'creative': 'blp_Navidad_Nordic',
+'position': '10'
+},
+{
+'id': 'golden_040919',
+'name': 'Navidad Golden',
+'creative': 'blp_Navidad_Golden',
+'position': '11'
+},
+{
+'id': 'natural_040919',
+'name': 'Navidad Natural',
+'creative': 'blp_Navidad_Natural',
+'position': '12'
+},
+{
+'id': 'metalic_040919',
+'name': 'Navidad Metalic',
+'creative': 'blp_Navidad_Metalic',
+'position': '13'
+},
+{
+'id': 'geometric_040919',
+'name': 'Navidad Geometric',
+'creative': 'blp_Navidad_Geometric',
+'position': '14'
 }
 
 ]
