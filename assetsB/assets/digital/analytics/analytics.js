@@ -1798,26 +1798,26 @@ dataLayer.push({
 'ecommerce': {
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
-{
+
 
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
 'creative': 'blp_Halloween_disfraces',
 'position': '02'
-}
+},
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
 'creative': 'blp_Halloween_decoracion',
 'position': '03'
-}
+},
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
 'creative': 'blp_Halloween_accesorios',
 'position': '04'
-}
+},
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
