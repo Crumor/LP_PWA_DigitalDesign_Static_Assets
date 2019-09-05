@@ -41,89 +41,93 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                 'ecommerce': {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
-                           
-							{
-		    'id':'muebles_260819',
-		   'name':'Muebles hasta 30% de desc',
+                    
+                            {
+		    'id':'ff_ella_050919',
+		   'name':'Fashion Fest Ella hasta 15% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
 		
 				 {
-			'id':'west_elm_260819',
-		   'name':'West Elm hasta 20% de descu',
+			'id':'ff_el_050919',
+		   'name':'Fashion Fest Él hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		   'id':'linea_blanca_260819',
-		   'name':'Línea Blanca hasta 44% de descu',
+		   'id':'zapatos_050919',
+		   'name':'Zapatos hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
- 		   'id':'cocina_260819',
-		   'name':'Cocina hasta 37% de descu',
+ 		   'id':'bebes_niños_050919',
+		   'name':'Bebés y Niños hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'4'
 			},
 				   {
-		 'id':'asadores_260819',
-		   'name':'Asadores hasta 44% de descu',
+		 'id':'linea_blanca_050919',
+		   'name':'Línea Blanca hasta 44% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'5'
 			},
-                  {
-		 'id':'pandora_260819',
-		   'name':'Pandora',
+            {
+		 'id':'muebles_050919',
+		   'name':'Muebles hasta 50% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'6'
 			},
                   {
-		  'id':'ella_260819',
-		   'name':'Ella hasta 15% de descu',
+		 'id':'colchones_050919',
+		   'name':'Colchones hasta 36% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'7'
 			},
-			
-                 
-           {
-		   'id':'bebes_ninos_260819',
-		   'name':'Bebés y niños hasta 15% de descu',
-		   'creative':'h_banner_secun',
+            {
+		  'id':'blancos_050919',
+		   'name':'Blancos hasta 30% de descu',
+		   'creative':'h_banner_secuun',
 		   'position':'8'
+			},
+           {
+		   'id':'pb_050919',
+		   'name':'Pottery Barn hasta 20% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'9'
 			},
             
 			 {
-		     'id':'el_260819',
-		   'name':'Él hasta 15% de descu',
-       'creative':'h_banner_secun',
-       'position':'9'
+            'id':'pandora_050919',
+		    'name':'Pandora',
+            'creative':'h_banner_secun',
+            'position':'10'
 			 },
              {
-		   'id':'deportes_260819',
-		   'name':'Deportes hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'10'
+		   'id':'gap_050919',
+		   'name':'GAP hasta 25% de desc',
+           'creative':'h_banner_secun',
+           'position':'11'
 			 },
             {
-  'id':'computo_260819',
-		   'name':'Cómputo hasta 20% de descu',
+           'id':'idole_050919',
+		   'name':'IDOLE',
 		   'creative':'h_banner_secun',
-		   'position':'11'
+		   'position':'12'
 			 },
             {
-  'id':'cámaras_260819',
-		   'name':'Cámaras hasta 40% de descu',
-       'creative':'h_banner_secun',
-       'position':'12'
+		   'id':'deportes_050919',
+		   'name':'Deportes hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
 			 },
             {
-  'id':'consola_switch_260819',
-		   'name':'Consola Switch hasta 16% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
-			 }
+           'id':'iPad_050919',
+		   'name':'iPad hasta 20% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'14'
+			 }                    
                         ]
                     }
                 }
@@ -468,76 +472,70 @@ dataLayer.push({
     'position': '01'
 },
 {
-    'id': 'aparatos_210519',
-    'name': 'Aparatos de ejercicio',
-    'creative': 'blp_deportes_aparatos',
+    'id': 'americano_280819',
+    'name': 'Americano',
+    'creative': 'blp_deportes_americano',
     'position': '02'
 },
 {
-    'id': 'motocicletas_210519',
-    'name': 'Motocicletas',
-    'creative': 'blp_deportes_motocicletas',
+    'id': 'running_280819',
+    'name': 'Running',
+    'creative': 'blp_deportes_running',
     'position': '03'
 },
 {
-    'id': 'campismo_210519',
-    'name': 'Campismo',
-    'creative': 'blp_deportes_campismo',
+    'id': 'entrenamiento_280819',
+    'name': 'Entrenamiento',
+    'creative': 'blp_deportes_entrenamiento',
     'position': '04'
 },
 {
-    'id': 'acuaticos_210519',
-    'name': 'Acuáticos',
-    'creative': 'blp_deportes_acuaticos',
+    'id': 'ella_280819',
+    'name': 'Ella',
+    'creative': 'blp_deportes_ella',
     'position': '05'
 },
 {
-    'id': 'lonuevo_210519',
-    'name': 'Lo Nuevo',
-    'creative': 'blp_deportes_nuevo',
+    'id': 'futbol_280819',
+    'name': 'Futbol',
+    'creative': 'blp_deportes_futbol',
     'position': '06'
 },
 {
-    'id': 'fitness_210519',
-    'name': 'Fitness',
-    'creative': 'blp_deportes_fitness',
+    'id': 'basquetbol_280819',
+    'name': 'Basquetbol',
+    'creative': 'blp_deportes_basquetbol',
     'position': '07'
 },
 {
-    'id': 'tenis_ella_210519',
-    'name': 'Tenis Ella',
-    'creative': 'blp_deportes_tenis_ella',
+    'id': 'tenisel_280819',
+    'name': 'Tenis El',
+    'creative': 'blp_deportes_tenisel',
     'position': '08'
 },
 {
-    'id': 'tenis_el_210519',
-    'name': 'Tenis El',
-    'creative': 'blp_deportes_tenis_el',
+    'id': 'tenisella_280819',
+    'name': 'Tenis Ella',
+    'creative': 'blp_deportes_tenisella',
     'position': '09'
 },
 {
-    'id': 'ropa_ella_210519',
-    'name': 'Ropa Ella',
-    'creative': 'blp_deportes_ropa_ella',
+    'id': 'ninas_280819',
+    'name': 'Ninas',
+    'creative': 'blp_deportes_ninas',
     'position': '10'
 },
 {
-    'id': 'ropa_nina_210519',
-    'name': 'Ropa Niña',
-    'creative': 'blp_deportes_ropa_nina',
+    'id': 'ninos_280819',
+    'name': 'Ninos',
+    'creative': 'blp_deportes_ninos',
     'position': '11'
 },
 {
-    'id': 'ropa_el_210519',
-    'name': 'Ropa Él',
-    'creative': 'blp_deportes_ropa_el',
+    'id': 'motos_280819',
+    'name': 'Motos',
+    'creative': 'blp_deportes_motos',
     'position': '12'
-},
-{
-    'id': 'coleccionables_210519',
-    'name': 'Coleccionables',
-    'creative': 'blp_deportes_coleccionables',
-    'position': '13'
 }
 ]
 }
@@ -952,9 +950,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'mes_nintendo_m_090819',
-    'name': 'Mes Nintendo',
-    'creative': 'blp_videojuegos_mes_nintendo_m',
+    'id': 'gearsofwar_m_090819',
+    'name': 'Gears of War',
+    'creative': 'blp_videojuegos_gears_of_war',
     'position': '01'
 },
 {
@@ -976,9 +974,9 @@ dataLayer.push({
     'position': '04'
 },
 {
-    'id': 'mes_nintendo_090819',
-    'name': 'Mes Nintendo',
-    'creative': 'blp_videojuegos_mes_nintendo',
+    'id': 'gears_of_war_030919',
+    'name': 'Gears of War Escritorio',
+    'creative': 'blp_videojuegos_gears_of_war_e',
     'position': '05'
 },
 {
@@ -1006,34 +1004,76 @@ dataLayer.push({
     'position': '09'
 },
 {
-    'id': 'control_090819',
-    'name': 'Control',
-    'creative': 'blp_videojuegos_control',
+    'id': 'fifa_030919',
+    'name': 'Fifa 2020',
+    'creative': 'blp_videojuegos_fifa',
     'position': '10'
 },
 {
-    'id': 'fifa_090819',
-    'name': 'Fifa 20',
-    'creative': 'blp_videojuegos_fifa',
+    'id': 'PES_030919',
+    'name': 'PES 2020',
+    'creative': 'blp_videojuegos_pes',
     'position': '11'
+},
+{
+    'id': 'switchlite_030919',
+    'name': 'Switch Lite',
+    'creative': 'blp_videojuegos_switchlite',
+    'position': '12'
 },
 {
     'id': 'starwars_090819',
     'name': 'Star Wars',
     'creative': 'blp_videojuegos_starwars',
-    'position': '12'
+    'position': '13'
 },
 {
-    'id': 'mario_090819',
-    'name': 'Mario',
-    'creative': 'blp_videojuegos_mario',
-    'position': '13'
+    'id': 'zelda_030919',
+    'name': 'Switch Zelda',
+    'creative': 'blp_videojuegos_zelda',
+    'position': '14'
 },
 {
     'id': 'cod_090819',
     'name': 'Call of Duty',
     'creative': 'blp_videojuegos_cod',
-    'position': '14'
+    'position': '15'
+},
+{
+    'id': 'aventura_090819',
+    'name': 'Filtros Aventura',
+    'creative': 'blp_videojuegos_aventura',
+    'position': '16'
+},
+{
+    'id': 'deportes_090819',
+    'name': 'Filtros Deportes',
+    'creative': 'blp_videojuegos_deportes',
+    'position': '17'
+},
+{
+    'id': 'disparos_090819',
+    'name': 'Filtros Disparos',
+    'creative': 'blp_videojuegos_disparos',
+    'position': '18'
+},
+{
+    'id': 'peleas_090819',
+    'name': 'Filtros Peleas',
+    'creative': 'blp_videojuegos_peleas',
+    'position': '19'
+},
+{
+    'id': 'terror_090819',
+    'name': 'Filtros Terror',
+    'creative': 'blp_videojuegos_terror',
+    'position': '20'
+},
+{
+    'id': 'carreras_090819',
+    'name': 'Filtros Carreras',
+    'creative': 'blp_videojuegos_carreras',
+    'position': '21'
 },
 {
     'id': 'pcgamer_090819',
@@ -1747,7 +1787,105 @@ dataLayer.push({
 }
 }
 });			
-				
+
+
+/* PRIMER NIVEL Halloween Navidad */
+break;
+case '/tienda/navidad-y-halloween/catst1718701':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+
+
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_disfraces',
+'position': '02'
+},
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_decoracion',
+'position': '03'
+},
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_accesorios',
+'position': '04'
+},
+{
+'id': 'halloween_270819',
+'name': 'Halloween',
+'creative': 'blp_Halloween_tradiciones',
+'position': '06'
+},
+{
+'id': 'navidad_040919',
+'name': 'Navidad Principal',
+'creative': 'blp_Navidad_Principal',
+'position': '06'
+},
+{
+'id': 'wonderful_040919',
+'name': 'Navidad Wonderful',
+'creative': 'blp_Navidad_Wonderful',
+'position': '07'
+},
+{
+'id': 'scandic_040919',
+'name': 'Navidad Scandic',
+'creative': 'blp_Navidad_Scandic',
+'position': '08'
+},
+{
+'id': 'black_040919',
+'name': 'Navidad Black',
+'creative': 'blp_Navidad_Black',
+'position': '09'
+},
+{
+'id': 'nordic_040919',
+'name': 'Navidad Nordic',
+'creative': 'blp_Navidad_Nordic',
+'position': '10'
+},
+{
+'id': 'golden_040919',
+'name': 'Navidad Golden',
+'creative': 'blp_Navidad_Golden',
+'position': '11'
+},
+{
+'id': 'natural_040919',
+'name': 'Navidad Natural',
+'creative': 'blp_Navidad_Natural',
+'position': '12'
+},
+{
+'id': 'metalic_040919',
+'name': 'Navidad Metalic',
+'creative': 'blp_Navidad_Metalic',
+'position': '13'
+},
+{
+'id': 'geometric_040919',
+'name': 'Navidad Geometric',
+'creative': 'blp_Navidad_Geometric',
+'position': '14'
+}
+
+]
+}
+}
+});
+
+
+
 		
 				
 	// Brand Etam
@@ -2638,15 +2776,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
- 'id': 'loveme_090819',
-    'name': 'Mac Love me',
-    'creative': 'blpmov_mac_loveme',
-    'position': '01'
-},
-{
-    'id': 'loveme_090819',
-    'name': 'Mac Love me',
-    'creative': 'blp_mac_loveme',
+    'id': 'artstudio_090919',
+    'name': 'Mac Art Studio',
+    'creative': 'blp_mac_artstudio',
     'position': '01'
 },
 {
@@ -3289,9 +3421,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'dior_sauvage_210619',
-    'name': 'Dior Sauvage',
-    'creative': 'blp_dior_sauvage',
+    'id': 'dior_dreamskin_020918',
+    'name': 'Dior Dreamskin',
+    'creative': 'blp_dior_dreamskin',
     'position': '01'
 },
 {
@@ -4022,6 +4154,70 @@ dataLayer.push({
    
         
         
+        
+        
+/* BLP WHIRLPOOL*/ 
+       
+            break;
+            case '/tienda/cat1060780':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'whirlpool_main_260819',
+    'name': 'Whirlpool Main',
+    'creative': 'blp_whirlpool_main',
+    'position': '01'
+},
+{
+    'id': 'refrigeradores_260819',
+    'name': 'Whirlpool Refrigeradores',
+    'creative': 'blp_whirlpool_refrigeradores',
+    'position': '02'
+},
+{
+    'id': 'campanas_260819',
+    'name': 'Whirlpool Campanas',
+    'creative': 'blp_whirlpool_campanas',
+    'position': '03'
+},
+{
+    'id': 'aire_260819',
+    'name': 'Whirlpool Aire',
+    'creative': 'blp_whirlpool_aire',
+    'position': '04'
+},
+{
+    'id': 'cocina_260819',
+    'name': 'Whirlpool Cocina',
+    'creative': 'blp_whirlpool_cocina',
+    'position': '05'
+},
+{
+    'id': 'lavadoras_260819',
+    'name': 'Whirlpool Lavadoras',
+    'creative': 'blp_whirlpool_lavadoras',
+    'position': '06'
+}
+]
+}
+}
+});                
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 /* BLP NYX*/ 
        
             break;
@@ -4139,6 +4335,116 @@ dataLayer.push({
 }
 });
 
+        
+/*PLP DEPORTES MOTOS*/ 
+
+            break;
+            case '/tienda/motos/catst14469674':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_deportes_motodeportiva_200819',
+'name': 'Motos Deportes Deportiva',
+'creative': 'plp_deportes_motodeportiva',
+'position': '01'
+},
+{
+'id': 'plp_deportes_motourbana_200819',
+'name': 'Motos Deportes Urbana',
+'creative': 'plp_deportes_motourbana',
+'position': '02'
+},
+{
+'id': 'plp_deportes_motoproporsito_200819',
+'name': 'Motos Deportes Proposito',
+'creative': 'plp_deportes_motoproposito',
+'position': '03'
+},
+{
+'id': 'plp_deportes_motochopper_200819',
+'name': 'Motos Deportes Chopper',
+'creative': 'plp_deportes_motochopper',
+'position': '04'
+}
+]
+}
+}
+});
+
+        
+        
+        
+/*PLP DEPORTES APARATOS*/ 
+
+            break;
+            case '/tienda/aparatos-de-ejercicio/cat5070030':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_deportes_caminadora_200819',
+'name': 'Aparatos Deportes Caminadora',
+'creative': 'plp_deportes_caminadora',
+'position': '01'
+},
+{
+'id': 'plp_deportes_eliptica_200819',
+'name': 'Aparatos Deportes Eliptica',
+'creative': 'plp_deportes_eliptica',
+'position': '02'
+},
+{
+'id': 'plp_deportes_bicicletas_200819',
+'name': 'Aparatos Deportes Bicicletas',
+'creative': 'plp_deportes_bicicletas',
+'position': '03'
+},
+{
+'id': 'plp_deportes_pesas_200819',
+'name': 'Aparatos Deportes Pesas',
+'creative': 'plp_deportes_pesas',
+'position': '04'
+},
+{
+'id': 'plp_deportes_tv_200819',
+'name': 'Aparatos Deportes TV',
+'creative': 'plp_deportes_tv',
+'position': '05'
+},
+{
+'id': 'plp_deportes_suplementos_200819',
+'name': 'Aparatos Deportes Suplementos',
+'creative': 'plp_deportes_suplementos',
+'position': '06'
+},
+{
+'id': 'plp_deportes_accesorios_200819',
+'name': 'Aparatos Deportes Accesorios',
+'creative': 'plp_deportes_accesorios',
+'position': '07'
+}
+]
+}
+}
+});
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
       /*PLP BOLSAS ELLA*/ 
 

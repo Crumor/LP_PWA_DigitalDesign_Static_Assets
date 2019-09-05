@@ -2,43 +2,43 @@
 <!--WEB home-->
 <div class="grid-container">
 <header-web></header-web>
-	<div class="grid-100 head-category"  ng-click="validateResult()">
-		<div class="grid-70 prefix-15 sufix-75">
-			<div class="grid-40" >
-				<div class="tsunami">
-					<span ng-bind-html="category.icon"></span>
-					<h3 ng-bind="category.titulo"></h3>
-				</div>
-			</div>
-			<div class="grid-60" >
-				<type-head th="web-category" class="typeHeadCategory"></type-head>
-			</div>
-		</div>
-	</div>
-	<div class="opacity"></div>
-	<div class="grid-70 prefix-15 sufix-75" ng-click="validateResult()">
-		<div class="grid-30" style="max-width: 300px">
-			<menu-left category="idCategory" menu="menu"></menu-left>
-		</div>
+    <div class="grid-100 head-category"  ng-click="validateResult()">
+        <div class="grid-70 prefix-15 sufix-75">
+            <div class="grid-40" >
+                <div class="tsunami">
+                    <span ng-bind-html="category.icon"></span>
+                    <h3 ng-bind="category.titulo"></h3>
+                </div>
+            </div>
+            <div class="grid-60" >
+                <type-head th="web-category" class="typeHeadCategory"></type-head>
+            </div>
+        </div>
+    </div>
+    <div class="opacity"></div>
+    <div class="grid-70 prefix-15 sufix-75" ng-click="validateResult()">
+        <div class="grid-30" style="max-width: 300px">
+            <menu-left category="idCategory" menu="menu"></menu-left>
+        </div>
 
-		<div class="grid-60 prefix-10" style="max-width: 600px">
-			<div class="category-content" ng-bind-html="contenido  | unsafe">
+        <div class="grid-60 prefix-10" style="max-width: 600px">
+            <div class="category-content" ng-bind-html="contenido  | unsafe">
 
-			</div>
-			<div class="category-content" style="padding-top:0;">
-				<ratings th="web"></ratings>
-				<preguntas-frecuentes th="web"></preguntas-frecuentes>
-				<div class="block-stores-category" >
-					<i class="icon-ayuda-contacto"></i>
-					<div class="contact-description">
-						<div class="tiendas">Contáctanos</div>
-						<p>¿No encontraste lo que buscabas?</p>
-						<p class="phone">01 (55) 5262-9999 • atencion@liverpool.com.mx</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+            </div>
+            <div class="category-content" style="padding-top:0;">
+                <ratings th="web"></ratings>
+                <preguntas-frecuentes th="web"></preguntas-frecuentes>
+                <div class="block-stores-category" >
+                    <i class="icon-ayuda-contacto"></i>
+                    <div class="contact-description">
+                        <div class="tiendas">Contáctanos</div>
+                        <p>¿No encontraste lo que buscabas?</p>
+                        <p class="phone">01 (55) 5262-9999 • atencion@liverpool.com.mx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
