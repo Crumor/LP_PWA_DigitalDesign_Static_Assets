@@ -43,91 +43,91 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                         'promotions': [// Array of promoFieldObjects.
                     
                             {
-                                'id':'muebles_020919',
-                            'name':'Muebles hasta 50% de desc',
-                            'creative':'h_banner_central',
-                            'position':'1'
-                                },
-                            
-                                    {
-                                'id':'linea_blanca_020919',
-                            'name':'Linea Blanca hasta 44% de descu',
-                            'creative':'h_banner_secun',
-                            'position':'2'
-                                },
-                                    {
-                            'id':'colchones_020919',
-                            'name':'Colchones hasta 36% de descu',
-                            'creative':'h_banner_secun',
-                            'position':'3'
-                                },
-                                    {
-                            'id':'blancos_020919',
-                            'name':'Blancos hasta 30% de descu',
-                            'creative':'h_banner_secun',
-                            'position':'4'
-                                },
-                                    {
-                            'id':'pb_020919',
-                            'name':'Pottery Barn hasta 20% de descu',
-                            'creative':'h_banner_secun',
-                            'position':'5'
-                                },
-                                    {
-                            'id':'ella_020919',
-                            'name':'Ella hasta 15% de descu',
-                            'creative':'h_banner_secuun',
-                            'position':'6'
-                                },
-                                    {
-                            'id':'el_020919',
-                            'name':'Él hasta 15% de descu',
-                            'creative':'h_banner_secuun',
-                            'position':'7'
-                                },                    
-                            {
-                            'id':'bebes_niños_020919',
-                            'name':'Bebés y Niños hasta 15% de descu',
-                            'creative':'h_banner_secun',
-                            'position':'8'
-                                },
-                                
-                                {
-                            'id':'zapatos_020919',
-                            'name':'Zapatos hasta 15% de descu',
-                            'creative':'h_banner_secun',
-                            'position':'9'
-                                },
-                                {
-                            'id':'pandora_020919',
-                            'name':'Pandora',
-                            'creative':'h_banner_secun',
-                            'position':'10'
-                                },
-                                {
-                                'id':'gap_020919',
-                                'name':'GAP hasta 25% de descu',
-                                'creative':'h_banner_secun',
-                                'position':'11'
-                                    },
-                                    {
-                                'id':'idole_020919',
-                                'name':'IDOLE',
-                                'creative':'h_banner_secun',
-                                'position':'11'
-                                    },
-                                    {
-                                'id':'deportes_020919',
-                                'name':'Deportes hasta 20% de descu',
-                                'creative':'h_banner_secun',
-                                'position':'11'
-                                    },
-                                    {
-                                'id':'ipad_020919',
-                                'name':'iPad hasta 20% de descu',
-                                'creative':'h_banner_secun',
-                                'position':'11'
-                                    }                    
+		    'id':'ff_ella_050919',
+		   'name':'Fashion Fest Ella hasta 15% de desc',
+		   'creative':'h_banner_central',
+		   'position':'1'
+			 },
+		
+				 {
+			'id':'ff_el_050919',
+		   'name':'Fashion Fest Él hasta 15% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'2'
+			 },
+                 {
+		   'id':'zapatos_050919',
+		   'name':'Zapatos hasta 15% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'3'
+			},
+                 {
+ 		   'id':'bebes_niños_050919',
+		   'name':'Bebés y Niños hasta 15% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'4'
+			},
+				   {
+		 'id':'linea_blanca_050919',
+		   'name':'Línea Blanca hasta 44% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'5'
+			},
+            {
+		 'id':'muebles_050919',
+		   'name':'Muebles hasta 50% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'6'
+			},
+                  {
+		 'id':'colchones_050919',
+		   'name':'Colchones hasta 36% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'7'
+			},
+            {
+		  'id':'blancos_050919',
+		   'name':'Blancos hasta 30% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'8'
+			},
+           {
+		   'id':'pb_050919',
+		   'name':'Pottery Barn hasta 20% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'9'
+			},
+            
+			 {
+            'id':'pandora_050919',
+		    'name':'Pandora',
+            'creative':'h_banner_secun',
+            'position':'10'
+			 },
+             {
+		   'id':'gap_050919',
+		   'name':'GAP hasta 25% de desc',
+           'creative':'h_banner_secun',
+           'position':'11'
+			 },
+            {
+           'id':'idole_050919',
+		   'name':'IDOLE',
+		   'creative':'h_banner_secun',
+		   'position':'12'
+			 },
+            {
+		   'id':'deportes_050919',
+		   'name':'Deportes hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
+			 },
+            {
+           'id':'iPad_050919',
+		   'name':'iPad hasta 20% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'14'
+			 }                    
                         ]
                     }
                 }
@@ -1789,9 +1789,9 @@ dataLayer.push({
 });			
 
 
-// PRIMER NIVEL Halloween
+/* PRIMER NIVEL Halloween Navidad */
 break;
-case '/tienda/halloween/catst1718701':
+case '/tienda/navidad-y-halloween/catst1718701':
 
 dataLayer.push({
 'event': 'impresionCampaign',
@@ -1823,6 +1823,60 @@ dataLayer.push({
 'name': 'Halloween',
 'creative': 'blp_Halloween_tradiciones',
 'position': '06'
+},
+{
+'id': 'navidad_040919',
+'name': 'Navidad Principal',
+'creative': 'blp_Navidad_Principal',
+'position': '06'
+},
+{
+'id': 'wonderful_040919',
+'name': 'Navidad Wonderful',
+'creative': 'blp_Navidad_Wonderful',
+'position': '07'
+},
+{
+'id': 'scandic_040919',
+'name': 'Navidad Scandic',
+'creative': 'blp_Navidad_Scandic',
+'position': '08'
+},
+{
+'id': 'black_040919',
+'name': 'Navidad Black',
+'creative': 'blp_Navidad_Black',
+'position': '09'
+},
+{
+'id': 'nordic_040919',
+'name': 'Navidad Nordic',
+'creative': 'blp_Navidad_Nordic',
+'position': '10'
+},
+{
+'id': 'golden_040919',
+'name': 'Navidad Golden',
+'creative': 'blp_Navidad_Golden',
+'position': '11'
+},
+{
+'id': 'natural_040919',
+'name': 'Navidad Natural',
+'creative': 'blp_Navidad_Natural',
+'position': '12'
+},
+{
+'id': 'metalic_040919',
+'name': 'Navidad Metalic',
+'creative': 'blp_Navidad_Metalic',
+'position': '13'
+},
+{
+'id': 'geometric_040919',
+'name': 'Navidad Geometric',
+'creative': 'blp_Navidad_Geometric',
+'position': '14'
 }
 
 ]
