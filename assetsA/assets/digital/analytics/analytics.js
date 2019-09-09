@@ -31,7 +31,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 
 }
 
-     function myOnloadFunction(pageName,path) {
+      function myOnloadFunction(pageName,path) {
         showBlp();
         switch(pageName){
 
@@ -121,6 +121,12 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 		   'name':'PANDORA',
            'creative':'h_banner_secun',
            'position':'13'
+			 },
+            {
+		   'id':'deportes_090919',
+		   'name':'Deportes hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'14'
 			 }
                         ]
                     }
