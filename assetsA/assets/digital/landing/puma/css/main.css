@@ -1,0 +1,30 @@
+.container-accesorios{
+    width:98% !important;
+    overflow:hidden;
+    margin-left:0px;
+    float:left;
+}
+
+.container-accesorios img{
+    padding:0px 10px 8px 0px;
+}
+
+.container-motor{
+    width:98% !important;
+    overflow:hidden;
+    margin-right:0px;
+    float:right;
+}
+.container-motor img{
+    padding:0px 0px 8px 10px;
+}
+
+.container-kids{
+    width:100% !important;
+    overflow:hidden;
+}
+
+.container-kids img{
+    padding:8px 0px 0px 0px;
+
+}

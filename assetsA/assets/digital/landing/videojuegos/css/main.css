@@ -1,0 +1,285 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:300,400,500,600,700');
+/* font-family: 'Advent Pro', sans-serif;*/
+
+/*FONDO NEGRO */
+
+#main_wrapper{
+    background-color:black !important;
+}
+
+.left-nav{
+	color: #fff;
+}
+.left-nav h2, .h2stiles {
+	color: #fff;
+}
+.left-nav h3 {
+	color: #fff !important;
+}
+.left-nav ul li a{
+	color: #fff !important;
+	
+}
+
+.left-nav ul{
+
+background:#000;
+}
+.left-nav > a{
+background:#000; 
+}
+.left-nav > a > i{
+color:#fff;
+}
+
+.vb-contenedor{
+    background-color:black;
+}
+
+.slotdiv{
+    background:black;
+}
+.seoText{
+    color:white;
+}
+
+.seoText h3{
+    color:white;
+}
+
+.container-xbox{
+    position:relative;
+    width:100% !important;
+}
+
+.lista-xbox{
+    position:absolute;
+    width:100%;
+    bottom:14%;
+}
+
+.lista-xbox ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:100% !important;
+    text-align:center;
+    background:none !important;
+    border:none !important;
+}
+
+.lista-xbox ul li{
+    display:inline-block;
+    padding:5px;
+    background:none !important;
+    border:none !important;
+}
+
+.lista-xbox ul li a{
+    font-family: 'Advent Pro', sans-serif;
+    color: white !important;
+    font-size:20px;
+    text-decoration:none;
+    background: none !important;
+    border:none !important;
+}
+
+
+/*PREVENTAS*/
+
+.container-img-preventa{
+    overflow:hidden;
+    min-height:280px;
+}
+
+.container-preventa img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.container-preventa img:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+.texto-preventa{
+    color: white !important;
+    width:100% !important;
+    background-color:#ff9000;
+    text-align:center;
+    line-height: 50px;
+    height:50px;
+}
+
+.texto-preventa h2{
+    display:inline-block;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:300 !important;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    color:white !important;
+    vertical-align:middle !important;
+
+}
+
+
+
+/*ESTRENOS*/
+
+
+.container-img-estrenos{
+    overflow:hidden;
+    min-height:280px;
+
+}
+
+.container-estrenos img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.container-estrenos img:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+
+.texto-estrenos{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:300 !important;
+    font-size:20px;
+    color:white;
+    width:100% !important;
+    background-color:#009cff;
+    text-align:center;
+    line-height: 50px;
+    height:50px;
+    
+}
+
+.texto-estrenos h2{
+    display:inline-block;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:300 !important;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    color:white !important;
+    vertical-align:middle !important;
+}
+
+
+/*CONSOLAS*/
+
+
+.container-img-consolas{
+    overflow:hidden;
+    min-height: 280px;
+}
+
+.container-consolas img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.container-consolas img:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+
+.texto-consolas{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:300 !important;
+    font-size:20px;
+    color:white;
+    width:100% !important;
+    background-color:#f51414;
+    text-align:center;
+    line-height: 50px;
+    height:50px;
+    
+}
+
+.texto-consolas h2{
+    display:inline-block;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:300 !important;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    color:white !important;
+    vertical-align:middle !important;
+}
+
+
+
+/*GAMER*/
+
+
+.container-img-gamer{
+    overflow:hidden;
+    min-height: 280px;
+}
+
+.container-gamer img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.container-gamer img:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+
+.texto-gamer{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:300 !important;
+    font-size:20px;
+    color:white;
+    width:100% !important;
+    background-color:#72bf28;
+    text-align:center;
+    line-height: 50px;
+    height:50px;
+    
+}
+
+.texto-gamer h2{
+    display:inline-block;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:300 !important;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    color:white !important;
+    vertical-align:middle !important;
+}

@@ -1,0 +1,86 @@
+a:hover, a:link{color: #000;} 
+
+#main_wrapper{
+    min-width:1250px !important;
+}
+
+body{
+  background-color: #fff;
+}
+
+.contenedorPuma {
+  max-width: 950px;
+  margin: auto;
+  background-color: #fff;
+}
+
+
+#contentPuma {
+  max-width: 950px;
+  margin: auto;
+}
+
+.column-left{ 
+  float: left; 
+  width: 33%; 
+}
+
+.column-right{ 
+  float: right; 
+  width: 33%; 
+}
+
+.column-center{ 
+  display: inline-block; 
+  width: 33%; 
+  margin-left: 5px;
+}
+
+.column-left-01{ 
+  float: left; 
+  width: 50%; 
+}
+
+.column-right-01{ 
+  float: right; 
+  width: 50%; 
+}
+
+.title-section{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: #999;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.clear-both {
+   clear: both;
+}
+
+.banner-principal{
+  text-align:center;
+  padding: 0;
+}
+
+#main_wrapper .slotdiv div {
+    width: auto;
+}
+#main_wrapper .slotdiv div img {
+    width: auto !important;
+}
+.item {
+    border-top: 0px solid #ccc !important;
+    margin-top: 0px !important;
+    padding: 0em 0 !important;
+}
+.fancybox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 16px !important;
+    height: 16px !important;
+    cursor: pointer;
+    z-index: 8040;
+}

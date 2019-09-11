@@ -1,0 +1,42 @@
+{
+	"bannerType": "stack",
+	"bannerContent": [{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo02b_170619el_app.jpg",
+			"type": "plp",
+			"title": "el_170619",
+			"campaign": "Él hasta 40% de desc",
+			"view": "h_banner_m_central",
+			"position": "5"
+		},
+		{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo02c_170619dep_m.jpg",
+			"type": "plp",
+			"title": "deportes_170619",
+			"campaign": "Deportes hasta 40% de desc",
+			"view": "h_app_banner_secun",
+			"position": "6"
+		},
+		{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo02a_170619beb_m.jpg",
+			"type": "plp",
+			"title": "bebes_170619",
+			"campaign": "Bebés hasta 40% de desc",
+			"view": "h_app_banner_secun",
+			"position": "7"
+		},
+		{
+			"redirectsTo": "cat7970017",
+			"image": "https://assetspwa.liverpool.com.mx/assets/digital/home/img/bpromo02d_170619jug_m.jpg",
+			"type": "plp",
+			"title": "juguetes_170619",
+			"campaign": "Juguetes hasta 20% de desc",
+			"view": "h_app_banner_secun",
+			"position": "8"
+		}
+
+	]
+
+}
