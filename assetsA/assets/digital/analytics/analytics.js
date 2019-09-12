@@ -43,12 +43,105 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                         'promotions': [// Array of promoFieldObjects.
                            
 							{
+		    'id':'dismex_130919',
+		   'name':'Diseños Mexicanos hasta 35% de desc',
+		   'creative':'h_banner_central',
+		   'position':'1'
+			 },
+							{
+'id':'muebles_130919',
+		   'name':'Muebles hasta 50% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'2'
+			 },
+            {
+'id':'casa_130919',
+		   'name':'Casa hasta 30% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'3'
+			 },
+            {
+'id':'cocina_130919',
+		   'name':'Cocina hasta 37% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'4'
+			 },
+            {
+'id':'linea_blanca_130919',
+		   'name':'Línea Blanca hasta 44% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'5'
+			 },
+		
+				 
+				   {
+		  'id':'iphone_130919',
+		   'name':'iPhone lanzamiento',
+		   'creative':'h_banner_secun',
+		   'position':'6'
+			},
+                  {
+		 'id':'sonido_130919',
+		   'name':'Sonido hasta 30% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'7'
+			},
+                  {
+		 'id':'celulares_130919',
+		   'name':'Celulares hasta 18  msi',
+		   'creative':'h_banner_secun',
+		   'position':'8'
+			},
+			
+                 
+           {
+			'id':'computo_130919',
+		   'name':'Cómputo hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'9'
+			},
+            
+			 {
+		     	'id':'videojuegos_130919',
+		   'name':'Videojuegos hasta 15% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'10'
+			 },
+             {
+		 'id':'deportes_130919',
+		   'name':'Deportes hasta 20% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'11'
+			 },
+            {
+ 'id':'pantallas_130919',
+		   'name':'Pantallas hasta 30% de desc',
+		   'creative':'h_banner_secuun',
+		   'position':'12'
+			 },{
+			'id':'el_130919',
+		   'name':'Él hasta 15% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'13'
+			 },
+                 {
+		  	'id':'zapatos_130919',
+		   'name':'Zapatos hasta 15% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'14'
+			},
+                 {
+ 		   'id':'bebesninos_130919',
+		   'name':'Bebés y niños hasta 37% de desc',
+		   'creative':'h_banner_secuun',
+		   'position':'15'
+			},
+							{
 		    'id':'ff_el_090919',
 		   'name':'Fashion Fest Él hasta 15% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
-		
 				 {
 			'id':'ff_ella_090919',
 		   'name':'Fashion Fest Ella hasta 15% de descu',
