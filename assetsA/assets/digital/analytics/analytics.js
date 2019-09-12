@@ -118,18 +118,19 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 		   'name':'Pantallas hasta 30% de desc',
 		   'creative':'h_banner_secuun',
 		   'position':'12'
-			 },{
-			'id':'el_130919',
-		   'name':'Él hasta 15% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'13'
 			 },
-                 {
+										  {
 		  	'id':'zapatos_130919',
 		   'name':'Zapatos hasta 15% de desc',
 		   'creative':'h_banner_secun',
-		   'position':'14'
+		   'position':'13'
 			},
+							{
+			'id':'el_130919',
+		   'name':'Él hasta 15% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'14'
+			 },
                  {
  		   'id':'bebesninos_130919',
 		   'name':'Bebés y niños hasta 37% de desc',
