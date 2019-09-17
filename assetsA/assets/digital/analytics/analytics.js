@@ -31,7 +31,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 
 }
 
-      function myOnloadFunction(pageName,path) {
+       function myOnloadFunction(pageName,path) {
         showBlp();
         switch(pageName){
 
@@ -43,184 +43,83 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                         'promotions': [// Array of promoFieldObjects.
                            
 							{
-		    'id':'dismex_130919',
-		   'name':'Diseños Mexicanos hasta 35% de desc',
-		   'creative':'h_banner_central',
-		   'position':'1'
-			 },
-							{
-'id':'muebles_130919',
-		   'name':'Muebles hasta 50% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'2'
-			 },
-            {
-'id':'casa_130919',
-		   'name':'Casa hasta 30% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'3'
-			 },
-            {
-'id':'cocina_130919',
-		   'name':'Cocina hasta 37% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'4'
-			 },
-            {
-'id':'linea_blanca_130919',
-		   'name':'Línea Blanca hasta 44% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'5'
-			 },
-		
-				 
-				   {
-		  'id':'iphone_130919',
-		   'name':'iPhone lanzamiento',
-		   'creative':'h_banner_secun',
-		   'position':'6'
-			},
-                  {
-		 'id':'sonido_130919',
-		   'name':'Sonido hasta 30% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'7'
-			},
-                  {
-		 'id':'celulares_130919',
-		   'name':'Celulares hasta 18  msi',
-		   'creative':'h_banner_secun',
-		   'position':'8'
-			},
-			
-                 
-           {
-			'id':'computo_130919',
-		   'name':'Cómputo hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'9'
-			},
-            
-			 {
-		     	'id':'videojuegos_130919',
-		   'name':'Videojuegos hasta 15% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'10'
-			 },
-             {
-		 'id':'deportes_130919',
-		   'name':'Deportes hasta 20% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'11'
-			 },
-            {
- 'id':'pantallas_130919',
-		   'name':'Pantallas hasta 30% de desc',
-		   'creative':'h_banner_secuun',
-		   'position':'12'
-			 },
-										  {
-		  	'id':'zapatos_130919',
-		   'name':'Zapatos hasta 15% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'13'
-			},
-							{
-			'id':'el_130919',
-		   'name':'Él hasta 15% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'14'
-			 },
-                 {
- 		   'id':'bebesninos_130919',
-		   'name':'Bebés y niños hasta 37% de desc',
-		   'creative':'h_banner_secuun',
-		   'position':'15'
-			},
-							{
-		    'id':'ff_el_090919',
-		   'name':'Fashion Fest Él hasta 15% de desc',
+		    'id':'muebles_170919',
+		   'name':'Muebles hasta 30% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
 				 {
-			'id':'ff_ella_090919',
-		   'name':'Fashion Fest Ella hasta 15% de descu',
+			'id':'linea_blanca_170919',
+		   'name':'Línea Blanca hasta 44% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		   'id':'bebes_niños_090919',
-		   'name':'Bebés y Niños hasta 15% de descu',
+		   'id':'cocina_170919',
+		   'name':'Cocina hasta 37% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
- 		   'id':'zapatos_090919',
-		   'name':'Zapatos hasta 15% de descu',
+ 		   'id':'west_170919',
+		   'name':'West Elm hasta 20% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'4'
 			},
-				   {
-		 'id':'muebles_090919', 
-		   'name':'Muebles hasta 50% de descu',
+                {
+		 'id':'moda_el_180919', 
+		   'name':'Moda Interior Él hasta 30% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'5'
 			},
             {
-		 'id':'linea_blanca_090919',
-		   'name':'Línea Blanca hasta 44% de descu',
+		 'id':'moda_ella_180919',
+		   'name':'Moda Interior Ella hasta 30% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'6'
 			},
-                  {
-		 'id':'cocina_090919',
-		   'name':'Cocina hasta 37% de descu',
-		   'creative':'h_banner_secuun',
+				   {
+		 'id':'ae_170919', 
+		   'name':'American Eagle hasta 30% de descu',
+		   'creative':'h_banner_secun',
 		   'position':'7'
 			},
             {
-		  'id':'celulares_090919',
-		   'name':'Celulares hasta 13 Meses Sin Intereses',
+		 'id':'gap_170919',
+		   'name':'GAP hasta 25% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'8'
 			},
-           {
-		   'id':'iphone_090919',
-		   'name':'Lanzamiento iPhone',
-		   'creative':'h_banner_secun',
+                  {
+		 'id':'relojes_170919',
+		   'name':'Relojes hasta 20% de descu',
+		   'creative':'h_banner_secuun',
 		   'position':'9'
+			},
+            {
+		  'id':'deportes_170919',
+		   'name':'Deportes hasta 20% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'10'
+			},
+           {
+		   'id':'videojuegos_170919',
+		   'name':'Videojuegos hasta 15% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'11'
 			},
             
 			 {
-            'id':'pantallas_090919',
-		    'name':'Pantallas hasta 25% de descu',
+            'id':'computo_170919',
+		    'name':'Cómputo hasta 20% de descu',
             'creative':'h_banner_secun',
-            'position':'10'
+            'position':'12'
 			 },
              {
-		   'id':'viajes_090919',
-		   'name':'Viajes hasta 65% de desc',
-           'creative':'h_banner_secun',
-           'position':'11'
-			 },
-            {
-           'id':'diseñadores_mexicanos_090919',
-		   'name':'Diseñadores Mexicanos',
-		   'creative':'h_banner_secun',
-		   'position':'12'
-			 },
-            {
-		   'id':'pandora_090919',
-		   'name':'PANDORA',
+		   'id':'celulares_170919',
+		   'name':'Celulares hasta 13 Meses Sin Intereses',
            'creative':'h_banner_secun',
            'position':'13'
-			 },
-            {
-		   'id':'deportes_090919',
-		   'name':'Deportes hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'14'
 			 }
                         ]
                     }
