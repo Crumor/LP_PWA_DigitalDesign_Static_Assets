@@ -3681,10 +3681,10 @@ dataLayer.push({
     'position': '01'
 },
 {
-    'id': 'lluvia_210619',
-    'name': 'Disney Lluvia',
-    'creative': 'blp_disney_lluvia',
-    'position': '02'
+        'id': 'pijama_210619',
+        'name': 'Disney Pijama',
+        'creative': 'blp_disney_pijama',
+        'position': '02'
 },
 {
     'id': 'playeras_210619',
