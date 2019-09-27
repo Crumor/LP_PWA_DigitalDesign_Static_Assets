@@ -43,86 +43,86 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                         'promotions': [// Array of promoFieldObjects.
                            
 							{
-		    'id':'computacion_230919',
-		   'name':'Computación hasta 15% de desc',
+		    'id':'celulares_270919',
+		   'name':'Celulares hasta 20% de desc',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
 				 {
-			'id':'moda_ella_230919',
-		   'name':'Moda Interior Ella hasta 30% de descu',
+			'id':'linea_blanca_270919',
+		   'name':'Línea Blanca hasta 30% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'2'
 			 },
                  {
-		   'id':'moda_el_230919',
-		   'name':'Moda Interior Él hasta 30% de descu',
+		   'id':'electricos_270919',
+		   'name':'Eléctricos hasta 30% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'3'
 			},
                  {
- 		   'id':'adidas_230919',
-		   'name':'Adidas hasta 25% de descu',
+ 		   'id':'pantallas_270919',
+		   'name':'Pantallas hasta 43% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'4'
 			},
                 {
-		 'id':'ae_180919', 
-		   'name':'American Eagle hasta 30% de descu',
+		 'id':'computo_270919', 
+		   'name':'Cómputo hasta 15% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'5'
 			},
             {
-		 'id':'bebes_180919',
-		   'name':'Bebés hasta 25% de descu',
+		 'id':'sonido_270919',
+		   'name':'Sonido hasta 30% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'6'
 			},
 				   {
-		 'id':'muebles_jardin_230919', 
-		   'name':'Muebles Jardín hasta 40% de descu',
+		 'id':'colchones_270919', 
+		   'name':'Colchones hasta 40% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'7'
 			},
             {
-		 'id':'blancos_230919',
+		 'id':'blancos_270919',
 		   'name':'Blancos hasta 40% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'8'
 			},
                   {
-		 'id':'colchones_230919',
-		   'name':'Colchones hasta 36% de descu',
+		 'id':'muebles_270919',
+		   'name':'Muebles hasta 40% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'9'
 			},
             {
-		  'id':'electricos_230919',
-		   'name':'Eléctricos hasta 30% de descu',
+		  'id':'relojes_270919',
+		   'name':'Relojes hasta 50% de descu',
 		   'creative':'h_banner_secuun',
 		   'position':'10'
 			},
            {
-		   'id':'sonido_230919',
-		   'name':'Sonido hasta 30% de descu',
+		   'id':'bolsas_270919',
+		   'name':'Bolsas hasta 30% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'11'
 			},
             
 			 {
-            'id':'pantallas_230919',
-		    'name':'Pantallas hasta 43% de descu',
+            'id':'zapatos_270919',
+		    'name':'Zapatos hasta 30% de descu',
             'creative':'h_banner_secun',
             'position':'12'
 			 },
              {
-		   'id':'celulares_230919',
-		   'name':'Celulares hasta 13 Meses Sin Intereses',
+		   'id':'bebes_niños_270919',
+		   'name':'Bebés y Niños hasta 30% de descu',
            'creative':'h_banner_secun',
            'position':'13'
 			 },{
-		   'id':'videojuegos_230919',
-		   'name':'Videojuegos hasta 15% de descu',
+		   'id':'deportes_270919',
+		   'name':'Deportes hasta 30% de descu',
            'creative':'h_banner_secun',
            'position':'14'
 			 }
