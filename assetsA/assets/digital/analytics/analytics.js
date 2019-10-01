@@ -210,7 +210,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
            'position':'13'
 			 },{
 		   'id':'deportes_041019',
-		   'name':'Deportes hasta 25% de descu',
+		   'name':'Deportes hasta 30% de descu',
            'creative':'h_banner_secun',
            'position':'14'
 			 }             
