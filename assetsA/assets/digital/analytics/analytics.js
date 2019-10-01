@@ -118,7 +118,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 			 },           
              {
             'id':'juguetes_011019',
-		    'name':'Juguetes hasta 25% de desc',
+		    'name':'Juguetes hasta 20% de desc',
 		    'creative':'h_banner_secun',
 		    'position':'12'
 			 },
