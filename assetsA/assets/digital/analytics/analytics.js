@@ -118,7 +118,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 			 },           
              {
             'id':'juguetes_011019',
-		    'name':'Juguetes hasta 25% de desc',
+		    'name':'Juguetes hasta 20% de desc',
 		    'creative':'h_banner_secun',
 		    'position':'12'
 			 },
@@ -130,7 +130,90 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
             'position':'13'
 			 }	
                             
-                            
+               ,{
+		    'id':'linea_blanca_041019',
+		   'name':'Línea Blanca hasta 47% de descu',
+		   'creative':'h_banner_central',
+		   'position':'1'
+			 },
+				 {
+			'id':'muebles_041019',
+		   'name':'Muebles hasta 50% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'2'
+			 },
+                 {
+		   'id':'colchones_041019',
+		   'name':'Colchones hasta 43% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'3'
+			},
+                 {
+ 		   'id':'blancos_041019',
+		   'name':'Blancos hasta 35% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'4'
+			},
+                {
+		 'id':'cocina_041019', 
+		   'name':'Cocina hasta 37% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'5'
+			},
+            {
+		 'id':'pantallas_041019',
+		   'name':'Pantallas hasta 58% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'6'
+			},
+				   {
+		 'id':'celulares_041019', 
+		   'name':'Celulares hasta 24 msi',
+		   'creative':'h_banner_secun',
+		   'position':'7'
+			},
+            {
+		 'id':'computadoras_041019',
+		   'name':'Computadoras hasta 20% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'8'
+			},
+                  {
+		 'id':'zapatos_041019',
+		   'name':'Zapatos hasta 25% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'9'
+			},
+            {
+		  'id':'el_041019',
+		   'name':'Él hasta 30% de descu',
+		   'creative':'h_banner_secuun',
+		   'position':'10'
+			},
+           {
+		   'id':'ella_041019',
+		   'name':'Ella hasta 30% de descu',
+		   'creative':'h_banner_secun',
+		   'position':'11'
+			},
+            
+			 {
+            'id':'bebes_041019',
+		    'name':'Bebés hasta 30% de descu',
+            'creative':'h_banner_secun',
+            'position':'12'
+			 },
+             {
+		   'id':'juguetes_041019',
+		   'name':'Juguetes hasta 25% de descu',
+           'creative':'h_banner_secun',
+           'position':'13'
+			 },{
+		   'id':'deportes_041019',
+		   'name':'Deportes hasta 30% de descu',
+           'creative':'h_banner_secun',
+           'position':'14'
+			 }             
                             
                             
                         ]
