@@ -1,0 +1,1076 @@
+.header-contain-left {
+  padding-left: 0 !important;
+}
+.header-contain-right {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.header-contain-right i {
+  font-size: 45px;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+#liverpoolLogo {
+  height: 45px;
+  padding-top: 5%;
+}
+a {
+  color: inherit;
+}
+ahover {
+  text-decoration: none;
+}
+body {
+  font-family: 'robotoRegular';
+}
+.giftBackground,
+.grayBackground {
+  background: #fff;
+}
+.giftBreadcrumbs {
+  padding-left: 20px;
+}
+.giftBreadcrumbs ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.giftBreadcrumbs ul li:last-of-type i {
+  display: none;
+}
+.giftBreadcrumbs ul li a {
+  color: #666;
+  display: inline-block;
+  font-size: 11px;
+  padding-top: 21px;
+  vertical-align: middle;
+}
+.giftBreadcrumbs ul li a:hover,
+.giftBreadcrumbs ul li a.current {
+  color: #e10098;
+}
+.giftBreadcrumbs ul li i {
+  display: inline-block;
+  padding: 21px 21px 0;
+  vertical-align: middle;
+}
+.contentBox {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+.alertCustom,
+.warning {
+  background-color: #fff;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  float: left;
+  border: solid 1px #ffc446;
+  color: #ffc446;
+}
+.alertCustom .icon,
+.warning .icon {
+  position: relative;
+  float: left;
+  width: auto;
+  height: auto;
+  background-color: #ffc446;
+}
+.alertCustom .icon i,
+.warning .icon i {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+}
+.alertCustom .message,
+.warning .message {
+  position: relative;
+  float: left;
+  line-height: 40px;
+  left: 1%;
+}
+.alertCustom i,
+.warning i {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.warningMessage {
+  border: 1px solid #e2a725;
+  color: #e2a725;
+  margin-bottom: 20px;
+}
+.warningMessage div {
+  display: inline-block;
+  vertical-align: top;
+}
+.warningMessage div:first-of-type {
+  background: #e2a725;
+  height: 40px;
+  position: relative;
+  width: 52px;
+}
+.warningMessage div:first-of-type img {
+  display: block;
+  height: 20px;
+  left: 15px;
+  position: absolute;
+  margin: -11px -10px 0 0;
+  top: 50%;
+  width: 24px;
+}
+.warningMessage div:last-of-type {
+  height: 40px;
+  position: relative;
+}
+.warningMessage div:last-of-type a {
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  margin: -8px 0 0 15px;
+  position: absolute;
+  top: 50%;
+  width: 15px;
+}
+.warningMessage div:last-of-type img {
+  width: 100%;
+}
+.warningMessage div:nth-child(2) {
+  max-width: 600px;
+  width: 85%;
+}
+.warningMessage div p {
+  font-size: 15px;
+  margin: 0 0 0 25px;
+  padding-top: 10px;
+}
+.inputBlock {
+  margin-top: 15px;
+  position: relative;
+}
+.inputBlock .labelInput,
+.inputBlock .labelSelect {
+  color: #b3b3b3;
+  font-size: 15px;
+  left: 0px;
+  padding: 10px 0 10px 13px;
+  position: absolute;
+  margin: 0;
+  top: 0px;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+.inputBlock .labelInput span,
+.inputBlock .labelSelect span {
+  color: #f00;
+  margin-right: -3px;
+}
+.inputBlock .labelInput.inputActive,
+.inputBlock .labelSelect.inputActive {
+  font-size: 10px;
+  padding: 5px 0 0 13px;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: auto;
+}
+.inputBlock .labelSelect {
+  left: 10px;
+  padding: 0;
+  top: 9px;
+  width: auto;
+}
+.inputBlock .mobileInput,
+.inputBlock .mobileSelect {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  color: #3b3b3e;
+  font-size: 15px;
+  height: 40px;
+  padding: 15px 0 0 13px;
+  width: 100%;
+}
+.inputBlock .mobileSelect {
+  color: #b3b3b3;
+  padding: 8px 0 10px 13px;
+}
+.inputBlock .mobileSelect option,
+.inputBlock .mobileSelect.selectedValue {
+  color: #3b3b3e;
+}
+.inputBlock .mobileCheckbox {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  position: relative;
+  float: left;
+  border: solid 1px;
+}
+.inputBlock .mobileCheckbox input[type=checkbox] {
+  visibility: hidden;
+}
+.inputBlock .mobileCheckbox label {
+  cursor: pointer;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 1px;
+  top: 1px;
+}
+.inputBlock .mobileCheckbox label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border: solid 1px;
+}
+.inputBlock .mobileCheckbox input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+#correo{
+  text-transform: lowercase;
+}
+.selectTable select {
+  color: #ccc;
+  margin-top: 15px;
+  -webkit-appearance: inherit;
+}
+.selectTable i {
+  margin-top: -23px;
+  position: absolute;
+  right: 50px;
+}
+.selectTable .checkLabel {
+  position: relative;
+  float: left;
+  margin-left: 5px;
+  color: #999;
+  line-height: 14px;
+}
+.selectTable .iconImage {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  float: left;
+}
+.mobileButton,
+.blackMobileButton,
+.grayMobileButton,
+.pinkMobileButton,
+.whiteMobileButton {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border: 1px solid transparent;
+  color: #fff;
+  display: block;
+  height: 45px;
+  margin: 0 auto;
+  max-width: 375px;
+}
+.mobileButton span,
+.blackMobileButton span,
+.grayMobileButton span,
+.pinkMobileButton span,
+.whiteMobileButton span {
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  display: block;
+  line-height: 1.1;
+  padding: 12px 0;
+  text-align: center;
+}
+.mobileButton:hover,
+.blackMobileButton:hover,
+.grayMobileButton:hover,
+.pinkMobileButton:hover,
+.whiteMobileButton:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.mobileButton span,
+.blackMobileButton span,
+.grayMobileButton span,
+.pinkMobileButton span,
+.whiteMobileButton span {
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  display: block;
+  line-height: 1.1;
+  padding: 12px 0;
+  text-align: center;
+}
+#containMailAllow {
+  visibility: hidden;
+}
+#containMailAllow i {
+  margin-top: -7px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+}
+#containMailAllow i.moveLeft {
+  left: 15px;
+  right: auto;
+}
+.blackMobileButton {
+  background: #3b3b3e;
+  margin: 15px auto;
+}
+.grayMobileButton {
+  background: #969696;
+  margin: 15px auto;
+}
+.pinkMobileButton {
+  background: #e10098;
+  margin: 15px auto;
+}
+.pinkMobileButton span {
+  font-size: 18px;
+  padding: 10px;
+}
+.whiteMobileButton {
+  border: 1px solid #b3b3b3;
+  color: #000;
+}
+.whiteMobileButton:hover {
+  color: #000;
+}
+a.helpIcon {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  vertical-align: middle;
+}
+a.helpIcon img {
+  height: 25px;
+  width: 25px;
+}
+.labelStyle1 {
+  color: #f00;
+}
+.btnWhiteBlack,
+.btnWhitePink {
+  background: #fff;
+  border: 1px solid;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+}
+.btnWhiteBlack:hover,
+.btnWhitePink:hover,
+.btnWhiteBlack:focus,
+.btnWhitePink:focus {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.btnWhitePink {
+  border: 1px solid #e10098;
+  color: #e10098;
+  font-size: 15px;
+}
+.btnWhitePink:hover,
+.btnWhitePink:focus {
+  color: #e10098;
+  text-decoration: none !important;
+}
+.btnCarrouselPink {
+  background: #e10098;
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  padding: 8px 0;
+  margin-top: 16px;
+  text-align: center;
+}
+.btnCarrouselPink:hover {
+  color: #fff;
+}
+.customRadio {
+  background: #fff;
+  position: relative;
+  float: left;
+  width: 26px;
+  height: 26px;
+}
+.customRadio input[type=radio] {
+  visibility: hidden;
+}
+.customRadio label {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  background: transparent;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.customRadio label:before {
+  opacity: 1;
+  content: '';
+  left: -3px;
+  top: -3px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  border: solid 1px #ccc;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.customRadio label:after {
+  opacity: 0;
+  content: '';
+  left: -3px;
+  top: -3px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  border: solid 1px #e10098;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.customRadio input[type=radio]:checked + label {
+  background: #e10098;
+}
+.customRadio input[type=radio]:checked + label:after {
+  opacity: 1;
+}
+.customRadio input[type=radio]:checked + label:before {
+  opacity: 1;
+}
+.materialStyle {
+  position: relative;
+  margin-bottom: 20px;
+}
+.materialStyle label i {
+  color: #f00;
+}
+/* 9872 */
+input.inputMaterial {
+  border: 1px solid #999;
+  font-size: 18px;
+  padding: 12px 0 0 5px;
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+}
+input.inputMaterial:focus {
+  outline: none;
+}
+label.placeHolderMaterial {
+  color: #999;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  -moz-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+input.inputMaterial:focus ~ label.placeHolderMaterial,
+input.inputMaterial:valid ~ label.placeHolderMaterial {
+  top: 1px;
+  font-size: 10px;
+  color: #e10098;
+}
+@media screen and (min-width: 768px) {
+  .giftBackground {
+    background: url("/assetso/web/images/step2Background.png") repeat;
+  }
+  .grayBackground {
+    background: #f2f2f2;
+  }
+  .contentBox {
+    background: #fff;
+    -moz-box-shadow: 0px 0px 2px #ccc;
+         box-shadow: 0px 0px 2px #ccc;
+    display: block;
+    margin: 50px auto;
+    padding: 0 50px;
+    max-width: 1600px;
+    width: 80%;
+  }
+  .contentBox .mobileButton {
+    max-width: none;
+  }
+}
+.alertCustom,
+.warning {
+  background-color: #fff;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  float: left;
+  border: solid 1px #ffc446;
+  color: #ffc446;
+}
+.alertCustom .icon,
+.warning .icon {
+  position: relative;
+  float: left;
+  width: auto;
+  height: auto;
+  background-color: #ffc446;
+}
+.alertCustom .icon i,
+.warning .icon i {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+}
+.alertCustom .message,
+.warning .message {
+  position: relative;
+  float: left;
+  line-height: 40px;
+  left: 1%;
+}
+.alertCustom i,
+.warning i {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.warning {
+  max-width: none;
+}
+.warning a.helpIcon {
+  display: inline-block;
+  margin: 0 0 5px 10px;
+}
+.warning .mobileInput.shortInput {
+  width: 60%;
+}
+@media screen and (min-width: 1300px) {
+  .contentBox {
+    padding: 0 30px;
+    max-width: none;
+  }
+}
+.checkStar {
+  display: none;
+}
+.checkStar + label {
+  cursor: pointer;
+  display: block;
+  font-weight: normal !important;
+  margin-bottom: 0%;
+}
+.checkStar + label:before {
+  font-family: FontAwesome;
+  content: "\f006";
+}
+.checkStar:checked + label:before {
+  content: "\f005";
+  color: #faf71b;
+}
+.checkSquare {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  position: relative;
+  float: left;
+  border: solid 1px;
+}
+.checkSquare input[type=checkbox] {
+  visibility: hidden;
+}
+.checkSquare label {
+  cursor: pointer;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0px;
+  top: 1px;
+}
+.checkSquare label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border: solid 1px;
+  left: 1px;
+}
+.checkSquare input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+.pl-1 {
+  padding-left: 1%;
+}
+.pr-1 {
+  padding-right: 1%;
+}
+.mt-2 {
+  margin-top: 2%;
+}
+.mr-4 {
+  margin-right: 4px;
+}
+.n-pl {
+  padding-left: 0px !important;
+}
+.n-pr {
+  padding-right: 0px !important;
+}
+.modal .modal-dialog {
+  height: 100%;
+}
+.modal .col-xs-12 {
+  padding: 0 15px !important;
+}
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+h2.registerGiftTitle,
+h2.registerGiftSubTitle {
+  font-family: 'robotoCondensed';
+  font-size: 23px;
+  line-height: 1.21;
+  margin: 37px 0 0;
+}
+h2.registerGiftSubTitle {
+  margin: 0 0 18px 0;
+}
+p.registerGiftText {
+  color: #666;
+  font-family: 'robotoCondensed';
+  font-size: 14px;
+  line-height: 1.79;
+  margin-bottom: 40px;
+}
+hr.registerGiftLine {
+  border-bottom: 1px dashed #d8d8d8;
+  border-top: none;
+  margin-top: 32px;
+}
+hr.registerGiftLineSolid {
+  border-bottom: 1px solid #d8d8d8;
+  border-top: none;
+  margin: 25px 0;
+}
+.eventName {
+  margin-top: 20px;
+}
+.selectStore .cSelect:last-of-type {
+  display: none;
+}
+.addressList a.helpIcon {
+  float: right;
+  margin: 0;
+}
+.addressList form > p {
+  color: #f00;
+  font-size: 13px;
+  text-align: right;
+}
+.addressList form > h2 {
+  color: #666;
+  font-size: 18px;
+  line-height: 2.33;
+  margin: 10px 0 0 0;
+}
+.addressList form > h2 span {
+  color: #000;
+}
+.addressList .addressDetail {
+  position: relative;
+}
+.addressList .addressDetail h3 {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 0;
+}
+.addressList .addressDetail p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.addressList .addressDetail .addressSummary {
+  margin-top: 10px;
+}
+.addressList .addressDetail .addressSummary > div {
+  display: inline-block;
+  vertical-align: top;
+}
+.addressList .addressDetail .addressSummary > div:first-of-type {
+  width: 9%;
+}
+.addressList .addressDetail .addressSummary > div:last-of-type {
+  width: 88%;
+}
+.addressList .addressDetail .addressSummary .multipleAddress .inputBlock {
+  margin-top: 5px;
+}
+.addressList .addressDetail .addressAsigned {
+  margin: 10px 0 30px;
+}
+.addressList .addressDetail .addressAsigned .headers p {
+  color: #000;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.addressList .addressDetail .addressAsigned .inputBlock {
+  margin: 10px 0 17px;
+}
+.addressList .addressDetail .addressAsigned .btnSecondarySpecial {
+  font-size: 18px;
+  border: 1px solid #000;
+}
+.addressList .addressDetail .disableBlock {
+  background: rgba(255,255,255,0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.addressList#multiple .addressAsigned {
+  display: none;
+}
+.addressList#multiple .addressAsigned > div {
+  margin: 0 auto;
+  max-width: 375px;
+}
+.addressList#multiple .addressAsigned.visible {
+  display: block;
+}
+.addressList#multiple .addressAsigned.visible select.error {
+  border: 1px solid #f00;
+}
+.addressList#multiple .addressAsigned.visible select.error + i {
+  border: 1px solid #f00;
+  border-bottom: none;
+  border-left: none;
+}
+.addressList#multiple .addressAsigned.visible span.error {
+  color: #f00;
+  display: block;
+  margin: -15px 0 20px;
+}
+.addressList#one .addressDetail {
+  margin-bottom: 20px;
+}
+.addressList#one .addressAsigned > div {
+  margin: 0 auto;
+  max-width: 375px;
+}
+#newAddress .cSelect select {
+  color: #999;
+}
+#newAddress .legal {
+  font-size: 14px;
+}
+#newAddress .legal a {
+  color: #e10098;
+}
+.buttonBlock {
+  padding-bottom: 10px;
+}
+.buttonBlock button {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.formBlock h2.formBlockTitle {
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 0 5px;
+  vertical-align: middle;
+}
+.formBlock h3 {
+  color: #666;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+.requiredInput {
+  color: #f00;
+  text-align: right;
+}
+#multipleAddress .floatRightButton {
+  float: none;
+}
+#multipleAddress .buttonBlock {
+  margin-top: 10px;
+}
+#multipleAddress .btnSecondarySpecial {
+  font-size: 18px;
+}
+#noAddress .btnSecondarySpecial {
+  font-size: 18px;
+}
+.alertError,
+.alertWarning {
+  margin-bottom: 20px;
+}
+.alertError i.icon-alerta_amarilla,
+.alertWarning i.icon-alerta_amarilla {
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 8px;
+}
+.alertError i.icon-tache2,
+.alertWarning i.icon-tache2 {
+  padding: 8px;
+  margin-top: 10px;
+}
+.alertError a.icon-tache2,
+.alertWarning a.icon-tache2 {
+  font-size: 7px;
+  padding: 5px;
+}
+.maxEvents h1 {
+  font-family: 'robotoCondensed';
+  font-size: 28px;
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.maxEvents p {
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+.maxEvents .cSelect {
+  margin: 40px 0 20px;
+}
+.maxEvents .cSelect select {
+  font-size: 18px;
+}
+.alertRequired {
+  color: #f00;
+  text-align: right;
+}
+@media screen and (min-width: 768px) {
+  .addressList .formBlock h2.formBlockTitle {
+    margin-bottom: 0;
+  }
+  .addressList .addressDetail .addressSummary > div:first-of-type {
+    width: 15%;
+  }
+  .addressList .addressDetail .addressSummary > div:last-of-type {
+    width: 82%;
+  }
+  .inputBlock {
+    margin: 0 0 15px 0;
+  }
+  #multipleAddress .floatRightButton {
+    float: right !important;
+    padding-top: 0 !important;
+    width: 45% !important;
+  }
+  #multipleAddress #multiple h2,
+  #multipleAddress #one h2,
+  #multipleAddress #multiple .addressDetail .addressSummary,
+  #multipleAddress #one .addressDetail .addressSummary {
+    display: inline-block;
+    margin-bottom: 35px;
+    max-width: 300px;
+    vertical-align: top;
+    width: 38%;
+  }
+  #multipleAddress #multiple h2 h3,
+  #multipleAddress #one h2 h3,
+  #multipleAddress #multiple .addressDetail .addressSummary h3,
+  #multipleAddress #one .addressDetail .addressSummary h3 {
+    font-size: 15px;
+  }
+  #multipleAddress #multiple h2 p,
+  #multipleAddress #one h2 p,
+  #multipleAddress #multiple .addressDetail .addressSummary p,
+  #multipleAddress #one .addressDetail .addressSummary p {
+    font-size: 13px;
+  }
+  #multipleAddress #multiple h2,
+  #multipleAddress #one h2 {
+    font-size: 17px;
+    width: 100%;
+  }
+  #multipleAddress #multiple .addressDetail .addressAsigned,
+  #multipleAddress #one .addressDetail .addressAsigned {
+    margin-bottom: 0px;
+    vertical-align: top;
+    width: 61%;
+  }
+  #multipleAddress #multiple .addressAsigned > div,
+  #multipleAddress #one .addressAsigned > div {
+    display: inline-block;
+    margin-left: 3%;
+    vertical-align: bottom;
+    width: 62%;
+  }
+  #multipleAddress #multiple .addressAsigned > div:last-of-type,
+  #multipleAddress #one .addressAsigned > div:last-of-type {
+    width: 30%;
+  }
+  #multipleAddress #multiple .addressAsigned > div .headers p,
+  #multipleAddress #one .addressAsigned > div .headers p {
+    font-size: 12px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .mobileSelect,
+  #multipleAddress #one .addressAsigned > div .mobileSelect {
+    font-size: 13px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .btnSecondarySpecial,
+  #multipleAddress #one .addressAsigned > div .btnSecondarySpecial {
+    height: auto;
+    max-width: 200px;
+    width: 100%;
+  }
+  #multipleAddress #multiple .addressAsigned > div .btnSecondarySpecial span,
+  #multipleAddress #one .addressAsigned > div .btnSecondarySpecial span {
+    font-size: 13px;
+  }
+  #multipleAddress #multiple .addressAsigned.visible,
+  #multipleAddress #one .addressAsigned.visible {
+    display: inline-block;
+  }
+  #multipleAddress #multiple .addressAsigned a.helpIcon img,
+  #multipleAddress #one .addressAsigned a.helpIcon img {
+    height: 15px;
+    width: 15px;
+  }
+  #newAddress .buttonBlock {
+    margin-top: 10px;
+  }
+  #newAddress .formBlock h2.formBlockTitle {
+    margin-top: 0;
+  }
+  #newAddress .requiredInput {
+    margin: 0 0 -10px 0;
+  }
+  #noAddress .buttonBlock {
+    margin-top: 50px;
+  }
+  #noAddress hr.registerGiftLine,
+  #multipleAddress hr.registerGiftLine,
+  #newAddress hr.registerGiftLine,
+  #noAddress hr.registerGiftLineSolid,
+  #multipleAddress hr.registerGiftLineSolid,
+  #newAddress hr.registerGiftLineSolid {
+    clear: both;
+  }
+  #noAddress .buttonBlock,
+  #multipleAddress .buttonBlock,
+  #newAddress .buttonBlock {
+    overflow: hidden;
+  }
+  #noAddress .registerTitles,
+  #multipleAddress .registerTitles,
+  #newAddress .registerTitles {
+    text-align: center;
+  }
+  #noAddress .registerTitles h2,
+  #multipleAddress .registerTitles h2,
+  #newAddress .registerTitles h2 {
+    display: inline-block;
+  }
+  #noAddress .btnSecondarySpecial,
+  #multipleAddress .btnSecondarySpecial,
+  #newAddress .btnSecondarySpecial {
+    float: right;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+}
+.addressAsigned .headers{
+  margin-bottom: 10px;
+}
+input#country{
+  padding:7px 0 5px 10px;
+}
+label[for=country]{
+  font-size:16px;
+  margin-top: 10px;
+}
+label[for=country] span{
+  color: #f00!important;
+}
+
+@media screen and (min-width: 1200px) {
+  #multipleAddress .buttonBlock {
+    margin-top: 25px;
+  }
+  #multipleAddress .floatRightButton {
+    width: 30% !important;
+  }
+  #multipleAddress #multiple .addressAsigned > div,
+  #multipleAddress #one .addressAsigned > div {
+    max-width: 250px;
+  }
+  #multipleAddress #multiple .addressAsigned > div:last-of-type,
+  #multipleAddress #one .addressAsigned > div:last-of-type {
+    float: right;
+    padding-top: 35px;
+    width: 150px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .headers p,
+  #multipleAddress #one .addressAsigned > div .headers p {
+    font-size: 15px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .inputBlock,
+  #multipleAddress #one .addressAsigned > div .inputBlock,
+  #multipleAddress #multiple .addressAsigned > div .btnSecondarySpecial,
+  #multipleAddress #one .addressAsigned > div .btnSecondarySpecial {
+    margin-bottom: 0;
+  }
+  #multipleAddress #multiple .addressAsigned > div .mobileSelect,
+  #multipleAddress #one .addressAsigned > div .mobileSelect {
+    font-size: 15px;
+  }
+  #multipleAddress #multiple .addressAsigned a.helpIcon img,
+  #multipleAddress #one .addressAsigned a.helpIcon img {
+    height: 20px;
+    width: 20px;
+  }
+  #multipleAddress .buttonBlock {
+    margin: 80px 0 50px;
+  }
+}
+
+/* Tooltip liststyle issue in Step 1 */
+.moreOptions .popover-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  list-style-position: inside;
+  text-indent: -20px;
+}
+/*9502*/
+#giftRegistry .mainContainer #giftRegisgryForm h2.articleName,
+#giftRegistry .mainContainer #giftRegisgryForm h2.subtitleModule {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+/*9296*/
+#giftRegisgryForm .col-xs-12 > div > .row {
+    margin-left: 0px
+}

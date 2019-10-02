@@ -1,0 +1,106 @@
+.p-t-40 {
+  padding-top: 40px;
+}
+.p-t-20 {
+  padding-top: 20px;
+}
+.p-b-20 {
+  padding-bottom: 20px;
+}
+.p-l-0 {
+  padding-left: 0px;
+}
+.p-r-0 {
+  padding-right: 0px;
+}
+.m-t-40 {
+  margin-top: 40px;
+}
+.customSelect {
+  height: 70px;
+}
+.btnSelect {
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+  border: 1px solid #d8d8d8;
+  font-family: robotoRegular;
+  font-size: 15px;
+  width: 100%;
+  height: 70px;
+}
+.btnSelect .iconRight {
+  margin: 2px 5px 0 0;
+  float: right;
+  color: #000;
+  font-weight: bold;
+}
+.banner img {
+  max-width: 100%;
+}
+.modal-header .modalClose p {
+  font-family: 'robotoRegular';
+  display: inline-block;
+  font-size: 15px;
+  color: #000;
+  margin-right: 4px;
+  float: right;
+}
+.modal-header .modalTitle {
+  font-size: 18px;
+  color: #666;
+}
+.modal-header .customClose {
+  margin-top: 1px;
+}
+.modalListCheck {
+  list-style: none;
+}
+.customModalHeader {
+  padding: 15px 0px;
+}
+.nameDrink,
+.totalDrink {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+.totalDrink {
+  color: #fe0000;
+  text-align: right;
+}
+.informationHead {
+  padding-top: 10px;
+  border-bottom: solid 1px #ebebeb;
+  border-top: solid 1px #ebebeb;
+}
+.informationHead .cant,
+.informationHead .descript {
+  color: #666;
+  text-align: center;
+}
+.informationHead .cant {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.informationHead .descript {
+  font-size: 12px;
+}
+.bodyHead {
+  border-bottom: solid 1px #ebebeb;
+  margin-bottom: 5px;
+}
+.footerWineCalulator {
+  border-top: solid 1px #ebebeb;
+  margin-bottom: 20px;
+}
+.download {
+  padding-left: 30px;
+  border-left: 1px solid #d8d8d8;
+  float: right;
+}
+.download a i {
+  font-size: 26px;
+}

@@ -1,0 +1,67 @@
+body {
+  background: #f7f3f0;
+}
+h2 {
+  font-size: 28px;
+  color: #3b3b3e;
+}
+h3 {
+  font-size: 24px;
+  color: #3b3b3e;
+}
+.innerMain {
+  margin: 0 auto 50px;
+  min-width: 768px;
+  width: 1200px;
+  max-width: 1600px;
+}
+.innerWrap {
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+.innerWrap .logoContentCelebration,
+.innerWrap .logoContentEvents {
+  background: url("/assetso/web/images/celebration.png");
+  -moz-background-size: cover;
+       background-size: cover;
+  display: block;
+  margin: 10px auto;
+  height: 240px;
+  width: 240px;
+}
+.innerWrap .logoContentEvents {
+  background: url("/assetso/web/images/events.png");
+  -moz-background-size: cover;
+       background-size: cover;
+}
+.innerWrap .logoContentCelebration:hover {
+  background: url("/assetso/web/images/celebrationActive.png");
+  -moz-background-size: cover;
+       background-size: cover;
+}
+.innerWrap .logoContentEvents:hover {
+  background: url("/assetso/web/images/eventsActive.png");
+  -moz-background-size: cover;
+       background-size: cover;
+}
+.welcomeMessage {
+  color: #737873;
+  text-align: left;
+  font-size: 19px;
+}
+.characteristics {
+  min-height: 90px;
+}
+.characteristics p {
+  margin: 0;
+}
+.listOfBenefits {
+  text-align: left;
+}
+.listOfBenefits ul {
+  list-style-image: url("/assetso/web/images/listicon.png");
+  margin-left: 24px;
+}
+.container.createEventAnimationRight .innerWrap .col-md-6:last-of-type .listOfBenefits {
+    margin-left:45px;
+}

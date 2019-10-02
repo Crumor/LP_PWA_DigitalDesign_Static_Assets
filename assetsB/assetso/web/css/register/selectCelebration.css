@@ -1,0 +1,133 @@
+body {
+	background: #f7f3f0;
+}
+body#contract {
+	background: #fff;
+}
+h2 {
+	font-size: 25px;
+	color: #3b3b3e;
+	margin: 0;
+}
+.selectOptions {
+	width: 450px !important;
+	display: inline-block;
+}
+h3 {
+	font-size: 20px;
+	color: #3b3b3e;
+	margin: 0;
+}
+.innerMain {
+	margin: 0 auto 50px;
+	min-width: 768px;
+	max-width: 1600px;
+}
+.innerMain .innerWrap .btnSecondaryAction.size-Large .iconLeft {
+	margin: 7px 0 0 10px;
+}
+.innerMain .innerWrap .btnPrimary.size-Large .iconRight {
+	margin: 7px 10px 0 0;
+}
+.innerWrap {
+	margin: 60px 0 0 0;
+	text-align: center;
+	overflow: hidden;
+}
+.innerWrap.contractWrapper {
+	margin-top: 0px;
+}
+.logoContent {
+	padding: 30px 0 30px 0;
+}
+.logoContent img {
+	width: 240px;
+}
+.innerOptions {
+	padding: 20px 0 20px 0;
+}
+.innerButtons {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0 0 0;
+	width: 60%;
+}
+.prevIconProperty {
+	font-size: 13px;
+	font-weight: 100;
+	margin-right: 20px;
+}
+.nextIconProperty {
+	font-size: 13px;
+	font-weight: 100;
+	margin-left: 20px;
+}
+.grayMobileButton {
+	width: 198px;
+	float: left;
+}
+.grayMobileButton span {
+	display: inline-block;
+}
+.pinkMobileButton {
+	width: 198px;
+	float: right;
+}
+.pinkMobileButton span {
+	display: inline-block;
+}
+.inputBlock {
+	width: 30%;
+	margin: 0 auto;
+}
+.inputBlock .labelSelect {
+	top: 0;
+}
+.typeEventWarning {
+	background: #fff;
+	padding: 9px;
+}
+.typeEventWarning-container {
+	width: 70%;
+	margin: 0 auto;
+}
+.typeEventWarning .icon-alerta_amarilla {
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px;
+	vertical-align: middle;
+	width: 30px;
+}
+.typeEventWarning p {
+	color: #e3a726;
+	display: inline-block;
+	font-size: 15px;
+	float: none;
+	height: 0;
+	padding: 5px 0 0 0;
+	margin: 0;
+	text-align: center;
+	vertical-align: top;
+	width: 85%;
+}
+@media screen and (max-width: 1500px) {
+	.typeEventWarning p {
+		font-size: 13px;
+	}
+}
+.typeEventWarning .icon-tache2 {
+	font-size: 5px;
+	height: auto;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	width: auto;
+	cursor: pointer;
+}
+.confirmAgeMessage {
+	display: none;
+	margin: -10px 0 40px;
+}
+button {
+	font-size: 18px;
+}

@@ -1,0 +1,202 @@
+body {
+	background: #81898b;
+}
+.sessionContainer {
+	display: none;
+	background-color: #fff;
+	width: 316px;
+	height: 188px;
+	padding: 15px;
+	position: absolute;
+	border: 1px solid #d8d8d8;
+	z-index: 10;
+	left: 100px;
+	top: 6px;
+	font-size: 12px;
+}
+.sessionContainer p {
+	margin: 0;
+}
+.sessionContainer p:nth-child(1) {
+	font-weight: bold;
+}
+.sessionContainer:before {
+	content: "";
+	position: absolute;
+	top: -moz-calc(100% - 6px) /*i.e. half the height*/;
+	top: calc(100% - 6px) /*i.e. half the height*/;
+	left: 131px;
+	height: 15px;
+	width: 15px;
+	background: #fff;
+	-moz-transform: rotate(45deg);
+			 transform: rotate(45deg);
+	border-bottom: inherit;
+	border-right: inherit;
+	-moz-box-shadow: inherit;
+			 box-shadow: inherit;
+}
+.sessionContainer i {
+	font-size: 6px;
+	color: #fff;
+	background: #000;
+	cursor: pointer;
+	padding: 6px;
+	-moz-border-radius: 100%;
+			 border-radius: 100%;
+	float: right;
+}
+.checkbox label {
+	color: #b3b3b3;
+	font-size: 14px;
+	line-height: normal;
+}
+.checkbox a {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin: 0 3px 0 10px;
+	font-size: 12px;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: pointer;
+}
+.checkbox i {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	font-size: 10px;
+}
+.innerWrap {
+	background: #fff;
+	margin: 50px auto;
+	padding: 20px 100px 50px 100px;
+	min-width: 768px;
+	width: 1200px;
+	max-width: 1600px;
+}
+.fontBold {
+	font-weight: bold;
+}
+.forgotPassword {
+	cursor: pointer;
+	color: #e10098;
+	display: block;
+	margin: 10px 0 10px 0;
+	text-align: left;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.textToRight {
+	text-align: right;
+	padding: 0;
+}
+.genderWrap {
+	margin-top: 10px;
+	overflow: hidden;
+}
+.termCondition {
+	font-size: 11px;
+	text-align: left;
+	margin: 40px 0 10px 20px;
+}
+.linkTermCondition {
+	color: #e10098;
+	cursor: pointer;
+}
+.linkTermCondition:hover {
+	text-decoration: none;
+	color: #e10098;
+}
+.accountButton {
+	width: 200px;
+	margin: 0;
+	float: right;
+}
+.alertRequired {
+	color: #f00;
+	text-align: right;
+}
+#sectionSesion form button {
+	max-width: 320px;
+}
+#sectionAccount h5 {
+	padding-left: 20px;
+}
+#sectionSesion form input,
+#sectionAccount form input {
+	padding-left: 15px;
+	max-width: 320px;
+}
+#sectionSesion form label,
+#sectionAccount form label {
+	left: 15px;
+}
+#sectionAccount .genderWrap,
+#sectionAccount #datetimepicker1 {
+	max-width: 320px;
+	width: 100%;
+}
+#sectionAccount .genderWrap .fontBold {
+	padding-left: 0;
+	margin-top: 10px;
+}
+#sectionSesion .details {
+	margin-left: 60px;
+}
+#sectionAccount {
+	max-width: 420px;
+}
+#sectionAccount button {
+	display: block;
+	max-width: 320px;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 100%;
+}
+#sectionAccount .formBlock,
+#sectionAccount .genderWrap,
+#sectionAccount .inputBlock {
+	padding-left: 20px;
+}
+.alertError {
+	padding: 0;
+	margin: 10px auto 25px;
+	width: 100%;
+}
+.alertError.passwordErrorMsg,
+.alertError.mailErrorMsg {
+	display: none;
+}
+.alertError.mailErrorMsg {
+	width: 100%;
+}
+.alertError i.icon-tache2 {
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0;
+	vertical-align: middle;
+	width: 40px;
+}
+.alertError p {
+	color: #f00;
+	display: inline-block;
+	font-size: 15px;
+	float: none;
+	padding: 10px 0 10px 20px;
+	margin: 0;
+	text-align: left;
+	vertical-align: top;
+	width: 87%;
+}
+.alertError a.icon-tache2 {
+	cursor: pointer;
+	font-size: 6px;
+	height: 15px;
+	margin: 10px 15px 0 0;
+	padding: 4px 0 0 0;
+	text-align: center;
+	width: 15px;
+}

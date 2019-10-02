@@ -1,0 +1,131 @@
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.cSelect {
+  position: relative;
+  width: 100%;
+  height: 41px;
+  border: solid 1px #999;
+  margin-bottom: 20px;
+}
+/*.cSelect.searchGift {
+  border: solid 1px #e10098;
+}*/
+.cSelect.searchGift select {
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: solid 1px #e10098;
+    background-color: #fff;
+    border-radius: 0;
+}
+.cSelect.searchGift select option {
+  font-size: 18px;
+}
+.cSelect.searchGift i,
+.cSelect.searchGift label {
+  color: #e10098;
+}
+.cSelect.filters > i,
+.cSelect.filters > label {
+  background: #d7d7d7 !important;
+  font-size: 14px;
+}
+.cSelect select {
+  font-size: 15px;
+  /* Change this because it should be grey. */
+  color: #999;
+  height: 40px;
+  width: 100%;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #999;
+  background-color: #fff;
+  border-radius: 0;
+}
+.cSelect select:focus {
+  outline: none;
+}
+.cSelect select option {
+  font-size: 15px;
+  /* color: #b3b3b3; it is not required. */
+}
+/* As it is required */
+.cSelect select option:not(:checked) { 
+  color: #3b3b3e;
+}
+.cSelect select option:disabled {
+  color: #e3e3e3;
+}
+.cSelect select option:focus {
+  outline: none;
+}
+.cSelect i {
+  pointer-events: none;
+  font-size: 14px !important;
+}
+.cSelect p {
+  font-size: 15px;
+  padding-left: 4px;
+  font-family: 'robotoRegular';
+  padding-top: 8px;
+}
+.cSelect ul {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  border: solid 1px #d7d7d7;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  display: none;
+  z-index: 9999;
+  font-family: 'robotoRegular';
+}
+.cSelect ul li {
+  font-size: 15px;
+  padding: 2px 0px 2px;
+  color: #81898b;
+  border-bottom: none;
+  font-family: 'robotoRegular';
+}
+.cSelect > i,
+.cSelect > label {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    background: #fff;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 0px 15px 5px;
+    color: #666;
+}
+.cSelect.required:before {
+  content: '*';
+  color: #f00;
+  font-size: 16px;
+  position: absolute;
+  top: 11px;
+  left: 5px;
+}

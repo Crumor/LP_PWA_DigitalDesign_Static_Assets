@@ -1,0 +1,133 @@
+@media print, screen {
+    .eventtoolspdf .container.wrapCLP {
+        padding: 0 10px !important;
+    }
+    .eventtoolspdf {
+        padding: 0 0 60px !important;
+    }
+    .eventtoolspdf .invitedListHeader {
+        margin-bottom: 0 !important;
+    }
+    .eventtoolspdf,
+    .eventtoolspdf .container {
+        background: #fff !important;
+        box-shadow: none !important;
+    }
+    .eventtoolspdf .container {
+        padding: 0 10px !important;
+    }
+    .eventtoolspdf .toPrint .row:nth-child(1),
+    .eventtoolspdf .toPrint .row:nth-child(2),
+    .eventtoolspdf .invitedListGroups .groups div:last-child,
+    .eventtoolspdf .invitedListGroups .groups a.subtitleModule i,
+    .eventtoolspdf .invitedListGroups .tables a.primaryColorLink {
+        display: none !important;
+    }
+    .eventtoolspdf .invitedListGroups .groups a.subtitleModule {
+        border-top: 1px solid #aaa !important;
+        border-bottom: none !important;
+        padding: 15px !important;
+    }
+    .eventtoolspdf .invitedListGroups .total,
+    .eventtoolspdf .invitedListGroups .tables {
+        margin-top: 0 !important;
+    }
+    .eventtoolspdf .invitedListGroups .tables {
+        padding: 10px !important;
+    }
+    .eventtoolspdf .invitedListGroups .groups {
+        margin-top: 0 !important;
+    }
+    .eventtoolspdf .invitedListGroups .tables, 
+    .eventtoolspdf .invitedListGroups .groups {
+      height: 50% !important;
+    }
+    .eventtoolspdf .invitedListGroups>div {
+        border: none !important;
+    }
+    .eventtoolspdf .invitedListGroups div.col-sm-3 {
+        border: 1px solid #aaa !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        height: auto;
+        min-height: 180px;
+    }
+    .eventtoolspdf .invitedListTable .checkbox,
+    .eventtoolspdf .invitedListTable i#changeIcon,
+    .eventtoolspdf .invitedListTable i.icon-caret_down,
+    .eventtoolspdf .invitedListTable i.icon-menu_puntos {
+        display: none !important;
+    }
+    
+    .eventtoolspdf .invitedListGroups .confirmed p.confirmedT,
+    .eventtoolspdf .invitedListGroups .confirmed p.pendingT,
+    .eventtoolspdf .invitedListGroups .confirmed p.notT {
+        padding-left: 10px;
+    }
+    .eventtoolspdf .invitedListGroups .total p.adults,
+    .eventtoolspdf .invitedListGroups .total p.baby,
+    .eventtoolspdf .invitedListGroups .total p.children,
+    .eventtoolspdf .invitedListGroups .total p.unknown {
+        padding-left: 10px;
+    }
+    .eventtoolspdf .cSelect select {
+        padding-left: 0!important;
+    }
+    .eventtoolspdf .invitedListTable table tbody tr { 
+        height:85px;
+    }
+    .eventtoolspdf .invitedListTable table .guest .guestInfo div {
+        margin-left: 20px;
+    }
+    .eventtoolspdf .invitedListTable table .guestStatus div,
+    .eventtoolspdf .invitedListTable table .invitationStatus {
+        text-align: left!important;
+    }
+    .eventtoolspdf .invitedListTable table td.invitationStatus {
+       border-right: 1px solid #ccc;
+    }
+    .eventtoolspdf .invitedListTable table thead th,
+    .eventtoolspdf .invitedListTable table tbody td {
+        padding: 10px 0px  10px 30px;
+        text-align: left!important;
+    }
+    .eventtoolspdf .invitedListTable table .invitationStatus .cSelect {
+        margin: 0!important;
+    }
+    .eventtoolspdf .invitedListTable table .guestStatus div p {
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .eventtoolspdf .col-sm-3 {
+        width:25%;
+        float: left;
+        /*display: inline-block;*/
+        position: relative;
+    }
+    .eventtoolspdf .col-sm-12 {
+        width: 100%;
+    }
+    
+    .eventtoolspdf .invitedListTable table .guest .checkbox, 
+    .eventtoolspdf .invitedListTable table .guest .guestInfo {
+        width: 100%
+    }
+    
+        #downloadContainer .toPrint .row .invitedListTable table {
+            border: none;
+        }
+        #downloadContainer .invitedListTable .cTable tr {
+            border-top: 1px solid #d6d6d6;
+            border-bottom: 1px solid #d6d6d6;
+            border-left: 1px solid #d6d6d6;
+            border-right: 1px solid #d6d6d6;
+        }
+        #downloadContainer .invitedListTable .cTable tr.dummyRow {
+            border-left: none;
+            border-right: none;
+        }
+        #downloadContainer .invitedListTable .cTable tr.dummyRow td {
+            border-left: none;
+            border-right: none;
+        } 
+    }

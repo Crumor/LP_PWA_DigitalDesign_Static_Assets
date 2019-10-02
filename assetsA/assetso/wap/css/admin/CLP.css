@@ -1,0 +1,97 @@
+div.containerCLP {
+  padding-left: 10px;
+}
+div.containerCLP ul {
+  list-style: none;
+  padding-left: 0;
+}
+div.containerCLP .subtitleModule {
+  display: inline-block;
+  margin-left: 2%;
+}
+div.containerCLP i.icon-descarga {
+  font-size: 1.5em;
+}
+div.containerCLP h2.suggestions {
+  font-family: 'robotoCondensed';
+  font-size: 28px;
+  line-height: 1.21;
+  display: inline-block;
+  margin: 0;
+}
+div.containerCLP .downloadSuggestions {
+  padding-right: 10px;
+}
+div.containerCLP .downloadSuggestions i.icon-liv-social-facebook {
+  display: inline;
+}
+div.containerCLP .downloadSuggestions p.suggestions {
+  color: #666;
+  font-family: 'robotoCondensed';
+  font-size: 16px;
+  display: inline-block;
+}
+div.containerCLP .cat-dynamic li p {
+  margin: 0;
+  background: #f9f4f1;
+  color: #666;
+  font-family: 'roboto';
+}
+div.containerCLP .owlvar_mas a {
+  margin-right: 10px;
+}
+div.containerCLP .owlvar_mas a::after {
+  content: none;
+}
+div.containerCLP .panel-group .panel {
+  border: none;
+}
+div.containerCLP .panel-default > .panel-heading {
+  background-image: none;
+  background-color: transparent;
+  padding: 0;
+}
+div.containerCLP h2.titleModule {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0.3em 0;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 90%;
+}
+div.containerCLP h2.titleModule a:hover {
+  text-decoration: none;
+}
+div.containerCLP h2.titleModule a:focus {
+  outline: none;
+  outline-offset: 0;
+}
+div.containerCLP h2.titleModule > a {
+  color: #3b3b3e;
+  text-decoration: none;
+}
+div.containerCLP h2.titleModule > a > i {
+  float: right;
+  line-height: 0.8em;
+}
+div.containerCLP .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border: none;
+  padding-top: 0;
+}
+div.containerCLP .panel-body li a {
+  font-family: 'robotoregular', arial, sans-serif;
+  display: block;
+  color: #000;
+  padding: 0.2em 0;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 1.15em;
+  font-weight: lighter;
+}
+div.containerCLP .panel-body li a:hover {
+  color: #e10048;
+  text-decoration: underline;
+}
+div.containerCLP .icon-flecha_gruesa_arriba:before {
+  content: "\e907";
+}

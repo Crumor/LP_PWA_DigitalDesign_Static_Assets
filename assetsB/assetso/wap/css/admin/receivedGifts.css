@@ -1,0 +1,347 @@
+/*ReceivedGifts.css v1.8.9*/
+/* Causes WAP overflow
+.container {
+  padding: 0;
+}
+ */
+.tableReceivedGifts {
+  width: 100%;
+}
+.tableReceivedGifts tr {
+  border-bottom: 1px solid #f4f2f4;
+}
+.tableReceivedGifts td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tableReceivedGifts span {
+  display: block;
+  font-size: 14px;
+}
+.tableReceivedGifts .headTitle,
+.tableReceivedGifts .price {
+  font-weight: bold;
+}
+.tableReceivedGifts .quantity,
+.tableReceivedGifts .extra,
+.tableReceivedGifts .message,
+.tableReceivedGifts .guest {
+  color: #849190;
+}
+.tableReceivedGifts .status,
+.tableReceivedGifts .confirmCheck {
+  color: #50cc78;
+}
+.tableReceivedGifts .statusDeliver {
+  color: #849190;
+}
+.tableReceivedGifts a {
+  color: #000;
+}
+.productDetail i {
+  font-size: 14px;
+}
+.message {
+  margin-top: 5px;
+}
+.message img {
+  width: 20px;
+}
+.grayContent {
+  /* border: 1px solid #f4f2f4; */
+  /* float: left; */
+  margin: 20px 0;
+}
+.grayContent h4 {
+  border-bottom: 1px solid #f4f2f4;
+  /* padding: 10px 15px; */
+}
+.grayContent p {
+  padding: 0 10px;
+  color: #849190;
+  word-wrap: break-word;
+}
+.grayContent .col-xs-12,
+.grayContent .col-xs-4 {
+  padding: 0;
+}
+.productDet {
+  font-size: 16px;
+}
+.imgProduct {
+  height: 110px;
+  padding-top: 20px;
+  width: 100%;
+}
+.nameProduct {
+  padding-top: 10px !important;
+}
+.dateTitle,
+.nameProduct {
+  color: #333 !important;
+}
+.dateDeliver {
+  color: #50cc78 !important;
+}
+.addAgain {
+  border-top: 1px solid #f4f2f4;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+.addAgain a {
+  color: #e10098;
+  text-decoration: underline;
+}
+.modal-content {
+  height: 101%;
+}
+.progressBar {
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  /* height: 25px !important; */
+  left: 18px;
+  position: relative;
+  /* -webkit-transform: rotate(90deg); */
+  /* -moz-transform: rotate(90deg); */
+  /* transform: rotate(90deg); */
+  /* top: 130px; */
+  width: 25px;
+  display: inline-block;
+}
+.progress-bar-info {
+  background-color: #50cc78 !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  width: 25px;
+  background-image: none;
+}
+.progressDeliver {
+  list-style-type: none;
+  padding: 10px 15px;
+}
+.progressDeliver li {
+  padding: 5px;
+}
+.progressDeliver li p {
+  margin: 0;
+  padding: 0px;
+}
+.myprogressDot {
+  background: #777;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 10px;
+  position: absolute;
+  left: 20px;
+  width: 10px;
+  left: 40px;
+}
+.myprogressDot1 {
+  left: 15px;
+}
+.myprogressDot2 {
+  left: 65px;
+}
+.myprogressDot3 {
+  left: 120px;
+}
+.myprogressDot4 {
+  left: 170px;
+}
+.myprogressDot5 {
+  left: 220px;
+}
+.titleOrder {
+  color: #333 !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+.subOrder {
+  color: #849190 !important;
+}
+.titleGreenOrder {
+  font-size: 16px;
+  color: #50cc78 !important;
+}
+.btnClose {
+  color: #333;
+  float: right;
+}
+.btnClose i {
+  background: #333;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  color: #fff;
+  font-style: normal;
+  padding: 2px 6px;
+}
+.btnSecondarySpecial {
+  height: 35px;
+
+}
+.customRow {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+}
+.trr {
+  text-align: right;
+  color: #f00;
+}
+
+/* Gift List WAP Tracking Modal Recibidos Section Available in 20th April HTML */
+.grayContent {
+  border: 1px solid #f4f2f4;
+  /* float: left; */
+  margin: 20px 0;
+}
+.grayContent h4 {
+  border-bottom: 1px solid #f4f2f4;
+  padding: 10px 15px;
+}
+.grayContent p {
+  padding: 0 10px;
+  color: #849190;
+}
+.grayContent .col-xs-12,
+.grayContent .col-xs-4 {
+  padding: 0;
+}
+.productDet {
+  /* font-size: 16px; */
+}
+.imgProduct {
+  height: 110px;
+  padding-top: 20px;
+  width: 100%;
+}
+.nameProduct {
+  padding-top: 10px !important;
+}
+.dateTitle,
+.nameProduct {
+  color: #333 !important;
+}
+.dateDeliver {
+  color: #50cc78 !important;
+}
+#tracingModal .modal-body {
+  overflow: hidden;
+}
+#tracingModal .grayContent.productDet {
+  margin: 0px 0 0px;
+}
+#tracingModal .grayContent {
+  margin: 0px 0 0px;
+}
+#messageModal .modal-header {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 15px 10px !important;
+  margin-bottom: 15px !important;
+}
+#messageModal .modal-header--closeBtn {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -moz-box-align: center;
+   -ms-flex-align: center;
+       align-items: center;
+  height: 30px;
+  -moz-box-ordinal-group: 2;
+   -ms-flex-order: 1;
+       order: 1;
+}
+#messageModal .modal-header--closeBtn p {
+  font-family: robotoCondensed;
+  font-weight: bold;
+}
+#messageModal .modal-header--closeBtn button.close {
+  background: #787878;
+  height: 17px;
+  width: 17px;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  text-shadow: none !important;
+  opacity: inherit !important;
+  margin-top: -5px !important;
+  margin-left: -5px !important;
+  padding: 1px;
+}
+#messageModal .modal-header--closeBtn button.close span {
+  text-shadow: none !important;
+  font-size: 15px !important;
+  color: #fff;
+  vertical-align: top;
+}
+#messageModal .modal-header p {
+  margin: -5px 0 0;
+}
+#messageModal .modal-header h4 {
+  width: 80%;
+  font-family: robotoCondensed !important;
+  color: #737373;
+}
+#messageModal .headOptionModal {
+  border-bottom: none;
+  padding: 0;
+}
+#messageModal .headOptionModal > div {
+  padding: 0;
+}
+#messageModal .headOptionModal .titleOptionModal {
+  font-size: 15px;
+}
+#messageModal .headOptionModal .closeOptionModal {
+  font-size: 14px;
+}
+/* #messageModal .modal-body .row div {
+  padding: 0;
+} */
+#messageModal .modal-body .btnSecondarySpecial {
+  height: 50px !important;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.newRecievedGifts {
+  width: 19px;
+  height: 19px;
+  background: #e20b0b;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-align: center;
+   -ms-flex-align: center;
+       align-items: center;
+  -moz-box-pack: center;
+   -ms-flex-pack: center;
+       justify-content: center;
+  font-size: 10px;
+  -moz-border-radius: 25px;
+       border-radius: 25px;
+  color: #fff;
+  position: absolute;
+  top: 27px;
+  right: 23px;
+  padding-top: 2px;
+  padding-right: 1.5px;
+}
+/* #messageModal .modal-body .row div {
+  padding: 0;
+} */
+.closeOptionModal span {
+  margin-left: 0px;
+}
+

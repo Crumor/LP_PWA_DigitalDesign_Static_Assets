@@ -1,0 +1,157 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+.wrap {
+  background: #fff;
+}
+.imgFormExperience {
+  cursor: pointer;
+  height: 280px;
+}
+.imgFormExperience img {
+  height: 100%;
+  width: 100%;
+}
+.input-group-addon {
+  background-color: #fff;
+}
+.input-group input {
+  text-align: right;
+}
+.radioGroupGift {
+  border-bottom: 1px solid #ebebeb;
+  float: left;
+  margin-top: 20px;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.radioGroupGift div {
+  padding: 0;
+}
+.radio {
+  padding-left: 20px !important;
+}
+.radio label {
+  padding-left: 10px !important;
+}
+.quantityGroupGift {
+  margin-left: 40%;
+  width: 60%;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.legendImg {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+}
+.legendImg i {
+  display: block;
+  font-size: 60px;
+  padding: 10px;
+}
+.legendImg2 {
+  color: #fff;
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}
+.legendImg2 i {
+  display: block;
+  font-size: 40px;
+  padding: 10px;
+}
+textarea {
+  resize: none;
+}
+.pinkButton {
+  background: #e1098e;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.titleExperience {
+  background: #ebebeb;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+  margin: 0;
+  padding: 10px;
+}
+.btnClose {
+  background: none;
+  border: none;
+  color: #333;
+  float: right;
+}
+.btnClose i {
+  background: #333;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  color: #fff;
+  font-style: normal;
+  margin-left: 5px;
+  padding: 2px 6px;
+}
+#experiencesModal .modal-dialog {
+  margin: 0 auto;
+}
+#experiencesModal .modal-content {
+  border: none;
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+#experiencesModal p {
+  color: #777;
+  margin-top: 10px;
+}
+.owlExperiences .owl-wrapper-outer {
+  height: 320px !important;
+}
+.owlExperiences .col-md-3 {
+  margin-bottom: 10px;
+}
+.modal-title {
+  margin-left: 0px;
+}
+.experienceImg img {
+  height: 80px;
+  width: 100%;
+}
+.formExperience {
+  margin-top: 20px;
+}
+.form-control {
+  -moz-border-radius: 0 !important;
+       border-radius: 0 !important;
+}
+.experienceImg {
+  padding: 3px;
+}
+.contentExperiences {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 20px;
+}
+.groupTotal {
+  display: none;
+  float: right;
+  margin: 10px 0;
+}
+.caretDown {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+.cSelect {
+  float: none;
+  width: 100%;
+}

@@ -1,0 +1,144 @@
+.imageBlock {
+  padding: 10px 0;
+}
+.imageBlock > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 65%;
+}
+.imageBlock > div:first-of-type {
+  width: 90px;
+}
+.imageBlock > div .imageFile {
+  display: none;
+}
+.imageBlock > div img {
+  display: block;
+  max-width: 70px;
+  width: 80px;
+}
+.imageBlock > div p {
+  margin: 0;
+}
+.tipBlock {
+  border: 10px solid #f6f5f5;
+}
+.tipBlock p {
+  border: 1px dashed #666;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 12px;
+}
+.tipBlock p span {
+  color: #000;
+}
+.inputDate span {
+  color: #555 !important;
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+.inputDate input {
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+.multipleAddress {
+  display: inline-block;
+  margin-bottom: 35px;
+  vertical-align: top;
+}
+.multipleAddress.validChecked {
+  width: 50px;
+}
+.multipleAddress.descript {
+  width: 200px;
+}
+.multipleAddress.descript h3 {
+  font-size: 15px;
+  color: #000;
+  margin-top: 10px;
+}
+.multipleAddress.descript p {
+  font-size: 13px;
+}
+.inLine {
+  display: inline-block;
+}
+.iconHelp {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.iconHelp2 {
+  color: #e10098;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.iconLeft {
+  position: relative;
+}
+.alignRight {
+  float: right;
+}
+.m-b-0 {
+  margin-bottom: 0px;
+}
+.m-t-0 {
+  margin-bottom: 0px;
+}
+.m-b-30 {
+  margin-bottom: 30px;
+}
+.p-b-30 {
+  padding-bottom: 30px;
+}
+.p-l-100 {
+  padding-left: 100px;
+}
+.p-r-100 {
+  padding-right: 100px;
+}
+.p-t-35 {
+  padding-top: 35px;
+}
+.lineHeight-0 {
+  line-height: 0px;
+}
+.titleSelectAddress {
+  color: #000;
+  font-size: 15px;
+}
+.stepFormContent {
+  padding: 0px;
+}
+.addFestejado {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.register {
+  background: #fff;
+}
+.register .titleForm {
+  font-size: 17px;
+}
+.register .moreOptions .checkbox label {
+  color: #818b89;
+  font-size: 14px;
+}
+.register .moreOptions .descriptInfoAditional {
+  color: #818b89;
+  font-size: 14px;
+  font-family: 'robotoCondensed';
+}
+.register .moreOptions .checkbox.inLine,
+.register .moreOptions .iconHelp2.inLine {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+.register .moreOptions .iconHelp2.inLine {
+  width: 10%;
+}
+.register .permitAccess {
+  display: none;
+}

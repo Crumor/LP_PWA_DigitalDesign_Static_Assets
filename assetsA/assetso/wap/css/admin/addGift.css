@@ -1,0 +1,58 @@
+.btn-pdp-gift {
+  background-color: #fff;
+  border: 2px solid #e10098;
+  color: #e10098;
+  height: 4em;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+.btn-pdp-gift:hover {
+  color: #e10098;
+  text-decoration: none;
+}
+#myModalGift .title-cart {
+  font-size: 0.98em !important;
+}
+#myModalGift .modal-content {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+#myModalGift .footer-cart {
+  margin-bottom: 0;
+}
+#myModalGift .footer-cart .optionsGift {
+  padding-top: 10px;
+}
+#myModalGift .footer-cart .labelStyle {
+  font-family: Roboto regular;
+  font-weight: normal;
+  padding-left: 18px !important;
+  padding-top: 12px !important;
+}
+#myModalGift .footer-cart .title-footer-container {
+  border-top: 0;
+}
+#myModalGift .gid-icon1-liv-flecha-der {
+  float: right;
+  padding-right: 26px;
+  font-weight: 600;
+}
+#myModalAddGiftList .modal-body {
+  padding: 0;
+  height: 90%;
+}
+#myModalAddGiftList a:active,
+#myModalAddGiftList a:hover,
+#myModalAddGiftList a:focus {
+  outline: 0 !important;
+}
+#myModalAddGiftList .col-md-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#myModalAddGiftList a.close {
+  width: 100%;
+}
+#myModalAddGiftList h4 {
+  font-weight: 400;
+}

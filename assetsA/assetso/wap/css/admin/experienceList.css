@@ -1,0 +1,124 @@
+body.experience {
+  font-size: 13px;
+  font-family: robotoCondensed;
+}
+h3.titleList,
+p,
+span,
+button {
+  font-family: robotoCondensed;
+  padding-top: 15px;
+}
+.experienceprincipalbanner {
+  padding-left: 118px;
+  padding-top: 29px;
+}
+.expDescription {
+  font-family: robotoCondensed;
+}
+.expDescription span {
+  font-size: 18px;
+}
+.expDescription .priceExp {
+  padding-top: 0;
+}
+.expDescription h4.title {
+  margin-top: 0;
+}
+h2.sectiontitle {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.experienceList {
+  margin-top: 15px;
+  font-family: robotoRegular;
+}
+p.shortdescription {
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 16px;
+}
+.btn-createxp {
+  background-color: #e10098;
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  margin: 0px auto 30px;
+  padding: 12px 4%;
+  text-align: center;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 100%;
+}
+.exptitleline {
+  border: #808080 solid 1px;
+  width: 50px;
+  margin-bottom: 20px;
+}
+.experiencebox {
+  -moz-box-shadow: 0px 1px 10px #ccc;
+  box-shadow: 0px 1px 10px #ccc;
+}
+.expDescription {
+  margin-bottom: 56px;
+  color: #000;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 4px;
+}
+.expList {
+  font-family: roboto condensed;
+}
+p {
+  margin: 0;
+}
+p.priceExp {
+  color: #000;
+}
+.value {
+  font-weight: 600;
+}
+.btn-liv {
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  margin: 0px auto 10px;
+  padding: 10px 5%;
+  text-align: center;
+  width: 100%;
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+span {
+  color: #333;
+  font-size: 12px;
+  margin-top: 4px;
+}
+:active {
+  -moz-box-shadow: none;
+       box-shadow: none;
+}
+:focus {
+  outline: 0;
+}
+.btn-white-button {
+  background-color: #fff;
+  border: 1px solid #3b3b3e;
+  color: #3b3b3e;
+}
+.imgList img {
+  width: 100%;
+}
+.addNewExperience {
+  font-size: 20px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}

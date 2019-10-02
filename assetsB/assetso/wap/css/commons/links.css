@@ -1,0 +1,69 @@
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.defaultLink,
+.defaultAction,
+.principalLink,
+.darkLink,
+.mediumLink,
+.lightLink,
+.addEditLink,
+.deleteLink,
+.specialLink {
+  font-family: 'robotoCondensed';
+  font-size: 16px;
+  font-style: normal;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  padding-top: 15px;
+  margin: 5px 0;
+  text-align: center;
+}
+.defaultAction,
+.addEditLink,
+.deleteLink,
+.specialLink {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+.principalLink {
+  background-color: #e10098;
+}
+.principalLink:hover {
+  background-color: #c81685;
+}
+.darkLink {
+  background-color: #3b3b3e;
+}
+.darkLink:hover {
+  background-color: #2f2f2f;
+}
+.mediumLink {
+  background-color: #666;
+}
+.lightLink {
+  background-color: #b3b3b3;
+}
+.deleteLink {
+  background-color: #f2f2f2;
+  border-color: #d8d8d8;
+}
+.specialLink {
+  color: #e10098;
+  border-color: #e10098;
+}

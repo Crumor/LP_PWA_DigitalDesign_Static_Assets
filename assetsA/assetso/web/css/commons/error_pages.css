@@ -1,0 +1,161 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-family: 'robotoregular', sans-serif;
+font-weight: normal;
+font-size: 100%;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+background-color: #fafafa;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+#container{float: left; width: 100%; height: auto;}
+
+header{width: 912px;
+display: block;
+margin: 0px auto;}
+
+header img.logo{margin: 10px 0px 0px 30px;}
+
+#content{display: block; margin: 0px auto; padding: 10px; width: 912px; height: auto; position: relative; text-align: center; }
+
+.error_img{width: 760px; height: 530px; display: inline-block; position: relative; margin: 15px auto; background:url('errorbg.jpg') no-repeat top center;}
+
+.txt_error{padding: 10px;
+text-align: center;
+width: 500px;
+display: block;
+margin: 140px auto 80px auto;}
+
+.txt_404{padding: 10px;
+text-align: center;
+width: 500px;
+display: block;
+margin: 100px auto 58px auto;}
+
+
+
+b{font-weight: bold;}
+
+p{margin: 0.5em auto; padding: 0; display: inline-block;}
+.error{font-size: 4em; font-weight: 800;}
+
+.left{float:left; margin-left: 133px; font-size: 3em!important; line-height: 25px;}
+
+.error_left{float:left; width:220px; height:255px; background: url('../images/credit_cards.jpg') no-repeat right;}
+.error_right{float:right; width:490px; ; text-align:left;}
+
+.error_credit_folio p{border-bottom:thin dotted #ccc; display:block; padding:10px 0 15px 0; font-size:15px; }
+.error_credit_folio p label{width:180px; display:inline-block;}
+.error_txt_folio{padding:50px 0 20px 0; font-size:13px}
+.es_bold{font-weight:bold;}
+
+.error_404{font-size: 13em;
+font-weight: 800;
+clear: both;
+margin: 0px;
+padding: 0px;
+line-height: 165px;}
+
+.error_408{font-size: 3em; font-weight: 800;}
+
+.error_overcapacity{font-size: 2em; font-weight: 800;}
+
+.txt_408{padding: 10px;
+text-align: center;
+width: 500px;
+display: block;
+margin: 145px auto 107px auto;}
+
+
+
+.pink{color: #e10098;}
+
+.pink_back{background-color: #e10098;}
+
+
+.error_desc {
+font-size: 1.2em;
+font-weight: lighter;
+width: 100%;
+margin: 45px auto 10px auto;}
+
+.error_sub{font-size: 0.9em; font-weight: lighter;}
+
+.links {
+display: inline-block;
+margin: 10px auto;
+font-size: 13px;
+}
+
+
+.status_folio #content {
+    display: block;
+    width: 980px;
+}
+
+.status_folio #content div {
+    display: block;
+    clear: both;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.status_folio #content div.error_left {
+    float: left;
+    width: 30%;
+    height: 451px;
+    background: url('../images/credit_cards.jpg') no-repeat right;
+    background-size: cover;
+}
+
+.status_folio #content div.error_right {
+    width: 490px;
+    padding-right: 100px;
+    text-align: left;
+    display: inline-block;
+    float: right;
+    clear: none;
+}

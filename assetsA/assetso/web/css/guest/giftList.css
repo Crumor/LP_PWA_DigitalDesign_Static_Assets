@@ -1,0 +1,377 @@
+/*GiftList.css v1.8.9*/
+body {
+	font-family: 'robotoRegular';
+}
+.wrap {
+	padding: 0;
+}
+.mainContent .col-md-12 {
+	padding: 0;
+}
+.celebratedImage {
+	-moz-border-radius: 50px;
+			 border-radius: 50px;
+	height: 80px;
+	width: 80px;
+	object-fit: cover;
+}
+.celebratedNames {
+	color: #666;
+	font-size: 24px;
+	font-weight: 900;
+	margin-top: 0;
+}
+.celebratedNames span {
+	color: #e10098;
+}
+.eventDate,
+.eventNumber {
+	color: #7f8a8c;
+	font-size: 13px;
+	margin-bottom: 0;
+}
+.otherList {
+	color: #686666;
+	font-size: 12px;
+	float: right;
+}
+.otherStores {
+	float: right;
+}
+.otherStores img {
+	padding: 0 2px;
+}
+.grayBar {
+	background: #f9f9f9;
+	padding: 10px 0 10px 0;
+	margin-top: 20px;
+}
+.grayBar p {
+	font-size: 17px;
+	padding-top: 5px;
+	text-align: center;
+}
+.selectTablePink {
+	border: 1px solid #e10098;
+}
+.selectTablePink select {
+	color: #666;
+	border: 1px solid #e10098;
+	-moz-border-radius: inherit;
+			 border-radius: inherit;
+}
+.selectTablePink i {
+	color: #e10098;
+	font-size: 16px;
+	margin-top: -25px;
+	font-weight: 900;
+	right: 30px;
+}
+.selectTablePink span {
+	color: #e10098;
+}
+.selectTablePink select:focus {
+	border: 1px solid #e10098;
+}
+.filtersTop {
+	border-bottom: 1px solid #f3f3f3;
+	margin-top: 40px;
+}
+.filtersTop select {
+	height: 39px;
+}
+.categoryTitle {
+	color: #b3b3b3;
+	font-family: 'robotoCondensed';
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.categoryTitle span {
+	color: #666;
+}
+.productContent img {
+	height: 100%;
+	object-fit: contain;
+	width: 100%;
+}
+.titleProduct {
+	height: 60px;
+	line-height: 1.2;
+	word-break: break-word;
+}
+.priceProduct {
+	color: #f00;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 0.8;
+}
+.quantityProduct {
+	color: #666;
+	display: inline-block;
+}
+.quantityProduct span {
+	font-weight: bold;
+}
+.btnCarrouselPink {
+	font-size: 14px;
+	font-family: 'robotoCondensed';
+	padding: 5px 0;
+}
+.btnCarrouselPink i {
+	font-size: 18px;
+	margin-top: 1px;
+	position: absolute;
+	right: 30px;
+}
+.numberProducts {
+	float: right;
+	text-align: right;
+}
+.numberProducts p {
+	color: #666;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 20px;
+	padding-top: 15px;
+	text-align: right;
+}
+.numberProducts span {
+	font-weight: inherit;
+}
+/* Adding for padding in GiftListGuestView*/
+.listContainer .productImg {
+	cursor: pointer;
+}
+
+.productImg {
+	height: 150px;
+	padding: 20px;
+	width: 100%;
+}
+.salePrice {
+	color: #666;
+	font-size: 12px;
+	height: 20px;
+	margin: 0;
+	text-decoration: line-through;
+}
+.peopleTitle {
+	color: #666;
+	font-size: 12px;
+	margin: 0 0 5px 0;
+}
+.availablePeople,
+.availablePeopleModal {
+	color: #666;
+}
+.availablePeople span,
+.availablePeopleModal span {
+	font-weight: bold;
+}
+.availablePeopleModal {
+	float: right;
+	margin: -27px 0;
+}
+.pagination {
+	float: right;
+	margin: 15px 0 0 25px;
+}
+.numberResults {
+	text-align: right;
+}
+.linksPags {
+	padding: 0 7px;
+}
+.numLinks {
+	padding: 0 3px;
+}
+.titleProductModal {
+	font-size: 16px;
+	line-height: 1.2;
+}
+.btnAddDiv {
+	float: right;
+}
+.btnClose {
+	background: #666;
+	border: none;
+	-moz-border-radius: 10px;
+			 border-radius: 10px;
+	color: #fff;
+	font-size: 8px;
+	float: right;
+	height: 20px;
+	width: 20px;
+}
+.flagModal {
+	background: #fff;
+	color: #666;
+	-moz-border-radius: 10px;
+			 border-radius: 10px;
+	font-size: 16px;
+	padding: 3px;
+}
+.flagModal span {
+	color: #666;
+	font-family: 'robotoRegular';
+	font-size: 10px;
+	padding-left: 10px;
+	position: relative;
+	top: -2px;
+}
+.quantityGroupGift {
+	margin-top: 0;
+	width: 130px;
+}
+.quantityGroupGift span {
+	-moz-border-radius: 0px;
+			 border-radius: 0px;
+	padding: 10px 18px;
+}
+.quantityGroupGift input {
+	padding: 17px 0;
+	text-align: center;
+}
+.minus,
+.plus {
+	background: #fff;
+}
+.productImgModal {
+	width: 100%;
+}
+.productImgModal img {
+	width: 100%;
+}
+.descripExp {
+	font-size: 12px;
+	font-weight: 900;
+	margin: 0 0 10px;
+}
+#experienceModal .modal-content,
+#productModal .modal-content {
+	margin: 30% 0;
+}
+.btnGiftSmall,
+.continueShopping {
+	float: right;
+	margin-top: 20px;
+	width: 50%;
+}
+.invitedListIcons.searchResult {
+	padding-top: 30px;
+	text-align: right;
+}
+.invitedListIcons.searchResult i {
+	cursor: pointer;
+	font-size: 30px;
+	display: inline-block;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+#productModal .selectCustomer,
+#experienceModal .selectCustomer {
+	margin-top: 20px;
+}
+#productModal .selectCustomer p,
+#experienceModal .selectCustomer p {
+	font-family: 'robotoCondensed';
+	font-size: 16px;
+	margin-bottom: 0;
+}
+#productModal .selectCustomer form,
+#experienceModal .selectCustomer form {
+	margin-top: 20px;
+}
+#productModal .selectCustomer label,
+#experienceModal .selectCustomer label {
+	color: #666;
+	padding-left: 5px;
+}
+.productAdded {
+	display: none;
+}
+.productAdded i {
+	color: #e10098;
+	font-size: 20px;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+.productAdded span {
+	display: inline-block;
+	color: #666;
+	font-family: 'robotoRegular';
+	font-size: 16px;
+	margin-left: 18px;
+}
+.productAdded span b {
+	color: #000;
+}
+.alertError.message {
+	margin: 20px 0 30px;
+	padding: 3px;
+	position: relative;
+}
+.alertError.message a.icon-tache2 {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 6px;
+	padding: 4px;
+}
+.alertError.message p {
+	line-height: 1;
+}
+.btn-default {
+    text-shadow: none;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    filter: none;
+    filter: none;
+    background-repeat: no-repeat;
+    /* border-color: #dbdbdb; */
+    /* border-color: #ccc; */
+}
+
+/* 9185 */
+.icon-estrella_negativo {
+	font-size: 20px;
+  float: none;
+  display: inline-block;
+  margin-top: -3px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.listContainer{
+	border-bottom: 1px solid #f3f3f3;
+	padding-bottom: 10px !important;
+	margin-bottom: 30px;
+}
+.mainContent .productContent {
+	margin-bottom: 20px;
+}
+#productModal .modal-content {
+	border-radius: 0px!important;
+}
+#productModal .btnPrimary.btnGiftSmall, #productModal .btnPrimary.continueShopping{
+	width:100%;
+	height:40px;
+	margin: 15px 10px 15px;
+}
+#productModal .icon-estrella_negativo.flagModal{
+	margin:0px;
+}
+#productModal .btnClose {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#productModal .btnClose .icon-tache2 {
+    color: #fff !important;
+}
+.icon-tache2 {
+    color: #fff !important;
+}
