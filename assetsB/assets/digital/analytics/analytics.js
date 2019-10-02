@@ -129,14 +129,14 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
             'creative':'h_banner_secun',
             'position':'13'
 			 }	
-                       ,
-                            {
+                            
+               ,{
 		    'id':'linea_blanca_041019',
 		   'name':'Línea Blanca hasta 47% de descu',
 		   'creative':'h_banner_central',
 		   'position':'1'
 			 },
-				 {
+				{
 		 'id':'pantallas_041019',
 		   'name':'Pantallas hasta 58% de descu',
 		   'creative':'h_banner_secuun',
@@ -184,8 +184,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 		   'name':'West Elm hasta 25% de descu',
 		   'creative':'h_banner_secun',
 		   'position':'9'
-			},	
-      
+			},
                   {
 		 'id':'zapatos_041019',
 		   'name':'Zapatos hasta 25% de descu',
@@ -221,8 +220,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 		   'name':'Deportes hasta 30% de descu',
            'creative':'h_banner_secun',
            'position':'15'
-			 }
-                            
+			 }             
                             
                             
                         ]
@@ -2763,6 +2761,93 @@ dataLayer.push({
 }
 }
 });
+        
+                
+                
+                
+/* PBK Pottery Barn Kids BLP*/
+                
+                
+            break;
+            case '/tienda/pottery-barn-kids/catst15791801':    
+                
+                
+                
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_300919',
+    'name': 'PBK Main',
+    'creative': 'blp_pbk_main',
+    'position': '01'
+},
+{
+    'id': 'ropacama_300919',
+    'name': 'PBK Ropa Cama',
+    'creative': 'blp_pbk_ropacama',
+    'position': '02'
+},
+{
+    'id': 'bebes_300919',
+    'name': 'PBK Bebes',
+    'creative': 'blp_pbk_bebes',
+    'position': '03'
+},
+{
+    'id': 'decoracion_300919',
+    'name': 'PBK Decoracion',
+    'creative': 'blp_pbk_decoracion',
+    'position': '04'
+},
+{
+    'id': 'escolares_300919',
+    'name': 'PBK Escolares',
+    'creative': 'blp_pbk_escolares',
+    'position': '05'
+},
+{
+    'id': 'estudio_300919',
+    'name': 'PBK Estudio',
+    'creative': 'blp_pbk_estudio',
+    'position': '06'
+},
+{
+    'id': 'williams_sonoma_300719',
+    'name': 'Williams Sonoma Cintillo',
+    'creative': 'blp_pbk_ws',
+    'position': '07'
+},
+{
+    'id': 'west_elm_300719',
+    'name': 'West Elm Cintillo',
+    'creative': 'blp_pbk_we',
+    'position': '09'
+},
+{
+    'id': 'pottery_barn_teen_300719',
+    'name': 'Pottery Barn Teen Cintillo',
+    'creative': 'blp_pbk_pbt',
+    'position': '10'
+}
+]
+}
+}
+});
+                       
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
 /* BLP MAC*/ 
@@ -3213,39 +3298,39 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'summit2_210619',
-    'name': 'MontBlanc Summit',
-    'creative': 'blp_mont_summit',
+    'id': 'main_021019',
+    'name': 'MontBlanc Main',
+    'creative': 'blp_mont_main',
     'position': '01'
 },
 {
-    'id': 'brazaletes_210619',
-    'name': 'MontBlanc Brazaletes',
-    'creative': 'blp_mont_brazaletes',
+    'id': 'precioespecial_021019',
+    'name': 'MontBlanc Precio Especial',
+    'creative': 'blp_mont_precio_especial',
     'position': '02'
 },
 {
-    'id': 'boligrafos_210619',
-    'name': 'MontBlanc Boligrafos',
-    'creative': 'blp_mont_boligrafos',
+    'id': 'accesorios_021019',
+    'name': 'MontBlanc Accesorios',
+    'creative': 'blp_mont_accesorios',
     'position': '03'
 },
 {
-    'id': 'escritura_210619',
+    'id': 'escritura_021019',
     'name': 'MontBlanc Escritura',
     'creative': 'blp_mont_escritura',
     'position': '04'
 },
 {
-    'id': 'accesorios_210619',
-    'name': 'MontBlanc Accesorios',
-    'creative': 'blp_mont_accesorios',
+    'id': 'piel_021019',
+    'name': 'MontBlanc Piel',
+    'creative': 'blp_mont_piel',
     'position': '05'
 },
 {
-    'id': 'joyeria_210619',
-    'name': 'MontBlanc Joyería',
-    'creative': 'blp_mont_joyeria',
+    'id': 'cinturones_021019',
+    'name': 'MontBlanc Cinturones',
+    'creative': 'blp_mont_cinturones',
     'position': '06'
 }
 ]
