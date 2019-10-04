@@ -1851,26 +1851,26 @@ dataLayer.push({
 'ecommerce': {
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
-{
+
 
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
 'creative': 'blp_Halloween_disfraces',
 'position': '02'
-}
+},
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
 'creative': 'blp_Halloween_decoracion',
 'position': '03'
-}
+},
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
 'creative': 'blp_Halloween_accesorios',
 'position': '04'
-}
+},
 {
 'id': 'halloween_270819',
 'name': 'Halloween',
@@ -2286,7 +2286,7 @@ dataLayer.push({
 'name': 'gap',
 'creative': 'blp_gap_back_denim',
 'position': '11'
-}
+},
 {
 'id': 'gap_200519',
 'name': 'gap',
@@ -2914,7 +2914,7 @@ dataLayer.push({
 }
 }
 });
-}
+
 
                 
 /* BLP ANASTASIA*/ 
@@ -4551,3 +4551,4 @@ dataLayer.push({
         
         }
     }// JavaScript Document
+// JSON Document
