@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-Bold.woff2') format('woff2'),
+        url('BrownStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrownStd';
+    src: url('BrownStd-Light.woff2') format('woff2'),
+        url('BrownStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
