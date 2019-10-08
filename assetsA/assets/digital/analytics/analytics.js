@@ -129,7 +129,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 },
                             {
             'id':'motos_081019',
-   'name':'Motos hasta 25% de desc',
+   'name':'Motos hasta 20% de desc + 15 MSI',
    'creative':'h_banner_secun',
    'position':'14'
 }                     
