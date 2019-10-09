@@ -101,38 +101,49 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
             'creative':'h_banner_secun',
             'position':'9'
 },
-                           
-            {
-            'id':'bolsas_081019',
-  'name':'Bolsas hasta 15% de desc',
+         {
+		    'id':'apple_091019',
+		    'name':'Apple hasta 18 MSI',
             'creative':'h_banner_secun',
             'position':'10'
-},          
-             
-              {
-   'id':'zapatos_081019',
-   'name':'Zapatos hasta 15% de desc',
+			 },
+                            
+                            
+                            
+            
+                            
+            {
+            'id':'bolsas_081019',
+		   'name':'Bolsas hasta 15% de desc',
             'creative':'h_banner_secun',
             'position':'11'
-},
-            {
-            'id':'deportes_081019',
-   'name':'Deportes hasta 15% de des',
+			 },           
+             
+              {
+		    'id':'zapatos_081019',
+		    'name':'Zapatos hasta 15% de desc',
             'creative':'h_banner_secun',
             'position':'12'
-},
+			 },
+            {
+            'id':'deportes_081019',
+		    'name':'Deportes hasta 15% de des',
+            'creative':'h_banner_secun',
+            'position':'13'
+			 },
             {
             'id':'juguetes_081019',
-   'name':'Juguetes hasta 20% de desc',
-   'creative':'h_banner_secun',
-   'position':'13'
-},
+		    'name':'Juguetes hasta 20% de desc',
+		    'creative':'h_banner_secun',
+		    'position':'14'
+			 },
                             {
             'id':'motos_081019',
-   'name':'Motos hasta 20% de desc + 15 MSI',
-   'creative':'h_banner_secun',
-   'position':'14'
-}                     
+		    'name':'Motos hasta 20% de desc + 15 MSI',
+		    'creative':'h_banner_secun',
+		    'position':'15'
+			 }                  
+                          
                         ]
                     }
                 }
