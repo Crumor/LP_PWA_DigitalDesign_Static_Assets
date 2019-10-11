@@ -89,8 +89,8 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 },                
                            
             {
- 'id':'pantallas_081019',
-  'name':'Pantallas hasta 25% de desc',
+ 'id':'pantallas_091019',
+  'name':'Pantallas hasta 25% de desc ó hasta 15% de desc + hasta 18 MSI',
   'creative':'h_banner_secuun',
   'position':'8'
 },
@@ -126,8 +126,8 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
             'position':'12'
 			 },
             {
-            'id':'deportes_081019',
-		    'name':'Deportes hasta 15% de des',
+            'id':'deportes_111019',
+		    'name':'Deportes hasta 25% de des',
             'creative':'h_banner_secun',
             'position':'13'
 			 },
