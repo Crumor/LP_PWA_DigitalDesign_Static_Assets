@@ -5,6 +5,7 @@
         .directive('lazyLoad', lazyLoad)
         .directive('iconCarta', iconCarta)
 
+
     function linkData($rootScope, serviceModel, $location) {
         return {
             restrict: 'AE',
@@ -38,6 +39,10 @@
                 $("#modalInstrucciones").on('show.bs.modal', function() {
                     $("#videoinstrucciones").attr('src', srcvideo);
                 });
+                function initMenu(){
+                    $("#carta").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:7,'areaWidth':65});
+                }
+                initMenu();
             }
         };
     };
@@ -65,11 +70,9 @@
                 $scope.agregarPedido = function() {
                     var agregado = serviceStorePedidos.setPedido($scope.producto);
                     $rootScope.globalProducto = $scope.producto;
-
                     if (agregado) {
-
                         $('#modalAgrego').modal('show');
-                    } else {
+                            } else {
                         $('#modalAgregado').modal('show');
                     }
                 };
@@ -196,7 +199,8 @@
                     } else {
 
                         if ($(elem).attr("class") === 'icon_carta') {
-                            $(elem).hide();
+                            //$(elem).hide();
+							$(elem).show();
                         }
                     }
                 });

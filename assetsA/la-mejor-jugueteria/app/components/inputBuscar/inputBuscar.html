@@ -1,5 +1,5 @@
 <div class="input-group search-contenedor">
-    <input type="text" class="form-control search-box-border" id="txtBuscar" ng-keyup="buscar($event,inputBuscar)" ng-keypress="irAresultadoKey($event)" ng-blur="blur()" ng-model="inputBuscar" maxlength="50" placeholder="¿Qué juguetes deseas pedir a los Reyes Magos?" aria-describedby="basic-addon1">
+    <input type="text" class="form-control search-box-border" id="txtBuscar" ng-keyup="buscar($event,inputBuscar)" ng-keypress="irAresultadoKey($event)" ng-blur="blur()" ng-model="inputBuscar" maxlength="50" placeholder="¿Qué juguetes deseas pedir a Santa Claus?" aria-describedby="basic-addon1">
     <div class="iconClose" ng-show="inputBuscar.length > 3">
         <a href ng-click="cerrarMenu()">
             <span class="icon-tache2"></span>
@@ -20,7 +20,7 @@
                 </a>
             </li>
             <li class="resultado" ng-repeat = "resultado in resultados">
-                <a href="#/detalle/{{resultado.sku}}">
+                <a href="#/detalle/{{resultado.id}}">
                     <img style="width:40px;" ng-src="{{resultado.image}}"/>
                     <span class="descripcionSearch" ng-bind-html="resultado.descripcion"></span>
                 </a>

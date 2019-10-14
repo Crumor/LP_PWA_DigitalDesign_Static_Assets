@@ -1,60 +1,55 @@
 	{
-	    "principal-banner": {
-	        "picture": "./assets/images/categorias/10_videojuegos_art.png",
-	        "patron": "./assets/images/categorias/10_patron_videojuegos.png",
-	        "colorFondo": "#c5052e",
-	        "analytics": "videojuegos"
-	    },
+	"principal-banner":{
+		"picture": "./assets/images/categorias/10_videojuegos_art.png",
+		"patron":"./assets/images/categorias/10_patron_videojuegos.png",
+		"colorFondo":"#c5052e",
+		"analytics":"videojuegos"
+	},
+		
+	"categories": {
+		"category-main": [
+		  {
+			"info":{
+			"categoryid": "catst1578012",
+			"label": "Consolas",
+			"picture": "./assets/images/categorias/subcategorias/videojuegos/1VJ_consola.jpg",
+			"video":"https://youtu.be/f0FsJV8aaMo","catid":"1062020519",
+			"navigationState": "consolas/N-2yn4",
+			"colorfondo":"#f0f0f0"
+			},
+			"toys":[
+			{"id":"1063501073","image":"https://ss423.liverpool.com.mx/lg/1063501073.jpg","description":"Consola Xbox One S 500 GB + Assassin’s Creed","longDescription":""},{"id":"1063501090","image":"https://ss423.liverpool.com.mx/lg/1063501090.jpg","description":"Consola Xbox One S 500 GB","longDescription":""},{"id":"1063501103","image":"https://ss423.liverpool.com.mx/lg/1063501103.jpg","description":"Consola Xbox One S Minecraft 500 GB","longDescription":""},{"id":"1063501081","image":"https://ss423.liverpool.com.mx/lg/1063501081.jpg","description":"Consola Xbox One S 1 TB + Assassin’s Creed + Tom Clancy’s Rainbow Six","longDescription":""},{"id":"1063501111","image":"https://ss423.liverpool.com.mx/lg/1063501111.jpg","description":"Consola Xbox One S 500 GB + Shadow of War","longDescription":""},{"id":"1063251867","image":"https://ss423.liverpool.com.mx/lg/1063251867.jpg","description":"Consola PlayStation 4 Slim Call Of Duty WWII Edición Limitada 1 TB","longDescription":""},{"id":"1062978330","image":"https://ss423.liverpool.com.mx/lg/1062978330.jpg","description":"Consola PlayStation 4 Slim Bundle Hits 2 500 GB","longDescription":""},{"id":"1062951431","image":"https://ss423.liverpool.com.mx/lg/1062951431.jpg","description":"Consola Nintendo Switch Super Mario Edición Odyssey","longDescription":""},{"id":"1062780637","image":"https://ss423.liverpool.com.mx/lg/1062780637.jpg","description":"Consola Xbox One S Shadow of War 1 TB","longDescription":""},{"id":"1062424890","image":"https://ss423.liverpool.com.mx/lg/1062424890.jpg","description":"Consola Xbox One Minecraft 1 TB","longDescription":""}
 
-	    "categories": {
-	        "category-main": [{
-	                "info": {
-	                    "categoryid": "catst1578012",
-	                    "label": "Consolas",
-	                    "picture": "./assets/images/categorias/subcategorias/videojuegos/1VJ_consola.jpg",
-	                    "video": "https://youtu.be/f0FsJV8aaMo",
-	                    "catid": "1062020519",
-	                    "navigationState": "consolas/N-2yn4",
-	                    "colorfondo": "#f0f0f0"
-	                },
-	                "toys": [
-	                    { "id": "1063501073", "image": "https://ss423.liverpool.com.mx/lg/1063501073.jpg", "description": "Consola Xbox One S 500 GB + Assassin’s Creed", "longDescription": "" }, { "id": "1063501090", "image": "https://ss423.liverpool.com.mx/lg/1063501090.jpg", "description": "Consola Xbox One S 500 GB", "longDescription": "" }, { "id": "1063501103", "image": "https://ss423.liverpool.com.mx/lg/1063501103.jpg", "description": "Consola Xbox One S Minecraft 500 GB", "longDescription": "" }, { "id": "1063501081", "image": "https://ss423.liverpool.com.mx/lg/1063501081.jpg", "description": "Consola Xbox One S 1 TB + Assassin’s Creed + Tom Clancy’s Rainbow Six", "longDescription": "" }, { "id": "1063501111", "image": "https://ss423.liverpool.com.mx/lg/1063501111.jpg", "description": "Consola Xbox One S 500 GB + Shadow of War", "longDescription": "" }, { "id": "1063251867", "image": "https://ss423.liverpool.com.mx/lg/1063251867.jpg", "description": "Consola PlayStation 4 Slim Call Of Duty WWII Edición Limitada 1 TB", "longDescription": "" }, { "id": "1062978330", "image": "https://ss423.liverpool.com.mx/lg/1062978330.jpg", "description": "Consola PlayStation 4 Slim Bundle Hits 2 500 GB", "longDescription": "" }, { "id": "1062951431", "image": "https://ss423.liverpool.com.mx/lg/1062951431.jpg", "description": "Consola Nintendo Switch Super Mario Edición Odyssey", "longDescription": "" }, { "id": "1062780637", "image": "https://ss423.liverpool.com.mx/lg/1062780637.jpg", "description": "Consola Xbox One S Shadow of War 1 TB", "longDescription": "" }, { "id": "1062424890", "image": "https://ss423.liverpool.com.mx/lg/1062424890.jpg", "description": "Consola Xbox One Minecraft 1 TB", "longDescription": "" }
+					]
+		  },{
+		  
+		  "info":{
+			"categoryid": "catst1578014",
+			"label": "Juegos y Preventas",
+			"picture": "./assets/images/categorias/subcategorias/videojuegos/2VJ_juegos_preventas.jpg",
+			"video":"","catid":"1059507415",
+			"navigationState": "preventas/N-372y",
+			"colorfondo":"#e3e3e3"
+			},
+			"toys":[
 
-	                ]
-	            }, {
+				{"id":"1063581247","image":"https://ss423.liverpool.com.mx/lg/1063581247.jpg","description":"Los Sims 4 Xbox One","longDescription":""},{"id":"1063581255","image":"https://ss423.liverpool.com.mx/lg/1063581255.jpg","description":"The Sims 4 PlayStation 4","longDescription":""},{"id":"1063373091","image":"https://ss423.liverpool.com.mx/lg/1063373091.jpg","description":"L.A. Noire Nintendo Switch","longDescription":""},{"id":"1063373075","image":"https://ss423.liverpool.com.mx/lg/1063373075.jpg","description":"L.A. Noire Xbox One","longDescription":""},{"id":"1063373083","image":"https://ss423.liverpool.com.mx/lg/1063373083.jpg","description":"L.A. Noire PlayStation 4","longDescription":""},{"id":"1063052520","image":"https://ss423.liverpool.com.mx/lg/1063052520.jpg","description":"Axiom Verge PlayStation 4 Multiverse Edition","longDescription":""},{"id":"1063052538","image":"https://ss423.liverpool.com.mx/lg/1063052538.jpg","description":"Axiom Verge Nintendo Switch","longDescription":""},{"id":"1063000902","image":"https://ss423.liverpool.com.mx/lg/1063000902.jpg","description":"Touhou Kobuto V: Burst Battle Nintendo Switch","longDescription":""},{"id":"1063000899","image":"https://ss423.liverpool.com.mx/lg/1063000899.jpg","description":"Touhou Kobuto V: Burst Battle PlayStation 4","longDescription":""},{"id":"1060807023","image":"https://ss423.liverpool.com.mx/lg/1060807023.jpg","description":"The Evil Whitin 2 PlayStation 4","longDescription":""}
 
-	                "info": {
-	                    "categoryid": "catst1578014",
-	                    "label": "Juegos y Preventas",
-	                    "picture": "./assets/images/categorias/subcategorias/videojuegos/2VJ_juegos_preventas.jpg",
-	                    "video": "",
-	                    "catid": "1059507415",
-	                    "navigationState": "preventas/N-372y",
-	                    "colorfondo": "#e3e3e3"
-	                },
-	                "toys": [
+					]
+			},
+			
+			
+			{"info":{
+			"categoryid": "catst1578015",
+			"label": "Accesorios",
+			"picture": "./assets/images/categorias/subcategorias/videojuegos/3VJ_accesorios.jpg",
+			"video":"","catid":"1056787654",
+			"navigationState": "accesorios/N-2we0",
+			"colorfondo":"#ffffff"
+			},
+			"toys":[
+			{"id":"1062101527","image":"https://ss423.liverpool.com.mx/lg/1062101527.jpg","description":"Audífonos Recon 50 X negros + Destiny 2 Xbox One","longDescription":""},{"id":"1062101543","image":"https://ss423.liverpool.com.mx/lg/1062101543.jpg","description":"Audífonos Recon 50 P negros + Destiny 2 PlayStation 4","longDescription":""},{"id":"1062101535","image":"https://ss423.liverpool.com.mx/lg/1062101535.jpg","description":"Audífonos Recon 50 X blancos + Destiny 2 Xbox One","longDescription":""},{"id":"1062404538","image":"https://ss423.liverpool.com.mx/lg/1062404538.jpg","description":"Player Grips Pro Nintendo Switch","longDescription":""},{"id":"1062404520","image":"https://ss423.liverpool.com.mx/lg/1062404520.jpg","description":"Funda Magnética Nintendo Switch","longDescription":""},{"id":"1062404503","image":"https://ss423.liverpool.com.mx/lg/1062404503.jpg","description":"Cargador de Carro Nintendo Switch","longDescription":""},{"id":"1062398619","image":"https://ss423.liverpool.com.mx/lg/1062398619.jpg","description":"Audífonos PlayStation 4 Over-Ear PDP AG-6","longDescription":""},{"id":"1062720880","image":"https://ss423.liverpool.com.mx/lg/1062720880.jpg","description":"Control PlayStation 4 dorado","longDescription":""},{"id":"1062404422","image":"https://ss423.liverpool.com.mx/lg/1062404422.jpg","description":"Audífonos Xbox One Over-Ear PDP AG-6","longDescription":""},{"id":"1062404481","image":"https://ss423.liverpool.com.mx/lg/1062404481.jpg","description":"Control Nintendo Switch Mario","longDescription":""}
 
-	                    { "id": "1063581247", "image": "https://ss423.liverpool.com.mx/lg/1063581247.jpg", "description": "Los Sims 4 Xbox One", "longDescription": "" }, { "id": "1063581255", "image": "https://ss423.liverpool.com.mx/lg/1063581255.jpg", "description": "The Sims 4 PlayStation 4", "longDescription": "" }, { "id": "1063373091", "image": "https://ss423.liverpool.com.mx/lg/1063373091.jpg", "description": "L.A. Noire Nintendo Switch", "longDescription": "" }, { "id": "1063373075", "image": "https://ss423.liverpool.com.mx/lg/1063373075.jpg", "description": "L.A. Noire Xbox One", "longDescription": "" }, { "id": "1063373083", "image": "https://ss423.liverpool.com.mx/lg/1063373083.jpg", "description": "L.A. Noire PlayStation 4", "longDescription": "" }, { "id": "1063052520", "image": "https://ss423.liverpool.com.mx/lg/1063052520.jpg", "description": "Axiom Verge PlayStation 4 Multiverse Edition", "longDescription": "" }, { "id": "1063052538", "image": "https://ss423.liverpool.com.mx/lg/1063052538.jpg", "description": "Axiom Verge Nintendo Switch", "longDescription": "" }, { "id": "1063000902", "image": "https://ss423.liverpool.com.mx/lg/1063000902.jpg", "description": "Touhou Kobuto V: Burst Battle Nintendo Switch", "longDescription": "" }, { "id": "1063000899", "image": "https://ss423.liverpool.com.mx/lg/1063000899.jpg", "description": "Touhou Kobuto V: Burst Battle PlayStation 4", "longDescription": "" }, { "id": "1060807023", "image": "https://ss423.liverpool.com.mx/lg/1060807023.jpg", "description": "The Evil Whitin 2 PlayStation 4", "longDescription": "" }
-
-	                ]
-	            },
-
-
-	            {
-	                "info": {
-	                    "categoryid": "catst1578015",
-	                    "label": "Accesorios",
-	                    "picture": "./assets/images/categorias/subcategorias/videojuegos/3VJ_accesorios.jpg",
-	                    "video": "",
-	                    "catid": "1056787654",
-	                    "navigationState": "accesorios/N-2we0",
-	                    "colorfondo": "#ffffff"
-	                },
-	                "toys": [
-	                    { "id": "1062101527", "image": "https://ss423.liverpool.com.mx/lg/1062101527.jpg", "description": "Audífonos Recon 50 X negros + Destiny 2 Xbox One", "longDescription": "" }, { "id": "1062101543", "image": "https://ss423.liverpool.com.mx/lg/1062101543.jpg", "description": "Audífonos Recon 50 P negros + Destiny 2 PlayStation 4", "longDescription": "" }, { "id": "1062101535", "image": "https://ss423.liverpool.com.mx/lg/1062101535.jpg", "description": "Audífonos Recon 50 X blancos + Destiny 2 Xbox One", "longDescription": "" }, { "id": "1062404538", "image": "https://ss423.liverpool.com.mx/lg/1062404538.jpg", "description": "Player Grips Pro Nintendo Switch", "longDescription": "" }, { "id": "1062404520", "image": "https://ss423.liverpool.com.mx/lg/1062404520.jpg", "description": "Funda Magnética Nintendo Switch", "longDescription": "" }, { "id": "1062404503", "image": "https://ss423.liverpool.com.mx/lg/1062404503.jpg", "description": "Cargador de Carro Nintendo Switch", "longDescription": "" }, { "id": "1062398619", "image": "https://ss423.liverpool.com.mx/lg/1062398619.jpg", "description": "Audífonos PlayStation 4 Over-Ear PDP AG-6", "longDescription": "" }, { "id": "1062720880", "image": "https://ss423.liverpool.com.mx/lg/1062720880.jpg", "description": "Control PlayStation 4 dorado", "longDescription": "" }, { "id": "1062404422", "image": "https://ss423.liverpool.com.mx/lg/1062404422.jpg", "description": "Audífonos Xbox One Over-Ear PDP AG-6", "longDescription": "" }, { "id": "1062404481", "image": "https://ss423.liverpool.com.mx/lg/1062404481.jpg", "description": "Control Nintendo Switch Mario", "longDescription": "" }
-
-	                ]
-	            }
-	        ]
-	    }
-	}
+			]}
+			]}
+			}   
