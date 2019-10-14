@@ -17,12 +17,12 @@
                     longDescription:"",
                     images:[]
                 };
-           }   
+           }
        }
     }
     /*servicio de autocomplete de buscador componenete inpuBuscar*/
     function buscadorComplete($http,$log,myConfig){
-        var mostrar  = false; 
+        var mostrar  = false;
         var resultado = [];
         var objResultado = function(){
             var obj = { descripcion:"", totales:"", descripcionClean:"" };
@@ -36,7 +36,7 @@
                  uniqueMatches.forEach(function(val){
                      newVal = change.replace( val , "<span class='coincidencia'>"+val+"</span>" );
                  });
-                
+
                 return newVal;
         };
         return {
@@ -47,16 +47,16 @@
                 if(word !==""){
                     $http.get( myConfig.pathServices+"search/typeAhead.jsp?Dy=1&collection=undefined&N=0&Ntt="+word+"*" )
                     .then( function( data ){
-                        
+
                         if(word !==""){
                             var response = data.data.contents[0].autoSuggest;
                             if(response.length>0)
                                 response = data.data.contents[0].autoSuggest[0].dimensionSearchGroups || [];
-                       
+
                             if( response.length > 0 ){
                                 var responseValues = response[0].dimensionSearchValues || [];
                                 if(responseValues.length >0 ){
-                                    
+
                                     responseValues.forEach( function( val ){
                                         var obj = objResultado();
                                         var tempLabel = val.label;
@@ -82,13 +82,13 @@
                                 }
                             }
                         },function(fail){
-                
+
                     });
                  }else{
                     mostrar = false;
                 }
             },
-            
+
             setMostrar:function(value){
                 mostrar = value;
             },
@@ -103,10 +103,10 @@
 
     function producto($http,myConfig,JsonCategorias,home,serviceModel){
         function filtroDescripcion( obj ){
-            
-            var descripcion ={ 
-                defaults:"product.longDescription", 
-                second:"product.dynamicAttribute" 
+
+            var descripcion ={
+                defaults:"product.longDescription",
+                second:"product.dynamicAttribute"
             };
             var atributos = "";
             if( obj.hasOwnProperty( descripcion.defaults ) ){
@@ -119,7 +119,7 @@
                       atributo.forEach(function(val){
                             var aux =  val;
                             aux =  aux.split("|");
-                          
+
                             if( aux.length ===3 ){
                                 atributos +="<p>"+aux[1]+": "+aux[2]+"</p>";
                             }else{
@@ -128,7 +128,7 @@
                      });
                       return atributos;
                   };
-                
+
             }else{
                 return atributos;
             }
@@ -153,7 +153,7 @@
                     var pathSubcategoria = "";
                     var info = { success:false,data:[] };
                     categorias.forEach(function(val){
-                        
+
                         if(val.categoryid === categoryId){
                             pathSubcategoria =  val.subCategories;
                          }
@@ -166,15 +166,15 @@
                                 var newObj = [];
                                 respuesta.forEach(function( val ){
                                     var tmpObj = {index:"", label:"",categoryid:"",pathJson:"",navigationState:"",categoria:"",toys:[],info:{} };
-                                    
+
                                     tmpObj.index = categoryId;
                                     tmpObj.categoryid = val.info.categoryid;
                                     tmpObj.label = val.info.label;
                                     tmpObj.info = val.info;
                                     var toys  = val.toys;
-                                         
+
                                     tmpObj.toys = toys.map(function(val){
-                                   
+
                                         var producto =  serviceModel.producto();
                                         producto.id = val.id;
                                         producto.description = val.description;
@@ -182,13 +182,13 @@
                                         producto.imageSm =val.image;
                                         producto.longDescription = val.longDescription;
                                         return producto;
-                                    
+
                                     });
-                                    
+
                                     tmpObj.navigationState = val.info.navigationState;
                                     newObj.push(tmpObj);
                                 });
-                            
+
                                 info.success = true;
                                 info.data = {principal:principal,subcategorias:newObj};
                                 if(fn){
@@ -200,25 +200,25 @@
                                     fn(info);
                                 }
                             }
-                        );       
+                        );
                     }else{
                         if(fn){
                             fn(info);
                         }
                     }
-               
+
         };
         /*function getSubSubCategoria(categorias,categoryId,categorySubId,fn){
             getSubCategoria(categorias,categoryId,function(data){
                 var resultado = data.data || [];
                 var info = {label:"",data:[],success:false};
                 resultado.forEach(function(val){
-                    
+
                     if(val.categoryid === categorySubId){
                         info.success = true;
                        info.label = val.label;
                         info.data = val.toys;
-                        
+
                        // console.log(info.data);
                     }
                 });
@@ -235,7 +235,7 @@
                     function(data){
                         var dataAux = data.data.categories["category-main"] || [];
                         var dataTemp = [];
-                        dataAux.forEach(function(valTemp){                            
+                        dataAux.forEach(function(valTemp){
                             var toys = valTemp.toys || [];
                             valTemp.toys =  toys.map(function(valToy){
                                 var producto = serviceModel.producto();
@@ -249,16 +249,16 @@
                             dataTemp.push( valTemp );
                         })
                         home.setHome( dataTemp );
-                        if( fn )    
+                        if( fn )
                             fn( home.getTop10() );
-                        
+
                     },function( fail){
                        console.log( "fallo carga "+myConfig.pathJsonLocal+"2015/home/testHome.json" );
-                        if( fn )    
+                        if( fn )
                             fn( home.getTop10() );
                     });
                 }else{
-                    if( fn )    
+                    if( fn )
                        fn( home.getTop10() );
                 }
            },
@@ -267,7 +267,7 @@
                         var r = {success:false,data:[]}
                         $http.get(myConfig. pathServices+""+folio+"?"+myConfig.formatJson).then(function(data){
 
-                            
+
                             if( data.data.hasOwnProperty('contents') ){
                                 var respuesta =data.data.contents[0].mainContent[0].record.attributes;
                                 var producto = serviceModel.producto();
@@ -281,36 +281,36 @@
                                 }
                                 r.success = true;
                                 r.data = producto;
-                                
+
                             }
                             if(fn){
                                 fn( r );
-                            }   
+                            }
                             //console.log(data);
                         },function(data){
-                            
+
                              if(fn){
                                 fn( r );
-                            }   
+                            }
                         });
-                        
-                                  
+
+
                     },
             getCategorias:function( fn ){
                 var categorias = JsonCategorias.getCategorias() || [];
                 var info={success:false,data:[],code:-1};
                 if( categorias.length===0 ){
-                    
+
                     $http.get( myConfig.jsonCategorias ).then( function( data ){
                         categorias =  data.data.categories.category || [];
-                        
+
                         JsonCategorias.setCategorias( categorias );
                         info.success = true;
                         info.data =  categorias;
                         info.code= 0;
                         if(fn)
                             fn(info)
-                        
+
                     },function( data ){
                         console.log("error al cargar "+myConfig.jsonCategorias);
                         info.success = false;
@@ -319,7 +319,7 @@
                         if(fn)
                             fn(info)
                     });
-                
+
                 }else{
                     categorias =  JsonCategorias.getCategorias();
                         info.success = true;
@@ -328,9 +328,9 @@
                         if(fn)
                             fn(info)
                 }
-                
+
             },
-           
+
            /*optiene las categoria ejem preescolar,nino,nina etc*/
             getCategoria:function( categoryId, fn ){
                 getCategoria(categoryId,fn);
@@ -344,29 +344,29 @@
                        var _subcategorias = data.data.subcategorias || [];
                             _subcategorias.forEach(function(val){
                             if( val.categoryid === categoryIdSub ){
-                                info.success = true;   
+                                info.success = true;
                                 info.code = 1;
-                                info.data = {principal:val.info,subcategorias:[]};   
+                                info.data = {principal:val.info,subcategorias:[]};
                             }
                         });
-                        
+
                     }
                    if( fn ){
                         fn( info );
                     }
                 });
-                
+
            },
            /*funcion para traer las subcategorias pero desde el servicio de liverpool para la seccion de subcateg*/
            getSubSubCategoria:function(navigationState,page,fn){
                     var info = { success:false, data:[], code:-1, totalPages:1 };
                     var pathSubCategoria =myConfig.pathServices+navigationState+"/page-"+page+"/?"+myConfig.formatJson;
                     var newObj = [];
-                     
+
                     $http.get( pathSubCategoria ).then( function( data ){
-                        
+
                             if( data.data.hasOwnProperty('contents') ){
-                                
+
                                 var contents = data.data.contents[0].mainContent[2].contents[0];
                                 var respuesta =contents.records || [];
                                 var totalPages = Math.ceil( contents.totalNumRecs / contents.recsPerPage );
@@ -389,15 +389,15 @@
                       //  categorias =  data.data.categories.category;
                        // JsonCategorias.setCategorias( categorias );
                        // getSubSubCategoria(categorias,categoryId,categoryIdSub,fn);
-                        
+
                     },function( data ){
                         if( fn ){
                             fn( info );
                         }
                         console.log("error al cargar "+pathSubCategoria);
                     });
-                
-             
+
+
            },
            getMarcasPopulares:function( fn ){
                var info={ success:false, code:-1, data:[] };
@@ -411,9 +411,9 @@
                         info.data =  marcas;
                         if( fn )
                             fn( info );
-                        
+
                     },function(fail){
-                        
+
                     });
                }else{
                     info.success = true;
@@ -437,19 +437,19 @@
                    path = myConfig. pathServices+"tienda/"+word+"/N-0Z1z14056/page-"+paginator+"/?"+myConfig.formatJson;
                }
                if( Number.isInteger( paginator ) ){
-                   
+
                      if ( parseInt( paginator ) >=1 ){
-                         
+
                         $http.get( path ).then( function( data ){
                                  console.log(data);
                                 var contents = data.data.contents[0].mainContent[2].contents[0];
                                 var respuesta =contents.records || [];
                                 var totalPages = Math.ceil( contents.totalNumRecs / contents.recsPerPage );
-                                var totalR =  contents.totalNumRecs; 
+                                var totalR =  contents.totalNumRecs;
                             //var respuesta = data.data.contents[0].mainContent[2].contents[0].records || [];
-                            
+
                                 resultado =  respuesta.map( function( val ){
-                                    
+
                                     var producto = serviceModel.producto();
                                     producto.id = val.attributes["sku.repositoryId"][0];
                                     producto.description = val.attributes['product.displayName'][0];
@@ -463,13 +463,13 @@
                             info.code = 1;
                             info.data = resultado;
                             info.totalR =  totalR;
-                            if( fn ){    
+                            if( fn ){
                                 fn( info );
-                            };    
+                            };
                         },function( fail ){
-                            if( fn ){    
+                            if( fn ){
                                 fn( info );
-                            };    
+                            };
                         });
                     };
                };
@@ -482,7 +482,7 @@
                 $http.get( myConfig.jsonHomeSlider ).then( function( data ) {
                     var tempBanners  = data.data.categories["category-main"];
                     banners = tempBanners;
-                    home.setSliderHome(banners);    
+                    home.setSliderHome(banners);
                     info.success = true;
                     info.data = banners;
                     info.code = 0;
@@ -490,7 +490,7 @@
                         fn( info );
                 },function( data ){
                     console.log( data );
-                });    
+                });
             }else{
                 info.success = true;
                 info.data = banners;
@@ -498,7 +498,7 @@
                 if( fn )
                   fn(info);
             }
-            
+
         },
         getBannerSliderCategoria:function(categoria,index,fn){
             var banners =JsonCategorias.getBannersCategorias() || [];
@@ -514,7 +514,7 @@
                     fn( info );
                   }
               },function(data){
-                  
+
               });
             }else{
                 info.success = true;
@@ -524,7 +524,7 @@
                     fn( info );
                 }
             }
-        }    
+        }
       }
     };
     /* almacenamiento en localstorage cuando presionene quiero este juguete */
@@ -563,10 +563,10 @@
                     localStorage.pedidos = JSON.stringify( storePedidos.getPedidos() );
                     $rootScope.totalPedidos =storePedidos.getTotal();
                 }
-                return guardado;    
+                return guardado;
             },
             getPedido:function(){
-            
+
             },
             getPedidos:function(){
                 return storePedidos.getPedidos();
@@ -585,21 +585,21 @@
             enviarPedido:function(data,fn){
                 var info = { success:true, code:0,data:[] };
                 var sendCarta ={
-                    "carta":"", 
-                    "dirTutor":"", 
-                    "emailNino":"", 
-                    "emailTutor":"", 
-                    "idFrame":"9", 
-                    "listId":"", 
-                    "nombreNino":"", 
-                    "nombreTutor":"", 
+                    "carta":"",
+                    "dirTutor":"",
+                    "emailNino":"",
+                    "emailTutor":"",
+                    "idFrame":"9",
+                    "listId":"",
+                    "nombreNino":"",
+                    "nombreTutor":"",
                     "telTutor":""
                 };
                 var newPedidos = [];
                 var pedidos =  storePedidos.getPedidos() || [];
-                
+
                 if( storePedidos.getTotal()===0 ){
-                    info.code = -2;// -2 =  no hay juguetes agregados   
+                    info.code = -2;// -2 =  no hay juguetes agregados
                     if( fn )
                         fn( info );
                 }else
@@ -621,8 +621,8 @@
                             method  : "POST",
                             url     : "http://morelosmovil.com/lmj/index.php",
                             data    : sendCarta,
-                            headers : { 
-                                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' 
+                            headers : {
+                                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
                             }
                        }).then(function(data){
                             info.success =  true;
@@ -651,10 +651,10 @@
                   }
             },
             getTotalPedidos:function(){
-               
+
                 return storePedidos.getTotal();
             }
-        
+
         }
     }
 })();

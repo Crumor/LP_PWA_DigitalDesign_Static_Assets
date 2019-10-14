@@ -1,54 +1,83 @@
+
 <div>
     <a href="#/micarta">
-        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 191 191">
-            <defs>
               <style>
                 .cls-1 {
                   fill: #fffd45;
                 }
-          
+
                 .cls-2 {
                   fill: #cb226a;
                 }
-          
+
                 .cls-3 {
                   fill: #ff318e;
                 }
-          
+
                 .cls-4 {
                   fill: #f1f1f1;
                 }
-          
+
                 .cls-5 {
                   fill: #ff85bb;
                 }
-          
+
                 .cls-6 {
                   isolation: isolate;
                   font-size: 82.28px;
                   fill: #666;
+                  color: white;
                   font-family: Roboto-Bold, Roboto;
                   font-weight: 700;
                 }
+                
+                .container {
+                  position: relative;
+                }
+
+                .text-block {
+                  position: absolute;
+                  top: 112px; 
+                  left: 45px; 
+                  font-size: 50px;
+                  font-family: Roboto-Bold, Roboto;
+                  font-weight: 700;
+                  fill: #666;
+                  color: white;
+                  /*
+                  background-color: black;
+                  padding-left: 20px;
+                  padding-right: 20px;*/
+                }
+                .text-block-mobile {
+                  position: absolute;
+                  top: 108px; 
+                  left: 35px; 
+                  font-size: 50px;
+                  font-family: Roboto-Bold, Roboto;
+                  font-weight: 700;
+                  fill: #666;
+                  color: white;
+                  /*
+                  background-color: black;
+                  padding-left: 20px;
+                  padding-right: 20px;*/
+                }
+
+
               </style>
-            </defs>
             <title>Asset 21</title>
-            <g id="Layer_2" data-name="Layer 2">
-              <g id="Layer_1-2" data-name="Layer 1">
-                <circle class="cls-1" cx="95.5" cy="95.5" r="95.5"/>
-                <g>
-                  <rect class="cls-2" x="32.7" y="88.7" width="125.5" height="62.7"/>
-                  <polygon class="cls-3" points="95.5 25.9 32.7 88.7 158.2 88.7 95.5 25.9"/>
-                  <polygon id="_Path_" data-name="&lt;Path&gt;" class="cls-4" points="143.5 44.3 47.5 44.3 47.5 101.5 95.5 133.1 143.5 101.1 143.5 44.3"/>
-                  <text class="cls-6" transform="translate(58.9 113.13)">{{cartas}}</text>
-                  <polygon class="cls-3" points="158.2 88.7 95.5 120 95.5 151.4 158.2 151.4 158.2 88.7"/>
-
-
-                  <polygon class="cls-5" points="32.7 88.7 95.5 120 95.5 151.4 32.7 151.4 32.7 88.7"/>
-
-                </g>
-              </g>
-            </g>
-          </svg>
+            <div class="container hidden-xs hidden-sm"> 
+              <a  href="#/micarta" id="micarta" > 
+                  <text class="text-block" transform="translate(58.9 113.13)" >{{cartas}}</text>
+                  <div class="icono micarta"></div>
+              </a> 
+          </div> 
+          <div class="container hidden-lg"> 
+              <a  href="#/micarta" id="micartaMobile" > 
+                  <text class="text-block-mobile" transform="translate(58.9 113.13)" >{{cartas}}</text>
+                  <div class="icono micartaMobile"></div>
+              </a> 
+          </div> 
     </a>
 </div>

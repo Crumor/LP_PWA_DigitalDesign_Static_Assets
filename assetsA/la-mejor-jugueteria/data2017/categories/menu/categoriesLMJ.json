@@ -3,7 +3,7 @@
   "categories": {
     "category": [
       {
-        "categoryid": "catst1833789",
+        "categoryid": "subCategories",
         "label": "Niñas",
         "picture": "./assets/images/menu-categorias/ninas_800.svg",
         "navigationState": "/juguetes-de-niño/N-2hqi?d3106047a194921c01969dfdec083925=json",
@@ -21,7 +21,7 @@
 	  {
         "categoryid": "catst1833793",
         "label": "Construcción y Armables",
-        "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg", 
+        "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
         "navigationState": "/juegos-de-mesa/N-2ho9?d3106047a194921c01969dfdec083925=json",
         "subCategories": "./data2017/categories/secondLevel/construccionyarmable.json",
 		"color":"#f89338"
@@ -37,7 +37,7 @@
       {
         "categoryid": "catst1833809",
         "label": "Vehículos",
-        "picture": "./assets/images/menu-categorias/vehiculos_800.svg",
+        "picture": "./assets/images/menu-categorias/montable_800.svg",
         "navigationState": "/personajes-figuras-de-acción/N-2kkg?d3106047a194921c01969dfdec083925=json",
         "subCategories": "./data2017/categories/secondLevel/vehiculos.json",
 		"color":"#df4d60"
@@ -45,7 +45,7 @@
 	 {
         "categoryid": "catst1896485",
         "label": "Exteriores",
-        "picture": "./assets/images/menu-categorias/exteriores_800.svg",  
+        "picture": "./assets/images/menu-categorias/exteriores_800.svg",
         "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
         "subCategories": "./data2017/categories/secondLevel/exteriores.json",
 		"color":"#ffb44b"
@@ -61,7 +61,7 @@
 	   {
         "categoryid": "cat21090008",
         "label": "Juegos de mesa",
-        "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",  
+        "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
         "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
         "subCategories": "./data2017/categories/secondLevel/juegosmesaymanualidades.json",
 		"color":"#fae8b1"
@@ -73,7 +73,7 @@
         "navigationState": "?s=xbox&d3106047a194921c01969dfdec083925=json",
         "subCategories": "./data2017/categories/secondLevel/coleccionables.json",
 		"color":"#eceff1"
-      }, 
+      },
       {
         "categoryid": "catst1833808",
         "label": "Peluches",
@@ -97,8 +97,7 @@
         "navigationState": "/videojuegos/catst1578010?d3106047a194921c01969dfdec083925=json",
         "subCategories": "./data2017/categories/secondLevel/videojuegos.json",
 		"color":"#84787e"
-      }  
+      }
     ]
   }
 }
-

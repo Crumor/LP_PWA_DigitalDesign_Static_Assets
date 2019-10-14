@@ -52,7 +52,7 @@
                 home = arr;
             },
             getMarcasPopulares:function(){
-                return marcasPopulares; 
+                return marcasPopulares;
             },
             setMarcasPopulares:function(val){
               marcasPopulares =  val;
@@ -60,6 +60,9 @@
        };
     };
     function categorias(){
+
+      console.log('---');
+
        var categorias =[];
        var bannersCategorias=[];
        return {
