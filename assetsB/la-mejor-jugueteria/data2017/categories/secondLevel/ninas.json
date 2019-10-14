@@ -30,7 +30,7 @@
 		{"id":"1086718304","image":"https://ss425.liverpool.com.mx/lg/1086718304.jpg","description":"Muñeca Reina Dragona Disney Descendants","longDescription":""}]
 		},{
 		"info":{
-		"categoryid": "catst1857479",
+		"categoryid": "catst13926572",
 		"label": "Accesorios de Belleza",
 		"picture": "./assets/images/categorias/subcategorias/ninas/2ninas_accesorios_de_belleza.jpg",
 		"video":"https://www.youtube.com/watch?v=MYxC2mqnn0A",
@@ -51,58 +51,82 @@
 			{"id":"1087797623","image":"https://ss424.liverpool.com.mx/lg/1087797623.jpg","description":"Set Estudio Kumi 2 en 1 Cool Maker","longDescription":""}]
 		},{
 		"info":{
-		"categoryid": "catst1857484",
-		"label": "Mascotas",
-		"picture": "./assets/images/categorias/subcategorias/ninas/3ninas_mascotas.jpg",
-		"video":"",
-		"catid":"1061109125",
-		"navigationState": "mascotas/N-35tp",
-		"colorfondo":"#c8c2e8"
-		},
-		"toys":[
-
-		{"id":"1061109117","image":"https://ss424.liverpool.com.mx/lg/1061109117.jpg","description":"Berny Fur Real El Beagle parlanchín","longDescription":""},{"id":"1049181503","image":"https://ss424.liverpool.com.mx/lg/1049181503.jpg","description":"Fur Real Pax Mi Cachorrito hace Popó","longDescription":""},{"id":"1054335322","image":"https://ss424.liverpool.com.mx/lg/1054335322.jpg","description":"Muñeca Barbie Paseo de Perrito","longDescription":""},{"id":"1061109125","image":"https://ss424.liverpool.com.mx/lg/1061109125.jpg","description":"Mascota Electrónica Fur Real Rayler El Tigre juguetón","longDescription":""},{"id":"1040025592","image":"https://ss424.liverpool.com.mx/lg/1040025592.jpg","description":"Hasbro J.J. Mi Cahorro Saltarín Fur Real Friends","longDescription":""},{"id":"1043876461","image":"https://ss424.liverpool.com.mx/lg/1043876461.jpg","description":"Mascota Little Live Pets","longDescription":""},{"id":"1056286965","image":"https://ss424.liverpool.com.mx/lg/1056286965.jpg","description":"Parque de Mascotas Famosa Pinypon","longDescription":""},{"id":"1054425241","image":"https://ss424.liverpool.com.mx/lg/1054425241.jpg","description":"Aurora Pompom Pingüino de Peluche","longDescription":""},{"id":"1060124074","image":"https://ss424.liverpool.com.mx/lg/1060124074.jpg","description":"Mascota Kami Hasbro Furreal Friends Mi Gatito","longDescription":""},{"id":"1046005283","image":"https://ss424.liverpool.com.mx/lg/1046005283.jpg","description":"Set de juego Barbie baño de perritos","longDescription":""}
-
-				]
-		},{
-
-
-		"info":{
-
-		"categoryid": "catst1857485",
+		"categoryid": "catst1857466",
 		"label": "Manualidades",
-		"picture": "./assets/images/categorias/subcategorias/ninas/4ninas_manualidades.jpg",
+		"picture": "./assets/images/categoriass/subcategorias/ninas/4ninas_manualidades.jpg",
 		"video":"","catid":"1061109451",
 		"navigationState": "manualidades/N-35tq",
 		"colorfondo":"#ffdc3a"
 		},
 		"toys":[
 
-		{"id":"1061109427","image":"https://ss424.liverpool.com.mx/lg/1061109427.jpg","description":"Set de Juego Play-Doh Kitchen Creations Pasteles Decorados","longDescription":""},{"id":"1061109451","image":"https://ss424.liverpool.com.mx/lg/1061109451.jpg","description":"Kit de Decoraciones Creativas Play Doh DohVinci","longDescription":""},{"id":"1053669596","image":"https://ss424.liverpool.com.mx/lg/1053669596.jpg","description":"Set de Inicio Mini Cachorros Poppit Bandai","longDescription":""},{"id":"1049181538","image":"https://ss424.liverpool.com.mx/lg/1049181538.jpg","description":"Hasbro Play-Doh DohVinci Joyero Secreto","longDescription":""},{"id":"1029033150","image":"https://ss424.liverpool.com.mx/lg/1029033150.jpg","description":"Creativity For Kids Pulseras de Flores","longDescription":""},{"id":"1001232432","image":"https://ss424.liverpool.com.mx/lg/1001232432.jpg","description":"Alex Toys Set Escolar para Niña","longDescription":""},{"id":"1053669618","image":"https://ss424.liverpool.com.mx/lg/1053669618.jpg","description":"Kit para Modelar y Crear Pasteles de Poppit Bandai","longDescription":""},{"id":"1060388446","image":"https://ss424.liverpool.com.mx/lg/1060388446.jpg","description":"Casa de Repostería Piedra Papel o Tijeras Fresa, Vainilla y Chocolate","longDescription":""},{"id":"1060384602","image":"https://ss424.liverpool.com.mx/lg/1060384602.jpg","description":"Casita de Juego Piedra Papel o Tijeras Buscando a Rufo","longDescription":""},{"id":"1030300340","image":"https://ss424.liverpool.com.mx/lg/1030300340.jpg","description":"Spinmaster Sew Cool Repuestos Tela Animalitos","longDescription":""}
-
-
+		{"id":"1079908475","image":"https://ss424.liverpool.com.mx/lg/1079908475.jpg","description":"Mystery English Clementoni","longDescription":""}
+		,{"id":"1081663811","image":"https://ss424.liverpool.com.mx/lg/1081663811.jpg","description":"Set Cadetes de la Creatividad Play-Doh Top Wing","longDescription":""},
+		{"id":"1059256692","image":"https://ss424.liverpool.com.mx/lg/1059256692.jpg","description":"Mesa de Juego Spin Master Kinetic Sand","longDescription":"Con la increíble mesa de juego ¡Todo será más divertido! Podrás hacer tus mejores creaciones y coleccionar todos los productos de Kinetic Sand para hacer más cosas."},
+		{"id":"86524082","image":"https://ss424.liverpool.com.mx/lg/86524082.jpg","description":"Laboratorio de Askerobromas Mi Alegría","longDescription":"Completísimo juego con todo lo necesario para crear asquerosos granos, horribles cortadas y sorprendentes ojos falsos."},
+		{"id":"1069427738","image":"https://ss424.liverpool.com.mx/lg/1069427738.jpg","description":"Set Mariposas Efervescentes Creativity For Kids","longDescription":""},
+		{"id":"1085080233","image":"https://ss424.liverpool.com.mx/lg/1085080233.jpg","description":"Set 3D Maker Jr. Creativakids rojo","longDescription":""},
+		{"id":"1069431174","image":"https://ss424.liverpool.com.mx/lg/1069431174.jpg","description":"Set de Viaje Bunchems Spin Master","longDescription":""},
+		{"id":"1078784209","image":"https://ss424.liverpool.com.mx/lg/1078784209.jpg","description":"Mesa de Actividad Play-Doh","longDescription":""},
+		{"id":"7605131","image":"https://ss424.liverpool.com.mx/lg/7605131.jpg","description":"Pottery cool Studio","longDescription":""},
+		{"id":"1029015313","image":"https://ss424.liverpool.com.mx/lg/1029015313.jpg","description":"Mi Alegría Química Equipo 2","longDescription":""}
 				]
 		},{
-
-
 		"info":{
-		"categoryid": "catst1857486",
-		"label": "Vehículos",
+		"categoryid": "catst1858323",
+		"label": "Bicicletas",
 		"picture": "./assets/images/categorias/subcategorias/ninas/5ninas_vehiculos.jpg",
 		"video":"","catid":"1049546455",
 		"navigationState": "Vehiculos/N-35tr",
 		"colorfondo":"#9af7ff"
 		},
 		"toys":[
-
-			{"id":"1061427488","image":"https://ss424.liverpool.com.mx/lg/1061427488.jpg","description":"Bicicleta Turbo Chic Chic para niña","longDescription":""},{"id":"1061427445","image":"https://ss424.liverpool.com.mx/lg/1061427445.jpg","description":"Bicicleta Turbo Princess para niña","longDescription":""},{"id":"1061263752","image":"https://ss424.liverpool.com.mx/lg/1061263752.jpg","description":"Casco Mercurio S-Girls para niña","longDescription":""},{"id":"1057853731","image":"https://ss424.liverpool.com.mx/lg/1057853731.jpg","description":"Triciclo Turbo Kinetic Sport Classic Rosa","longDescription":""},{"id":"1056566238","image":"https://ss424.liverpool.com.mx/lg/1053568633.jpg","description":"JUDY SCOOTER MINI MICRO MORADO","longDescription":""},{"id":"1056559690","image":"https://ss424.liverpool.com.mx/lg/1043906301.jpg","description":"JUDY SCOOTER MAXI MICRO NEGRO","longDescription":""},{"id":"1052608068","image":"https://ss201.liverpool.com.mx/lg/1052608071.jpg","description":"PATINES EXTREMOS ROLLERFACE, CH, AZUL","longDescription":""},{"id":"1051678342","image":"https://ss424.liverpool.com.mx/lg/1051678342.jpg","description":"Turbo Racing R16 Bicicleta para Niño","longDescription":""},{"id":"1051678407","image":"https://ss424.liverpool.com.mx/lg/1051678407.jpg","description":"Turbo Ocean Bicicleta R24","longDescription":""},{"id":"1051678385","image":"https://ss424.liverpool.com.mx/lg/1051678385.jpg","description":"Turbo Racing Girl Bicicleta R-20 Blanco","longDescription":""}
-
-				]
+			{
+	  "id": "1057853731",
+	  "image": "https://ss424.liverpool.com.mx/lg/1057853731.jpg",
+	  "description": "Triciclo Turbo Kinetic Sport Classic rosa",
+	  "longDescription": ""
+	}, {
+	  "id": "1084706422",
+	  "image": "https://ss424.liverpool.com.mx/lg/1084706422.jpg",
+	  "description": "Bicicleta Turbo Malibu R26",
+	  "longDescription": ""
+	}, {
+	  "id": "1084706431",
+	  "image": "https://ss424.liverpool.com.mx/lg/1084706431.jpg",
+	  "description": "Bicicleta Turbo Deimos W R26",
+	  "longDescription": ""
+	}, {
+	  "id": "1088182118",
+	  "image": "https://ss424.liverpool.com.mx/lg/1088182118.jpg",
+	  "description": "Triciclo con Sombrilla Mytoy Hello Ninny",
+	  "longDescription": ""
+	}, {
+	  "id": "1088182088",
+	  "image": "https://ss424.liverpool.com.mx/lg/1088182088.jpg",
+	  "description": "Triciclo con Sombrilla Mytoy Fancy Trike rosa",
+	  "longDescription": ""
+	}, {
+	  "id": "1085818577",
+	  "image": "https://ss424.liverpool.com.mx/lg/1085818577.jpg",
+	  "description": "Globber Go Bike Bici de Equilibrio",
+	  "longDescription": ""
+	}, {
+	  "id": "1057584439",
+	  "image": "https://ss201.liverpool.com.mx/lg/1057584439.jpg",
+	  "description": "Montable Prinsel Triciclo Giro",
+	  "longDescription": ""
+	}, {
+	  "id": "38388886",
+	  "image": "https://ss424.liverpool.com.mx/lg/38388886.jpg",
+	  "description": "Apache Bicileyca Triciclo con Bastón",
+	  "longDescription": ""
+	}]
 		},{
 
 		"info":{
 
-		"categoryid": "catst1857493",
+		"categoryid": "catst1857455",
 		"label": "Construcción y Armables",
 		"picture": "./assets/images/categorias/subcategorias/ninas/6ninas_constructibles.jpg",
 		"video":"","catid":"1060844930",
@@ -111,8 +135,182 @@
 		},
 		"toys":[
 
-		{"id":"1060844930","image":"https://ss424.liverpool.com.mx/lg/1060844930.jpg","description":"Set de Construcción Boutique Minnie Mouse Lego Duplo Disney","longDescription":""},{"id":"1060845197","image":"https://ss424.liverpool.com.mx/lg/1060845197.jpg","description":"Set Lego Friends Remolque de la lancha de Andrea","longDescription":""},{"id":"1060845243","image":"https://ss424.liverpool.com.mx/lg/1060845243.jpg","description":"Set Lego Friends Estación de esquí: Cabaña","longDescription":""},{"id":"1052029135","image":"https://ss424.liverpool.com.mx/lg/1052029135.jpg","description":"Playmobil Princess Maletín Caballo Fantasía","longDescription":""},{"id":"1060845201","image":"https://ss424.liverpool.com.mx/lg/1060845201.jpg","description":"Set Lego Friends Catamarán de verano","longDescription":""},{"id":"1055225601","image":"https://ss424.liverpool.com.mx/lg/1055225601.jpg","description":"Lego Pasteles de Amistad de Stephanie","longDescription":""},{"id":"1050599198","image":"https://ss424.liverpool.com.mx/lg/1050599198.jpg","description":"Lego Castillo Encantado de Bella","longDescription":""},{"id":"1047021916","image":"https://ss424.liverpool.com.mx/lg/1047021916.jpg","description":"Playmobil Maletín Fashion Design","longDescription":""},{"id":"1060845502","image":"https://ss424.liverpool.com.mx/lg/1060845502.jpg","description":"Set Lego DC Super Hero Girls Palacio oscuro de Eclipso","longDescription":""},{"id":"1060845235","image":"https://ss424.liverpool.com.mx/lg/1060845235.jpg","description":"Set Lego Friends Estación de esquí: Pista de hielo","longDescription":""}
+		{
+	  "id": "1086822977",
+	  "image": "https://ss424.liverpool.com.mx/lg/1086822977.jpg",
+	  "description": "Set de Construcción Palacio Mágico de Hielo de Elsa Lego Frozen",
+	  "longDescription": ""
+	}, {
+	  "id": "1086837320",
+	  "image": "https://ss424.liverpool.com.mx/lg/1086837320.jpg",
+	  "description": "Set de Construcción Aventura en Carreta de Elsa Lego Frozen II",
+	  "longDescription": ""
+	}, {
+	  "id": "1086837257",
+	  "image": "https://ss424.liverpool.com.mx/lg/1086837257.jpg",
+	  "description": "Set de Construcción Olaf Lego Frozen II",
+	  "longDescription": ""
+	}, {
+	  "id": "1074876869",
+	  "image": "https://ss424.liverpool.com.mx/lg/1074876869.jpg",
+	  "description": "Set de Construcción Casa de Lucky Playmobil",
+	  "longDescription": ""
+	}, {
+	  "id": "1048483492",
+	  "image": "https://ss424.liverpool.com.mx/lg/1048483492.jpg",
+	  "description": "Set de Construcción Gran Bolsa rosa Mega Bloks",
+	  "longDescription": ""
+	}, {
+	  "id": "1074441293",
+	  "image": "https://ss424.liverpool.com.mx/lg/1074441293.jpg",
+	  "description": "Set de Construcción Resort de Heartlake City Lego Friends",
+	  "longDescription": ""
+	}, {
+	  "id": "1079767693",
+	  "image": "https://ss424.liverpool.com.mx/lg/1079767693.jpg",
+	  "description": "Set de Construcción Establo de los Potrillos Lego Friends",
+	  "longDescription": ""
+	}, {
+	  "id": "1084469625",
+	  "image": "https://ss424.liverpool.com.mx/lg/1084469625.jpg",
+	  "description": "Set de Construcción Palacio Cuento de Hadas Playmobil",
+	  "longDescription": ""
+	}, {
+	  "id": "1079727942",
+	  "image": "https://ss424.liverpool.com.mx/lg/1079727942.jpg",
+	  "description": "Set de Construcción Celebración Real de Ariel, Aurora y Tiana Lego",
+	  "longDescription": ""
+	}, {
+	  "id": "1074876877",
+	  "image": "https://ss424.liverpool.com.mx/lg/1074876877.jpg",
+	  "description": "Set de Construcción Paseo Comercial Playmobil",
+	  "longDescription": ""
+	}
+				]
+		},{
 
+		"info":{
+
+		"categoryid": "catst15093746",
+		"label": "Juegos Didácticos",
+		"picture": "./assets/images/categorias/subcategorias/ninas/6ninas_constructibles.jpg",
+		"video":"","catid":"1060844930",
+		"navigationState": "juegos-didacticos/N-35tz",
+		"colorfondo":"#5332fd"
+		},
+		"toys":[
+
+		{
+  "id": "1079507144",
+  "image": "https://ss424.liverpool.com.mx/lg/1079507144.jpg",
+  "description": "Apilador Balancín Melissa & Doug",
+  "longDescription": ""
+}, {
+  "id": "7385076",
+  "image": "https://ss424.liverpool.com.mx/lg/7385076.jpg",
+  "description": "Set Lego Friends Remolque de la lancha de Andrea",
+  "longDescription": ""
+}, {
+  "id": "1056792399",
+  "image": "https://ss424.liverpool.com.mx/lg/1056792399.jpg",
+  "description": "Caja registradora Leap Frog",
+  "longDescription": ""
+}, {
+  "id": "1086726293",
+  "image": "https://ss424.liverpool.com.mx/lg/1086726293.jpg",
+  "description": "Atínale al Payaso",
+  "longDescription": ""
+}, {
+  "id": "1063131411",
+  "image": "https://ss424.liverpool.com.mx/lg/1063131411.jpg",
+  "description": "Bel Bot 360 Grados Fisher Price rosa",
+  "longDescription": ""
+}, {
+  "id": "1086363573",
+  "image": "https://ss424.liverpool.com.mx/lg/1086363573.jpg",
+  "description": "Rompecabezas Granja con Sonido Fabi y Sofi",
+  "longDescription": ""
+}, {
+  "id": "1086344480",
+  "image": "https://ss424.liverpool.com.mx/lg/1086344480.jpg",
+  "description": "Rompecabezas; Pastel Coloreable Fabi y Sofi",
+  "longDescription": ""
+}, {
+  "id": "1087182980",
+  "image": "https://ss424.liverpool.com.mx/lg/1087182980.jpg",
+  "description": "Oca Divertida Jumbo 70 x 50 cm",
+  "longDescription": ""
+}, {
+  "id": "1086986040",
+  "image": "https://ss424.liverpool.com.mx/lg/1086986040.jpg",
+  "description": "Lotería de Sumas y Restas Educatodo",
+  "longDescription": ""
+}
+				]
+		},{
+
+		"info":{
+
+		"categoryid": "catst1857467",
+		"label": "Rompecabezas",
+		"picture": "./assets/images/categorias/subcategorias/ninas/6ninas_constructibles.jpg",
+		"video":"","catid":"1060844930",
+		"navigationState": "Rompecabezas/N-35ta",
+		"colorfondo":"#5332fd"
+		},
+		"toys":[
+
+		{
+	  "id": "1083858091",
+	  "image": "https://ss424.liverpool.com.mx/lg/1083858091.jpg",
+	  "description": "Rompecabezas Musical Spin Master Baby Shark",
+	  "longDescription": ""
+	}, {
+	  "id": "1082793204",
+	  "image": "https://ss424.liverpool.com.mx/lg/1082793204.jpg",
+	  "description": "Set Lego Friends Remolque de la lancha de Andrea",
+	  "longDescription": ""
+	}, {
+	  "id": "1077582360",
+	  "image": "https://ss424.liverpool.com.mx/lg/1077582360.jpg",
+	  "description": "Rompecabezas 3D Holiday Bungalow Imori Kits",
+	  "longDescription": ""
+	}, {
+	  "id": "1067237001",
+	  "image": "https://ss424.liverpool.com.mx/lg/1067237001.jpg",
+	  "description": "Rompecabezas Disney Collection Increíbles 2",
+	  "longDescription": ""
+	}, {
+	  "id": "1082793051",
+	  "image": "https://ss424.liverpool.com.mx/lg/1082793051.jpg",
+	  "description": "Rompecabezas 3D Dollhouse Pianist Home Imori Kits",
+	  "longDescription": ""
+	}, {
+	  "id": "1083858067",
+	  "image": "https://ss424.liverpool.com.mx/lg/1083858067.jpg",
+	  "description": "Rompecabezas Spin Master Baby Shark",
+	  "longDescription": ""
+	}, {
+	  "id": "1060695021",
+	  "image": "https://ss424.liverpool.com.mx/lg/1060695021.jpg",
+	  "description": "Rompecabezas 3D Cubic Fun Dreamy Dollhouse",
+	  "longDescription": ""
+	}, {
+	  "id": "1082577501",
+	  "image": "https://ss424.liverpool.com.mx/lg/1082577501.jpg",
+	  "description": "Rompecabezas Ravensburger 3D Distroller Chamoy y Amiguis",
+	  "longDescription": ""
+	}, {
+	  "id": "1089471288",
+	  "image": "https://ss424.liverpool.com.mx/lg/1089471288.jpg",
+	  "description": "Rompecabezas LOL Spin Master",
+	  "longDescription": ""
+	}, {
+	  "id": "7656969",
+	  "image": "https://ss424.liverpool.com.mx/lg/7656969.jpg",
+	  "description": "Set Lego Friends Estación de esquí: Pista de hielo",
+	  "longDescription": ""
+	}
 				]
 		}
 

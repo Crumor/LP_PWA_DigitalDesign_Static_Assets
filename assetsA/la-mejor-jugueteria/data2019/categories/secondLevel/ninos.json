@@ -1,0 +1,340 @@
+    {
+"principal-banner":{
+        "picture": "./assets/images/categorias/01_ninos_art.png",
+        "patron":"./assets/images/categorias/01_patron_ninos.png",
+        "colorFondo":"#04c38f",
+        "analytics":"ninos"
+},
+
+    "categories": {
+        "category-main": [
+          {
+            "info":{
+            "categoryid": "catst13886216",
+            "label": "Figuras de Acción",
+            "picture": "./assets/images/categorias/subcategorias/ninos/1ninios_figuras_de_accion.jpg",
+            "video":"","catid":"1056192481",
+            "navigationState": "Figuras-de-Accion/N-35u1",
+            "colorfondo":"#ffc100"
+            },
+            "toys":[
+
+            {
+      "id": "1084671688",
+      "image": "https://ss424.liverpool.com.mx/lg/1084671688.jpg",
+      "description": "Set de Batalla Hasbro Beyblade",
+      "longDescription": ""
+    }, {
+      "id": "1083614672",
+      "image": "https://ss424.liverpool.com.mx/lg/1083614672.jpg",
+      "description": "Guante Electrónico Avengers Hasbro Marvel",
+      "longDescription": ""
+    }, {
+      "id": "1006080045",
+      "image": "https://ss424.liverpool.com.mx/lg/1006080045.jpg",
+      "description": "Figuras de Acción Buzz y Woody Toy Plus Toy Story",
+      "longDescription": ""
+    }, {
+      "id": "1086718843",
+      "image": "https://ss424.liverpool.com.mx/lg/1086718843.jpg",
+      "description": "Set de figuras de acción Marvel Legends X-men",
+      "longDescription": ""
+    }, {
+      "id": "1070747525",
+      "image": "https://ss424.liverpool.com.mx/lg/1070747525.jpg",
+      "description": "Dinosaurio Tyrannosaurus Rex Mattel Jurassic World",
+      "longDescription": ""
+    }, {
+      "id": "1082690642",
+      "image": "https://ss424.liverpool.com.mx/lg/1082690642%20.jpg",
+      "description": "Piñata llama Jazwares Fortnite morada",
+      "longDescription": ""
+    }, {
+      "id": "1014235066",
+      "image": "https://ss424.liverpool.com.mx/lg/1014235066.jpg",
+      "description": "Figura Buzz Lightyear Toy Plus Toy Story",
+      "longDescription": ""
+    }, {
+      "id": "1085553026",
+      "image": "https://ss424.liverpool.com.mx/lg/1085553026.jpg",
+      "description": "Juego de Batalla Choque Titánico Beyblade Burst Slingshock",
+      "longDescription": ""
+    }, {
+      "id": "1084577398",
+      "image": "https://ss424.liverpool.com.mx/lg/1084577398.jpg",
+      "description": "Set Tiranosaurio Rex Jurassic World",
+      "longDescription": ""
+    }, {
+      "id": "1080862179",
+      "image": "https://ss424.liverpool.com.mx/lg/1080862179.jpg",
+      "description": "Figura de Acción Spider-Man Playskool Heroes",
+      "longDescription": ""
+    }
+                    ]
+          },
+            {"info":{
+            "categoryid": "catst13906569",
+            "label": "Lanzadores",
+            "picture": "./assets/images/categorias/subcategorias/ninos/3ninios_lanzadores.jpg",
+            "video":"","catid":"1060124333",
+            "navigationState": "Lanzadores/N-35u3",
+            "colorfondo":"#ff6300"
+            },
+            "toys": [{
+    "id": "1086693417",
+    "image": "https://ss425.liverpool.com.mx/lg/1086693417.jpg",
+    "description": "Arco Upland Orange Juvenil Poleas 2 Flechas 26 Pulgadas MCAYC1024 Mendoza",
+    "longDescription": ""
+  }, {
+    "id": "1046225828",
+    "image": "https://ss424.liverpool.com.mx/lg/1046225828.jpg",
+    "description": "Lanzador Nerf Zombie Strike Crosscut",
+    "longDescription": ""
+  }, {
+    "id": "1070518330",
+    "image": "https://ss424.liverpool.com.mx/lg/1070518330.jpg",
+    "description": "Lanzador Hades XVIII 6000 Hasbro Nerf",
+    "longDescription": ""
+  }, {
+    "id": "1080862331",
+    "image": "https://ss424.liverpool.com.mx/lg/1080862331.jpg",
+    "description": "Lanzador de Agua Barracuda Nerf Super Soaker",
+    "longDescription": ""
+  }, {
+    "id": "1080645992",
+    "image": "https://ss424.liverpool.com.mx/lg/1080645992.jpg",
+    "description": "Pistola Bolas de Papel Jakks Pacific",
+    "longDescription": ""
+  }, {
+    "id": "1081664851",
+    "image": "https://ss424.liverpool.com.mx/lg/1081664851.jpg",
+    "description": "Lanzador Black Panther Hasbro Assembler Gear",
+    "longDescription": ""
+  }, {
+    "id": "1083614699",
+    "image": "https://ss424.liverpool.com.mx/lg/1083614699.jpg",
+    "description": "Lanzador Cañón Amovible Hasbro Nerf Fortnite",
+    "longDescription": ""
+  }, {
+    "id": "1081664842",
+    "image": "https://ss424.liverpool.com.mx/lg/1081664842.jpg",
+    "description": "Lanzador Ensamblable Capitán América Hasbro Avengers end Game",
+    "longDescription": ""
+  }, {
+    "id": "1076521375",
+    "image": "https://ss424.liverpool.com.mx/lg/1076521375.jpg",
+    "description": "Lanzador Arma Aguijón Hasbro Transformers",
+    "longDescription": ""
+  }, {
+    "id": "1074982316",
+    "image": "https://ss424.liverpool.com.mx/lg/1074982316.jpg",
+    "description": "Lanzador Cobra Toy Plus Xpand Blast",
+    "longDescription": ""
+  }]            },
+  {"info":{
+  "categoryid": "catst13926585",
+  "label": "Vehículos",
+  "picture": "./assets/images/categorias/subcategorias/ninos/5ninios_vehiculos.jpg",
+  "video":"","catid":"1056756791",
+  "navigationState": "Vehiculos/N-35u5",
+  "colorfondo":"#fe3346"
+  },
+  "toys":[
+
+      {"id":"1079148012","image":"https://ss424.liverpool.com.mx/lg/1079148012.jpg","description":"Blaze Mattel Power Wheels","longDescription":""},
+      {"id":"1084469439","image":"https://ss424.liverpool.com.mx/lg/1084469439.jpg","description":"PRINSEL BMW X5 BLANCO","longDescription":""},
+      {"id":"1067152987","image":"https://ss424.liverpool.com.mx/lg/1067152987.jpg","description":"PRINSEL BMW I8 PLATA","longDescription":""},
+      {"id":"1058082089","image":"https://ss424.liverpool.com.mx/lg/1058082089.jpg","description":"JUDY SCOOTER MAXI MICRO NEGRO","longDescription":""},
+      {"id":"1060350155","image":"https://ss424.liverpool.com.mx/lg/1060350155.jpg","description":"Cuatrimoto con Figura Bruder","longDescription":""},
+      {"id":"1027759773","image":"https://ss424.liverpool.com.mx/lg/1027759773.jpg","description":"Prinsel Moto Eléctrica BMW ","longDescription":""},
+      {"id":"1073442831","image":"https://ss424.liverpool.com.mx/lg/1073442831.jpg","description":"Triciclo Turbo Kinetic Sport Classic Rojo","longDescription":""},
+      {"id":"1077080925","image":"https://ss424.liverpool.com.mx/lg/1077080925.jpg","description":"Turbo Bicicleta R-16 Bucanero Rojo","longDescription":""},
+      {"id":"1087122430","image":"https://ss424.liverpool.com.mx/lg/1087122430.jpg","description":"Patines Goplas Disney Cars","longDescription":""},
+      {"id":"1086686674","image":"https://ss424.liverpool.com.mx/lg/1086686674.jpg","description":"PRINSEL PUSH CAR MINI ROJO","longDescription":""}
+
+          ]
+  },
+
+            {"info":{
+            "categoryid": "catst1833809",
+            "label": "Montables",
+            "picture": "./assets/images/categorias/subcategorias/ninos/4ninios_autopistas.jpg",
+            "video":"","catid":"1027065127",
+            "navigationState": "Autopistas/N-35u4",
+            "colorfondo":"#3456fe"
+            },
+            "toys":[
+
+                {
+            "id": "1073010663",
+            "image": "https://ss424.liverpool.com.mx/lg/1073010663.jpg",
+            "description": "Montable Eléctrico Prinsel Mercedes Benz rojo",
+            "longDescription": ""
+          }, {
+            "id": "1056756775",
+            "image": "https://ss424.liverpool.com.mx/lg/1056756775.jpg",
+            "description": "Montable Prinsel BMW X5",
+            "longDescription": ""
+          }, {
+            "id": "1073010655",
+            "image": "https://ss424.liverpool.com.mx/lg/1073010655.jpg",
+            "description": "Montable Eléctrico Prinsel Chevrolet",
+            "longDescription": ""
+          }, {
+            "id": "1083033505",
+            "image": "https://ss424.liverpool.com.mx/lg/1083033505.jpg",
+            "description": "Vehículo Wrangler Power Wheels Toy Story",
+            "longDescription": ""
+          }, {
+            "id": "1049546471",
+            "image": "https://ss424.liverpool.com.mx/lg/1049546471.jpg",
+            "description": "Montable Electrónico Prinsel Mini Cooper",
+            "longDescription": ""
+          }, {
+            "id": "7623272",
+            "image": "https://ss424.liverpool.com.mx/lg/7623272.jpg",
+            "description": "Rayo McQueen Cars",
+            "longDescription": ""
+          }, {
+            "id": "1045997487",
+            "image": "https://ss424.liverpool.com.mx/lg/1045997487.jpg",
+            "description": "Montable Prinsel Audi blanco",
+            "longDescription": ""
+          }, {
+            "id": "1085830909",
+            "image": "https://ss424.liverpool.com.mx/lg/1085830909.jpg",
+            "description": "Montable Prinsel Mercedes Amg Basic ",
+            "longDescription": ""
+          }, {
+            "id": "1086226738",
+            "image": "https://ss424.liverpool.com.mx/lg/1086226738.jpg",
+            "description": "Moto Cross Prinsel Premium Boy",
+            "longDescription": ""
+          }, {
+            "id": "1073726600",
+            "image": "https://ss424.liverpool.com.mx/lg/1073726600.jpg",
+            "description": "Hot Wheels Carrera Súper Explosiva",
+            "longDescription": ""
+          } ]
+            },
+            {"info":{
+            "categoryid": "catst1857456",
+            "label": "Construccion y Armables",
+            "picture": "./assets/images/categorias/subcategorias/ninos/6ninios_constructibles.jpg",
+            "video":"","catid":"1060845464",
+            "navigationState": "Consruccion-y-Armables/N-35ub",
+            "colorfondo":"#0088ff"
+            },
+            "toys":[
+
+                {
+                "id": "1084450444",
+                "image": "https://ss424.liverpool.com.mx/lg/1084450444.jpg",
+                "description": "Set de Juego para Armar Mega Construx Halo Forge Bucket",
+                "longDescription": ""
+              }, {
+                "id": "1086837290",
+                "image": "https://ss424.liverpool.com.mx/lg/1086837290.jpg",
+                "description": "Set de Construcción Submarino Medusa Volador Lego The Ninjago Movie",
+                "longDescription": ""
+              }, {
+                "id": "1052110102",
+                "image": "https://ss424.liverpool.com.mx/lg/1052110102.jpg",
+                "description": "Set de Construcción Helicóptero de Provisiones Lego City",
+                "longDescription": ""
+              }, {
+                "id": "1086837303",
+                "image": "https://ss424.liverpool.com.mx/lg/1086837303.jpg",
+                "description": "Set Lego Star Wars Transformación de Darth Vader",
+                "longDescription": ""
+              }, {
+                "id": "1056915521",
+                "image": "https://ss424.liverpool.com.mx/lg/1056915521.jpg",
+                "description": "Set de Construcción Lego DC Comics Flying fox ataque aéreo al Batimóvil",
+                "longDescription": ""
+              }, {
+                "id": "1086837311",
+                "image": "https://ss424.liverpool.com.mx/lg/1086837311.jpg",
+                "description": "Set Lego Minecraft Monumento oceánico",
+                "longDescription": ""
+              }, {
+                "id": "1062095985",
+                "image": "https://ss424.liverpool.com.mx/lg/1062095985.jpg",
+                "description": "Guarida Alcantarilla Mega Construx Tortugas Ninja",
+                "longDescription": ""
+              }, {
+                "id": "1086837273",
+                "image": "https://ss424.liverpool.com.mx/lg/1086837273.jpg",
+                "description": "Set de Construcción Garmabot Ultra Lego The Ninjago Movie",
+                "longDescription": ""
+              }, {
+                "id": "1079727683",
+                "image": "https://ss424.liverpool.com.mx/lg/1060845421.jpg",
+                "description": "Set de Construcción Lego Ninjago Movie jet del rayo",
+                "longDescription": ""
+              }, {
+                "id": "1074441005",
+                "image": "https://ss424.liverpool.com.mx/lg/1074441005.jpg",
+                "description": "Lego Batitanque Batman vs Killer Croc y Capitán Boomerang",
+                "longDescription": ""
+              }
+            ]},
+            {"info":{
+            "categoryid": "catst1858323",
+            "label": "Bicicletas",
+            "picture": "./assets/images/categorias/subcategorias/ninos/6ninios_constructibles.jpg",
+            "video":"","catid":"1060845464",
+            "navigationState": "bicicletas/N-35xb",
+            "colorfondo":"#0088ff"
+            },
+            "toys":[
+
+                {
+                "id": "1087177188",
+                "image": "https://ss424.liverpool.com.mx/lg/1087177188.jpg",
+                "description": "Bicicleta Turbo Racing R20 amarilla",
+                "longDescription": ""
+              }, {
+                "id": "1056953783",
+                "image": "https://ss424.liverpool.com.mx/lg/1056953783.jpg",
+                "description": "Triciclo Prinsel BMW 1200",
+                "longDescription": ""
+              }, {
+                "id": "1057855271",
+                "image": "https://ss424.liverpool.com.mx/lg/1057855271.jpg",
+                "description": "Triciclo Turbo Kinetic Sport Classic",
+                "longDescription": ""
+              }, {
+                "id": "1085818577",
+                "image": "https://ss424.liverpool.com.mx/lg/1085818577.jpg",
+                "description": "Globber Go Bike Bici de Equilibrio",
+                "longDescription": ""
+              }, {
+                "id": "38388886",
+                "image": "https://ss424.liverpool.com.mx/lg/38388886.jpg",
+                "description": "Apache Bicileyca Triciclo con Bastón",
+                "longDescription": ""
+              }, {
+                "id": "1072998789",
+                "image": "https://ss424.liverpool.com.mx/lg/1072998789.jpg",
+                "description": "Triciclo Prinsel Eclipse",
+                "longDescription": ""
+              }, {
+                "id": "1084706431",
+                "image": "https://ss424.liverpool.com.mx/lg/1084706431.jpg",
+                "description": "Bicicleta Turbo Deimos W R26",
+                "longDescription": ""
+              }, {
+                "id": "1084706449",
+                "image": "https://ss424.liverpool.com.mx/lg/1084706449.jpg",
+                "description": "Bicicleta Turbo TX 6.1 R26",
+                "longDescription": ""
+              }, {
+                "id": "1087202409",
+                "image": "https://ss424.liverpool.com.mx/lg/1087202409.jpg",
+                "description": "Bicicleta Pegable Lemon Bikes Dany",
+                "longDescription": ""
+              }
+            ]}
+            ]}
+          }
