@@ -1,0 +1,78 @@
+{
+  "categories": {
+    "category-main": [
+      {
+        "categoryid": "cat170634",
+        "label": "Juguetes para niños",
+        "picture": "http://media3.liverpool.com.mx/web/images/products/es_MX/lg/1017841161.jpg",
+        "navigationState": "/juguetes-de-nino/N-2hqi?format=json"
+      },
+      {
+        "categoryid": "cat170635",
+        "label": "Juguetes para niñas",
+        "picture": "http://media1.liverpool.com.mx/web/images/products/es_MX/lg/1023522060.jpg",
+        "navigationState": "/juguetes-de-nina/N-2hqw?format=json"
+      }
+    ],
+
+    "videoGames-1":[
+    {
+        "categoryid": "cat1020687",
+        "label": "PS3",
+        "picture": "http://media8.liverpool.com.mx/web/images/products/es_MX/lg/1030035115.jpg",
+        "navigationState": "/ps3/cat1020687?format=json"
+      },
+      {
+        "categoryid": "cat170622",
+        "label": "WII",
+        "picture": "http://media5.liverpool.com.mx/web/images/products/es_MX/lg/1035088161.jpg",
+        "navigationState": "/wii/cat21090001?format=json"
+      },
+      {
+        "categoryid": "cat940610",
+        "label": "XBOX",
+        "picture": "http://media4.liverpool.com.mx/web/images/products/es_MX/lg/1035534454.jpg",
+        "navigationState": "/xbox-360/cat940610?format=json"
+      },
+      {
+        "categoryid": "cat21090008",
+        "label": "PS4",
+        "picture": "http://media9.liverpool.com.mx/web/images/products/es_MX/lg/1018940554.jpg",
+        "navigationState": "/ps4/cat21090008?format=json"
+      }
+    ],
+    "videoGames-2":[
+      {
+        "categoryid": "cat860993",
+        "label": "WII U",
+        "picture": "http://media6.liverpool.com.mx/web/images/products/es_MX/lg/1031184947.jpg",
+        "navigationState": "/wii-u/cat860993?format=json"
+      },
+      {
+        "categoryid": "cat21100001",
+        "label": "XBOX ONE",
+        "picture": "http://media5.liverpool.com.mx/web/images/products/es_MX/lg/1036557601.jpg",
+        "navigationState": "/xbox-one/cat21100001?format=json"
+      },
+      {
+        "categoryid": "cat861002",
+        "label": "PS VITA",
+        "picture": "http://media8.liverpool.com.mx/web/images/products/es_MX/lg/1026899121.jpg",
+        "navigationState": "/ps-vita/cat861002?format=json"
+      },
+      {
+        "categoryid": "cat860992",
+        "label": "3DS",
+        "picture": "http://media4.liverpool.com.mx/web/images/products/es_MX/lg/1034512643.jpg",
+        "navigationState": "/3ds/cat860992?format=json"
+      },
+      {
+        "categoryid": "cat450009",
+        "label": "PREVENTA",
+        "picture": "http://media4.liverpool.com.mx/web/images/products/es_MX/lg/1025778169.jpg",
+        "navigationState": "/preventa/cat450009?format=json"
+      }
+    ]
+  }
+}
+

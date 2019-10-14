@@ -1,0 +1,144 @@
+{
+	"principal-banner":{
+        "picture": "./assets/images/categorias/03_bebes_art.png",
+        "patron":"./assets/images/categorias/03_patron_bebes.png",
+        "colorFondo":"#ff8c03",
+        "analytics":"bebes"
+	},
+	"categories": {
+		"category-main":[
+		  {
+			"info":{
+			"categoryid": "catst1857437",
+			"label": "Aprendizaje",
+			"picture": "./assets/images/categorias/subcategorias/bebes/1bbs_gimnacios_tapetes.jpg",
+			"video":"",
+			"catid":"1039322923",
+			"navigationState": "aprendizaje/N-35uf",
+            "colorfondo":"#96fe8b"
+			},
+			"toys":[
+{
+  "id": "1040811938",
+  "image": "https://ss424.liverpool.com.mx/lg/1040811938.jpg",
+  "description": "Tapete Armable Goplas Paw Patrol",
+  "longDescription": ""
+}, {
+  "id": "1069538475",
+  "image": "https://ss424.liverpool.com.mx/lg/1069538475.jpg",
+  "description": "Tapete Armable Goplas Disney Cars 3",
+  "longDescription": ""
+}, {
+  "id": "1086254235",
+  "image": "https://ss417.liverpool.com.mx/lg/1086254235.jpg",
+  "description": "Skip Hop Tapete Playspot",
+  "longDescription": ""
+}, {
+  "id": "1069538467",
+  "image": "https://ss417.liverpool.com.mx/lg/1069538467.jpg",
+  "description": "Skip Hop Gimnasio Explora y Más",
+  "longDescription": ""
+}, {
+  "id": "1069538459",
+  "image": "https://ss417.liverpool.com.mx/lg/1069538459.jpg",
+  "description": "Tiny Love Gimnasio Gymini Monkey Island",
+  "longDescription": ""
+}, {
+  "id": "1074385326",
+  "image": "https://ss413.liverpool.com.mx/lg/1074385326.jpg",
+  "description": "Centro de entretenimiento Infanti rosa",
+  "longDescription": ""
+}, {
+  "id": "1050151103",
+  "image": "https://ss413.liverpool.com.mx/lg/1050151103.jpg",
+  "description": "Centro de entretenimiento Infanti Web verde",
+  "longDescription": ""
+}, {
+  "id": "1079507152",
+  "image": "https://ss417.liverpool.com.mx/lg/1079507152.jpg",
+  "description": "Bright Starts Gimnasio Interactivo",
+  "longDescription": ""
+}, {
+  "id": "1057538925",
+  "image": "https://ss417.liverpool.com.mx/lg/1057538925.jpg",
+  "description": "Gimnasio Fisher Price Escenario Musical DFP69 unisex",
+  "longDescription": ""
+}, {
+  "id": "1067152812",
+  "image": "https://ss417.liverpool.com.mx/lg/1067152812.jpg",
+  "description": "Tapete Skip Hop Playspot Geo",
+  "longDescription": ""
+}			]
+		  },
+			{
+
+			"info":{
+			"categoryid": "catst1857461",
+			"label": "Construcción y Armables",
+			"picture": "./assets/images/categorias/subcategorias/bebes/6bbs_construccion.jpg",
+			"video":"",
+			"catid":"1040811636",
+			"navigationState": "construccion-y-armables/N-35ub",
+            "colorfondo":"#fce889"
+			},
+			"toys":[
+			{
+				"id": "1074493382",
+				"image": "https://ss424.liverpool.com.mx/lg/1074493382.jpg",
+				"description": "Lego Mickey y Minnie",
+				"longDescription": ""
+			}, {
+				"id": "1079337885",
+				"image": "https://ss424.liverpool.com.mx/lg/1079337885.jpg",
+				"description": "Lego Día Espacial de Rapunzel",
+				"longDescription": ""
+			}, {
+				"id": "1085522031",
+				"image": "https://ss424.liverpool.com.mx/lg/1085522031.jpg",
+				"description": "Mattel Puesto de Comida 2 en 1",
+				"longDescription": ""
+			}, {
+				"id": "1079337877",
+				"image": "https://ss424.liverpool.com.mx/lg/1079337877.jpg",
+				"description": "Lego Exotraje Flexible de Miles",
+				"longDescription": ""
+			}, {
+				"id": "1074493421",
+				"image": "https://ss424.liverpool.com.mx/lg/1074493421.jpg",
+				"description": "Lego El Desfile de Cumpleaños de Mickey y Minnie",
+				"longDescription": ""
+			}, {
+				"id": "1067704106",
+				"image": "https://ss424.liverpool.com.mx/lg/1067704106.jpg",
+				"description": "Mattel Carrera en la Jungla",
+				"longDescription": ""
+			}, {
+				"id": "1086209299",
+				"image": "https://ss424.liverpool.com.mx/lg/1086209299.jpg",
+				"description": "Lego El Taller de la Moto de Spider-Man",
+				"longDescription": ""
+			},
+			{
+				"id": "1055239670",
+				"image": "https://ss424.liverpool.com.mx/lg/1055239670.jpg",
+				"description": "Lego El Taller de la Moto de Spider-Man",
+				"longDescription": ""
+			},
+			{
+				"id": "1073922921",
+				"image": "https://ss424.liverpool.com.mx/lg/1073922921.jpg",
+				"description": "Lego El Taller de la Moto de Spider-Man",
+				"longDescription": ""
+			},
+			{
+				"id": "1074440611",
+				"image": "https://ss424.liverpool.com.mx/lg/1074440611.jpg",
+				"description": "Lego El Taller de la Moto de Spider-Man",
+				"longDescription": ""
+			}
+			]
+					}
+
+
+	  ]}
+	  }

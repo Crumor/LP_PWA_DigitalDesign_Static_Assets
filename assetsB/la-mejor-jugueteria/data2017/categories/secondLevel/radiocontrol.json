@@ -1,48 +1,46 @@
 {
-    "principal-banner": {
+    "principal-banner":{
         "picture": "./assets/images/categorias/05_radiocontrol_art.png",
-        "patron": "./assets/images/categorias/05_patron_radiocontrol.png",
-        "colorFondo": "#7b29e5",
-        "analytics": "radio-control"
+        "patron":"./assets/images/categorias/05_patron_radiocontrol.png",
+        "colorFondo":"#7b29e5",
+        "analytics":"radio-control"
     },
     "categories": {
-        "category-main": [{
-                "info": {
-                    "categoryid": "catst1858313",
-                    "label": "Automóviles",
-                    "picture": "./assets/images/categorias/subcategorias/radio-control/1radio_control_automovil.jpg",
-                    "video": "",
-                    "catid": "1054231411",
-                    "navigationState": "Automoviles/N-35us",
-                    "colorfondo": "#00ADF2"
-                },
-                "toys": [
+        "category-main":[
+          {
+            "info":{
+            "categoryid": "catst1858313",
+            "label": "Automóviles",
+            "picture": "./assets/images/categorias/subcategorias/radio-control/1radio_control_automovil.jpg",
+            "video":"","catid":"1054231411",
+            "navigationState": "Automoviles/N-35ut",
+            "colorfondo":"#00ADF2"
+            },
+            "toys":[
 
-                    { "id": "1057186727", "image": "https://ss424.liverpool.com.mx/lg/1057186727.jpg", "description": "Carros de Colección Mattel Fast & Furious", "longDescription": "" }, { "id": "1054231411", "image": "https://ss424.liverpool.com.mx/lg/1054231411.jpg", "description": "Vehículo Radio Control Tyco Terra Climber", "longDescription": "" }, { "id": "1056312851", "image": "https://ss425.liverpool.com.mx/lg/1056312851.jpg", "description": "Coche a Control Remoto Disney Collection Toy Story", "longDescription": "" }, { "id": "1060778252", "image": "https://ss610.liverpool.com.mx/lg/1060778252.jpg", "description": "Ultimate Lightning McQueen Sphero", "longDescription": "" }, { "id": "1047757262", "image": "https://ss424.liverpool.com.mx/lg/1047757262.jpg", "description": "Vehículo Matchbox cazador de tesoros", "longDescription": "" }, { "id": "1056312451", "image": "https://ss425.liverpool.com.mx/lg/1056312451.jpg", "description": "Disney Collection Carro a Control Remoto Rayo McQueen", "longDescription": "" }, { "id": "1058557818", "image": "https://ss424.liverpool.com.mx/lg/1058557818.jpg", "description": "Vehículo McQueen Mattel Cars 3 movimientos de Película", "longDescription": "" }
+                {"id":"1057186727","image":"https://ss424.liverpool.com.mx/lg/1057186727.jpg","description":"Carros de Colección Mattel Fast & Furious","longDescription":""},{"id":"1054231411","image":"https://ss424.liverpool.com.mx/lg/1054231411.jpg","description":"Vehículo Radio Control Tyco Terra Climber","longDescription":""},{"id":"1056312851","image":"https://ss425.liverpool.com.mx/lg/1056312851.jpg","description":"Coche a Control Remoto Disney Collection Toy Story","longDescription":""},{"id":"1060778252","image":"https://ss610.liverpool.com.mx/lg/1060778252.jpg","description":"Ultimate Lightning McQueen Sphero","longDescription":""},{"id":"1047757262","image":"https://ss424.liverpool.com.mx/lg/1047757262.jpg","description":"Vehículo Matchbox cazador de tesoros","longDescription":""},{"id":"1056312451","image":"https://ss425.liverpool.com.mx/lg/1056312451.jpg","description":"Disney Collection Carro a Control Remoto Rayo McQueen","longDescription":""},{"id":"1058557818","image":"https://ss424.liverpool.com.mx/lg/1058557818.jpg","description":"Vehículo McQueen Mattel Cars 3 movimientos de Película","longDescription":""}
+                ]       
+          },{
+          "info":{
+            "categoryid": "catst1858316",
+            "label": "Drones",
+            "picture": "./assets/images/categorias/subcategorias/radio-control/2radio_control_dron.jpg",
+            "video":"","catid":"1056862354",
+            "navigationState": "drones/N-35uu",
+            "colorfondo":"#ffa300"
+            },
+            "toys":[
+        {"id":"1047500628","image":"https://ss610.liverpool.com.mx/lg/1047500628.jpg","description":"DJI Drone Phantom 3 Standard ","longDescription":""},
+        {"id":"1056861510","image":"https://ss610.liverpool.com.mx/lg/1056861510.jpg","description":"Cámara DJI Zenmuse X4S","longDescription":""},
+        {"id":"1061222517","image":"https://ss610.liverpool.com.mx/lg/1061222517.jpg","description":"Drone DJI Phantom 3 SE","longDescription":""},
+        {"id":"1052901533","image":"https://ss610.liverpool.com.mx/lg/1052901533.jpg","description":"DJI Drone Mavic Pro","longDescription":""},
+        {"id":"1059266701","image":"https://ss610.liverpool.com.mx/lg/1059266701.jpg","description":"Drone DJI Phantom 4 Advanced","longDescription":""},
+        {"id":"1054240704","image":"https://ss610.liverpool.com.mx/lg/1054240704.jpg","description":"Drone DJI Phantom 4 Pro+","longDescription":""},
+        {"id":"1054240691","image":"https://ss610.liverpool.com.mx/lg/1054240691.jpg","description":"Drone DJI Phantom 4 Pro","longDescription":""},
+        {"id":"1056861480","image":"https://ss610.liverpool.com.mx/lg/1056861480.jpg","description":"Drone DJI Inspire 2","longDescription":""},
+        {"id":"1056062455","image":"https://ss610.liverpool.com.mx/lg/1056062455.jpg","description":"Drone DJI Inspire 1 Raw Zenmuse X5R","longDescription":""}
                 ]
-            }, {
-                "info": {
-                    "categoryid": "catst1858316",
-                    "label": "Drones",
-                    "picture": "./assets/images/categorias/subcategorias/radio-control/2radio_control_dron.jpg",
-                    "video": "",
-                    "catid": "1056862354",
-                    "navigationState": "drones/N-39wy",
-                    "colorfondo": "#ffa300"
-                },
-                "toys": [
-                    { "id": "1047500628", "image": "https://ss610.liverpool.com.mx/lg/1047500628.jpg", "description": "DJI Drone Phantom 3 Standard ", "longDescription": "" },
-                    { "id": "1056861510", "image": "https://ss610.liverpool.com.mx/lg/1056861510.jpg", "description": "Cámara DJI Zenmuse X4S", "longDescription": "" },
-                    { "id": "1061222517", "image": "https://ss610.liverpool.com.mx/lg/1061222517.jpg", "description": "Drone DJI Phantom 3 SE", "longDescription": "" },
-                    { "id": "1052901533", "image": "https://ss610.liverpool.com.mx/lg/1052901533.jpg", "description": "DJI Drone Mavic Pro", "longDescription": "" },
-                    { "id": "1059266701", "image": "https://ss610.liverpool.com.mx/lg/1059266701.jpg", "description": "Drone DJI Phantom 4 Advanced", "longDescription": "" },
-                    { "id": "1054240704", "image": "https://ss610.liverpool.com.mx/lg/1054240704.jpg", "description": "Drone DJI Phantom 4 Pro+", "longDescription": "" },
-                    { "id": "1054240691", "image": "https://ss610.liverpool.com.mx/lg/1054240691.jpg", "description": "Drone DJI Phantom 4 Pro", "longDescription": "" },
-                    { "id": "1056861480", "image": "https://ss610.liverpool.com.mx/lg/1056861480.jpg", "description": "Drone DJI Inspire 2", "longDescription": "" },
-                    { "id": "1056062455", "image": "https://ss610.liverpool.com.mx/lg/1056062455.jpg", "description": "Drone DJI Inspire 1 Raw Zenmuse X5R", "longDescription": "" }
-                ]
-            }
-
-        ]
-    }
-}
+            }   
+            
+      ]}
+      }

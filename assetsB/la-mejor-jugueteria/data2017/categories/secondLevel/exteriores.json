@@ -1,51 +1,50 @@
 {
-    "principal-banner": {
+	"principal-banner":{
         "picture": "./assets/images/categorias/09_juegosexterior_art.png",
-        "patron": "./assets/images/categorias/09_patron_juegosexterior.png",
-        "colorFondo": "#8dc63f",
-        "analytics": "exteriores"
-    },
+        "patron":"./assets/images/categorias/09_patron_juegosexterior.png",
+        "colorFondo":"#8dc63f",
+        "analytics":"exteriores"
+	},
 
-    "categories": {
-        "category-main": [{
-            "info": {
-                "categoryid": "catst1857468",
-                "label": "Juegos de Jardín",
-                "picture": "./assets/images/categorias/subcategorias/exteriores/1exteriores_juegos_de_jardin.jpg",
-                "video": "",
-                "catid": "1060379218",
-                "navigationState": "Juegos-de-Jardin/N-35vg",
-                "colorfondo": "#c1fc64"
-            },
-            "toys": [
-                { "id": "1048587557", "image": "https://ss424.liverpool.com.mx/lg/1048587557.jpg", "description": "Set de Juego Hamster House Zuru", "longDescription": "" }, { "id": "1059323519", "image": "https://ss424.liverpool.com.mx/lg/1059323519.jpg", "description": "Pelota Super Wubble Brite", "longDescription": "" }, { "id": "1062074686", "image": "https://ss424.liverpool.com.mx/lg/1062074686.jpg", "description": "Set Arena transformable Bob the Builder", "longDescription": "" }, { "id": "1059323012", "image": "https://ss424.liverpool.com.mx/lg/1059323012.jpg", "description": "Pelota Tiny Wubble roja", "longDescription": "" }, { "id": "1059323501", "image": "https://ss424.liverpool.com.mx/lg/1059323501.jpg", "description": "Pelota Super Wubble Bubble Ball", "longDescription": "" }, { "id": "1058418664", "image": "https://ss201.liverpool.com.mx/lg/1058418664.jpg", "description": "Trampolín Z-Gravity TR-12C", "longDescription": "" }, { "id": "1058415843", "image": "https://ss201.liverpool.com.mx/lg/1058415843.jpg", "description": "Trampolín Z-Gravity TR-10C", "longDescription": "" }, { "id": "1058416432", "image": "https://ss201.liverpool.com.mx/lg/1058416432.jpg", "description": "Trampolín Z-Gravity TR-8C", "longDescription": "" }, { "id": "1053784514", "image": "https://ss424.liverpool.com.mx/lg/1053784514.jpg", "description": "Bat Bunchoo Balloons Zuru", "longDescription": "" }, { "id": "1053784492", "image": "https://ss424.liverpool.com.mx/lg/1053784492.jpg", "description": "Lanzadores Zuru Buncho Ballons", "longDescription": "" }
-            ]
-        }, {
-            "info": {
-                "categoryid": "catst1857472",
-                "label": "Casas",
-                "picture": "./assets/images/categorias/subcategorias/exteriores/3exteriores_accesorios.jpg",
-                "video": "",
-                "catid": "",
-                "navigationState": "Casas/N-35vg",
-                "colorfondo": "#ff505b"
-            },
-            "toys": [
-                { "id": "1055346280", "image": "https://ss356.liverpool.com.mx/lg/1055346280.jpg", "description": "Casa infantil That's It gris", "longDescription": "" }, { "id": "1020283552", "image": "https://ss424.liverpool.com.mx/lg/1020283552.jpg", "description": "Step 2 Cocinita Area de Juego Grand Walk-In Parrilla", "longDescription": "" }
-            ]
-        }, {
-            "info": {
-                "categoryid": "catst1857473",
-                "label": "Accesorios",
-                "picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_exteriores_ac.jpg",
-                "pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_bg_exteriores_ac.jpg",
-                "tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_jugueteairelibre_ac.png",
-                "navigationState": "Accesorios/N-35vg",
-                "colorfondo": "#00d0fe"
-            },
-            "toys": [
-                { "id": "1059323888", "image": "https://ss424.liverpool.com.mx/lg/1059323888.jpg", "description": "Pelota Super Wubble Brite NSI con luces", "longDescription": "" }, { "id": "1058438754", "image": "https://ss424.liverpool.com.mx/lg/1058438754.jpg", "description": "Set de Protecciones Disney Soy Luna Ámbar", "longDescription": "" }, { "id": "1058438738", "image": "https://ss424.liverpool.com.mx/lg/1058438738.jpg", "description": "Set de Protecciones Disney Soy Luna Original", "longDescription": "" }, { "id": "1059291510", "image": "https://ss424.liverpool.com.mx/lg/1059291510.jpg", "description": "Equipo de Protección Goplas Disney Cars", "longDescription": "" }, { "id": "1059319937", "image": "https://ss424.liverpool.com.mx/lg/1059319937.jpg", "description": "Set de Chalecos Discovery Kids Juego de Agua", "longDescription": "" }, { "id": "1053384702", "image": "https://ss424.liverpool.com.mx/lg/1053384702.jpg", "description": "View-Master Realidad Virtual Kit de Experiencia Dinosaurios", "longDescription": "" }, { "id": "1043876500", "image": "https://ss424.liverpool.com.mx/lg/1043876500.jpg", "description": "Bunch O Balloons 3 Pack", "longDescription": "" }, { "id": "1035141789", "image": "https://ss424.liverpool.com.mx/lg/1035141789.jpg", "description": "Hasbro Nerf Rebelle Arrow Refill", "longDescription": "" }, { "id": "1030452611", "image": "https://ss424.liverpool.com.mx/lg/1030452611.jpg", "description": "Goplas Equipo de Protección de Frozen", "longDescription": "" }, { "id": "1026237641", "image": "https://ss424.liverpool.com.mx/lg/1026237641.jpg", "description": "Mi Villano Favorito Pelota Saltarina de Minios", "longDescription": "" }
-            ]
-        }]
-    }
-}
+	"categories": {
+		"category-main":[
+		  {
+			"info":{
+			"categoryid": "catst1857468",
+			"label": "Juegos de Jardín",
+        	"picture": "./assets/images/categorias/subcategorias/exteriores/1exteriores_juegos_de_jardin.jpg",
+        	"video":"","catid":"1060379218",
+			"navigationState": "Juegos-de-Jardin/N-35vh",
+            "colorfondo":"#c1fc64"
+			},
+			"toys":[
+			{"id":"1048587557","image":"https://ss424.liverpool.com.mx/lg/1048587557.jpg","description":"Set de Juego Hamster House Zuru","longDescription":""},{"id":"1059323519","image":"https://ss424.liverpool.com.mx/lg/1059323519.jpg","description":"Pelota Super Wubble Brite","longDescription":""},{"id":"1062074686","image":"https://ss424.liverpool.com.mx/lg/1062074686.jpg","description":"Set Arena transformable Bob the Builder","longDescription":""},{"id":"1059323012","image":"https://ss424.liverpool.com.mx/lg/1059323012.jpg","description":"Pelota Tiny Wubble roja","longDescription":""},{"id":"1059323501","image":"https://ss424.liverpool.com.mx/lg/1059323501.jpg","description":"Pelota Super Wubble Bubble Ball","longDescription":""},{"id":"1058418664","image":"https://ss201.liverpool.com.mx/lg/1058418664.jpg","description":"Trampolín Z-Gravity TR-12C","longDescription":""},{"id":"1058415843","image":"https://ss201.liverpool.com.mx/lg/1058415843.jpg","description":"Trampolín Z-Gravity TR-10C","longDescription":""},{"id":"1058416432","image":"https://ss201.liverpool.com.mx/lg/1058416432.jpg","description":"Trampolín Z-Gravity TR-8C","longDescription":""},{"id":"1053784514","image":"https://ss424.liverpool.com.mx/lg/1053784514.jpg","description":"Bat Bunchoo Balloons Zuru","longDescription":""},{"id":"1053784492","image":"https://ss424.liverpool.com.mx/lg/1053784492.jpg","description":"Lanzadores Zuru Buncho Ballons","longDescription":""}
+				]		
+		  },{
+		  "info":{
+			"categoryid": "catst1857472",
+			"label": "Casas",
+        	"picture": "./assets/images/categorias/subcategorias/exteriores/3exteriores_accesorios.jpg",
+        	"video":"","catid":"",
+			"navigationState": "Casas/N-35vj",
+            "colorfondo":"#ff505b"
+			},
+			"toys":[
+{"id":"1055346280","image":"https://ss356.liverpool.com.mx/lg/1055346280.jpg","description":"Casa infantil That's It gris","longDescription":""},{"id":"1020283552","image":"https://ss424.liverpool.com.mx/lg/1020283552.jpg","description":"Step 2 Cocinita Area de Juego Grand Walk-In Parrilla","longDescription":""}
+			]
+			},{
+		"info":{
+			"categoryid": "catst1857473",
+			"label": "Accesorios",
+			"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_exteriores_ac.jpg",
+			"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_bg_exteriores_ac.jpg",
+			"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_jugueteairelibre_ac.png",
+			"navigationState": "Accesorios/N-35vk",
+            "colorfondo":"#00d0fe"
+			},
+			"toys":[
+			{"id":"1059323888","image":"https://ss424.liverpool.com.mx/lg/1059323888.jpg","description":"Pelota Super Wubble Brite NSI con luces","longDescription":""},{"id":"1058438754","image":"https://ss424.liverpool.com.mx/lg/1058438754.jpg","description":"Set de Protecciones Disney Soy Luna Ámbar","longDescription":""},{"id":"1058438738","image":"https://ss424.liverpool.com.mx/lg/1058438738.jpg","description":"Set de Protecciones Disney Soy Luna Original","longDescription":""},{"id":"1059291510","image":"https://ss424.liverpool.com.mx/lg/1059291510.jpg","description":"Equipo de Protección Goplas Disney Cars","longDescription":""},{"id":"1059319937","image":"https://ss424.liverpool.com.mx/lg/1059319937.jpg","description":"Set de Chalecos Discovery Kids Juego de Agua","longDescription":""},{"id":"1053384702","image":"https://ss424.liverpool.com.mx/lg/1053384702.jpg","description":"View-Master Realidad Virtual Kit de Experiencia Dinosaurios","longDescription":""},{"id":"1043876500","image":"https://ss424.liverpool.com.mx/lg/1043876500.jpg","description":"Bunch O Balloons 3 Pack","longDescription":""},{"id":"1035141789","image":"https://ss424.liverpool.com.mx/lg/1035141789.jpg","description":"Hasbro Nerf Rebelle Arrow Refill","longDescription":""},{"id":"1030452611","image":"https://ss424.liverpool.com.mx/lg/1030452611.jpg","description":"Goplas Equipo de Protección de Frozen","longDescription":""},{"id":"1026237641","image":"https://ss424.liverpool.com.mx/lg/1026237641.jpg","description":"Mi Villano Favorito Pelota Saltarina de Minios","longDescription":""}
+				]
+			}				
+	  ]}
+	  }
