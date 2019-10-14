@@ -19,12 +19,12 @@
                         $scope.resultados = [];
                         word = w;
                         iv.typeahead.setMostrar(false);
-                        iv.typeahead.buscar(word,function(){                          
+                        iv.typeahead.buscar(word,function(){
                             if(word!==""){
                                 $scope.resultados = iv.typeahead.getResultado() || [];
                                 iv.typeahead.setMostrar(true)
                             }
-                        
+
                         });
                      }
                  };
@@ -48,7 +48,9 @@
                  }
                  /*al presionar buscar*/
                  $scope.irAresultado=function(){
+                  // console.log($scope.inpuBuscar);
                     irResultados($scope.inputBuscar);
+
                  }
                  /*al presionar cualquier resultado*/
                  $scope.irAresultadoOpcion = function(busqueda){
@@ -59,12 +61,9 @@
                     iv.typeahead.setMostrar(false);
                     $scope.inputBuscar = "";
                  }
-               
+
              }
         };
     };
-   
-})(); 
 
-
- 
+})();

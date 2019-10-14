@@ -8,31 +8,31 @@
     </div>
     <div class="row" ng-hide="loaded" >
         <div class="col-8 col-lg-8" style="margin:0 auto; float:none;">
-            <!--Main Slider Container--> <!--Main Slider Container--> <!--Main Slider Container--> 
-            <div class="slider-container"> 
-                <!--Main Slider Start--> 
-                <div id="slider" class="slider owl-carousel"> 
-                    <div class="item"> 
-                         <div class="content"> 
-                            <img ng-src="{{imagenAux}}" class="img-responsive"/> 
-                        </div> 
-                    </div> 
-                    <div class="item" ng-repeat="i in vm.producto.images"> 
-                         <div class="content"> 
-                            <img ng-src="{{i}}" class="img-responsive" style="width:90%;"/> 
-                        </div> 
-                    </div> 
-                    <!--Repeat the below item to add more items in slider--> 
-                </div> 
+            <!--Main Slider Container--> <!--Main Slider Container--> <!--Main Slider Container-->
+            <div class="slider-container">
+                <!--Main Slider Start-->
+                <div id="slider" class="slider owl-carousel">
+                    <div class="item">
+                         <div class="content">
+                            <img ng-src="{{imagenAux}}" class="img-responsive"/>
+                        </div>
+                    </div>
+                    <div class="item" ng-repeat="i in vm.producto.images">
+                         <div class="content">
+                            <img ng-src="{{i}}" class="img-responsive" style="width:90%;"/>
+                        </div>
+                    </div>
+                    <!--Repeat the below item to add more items in slider-->
+                </div>
                 <!--Main Slider End-->
-                <!--Navigation Links For the Main Items--> 
-                <div class="slider-controls" ng-if="vm.producto.images.length !=0"> 
-                    <a class="slider-left" href="javascript:;"><span><i class="icon-flecha_gruesa_izq mod-arrow-left"></i></span></a> 
-                    <a class="slider-right" href="javascript:;"><span><i class="icon-flecha_gruesa_derecha mod-arrow-right"></i></span></a> 
-                </div> 
+                <!--Navigation Links For the Main Items-->
+                <div class="slider-controls" ng-if="vm.producto.images.length !=0">
+                    <a class="slider-left" href="javascript:;"><span><i class="icon-flecha_gruesa_izq mod-arrow-left"></i></span></a>
+                    <a class="slider-right" href="javascript:;"><span><i class="icon-flecha_gruesa_derecha mod-arrow-right"></i></span></a>
+                </div>
             </div>
-            <!--Thumbnail slider container--> 
-            <div class="thumbnail-slider-container"> 
+            <!--Thumbnail slider container-->
+            <div class="thumbnail-slider-container">
                 <div class="thumbnail-slider-flex" ng-if="vm.producto.images.length <= 8">
                      <div class="itemThumb" ng-click="goToSlider(-1)" ng-class="{'active':indexActive===-1}">
                         <img ng-src="{{imagenAux}}" class="img-responsive"/>
@@ -41,15 +41,15 @@
                         <img ng-src="{{it}}" class="img-responsive"/>
                     </div>
                 </div>
-                <!--Thumbnail Slider End--> 
+                <!--Thumbnail Slider End-->
             </div>
             <!--Main Slider End--><!--Main Slider End--><!--Main Slider End--><!--Main Slider End-->
             <div class="contentPDP">
                 <h3 class="title-pdp-mobo" ng-bind="vm.producto.description"></h3>
                 <agregar-pedidos producto="vm.producto" class="agregar-pedido-top10"></agregar-pedidos>
                 <h4 class="titleDescriptionPdp text-left">DESCRIPCIÓN</h4>
-                <p class="text-justify p-text-longdescription-pdp" ng-bind-html="vm.producto.longDescription"></p>
-            </div>             
+                 <p class="text-justify p-text-longdescription-pdp" ng-bind-html="vm.producto.longDescription"></p>
+            </div>
             <div class="row" ng-show="loaded">
                 <div class="col-md-12 col-xs-12">
                     <div style="position:relative;margin:0 auto; width:187px;">

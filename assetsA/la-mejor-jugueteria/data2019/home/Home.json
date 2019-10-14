@@ -1,0 +1,21 @@
+{
+    "categories": {
+        "category-main": [{
+            "info": {
+                "categoryid": "cat170634",
+                "label": "Top 10",
+                "picture": "http://media3.liverpool.com.mx/web/images/products/es_MX/lg/1017841161.jpg",
+                "navigationState": ""
+            },
+            "toys": [
+                { "id": "1085809730", "idOriginal": "1085809730", "image": "https://ss424.liverpool.com.mx/xl/1074021626.jpg", "description": "Montable Mi Precioso Unicornio Feber", "longDescription": "si" },
+                { "id": "1070747525", "idOriginal": "1070747525", "image": "https://ss424.liverpool.com.mx/xl/1070747525.jpg", "description": "Dinosaurio Tyrannosaurus Rex Mattel Jurassic World", "longDescription": "no" },
+                { "id": "1085218731", "idOriginal": "1085218731", "image": "https://ss424.liverpool.com.mx/xl/1085218731.jpg", "description": "Set de Construcción Mundo del Revés Lego Stranger Things", "longDescription": "no" },
+                { "id": "1085296732", "idOriginal": "1085296732", "image": "https://ss424.liverpool.com.mx/xl/1085296732.jpg", "description": "Juego de Mesa Risk Edición 60 Años Hasbro Gaming", "longDescription": "no" },
+                { "id": "1085354945", "idOriginal": "1085354945", "image": "https://ss424.liverpool.com.mx/xl/1074441099.jpg", "description": "Set de Construcción Tren de Pasajeros Lego", "longDescription": "si" },
+                { "id": "1084139064", "idOriginal": "1084139064", "image": "https://ss425.liverpool.com.mx/xl/1068416597.jpg", "description": "Set Castillo que se Ilumina Disney Collection", "longDescription": "no" },
+                { "id": "1085468886", "idOriginal": "1085468886", "image": "https://ss628.liverpool.com.mx/xl/1051684652.jpg", "description": "Tablet Samsung Galaxy Tab A 10.1 Pulgadas 16 GB", "longDescription": "no" }
+                ]
+        }]
+    }
+}

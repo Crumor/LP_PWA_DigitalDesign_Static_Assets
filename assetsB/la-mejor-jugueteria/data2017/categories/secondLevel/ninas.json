@@ -10,17 +10,24 @@
 	"category-main": [
 	  {
 		"info":{
-		"categoryid": "catst1857474",
+		"categoryid": "catst13886215",
 		"label": "Muñecas y accesorios",
 		"picture": "./assets/images/categorias/subcategorias/ninas/1ninas_munecas_y_accesorios.jpg",
-		"video":"","catid":"1056809500",
+		"video":"","catid":"13886131",
 		"navigationState": "munecas-y-accesorios/N-35tl",
 		"colorfondo":"#00c3d5"
 		},
 		"toys":[
-		{"id":"1056809500","image":"https://ss424.liverpool.com.mx/lg/1056809500.jpg","description":"Muñeca Barbie Dreamtopía Princesa","longDescription":""},{"id":"1051237524","image":"https://ss424.liverpool.com.mx/lg/1051237524.jpg","description":"Muñeca Wellie Wishers Jillian","longDescription":""},{"id":"1051237567","image":"https://ss424.liverpool.com.mx/lg/1051237567.jpg","description":"Muñeca Wellie Wishers Emerson","longDescription":""},{"id":"1058028408","image":"https://ss425.liverpool.com.mx/lg/1058028408.jpg","description":"Muñeca Disney Collection Aurora","longDescription":""},{"id":"1060533268","image":"https://ss424.liverpool.com.mx/lg/1060533268.jpg","description":"Set Día de Campo Spin Master Masha and the Bear","longDescription":""},{"id":"1059119342","image":"https://ss424.liverpool.com.mx/lg/1059119342.jpg","description":"Set de Juego Barbie y los delfines mágicos","longDescription":""},{"id":"1060350384","image":"https://ss424.liverpool.com.mx/lg/1060350384.jpg","description":"Muñeca Mattel DC Superhero Girls Batgirl","longDescription":""},{"id":"1060501854","image":"https://ss425.liverpool.com.mx/lg/1060501854.jpg","description":"Muñeca Ariel Cantante Disney Collection","longDescription":""},{"id":"1060502788","image":"https://ss425.liverpool.com.mx/lg/1060502788.jpg","description":"Castillo Disney Collection Frozen","longDescription":""}
-
-		]
+		{"id":"1087081881","image":"https://ss424.liverpool.com.mx/xl/1087081881.jpg","description":"Set de Muñecas Disney Ralph Wi-Fi","longDescription":""},
+		{"id":"1086935470","image":"https://ss424.liverpool.com.mx/lg/1086935470.jpg","description":"Muñeca Ksimerito Chiken Pops","longDescription":""},
+		{"id":"1085577961","image":"https://ss424.liverpool.com.mx/lg/1085577961.jpg","description":"Set Súper Colección de Modas Polly Pocketn","longDescription":""},
+		{"id":"1073329953","image":"https://ss425.liverpool.com.mx/lg/1073329953.jpg","description":"Set Casa de Juegos Peppa Pig Bandai","longDescription":""},
+		{"id":"1085577723","image":"https://ss424.liverpool.com.mx/lg/1085577723.jpg","description":"Set de Muñeca Limusina de Hermanas Barbie","longDescription":""},
+		{"id":"1059507938","image":"https://ss424.liverpool.com.mx/lg/1059507938.jpg","description":"Bebé Ksimerito Chivatita Distroller","longDescription":""},
+		{"id":"1085287610","image":"https://ss424.liverpool.com.mx/lg/1085287610.jpg","description":"Bebé Ksimerito Asoleado Distroller lila","longDescription":""},
+		{"id":"1085421502","image":"https://ss425.liverpool.com.mx/lg/1085421502.jpg","description":"Set Slime Surprise Pooey Puitton Ruz Poopsie","longDescription":""},
+		{"id":"1073922522","image":"https://ss425.liverpool.com.mx/lg/1073922522.jpg","description":"Set Ambulancia y Hospital Barbie","longDescription":""},
+		{"id":"1086718304","image":"https://ss425.liverpool.com.mx/lg/1086718304.jpg","description":"Muñeca Reina Dragona Disney Descendants","longDescription":""}]
 		},{
 		"info":{
 		"categoryid": "catst1857479",
@@ -32,8 +39,16 @@
 		"colorfondo":"#ffa600"
 		},
 		"toys":[
-			{"id":"1056704724","image":"https://ss424.liverpool.com.mx/lg/1056704724.jpg","description":"Estuche de Maquillaje Distroller","longDescription":""},{"id":"1059266469","image":"https://ss424.liverpool.com.mx/lg/1059266469.jpg","description":"Set de Maquillaje Famosa Project MC2","longDescription":""},{"id":"1054131085","image":"https://ss424.liverpool.com.mx/lg/1054131085.jpg","description":"Bálsamos Labiales Creativity for Kids","longDescription":""},{"id":"1059266451","image":"https://ss424.liverpool.com.mx/lg/1059266451.jpg","description":"Set de Uñas Famosa Project MC2","longDescription":""},{"id":"1036065334","image":"https://ss424.liverpool.com.mx/lg/1036065334.jpg","description":"Creativity For Kids Manicure Brillante","longDescription":""},{"id":"1035512281","image":"https://ss424.liverpool.com.mx/lg/1035512281.jpg","description":"Alex Toys Kit de Joyería Ultimate Pixel ","longDescription":""},{"id":"1030288242","image":"https://ss424.liverpool.com.mx/lg/1030288242.jpg","description":"Alex Toys Lo Último en Accesorios para el Cabello ","longDescription":""},{"id":"1030288234","image":"https://ss424.liverpool.com.mx/lg/1030288234.jpg","description":"Set de Pulseras para Tejer Alex Toys Friendship Bracelet Party","longDescription":""},{"id":"1016780703","image":"https://ss424.liverpool.com.mx/lg/1016780703.jpg","description":"Set de Pulseras para Tejer Alex Toys Cobra","longDescription":""},{"id":"1029033206","image":"https://ss424.liverpool.com.mx/lg/1029033206.jpg","description":"Creativity For Kids Diademas de Moda","longDescription":""}
-		]
+			{"id":"1085468665","image":"https://ss424.liverpool.com.mx/lg/1085468665.jpg","description":"Set Creación de Pulseras Alex Toys Boho Bands","longDescription":""},
+			{"id":"1085468673","image":"https://ss424.liverpool.com.mx/lg/1085468673.jpg","description":"Set Creación de Pulseras Alex Toys I Charm","longDescription":""},
+			{"id":"1085468681","image":"https://ss424.liverpool.com.mx/lg/1085468681.jpg","description":"Set de Cuerdas Alex Toys Sweet Heart Art","longDescription":""},
+			{"id":"1082210781","image":"https://ss424.liverpool.com.mx/lg/1082210781.jpg","description":"Set Pulseras y Donitas Mi Alegría","longDescription":""},
+			{"id":"1084100273","image":"https://ss424.liverpool.com.mx/lg/1084100273.jpg","description":"Set Pulseras 2 en 1 Joyería Oro Rosa Tasia So Beads","longDescription":""},
+			{"id":"1084100222","image":"https://ss424.liverpool.com.mx/lg/1084100222.jpg","description":"Set Pulseras Deluxe Loome Tasia So You","longDescription":""},
+			{"id":"1087797631","image":"https://ss424.liverpool.com.mx/lg/1087797631.jpg","description":"Set Go Glam Cool Maker","longDescription":""},
+			{"id":"1056704724","image":"https://ss424.liverpool.com.mx/lg/1056704724.jpg","description":"Estuche de Maquillaje Distroller","longDescription":""},
+			{"id":"1074671078","image":"https://ss424.liverpool.com.mx/lg/1074671078.jpg","description":"Pulseras de Moda Cool Maker Kumi Kreator Spin Master","longDescription":""},
+			{"id":"1087797623","image":"https://ss424.liverpool.com.mx/lg/1087797623.jpg","description":"Set Estudio Kumi 2 en 1 Cool Maker","longDescription":""}]
 		},{
 		"info":{
 		"categoryid": "catst1857484",
@@ -50,8 +65,8 @@
 
 				]
 		},{
-		
-		
+
+
 		"info":{
 
 		"categoryid": "catst1857485",
@@ -99,8 +114,8 @@
 		{"id":"1060844930","image":"https://ss424.liverpool.com.mx/lg/1060844930.jpg","description":"Set de Construcción Boutique Minnie Mouse Lego Duplo Disney","longDescription":""},{"id":"1060845197","image":"https://ss424.liverpool.com.mx/lg/1060845197.jpg","description":"Set Lego Friends Remolque de la lancha de Andrea","longDescription":""},{"id":"1060845243","image":"https://ss424.liverpool.com.mx/lg/1060845243.jpg","description":"Set Lego Friends Estación de esquí: Cabaña","longDescription":""},{"id":"1052029135","image":"https://ss424.liverpool.com.mx/lg/1052029135.jpg","description":"Playmobil Princess Maletín Caballo Fantasía","longDescription":""},{"id":"1060845201","image":"https://ss424.liverpool.com.mx/lg/1060845201.jpg","description":"Set Lego Friends Catamarán de verano","longDescription":""},{"id":"1055225601","image":"https://ss424.liverpool.com.mx/lg/1055225601.jpg","description":"Lego Pasteles de Amistad de Stephanie","longDescription":""},{"id":"1050599198","image":"https://ss424.liverpool.com.mx/lg/1050599198.jpg","description":"Lego Castillo Encantado de Bella","longDescription":""},{"id":"1047021916","image":"https://ss424.liverpool.com.mx/lg/1047021916.jpg","description":"Playmobil Maletín Fashion Design","longDescription":""},{"id":"1060845502","image":"https://ss424.liverpool.com.mx/lg/1060845502.jpg","description":"Set Lego DC Super Hero Girls Palacio oscuro de Eclipso","longDescription":""},{"id":"1060845235","image":"https://ss424.liverpool.com.mx/lg/1060845235.jpg","description":"Set Lego Friends Estación de esquí: Pista de hielo","longDescription":""}
 
 				]
-		}	
-			
-		
+		}
+
+
 	  ]}
 	  }

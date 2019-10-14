@@ -15,30 +15,14 @@
                 <etiqueta-categoria categoria="idCategoria" label="{{banner.label}}" width="dimension"></etiqueta-categoria>
             </div>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 bannerImgMobile" ng-click="irDetalle(banner.catid)">
-            <figure class=" bannerMobile hidden-lg hidden-sm hidden-md">
-                <img class="img-responsive" ng-src="{{banner.picture}}"/>
-
-            </figure>
-        </div>
     </div>
     <div class="row rowContentMobile">
         <div class="col-md-12 col-sm-12 col-xs-12 p-r-0 p-l-0">
             <ul class="gridPlp">
-                <li id="vide" class="itemPlp firstElement video" ng-if="firstItemType === 'video'">
-
-                </li>
-                <li class="itemPlp firstElement hidden-xs" ng-if="firstItemType == 'image'" ng-click="irDetalle(banner.catid)">
-
-                    <figure>
-                        <img  ng-src="{{banner.picture}}"/>
-
-                    </figure>
-                </li>
                 <li class="itemPlp"  ng-repeat="iCategory in subcategorias">
                     <figure class="itemFigure">
                         <a href="#/detalle/{{iCategory.id}}" >
-                            <img  lazy-src="{{iCategory.imageSm}}" lazy-load/>
+                            <img  lazy-src="{{iCategory.imageBg}}" lazy-load/>
                             <p class="loader_generic"></p>
                             <figcaption>{{iCategory.description}}</figcaption>
                         </a>
@@ -61,11 +45,11 @@
     </div>
     <div class="row">
         <div class="col-md-12 pleca-micarta hidden-xs">
-             <i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a los Reyes Magos!</i>
+             <i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
             <button type="button" class="btn-ir-micarta" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
         <div class="col-md-12 pleca-micarta-mobil hidden-lg hidden-sm">
-             <div><i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a los Reyes Magos!</i></div>
+             <div><i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
             <button type="button" class="btn-ir-micarta-mobil" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
     </div>
