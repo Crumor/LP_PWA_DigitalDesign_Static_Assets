@@ -4,14 +4,13 @@
     function categoriaController( $scope, serviceProducto, $routeParams,$location,$timeout ){
         $scope.categorias = [];
         $scope.idCategoria = "";
-        
+
         // $scope
         $scope.loaded = true;
         $scope.banner = null;
         if( $routeParams.hasOwnProperty("categoria") ){
-
             serviceProducto.getCategoria( $routeParams.categoria, function( data ){
-                
+                console.log('es aqui');
                 if( data.success ){
                     $scope.banner = data.data.principal;
                     $scope.idCategoria = $routeParams.categoria;
@@ -42,16 +41,18 @@
         var _data = [];
         $scope.banner = {};
         if( $routeParams.hasOwnProperty("categoria") && $routeParams.hasOwnProperty("subcategoria")){
-           
+          console.log('categoria -- >', $routeParams.categoria);
             serviceProducto.getSubCategoria( $routeParams.categoria,$routeParams.subcategoria,pageActual, function( data ){
                 _data= data;
                 if( _data.success ){
+                  console.log(_data);
                     $scope.label = _data.data.principal.label;
                     $scope.banner = _data.data.principal;
                     $scope.fondo =  _data.data.principal.hasOwnProperty("colorfondo") ? _data.data.principal.colorfondo: "" ;
                     $scope.idCategoria = $routeParams.categoria;
-                    serviceProducto.getSubSubCategoria( _data.data.principal.navigationState, pageActual, responseSubSubCategoria);
-                    
+                    console.log(_data.data);
+                    serviceProducto.getSubSubCategoria( _data.data.principal.categoryid, pageActual, responseSubSubCategoria);
+
                 }
             });
         };
@@ -62,21 +63,20 @@
             if ( ( $(document).height() - win.height() == win.scrollTop() ) && $scope.loaded ===false) {
                 pageActual ++;
                 if( pageActual <= totalPages ){
-                    $scope.loaded = true; 
+                    $scope.loaded = true;
                     serviceProducto.getSubSubCategoria( _data.data.principal.navigationState, pageActual, responseSubSubCategoria );
                 }else{
                     console.log("se termino el scroll");
-                }   
+                }
 		   }
 	    });
         function responseSubSubCategoria(data){
-            
-                categorias = categorias.concat( data.data ); 
-                
+
+                categorias = categorias.concat( data.data );
                 $scope.subcategorias = categorias;
                 totalPages = data.totalPages;
-                $scope.loaded  = false;                                                        
-                
+                $scope.loaded  = false;
+
         };
 
     }/*end funcion subCategoriaController*/

@@ -5,7 +5,7 @@
                                     "categorias","detalle","carta","busquedas","componentOwlCarucel","componentDialogs","home","angulartics", "angulartics.google.analytics","angulartics.facebook.pixel"])
     .config(["$routeProvider","$locationProvider","$analyticsProvider","$httpProvider",configuracion])
     .run(['$rootScope', '$location', '$http', '$route',"serviceModel","serviceBlackList","serviceStorePedidos","$timeout",run]);
-    
+
     function run( $rootScope, $location, $http, $route, serviceModel,serviceBlackList,serviceStorePedidos,$timeout ){
         /**modal principal agregar carta**/
         $rootScope.globalProducto = serviceModel.producto();
@@ -25,7 +25,7 @@
                     mouseflow.newPageView();
                 }
             }else if(path === "/micarta/exito" && !$rootScope.cartaExito){
-                $location.path("/micarta");    
+                $location.path("/micarta");
             }
             if(path != "/micarta/exito"){
                 if(typeof mouseflow!= "undefined"){
@@ -33,16 +33,16 @@
                     mouseflow.newPageView();
                 }
             }
-            /*if(mouseflow!=undefined) {   
-               
+            /*if(mouseflow!=undefined) {
+
                 _mfq.push(["newPageView", path]);
                 mouseflow.newPageView();
             }*/
         });
     };
-    
+
     function configuracion ($routeProvider,$locationProvider,$analyticsProvider,$httpProvider) {
-      
+
       $analyticsProvider.virtualPageviews(true);
      $routeProvider.
         when("/",{
@@ -59,17 +59,17 @@
        .when("/categoria/:categoria", {
          controller:'categoriasController',
          templateUrl:"app/modules/categorias/categoria.html"
-      
+
      })
-       .when("/detalle/:folio",{
+       .when("/detalle/:productId",{
          controller:"detalleJugueteController",
          templateUrl:"app/modules/detalles/detalleJuguete.html",
-    
+
      })
-       .when("/detalletopdiez/:folio",{
+       .when("/detalletopdiez/:productId",{
          controller:"detalleJugueteController",
          templateUrl:"app/modules/detalles/detalleJuguete.html",
-    
+
      })
        .when("/subcategoria/:identificador", {
       templateUrl:"app/modules/categorias/subcategoria.html",
@@ -90,7 +90,7 @@
             controller:"cartaController",
         templateUrl:"app/modules/carta/carta.html",
       })
-        
+
         .when("/micarta/felicidades", {
           controller:"cartaControllerFelicidades",
       templateUrl:"app/modules/carta/felicidades.html",
