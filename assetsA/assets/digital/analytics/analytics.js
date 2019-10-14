@@ -89,8 +89,8 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 },                
                            
             {
- 'id':'pantallas_081019',
-  'name':'Pantallas hasta 25% de desc',
+ 'id':'pantallas_091019',
+  'name':'Pantallas hasta 25% de desc ó hasta 15% de desc + hasta 18 MSI',
   'creative':'h_banner_secuun',
   'position':'8'
 },
@@ -127,8 +127,8 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
             'position':'12'
 			 },
             {
-            'id':'deportes_081019',
-		    'name':'Deportes hasta 15% de des',
+            'id':'deportes_111019',
+		    'name':'Deportes hasta 25% de des',
             'creative':'h_banner_secun',
             'position':'13'
 			 },
@@ -3905,46 +3905,52 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'principal_290619',
+    'id': 'principal_111019',
     'name': 'Aero Principal',
     'creative': 'blp_aero_principal',
     'position': '01'
 },
 {
-    'id': 'blusas_210619',
-    'name': 'Aero Blusas',
-    'creative': 'blp_aero_blusas',
+    'id': 'denim_111019',
+    'name': 'Aero Denim',
+    'creative': 'blp_aero_denim',
     'position': '02'
 },
 {
-    'id': 'chamarras_210619',
-    'name': 'Aero Chamarras',
-    'creative': 'blp_aero_chamarras',
+    'id': 'blusas_111019',
+    'name': 'Aero Blusas',
+    'creative': 'blp_aero_blusas',
     'position': '03'
 },
 {
-    'id': 'playeras_ella_210619',
-    'name': 'Aero Playeras Ella',
-    'creative': 'blp_aero_playeras_ella',
+    'id': 'chamarras_111019',
+    'name': 'Aero Chamarras',
+    'creative': 'blp_aero_chamarras',
     'position': '04'
 },
 {
-    'id': 'playeras_el_210619',
-    'name': 'Aero Playeras El',
-    'creative': 'blp_aero_playeras_el',
+    'id': 'playeras_111019',
+    'name': 'Aero Playeras',
+    'creative': 'blp_aero_playeras',
     'position': '05'
 },
 {
-    'id': 'ninas_210619',
-    'name': 'Aero Ninas',
-    'creative': 'blp_aero_ninas',
+    'id': 'playerasel_111019',
+    'name': 'Aero Playeras El',
+    'creative': 'blp_aero_playerasel',
     'position': '06'
 },
 {
-    'id': 'ninos_210619',
+    'id': 'ninas_111019',
+    'name': 'Aero Ninas',
+    'creative': 'blp_aero_ninas',
+    'position': '07'
+},
+{
+    'id': 'ninos_111019',
     'name': 'Aero Ninos',
     'creative': 'blp_aero_ninos',
-    'position': '07'
+    'position': '08'
 }
 ]
 }
