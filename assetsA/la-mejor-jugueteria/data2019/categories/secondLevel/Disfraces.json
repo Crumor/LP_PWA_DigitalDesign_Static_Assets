@@ -1,0 +1,37 @@
+{
+	"principal-banner":{
+        "picture": "./assets/images/categorias/12_disfraces_art.png",
+        "patron":"./assets/images/categorias/12_patron_disfraces.png",
+        "colorFondo":"#ff8c03",
+        "analytics":"disfraces"
+	},
+	"categories": {
+		"category-main":[
+		  {
+			"info":{
+			"categoryid": "catst1857462",
+			"label": "Disfraces",
+        	"picture": "./assets/images/categorias/subcategorias/disfraces/1disefrases.jpg",
+        	"video":"","catid":"1057738215",
+			"navigationState": "disfraces/N-35v4",
+            "colorfondo":"#ffef51"
+			},
+			"toys":[
+			{"id":"1060503920","image":"https://ss425.liverpool.com.mx/lg/1060503920.jpg","description":"Cintas para el Cabello Disney Collection Minnie","longDescription":""},{"id":"1060503547","image":"https://ss425.liverpool.com.mx/lg/1060503547.jpg","description":"Cintas para el Cabello Disney Collection Princesas","longDescription":""},{"id":"1057975425","image":"https://ss425.liverpool.com.mx/lg/1057975425.jpg","description":"DISFRAZ RAPUNZEL PRINCESA, 5/6, MORADO","longDescription":""},{"id":"1057971152","image":"https://ss425.liverpool.com.mx/lg/1057971152.jpg","description":"DISFRAZ DELUXE ELENA OF AV, 9-10, ROJO","longDescription":""},{"id":"100000000370","image":"https://cm0.liverpool.com.mx/lg/100000000370.jpg","description":"Conjunto Disney Collection Campanita","longDescription":""},{"id":"100000000385","image":"https://cm5.liverpool.com.mx/lg/100000000385.jpg","description":"Conjunto Disney Collection Cars","longDescription":""},{"id":"100000000352","image":"https://cm2.liverpool.com.mx/lg/100000000352.jpg","description":"Conjunto Disney Collection Cenicienta","longDescription":""},{"id":"100000000364","image":"https://cm4.liverpool.com.mx/lg/100000000364.jpg","description":"Conjunto Disney Collection Blanca Nieves","longDescription":""},{"id":"100000000391","image":"https://cm1.liverpool.com.mx/lg/100000000391.jpg","description":"Conjunto Disney Collection Moana","longDescription":""},{"id":"100000000380","image":"https://cm0.liverpool.com.mx/lg/100000000380.jpg","description":"Conjunto Disney Collection Doctora Juguetes","longDescription":""}
+			]		
+		  },{
+		  "info":{
+			"categoryid": "catst1857463",
+			"label": "Accesorios",
+        	"picture": "./assets/images/categorias/subcategorias/disfraces/2disefrases_accesorios.jpg",
+        	"video":"","catid":"1041414100",
+			"navigationState": "accesorios/N-35v5",
+            "colorfondo":"#ff7e8a"
+			},
+			"toys":[
+			{"id":"1060521078","image":"https://ss425.liverpool.com.mx/lg/1060521078.jpg","description":"GORRO ELENA OF AVALOR, XXS/XS, ROJO","longDescription":""},{"id":"1053576733","image":"https://ss425.liverpool.com.mx/lg/1053576733.jpg","description":"Disney Collection Pink Minnie Plato Extendido","longDescription":""},{"id":"1053577209","image":"https://ss425.liverpool.com.mx/lg/1053577209.jpg","description":"Disney Collection Pink Minnie Plato Hondo","longDescription":""},{"id":"1054436854","image":"https://ss425.liverpool.com.mx/lg/1054436854.jpg","description":"Disney Collection Rol de Juego Woody de Toy Story","longDescription":""},{"id":"1053696726","image":"https://ss425.liverpool.com.mx/lg/1053696726.jpg","description":"ZAPATILLA BELLA PRIN, 17-18 CM, DORADO","longDescription":""},{"id":"1050552540","image":"https://ss425.liverpool.com.mx/lg/1050552540.jpg","description":"Disney Collection Corona Moana para Niña","longDescription":""},{"id":"1050552531","image":"https://ss425.liverpool.com.mx/lg/1050552531.jpg","description":"Disney Set Accesorios Elena para Niña","longDescription":""},{"id":"1051378373","image":"https://ss425.liverpool.com.mx/lg/1051378373.jpg","description":"Disney Collection Set de Cocina Pink Minnie ","longDescription":""},{"id":"1048913012","image":"https://ss424.liverpool.com.mx/lg/1048913012.jpg","description":"Disney Impermeable para Duende The Elf on the Shelf","longDescription":""},{"id":"1049589207","image":"https://ss425.liverpool.com.mx/lg/1049589207.jpg","description":"ZAPATO RAYO MCQUEEN CARS, 19 CM, ROJO","longDescription":""}
+					]
+			}	
+			
+	  ]}
+	  }
