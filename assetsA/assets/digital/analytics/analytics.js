@@ -42,105 +42,104 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                            
-     {
-  'id':'linea_blanca_071019',
-  'name':'Línea Blanca hasta 44% de desc',
-  'creative':'h_banner_central',
-  'position':'1'
+               {
+		   'id':'linea_blanca_141019',
+		   'name':'Línea Blanca hasta 43% de desc y hasta 9 MSI',
+		   'creative':'h_banner_central',
+		   'position':'1'
            },
-
-{
-'id':'colchones_071019',
-  'name':'Colchones hasta 36% de desc',
-  'creative':'h_banner_secun',
-  'position':'2'
-},
-                 {
-  'id':'blancos_071019',
-  'name':'Blancos hasta 40% de desc',
-  'creative':'h_banner_secun',
-  'position':'3'
-},
-                 {
-    'id':'cocina_081019',
-  'name':'Cocina hasta 28% de desc',
-  'creative':'h_banner_secun',
-  'position':'4'
-},
-  {
-'id':'muebles_071019',
-  'name':'Muebles hasta 40% de desc',
-  'creative':'h_banner_secun',
-  'position':'5'
-},               
-                           
+		   {
+			'id':'top_deals_141019',
+		   'name':'TOP deals ofertas del día',
+		   'creative':'h_banner_secun',
+		   'position':'2'
+			 },
+                 
+                            
+           {
+		   'id':'celulares_141019',
+		   'name':'Celulares hasta 13 MSI',
+		   'creative':'h_banner_secun',
+		   'position':'3'
+			},
+           {
+ 		   'id':'computadoras_141019',
+		   'name':'Computadoras hasta 10% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'4'
+			},
+           {
+		   'id':'pantallas_141019',
+		   'name':'Pantallas hasta 25% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'5'
+			},
             {
-'id':'aparatos_de_ejercicio_081019',
-  'name':'Aparatos de Ejercicio hasta 30% de desc',
-  'creative':'h_banner_secuun',
-  'position':'6'
-},
+		   'id':'videojuegos_141019',
+		   'name':'Videojuegos hasta 13 MSI',
+		   'creative':'h_banner_secun',
+		   'position':'6'
+			},
             {
-            'id':'celulares_081019',
-  'name':'Celulares hasta 13 MSI',
+		    'id':'apple_141019',
+		    'name':'Apple hasta 18 MSI',
             'creative':'h_banner_secun',
             'position':'7'
-},                
-                           
-            {
- 'id':'pantallas_091019',
-  'name':'Pantallas hasta 25% de desc ó hasta 15% de desc + hasta 18 MSI',
-  'creative':'h_banner_secuun',
-  'position':'8'
-},
-
-            {
-   'id':'computadoras_081019',
-   'name':'Computadoras hasta 10% de desc',
+			 },                
+                 
+                            
+                            
+              {
+		    'id':'muebles_141019',
+		    'name':'Muebles hasta 40% de des',
             'creative':'h_banner_secun',
-            'position':'9'
-},
-                           
-{
-		    'id':'apple_091019',
-		    'name':'Apple hasta 18 MSI',
+            'position':'8'
+			 },              
+            {
+		  'id':'colchones_141019',
+		   'name':'Colchones hasta 40% de desc',
+		   'creative':'h_banner_secuun',
+		   'position':'9'
+			},
+			
+            {
+		    'id':'blancos_141019',
+		    'name':'Blancos hasta 30% de desc',
             'creative':'h_banner_secun',
             'position':'10'
 			 },
-                            
-                            
-                            
+           
+                                      
             
                             
             {
-            'id':'bolsas_081019',
+            'id':'bolsas_141019',
 		   'name':'Bolsas hasta 15% de desc',
             'creative':'h_banner_secun',
             'position':'11'
 			 },           
              
               {
-		    'id':'zapatos_081019',
+		    'id':'zapatos_141019',
 		    'name':'Zapatos hasta 15% de desc',
             'creative':'h_banner_secun',
             'position':'12'
 			 },
             {
-            'id':'deportes_111019',
-		    'name':'Deportes hasta 25% de des',
+            'id':'juguetes_141019',
+		    'name':'Juguetes hasta 20% de desc',
             'creative':'h_banner_secun',
             'position':'13'
 			 },
             {
-            'id':'juguetes_081019',
-		    'name':'Juguetes hasta 20% de desc',
+            'id':'aparatos_de_ejercicio_141019',
+		    'name':'Aparatos de ejercicio hasta 30% de desc',
 		    'creative':'h_banner_secun',
 		    'position':'14'
 			 },
-                            {
-            'id':'motos_081019',
-		    'name':'Motos hasta 20% de desc + 15 MSI',
+            {
+            'id':'viajes_141019',
+		    'name':'Viajes hasta 70% de desc y hasta 24 MSI',
 		    'creative':'h_banner_secun',
 		    'position':'15'
 			 }                     
