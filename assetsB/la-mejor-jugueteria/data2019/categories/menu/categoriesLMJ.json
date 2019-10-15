@@ -58,11 +58,11 @@
 		"color":"#00cfff"
       },
 	   {
-        "categoryid": "cat21090008",
+        "categoryid": "juegos-de-mesa",
         "label": "Juegos de mesa",
         "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
         "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2017/categories/secondLevel/juegosmesaymanualidades.json",
+        "subCategories": "./data2019/categories/secondLevel/juegosmesaymanualidades.json",
 		"color":"#fae8b1"
       },
 	  {
