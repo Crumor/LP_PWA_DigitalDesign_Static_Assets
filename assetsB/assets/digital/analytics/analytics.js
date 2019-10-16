@@ -114,8 +114,8 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
             
                             
             {
-            'id':'bolsas_141019',
-		   'name':'Bolsas hasta 15% de desc',
+           'id':'martha_debayle_141019',
+		   'name':'Martha Debayle by ivonne',
             'creative':'h_banner_secun',
             'position':'11'
 			 },           
