@@ -42,8 +42,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                            
-     {
+               {
 		   'id':'linea_blanca_141019',
 		   'name':'Línea Blanca hasta 43% de desc y hasta 9 MSI',
 		   'creative':'h_banner_central',
@@ -114,7 +113,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
             
                             
             {
-           'id':'martha_debayle_141019',
+            'id':'martha_debayle_141019',
 		   'name':'Martha Debayle by ivonne',
             'creative':'h_banner_secun',
             'position':'11'
@@ -2899,7 +2898,7 @@ dataLayer.push({
 /* BLP THE NORTH FACE TNF*/ 
        
             break;
-            case '/tienda/the-north-face/catst12274633':
+            case '/tienda/the-north-face/catst16668517':
 
 
 dataLayer.push({
@@ -2908,28 +2907,40 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'chamarras_210619',
+    'id': 'chamarras_171019',
     'name': 'TNF Chamarras',
     'creative': 'blp_tnf_chamarras',
     'position': '01'
 },
 {
-    'id': 'ropa_210619',
-    'name': 'TNF Ropa',
-    'creative': 'blp_tnf_ropa',
+    'id': 'chamarras_rosa_171019',
+    'name': 'TNF Chamarras Rosa',
+    'creative': 'blp_tnf_chamarras',
     'position': '02'
 },
 {
-    'id': 'calzado_210619',
-    'name': 'TNF Calzado',
-    'creative': 'blp_tnf_calzado',
+    'id': 'chamarras_tercero_171019',
+    'name': 'TNF Chamarras Tercero',
+    'creative': 'blp_tnf_chamarras_tercero',
     'position': '03'
 },
 {
-    'id': 'accesorios_210619',
+    'id': 'ropa_171019',
+    'name': 'TNF Ropa',
+    'creative': 'blp_tnf_ropa',
+    'position': '04'
+},
+{
+    'id': 'zapatos_171019',
+    'name': 'TNF Zapatos',
+    'creative': 'blp_tnf_zapatos',
+    'position': '05'
+},
+{
+    'id': 'accesorios_171019',
     'name': 'TNF Accesorios',
     'creative': 'blp_tnf_accesorios',
-    'position': '04'
+    'position': '06'
 }
 ]
 }

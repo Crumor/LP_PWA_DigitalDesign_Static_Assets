@@ -2898,7 +2898,7 @@ dataLayer.push({
 /* BLP THE NORTH FACE TNF*/ 
        
             break;
-            case '/tienda/the-north-face/catst12274633':
+            case '/tienda/the-north-face/catst16668517':
 
 
 dataLayer.push({
@@ -2907,28 +2907,40 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'chamarras_210619',
+    'id': 'chamarras_171019',
     'name': 'TNF Chamarras',
     'creative': 'blp_tnf_chamarras',
     'position': '01'
 },
 {
-    'id': 'ropa_210619',
-    'name': 'TNF Ropa',
-    'creative': 'blp_tnf_ropa',
+    'id': 'chamarras_rosa_171019',
+    'name': 'TNF Chamarras Rosa',
+    'creative': 'blp_tnf_chamarras',
     'position': '02'
 },
 {
-    'id': 'calzado_210619',
-    'name': 'TNF Calzado',
-    'creative': 'blp_tnf_calzado',
+    'id': 'chamarras_tercero_171019',
+    'name': 'TNF Chamarras Tercero',
+    'creative': 'blp_tnf_chamarras_tercero',
     'position': '03'
 },
 {
-    'id': 'accesorios_210619',
+    'id': 'ropa_171019',
+    'name': 'TNF Ropa',
+    'creative': 'blp_tnf_ropa',
+    'position': '04'
+},
+{
+    'id': 'zapatos_171019',
+    'name': 'TNF Zapatos',
+    'creative': 'blp_tnf_zapatos',
+    'position': '05'
+},
+{
+    'id': 'accesorios_171019',
     'name': 'TNF Accesorios',
     'creative': 'blp_tnf_accesorios',
-    'position': '04'
+    'position': '06'
 }
 ]
 }
