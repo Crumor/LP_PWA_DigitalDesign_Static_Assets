@@ -42,108 +42,107 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                            
-     {
-  'id':'linea_blanca_071019',
-  'name':'Línea Blanca hasta 44% de desc',
-  'creative':'h_banner_central',
-  'position':'1'
+               {
+		   'id':'linea_blanca_141019',
+		   'name':'Línea Blanca hasta 43% de desc y hasta 9 MSI',
+		   'creative':'h_banner_central',
+		   'position':'1'
            },
-
-{
-'id':'colchones_071019',
-  'name':'Colchones hasta 36% de desc',
-  'creative':'h_banner_secun',
-  'position':'2'
-},
-                 {
-  'id':'blancos_071019',
-  'name':'Blancos hasta 40% de desc',
-  'creative':'h_banner_secun',
-  'position':'3'
-},
-                 {
-    'id':'cocina_081019',
-  'name':'Cocina hasta 28% de desc',
-  'creative':'h_banner_secun',
-  'position':'4'
-},
-  {
-'id':'muebles_071019',
-  'name':'Muebles hasta 40% de desc',
-  'creative':'h_banner_secun',
-  'position':'5'
-},               
-                           
+		   {
+			'id':'top_deals_141019',
+		   'name':'TOP deals ofertas del día',
+		   'creative':'h_banner_secun',
+		   'position':'2'
+			 },
+                 
+                            
+           {
+		   'id':'celulares_141019',
+		   'name':'Celulares hasta 13 MSI',
+		   'creative':'h_banner_secun',
+		   'position':'3'
+			},
+           {
+ 		   'id':'computadoras_141019',
+		   'name':'Computadoras hasta 10% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'4'
+			},
+           {
+		   'id':'pantallas_141019',
+		   'name':'Pantallas hasta 25% de desc',
+		   'creative':'h_banner_secun',
+		   'position':'5'
+			},
             {
-'id':'aparatos_de_ejercicio_081019',
-  'name':'Aparatos de Ejercicio hasta 30% de desc',
-  'creative':'h_banner_secuun',
-  'position':'6'
-},
+		   'id':'videojuegos_141019',
+		   'name':'Videojuegos hasta 13 MSI',
+		   'creative':'h_banner_secun',
+		   'position':'6'
+			},
             {
-            'id':'celulares_081019',
-  'name':'Celulares hasta 13 MSI',
+		    'id':'apple_141019',
+		    'name':'Apple hasta 18 MSI',
             'creative':'h_banner_secun',
             'position':'7'
-},                
-                           
-            {
- 'id':'pantallas_081019',
-  'name':'Pantallas hasta 25% de desc',
-  'creative':'h_banner_secuun',
-  'position':'8'
-},
-
-            {
-   'id':'computadoras_081019',
-   'name':'Computadoras hasta 10% de desc',
+			 },                
+                 
+                            
+                            
+              {
+		    'id':'muebles_141019',
+		    'name':'Muebles hasta 40% de des',
             'creative':'h_banner_secun',
-            'position':'9'
-},
-         {
-		    'id':'apple_091019',
-		    'name':'Apple hasta 18 MSI',
+            'position':'8'
+			 },              
+            {
+		  'id':'colchones_141019',
+		   'name':'Colchones hasta 40% de desc',
+		   'creative':'h_banner_secuun',
+		   'position':'9'
+			},
+			
+            {
+		    'id':'blancos_141019',
+		    'name':'Blancos hasta 30% de desc',
             'creative':'h_banner_secun',
             'position':'10'
 			 },
-                            
-                            
-                            
+           
+                                      
             
                             
             {
-            'id':'bolsas_081019',
-		   'name':'Bolsas hasta 15% de desc',
+            'id':'martha_debayle_141019',
+		   'name':'Martha Debayle by ivonne',
             'creative':'h_banner_secun',
             'position':'11'
 			 },           
              
               {
-		    'id':'zapatos_081019',
+		    'id':'zapatos_141019',
 		    'name':'Zapatos hasta 15% de desc',
             'creative':'h_banner_secun',
             'position':'12'
 			 },
             {
-            'id':'deportes_081019',
-		    'name':'Deportes hasta 15% de des',
+            'id':'juguetes_141019',
+		    'name':'Juguetes hasta 20% de desc',
             'creative':'h_banner_secun',
             'position':'13'
 			 },
             {
-            'id':'juguetes_081019',
-		    'name':'Juguetes hasta 20% de desc',
+            'id':'aparatos_de_ejercicio_141019',
+		    'name':'Aparatos de ejercicio hasta 30% de desc',
 		    'creative':'h_banner_secun',
 		    'position':'14'
 			 },
-                            {
-            'id':'motos_081019',
-		    'name':'Motos hasta 20% de desc + 15 MSI',
+            {
+            'id':'viajes_141019',
+		    'name':'Viajes hasta 70% de desc y hasta 24 MSI',
 		    'creative':'h_banner_secun',
 		    'position':'15'
-			 }                  
-                          
+			 }                     
                         ]
                     }
                 }
@@ -2899,7 +2898,7 @@ dataLayer.push({
 /* BLP THE NORTH FACE TNF*/ 
        
             break;
-            case '/tienda/the-north-face/catst12274633':
+            case '/tienda/the-north-face/catst16668517':
 
 
 dataLayer.push({
@@ -2908,28 +2907,40 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'chamarras_210619',
+    'id': 'chamarras_171019',
     'name': 'TNF Chamarras',
     'creative': 'blp_tnf_chamarras',
     'position': '01'
 },
 {
-    'id': 'ropa_210619',
-    'name': 'TNF Ropa',
-    'creative': 'blp_tnf_ropa',
+    'id': 'chamarras_rosa_171019',
+    'name': 'TNF Chamarras Rosa',
+    'creative': 'blp_tnf_chamarras',
     'position': '02'
 },
 {
-    'id': 'calzado_210619',
-    'name': 'TNF Calzado',
-    'creative': 'blp_tnf_calzado',
+    'id': 'chamarras_tercero_171019',
+    'name': 'TNF Chamarras Tercero',
+    'creative': 'blp_tnf_chamarras_tercero',
     'position': '03'
 },
 {
-    'id': 'accesorios_210619',
+    'id': 'ropa_171019',
+    'name': 'TNF Ropa',
+    'creative': 'blp_tnf_ropa',
+    'position': '04'
+},
+{
+    'id': 'zapatos_171019',
+    'name': 'TNF Zapatos',
+    'creative': 'blp_tnf_zapatos',
+    'position': '05'
+},
+{
+    'id': 'accesorios_171019',
     'name': 'TNF Accesorios',
     'creative': 'blp_tnf_accesorios',
-    'position': '04'
+    'position': '06'
 }
 ]
 }
@@ -3682,124 +3693,112 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'avengers_210619',
-    'name': 'Lego Avengers',
-    'creative': 'blp_lego_avengers',
+    'id': 'frozen_171019',
+    'name': 'Lego Frozen',
+    'creative': 'blp_lego_frozen',
     'position': '01'
 },
 {
-    'id': 'architecture_210619',
-    'name': 'Lego Architecture',
-    'creative': 'blp_lego_architecture',
+    'id': 'starwars_171019',
+    'name': 'Lego Star Wars',
+    'creative': 'blp_lego_StarWars',
     'position': '02'
 },
 {
-    'id': 'city_210619',
+    'id': 'city_171019',
     'name': 'Lego City',
-    'creative': 'blp_lego_city',
+    'creative': 'blp_lego_City',
     'position': '03'
 },
 {
-    'id': 'ninjago_210619',
+    'id': 'ninjago_171019',
     'name': 'Lego Ninjago',
     'creative': 'blp_lego_ninjago',
     'position': '04'
 },
 {
-    'id': 'starwars_210619',
-    'name': 'Lego Starwars',
-    'creative': 'blp_lego_starwars',
+    'id': 'jurassic_171019',
+    'name': 'Lego Jurassic',
+    'creative': 'blp_lego_jurassic',
     'position': '05'
 },
 {
-    'id': 'minecraft_210619',
+    'id': 'minecraft_171019',
     'name': 'Lego Minecraft',
     'creative': 'blp_lego_minecraft',
     'position': '06'
 },
 {
-    'id': 'technic_210619',
+    'id': 'technic_171019',
     'name': 'Lego Technic',
     'creative': 'blp_lego_technic',
     'position': '07'
 },
 {
-    'id': 'superheroesdc_210619',
+    'id': 'superheroesdc_171019',
     'name': 'Lego Super Heroes DC',
     'creative': 'blp_lego_superheroesdc',
     'position': '08'
 },
 {
-    'id': 'superheroesmarvel_210619',
+    'id': 'superheroesmarvel_171019',
     'name': 'Lego Super Heroes Marvel',
     'creative': 'blp_lego_superheroesmarvel',
     'position': '09'
 },
 {
-    'id': 'harrypotter_210619',
+    'id': 'harrypotter_171019',
     'name': 'Lego Harry Potter',
     'creative': 'blp_lego_harry',
     'position': '10'
 },
 {
-    'id': 'beasts_210619',
+    'id': 'beasts_171019',
     'name': 'Lego Beasts',
     'creative': 'blp_lego_beasts',
     'position': '11'
 },
 {
-    'id': 'classic_210619',
+    'id': 'classic_171019',
     'name': 'Lego Classic',
     'creative': 'blp_lego_classic',
     'position': '12'
 },
 {
-    'id': 'duplo_210619',
+    'id': 'duplo_171019',
     'name': 'Lego Duplo',
     'creative': 'blp_lego_duplo',
     'position': '13'
 },
 {
-    'id': 'friends_210619',
+    'id': 'friends_171019',
     'name': 'Lego Friends',
     'creative': 'blp_lego_friends',
     'position': '14'
 },
 {
-    'id': 'creator_210619',
+    'id': 'creator_171019',
     'name': 'Lego Creator',
     'creative': 'blp_lego_creator',
     'position': '15'
 },
 {
-    'id': 'juniors_210619',
+    'id': 'juniors_171019',
     'name': 'Lego Juniors',
     'creative': 'blp_lego_juniors',
     'position': '16'
 },
 {
-    'id': 'batman_210619',
+    'id': 'batman_171019',
     'name': 'Lego Batman',
     'creative': 'blp_lego_batman',
     'position': '17'
 },
 {
-    'id': 'speed_210619',
+    'id': 'speed_171019',
     'name': 'Lego Speed',
     'creative': 'blp_lego_speed',
     'position': '18'
-},
-{
-    'id': 'jurassic_210619',
-    'name': 'Lego Jurassic',
-    'creative': 'blp_lego_jurassic',
-    'position': '19'
-},
-{
-    'id': 'disney_210619',
-    'name': 'Lego Disney',
-    'creative': 'blp_lego_disney',
-    'position': '20'
 }
 ]
 }
@@ -3905,46 +3904,52 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'principal_290619',
+    'id': 'principal_111019',
     'name': 'Aero Principal',
     'creative': 'blp_aero_principal',
     'position': '01'
 },
 {
-    'id': 'blusas_210619',
-    'name': 'Aero Blusas',
-    'creative': 'blp_aero_blusas',
+    'id': 'denim_111019',
+    'name': 'Aero Denim',
+    'creative': 'blp_aero_denim',
     'position': '02'
 },
 {
-    'id': 'chamarras_210619',
-    'name': 'Aero Chamarras',
-    'creative': 'blp_aero_chamarras',
+    'id': 'blusas_111019',
+    'name': 'Aero Blusas',
+    'creative': 'blp_aero_blusas',
     'position': '03'
 },
 {
-    'id': 'playeras_ella_210619',
-    'name': 'Aero Playeras Ella',
-    'creative': 'blp_aero_playeras_ella',
+    'id': 'chamarras_111019',
+    'name': 'Aero Chamarras',
+    'creative': 'blp_aero_chamarras',
     'position': '04'
 },
 {
-    'id': 'playeras_el_210619',
-    'name': 'Aero Playeras El',
-    'creative': 'blp_aero_playeras_el',
+    'id': 'playeras_111019',
+    'name': 'Aero Playeras',
+    'creative': 'blp_aero_playeras',
     'position': '05'
 },
 {
-    'id': 'ninas_210619',
-    'name': 'Aero Ninas',
-    'creative': 'blp_aero_ninas',
+    'id': 'playerasel_111019',
+    'name': 'Aero Playeras El',
+    'creative': 'blp_aero_playerasel',
     'position': '06'
 },
 {
-    'id': 'ninos_210619',
+    'id': 'ninas_111019',
+    'name': 'Aero Ninas',
+    'creative': 'blp_aero_ninas',
+    'position': '07'
+},
+{
+    'id': 'ninos_111019',
     'name': 'Aero Ninos',
     'creative': 'blp_aero_ninos',
-    'position': '07'
+    'position': '08'
 }
 ]
 }

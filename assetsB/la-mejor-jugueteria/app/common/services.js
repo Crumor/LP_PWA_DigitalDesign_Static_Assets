@@ -86,54 +86,37 @@
         return {
             //busqueda general del type head
             buscar: function(word, fn) {
+              console.log('buscar typeHead');
                 resultado = [];
                 mostrar = false;
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                            $http.get(myConfig.pathServices + "search/typeAhead.jsp?Dy=1&collection=undefined&N=0&Ntx=mode+matchallpartial&Ntt=" + word + "*")
+                            $http.get(myConfig.pathServiceSearch + "search-string=" + word + "*")
                                 .then(function(data) {
-                                    var contents = data.data.contents[0];
-                                    if (contents.hasOwnProperty('autoSuggest')) {
+                                    var contents = data.data;
                                         if (word !== "") {
-                                            var response = contents.autoSuggest;
-                                            if (response.length > 0)
-                                                response = contents.autoSuggest[0].dimensionSearchGroups || [];
-                                            if (response.length > 0) {
-                                                var responseValues = response[response.length - 1].dimensionSearchValues || [];
-                                                if (responseValues.length > 0) {
+                                            var responseValues = contents.results;
+                                            if (responseValues.length > 0) {
+                                                const result = contents.results.filter(item => item.showView === 'PDP');
+                                                (result.length > 0) ? mostrar = true : mostrar = false;
                                                     resultado = [];
-                                                    responseValues.forEach(function(val) {
+                                                    result.forEach(function(val) {
                                                         var obj = objResultado();
+
                                                         var tempLabel = val.label;
-                                                        var splitLabel = tempLabel.split("|")
-                                                        obj.sku = splitLabel[0];
-                                                        obj.contentPath = val.contentPath;
-                                                        var image = splitLabel[splitLabel.length - 1];
-                                                        obj.image = image.indexOf("https://", 0) === 0 ? image : "http://assetsqa.liverpool.com.mx/assets/images/fillers/filler_REC.gif";
-                                                        if (tempLabel.indexOf("|", 0) != -1) {
-                                                            var inicio = tempLabel.indexOf("|", 0) + 1;
-                                                            var fin = tempLabel.indexOf("|", inicio + 1);
-                                                            tempLabel = tempLabel.substring(inicio, fin)
-                                                        }
+                                                        obj.id = val.productId;
+                                                        obj.sku = val.label;
+                                                        obj.image = val.image;
                                                         obj.descripcionClean = tempLabel;
                                                         obj.descripcion = filterCoincidence(word, tempLabel);
-                                                        obj.linkDescription = obj.descripcion.replace(/\s/g, "-");
                                                         obj.totales = val.count;
                                                         resultado.push(obj);
                                                     });
                                                     if (fn)
-                                                        fn();
-                                                } else //end responsevalues.length
-                                                {
-                                                    mostrar = false;
+                                                    fn();
                                                 }
-                                            } else //end response.length
-                                            {
-                                                mostrar = false;
-                                            }
-                                        }
-                                    }
+                                          }
                                 }, function(fail) {
 
                                 });
@@ -160,25 +143,27 @@
 
     function producto($http, myConfig, JsonCategorias, home, serviceModel, serviceBlackList) {
         function proccessPlp(info, data, fn) {
-            var contents = data.data.contents[0].mainContent[3].contents[0];
-            var respuesta = contents.records || [];
-            var totalPages = Math.ceil(contents.totalNumRecs / contents.recsPerPage);
-            var totalR = contents.totalNumRecs;
-            resultado = respuesta.map(function(val) {
+            // var contents = data.data.contents[0].mainContent[3].contents[0];
+            // var respuesta = contents.records || [];
+            // var totalPages = Math.ceil(contents.totalNumRecs / contents.recsPerPage);
+            // var totalR = contents.totalNumRecs;
+            resultado = data.map(function(val) {
                 var producto = serviceModel.producto();
-                producto.id = val["productId"][0] == "" ? val["productId"][0] : val["productId"][0];
-                producto.idOriginal = val["productId"][0];
-                producto.description = val['productDisplayName'][0];
+                producto.id = val.productId;
+                producto.idOriginal = val.productId;
+                producto.description = val.productDisplayName;
                 producto.longDescription = val.hasOwnProperty("productDescription") ? val["productDescription"] != null ? val["productDescription"][0] : "" : "";
-                producto.imageBg = val.hasOwnProperty("sku.largeImage") ? val["sku.largeImage"][0] : "";
-                producto.imageSm = val.hasOwnProperty("sku.smallImage") ? val["sku.smallImage"][0] : "";
+                producto.imageBg = val.xlImage;
+                producto.imageSm = val.smImage;
+
+                console.log('producto ', producto);
                 return producto;
             });
-            info.totalPages = totalPages;
+            info.totalPages = info.totalPages;
             info.success = true;
             info.code = 1;
             info.data = resultado;
-            info.totalR = totalR;
+            info.totalR = info.totalR;
             if (fn) {
                 fn(info);
             };
@@ -233,6 +218,7 @@
         };
         //funcion para optener la subcategoria
         function getSubCategoria(categorias, categoryId, fn) { /*funcion para optener el path >JSON de una categoria selccionada*/
+          console.log('Obtiene subCategories', categoryId);
             var pathSubcategoria = "";
             var info = { success: false, data: [] };
             categorias.forEach(function(val) {
@@ -267,6 +253,7 @@
                             tmpObj.navigationState = val.info.navigationState;
 
                             newObj.push(tmpObj);
+                            console.log(newObj);
                         });
                         info.success = true;
                         info.data = { principal: principal, subcategorias: newObj };
@@ -281,6 +268,7 @@
                     }
                 );
             } else {
+              console.log('****** ---- ******', fn);
                 if (fn) {
                     fn(info);
                 }
@@ -289,9 +277,10 @@
         return {
             /*optiene el top 10 de productos para mostrarlos en el slider principal del home*/
             getTop10: function(fn) {
+              console.log('getTop10');
                 var h = home.getHome();
                 if (h.length <= 0) {
-                    $http.get(myConfig.pathHome).then(
+                    $http.get(myConfig.pathHomeJSON).then(
                         function(data) {
                             var dataAux = data.data.categories["category-main"] || [];
                             var dataTemp = [];
@@ -325,29 +314,23 @@
                 }
             },
             /*optiene un producto en especifico al mandarle el folio o id*/
-            getProducto: function(folio, fn, path) {
+            getProducto: function(productId, fn, path) {
+              console.log('getProducto', productId);
                 var r = { success: false, data: [] };
-                var url = myConfig.pathServices + "pdp/" + folio + "?" + myConfig.formatJson;
-                var req = {
-                    method: 'GET',
-                    url: myConfig.pathPdp + folio,
-                    headers: {}
-                };
-                if (path === 2) {
-                    url = myConfig.pathPdp + folio
-                }
+                var url = myConfig.pathServicePdp+productId;
                 $http.get(url).then(function(data) {
-                    if (data.data.hasOwnProperty('contents')) {
-                        var respuesta = data.data.contents[0].mainContent[0].record;
+                    if (data.data.hasOwnProperty('productInfo')) {
+                        var respuesta = data.data.productInfo;
                         var producto = serviceModel.producto();
-                        producto.id = folio;
-                        producto.idOriginal = respuesta["sku.repositoryId"][0];
-                        producto.imageBg = respuesta["sku.thumbnailImage"][0];
-                        producto.imageSm = respuesta["sku.smallImage"][0];
-                        producto.longDescription = filtroDescripcion(respuesta);
-                        producto.description = respuesta["productDisplayName"][0];
-                        if (respuesta.hasOwnProperty("sku.galleriaImage")) {
-                            producto.images = respuesta["sku.galleriaImage"];
+                        producto.id = respuesta.productId;
+                      //  producto.idOriginal = respuesta["sku.repositoryId"][0];
+                        producto.imageBg = respuesta.images.lg;
+                        producto.imageSm = respuesta.images.sm;
+                        producto.longDescription =  respuesta.longDescription;
+                      //  producto.longDescription = filtroDescripcion(respuesta);
+                        producto.description = respuesta.displayName;
+                        if (respuesta.hasOwnProperty("images.galleryImages")) {
+                            producto.images = respuesta.galleryImages;
                         }
                         r.success = true;
                         r.data = producto;
@@ -356,13 +339,15 @@
                         fn(r);
                     }
                 }, function(data) {
-
+                    console.log('No tiene inventario');
                     if (fn) {
                         fn(r);
                     }
                 });
             },
             getCategorias: function(fn) {
+              console.log('get Categorias');
+
                 var categorias = JsonCategorias.getCategorias() || [];
                 var info = { success: false, data: [], code: -1 };
                 if (categorias.length === 0) {
@@ -426,21 +411,19 @@
                 if (findsimbol >= 0) {
                     concat = "&";
                 }
-                var pathSubCategoria = myConfig.pathServices + navigationState + "/page-" + page + "/" + concat + myConfig.formatJson;
+            var pathSubCategoria = myConfig.pathServiceSubCategoria + navigationState;
                 var newObj = [];
                 $http.get(pathSubCategoria).then(function(data) {
-                    if (data.data.hasOwnProperty('contents')) {
-                        var contents = data.data.contents[0].mainContent[3].contents[0];
-                        var respuesta = contents.records || [];
-                        var totalPages = Math.ceil(contents.totalNumRecs / contents.recsPerPage);
+                    if (data.data.hasOwnProperty('plpResults')) {
+                        var respuesta = data.data.plpResults.records;
+                        var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
                         newObj = respuesta.map(function(val) {
-
                             var obj = serviceModel.producto();
-                            obj.id = val["productId"][0] == "" ? val["skuId"][0] : val["productId"][0];
-                            obj.idOriginal = val["sku.repositoryId"][0];
-                            obj.description = val["productDisplayName"][0];
-                            obj.imageBg = val["sku.thumbnailImage"][0];
-                            obj.imageSm = val["sku.largeImage"][0];
+                            obj.id = val.productId;
+                            obj.idOriginal = val.repositoryId;
+                            obj.description = val.productDisplayName
+                            obj.imageBg = val.xlImage;
+                            obj.imageSm = val.smImage;
                             return obj;
                         });
                         info.success = true;
@@ -459,6 +442,8 @@
                 });
             },
             getMarcasPopulares: function(fn) {
+              console.log('Marcas populares');
+
                 var info = { success: false, code: -1, data: [] };
                 var marcas = home.getMarcasPopulares();
                 if (marcas.length === 0) {
@@ -483,39 +468,43 @@
                 }
             },
             getResultadosBusqueda: function(paginator, word, fn) {
+              console.log('Resultado de busqueda ,  paginador: ');
+
                 var info = { success: false, data: [], totalR: 0, code: -1, totalPages: 1 };
                 var resultado = [];
                 word = word.replace(" ", "-");
-
-                var path = myConfig.pathServices + "tienda/page-" + paginator + "/?s=" + word + "&" + myConfig.formatJson;
+                var path = myConfig.pathServicePlp + "page-number=" + paginator + "&search-string=" + word + "&number-of-items-per-page=15"
+                console.log('--- ',path);
                 if (word === 'lego') {
                     path = myConfig.pathServices + "tienda/lego/N-2jqv/page-" + paginator + "/?showPLP&" + myConfig.formatJson;
-                    console.log(path);
                 }
-                console.log(path);
                 if (Number.isInteger(paginator)) {
                     if (parseInt(paginator) >= 1) {
                         serviceBlackList.init(function(data) {
                             if (!serviceBlackList.find(word)) {
 
                                 $http.get(path).then(function(data) {
-                                    var _data = data.data;
+                                  console.log(info);
+                                    var _data = data.data.plpResults.records;
+                                    info.totalR = _data.length;
+                                    proccessPlp(info, _data, fn)
                                     //veriricar si el resultado es un BLP para modificar la ruta y volver hacer la petición
-                                    if (_data.hasOwnProperty("endeca:redirect")) {
-                                        var redirect = _data["endeca:redirect"];
-                                        if (redirect.hasOwnProperty("link")) {
-                                            path = myConfig.pathHost + redirect.link.url + "/page-" + paginator + "/?showPLP&" + myConfig.formatJson;
-                                            $http.get(path).then(function(data) {
-                                                proccessPlp(info, data, fn);
-                                            }, function(fail) {
-                                                if (fn) {
-                                                    fn(info);
-                                                };
-                                            });
-                                        }
-                                    } else {
-                                        proccessPlp(info, data, fn)
-                                    }
+                                    // if (_data.hasOwnProperty("endeca:redirect")) {
+                                    //     var redirect = _data["endeca:redirect"];
+                                    //     if (redirect.hasOwnProperty("link")) {
+                                    //         path = myConfig.pathHost + redirect.link.url + "/page-" + paginator + "/?showPLP&" + myConfig.formatJson;
+                                    //         $http.get(path).then(function(data) {
+                                    //           //  proccessPlp(info, data, fn);
+                                    //         }, function(fail) {
+                                    //             if (fn) {
+                                    //                 fn(info);
+                                    //             };
+                                    //         });
+                                    //     }
+                                    // } else {
+                                    //   //  proccessPlp(info, data, fn)
+                                    // }
+
                                 }, function(fail) {
                                     if (fn) {
                                         fn(info);
@@ -538,6 +527,8 @@
                 return dataSet;
             },
             getSliderHome: function(fn) {
+              console.log('getSliderHome');
+
                 var banners = home.getSliderHome();
                 var info = { success: false, data: [], code: -1 };
                 if (banners.length <= 0) {
@@ -562,6 +553,7 @@
                 }
             },
             getBannerSliderCategoria: function(categoria, index, fn) {
+              console.log('---');
                 var banners = JsonCategorias.getBannersCategorias() || [];
                 var info = { success: false, data: [], code: -1 };
                 if (banners.length === 0) {
@@ -657,7 +649,7 @@
                 var newPedidos = [];
                 var pedidos = storePedidos.getPedidos() || [];
                 if (storePedidos.getTotal() === 0) {
-                    info.code = -2; // -2 =  no hay juguetes agregados   
+                    info.code = -2; // -2 =  no hay juguetes agregados
                     if (fn)
                         fn(info);
                 } else

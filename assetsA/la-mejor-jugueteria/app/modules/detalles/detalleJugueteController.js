@@ -24,8 +24,9 @@
         $scope.imagenAux = "";
         $scope.loaded = true;
         $scope.indexActive = -1;
-        if( $routeParams.hasOwnProperty("folio") ){
-            serviceProducto.getProducto( $routeParams.folio,function(data){
+        console.log('params', $routeParams);
+        if( $routeParams.hasOwnProperty("productId") ){
+            serviceProducto.getProducto( $routeParams.productId,function(data){
                 if( data.success ){
                     $scope.imagenAux = data.data.imageBg;
                     $scope.vm.success = data.success;
@@ -34,9 +35,9 @@
                         initGallery($scope);
                         $scope.loaded =false;
                     },1000);
-                }                
+                }
             },1);
-            
+
         }else{
             console.log(" No existe identificador ");
         }
@@ -52,7 +53,7 @@
           });
         };
         $scope.compartirGoogle=function( producto ){
-            var href="https://plus.google.com/share?url=http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F"+producto.id+"&ref_src=twsrc%5Etfw&text="+producto.description; 
+            var href="https://plus.google.com/share?url=http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F"+producto.id+"&ref_src=twsrc%5Etfw&text="+producto.description;
             window.open(href,
   'http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F'+producto.id+'&ref_src=twsrc%5Etfw&text='+producto.description, 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
         }
@@ -65,7 +66,7 @@
           var owl = $('#slider').data('owlCarousel');
           owl.goTo(index+1);
         }
-    };//end detalle controller 
+    };//end detalle controller
     var foo = function( event ) {
           if ( event ) {
           } else {
