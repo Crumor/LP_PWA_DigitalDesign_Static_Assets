@@ -1,0 +1,196 @@
+{
+    "principal-banner":{
+        "picture": "./assets/images/categorias/07_vehiculos_art.png",
+        "patron":"./assets/images/categorias/07_patron_vehiculos.png",
+        "colorFondo":"#003663",
+        "analytics":"vehiculos"
+    },
+
+    "categories": {
+        "category-main":[
+          {"info":{
+          "categoryid": "catst1833809",
+          "label": "Montables",
+          "picture": "./assets/images/categorias/subcategorias/ninos/4ninios_autopistas.jpg",
+          "video":"","catid":"1027065127",
+          "navigationState": "Autopistas/N-35u4",
+          "colorfondo":"#3456fe"
+          },
+          "toys":[
+
+              {
+          "id": "1073010663",
+          "image": "https://ss424.liverpool.com.mx/lg/1073010663.jpg",
+          "description": "Montable Eléctrico Prinsel Mercedes Benz rojo",
+          "longDescription": ""
+        }, {
+          "id": "1056756775",
+          "image": "https://ss424.liverpool.com.mx/lg/1056756775.jpg",
+          "description": "Montable Prinsel BMW X5",
+          "longDescription": ""
+        }, {
+          "id": "1073010655",
+          "image": "https://ss424.liverpool.com.mx/lg/1073010655.jpg",
+          "description": "Montable Eléctrico Prinsel Chevrolet",
+          "longDescription": ""
+        }, {
+          "id": "1083033505",
+          "image": "https://ss424.liverpool.com.mx/lg/1083033505.jpg",
+          "description": "Vehículo Wrangler Power Wheels Toy Story",
+          "longDescription": ""
+        }, {
+          "id": "1049546471",
+          "image": "https://ss424.liverpool.com.mx/lg/1049546471.jpg",
+          "description": "Montable Electrónico Prinsel Mini Cooper",
+          "longDescription": ""
+        }, {
+          "id": "7623272",
+          "image": "https://ss424.liverpool.com.mx/lg/7623272.jpg",
+          "description": "Rayo McQueen Cars",
+          "longDescription": ""
+        }, {
+          "id": "1045997487",
+          "image": "https://ss424.liverpool.com.mx/lg/1045997487.jpg",
+          "description": "Montable Prinsel Audi blanco",
+          "longDescription": ""
+        }, {
+          "id": "1085830909",
+          "image": "https://ss424.liverpool.com.mx/lg/1085830909.jpg",
+          "description": "Montable Prinsel Mercedes Amg Basic ",
+          "longDescription": ""
+        }, {
+          "id": "1086226738",
+          "image": "https://ss424.liverpool.com.mx/lg/1086226738.jpg",
+          "description": "Moto Cross Prinsel Premium Boy",
+          "longDescription": ""
+        }, {
+          "id": "1073726600",
+          "image": "https://ss424.liverpool.com.mx/lg/1073726600.jpg",
+          "description": "Hot Wheels Carrera Súper Explosiva",
+          "longDescription": ""
+        } ]
+          },{"info":{
+          "categoryid": "catst1858323",
+          "label": "Bicicletas",
+          "picture": "./assets/images/categorias/subcategorias/ninos/6ninios_constructibles.jpg",
+          "video":"","catid":"1060845464",
+          "navigationState": "bicicletas/N-35xb",
+          "colorfondo":"#0088ff"
+          },
+          "toys":[
+
+              {
+              "id": "1087177188",
+              "image": "https://ss424.liverpool.com.mx/lg/1087177188.jpg",
+              "description": "Bicicleta Turbo Racing R20 amarilla",
+              "longDescription": ""
+            }, {
+              "id": "1056953783",
+              "image": "https://ss424.liverpool.com.mx/lg/1056953783.jpg",
+              "description": "Triciclo Prinsel BMW 1200",
+              "longDescription": ""
+            }, {
+              "id": "1057855271",
+              "image": "https://ss424.liverpool.com.mx/lg/1057855271.jpg",
+              "description": "Triciclo Turbo Kinetic Sport Classic",
+              "longDescription": ""
+            }, {
+              "id": "1085818577",
+              "image": "https://ss424.liverpool.com.mx/lg/1085818577.jpg",
+              "description": "Globber Go Bike Bici de Equilibrio",
+              "longDescription": ""
+            }, {
+              "id": "38388886",
+              "image": "https://ss424.liverpool.com.mx/lg/38388886.jpg",
+              "description": "Apache Bicileyca Triciclo con Bastón",
+              "longDescription": ""
+            }, {
+              "id": "1072998789",
+              "image": "https://ss424.liverpool.com.mx/lg/1072998789.jpg",
+              "description": "Triciclo Prinsel Eclipse",
+              "longDescription": ""
+            }, {
+              "id": "1084706431",
+              "image": "https://ss424.liverpool.com.mx/lg/1084706431.jpg",
+              "description": "Bicicleta Turbo Deimos W R26",
+              "longDescription": ""
+            }, {
+              "id": "1084706449",
+              "image": "https://ss424.liverpool.com.mx/lg/1084706449.jpg",
+              "description": "Bicicleta Turbo TX 6.1 R26",
+              "longDescription": ""
+            }, {
+              "id": "1087202409",
+              "image": "https://ss424.liverpool.com.mx/lg/1087202409.jpg",
+              "description": "Bicicleta Pegable Lemon Bikes Dany",
+              "longDescription": ""
+            }
+          ]},{
+            "info":{
+            "categoryid": "catst1858325",
+            "label": "Patines y Patinetas",
+            "picture": "./assets/images/categorias/subcategorias/vehiculos/5Vehiculos_patineta.jpg",
+            "video":"","catid":"1061414585",
+            "navigationState": "patinetas/N-35ua",
+            "colorfondo":"#ff9501"
+            },
+            "toys": [
+                {
+                  "id": "1028510815",
+                  "image": "https://ss424.liverpool.com.mx/lg/1028510815.jpg",
+                  "description": "Patines en línea Rollerface para dama",
+                  "longDescription": ""
+                }, {
+                  "id": "1031443532",
+                  "image": "https://ss424.liverpool.com.mx/lg/1031443532.jpg",
+                  "description": "Patines en línea Rollerface para caballero",
+                  "longDescription": ""
+                }, {
+                  "id": "1067653077",
+                  "image": "https://ss424.liverpool.com.mx/lg/1067653077.jpg",
+                  "description": "Patines en línea X-10",
+                  "longDescription": ""
+                }, {
+                  "id": "1059294829",
+                  "image": "https://ss424.liverpool.com.mx/lg/1059294829.jpg",
+                  "description": "Patines Goplas Disney Cars",
+                  "longDescription": ""
+                }, {
+                  "id": "1085220442",
+                  "image": "https://ss424.liverpool.com.mx/lg/1085220442.jpg",
+                  "description": "Patines Kangoo Jumps Multi-Size",
+                  "longDescription": ""
+                }, {
+                  "id": "1082350108",
+                  "image": "https://ss424.liverpool.com.mx/lg/1082350108.jpg",
+                  "description": "Patines Goplas Buzz Lightyear",
+                  "longDescription": ""
+                }, {
+                  "id": "1082125945",
+                  "image": "https://ss424.liverpool.com.mx/lg/1082125945.jpg",
+                  "description": "Patines en Line Goplas Frozen",
+                  "longDescription": ""
+                }, {
+                  "id": "1085220388",
+                  "image": "https://ss424.liverpool.com.mx/lg/1085220388.jpg",
+                  "description": "Patines Kangoo Jumps Edición Especial",
+                  "longDescription": ""
+                }, {
+                  "id": "1052607819",
+                  "image": "https://ss424.liverpool.com.mx/lg/1052607819.jpg",
+                  "description": "Patines en línea RFSport Mujer, ROSA, 22",
+                  "longDescription": ""
+                }, {
+                  "id": "1052608097",
+                  "image": "https://ss424.liverpool.com.mx/lg/1052608097.jpg",
+                  "description": "Rollerface Patines Sport Black para Caballero",
+                  "longDescription": ""
+                  }, {
+                    "id": "1074876346",
+                    "image": "https://ss424.liverpool.com.mx/lg/1074876346.jpg",
+                    "description": "BICILEYCA FROZEN SCOOTER",
+                    "longDescription": ""
+                    }]
+               }
+            ]}
+      }

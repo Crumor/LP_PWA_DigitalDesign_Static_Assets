@@ -11,7 +11,7 @@
 		"color":"#f3d55b"
       },
       {
-        "categoryid": "catst1833791",
+        "categoryid": "niños",
         "label": "Niños",
         "picture": "./assets/images/menu-categorias/ninos_960.svg",
         "navigationState": "/juguetes-de-niña/N-2hqw?d3106047a194921c01969dfdec083925=json",
@@ -19,7 +19,7 @@
 		"color":"#a4bfce"
       },
 	  {
-        "categoryid": "catst1833793",
+        "categoryid": "construccion-y-armables",
         "label": "Construcción y Armables",
         "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
         "navigationState": "/juegos-de-mesa/N-2ho9?d3106047a194921c01969dfdec083925=json",
@@ -27,7 +27,7 @@
 		"color":"#f89338"
       },
       {
-        "categoryid": "catst1833792",
+        "categoryid": "bebés",
         "label": "Bebés",
         "picture": "./assets/images/menu-categorias/bebes_700.svg",
         "navigationState": "/didácticos/cat170936?d3106047a194921c01969dfdec083925=json",
@@ -35,7 +35,7 @@
 		"color":"#00bea5"
       },
       {
-        "categoryid": "catst1833809",
+        "categoryid": "vehículos",
         "label": "Vehículos",
         "picture": "./assets/images/menu-categorias/montable_800.svg",
         "navigationState": "/personajes-figuras-de-acción/N-2kkg?d3106047a194921c01969dfdec083925=json",

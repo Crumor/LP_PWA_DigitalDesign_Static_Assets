@@ -219,7 +219,6 @@
         //funcion para optener la subcategoria
         function getSubCategoria(categorias, categoryId, fn) { /*funcion para optener el path >JSON de una categoria selccionada*/
           console.log('Obtiene subCategories', categoryId);
-
             var pathSubcategoria = "";
             var info = { success: false, data: [] };
             categorias.forEach(function(val) {
@@ -269,6 +268,7 @@
                     }
                 );
             } else {
+              console.log('****** ---- ******', fn);
                 if (fn) {
                     fn(info);
                 }
