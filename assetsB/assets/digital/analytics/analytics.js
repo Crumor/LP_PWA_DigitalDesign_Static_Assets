@@ -42,107 +42,107 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-               {
-		   'id':'linea_blanca_141019',
-		   'name':'Línea Blanca hasta 43% de desc y hasta 9 MSI',
-		   'creative':'h_banner_central',
-		   'position':'1'
-           },
-		   {
-			'id':'top_deals_141019',
-		   'name':'TOP deals ofertas del día',
-		   'creative':'h_banner_secun',
-		   'position':'2'
-			 },
+               	{
+		'id':'muebles_181019',
+		'name':'Muebles hasta 40% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
+           	},
+		{
+		'id':'top_deals_141019',
+		'name':'TOP deals ofertas del día',
+		'creative':'h_banner_secun',
+		'position':'2'
+		},
                  
                             
-           {
-		   'id':'celulares_141019',
-		   'name':'Celulares hasta 13 MSI',
-		   'creative':'h_banner_secun',
-		   'position':'3'
-			},
-           {
- 		   'id':'computadoras_141019',
-		   'name':'Computadoras hasta 10% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'4'
-			},
-           {
-		   'id':'pantallas_141019',
-		   'name':'Pantallas hasta 25% de desc',
-		   'creative':'h_banner_secun',
-		   'position':'5'
-			},
-            {
-		   'id':'videojuegos_141019',
-		   'name':'Videojuegos hasta 13 MSI',
-		   'creative':'h_banner_secun',
-		   'position':'6'
-			},
-            {
-		    'id':'apple_141019',
-		    'name':'Apple hasta 18 MSI',
-            'creative':'h_banner_secun',
-            'position':'7'
-			 },                
+           	{
+		'id':'celulares_181019',
+		'name':'Celulares hasta 25% de reemb o hasta 10% en reemb y hasta 18 MSI',
+		'creative':'h_banner_secun',
+		'position':'3'
+		},
+           	{
+ 		'id':'computadoras_181019',
+		'name':'Computadoras hasta 20% de desc',
+		'creative':'h_banner_secun',
+		'position':'4'
+		},
+          	 {
+		'id':'pantallas_141019',
+		'name':'Pantallas hasta 25% de desc',
+		'creative':'h_banner_secun',
+		'position':'5'
+		},
+            	{
+		'id':'videojuegos_181019',
+		'name':'Videojuegos hasta 15% de desc o 10% de desc y 9 MSI',
+		'creative':'h_banner_secun',
+		'position':'6'
+		},
+            	{
+		'id':'apple_141019',
+		'name':'Apple hasta 18 MSI',
+            	'creative':'h_banner_secun',
+            	'position':'7'
+		},                
                  
                             
                             
-              {
-		    'id':'muebles_141019',
-		    'name':'Muebles hasta 40% de des',
-            'creative':'h_banner_secun',
-            'position':'8'
-			 },              
-            {
-		  'id':'colchones_141019',
-		   'name':'Colchones hasta 40% de desc',
-		   'creative':'h_banner_secuun',
-		   'position':'9'
-			},
+              	{
+		'id':'linea_blanca_181019',
+		'name':'Línea Blanca hasta 43% de des y hasta 9 MSI',
+            	'creative':'h_banner_secun',
+            	'position':'8'
+		},              
+            	{
+		'id':'colchones_141019',
+		'name':'Colchones hasta 40% de desc',
+		'creative':'h_banner_secuun',
+		'position':'9'
+		},
 			
-            {
-		    'id':'blancos_141019',
-		    'name':'Blancos hasta 30% de desc',
-            'creative':'h_banner_secun',
-            'position':'10'
-			 },
+        	{
+		'id':'blancos_181019',
+		'name':'Blancos hasta 35% de desc',
+            	'creative':'h_banner_secun',
+            	'position':'10'
+		},
            
                                       
             
                             
-            {
-            'id':'martha_debayle_141019',
-		   'name':'Martha Debayle by ivonne',
-            'creative':'h_banner_secun',
-            'position':'11'
-			 },           
+            	{
+            	'id':'bolsas_141019',
+		'name':'Bolsas hasta 15% de desc',
+            	'creative':'h_banner_secun',
+            	'position':'11'
+		},           
              
-              {
-		    'id':'zapatos_141019',
-		    'name':'Zapatos hasta 15% de desc',
-            'creative':'h_banner_secun',
-            'position':'12'
-			 },
-            {
-            'id':'juguetes_141019',
-		    'name':'Juguetes hasta 20% de desc',
-            'creative':'h_banner_secun',
-            'position':'13'
-			 },
-            {
-            'id':'aparatos_de_ejercicio_141019',
-		    'name':'Aparatos de ejercicio hasta 30% de desc',
-		    'creative':'h_banner_secun',
-		    'position':'14'
-			 },
-            {
-            'id':'viajes_141019',
-		    'name':'Viajes hasta 70% de desc y hasta 24 MSI',
-		    'creative':'h_banner_secun',
-		    'position':'15'
-			 }                     
+             	{
+		'id':'zapatos_141019',
+		'name':'Zapatos hasta 15% de desc',
+            	'creative':'h_banner_secun',
+            	'position':'12'
+		 },
+            	{
+            	'id':'juguetes_141019',
+		'name':'Juguetes hasta 20% de desc',
+            	'creative':'h_banner_secun',
+            	'position':'13'
+		},
+            	{
+            	'id':'aparatos_de_ejercicio_141019',
+		'name':'Aparatos de ejercicio hasta 30% de desc',
+		'creative':'h_banner_secun',
+		'position':'14'
+		 },
+            	{
+            	'id':'viajes_141019',
+		'name':'Viajes hasta 70% de desc y hasta 24 MSI',
+		'creative':'h_banner_secun',
+		'position':'15'
+		}       
                         ]
                     }
                 }
