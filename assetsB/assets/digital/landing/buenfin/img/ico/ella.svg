@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 507.3 528.8" style="enable-background:new 0 0 507.3 528.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.73;fill:#F2F2F2;enable-background:new    ;}
+	.st1{opacity:0.7;enable-background:new    ;}
+	.st2{font-family:'OpenSans';}
+	.st3{font-size:60px;}
+	.st4{fill:#5B2E7C;}
+	.st5{fill:#8089F9;}
+	.st6{fill:#4D3A2D;}
+	.st7{fill:#261D16;}
+	.st8{fill:#FFFFFF;}
+</style>
+<title>celulares</title>
+<circle class="st0" cx="253.6" cy="213.3" r="213.3"/>
+<text transform="matrix(1 0 0 1 125.5788 511.59)" class="st1 st2 st3">Ropa Ella</text>
+<g>
+	<path class="st4" d="M286.6,84.8c-11.3,3.9-23.4,6-36.1,6s-24.8-2.1-36.1-6v71.1h72.1V84.8z"/>
+	<path class="st5" d="M267.4,410.5C344.3,407,377,380.1,377,380.1c-6.5-64.6-59.1-119.7-80-148.3c0,0,12.7-21.6,17.4-85.1l24,11.2
+		l23.8-36.7l-47.8-42.6L290.1,73c0,0-12.5,51-39.6,67.9C223.4,124,210.9,73,210.9,73l-24.3,5.6l-47.8,42.6l23.8,36.7l24-11.2
+		c4.7,63.5,17.4,85.1,17.4,85.1c-20.9,28.6-73.5,83.7-80,148.3c0,0,32.7,26.9,109.6,30.4l16.9-25.1L267.4,410.5z"/>
+	<path class="st6" d="M297,237.4h-93c-3.1,0-5.7-2.5-5.7-5.6c0-3.1,2.5-5.6,5.7-5.6h93c3.1,0,5.7,2.5,5.7,5.6
+		C302.6,234.8,300.1,237.4,297,237.4z"/>
+	<path class="st7" d="M275.8,226.1v67c0,3.1,2.5,5.6,5.7,5.6c3.1,0,5.7-2.5,5.7-5.6v-67H275.8z"/>
+	<g>
+		<ellipse class="st8" cx="250.5" cy="187" rx="5.7" ry="5.6"/>
+		<ellipse class="st8" cx="250.5" cy="361.9" rx="5.7" ry="5.6"/>
+		<ellipse class="st8" cx="250.5" cy="338.9" rx="5.7" ry="5.6"/>
+		<ellipse class="st8" cx="250.5" cy="292.7" rx="5.7" ry="5.6"/>
+		<ellipse class="st8" cx="250.5" cy="164" rx="5.7" ry="5.6"/>
+	</g>
+</g>
+</svg>
