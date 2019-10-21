@@ -43,10 +43,11 @@
 		"color":"#df4d60"
       },
 	 {
-        "categoryid": "catst1896485",
+        "categoryid": "exteriores",
         "label": "Exteriores",
         "picture": "./assets/images/menu-categorias/exteriores_800.svg",
         "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
+        "subCategories": "./data2019/categories/secondLevel/exteriores.json",
 		    "color":"#ffb44b"
       },
       {
@@ -82,19 +83,19 @@
 		"color":"#f3d55b"
       },
       {
-        "categoryid": "catst1833810",
+        "categoryid": "disfraces",
         "label": "Disfraces",
         "picture": "./assets/images/menu-categorias/disfraces_800.svg",
         "navigationState": "/ps3/cat1020687?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2017/categories/secondLevel/Disfraces.json",
+        "subCategories": "./data2019/categories/secondLevel/Disfraces.json",
 		"color":"#e8887c"
       },
       {
-        "categoryid": "catst1578010",
+        "categoryid": "videojuegos",
         "label": "Videojuegos",
         "picture": "./assets/images/menu-categorias/videojuegos_800.svg",
         "navigationState": "/videojuegos/catst1578010?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2017/categories/secondLevel/videojuegos.json",
+        "subCategories": "./data2019/categories/secondLevel/videojuegos.json",
 		"color":"#84787e"
       }
     ]
