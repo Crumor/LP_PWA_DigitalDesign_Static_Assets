@@ -70,14 +70,14 @@
         "label":"Peluches",
         "fondo":"#f9beba"
     },
-        "catst1833810":{
+        "disfraces":{
         "color1":"#ACC1D2",
         "color2":"none",
         "color3":"#FF877C",
         "label":"Disfraces",
         "fondo":"#ff4a97"
     },
-        "catst1578010":{
+        "videojuegos":{
         "color1":"#0DC6AB",
         "color2":"none",
         "color3":"#FF475C",

@@ -10,13 +10,12 @@
         $scope.banner = null;
         if( $routeParams.hasOwnProperty("categoria") ){
             serviceProducto.getCategoria( $routeParams.categoria, function( data ){
-                console.log('es aqui');
                 if( data.success ){
                     $scope.banner = data.data.principal;
                     $scope.idCategoria = $routeParams.categoria;
+
                     $timeout(function(){
                         $scope.categorias = data.data.subcategorias;
-
                         $scope.loaded = false;
                     },500);
                 }else{
@@ -41,21 +40,23 @@
         var _data = [];
         $scope.banner = {};
         if( $routeParams.hasOwnProperty("categoria") && $routeParams.hasOwnProperty("subcategoria")){
-          console.log('categoria -- >', $routeParams.categoria);
+            if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1833808" === $routeParams.subcategoria){
+                serviceProducto.getSubSubCategoria($routeParams.subcategoria, pageActual, responseSubSubCategoria);
+                $scope.banner = $routeParams.categoria;
+                $scope.idCategoria = $routeParams.subcategoria;
+              return;
+            }
             serviceProducto.getSubCategoria( $routeParams.categoria,$routeParams.subcategoria,pageActual, function( data ){
                 _data= data;
                 if( _data.success ){
-                  console.log(_data);
                     $scope.label = _data.data.principal.label;
                     $scope.banner = _data.data.principal;
                     $scope.fondo =  _data.data.principal.hasOwnProperty("colorfondo") ? _data.data.principal.colorfondo: "" ;
                     $scope.idCategoria = $routeParams.categoria;
-                    console.log(_data.data);
                     serviceProducto.getSubSubCategoria( _data.data.principal.categoryid, pageActual, responseSubSubCategoria);
-
                 }
             });
-        };
+        }
         $scope.irDetalle=function(id){
             $location.path("/detalle/"+id);
         }

@@ -220,43 +220,82 @@
         function getSubCategoria(categorias, categoryId, fn) { /*funcion para optener el path >JSON de una categoria selccionada*/
           console.log('Obtiene subCategories', categoryId);
             var pathSubcategoria = "";
+            var validationCat = true;
             var info = { success: false, data: [] };
             categorias.forEach(function(val) {
                 if (val.categoryid === categoryId) {
                     pathSubcategoria = val.subCategories;
+                  /*  if("exteriores" === categoryId){
+                    $http.get(pathSubCategoria).then(function(data) {
+                        if (data.data.hasOwnProperty('plpResults')) {
+                          console.log('exteriores ', data.data.plpResults.records);
+
+                          var respuesta = data.data.plpResults.records;
+                          var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
+                          newObj = respuesta.map(function(val) {
+                              var obj = serviceModel.producto();
+                              obj.id = val.productId;
+                              obj.idOriginal = val.repositoryId;
+                              obj.description = val.productDisplayName
+                              obj.imageBg = val.xlImage;
+                              obj.imageSm = val.smImage;
+                              return obj;
+                          });
+                          info.success = true;
+                          info.data = newObj;
+                          info.code = 0;
+                          info.totalPages = totalPages;
+                        }
+                        if (fn) {
+                            fn(info);
+                        }
+                    }, function(data) {
+                        if (fn) {
+                            fn(info);
+                        }
+                        console.log("error al cargar " + pathSubCategoria);
+                    });
+                    return;
+                  }*/
                 }
             })
+
+
             if (pathSubcategoria !== "") {
+              console.log('pathSubcategoria ', pathSubcategoria);
                 $http.get(pathSubcategoria).then(
                     function(data) {
                         var principal = data.data["principal-banner"];
                         var respuesta = data.data.categories["category-main"] || [];
                         var newObj = [];
-                        respuesta.forEach(function(val) {
-                            var tmpObj = { index: "", label: "", categoryid: "", pathJson: "", navigationState: "", categoria: "", toys: [], info: {} };
-                            tmpObj.index = categoryId;
-                            tmpObj.categoryid = val.info.categoryid;
-                            tmpObj.label = val.info.label;
-                            tmpObj.info = val.info;
-                            var toys = val.toys;
-                            tmpObj.toys = toys.map(function(val) {
-                                var producto = serviceModel.producto();
-                                producto.id = val.id;
-                                producto.idOriginal = val.id;
-                                producto.description = val.description;
-                                producto.imageBg = val.image;
-                                producto.imageSm = val.image;
-                                producto.longDescription = val.longDescription;
-                                return producto;
-                            });
 
-                            tmpObj.navigationState = val.info.navigationState;
+                          respuesta.forEach(function(val) {
+                            console.log('valores del json en hardcode');
+                              var tmpObj = { index: "", label: "", categoryid: "", pathJson: "", navigationState: "", categoria: "", toys: [], info: {} };
+                              tmpObj.index = categoryId;
+                              tmpObj.categoryid = val.info.categoryid;
+                              tmpObj.label = val.info.label;
+                              tmpObj.info = val.info;
+                              var toys = val.toys;
+                              tmpObj.toys = toys.map(function(val) {
+                                  var producto = serviceModel.producto();
+                                  producto.id = val.id;
+                                  producto.idOriginal = val.id;
+                                  producto.description = val.description;
+                                  producto.imageBg = val.image;
+                                  producto.imageSm = val.image;
+                                  producto.longDescription = val.longDescription;
+                                  return producto;
+                              });
 
-                            newObj.push(tmpObj);
-                            console.log(newObj);
-                        });
-                        info.success = true;
-                        info.data = { principal: principal, subcategorias: newObj };
+                              tmpObj.navigationState = val.info.navigationState;
+
+                              newObj.push(tmpObj);
+                          });
+                          info.success = true;
+                          info.data = { principal: principal, subcategorias: newObj };
+                          console.log('info.data ', info.data);
+
                         if (fn) {
                             fn(info);
                         }
@@ -268,7 +307,6 @@
                     }
                 );
             } else {
-              console.log('****** ---- ******', fn);
                 if (fn) {
                     fn(info);
                 }
@@ -404,6 +442,7 @@
             },
             /*funcion para traer las subcategorias pero desde el servicio de liverpool para la seccion de subcateg*/
             getSubSubCategoria: function(navigationState, page, fn) {
+
                 var info = { success: false, data: [], code: -1, totalPages: 1 };
                 //var pathSubCategoria =myConfig.pathServices+navigationState+"/page-"+page+"/?"+myConfig.formatJson;
                 var findsimbol = navigationState.indexOf("?");
@@ -412,8 +451,41 @@
                     concat = "&";
                 }
             var pathSubCategoria = myConfig.pathServiceSubCategoria + navigationState;
+            var pathServiceSubCategoriaPLP = myConfig.pathServiceSubCategoriaPLP + navigationState;
                 var newObj = [];
+                if("cat940612" === navigationState || "cat1161024" === navigationState || "cat5030010" === navigationState){
+                  $http.get(pathServiceSubCategoriaPLP).then(function(data) {
+                      if (data.data.hasOwnProperty('plpResults')) {
+                        var respuesta = data.data.plpResults.records;
+                        var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
+                        newObj = respuesta.map(function(val) {
+                            var obj = serviceModel.producto();
+                            obj.id = val.productId;
+                            obj.idOriginal = val.repositoryId;
+                            obj.description = val.productDisplayName
+                            obj.imageBg = val.xlImage;
+                            obj.imageSm = val.smImage;
+                            return obj;
+                        });
+                        info.success = true;
+                        info.data = newObj;
+                        info.code = 0;
+                        info.totalPages = totalPages;
+                      }
+                      if (fn) {
+                          fn(info);
+                      }
+                  }, function(data) {
+                      if (fn) {
+                          fn(info);
+                      }
+                      console.log("error al cargar " + pathSubCategoria);
+                  });
+                  return;
+                }
                 $http.get(pathSubCategoria).then(function(data) {
+                  console.log('data : ', data);
+                  console.log('pathSubCategoria : ' , pathSubCategoria);
                     if (data.data.hasOwnProperty('plpResults')) {
                         var respuesta = data.data.plpResults.records;
                         var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
@@ -443,7 +515,6 @@
             },
             getMarcasPopulares: function(fn) {
               console.log('Marcas populares');
-
                 var info = { success: false, code: -1, data: [] };
                 var marcas = home.getMarcasPopulares();
                 if (marcas.length === 0) {
@@ -553,7 +624,6 @@
                 }
             },
             getBannerSliderCategoria: function(categoria, index, fn) {
-              console.log('---');
                 var banners = JsonCategorias.getBannersCategorias() || [];
                 var info = { success: false, data: [], code: -1 };
                 if (banners.length === 0) {
@@ -588,7 +658,7 @@
         }
 
         function validarEmail(email) {
-            var expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var expr = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/igm;
             if (!expr.test(email))
                 return false
             else
@@ -668,7 +738,8 @@
                     $http({
                         method: "POST",
                         url: myConfig.pathSendCarts,
-                        data: sendCarta
+                        data: sendCarta,
+                        timeout: 3000
                     }).then(function(data) {
                         console.log(data);
                         info.success = true;
@@ -678,10 +749,14 @@
                             fn(info)
                     }, function(data) {
                         console.log(data);
+                        localStorage.pedidos = "";
+                        storePedidos.setPedidos([]);
+                        $rootScope.totalPedidos = storePedidos.getTotal();
+                        window.location.replace("/");
                         info.code = -3;
                         info.data = data;
                         if (fn)
-                            fn(info)
+                            fn(info) 
                     });
                 }
             },
