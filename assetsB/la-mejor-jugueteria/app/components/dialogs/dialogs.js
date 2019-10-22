@@ -159,12 +159,20 @@
             link: function($scope, elem, attrs) {
                 $scope.cartas = $rootScope.totalPedidos < 10 ? "0" + $rootScope.totalPedidos : $rootScope.totalPedidos;
                 var win = $(window);
+               var screenDeviceMobile = (win[0].screen.width < 992) ? true : false;
+                $(elem).hide();
                 $rootScope.$watch('totalPedidos', function(newValue, oldValue) {
                     $scope.cartas = $rootScope.totalPedidos < 10 ? "0" + $rootScope.totalPedidos : $rootScope.totalPedidos;
                 });
                 var isShow = false;
 
-                var toplimit = 600;
+                if(screenDeviceMobile){
+                  $(elem).show();
+                  var toplimit = 0;
+                }else{
+                  var toplimit = 320;
+                }
+
                 var locat = $location.path();
                 locat = $location.path();
 
@@ -187,21 +195,19 @@
                     $(elem).show();
                 }
                 win.scroll(function() {
-                    var _top = win.scrollTop()
-
-
+                  isShow = false;
+                  var _top = win.scrollTop();
                     if (_top > toplimit) {
-                        isShow = true;
-                        if ($(elem).attr("class") === 'icon_carta') {
+                      isShow = true;
+                      if ($(elem).attr("class") === 'icon_carta') {
                             $(elem).show();
-                        }
-
-                    } else {
-
-                        if ($(elem).attr("class") === 'icon_carta') {
-                            //$(elem).hide();
-							$(elem).show();
-                        }
+                          }
+                    }else if((_top < toplimit || _top == 0) && !screenDeviceMobile){
+                      isShow = false;
+                      $(elem).hide();
+                    }else if(_top < toplimit  && screenDeviceMobile){
+                      isShow = false;
+                      $(elem).hide();
                     }
                 });
 

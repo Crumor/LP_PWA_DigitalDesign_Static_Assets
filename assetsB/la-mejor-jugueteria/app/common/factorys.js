@@ -60,9 +60,6 @@
        };
     };
     function categorias(){
-
-      console.log('---');
-
        var categorias =[];
        var bannersCategorias=[];
        return {
