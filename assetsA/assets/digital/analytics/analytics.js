@@ -30,6 +30,65 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
     }
 
 }
+function countDownBuenFin(){
+	try {
+                var endDate = new Date("November 15, 2019 23:59:59").getTime();
+                var elDays = document.querySelectorAll(".cdh_days");
+                var elHours = document.querySelectorAll(".cdh_hours");
+                var elMinutes = document.querySelectorAll(".cdh_minutes");
+                var elSeconds = document.querySelectorAll(".cdh_seconds");
+                  var days = 0;
+                    var hours = 0;
+                    var minutes = 0;
+                    var seconds = 0;
+                    var nowaday = 0;
+                    var distanceBetweenDays = 0;
+                var operationsTime =function() {
+                  
+                    nowaday = new Date().getTime();
+                    distanceBetweenDays = endDate - nowaday;
+                     days = Math.floor(distanceBetweenDays / (1000 * 60 * 60 * 24));
+                     hours = Math.floor((distanceBetweenDays % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                     minutes = Math.floor((distanceBetweenDays % (1000 * 60 * 60)) / (1000 * 60));
+                     seconds = Math.floor((distanceBetweenDays % (1000 * 60)) / 1000);
+                    if (distanceBetweenDays < 0) {
+                        clearInterval(engineTime);
+                        days = 0;
+                        hours = 0;
+                        minutes = 0;
+                        seconds = 0;
+                    }
+                    return {
+                        "days": days,
+                        "hours": hours,
+                        "minutes": minutes,
+                        "seconds": seconds
+                    }
+                }
+                var setElements = function(el,val){
+                    if(el.length > 0){
+                        for(var i = 0; i<el.length;i++){
+                            el[i].innerHTML = val < 10 ? "0" + val : val;
+                        }
+                    }
+                }
+                var setDataTime = function(d, h, m, s) {
+                    setElements(elDays ,d);
+                     setElements(elHours,h);
+                      setElements(elMinutes,m);
+                       setElements(elSeconds,s);
+
+               
+                }
+                var runTime = function() {
+                    var dataTime = operationsTime();
+                    setDataTime(dataTime.days, dataTime.hours, dataTime.minutes, dataTime.seconds);
+                }
+                var engineTime = setInterval(runTime, 0);
+            } catch (Exception) {
+                console.log("time__fail");
+            }
+}
 
     function myOnloadFunction(pageName,path) {
         showBlp();
@@ -4535,7 +4594,10 @@ dataLayer.push({
 }
 }
 });           
-         
+         break;
+         case '/tienda/buen-fin/cat6590007':
+         countDownBuenFin();
+         break;
         }
     }// JavaScript Document
 // JSON Document
