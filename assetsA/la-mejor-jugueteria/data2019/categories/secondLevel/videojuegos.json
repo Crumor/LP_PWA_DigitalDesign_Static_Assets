@@ -1,6 +1,6 @@
 	{
 	"principal-banner":{
-		"picture": "./assets/images/categorias/10_videojuegos_art.png",
+		"picture": "./assets/images/categorias/videojuegos_art.png",
 		"patron":"./assets/images/categorias/10_patron_videojuegos.png",
 		"colorFondo":"#c5052e",
 		"analytics":"videojuegos"

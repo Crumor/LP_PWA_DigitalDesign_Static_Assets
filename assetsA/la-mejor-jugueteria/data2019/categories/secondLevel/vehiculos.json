@@ -1,6 +1,6 @@
 {
     "principal-banner":{
-        "picture": "./assets/images/categorias/07_vehiculos_art.png",
+        "picture": "./assets/images/categorias/vehiculos_art.png",
         "patron":"./assets/images/categorias/07_patron_vehiculos.png",
         "colorFondo":"#003663",
         "analytics":"vehiculos"

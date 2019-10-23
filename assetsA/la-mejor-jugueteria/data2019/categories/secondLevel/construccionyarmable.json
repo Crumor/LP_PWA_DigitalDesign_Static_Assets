@@ -1,6 +1,6 @@
 {
 	"principal-banner":{
-        "picture": "./assets/images/categorias/04_armables_art.png",
+        "picture": "./assets/images/categorias/construccion_art.png",
         "patron":"./assets/images/categorias/04_patron_armables.png",
         "colorFondo":"#fb3b42",
         "analytics":"construccion-armables"
