@@ -1,6 +1,6 @@
 {
 	"principal-banner":{
-        "picture": "./assets/images/categorias/12_disfraces_art.png",
+        "picture": "./assets/images/categorias/disfraces_art.png",
         "patron":"./assets/images/categorias/12_patron_disfraces.png",
         "colorFondo":"#ff8c03",
         "analytics":"disfraces"

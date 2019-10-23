@@ -1,6 +1,6 @@
 {
 	"principal-banner":{
-        "picture": "./assets/images/categorias/03_bebes_art.png",
+        "picture": "./assets/images/categorias/bebes_art.png",
         "patron":"./assets/images/categorias/03_patron_bebes.png",
         "colorFondo":"#ff8c03",
         "analytics":"bebes"
