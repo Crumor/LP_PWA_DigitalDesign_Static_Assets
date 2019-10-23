@@ -14,7 +14,6 @@
                 $scope.totalCartas = data.data.total;
             }
         }, function(fail) {
-            console.log(fail);
         })
         $scope.irDetalleTop = function(id) {
             $location.path("/detalletopdiez/" + id);
