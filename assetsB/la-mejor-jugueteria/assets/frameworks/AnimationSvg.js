@@ -67,7 +67,11 @@
                 var calculteScale = getWidthSprite() / opts.spriteWidth;
                 return opts.spriteHeight * calculteScale;
             }
-            animation = setInterval( _animation, opts.speedAnimation );
+            var win = $(window);
+           var screenDeviceMobile = (win[0].screen.width < 992) ? true : false;
+            if(!screenDeviceMobile){
+              animation = setInterval( _animation, opts.speedAnimation );
+            }
 
         });
     }

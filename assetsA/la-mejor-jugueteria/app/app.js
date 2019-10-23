@@ -4,7 +4,7 @@
 
                                     "categorias","detalle","carta","busquedas","componentOwlCarucel","componentDialogs","home","angulartics", "angulartics.google.analytics","angulartics.facebook.pixel"])
     .config(["$routeProvider","$locationProvider","$analyticsProvider","$httpProvider",configuracion])
-    .run(['$rootScope', '$location', '$http', '$route',"serviceModel","serviceBlackList","serviceStorePedidos","$timeout",run]);
+    .run(['$rootScope', '$location', '$http', '$route',"serviceModel","serviceBlackList","serviceStorePedidos","$timeout",run])
 
     function run( $rootScope, $location, $http, $route, serviceModel,serviceBlackList,serviceStorePedidos,$timeout ){
         /**modal principal agregar carta**/
