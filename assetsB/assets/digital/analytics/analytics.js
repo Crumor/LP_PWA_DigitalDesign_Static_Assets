@@ -206,6 +206,108 @@ function countDownBuenFin(){
 		'name':'Juguetes hasta 20% de desc',
 		'creative':'h_banner_secun',
 		'position':'16'
+		},
+		
+		{
+		'id':'linea_blanca_261019',
+		'name':'Línea blanca hasta 47% de desc ó hasta 15 MSI',
+		'creative':'h_banner_central',
+		'position':'1'
+           	},
+		{
+		'id':'muebles_261019',
+		'name':'Muebles hasta 50% de desc',
+		'creative':'h_banner_secun',
+		'position':'2'
+		},
+                 
+                            
+           	{
+		'id':'colchones_261019',
+		'name':'Colchones a precio individual',
+		'creative':'h_banner_secun',
+		'position':'3'
+		},
+           	{
+ 		'id':'cocina_261019',
+		'name':'Cocina hasta 35% de desc',
+		'creative':'h_banner_secun',
+		'position':'4'
+		},
+          	 {
+		'id':'computadoras_261019',
+		'name':'Computadoras hasta 20% de desc',
+		'creative':'h_banner_secun',
+		'position':'5'
+		},
+                                            
+            	{
+		'id':'celulares_261019',
+		'name':'Celulares hasta 20% de desc ó hasta 13 MSI',
+		'creative':'h_banner_secun',
+		'position':'6'
+		},
+            	{
+		'id':'pantallas_261019',
+		'name':'Pantallas hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'7'
+		},                
+                 {
+		'id':'videojuegos_261019',
+		'name':'Videojuegos hasta 15% de desc ó hasta 10% de desc y 9 MSI',
+        'creative':'h_banner_secun',
+        'position':'8'
+		},              
+            	{
+		'id':'zapatos_261019',
+		'name':'Zapatos hasta 25% de desc',
+		'creative':'h_banner_secuun',
+		'position':'9'
+		},
+			     {
+		'id':'deportes_261019',
+		'name':'Deportes hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'10'
+		},
+                     
+            	{
+        'id':'juguetes_261019',
+		'name':'Juguetes hasta 25% de desc ó hasta 20% de desc y 13 MSI',
+        'creative':'h_banner_secun',
+        'position':'11'
+		},           
+             
+             	{
+		'id':'el_261019',
+		'name':'Él hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'12'
+		 },
+            	{
+        'id':'ella_261019',
+		'name':'Ella hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'13'
+		},
+            	{
+        'id':'pandora_261019',
+		'name':'Pandora hasta 30% de desc',
+		'creative':'h_banner_secun',
+		'position':'14'
+		 },
+            	{
+        'id':'bebes_261019',
+		'name':'Bebés hasta 35% de desc',
+		'creative':'h_banner_secun',
+		'position':'15'
+		},
+                {
+        'id':'casa_261019',
+		'name':'Casa hasta 35% de desc ó hasta 30% de desc y 9 MSI',
+		'creative':'h_banner_secun',
+		'position':'16'
 		}
                         ]
                     }
