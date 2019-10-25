@@ -24,7 +24,6 @@
         $scope.imagenAux = "";
         $scope.loaded = true;
         $scope.indexActive = -1;
-        console.log('params', $routeParams);
         if( $routeParams.hasOwnProperty("productId") ){
             serviceProducto.getProducto( $routeParams.productId,function(data){
                 if( data.success ){

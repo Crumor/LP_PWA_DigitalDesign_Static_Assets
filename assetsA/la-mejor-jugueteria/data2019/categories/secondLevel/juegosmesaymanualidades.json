@@ -16,10 +16,57 @@
 			"navigationState": "juegos-de-mesa/N-35vd",
             "colorfondo":"#00d5ff"
 			},
-			"toys":[
-			{"id":"1060502796","image":"https://ss425.liverpool.com.mx/lg/1060502796.jpg","description":"Juguete Memoria Disney Collection Mickey Mouse","longDescription":""},{"id":"1060533241","image":"https://ss424.liverpool.com.mx/lg/1060533241.jpg","description":"Bunch Bot Spin Master Bunchems","longDescription":""},{"id":"1060533233","image":"https://ss424.liverpool.com.mx/lg/1060533233.jpg","description":"Mega Set Bunchems! Spin Master","longDescription":""},{"id":"1059256706","image":"https://ss424.liverpool.com.mx/lg/1059256706.jpg","description":"Set Castillo de Arena Spin Master Kinetic Sand","longDescription":""},{"id":"1060536003","image":"https://ss424.liverpool.com.mx/lg/1060536003.jpg","description":"Rompecabezas Ravensburger Disney Saga XXL Star Wars","longDescription":""},{"id":"1061104794","image":"https://ss424.liverpool.com.mx/lg/1061104794.jpg","description":"Figura Minion Bop It! Hasbro Stuart","longDescription":""},{"id":"1059567582","image":"https://ss424.liverpool.com.mx/lg/1059567582.jpg","description":"Rompecabezas Ravensburger Castillo Disney","longDescription":""},{"id":"1059568902","image":"https://ss424.liverpool.com.mx/lg/1059568902.jpg","description":"Juego de Mesa Ravensburger Laberinto Star Wars","longDescription":""},{"id":"1059567604","image":"https://ss424.liverpool.com.mx/lg/1059567604.jpg","description":"Rompecabezas Ravensburger Famosos Disney","longDescription":""},{"id":"1060530293","image":"https://ss424.liverpool.com.mx/lg/1060530293.jpg","description":"Set Castillo Mágico Spin Master Kinetic Sand","longDescription":""}
-				]		
-		  },{
+			"toys": [{
+	  "id": "1080884857",
+	  "image": "https://ss425.liverpool.com.mx/lg/1080884857.jpg",
+	  "description": "Set Fortnite Hasbro Gaming Monopoly",
+	  "longDescription": ""
+	}, {
+	  "id": "1070513699",
+	  "image": "https://ss424.liverpool.com.mx/lg/1070513699.jpg",
+	  "description": "Monopoly Hasbro Mario Kart",
+	  "longDescription": ""
+	}, {
+	  "id": "1077396868",
+	  "image": "https://ss424.liverpool.com.mx/lg/1077396868.jpg",
+	  "description": "Catan El Juego Devir",
+	  "longDescription": ""
+	}, {
+	  "id": "1068973569",
+	  "image": "https://ss424.liverpool.com.mx/lg/1068973569.jpg",
+	  "description": "Destreza Hasbro Gaming",
+	  "longDescription": ""
+	}, {
+	  "id": "1052838491",
+	  "image": "https://ss424.liverpool.com.mx/lg/1052838491.jpg",
+	  "description": "Desafío Pastelazo Hasbro",
+	  "longDescription": ""
+	}, {
+	  "id": "1086755935",
+	  "image": "https://ss424.liverpool.com.mx/lg/1086755935.jpg",
+	  "description": "Set Vamos a Pescar Baby Shark Spin Master",
+	  "longDescription": ""
+	}, {
+	  "id": "1067218589",
+	  "image": "https://ss424.liverpool.com.mx/lg/1067218589.jpg",
+	  "description": "Pulgas Locas Hasbro",
+	  "longDescription": ""
+	}, {
+	  "id": "1086864203",
+	  "image": "https://ss424.liverpool.com.mx/lg/1086864203.jpg",
+	  "description": "Monopoly L.O.L. Surprise! Hasbro Gaming",
+	  "longDescription": ""
+	}, {
+	  "id": "1082718041",
+	  "image": "https://ss424.liverpool.com.mx/lg/1082718041.jpg",
+	  "description": "Lotería Avengers Novelty",
+	  "longDescription": ""
+	}, {
+	  "id": "1060672349",
+	  "image": "https://ss424.liverpool.com.mx/lg/1060672349.jpg",
+	  "description": "Juego de mesa Hasbro Monopoly Gamer",
+	  "longDescription": ""
+	}]		  },{
 		  "info":{
 			"categoryid": "catst1857466",
 			"label": "Manualidades",
@@ -29,8 +76,16 @@
             "colorfondo":"#ff60f0"
 			},
 			"toys":[
-			{"id":"1059569726","image":"https://ss424.liverpool.com.mx/lg/1059569747.jpg","description":"ESPIROGRAFO DESIGNER,MULTICOLOR","longDescription":""},{"id":"1060963220","image":"https://ss424.liverpool.com.mx/lg/1060963220.jpg","description":"Set de Juego Grossery Gang Máquina de hot dogs","longDescription":""},{"id":"1061109451","image":"https://ss424.liverpool.com.mx/lg/1061109451.jpg","description":"Kit de Decoraciones Creativas Play Doh DohVinci","longDescription":""},{"id":"1061109435","image":"https://ss424.liverpool.com.mx/lg/1061109435.jpg","description":"Set de juego Play-Doh Fábrica de Minions","longDescription":""},{"id":"1061109478","image":"https://ss424.liverpool.com.mx/lg/1061109478.jpg","description":"Organizador de pared Play Doh DohVinci","longDescription":""},{"id":"1061109443","image":"https://ss424.liverpool.com.mx/lg/1061109443.jpg","description":"Set de juego Desayunos de panadería Play-Doh","longDescription":""},{"id":"1061109460","image":"https://ss424.liverpool.com.mx/lg/1061109460.jpg","description":"Estudio de arte Play Doh DohVinci","longDescription":""},{"id":"1059483192","image":"https://ss424.liverpool.com.mx/lg/1059483192.jpg","description":"Pizarrón Magnético Novelty Cars 3","longDescription":""},{"id":"1058290871","image":"https://ss424.liverpool.com.mx/lg/1058290871.jpg","description":"Libreta de Misiones Spin Master Paw Patrol","longDescription":""},{"id":"1059500771","image":"https://ss424.liverpool.com.mx/lg/1059500771.jpg","description":"Set de Sellos Novelty Shimmer & Shine","longDescription":""}
-					]
+				{"id":"1079908475","image":"https://ss424.liverpool.com.mx/lg/1079908475.jpg","description":"Mystery English Clementoni","longDescription":""}
+				,{"id":"1081663811","image":"https://ss424.liverpool.com.mx/lg/1081663811.jpg","description":"Set Cadetes de la Creatividad Play-Doh Top Wing","longDescription":""},
+				{"id":"1059256692","image":"https://ss424.liverpool.com.mx/lg/1059256692.jpg","description":"Mesa de Juego Spin Master Kinetic Sand","longDescription":"Con la increíble mesa de juego ¡Todo será más divertido! Podrás hacer tus mejores creaciones y coleccionar todos los productos de Kinetic Sand para hacer más cosas."},
+				{"id":"86524082","image":"https://ss424.liverpool.com.mx/lg/86524082.jpg","description":"Laboratorio de Askerobromas Mi Alegría","longDescription":"Completísimo juego con todo lo necesario para crear asquerosos granos, horribles cortadas y sorprendentes ojos falsos."},
+				{"id":"1069427738","image":"https://ss424.liverpool.com.mx/lg/1069427738.jpg","description":"Set Mariposas Efervescentes Creativity For Kids","longDescription":""},
+				{"id":"1085080233","image":"https://ss424.liverpool.com.mx/lg/1085080233.jpg","description":"Set 3D Maker Jr. Creativakids rojo","longDescription":""},
+				{"id":"1069431174","image":"https://ss424.liverpool.com.mx/lg/1069431174.jpg","description":"Set de Viaje Bunchems Spin Master","longDescription":""},
+				{"id":"1078784209","image":"https://ss424.liverpool.com.mx/lg/1078784209.jpg","description":"Mesa de Actividad Play-Doh","longDescription":""},
+				{"id":"7605131","image":"https://ss424.liverpool.com.mx/lg/7605131.jpg","description":"Pottery cool Studio","longDescription":""},
+				{"id":"1029015313","image":"https://ss424.liverpool.com.mx/lg/1029015313.jpg","description":"Mi Alegría Química Equipo 2","longDescription":""}]
 			},{
 			"info":{
 			"categoryid": "catst1857467",
@@ -41,10 +96,58 @@
             "colorfondo":"#ff41a3"
 			},
 			"toys":[
-			{"id":"1060536003","image":"https://ss424.liverpool.com.mx/lg/1060536003.jpg","description":"Rompecabezas Ravensburger Disney Saga XXL Star Wars","longDescription":""},{"id":"1059567582","image":"https://ss424.liverpool.com.mx/lg/1059567582.jpg","description":"Rompecabezas Ravensburger Castillo Disney","longDescription":""},{"id":"1059567604","image":"https://ss424.liverpool.com.mx/lg/1059567604.jpg","description":"Rompecabezas Ravensburger Famosos Disney","longDescription":""},{"id":"1059565750","image":"https://ss424.liverpool.com.mx/lg/1059565750.jpg","description":"Rompecabezas 3D Ravensburger Soy Luna","longDescription":""},{"id":"1060575360","image":"https://ss424.liverpool.com.mx/lg/1060575360.jpg","description":"Rompecabezas Ravensburger Disney Princesas","longDescription":""},{"id":"1059569020","image":"https://ss424.liverpool.com.mx/lg/1059569020.jpg","description":"Rompecabezas Ravensburger Disney","longDescription":""},{"id":"1059568295","image":"https://ss424.liverpool.com.mx/lg/1059568295.jpg","description":"Rompecabezas Ravensburger Guardián del Castillo","longDescription":""},{"id":"1059569089","image":"https://ss424.liverpool.com.mx/lg/1059569089.jpg","description":"Rompecabezas Ravensburger Disney Blancanieves","longDescription":""},{"id":"1059520225","image":"https://ss424.liverpool.com.mx/lg/1059520225.jpg","description":"Rompecabezas Ravensburger Transportes","longDescription":""},{"id":"1059500763","image":"https://ss424.liverpool.com.mx/lg/1059500763.jpg","description":"Rompecabezas 3 en 1 Novelty Masha y el Oso","longDescription":""}
-					]
-					}	
-			
-		
+			{
+		  "id": "1077569011",
+		  "image": "https://ss424.liverpool.com.mx/lg/1077569011.jpg",
+		  "description": "Rompecabezas Aterciopelado para Colorear Novelty Frozen",
+		  "longDescription": ""
+		}, {
+		  "id": "1058317027",
+		  "image": "https://ss424.liverpool.com.mx/lg/1058317027.jpg",
+		  "description": "Rompecabezas Panorámico Novelty Paw Patrol",
+		  "longDescription": ""
+		}, {
+		  "id": "1083829466",
+		  "image": "https://ss424.liverpool.com.mx/lg/1083829466.jpg",
+		  "description": "Rompecabezas Novelty Toy Story 4",
+		  "longDescription": ""
+		}, {
+		  "id": "1083858091",
+		  "image": "https://ss424.liverpool.com.mx/lg/1083858091.jpg",
+		  "description": "Rompecabezas Musical Spin Master Baby Shark",
+		  "longDescription": ""
+		}, {
+		  "id": "1016968303",
+		  "image": "https://ss424.liverpool.com.mx/lg/1016968303.jpg",
+		  "description": "Mickey Rompecabezas 1000 Piezas",
+		  "longDescription": ""
+		}, {
+		  "id": "1082792933",
+		  "image": "https://ss424.liverpool.com.mx/lg/1082792933.jpg",
+		  "description": "Rompecabezas 3D Yatch Mary Imori Kits",
+		  "longDescription": ""
+		}, {
+		  "id": "1067237001",
+		  "image": "https://ss424.liverpool.com.mx/lg/1067237001.jpg",
+		  "description": "Rompecabezas Disney Collection Increíbles 2",
+		  "longDescription": ""
+		}, {
+		  "id": "1082792976",
+		  "image": "https://ss424.liverpool.com.mx/lg/1082792976.jpg",
+		  "description": "Rompecabezas 3D Dollhouse Carries Imori Kits",
+		  "longDescription": ""
+		}, {
+		  "id": "1089471288",
+		  "image": "https://ss424.liverpool.com.mx/lg/1089471288.jpg",
+		  "description": "Rompecabezas LOL Spin Master",
+		  "longDescription": ""
+		}, {
+		  "id": "7656983",
+		  "image": "https://ss424.liverpool.com.mx/lg/7656983.jpg",
+		  "description": "Rompecabezas 3 en 1 Novelty Masha y el Oso",
+		  "longDescription": ""
+		}]					}
+
+
 	  ]}
 	  }

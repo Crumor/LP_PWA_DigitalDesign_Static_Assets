@@ -24,13 +24,22 @@ body {
     top: 30px;
 }
 
-.icon_carta {
-    position: fixed;
-    bottom: 50%;
-    right: 5%;
-    z-index: 999;
-    /*z-index: 990;*/
-    /*display: none;*/
+@media (max-width:991px) {
+  .icon_carta {
+      position: fixed;
+      bottom: 0%;
+      right: 2%;
+      z-index: 999;
+  }
+}
+
+@media (min-width:992px) {
+  .icon_carta {
+      position: fixed;
+      bottom: 50%;
+      right: 5%;
+      z-index: 999;
+  }
 }
 
 .contenidoPrincipal {

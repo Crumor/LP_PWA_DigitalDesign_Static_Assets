@@ -1,6 +1,6 @@
 {
 "principal-banner":{
-		"picture": "./assets/images/categorias/02_ninas_art.png",
+		"picture": "./assets/images/categorias/ninas_art.png",
 		"patron":"./assets/images/categorias/02_patron_ninas.png",
 		"colorFondo":"#f9648a",
 		"analytics":"ninas"

@@ -35,7 +35,7 @@
         "label":"Vehículos",
         "fondo":"#9af7ff"
     },
-        "catst1896485":{
+        "exteriores":{
         "color1":"#92E8DF",
         "color2":"none",
         "color3":"#FF4C60",
@@ -49,7 +49,7 @@
         "label":"Radio Control",
         "fondo":"#8f25eb"
     },
-        "cat21090008":{
+        "juegos-de-mesa":{
         "color1":"#FF4600",
         "color2":"none",
         "color3":"#1BB5A0",
@@ -70,14 +70,14 @@
         "label":"Peluches",
         "fondo":"#f9beba"
     },
-        "catst1833810":{
+        "disfraces":{
         "color1":"#ACC1D2",
         "color2":"none",
         "color3":"#FF877C",
         "label":"Disfraces",
         "fondo":"#ff4a97"
     },
-        "catst1578010":{
+        "videojuegos":{
         "color1":"#0DC6AB",
         "color2":"none",
         "color3":"#FF475C",

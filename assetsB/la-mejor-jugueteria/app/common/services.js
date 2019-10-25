@@ -86,13 +86,44 @@
         return {
             //busqueda general del type head
             buscar: function(word, fn) {
-              console.log('buscar typeHead');
                 resultado = [];
                 mostrar = false;
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                            $http.get(myConfig.pathServiceSearch + "search-string=" + word + "*")
+                              $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})
+                                    .then(function(data) {
+                                        var contents = data.data;
+                                            if (word !== "") {
+                                                var responseValues = contents.results;
+                                                if (responseValues.length > 0) {
+                                                    const result = contents.results.filter(item => item.showView === 'PDP');
+                                                    (result.length > 0) ? mostrar = true : mostrar = false;
+                                                        resultado = [];
+                                                        result.forEach(function(val) {
+                                                            var obj = objResultado();
+
+                                                            var tempLabel = val.label;
+                                                            obj.id = val.productId;
+                                                            obj.sku = val.label;
+                                                            obj.image = val.image;
+                                                            obj.descripcionClean = tempLabel;
+                                                            obj.descripcion = filterCoincidence(word, tempLabel);
+                                                            obj.totales = val.count;
+                                                            resultado.push(obj);
+                                                        });
+                                                        if (fn)
+                                                        fn();
+                                                    }
+                                              }
+                                    }, function(fail) {
+
+                                    });
+
+                          /*  $http({url: myConfig.pathServiceSearch + "search-string=" + word + "*", headers: {
+                               'Access-Control-Allow-Credentials' : true,
+                               'Access-Control-Allow-Origin':'*',
+                             }})
                                 .then(function(data) {
                                     var contents = data.data;
                                         if (word !== "") {
@@ -119,7 +150,7 @@
                                           }
                                 }, function(fail) {
 
-                                });
+                                });*/
                         } else {
                             resultado = [];
                             mostrar = false;
@@ -155,8 +186,6 @@
                 producto.longDescription = val.hasOwnProperty("productDescription") ? val["productDescription"] != null ? val["productDescription"][0] : "" : "";
                 producto.imageBg = val.xlImage;
                 producto.imageSm = val.smImage;
-
-                console.log('producto ', producto);
                 return producto;
             });
             info.totalPages = info.totalPages;
@@ -218,46 +247,79 @@
         };
         //funcion para optener la subcategoria
         function getSubCategoria(categorias, categoryId, fn) { /*funcion para optener el path >JSON de una categoria selccionada*/
-          console.log('Obtiene subCategories', categoryId);
-
             var pathSubcategoria = "";
+            var validationCat = true;
             var info = { success: false, data: [] };
             categorias.forEach(function(val) {
                 if (val.categoryid === categoryId) {
                     pathSubcategoria = val.subCategories;
+                  /*  if("exteriores" === categoryId){
+                    $http.get(pathSubCategoria).then(function(data) {
+                        if (data.data.hasOwnProperty('plpResults')) {
+                          console.log('exteriores ', data.data.plpResults.records);
+
+                          var respuesta = data.data.plpResults.records;
+                          var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
+                          newObj = respuesta.map(function(val) {
+                              var obj = serviceModel.producto();
+                              obj.id = val.productId;
+                              obj.idOriginal = val.repositoryId;
+                              obj.description = val.productDisplayName
+                              obj.imageBg = val.xlImage;
+                              obj.imageSm = val.smImage;
+                              return obj;
+                          });
+                          info.success = true;
+                          info.data = newObj;
+                          info.code = 0;
+                          info.totalPages = totalPages;
+                        }
+                        if (fn) {
+                            fn(info);
+                        }
+                    }, function(data) {
+                        if (fn) {
+                            fn(info);
+                        }
+                        console.log("error al cargar " + pathSubCategoria);
+                    });
+                    return;
+                  }*/
                 }
             })
+
+
             if (pathSubcategoria !== "") {
                 $http.get(pathSubcategoria).then(
                     function(data) {
                         var principal = data.data["principal-banner"];
                         var respuesta = data.data.categories["category-main"] || [];
                         var newObj = [];
-                        respuesta.forEach(function(val) {
-                            var tmpObj = { index: "", label: "", categoryid: "", pathJson: "", navigationState: "", categoria: "", toys: [], info: {} };
-                            tmpObj.index = categoryId;
-                            tmpObj.categoryid = val.info.categoryid;
-                            tmpObj.label = val.info.label;
-                            tmpObj.info = val.info;
-                            var toys = val.toys;
-                            tmpObj.toys = toys.map(function(val) {
-                                var producto = serviceModel.producto();
-                                producto.id = val.id;
-                                producto.idOriginal = val.id;
-                                producto.description = val.description;
-                                producto.imageBg = val.image;
-                                producto.imageSm = val.image;
-                                producto.longDescription = val.longDescription;
-                                return producto;
-                            });
 
-                            tmpObj.navigationState = val.info.navigationState;
+                          respuesta.forEach(function(val) {
+                              var tmpObj = { index: "", label: "", categoryid: "", pathJson: "", navigationState: "", categoria: "", toys: [], info: {} };
+                              tmpObj.index = categoryId;
+                              tmpObj.categoryid = val.info.categoryid;
+                              tmpObj.label = val.info.label;
+                              tmpObj.info = val.info;
+                              var toys = val.toys;
+                              tmpObj.toys = toys.map(function(val) {
+                                  var producto = serviceModel.producto();
+                                  producto.id = val.id;
+                                  producto.idOriginal = val.id;
+                                  producto.description = val.description;
+                                  producto.imageBg = val.image;
+                                  producto.imageSm = val.image;
+                                  producto.longDescription = val.longDescription;
+                                  return producto;
+                              });
 
-                            newObj.push(tmpObj);
-                            console.log(newObj);
-                        });
-                        info.success = true;
-                        info.data = { principal: principal, subcategorias: newObj };
+                              tmpObj.navigationState = val.info.navigationState;
+
+                              newObj.push(tmpObj);
+                          });
+                          info.success = true;
+                          info.data = { principal: principal, subcategorias: newObj };
                         if (fn) {
                             fn(info);
                         }
@@ -277,7 +339,6 @@
         return {
             /*optiene el top 10 de productos para mostrarlos en el slider principal del home*/
             getTop10: function(fn) {
-              console.log('getTop10');
                 var h = home.getHome();
                 if (h.length <= 0) {
                     $http.get(myConfig.pathHomeJSON).then(
@@ -315,9 +376,9 @@
             },
             /*optiene un producto en especifico al mandarle el folio o id*/
             getProducto: function(productId, fn, path) {
-              console.log('getProducto', productId);
                 var r = { success: false, data: [] };
-                var url = myConfig.pathServicePdp+productId;
+              //  var url = myConfig.pathServicePdp+productId;
+                var url = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/pdp/"+productId;
                 $http.get(url).then(function(data) {
                     if (data.data.hasOwnProperty('productInfo')) {
                         var respuesta = data.data.productInfo;
@@ -346,8 +407,6 @@
                 });
             },
             getCategorias: function(fn) {
-              console.log('get Categorias');
-
                 var categorias = JsonCategorias.getCategorias() || [];
                 var info = { success: false, data: [], code: -1 };
                 if (categorias.length === 0) {
@@ -404,6 +463,7 @@
             },
             /*funcion para traer las subcategorias pero desde el servicio de liverpool para la seccion de subcateg*/
             getSubSubCategoria: function(navigationState, page, fn) {
+
                 var info = { success: false, data: [], code: -1, totalPages: 1 };
                 //var pathSubCategoria =myConfig.pathServices+navigationState+"/page-"+page+"/?"+myConfig.formatJson;
                 var findsimbol = navigationState.indexOf("?");
@@ -411,8 +471,41 @@
                 if (findsimbol >= 0) {
                     concat = "&";
                 }
-            var pathSubCategoria = myConfig.pathServiceSubCategoria + navigationState;
+          //  var pathSubCategoria = myConfig.pathServiceSubCategoria + navigationState;
+          var pathSubCategoria = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpCategory/"+ navigationState;
+          //  var pathServiceSubCategoriaPLP = myConfig.pathServiceSubCategoriaPLP + navigationState;
+           var pathServiceSubCategoriaPLP = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpPagination/"+ navigationState;
                 var newObj = [];
+                if("cat940612" === navigationState || "cat1161024" === navigationState || "cat5030010" === navigationState){
+                  $http.get(pathServiceSubCategoriaPLP).then(function(data) {
+                      if (data.data.hasOwnProperty('plpResults')) {
+                        var respuesta = data.data.plpResults.records;
+                        var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
+                        newObj = respuesta.map(function(val) {
+                            var obj = serviceModel.producto();
+                            obj.id = val.productId;
+                            obj.idOriginal = val.repositoryId;
+                            obj.description = val.productDisplayName
+                            obj.imageBg = val.xlImage;
+                            obj.imageSm = val.smImage;
+                            return obj;
+                        });
+                        info.success = true;
+                        info.data = newObj;
+                        info.code = 0;
+                        info.totalPages = totalPages;
+                      }
+                      if (fn) {
+                          fn(info);
+                      }
+                  }, function(data) {
+                      if (fn) {
+                          fn(info);
+                      }
+                      console.log("error al cargar " + pathSubCategoria);
+                  });
+                  return;
+                }
                 $http.get(pathSubCategoria).then(function(data) {
                     if (data.data.hasOwnProperty('plpResults')) {
                         var respuesta = data.data.plpResults.records;
@@ -442,8 +535,6 @@
                 });
             },
             getMarcasPopulares: function(fn) {
-              console.log('Marcas populares');
-
                 var info = { success: false, code: -1, data: [] };
                 var marcas = home.getMarcasPopulares();
                 if (marcas.length === 0) {
@@ -468,15 +559,15 @@
                 }
             },
             getResultadosBusqueda: function(paginator, word, fn) {
-              console.log('Resultado de busqueda ,  paginador: ');
-
                 var info = { success: false, data: [], totalR: 0, code: -1, totalPages: 1 };
                 var resultado = [];
                 word = word.replace(" ", "-");
-                var path = myConfig.pathServicePlp + "page-number=" + paginator + "&search-string=" + word + "&number-of-items-per-page=15"
-                console.log('--- ',path);
+              //  var path = myConfig.pathServicePlp + "page-number=" + paginator + "&search-string=" + word + "&number-of-items-per-page=15"
+              var path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+paginator+"/"+word+"/"+40;
                 if (word === 'lego') {
-                    path = myConfig.pathServices + "tienda/lego/N-2jqv/page-" + paginator + "/?showPLP&" + myConfig.formatJson;
+                    path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+2+"/lego/"+40;
+                }else if(word === 'fisher price' || word === 'fisher-price' || word === 'fisher'){
+                    path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+2+"/fisher%20price/"+40;
                 }
                 if (Number.isInteger(paginator)) {
                     if (parseInt(paginator) >= 1) {
@@ -484,7 +575,6 @@
                             if (!serviceBlackList.find(word)) {
 
                                 $http.get(path).then(function(data) {
-                                  console.log(info);
                                     var _data = data.data.plpResults.records;
                                     info.totalR = _data.length;
                                     proccessPlp(info, _data, fn)
@@ -527,8 +617,6 @@
                 return dataSet;
             },
             getSliderHome: function(fn) {
-              console.log('getSliderHome');
-
                 var banners = home.getSliderHome();
                 var info = { success: false, data: [], code: -1 };
                 if (banners.length <= 0) {
@@ -553,7 +641,6 @@
                 }
             },
             getBannerSliderCategoria: function(categoria, index, fn) {
-              console.log('---');
                 var banners = JsonCategorias.getBannersCategorias() || [];
                 var info = { success: false, data: [], code: -1 };
                 if (banners.length === 0) {
@@ -588,7 +675,7 @@
         }
 
         function validarEmail(email) {
-            var expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var expr = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/igm;
             if (!expr.test(email))
                 return false
             else
@@ -668,7 +755,8 @@
                     $http({
                         method: "POST",
                         url: myConfig.pathSendCarts,
-                        data: sendCarta
+                        data: sendCarta,
+                        timeout: 3000
                     }).then(function(data) {
                         console.log(data);
                         info.success = true;
@@ -678,6 +766,10 @@
                             fn(info)
                     }, function(data) {
                         console.log(data);
+                        localStorage.pedidos = "";
+                        storePedidos.setPedidos([]);
+                        $rootScope.totalPedidos = storePedidos.getTotal();
+                        window.location.replace("/");
                         info.code = -3;
                         info.data = data;
                         if (fn)
