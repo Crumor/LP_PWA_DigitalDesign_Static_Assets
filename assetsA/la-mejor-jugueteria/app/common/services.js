@@ -91,7 +91,7 @@
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                              $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})
+                              $http({url: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/typeahead?search-string="+word})
                                     .then(function(data) {
                                         var contents = data.data;
                                             if (word !== "") {
