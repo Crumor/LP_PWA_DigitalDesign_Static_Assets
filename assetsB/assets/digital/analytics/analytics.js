@@ -4520,6 +4520,68 @@ dataLayer.push({
 });
 
 
+/* BLP BUEN FIN*/ 
+       
+break;
+case '/tienda/buen-fin/cat6590007':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'buen_fin_241019',
+'name': 'Buen_Fin_Registrate_Contador',
+'creative': 'blp_buen_fin2019_registrate_mob',
+'position': '01'
+},
+{
+'id': 'buen_fin_241019',
+'name': 'Buen_Fin_Registrate_Boletin',
+'creative': 'blp_buen_fin2019_registrate_mob',
+'position': '02'
+},
+{
+'id': 'buen_fin_241019',
+'name': 'Buen_Fin_Top',
+'creative': 'blp_buen_fin2019_top_mob',
+'position': '03'
+},
+{
+'id': 'buen_fin_241019',
+'name': 'Buen_Fin_Registrate_Contador',
+'creative': 'blp_buen_fin2019_registrate_desktop',
+'position': '01'
+},
+{
+'id': 'buen_fin_241019',
+'name': 'Buen_Fin_Registrate_Contador_Video',
+'creative': 'blp_buen_fin2019_registrate__video_desktop',
+'position': '01'
+},
+{
+'id': 'buen_fin_241019',
+'name': 'Buen_Fin_Registrate_Tops',
+'creative': 'blp_buen_fin2019_tops_desktop',
+'position': '04'
+}
+
+]
+}
+}
+});  
+
+
+
+
+
+
+
+
+
+
       /*PLP BOLSAS ELLA*/ 
 
             break;
