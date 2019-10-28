@@ -384,7 +384,7 @@
                         var respuesta = data.data.productInfo;
                         var producto = serviceModel.producto();
                         producto.id = respuesta.productId;
-                      //  producto.idOriginal = respuesta["sku.repositoryId"][0];
+                        producto.idOriginal = respuesta.defaultSkuId;
                         producto.imageBg = respuesta.images.lg;
                         producto.imageSm = respuesta.images.sm;
                         producto.longDescription =  respuesta.longDescription;
