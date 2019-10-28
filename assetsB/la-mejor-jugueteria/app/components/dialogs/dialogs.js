@@ -164,6 +164,7 @@
                 $rootScope.$watch('totalPedidos', function(newValue, oldValue) {
                     $scope.cartas = $rootScope.totalPedidos < 10 ? "0" + $rootScope.totalPedidos : $rootScope.totalPedidos;
                 });
+
                 var isShow = false;
 
                 if(screenDeviceMobile){
@@ -181,11 +182,14 @@
                     $(elem).show();
                 }
                 $rootScope.$on('$locationChangeSuccess', function(event, next, current) {
+                    $(elem).show();
                     locat = $location.path();
-
                     if (locat.indexOf("detal") > -1) {
                         toplimit = 0;
                         $(elem).show();
+                    }else if(locat.indexOf("micarta") > -1){
+                        isShow = false;
+                        $(elem).hide();
                     }
                 });
                 locat = $location.path();
@@ -197,7 +201,7 @@
                 win.scroll(function() {
                   isShow = false;
                   var _top = win.scrollTop();
-                    if (_top > toplimit) {
+                    if (_top > toplimit && !screenDeviceMobile) {
                       isShow = true;
                       if ($(elem).attr("class") === 'icon_carta') {
                             $(elem).show();

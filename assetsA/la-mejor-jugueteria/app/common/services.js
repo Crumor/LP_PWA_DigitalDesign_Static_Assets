@@ -465,7 +465,7 @@
             getSubSubCategoria: function(navigationState, page, fn) {
 
                 var info = { success: false, data: [], code: -1, totalPages: 1 };
-                //var pathSubCategoria =myConfig.pathServices+navigationState+"/page-"+page+"/?"+myConfig.formatJson;
+                /*var pathSubCategoria =myConfig.pathServices+navigationState+"/page-"+page+"/?"+myConfig.formatJson;*/
                 var findsimbol = navigationState.indexOf("?");
                 var concat = "?";
                 if (findsimbol >= 0) {
@@ -578,22 +578,22 @@
                                     var _data = data.data.plpResults.records;
                                     info.totalR = _data.length;
                                     proccessPlp(info, _data, fn)
-                                    //veriricar si el resultado es un BLP para modificar la ruta y volver hacer la petición
-                                    // if (_data.hasOwnProperty("endeca:redirect")) {
-                                    //     var redirect = _data["endeca:redirect"];
-                                    //     if (redirect.hasOwnProperty("link")) {
-                                    //         path = myConfig.pathHost + redirect.link.url + "/page-" + paginator + "/?showPLP&" + myConfig.formatJson;
-                                    //         $http.get(path).then(function(data) {
-                                    //           //  proccessPlp(info, data, fn);
-                                    //         }, function(fail) {
-                                    //             if (fn) {
-                                    //                 fn(info);
-                                    //             };
-                                    //         });
-                                    //     }
-                                    // } else {
-                                    //   //  proccessPlp(info, data, fn)
-                                    // }
+                                    /*veriricar si el resultado es un BLP para modificar la ruta y volver hacer la petición
+                                     if (_data.hasOwnProperty("endeca:redirect")) {
+                                         var redirect = _data["endeca:redirect"];
+                                         if (redirect.hasOwnProperty("link")) {
+                                             path = myConfig.pathHost + redirect.link.url + "/page-" + paginator + "/?showPLP&" + myConfig.formatJson;
+                                             $http.get(path).then(function(data) {
+                                                proccessPlp(info, data, fn);
+                                             }, function(fail) {
+                                                 if (fn) {
+                                                     fn(info);
+                                                 };
+                                             });
+                                         }
+                                     } else {
+                                       //  proccessPlp(info, data, fn)
+                                     } */
 
                                 }, function(fail) {
                                     if (fn) {
@@ -749,14 +749,16 @@
                     sendCarta.emailTutor = data.email;
                     sendCarta.nombreNino = data.nombre;
                     pedidos.forEach(function(val) {
-                        newPedidos.push(val.idOriginal);
+                        var ids=val.idOriginal;
+                        if(ids.length > 4){
+                            newPedidos.push(val.idOriginal);
+                        }
                     });
                     sendCarta.listId = newPedidos;
                     $http({
                         method: "POST",
                         url: myConfig.pathSendCarts,
-                        data: sendCarta,
-                        timeout: 3000
+                        data: sendCarta
                     }).then(function(data) {
                         console.log(data);
                         info.success = true;
