@@ -101,214 +101,101 @@ function countDownBuenFin(){
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-            	{
+         {
 		'id':'muebles_211019',
 		'name':'Muebles hasta 50% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
-           	},
+        },
 		{
 		'id':'top_deals_211019',
 		'name':'TOP deals ofertas del día',
 		'creative':'h_banner_secun',
 		'position':'2'
 		},
-                 
-                            
-           	{
-		'id':'linea_blanca_211019',
-		'name':'Línea Blanca hasta 47% de desc',
-		'creative':'h_banner_secun',
-		'position':'3'
-		},
-           	{
- 		'id':'colchones_211019',
-		'name':'Colchones hasta 40% de desc',
-		'creative':'h_banner_secun',
-		'position':'4'
-		},
-          	 {
-		'id':'blancos_211019',
-		'name':'Blancos hasta 35% de desc',
-		'creative':'h_banner_secun',
-		'position':'5'
-		},
-                            
-                            
-                            
-            	{
-		'id':'computadoras_211019',
-		'name':'Computadoras hasta 20% de desc',
-		'creative':'h_banner_secun',
-		'position':'6'
-		},
-            	{
-		'id':'apple_211019',
-		'name':'Apple hasta 18 MSI',
-        'creative':'h_banner_secun',
-        'position':'7'
-		},                
-                 {
-		'id':'pantallas_211019',
-		'name':'Pantallas hasta 25% de desc',
-        'creative':'h_banner_secun',
-        'position':'8'
-		},              
-            	{
-		'id':'consola_playstation_211019',
-		'name':'Consola PlayStation de $8,299 a $5,949',
-		'creative':'h_banner_secuun',
-		'position':'9'
-		},
-			     {
-		'id':'celulares_211019',
-		'name':'Celulares hasta 13 MSI',
-        'creative':'h_banner_secun',
-        'position':'10'
-		},
-           
-                                      
-            
-                            
-            	{
-        'id':'pandora_211019',
-		'name':'Pandora',
-        'creative':'h_banner_secun',
-        'position':'11'
-		},           
-             
-             	{
-		'id':'zapatos_211019',
-		'name':'Zapatos hasta 15% de desc',
-        'creative':'h_banner_secun',
-        'position':'12'
-		 },
-            	{
-        'id':'american_eagle_211019',
-		'name':'American Eagle hasta 30% de desc',
-        'creative':'h_banner_secun',
-        'position':'13'
-		},
-            	{
-        'id':'gap_211019',
-		'name':'Gap hasta 25% de desc',
-		'creative':'h_banner_secun',
-		'position':'14'
-		 },
-            	{
-        'id':'ropa_deportiva_221019',
-		'name':'Ropa Deportiva hasta 25% de desc',
-		'creative':'h_banner_secun',
-		'position':'15'
-		},
-                {
-        'id':'juguetes_211019',
-		'name':'Juguetes hasta 20% de desc',
-		'creative':'h_banner_secun',
-		'position':'16'
-		},
-		
 		{
-		'id':'linea_blanca_261019',
-		'name':'Línea blanca hasta 47% de desc ó hasta 15 MSI',
-		'creative':'h_banner_central',
-		'position':'1'
-           	},
-		{
-		'id':'muebles_261019',
-		'name':'Muebles hasta 50% de desc',
-		'creative':'h_banner_secun',
-		'position':'2'
+		'id':'linea_blanca_281019',
+       'name':'Línea Blanca hasta 47% de desc',
+       'creative':'h_banner_secun',
+       'position':'3'
 		},
-                 
-                            
-           	{
-		'id':'colchones_261019',
+  {
+		'id':'cocina_281019',
+		'name':'Cocina hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'4'
+		},
+							{
+		 'id':'colchones_281019',
 		'name':'Colchones a precio individual',
-		'creative':'h_banner_secun',
-		'position':'3'
+       'creative':'h_banner_secun',
+       'position':'5'
 		},
-           	{
- 		'id':'cocina_261019',
-		'name':'Cocina hasta 35% de desc',
-		'creative':'h_banner_secun',
-		'position':'4'
+							{
+		'id':'blancos_281019',
+		'name':'Blancos hasta 35% de desc',
+       'creative':'h_banner_secun',
+       'position':'6'
 		},
-          	 {
-		'id':'computadoras_261019',
-		'name':'Computadoras hasta 20% de desc',
-		'creative':'h_banner_secun',
-		'position':'5'
+							{
+		'id':'pantallas_281019',
+		'name':'Pantallas hasta 25%de desc',
+       'creative':'h_banner_secun',
+       'position':'7'
 		},
-                                            
-            	{
-		'id':'celulares_261019',
-		'name':'Celulares hasta 20% de desc ó hasta 13 MSI',
-		'creative':'h_banner_secun',
-		'position':'6'
+							{
+		'id':'videojuegos_281019',
+		'name':'Videojuegos hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
 		},
-            	{
-		'id':'pantallas_261019',
-		'name':'Pantallas hasta 30% de desc',
-        'creative':'h_banner_secun',
-        'position':'7'
-		},                
-                 {
-		'id':'videojuegos_261019',
-		'name':'Videojuegos hasta 15% de desc ó hasta 10% de desc y 9 MSI',
-        'creative':'h_banner_secun',
-        'position':'8'
-		},              
-            	{
-		'id':'zapatos_261019',
-		'name':'Zapatos hasta 25% de desc',
-		'creative':'h_banner_secuun',
-		'position':'9'
+												{
+		'id':'juguetes_281019',
+		'name':'Juguetes hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'9'
 		},
-			     {
-		'id':'deportes_261019',
-		'name':'Deportes hasta 25% de desc',
-        'creative':'h_banner_secun',
-        'position':'10'
+							{
+		'id':'ropa_deportiva_281019',
+		'name':'Ropa Deportiva hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'10'
+		},									{
+		'id':'chamarras_el_281019',
+		'name':'Chamarras Él hasta 15% de desc',
+       'creative':'h_banner_secun',
+       'position':'11'
 		},
-                     
-            	{
-        'id':'juguetes_261019',
-		'name':'Juguetes hasta 25% de desc ó hasta 20% de desc y 13 MSI',
-        'creative':'h_banner_secun',
-        'position':'11'
-		},           
-             
-             	{
-		'id':'el_261019',
-		'name':'Él hasta 30% de desc',
-        'creative':'h_banner_secun',
-        'position':'12'
-		 },
-            	{
-        'id':'ella_261019',
-		'name':'Ella hasta 25% de desc',
-        'creative':'h_banner_secun',
-        'position':'13'
-		},
-            	{
-        'id':'pandora_261019',
-		'name':'Pandora hasta 30% de desc',
-		'creative':'h_banner_secun',
-		'position':'14'
-		 },
-            	{
-        'id':'bebes_261019',
+							{
+		'id':'chamarras_ella_281019',
+		'name':'Chamarras Ella hasta 15% de desc',
+       'creative':'h_banner_secun',
+       'position':'12'
+		},			
+							{
+		'id':'bebes_281019',
 		'name':'Bebés hasta 35% de desc',
-		'creative':'h_banner_secun',
-		'position':'15'
+       'creative':'h_banner_secun',
+       'position':'13'
+		},									{
+		'id':'gap_281019',
+		'name':'Gap hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'14'
 		},
-                {
-        'id':'casa_261019',
-		'name':'Casa hasta 35% de desc ó hasta 30% de desc y 9 MSI',
-		'creative':'h_banner_secun',
-		'position':'16'
+							{
+		'id':'zapatos_281019',
+		'name':'Zapatos hasta 15% de desc',
+       'creative':'h_banner_secun',
+       'position':'15'
+		},
+							{
+		'id':'relojes_281019',
+		'name':'Relojes hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'16'
 		}
+     
                         ]
                     }
                 }
