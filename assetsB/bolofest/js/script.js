@@ -1,9 +1,9 @@
 
 	//Main custom script file
 	jQuery(document).ready(function($){
-		
+
 		'use strict';
-		
+
 		$("a#inline").fancybox();
 		//$("a#inline").fancybox().trigger('click');
 
@@ -30,7 +30,7 @@
 		} catch (err) {
 
 		}
-		
+
 		//Smooth Scroll
 		try {
 			$('.navbar-nav li a').smoothScroll();
@@ -40,7 +40,7 @@
 		} catch (err) {
 
 		}
-		
+
 		//Auto Close Responsive Navbar on Click
 		function close_toggle() {
 			if ($(window).width() <= 767) {
@@ -55,45 +55,45 @@
 		close_toggle();
 
 		$(window).resize(close_toggle);
-		
+
 		//Active Menu Item on Page Scroll
 		var sections = $('section')
 		  , nav = $('header')
 		  , nav_height = nav.outerHeight();
-		 
+
 		$(window).on('scroll', function () {
 		  var cur_pos = $(this).scrollTop();
-		 
+
 		  sections.each(function() {
 			var top = $(this).offset().top - nav_height,
 				bottom = top + $(this).outerHeight();
-				
+
 			if (cur_pos >= top && cur_pos <= bottom) {
 			  nav.find('a').removeClass('current');
 			  sections.removeClass('current');
-		 
+
 			  $(this).addClass('current');
 			  nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('current');
 			}
 		  });
 		});
-		
+
 		//Header small
 		$(window).scroll(function() {
-			if ($(this).scrollTop() > 5){ 
+			if ($(this).scrollTop() > 5){
 				//$('#main-menu').addClass("navbar-small");
 			}
 			else{
 				//$('#main-menu').removeClass("navbar-small");
 			}
 		});
-		
+
 		//Counter up
 		/*$('.counter').counterUp({
 			delay: 8,
 			time: 1000
 		});*/
-		
+
 		//owl carousal
 		$('#owl-client').owlCarousel({
 			autoPlay: true,
@@ -101,7 +101,7 @@
 			pagination: false,
 			item: 7
 		});
-		
+
 		// slides
 		$('#products').slides({
 			autoPlay: true,
@@ -114,27 +114,27 @@
 			generateNextPrev: true,
 			generatePagination: false
 		});
-		
+
 		// form validation
 		$('#form').parsley();
-		
+
 		//Google map
 		/*$("#map").gmap3({
-			marker:{    
+			marker:{
 				address:"Estela de Luz, Paseo de la Reforma, Ciudad de México"
 				},
 			map:{
 				options:{
 				zoom: 17,
 				scrollwheel:false,
-				draggable: true 
+				draggable: true
 				}
 			}
 		});*/
 
 		initialize();
 
-		
+
 		//contact form
 		$('#contactform').submit(function(){
 			var action = $(this).attr('action');
@@ -161,22 +161,22 @@
 			});
 			return false;
 		});
-		
+
 		// go to top
 		$(window).scroll(function() {
 			if($(this).scrollTop() != 0) {
-				$('#toTop, #backtotop').fadeIn();	
+				$('#toTop, #backtotop').fadeIn();
 			} else {
 				$('#toTop, #backtotop').fadeOut();
 			}
 		});
-		
+
 		$('#toTop').click(function() {
 			$('body,html').animate({scrollTop:0},800);
 		});
-		
+
 	});
-	
+
 	//window load function
 	$(window).load(function(){
 		//Cache reference to window and animation items
@@ -202,7 +202,7 @@
 			  opacity: 1
 			}
 		});
-		
+
 		// filter functions
 		var filterFns = {
 			// show if number is greater than 50
@@ -216,7 +216,7 @@
 			  return name.match( /ium$/ );
 			}
 		};
-		
+
 		// bind filter button click
 		$('#filters').on( 'click', 'button', function() {
 			var filterValue = $( this ).attr('data-filter');
@@ -235,7 +235,7 @@
 		});
 
 
-		
+
 	});
 
 
@@ -247,13 +247,13 @@ function check_if_in_view() {
   var window_top_position = $window.scrollTop();
   var window_bottom_position = (window_top_position + window_height);
 
-  
+
 $.each($animation_elements, function() {
     var $element = $(this);
     var element_height = $element.outerHeight();
     var element_top_position = $element.offset().top;
     var element_bottom_position = (element_top_position + element_height);
- 
+
     //check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
@@ -283,7 +283,7 @@ $($window).scroll(function() {
     var element_cinco = $('.mini5').offset().top;
     var element_map = $('.ruta').offset().top;
     var element_txtanim = $('.texto-anim1').offset().top;*/
-    
+
     var scr= $($window).scrollTop()
     //console.log(element_pos + " vs " + scr);
     //if ($(this).width() < 992) {
@@ -293,87 +293,93 @@ $($window).scroll(function() {
         	$('.huella').animate({width: "60%"}, 400, function() {
             // Animation complete.
             });
-           
+
         }
         if (Number($($window).scrollTop()) >= Number(element_uno-700)) {
         	console.log("Ya fue");
         	$('.mini1').animate({width: "60%"}, 400, function() {
             // Animation complete.
             });
-           
+
         }
         if (Number($($window).scrollTop()) >= Number(element_dos-700)) {
         	console.log("Ya fue");
         	$('.mini2').animate({width: "60%"}, 400, function() {
             // Animation complete.
             });
-           
+
         }
         if (Number($($window).scrollTop()) >= Number(element_tres-700)) {
         	console.log("Ya fue");
         	$('.mini3').animate({width: "60%"}, 400, function() {
             // Animation complete.
             });
-           
+
         }
         if (Number($($window).scrollTop()) >= Number(element_cuatro-700)) {
         	console.log("Ya fue");
         	$('.mini4').animate({width: "60%"}, 400, function() {
             // Animation complete.
             });
-           
+
         }
         if (Number($($window).scrollTop()) >= Number(element_cinco-700)) {
         	console.log("Ya fue");
         	$('.mini5').animate({width: "60%"}, 400, function() {
             // Animation complete.
             });
-           
+
         }
         if (Number($($window).scrollTop()) >= Number(element_map-700)) {
         	console.log("Ya fue");
         	$('.ruta').animate({width: "100%"}, 600, 'swing', function() {
             // Animation complete.
             });
-           
+
         }
         if (Number($($window).scrollTop()) >= Number(element_txtanim-700)) {
         	console.log("Ya fue");
         	$('.texto-anim1').animate({opacity: "1"}, 1200, function() {
             // Animation complete.
             });
-           
+
         }*/
     //}
 });
 
-function initialize() {    
-     var myOptions = {    
-     center: new google.maps.LatLng(19.4276478,-99.1683483),   
+function initialize() {
+     var myOptions = {
+     center: new google.maps.LatLng(19.4276478,-99.1683483),
      zoom: 15,
      zoomControl: false,
-     scaleControl: false,      
-     mapTypeId: google.maps.MapTypeId.ROADMAP         };    
-     var map = new google.maps.Map(document.getElementById("map"),myOptions); 
+     scaleControl: false,
+     mapTypeId: google.maps.MapTypeId.ROADMAP         };
+     var map = new google.maps.Map(document.getElementById("map"),myOptions);
      bolo1 = new google.maps.Marker({
-      position: new google.maps.LatLng(19.4230831,-99.1757684),  
-      map: map,         
+      position: new google.maps.LatLng(19.4230831,-99.1757684),
+      map: map,
       title: 'Inicio',
       scrollwheel:false,
-	  draggable: false});  
+	  draggable: false});
 	  bolo4 = new google.maps.Marker({
-      position: new google.maps.LatLng(19.433057, -99.154748),  
-      map: map,         
+      position: new google.maps.LatLng(19.435531, -99.154281),
+      map: map,
       title: 'Fin',
       scrollwheel:false,
-	  draggable: false});   
-      var ruta = [  new google.maps.LatLng(19.4230831,-99.1757684),         new google.maps.LatLng(19.426797, -99.167681),         new google.maps.LatLng(19.433057, -99.154748)     ]; 
-    var lineas = new google.maps.Polyline({        
+	  draggable: false});
+      var ruta = [  new google.maps.LatLng(19.4230831,-99.1757684),new google.maps.LatLng(19.426797, -99.167681),new google.maps.LatLng(19.433057, -99.154748), new google.maps.LatLng(19.433730, -99.153434), new google.maps.LatLng(19.435445, -99.153227),
+				 new google.maps.LatLng(19.435417, -99.153388),new google.maps.LatLng(19.435531, -99.154281)];
+
+	//		var ruta = [  new google.maps.LatLng(19.4230831,-99.1757684),new google.maps.LatLng(19.426797, -99.167681),new google.maps.LatLng(19.433057, -99.154748), new google.maps.LatLng(19.433282, -99.154195), new google.maps.LatLng(19.433398, -99.154404), new google.maps.LatLng(19.433489, -99.154554),
+	//		new google.maps.LatLng(19.433828, -99.154570)	,new google.maps.LatLng(19.435531, -99.154281)     ];
+
+
+    var lineas = new google.maps.Polyline({
     path: ruta,
-    map: map, 
-    strokeColor: '#ef0565', 
-    strokeWeight: 4,  
-    strokeOpacity: 0.6, 
+    map: map,
+    strokeColor: '#ef0565',
+    strokeWeight: 4,
+    strokeOpacity: 0.6,
     clickable: false     });       }
 
 
@@ -419,6 +425,6 @@ $(document).ready(function() {
 			triggerAtCenter: false,
 			playoutAnimations: true
 		});
-		controller.addTween('.huella', 
+		controller.addTween('.huella',
 	    TweenMax.from($('.huella'), .5, {css:{opacity:0}}));
 	});*/
