@@ -4466,7 +4466,7 @@ dataLayer.push({
 
 
 
-
+countDownBuenFin();
 
 
       /*PLP BOLSAS ELLA*/ 
@@ -4583,9 +4583,7 @@ dataLayer.push({
 }
 });           
          break;
-         case '/tienda/buen-fin/cat6590007':
-         countDownBuenFin();
-         break;
+
         }
     }// JavaScript Document
 // JSON Document
