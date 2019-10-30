@@ -83,12 +83,5 @@
         "color3": "#FF475C",
         "label": "Videojuegos",
         "fondo": "#e3e3e3"
-    },
-    "jurassic-world": {
-        "color1": "#0DC6AB",
-        "color2": "none",
-        "color3": "#FF475C",
-        "label": "Jurassic World",
-        "fondo": "#e3e3e3"
     }
 }

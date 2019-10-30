@@ -31,6 +31,9 @@
                     if( scope.typeOwl === "4" ){
                             items = scope.elements || [];
                                 scope.itemsD = items;
+                                scope.getLG= function(image){
+                                    return image.replace('XL','LG');
+                                }
                                     scope.$watchCollection("itemsD",function(){
                                         owl.owlCarousel({
                                             items : scope.items === undefined ? 4: scope.items,

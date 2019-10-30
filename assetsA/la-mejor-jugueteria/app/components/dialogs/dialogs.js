@@ -110,18 +110,20 @@
                         var offsetwin = Math.ceil(height - (height / 3.5));
                         if (offsetel >= 0 && offsetel <= offsetwin) {
                             onProccess = true;
-                            loadImage(attributes['lazySrc'], function(data) {
-                                if (data.success) {
+                            if(attributes['lazySrc']!=undefined){
+                                loadImage(attributes['lazySrc'], function(data) {
+                                    if (data.success) {
 
-                                    element.attr('src', data.data.src);
-                                    element.removeAttr('lazy-src');
-                                    element.siblings(".loader_generic").remove();
-                                    if (attributes.hasOwnProperty("lazyClass")) {
-                                        element.addClass(attributes["lazyClass"]);
+                                        element.attr('src', data.data.src);
+                                        element.removeAttr('lazy-src');
+                                        element.siblings(".loader_generic").remove();
+                                        if (attributes.hasOwnProperty("lazyClass")) {
+                                            element.addClass(attributes["lazyClass"]);
+                                        }
+
                                     }
-
-                                }
-                            });
+                                });
+                            }
                         }
                     } //end onProcess
                 };
@@ -157,6 +159,9 @@
             restrict: 'AE',
             templateUrl: 'app/components/dialogs/iconcart.html',
             link: function($scope, elem, attrs) {
+
+                $(elem).show();
+              //  $scope.flagHideIcon = false;
                 $scope.cartas = $rootScope.totalPedidos < 10 ? "0" + $rootScope.totalPedidos : $rootScope.totalPedidos;
                 var win = $(window);
                var screenDeviceMobile = (win[0].screen.width < 992) ? true : false;
@@ -188,8 +193,8 @@
                         toplimit = 0;
                         $(elem).show();
                     }else if(locat.indexOf("micarta") > -1){
-                        isShow = false;
-                        $(elem).hide();
+                       isShow = false;
+                       $(elem).hide();
                     }
                 });
                 locat = $location.path();

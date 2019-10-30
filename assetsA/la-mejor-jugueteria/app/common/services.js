@@ -28,9 +28,9 @@
         var init = function(fn) {
             var list = blackList.get();
             if (list.length <= 0) {
-                $http.get(myConfig.pathBlackList).then(function(data) {
-                    blackList.set(data.data);
-                    fn(data.data)
+          $http.get(myConfig.pathBlackList).then(function(data) {
+                    blackList.set(data.data.wordsBlackList);
+                    fn(data.data.wordsBlackList)
                 }, function(fail) {
                     console.log("fail to load blacklist");
                 });
@@ -46,7 +46,7 @@
                 var isfind = false;
                 var splitWord = word.split(" ");
                 angular.forEach(blackList.get(), function(val, key) {
-                    var matches = val.match(new RegExp(word, "gi"));
+                    var matches = val.data.label.match(new RegExp(word, "gi"));
                     if (matches != null) {
                         isfind = true;
                     }
@@ -119,38 +119,6 @@
                                     }, function(fail) {
 
                                     });
-
-                          /*  $http({url: myConfig.pathServiceSearch + "search-string=" + word + "*", headers: {
-                               'Access-Control-Allow-Credentials' : true,
-                               'Access-Control-Allow-Origin':'*',
-                             }})
-                                .then(function(data) {
-                                    var contents = data.data;
-                                        if (word !== "") {
-                                            var responseValues = contents.results;
-                                            if (responseValues.length > 0) {
-                                                const result = contents.results.filter(item => item.showView === 'PDP');
-                                                (result.length > 0) ? mostrar = true : mostrar = false;
-                                                    resultado = [];
-                                                    result.forEach(function(val) {
-                                                        var obj = objResultado();
-
-                                                        var tempLabel = val.label;
-                                                        obj.id = val.productId;
-                                                        obj.sku = val.label;
-                                                        obj.image = val.image;
-                                                        obj.descripcionClean = tempLabel;
-                                                        obj.descripcion = filterCoincidence(word, tempLabel);
-                                                        obj.totales = val.count;
-                                                        resultado.push(obj);
-                                                    });
-                                                    if (fn)
-                                                    fn();
-                                                }
-                                          }
-                                }, function(fail) {
-
-                                });*/
                         } else {
                             resultado = [];
                             mostrar = false;
@@ -253,49 +221,15 @@
             categorias.forEach(function(val) {
                 if (val.categoryid === categoryId) {
                     pathSubcategoria = val.subCategories;
-                  /*  if("exteriores" === categoryId){
-                    $http.get(pathSubCategoria).then(function(data) {
-                        if (data.data.hasOwnProperty('plpResults')) {
-                          console.log('exteriores ', data.data.plpResults.records);
-
-                          var respuesta = data.data.plpResults.records;
-                          var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
-                          newObj = respuesta.map(function(val) {
-                              var obj = serviceModel.producto();
-                              obj.id = val.productId;
-                              obj.idOriginal = val.repositoryId;
-                              obj.description = val.productDisplayName
-                              obj.imageBg = val.xlImage;
-                              obj.imageSm = val.smImage;
-                              return obj;
-                          });
-                          info.success = true;
-                          info.data = newObj;
-                          info.code = 0;
-                          info.totalPages = totalPages;
-                        }
-                        if (fn) {
-                            fn(info);
-                        }
-                    }, function(data) {
-                        if (fn) {
-                            fn(info);
-                        }
-                        console.log("error al cargar " + pathSubCategoria);
-                    });
-                    return;
-                  }*/
                 }
             })
-
-
             if (pathSubcategoria !== "") {
                 $http.get(pathSubcategoria).then(
                     function(data) {
                         var principal = data.data["principal-banner"];
-                        var respuesta = data.data.categories["category-main"] || [];
+                        var respuesta = (data.data.categories) ? data.data.categories["category-main"] || [] : '';
                         var newObj = [];
-
+                        if(respuesta != '' && principal.analytics != 'radio-control' && principal.analytics != 'coleccionables' && principal.analytics != 'peluches'){
                           respuesta.forEach(function(val) {
                               var tmpObj = { index: "", label: "", categoryid: "", pathJson: "", navigationState: "", categoria: "", toys: [], info: {} };
                               tmpObj.index = categoryId;
@@ -318,6 +252,7 @@
 
                               newObj.push(tmpObj);
                           });
+                        }
                           info.success = true;
                           info.data = { principal: principal, subcategorias: newObj };
                         if (fn) {
@@ -448,13 +383,20 @@
                 getCategoria(categoryId, function(data) {
                     if (data.data.hasOwnProperty("subcategorias")) {
                         var _subcategorias = data.data.subcategorias || [];
-                        _subcategorias.forEach(function(val) {
-                            if (val.categoryid === categoryIdSub) {
-                                info.success = true;
-                                info.code = 1;
-                                info.data = { principal: val.info, subcategorias: [] };
-                            }
-                        });
+                        var principal = data.data.principal;
+                        if(_subcategorias != ''){
+                          _subcategorias.forEach(function(val) {
+                              if (val.categoryid === categoryIdSub) {
+                                  info.success = true;
+                                  info.code = 1;
+                                  info.data = { principal: val.info, subcategorias: [] };
+                              }
+                          });
+                        }else if(_subcategorias.length >= 0 && principal){
+                            info.success = true;
+                            info.code = 1;
+                            info.data = { principal: principal };
+                        }
                     }
                     if (fn) {
                         fn(info);
@@ -465,15 +407,12 @@
             getSubSubCategoria: function(navigationState, page, fn) {
 
                 var info = { success: false, data: [], code: -1, totalPages: 1 };
-                /*var pathSubCategoria =myConfig.pathServices+navigationState+"/page-"+page+"/?"+myConfig.formatJson;*/
                 var findsimbol = navigationState.indexOf("?");
                 var concat = "?";
                 if (findsimbol >= 0) {
                     concat = "&";
                 }
-          //  var pathSubCategoria = myConfig.pathServiceSubCategoria + navigationState;
           var pathSubCategoria = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpCategory/"+ navigationState;
-          //  var pathServiceSubCategoriaPLP = myConfig.pathServiceSubCategoriaPLP + navigationState;
            var pathServiceSubCategoriaPLP = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpPagination/"+ navigationState;
                 var newObj = [];
                 if("cat940612" === navigationState || "cat1161024" === navigationState || "cat5030010" === navigationState){
@@ -563,11 +502,11 @@
                 var resultado = [];
                 word = word.replace(" ", "-");
               //  var path = myConfig.pathServicePlp + "page-number=" + paginator + "&search-string=" + word + "&number-of-items-per-page=15"
-              var path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+paginator+"/"+word+"/"+40;
+              var path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+paginator+"/"+word+"/"+50;
                 if (word === 'lego') {
-                    path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+2+"/lego/"+40;
+                    path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+2+"/lego/"+50;
                 }else if(word === 'fisher price' || word === 'fisher-price' || word === 'fisher'){
-                    path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+2+"/fisher%20price/"+40;
+                    path = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/plpSearch/"+2+"/fisher%20price/"+50;
                 }
                 if (Number.isInteger(paginator)) {
                     if (parseInt(paginator) >= 1) {
@@ -760,14 +699,12 @@
                         url: myConfig.pathSendCarts,
                         data: sendCarta
                     }).then(function(data) {
-                        console.log(data);
                         info.success = true;
                         info.code = 1;
                         info.data = data;
                         if (fn)
                             fn(info)
                     }, function(data) {
-                        console.log(data);
                         localStorage.pedidos = "";
                         storePedidos.setPedidos([]);
                         $rootScope.totalPedidos = storePedidos.getTotal();

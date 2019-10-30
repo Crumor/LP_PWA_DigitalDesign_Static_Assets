@@ -64,6 +64,8 @@
                     $("#vehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':65});
                     $("#videojuegos").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
                     $("#micarta").AnimationSvg({'spriteWidth':680,'spriteHeight':99,steps:7,'areaWidth':150});
+                    $("#micartaMobile").AnimationSvg({'spriteWidth':680,'spriteHeight':98,steps:7,'areaWidth':140});
+
 
                 }
 
@@ -115,7 +117,6 @@
                     var width = $(".etiqueta > .texto").outerWidth();
                     var height =25+$(".etiqueta > .texto").outerHeight();
                     if( windowsWidth <= 481 || windowsWidth < 350){
-                      console.log('**');
                         $(".etiqueta > .texto").css("font-size","1em");
                         width = $(".etiqueta > .texto").outerWidth();
 
