@@ -4410,7 +4410,7 @@ dataLayer.push({
 /* BLP BUEN FIN*/ 
        
 break;
-case '/tienda/buen-fin/cat6590007':
+case '/tienda/el-buen-fin-2019/cat6590007':
 
 
 dataLayer.push({
