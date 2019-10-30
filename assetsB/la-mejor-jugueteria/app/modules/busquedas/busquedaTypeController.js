@@ -248,7 +248,7 @@
                     "color2": "none",
                     "color3": "#9ABDCA",
                     fondo: "#f6cfe4",
-                    label: "transformers"
+                    label: "montables"
                 },
                 {
                     color1: "#97F34E",
@@ -276,7 +276,19 @@
                     color3: "#FC3491",
                     fondo: "#f6cfe4",
                     label: "hasbro"
-                }
+                }, {
+                    color1: "#FDD44B",
+                    color2: "none",
+                    color3: "#FF5E70",
+                    fondo: "#9af7ff",
+                    label: "jurassic world"
+                }   , {
+                    color1: "#97F34E",
+                    color2: "none",
+                    color3: "#FC3491",
+                    fondo: "#f6cfe4",
+                    label: "frozen II"
+                }   
             ];
             var index = -1;
             var label = {

@@ -1,5 +1,5 @@
 	/*========================================================================
-	
+
 	Table of Contents:
 
 	1) General
@@ -10,9 +10,9 @@
 	6) Featured slider
 	7) Home creative
 	8) Home creative client comment
-	
+
 	========================================================================*/
-	
+
 	/*-- General --*/
 body{
 	font-family: 'Roboto';
@@ -49,7 +49,7 @@ button:focus{
 	}
 nav.navbar{
 	min-height: 0px;
-	
+
 	}
 nav.navbar-default{
 	background-color: #e10098;
@@ -116,7 +116,7 @@ nav.navbar-default{
 	}
 	/*-- hello --*/
 section.hello{
-	background-color: #fff;
+	background-image: linear-gradient(180deg, #348AA7, #622A8F);
 	padding-top: 40px;
 	padding-bottom: 0px;
 	position: relative;
@@ -143,13 +143,13 @@ section.hello{
 	}
 .front-text span{
 	font-family: 'roboto';
-	
+
 	}
 .front-title{
 	font-family: 'roboto';
 	font-size: 28px;
-font-weight: bold;
-	color: #666666;
+ /* font-weight: bold; */
+	color: #fff;
 	margin-bottom: 0px;
 	}
 	.front-title-descarga{
@@ -160,20 +160,21 @@ font-weight: bold;
 	margin-bottom: 0px;
 	}
 	.front-title span.txt-verde{
-		color: #68BE5B;
+		color: #5DD39E;
 	}
 .front-text-intro{
 	font-family: 'roboto';
 	font-size: 16px;
     line-height: 24px;
-   
+		    color: #fff;
+
 
 }
 .front-text-intro span{
      font-weight: bold;
     font-size:16px;
     line-height: 24px;
-	color: #68BE5B;
+	color: #5DD39E;
     font-family: 'roboto';
 }
 .front-title span{
@@ -226,7 +227,7 @@ font-weight: bold;
 	/*-- about --*/
 section.about{
 	background-color: #eff3f3;
-	
+
 	padding-bottom: 90px;
 	}
 .about-title{
@@ -462,8 +463,8 @@ button.graphic{
     -ms-transition: all 0.3s linear;
     transition: all 0.3s linear;
 	}
-.browser-image-inner-1 img, 
-.browser-image-inner-2  img, 
+.browser-image-inner-1 img,
+.browser-image-inner-2  img,
 .browser-image-inner-3 img{
 	margin: 0 auto;
 	}
@@ -544,7 +545,7 @@ font-family : Roboto;
 font-weight: bold;
  font-size : 16px;
  line-height : 24px;
- color : #F67821;
+ color : #5DD39E;
 }
 .work-info-box{
 	text-align: center;
@@ -611,8 +612,8 @@ font-weight: bold;
 	/*-- preguntas --*/
 section.preguntas{
 	background-color:  #F2F2F2;
-	
-	
+
+
 	}
 .preguntas{
     font-family : Roboto;
@@ -620,7 +621,7 @@ section.preguntas{
 }
 .preguntas.pregunta{
     font-size : 21px;
-    color : #86BC62;
+    color : #5DD39E;
     font-weight : bold;
 }
 .preguntas.respuesta{
@@ -848,7 +849,7 @@ section.work-portfolio{
 .portfolio-item-box{
 	width: 100%;
 	overflow: hidden;
-	
+
 	margin-bottom: 20px;
     background-color:#ffffff;
 	}
@@ -858,7 +859,22 @@ section.work-portfolio{
 .portfolio-item-box img{
 	margin:0 auto;
 	border: 5px solid #ffffff;
+}
+
+	@media (max-width: 991px){
+		.portfolio-item-box img{
+			margin:0 auto;
+			border: 0px solid #E10098!important;
+			}
+			.portfolio-item-box{
+				width: 100%;
+				overflow: hidden;
+
+				margin-bottom: 20px;
+			 background-color: #E10098;
+		}
 	}
+
 .load-more{
 	width: 200px;
 	height: 50px;
@@ -887,7 +903,7 @@ section.work-portfolio{
 	/*--  participantes --*/
 section.participantes{
 	background-color:#D8D8D8;
-	
+
 	padding-bottom: 50px;
 	}
 #filters{
@@ -976,7 +992,7 @@ section.participantes{
 		/*-- programa --*/
 section.programa{
 	background-color: #fff;
-	
+
 	padding-bottom: 30px;
 	}
 .programa-info{
@@ -995,7 +1011,7 @@ section.programa{
 	}
 .programa-info-test ul{
 	margin: 0;
-    
+
 	padding: 0;
 	list-style: none;
 	}
@@ -1123,7 +1139,7 @@ section.programa{
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 20px;
-	
+
 }
 /*-- facts --*/
 section.facts{
@@ -1745,7 +1761,7 @@ section.words{
 	background: url("../images/cru_right.png");
 	background-repeat: no-repeat;
 	}
-.pagination>li>a:hover, .pagination>li>span:hover, 
+.pagination>li>a:hover, .pagination>li>span:hover,
 .pagination>li>a:focus, .pagination>li>span:focus{
 	background-color: transparent;
 	}
@@ -1865,7 +1881,7 @@ section.contact{
 	}
 .contact-info{
 	text-align: center;
-	
+
 	}
 	.contact-info img{
 		margin:0 auto;
@@ -1936,7 +1952,7 @@ section.contacto{
 	width: 100%;
 	margin: 0 auto;
 	background-color: #D8D8D8;
-	
+
 	padding-bottom: 40px;
 	}
 	#map{
@@ -2162,7 +2178,7 @@ section.blue-bg-bottom{
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 	}
 	/*=============================
-			blog page 
+			blog page
 	=============================*/
 section.blog-header{
 	background-color: #e74c3c;
@@ -2779,5 +2795,5 @@ z-index: 9999;
 }
 
 	/*=============================
-			end blog page 
+			end blog page
 	=============================*/

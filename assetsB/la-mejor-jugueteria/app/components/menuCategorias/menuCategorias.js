@@ -65,6 +65,8 @@
                     $("#videojuegos").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
                     $("#micarta").AnimationSvg({'spriteWidth':680,'spriteHeight':99,steps:7,'areaWidth':150});
                     $("#micartaMobile").AnimationSvg({'spriteWidth':680,'spriteHeight':98,steps:7,'areaWidth':140});
+
+
                 }
 
                 serviceProducto.getCategorias(function(data){
@@ -114,11 +116,11 @@
                     $(".etiqueta > .texto").html(label);
                     var width = $(".etiqueta > .texto").outerWidth();
                     var height =25+$(".etiqueta > .texto").outerHeight();
-                    if( windowsWidth <= 481 ){
-                        $(".etiqueta > .texto").css("font-size","2em");
+                    if( windowsWidth <= 481 || windowsWidth < 350){
+                        $(".etiqueta > .texto").css("font-size","1em");
                         width = $(".etiqueta > .texto").outerWidth();
 
-                        if( width >=380 || width >= 280){/*in case of text is biger that device*/
+                        if( width >=380 || width >= 280 || width > 355){/*in case of text is biger that device*/
                             $(".etiqueta > .texto").css("top","20px");
                             width = 240;
                             $(".etiqueta > .texto").css("width",width+"px");

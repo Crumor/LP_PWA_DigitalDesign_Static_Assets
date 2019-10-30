@@ -51,7 +51,7 @@
 		    "color":"#ffb44b"
       },
       {
-        "categoryid": "catst1833807",
+        "categoryid": "drones",
         "label": "Radio Control",
         "picture": "./assets/images/menu-categorias/drones_800.svg",
         "navigationState": "/electrónicos-radio-control/N-2ho4?d3106047a194921c01969dfdec083925=json",
@@ -67,7 +67,7 @@
 		"color":"#fae8b1"
       },
 	  {
-        "categoryid": "catst1833811",
+        "categoryid": "coleccionables",
         "label": "Coleccionables",
         "picture": "./assets/images/menu-categorias/coleccionables_800.svg",
         "navigationState": "?s=xbox&d3106047a194921c01969dfdec083925=json",
@@ -75,7 +75,7 @@
 		"color":"#eceff1"
       },
       {
-        "categoryid": "catst1833808",
+        "categoryid": "peluches",
         "label": "Peluches",
         "picture": "./assets/images/menu-categorias/peluches_800.svg",
         "navigationState": "/juguetes-al-aire-libre/N-2hok?d3106047a194921c01969dfdec083925=json",

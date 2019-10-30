@@ -30,6 +30,7 @@
                     $scope.imagenAux = data.data.imageBg;
                     $scope.vm.success = data.success;
                     $scope.vm.producto = data.data;
+           
                     $timeout(function(){
                         initGallery($scope);
                         $scope.loaded =false;

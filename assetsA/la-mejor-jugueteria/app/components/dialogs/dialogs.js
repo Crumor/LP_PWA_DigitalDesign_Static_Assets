@@ -110,18 +110,20 @@
                         var offsetwin = Math.ceil(height - (height / 3.5));
                         if (offsetel >= 0 && offsetel <= offsetwin) {
                             onProccess = true;
-                            loadImage(attributes['lazySrc'], function(data) {
-                                if (data.success) {
+                            if(attributes['lazySrc']!=undefined){
+                                loadImage(attributes['lazySrc'], function(data) {
+                                    if (data.success) {
 
-                                    element.attr('src', data.data.src);
-                                    element.removeAttr('lazy-src');
-                                    element.siblings(".loader_generic").remove();
-                                    if (attributes.hasOwnProperty("lazyClass")) {
-                                        element.addClass(attributes["lazyClass"]);
+                                        element.attr('src', data.data.src);
+                                        element.removeAttr('lazy-src');
+                                        element.siblings(".loader_generic").remove();
+                                        if (attributes.hasOwnProperty("lazyClass")) {
+                                            element.addClass(attributes["lazyClass"]);
+                                        }
+
                                     }
-
-                                }
-                            });
+                                });
+                            }
                         }
                     } //end onProcess
                 };
@@ -157,6 +159,9 @@
             restrict: 'AE',
             templateUrl: 'app/components/dialogs/iconcart.html',
             link: function($scope, elem, attrs) {
+
+                $(elem).show();
+              //  $scope.flagHideIcon = false;
                 $scope.cartas = $rootScope.totalPedidos < 10 ? "0" + $rootScope.totalPedidos : $rootScope.totalPedidos;
                 var win = $(window);
                var screenDeviceMobile = (win[0].screen.width < 992) ? true : false;
@@ -164,6 +169,7 @@
                 $rootScope.$watch('totalPedidos', function(newValue, oldValue) {
                     $scope.cartas = $rootScope.totalPedidos < 10 ? "0" + $rootScope.totalPedidos : $rootScope.totalPedidos;
                 });
+
                 var isShow = false;
 
                 if(screenDeviceMobile){
@@ -181,11 +187,14 @@
                     $(elem).show();
                 }
                 $rootScope.$on('$locationChangeSuccess', function(event, next, current) {
+                    $(elem).show();
                     locat = $location.path();
-
                     if (locat.indexOf("detal") > -1) {
                         toplimit = 0;
                         $(elem).show();
+                    }else if(locat.indexOf("micarta") > -1){
+                       isShow = false;
+                       $(elem).hide();
                     }
                 });
                 locat = $location.path();
@@ -197,7 +206,7 @@
                 win.scroll(function() {
                   isShow = false;
                   var _top = win.scrollTop();
-                    if (_top > toplimit) {
+                    if (_top > toplimit && !screenDeviceMobile) {
                       isShow = true;
                       if ($(elem).attr("class") === 'icon_carta') {
                             $(elem).show();

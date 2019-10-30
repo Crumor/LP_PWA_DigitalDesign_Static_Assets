@@ -8,13 +8,6 @@
         serviceProducto.getTop10(function(data) {
             $scope.top10 = data.toys || [];
         });
-        $http.get(myConfig.pathTotalCarts).then(function(data) {
-
-            if (data.status === 200) {
-                $scope.totalCartas = data.data.total;
-            }
-        }, function(fail) {
-        })
         $scope.irDetalleTop = function(id) {
             $location.path("/detalletopdiez/" + id);
         }
