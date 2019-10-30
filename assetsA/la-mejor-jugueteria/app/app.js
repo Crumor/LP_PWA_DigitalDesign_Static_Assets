@@ -100,6 +100,117 @@
 }
 })();
 
+(function(){
+	angular.module('carta',[]).controller( "cartaController", cartaController )
+	.controller( "cartaControllerFelicidades", cartaControllerFelicidades );
+	
+	function cartaController($rootScope, $scope, serviceStorePedidos,$location ){
+		
+		$scope.carta = {email:"",mensaje:"",nombre:""};
+		$scope.information = {
+			success: true, 
+			data: {
+				color1:"#97F34E",
+				color2:"none",
+				color3:"#FC3491",
+				fondo:"#f6cfe4",
+				label:"Mi carta a santa"
+			}, 
+			code: 0
+		};
+		$scope.isActiveBtnEnviar = true;
+		$scope.pedidos = function(){
+		   return serviceStorePedidos.getPedidos();
+		}
+		$scope.eliminarPedido = function(index){
+		   serviceStorePedidos.deletePedido(index);
+		}
+		$scope.enviarPedido = function(){
+			$scope.isActiveBtnEnviar = false;
+			if($scope.carta.mensaje === "")
+				$scope.carta.mensaje="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería";
+			serviceStorePedidos.enviarPedido($scope.carta,function(response){
+			 if( response.success )
+				if( response.code === -2 ) {
+					$("#modalEnvioMal").modal('show');
+					$scope.isActiveBtnEnviar = true;
+				}else 
+					if( response.code ===-1 ) {
+						$("#modalEnvioMalFalta").modal('show');
+						$scope.isActiveBtnEnviar = true;
+					}else if(response.code === 1 ){
+						$rootScope.cartaExito = true;
+						$location.path("/micarta/felicidades");
+					}
+			});
+		}
+		$scope.addFavoritos=function(p){
+			$(".fa.fa-heart-o").click(function() {
+			$(this).removeClass("fa-heart-o")
+			$(this).addClass("fa-heart")
+			})
+		};
+		$scope.microfono=function(id){ 
+		 
+			if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+					var recognition = new webkitSpeechRecognition();
+
+					recognition.continuous = false;
+					recognition.interimResults = false;
+
+					recognition.lang = "es-MX";
+					recognition.start();
+
+					recognition.onresult = function(e) {
+						document.getElementById(id).value = e.results[0][0].transcript;
+						recognition.stop();
+						//document.getElementById('labnol').submit();
+						$('#mic').css('background',"url('assets/images/micro/inactivo.png')");
+						$('#mic2').css('background',"url('assets/images/micro/inactivo.png')");
+						$('#mic3').css('background',"url('assets/images/micro/inactivo.png')");
+					};
+
+					recognition.onerror = function(e) {
+						recognition.stop();
+
+					}
+				}
+		};
+			$('#mic').click( function() { 
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$('#mic2').click( function() { 
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$('#mic3').click( function() { 
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$("input#transcript1").click(function () {
+				document.getElementById('audioNombre').play();
+			});
+			$("input#transcript2").click(function () {
+				document.getElementById('audioMail').play();
+			});
+			$("textarea#transcript3").click(function () {
+				document.getElementById('audioSanta').play();
+			});
+
+	}
+	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
+		var  pedidos = serviceStorePedidos.getPedidos();
+		if(pedidos.length <= 0){
+			$location.path("/indexqa.html")
+		}else{
+		   	$rootScope.cartaExito = false;
+			serviceStorePedidos.deleteAllPedidos();
+			 	$scope.regresar=function(){
+			 		$location.path("/indexqa.html");
+			 	}
+		 }
+	}
+
+})();
 (function() {
     angular.module('busquedas', []).controller("busquedaResultadoController", busquedaResultadoController)
         .controller("mejoresMarcasController", busquedaResultadoController);
@@ -421,117 +532,6 @@
 })();
 
 (function(){
-	angular.module('carta',[]).controller( "cartaController", cartaController )
-	.controller( "cartaControllerFelicidades", cartaControllerFelicidades );
-	
-	function cartaController($rootScope, $scope, serviceStorePedidos,$location ){
-		
-		$scope.carta = {email:"",mensaje:"",nombre:""};
-		$scope.information = {
-			success: true, 
-			data: {
-				color1:"#97F34E",
-				color2:"none",
-				color3:"#FC3491",
-				fondo:"#f6cfe4",
-				label:"Mi carta a santa"
-			}, 
-			code: 0
-		};
-		$scope.isActiveBtnEnviar = true;
-		$scope.pedidos = function(){
-		   return serviceStorePedidos.getPedidos();
-		}
-		$scope.eliminarPedido = function(index){
-		   serviceStorePedidos.deletePedido(index);
-		}
-		$scope.enviarPedido = function(){
-			$scope.isActiveBtnEnviar = false;
-			if($scope.carta.mensaje === "")
-				$scope.carta.mensaje="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería";
-			serviceStorePedidos.enviarPedido($scope.carta,function(response){
-			 if( response.success )
-				if( response.code === -2 ) {
-					$("#modalEnvioMal").modal('show');
-					$scope.isActiveBtnEnviar = true;
-				}else 
-					if( response.code ===-1 ) {
-						$("#modalEnvioMalFalta").modal('show');
-						$scope.isActiveBtnEnviar = true;
-					}else if(response.code === 1 ){
-						$rootScope.cartaExito = true;
-						$location.path("/micarta/felicidades");
-					}
-			});
-		}
-		$scope.addFavoritos=function(p){
-			$(".fa.fa-heart-o").click(function() {
-			$(this).removeClass("fa-heart-o")
-			$(this).addClass("fa-heart")
-			})
-		};
-		$scope.microfono=function(id){ 
-		 
-			if (window.hasOwnProperty('webkitSpeechRecognition')) {
-
-					var recognition = new webkitSpeechRecognition();
-
-					recognition.continuous = false;
-					recognition.interimResults = false;
-
-					recognition.lang = "es-MX";
-					recognition.start();
-
-					recognition.onresult = function(e) {
-						document.getElementById(id).value = e.results[0][0].transcript;
-						recognition.stop();
-						//document.getElementById('labnol').submit();
-						$('#mic').css('background',"url('assets/images/micro/inactivo.png')");
-						$('#mic2').css('background',"url('assets/images/micro/inactivo.png')");
-						$('#mic3').css('background',"url('assets/images/micro/inactivo.png')");
-					};
-
-					recognition.onerror = function(e) {
-						recognition.stop();
-
-					}
-				}
-		};
-			$('#mic').click( function() { 
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$('#mic2').click( function() { 
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$('#mic3').click( function() { 
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$("input#transcript1").click(function () {
-				document.getElementById('audioNombre').play();
-			});
-			$("input#transcript2").click(function () {
-				document.getElementById('audioMail').play();
-			});
-			$("textarea#transcript3").click(function () {
-				document.getElementById('audioSanta').play();
-			});
-
-	}
-	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
-		var  pedidos = serviceStorePedidos.getPedidos();
-		if(pedidos.length <= 0){
-			$location.path("/")
-		}else{
-		   	$rootScope.cartaExito = false;
-			serviceStorePedidos.deleteAllPedidos();
-			 	$scope.regresar=function(){
-			 		$location.path("/");
-			 	}
-		 }
-	}
-
-})();
-(function(){
     angular.module('categorias',[]).controller( "categoriasController", categoriaController ).
     controller( "subCategoriaController", subCategoriaController );
     function categoriaController( $scope, serviceProducto, $routeParams,$location,$timeout ){
@@ -620,6 +620,80 @@
         };
 
     }/*end funcion subCategoriaController*/
+})();
+
+(function() {
+    angular.module('home', []).controller("inicioController", inicioController)
+
+    function inicioController($scope, serviceProducto, $location, $http, myConfig) {
+        $scope.banners = [];
+        $scope.top10 = [];
+        $scope.totalCartas = "000000";
+        serviceProducto.getTop10(function(data) {
+            $scope.top10 = data.toys || [];
+        });
+        $scope.irDetalleTop = function(id) {
+            $location.path("/detalletopdiez/" + id);
+        }
+        $scope.irSeccion = function(path) {
+            $location.path(path);
+        }
+        $scope.irCarta = function() {
+            $location.path("/micarta");
+        };
+        $scope.openInstrucciones = function() {
+            $("#modalInstrucciones").modal('show');
+        }
+        initFooterAnimations();
+      //  animationSnow();
+    }
+
+    function initFooterAnimations() {
+        $("#footerArmables").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
+        $("#footerNinas").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+        $("#footerVehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':70})
+        $("#footerNinos").AnimationSvg({ 'spriteWidth': 960, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+        $("#footerBebes").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
+        $("#footerVideoJuegos").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+    };
+
+    function animationSnow() {
+        var nsnow = 4;
+        var count = 0;
+        var _swith = 0;
+        var inter = setInterval(mySnow, 1600);
+        var increment1 = 0;
+        var increment2 = 0;
+
+        function mySnow() {
+            increment1 = getRandomInt(240, 310);
+            increment2 = getRandomInt(380, 430);
+            for (var i = 0; i < nsnow; i++) {
+                $("#container_principal").append("<div class='snow" + getRandomInt(1, 3) + "' style='left:" + getRandomInt(0, nsnow) * (_swith === 0 ? increment1 : increment2) + "px'>*</div>");
+
+            }
+            _swith = (_swith === 0) ? 1 : 0;
+
+            count++;
+            if (count >= 4) {
+                limpia();
+
+            }
+        }
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        }
+
+
+        function limpia() {
+            clearInterval(inter);
+        }
+    }
+
+
 })();
 
 (function(){
@@ -751,80 +825,6 @@
                //slider.prev()
               });
     }//end init galleria
-})();
-
-(function() {
-    angular.module('home', []).controller("inicioController", inicioController)
-
-    function inicioController($scope, serviceProducto, $location, $http, myConfig) {
-        $scope.banners = [];
-        $scope.top10 = [];
-        $scope.totalCartas = "000000";
-        serviceProducto.getTop10(function(data) {
-            $scope.top10 = data.toys || [];
-        });
-        $scope.irDetalleTop = function(id) {
-            $location.path("/detalletopdiez/" + id);
-        }
-        $scope.irSeccion = function(path) {
-            $location.path(path);
-        }
-        $scope.irCarta = function() {
-            $location.path("/micarta");
-        };
-        $scope.openInstrucciones = function() {
-            $("#modalInstrucciones").modal('show');
-        }
-        initFooterAnimations();
-      //  animationSnow();
-    }
-
-    function initFooterAnimations() {
-        $("#footerArmables").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
-        $("#footerNinas").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-        $("#footerVehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':70})
-        $("#footerNinos").AnimationSvg({ 'spriteWidth': 960, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-        $("#footerBebes").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
-        $("#footerVideoJuegos").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-    };
-
-    function animationSnow() {
-        var nsnow = 4;
-        var count = 0;
-        var _swith = 0;
-        var inter = setInterval(mySnow, 1600);
-        var increment1 = 0;
-        var increment2 = 0;
-
-        function mySnow() {
-            increment1 = getRandomInt(240, 310);
-            increment2 = getRandomInt(380, 430);
-            for (var i = 0; i < nsnow; i++) {
-                $("#container_principal").append("<div class='snow" + getRandomInt(1, 3) + "' style='left:" + getRandomInt(0, nsnow) * (_swith === 0 ? increment1 : increment2) + "px'>*</div>");
-
-            }
-            _swith = (_swith === 0) ? 1 : 0;
-
-            count++;
-            if (count >= 4) {
-                limpia();
-
-            }
-        }
-
-        function getRandomInt(min, max) {
-            min = Math.ceil(min);
-            max = Math.floor(max);
-            return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
-        }
-
-
-        function limpia() {
-            clearInterval(inter);
-        }
-    }
-
-
 })();
 
 (function(){
@@ -1968,6 +1968,233 @@
 })();
 
 (function(){
+       angular.module('componentOwlCarucel',[]).directive('owlCaroucel',linkData)
+       .directive('owlCaroucelHome',linkData2)
+       .directive("owlCaroucelMarcas",linkData3);
+        function linkData($http,serviceProducto,$timeout,$location){
+         return {
+             restrict:'AE',
+             transclude:true,
+             replace:true,
+             templateUrl: 'app/components/owlCaroucel/owlCaroucel.html',
+             scope:{
+                idElement:'@',
+                itemClass:"@",
+                jsonPath:"@",
+                elements:"=",
+                items:"@",
+                typeOwl:"@",//1 = service default, 2 element binding
+                styleOwl:"@",
+                classControls:"@",
+                classOwl:"@"
+             },
+             link: function (scope, elem, attrs) {
+                 scope.itemsD = [];
+                 scope.irDetalle =function(id){
+                    $location.path("/detalle/"+id);
+                 }
+                                                 scope.getLG= function(image){
+                                    return image.replace('XL','LG');
+                                }
+                var render = function(){
+                    var items = [];
+                    var content = "";
+                    var owl = $("#"+scope.idElement);
+                    if( scope.typeOwl === "4" ){
+                            items = scope.elements || [];
+                                scope.itemsD = items;
+
+                                    scope.$watchCollection("itemsD",function(){
+                                        owl.owlCarousel({
+                                            items : scope.items === undefined ? 4: scope.items,
+                                            lazyLoad : true,
+                                            navigation : false,
+                                            pagination:true,
+                                            responsive: true,
+                                            singleItem:false,
+
+                                            itemsMobile: [479,2.5],
+                                            itemsTablet: [768,4],
+                                            itemsDesktop:[1199,5],
+                                            itemsDesktopSmall : [1024,4],
+                                            baseClass : "owl-carousel owl-border-top"
+                                        }); 
+                                    });
+                            }else if(scope.typeOwl === "5" ){
+                                serviceProducto.getTop10( function( data ){
+                                    items = data.toys || [];
+                                    scope.itemsD = items;
+                               
+                                    scope.$watchCollection("itemsD",function(){
+                                        owl.owlCarousel({
+                                            items : scope.items === undefined ? 5: scope.items,
+                                            lazyLoad : true,
+                                            navigation : false,
+                                            pagination: true,
+                                            responsive: true,
+                                            singleItem:false,
+                                            itemsMobile: [479,2.5],
+                                            itemsTablet: [768,4],
+                                            itemsDesktop:[1199,5],
+                                            itemsDesktopSmall : [1024,5],
+                                            baseClass : "owl-carousel owl-border-top"
+                                        }); 
+                                    });
+                                });
+                            };
+                            $("."+scope.classControls+" .next").click(function(){
+                                owl.trigger('owl.next');
+                            });
+                            $("."+scope.classControls+" .back").click(function(){
+                                owl.trigger('owl.prev');
+                            });
+                            $("."+scope.classControls+" .next_clp").click(function(){
+                                owl.trigger('owl.next');
+                            });
+                            $("."+scope.classControls+" .back_clp").click(function(){
+                                owl.trigger('owl.prev');
+                            });
+                }
+                $timeout(render,0);
+             }//--------end links 
+        };
+    };
+    function linkData2($http,serviceProducto,$timeout,$location){
+        var infoDirectiva ={
+                    restrict:'AE',
+                    transclude:true,
+                    replace:true,
+                    templateUrl: 'app/components/owlCaroucel/owlCaroucelHomeMobo.html',
+                    scope:{
+                        idElement:'@',
+                        itemClass:"@",
+                        jsonPath:"@",
+                        elements:"=",
+                        items:"@",
+                        typeOwl:"@",//1 = service default, 2 element binding
+                        styleOwl:"@",
+                        classControls:"@",
+                        classOwl:"@"
+                    },
+                    link: function (scope, elem, attrs) {
+                        var render = function(){
+                            var items = [];
+                            var content = "";
+                            var owl = $("#"+scope.idElement);
+                            serviceProducto.getSliderHome( function( data ){                
+                                items = data.data || [];
+                                scope.itemsD = items;    
+                                scope.$watchCollection("itemsD",function(){
+                                    owl.owlCarousel({
+                                        autoPlay : 3000,
+                                        slideSpeed : 300,
+                                        paginationSpeed : 400,
+                                        singleItem:true,
+                                        itemsMobile: [ 479, 2.5 ],
+                                        itemsTablet: [ 768, 3.5 ],
+                                        itemsDesktopSmall : [ 980, 4 ],
+                                        itemsDesktop:[ 1199, 4 ],      
+                                        autoHeight:false,
+                                        autoPlay:true
+                                    }); 
+                                });   
+                            });
+                            $("."+scope.classControls+" .next").click(function(){
+                                    owl.trigger('owl.next');
+                            });
+                            $("."+scope.classControls+" .back").click(function(){
+                                    owl.trigger('owl.prev');
+                            });
+                        };//--------end links 
+                        scope.irHome = function(link){
+                          if( link.indexOf("http://assets")>=0 )
+                              location.href=link;
+                            else
+                              $location.path(link);
+                        }
+                        $timeout(render,0);
+                    }
+        };
+        if( navigator.userAgent.match(/Android/i) 
+           || navigator.userAgent.match(/webOS/i) 
+           || navigator.userAgent.match(/iPhone/i)  
+           || navigator.userAgent.match(/iPod/i) 
+           || navigator.userAgent.match(/BlackBerry/i) 
+           || navigator.userAgent.match(/Windows Phone/i)){
+               infoDirectiva.templateUrl = 'app/components/owlCaroucel/owlCaroucelHomeMobo.html';
+        }else{
+              infoDirectiva.templateUrl =  'app/components/owlCaroucel/owlCaroucelHome.html';
+        }
+        return infoDirectiva;
+        //ux
+                             
+};
+    function linkData3($timeout,serviceProducto){
+        return {
+            restrict:'AE',
+            templateUrl:'app/components/owlCaroucel/owlCaroucelMarcas.html',
+            scope:{
+                idElement:'@',
+                itemClass:"@",
+                jsonPath:"@",
+                elements:"=",
+                items:"@",
+                typeOwl:"@",//1 = service default, 2 element binding
+                styleOwl:"@",
+                classControls:"@",
+                classOwl:"@"
+            },
+            link:function(scope, elem, attrs){
+                    scope.itemsD2 = [];
+                
+                    var render = function(){
+                        var items = []; 
+                        var content = "";
+                        var owl = $("#"+scope.idElement);
+                        items = scope.elements || [];
+                        serviceProducto.getMarcasPopulares(function(data){
+                            scope.items === undefined ? 6: scope.items
+                            if( data.success ){
+                                scope.itemsD2 = data.data || [];
+                                scope.$watchCollection("itemsD2",function(){
+                                    owl.owlCarousel({
+                                        items : scope.items === undefined ? 6: scope.items,
+                                        lazyLoad : true,
+                                        navigation : false,
+                                        navigationText: [
+                                                '<img src="assets/images/caroucel/flecha.svg"/>',
+                                                '<img src="assets/images/caroucel/flecha.svg"/>'
+                                                ],
+                                        pagination: false,
+                                        responsive: true,
+                                        singleItem:false,
+                                        itemsMobile: [320,2.5],
+                                        itemsTablet: [768,3.5],
+                                        itemsDesktop:[1199,6],
+                                        itemsDesktopSmall : [980,
+                                        6],
+                                        baseClass : "owl-carousel owl-marcas-carousel"
+                                    }); 
+                                });   
+                            }
+                        }); 
+                            $("."+scope.classControls+" .next").click(function(){
+                                owl.trigger('owl.next');
+                            });
+                            $("."+scope.classControls+" .back").click(function(){
+                                owl.trigger('owl.prev');
+                            });
+
+                    };
+                    $timeout(render,0);
+            }
+        }
+    }
+})(); 
+
+
+
+(function(){
        angular.module('componentMenuCategorias',[]).directive('menuCategorias',linkData)
        .directive("etiquetaCategoria",linkData2)
        .directive("optionAnimate",optionAnimate)
@@ -2197,228 +2424,3 @@
         };
     };
 })();
-
-(function(){
-       angular.module('componentOwlCarucel',[]).directive('owlCaroucel',linkData)
-       .directive('owlCaroucelHome',linkData2)
-       .directive("owlCaroucelMarcas",linkData3);
-        function linkData($http,serviceProducto,$timeout,$location){
-         return {
-             restrict:'AE',
-             transclude:true,
-             replace:true,
-             templateUrl: 'app/components/owlCaroucel/owlCaroucel.html',
-             scope:{
-                idElement:'@',
-                itemClass:"@",
-                jsonPath:"@",
-                elements:"=",
-                items:"@",
-                typeOwl:"@",//1 = service default, 2 element binding
-                styleOwl:"@",
-                classControls:"@",
-                classOwl:"@"
-             },
-             link: function (scope, elem, attrs) {
-                 scope.itemsD = [];
-                 scope.irDetalle =function(id){
-                    $location.path("/detalle/"+id);
-                 }
-                var render = function(){
-                    var items = [];
-                    var content = "";
-                    var owl = $("#"+scope.idElement);
-                    if( scope.typeOwl === "4" ){
-                            items = scope.elements || [];
-                                scope.itemsD = items;
-                                scope.getLG= function(image){
-                                    return image.replace('XL','LG');
-                                }
-                                    scope.$watchCollection("itemsD",function(){
-                                        owl.owlCarousel({
-                                            items : scope.items === undefined ? 4: scope.items,
-                                            lazyLoad : true,
-                                            navigation : false,
-                                            pagination:true,
-                                            responsive: true,
-                                            singleItem:false,
-
-                                            itemsMobile: [479,2.5],
-                                            itemsTablet: [768,4],
-                                            itemsDesktop:[1199,5],
-                                            itemsDesktopSmall : [1024,4],
-                                            baseClass : "owl-carousel owl-border-top"
-                                        }); 
-                                    });
-                            }else if(scope.typeOwl === "5" ){
-                                serviceProducto.getTop10( function( data ){
-                                    items = data.toys || [];
-                                    scope.itemsD = items;
-                                    scope.$watchCollection("itemsD",function(){
-                                        owl.owlCarousel({
-                                            items : scope.items === undefined ? 5: scope.items,
-                                            lazyLoad : true,
-                                            navigation : false,
-                                            pagination: true,
-                                            responsive: true,
-                                            singleItem:false,
-                                            itemsMobile: [479,2.5],
-                                            itemsTablet: [768,4],
-                                            itemsDesktop:[1199,5],
-                                            itemsDesktopSmall : [1024,5],
-                                            baseClass : "owl-carousel owl-border-top"
-                                        }); 
-                                    });
-                                });
-                            };
-                            $("."+scope.classControls+" .next").click(function(){
-                                owl.trigger('owl.next');
-                            });
-                            $("."+scope.classControls+" .back").click(function(){
-                                owl.trigger('owl.prev');
-                            });
-                            $("."+scope.classControls+" .next_clp").click(function(){
-                                owl.trigger('owl.next');
-                            });
-                            $("."+scope.classControls+" .back_clp").click(function(){
-                                owl.trigger('owl.prev');
-                            });
-                }
-                $timeout(render,0);
-             }//--------end links 
-        };
-    };
-    function linkData2($http,serviceProducto,$timeout,$location){
-        var infoDirectiva ={
-                    restrict:'AE',
-                    transclude:true,
-                    replace:true,
-                    templateUrl: 'app/components/owlCaroucel/owlCaroucelHomeMobo.html',
-                    scope:{
-                        idElement:'@',
-                        itemClass:"@",
-                        jsonPath:"@",
-                        elements:"=",
-                        items:"@",
-                        typeOwl:"@",//1 = service default, 2 element binding
-                        styleOwl:"@",
-                        classControls:"@",
-                        classOwl:"@"
-                    },
-                    link: function (scope, elem, attrs) {
-                        var render = function(){
-                            var items = [];
-                            var content = "";
-                            var owl = $("#"+scope.idElement);
-                            serviceProducto.getSliderHome( function( data ){                
-                                items = data.data || [];
-                                scope.itemsD = items;    
-                                scope.$watchCollection("itemsD",function(){
-                                    owl.owlCarousel({
-                                        autoPlay : 3000,
-                                        slideSpeed : 300,
-                                        paginationSpeed : 400,
-                                        singleItem:true,
-                                        itemsMobile: [ 479, 2.5 ],
-                                        itemsTablet: [ 768, 3.5 ],
-                                        itemsDesktopSmall : [ 980, 4 ],
-                                        itemsDesktop:[ 1199, 4 ],      
-                                        autoHeight:false,
-                                        autoPlay:true
-                                    }); 
-                                });   
-                            });
-                            $("."+scope.classControls+" .next").click(function(){
-                                    owl.trigger('owl.next');
-                            });
-                            $("."+scope.classControls+" .back").click(function(){
-                                    owl.trigger('owl.prev');
-                            });
-                        };//--------end links 
-                        scope.irHome = function(link){
-                          if( link.indexOf("http://assets")>=0 )
-                              location.href=link;
-                            else
-                              $location.path(link);
-                        }
-                        $timeout(render,0);
-                    }
-        };
-        if( navigator.userAgent.match(/Android/i) 
-           || navigator.userAgent.match(/webOS/i) 
-           || navigator.userAgent.match(/iPhone/i)  
-           || navigator.userAgent.match(/iPod/i) 
-           || navigator.userAgent.match(/BlackBerry/i) 
-           || navigator.userAgent.match(/Windows Phone/i)){
-               infoDirectiva.templateUrl = 'app/components/owlCaroucel/owlCaroucelHomeMobo.html';
-        }else{
-              infoDirectiva.templateUrl =  'app/components/owlCaroucel/owlCaroucelHome.html';
-        }
-        return infoDirectiva;
-        //ux
-                             
-};
-    function linkData3($timeout,serviceProducto){
-        return {
-            restrict:'AE',
-            templateUrl:'app/components/owlCaroucel/owlCaroucelMarcas.html',
-            scope:{
-                idElement:'@',
-                itemClass:"@",
-                jsonPath:"@",
-                elements:"=",
-                items:"@",
-                typeOwl:"@",//1 = service default, 2 element binding
-                styleOwl:"@",
-                classControls:"@",
-                classOwl:"@"
-            },
-            link:function(scope, elem, attrs){
-                    scope.itemsD2 = [];
-                
-                    var render = function(){
-                        var items = []; 
-                        var content = "";
-                        var owl = $("#"+scope.idElement);
-                        items = scope.elements || [];
-                        serviceProducto.getMarcasPopulares(function(data){
-                            scope.items === undefined ? 6: scope.items
-                            if( data.success ){
-                                scope.itemsD2 = data.data || [];
-                                scope.$watchCollection("itemsD2",function(){
-                                    owl.owlCarousel({
-                                        items : scope.items === undefined ? 6: scope.items,
-                                        lazyLoad : true,
-                                        navigation : false,
-                                        navigationText: [
-                                                '<img src="assets/images/caroucel/flecha.svg"/>',
-                                                '<img src="assets/images/caroucel/flecha.svg"/>'
-                                                ],
-                                        pagination: false,
-                                        responsive: true,
-                                        singleItem:false,
-                                        itemsMobile: [320,2.5],
-                                        itemsTablet: [768,3.5],
-                                        itemsDesktop:[1199,6],
-                                        itemsDesktopSmall : [980,
-                                        6],
-                                        baseClass : "owl-carousel owl-marcas-carousel"
-                                    }); 
-                                });   
-                            }
-                        }); 
-                            $("."+scope.classControls+" .next").click(function(){
-                                owl.trigger('owl.next');
-                            });
-                            $("."+scope.classControls+" .back").click(function(){
-                                owl.trigger('owl.prev');
-                            });
-
-                    };
-                    $timeout(render,0);
-            }
-        }
-    }
-})(); 
-
-
