@@ -100,117 +100,6 @@
 }
 })();
 
-(function(){
-	angular.module('carta',[]).controller( "cartaController", cartaController )
-	.controller( "cartaControllerFelicidades", cartaControllerFelicidades );
-	
-	function cartaController($rootScope, $scope, serviceStorePedidos,$location ){
-		
-		$scope.carta = {email:"",mensaje:"",nombre:""};
-		$scope.information = {
-			success: true, 
-			data: {
-				color1:"#97F34E",
-				color2:"none",
-				color3:"#FC3491",
-				fondo:"#f6cfe4",
-				label:"Mi carta a santa"
-			}, 
-			code: 0
-		};
-		$scope.isActiveBtnEnviar = true;
-		$scope.pedidos = function(){
-		   return serviceStorePedidos.getPedidos();
-		}
-		$scope.eliminarPedido = function(index){
-		   serviceStorePedidos.deletePedido(index);
-		}
-		$scope.enviarPedido = function(){
-			$scope.isActiveBtnEnviar = false;
-			if($scope.carta.mensaje === "")
-				$scope.carta.mensaje="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería";
-			serviceStorePedidos.enviarPedido($scope.carta,function(response){
-			 if( response.success )
-				if( response.code === -2 ) {
-					$("#modalEnvioMal").modal('show');
-					$scope.isActiveBtnEnviar = true;
-				}else 
-					if( response.code ===-1 ) {
-						$("#modalEnvioMalFalta").modal('show');
-						$scope.isActiveBtnEnviar = true;
-					}else if(response.code === 1 ){
-						$rootScope.cartaExito = true;
-						$location.path("/micarta/felicidades");
-					}
-			});
-		}
-		$scope.addFavoritos=function(p){
-			$(".fa.fa-heart-o").click(function() {
-			$(this).removeClass("fa-heart-o")
-			$(this).addClass("fa-heart")
-			})
-		};
-		$scope.microfono=function(id){ 
-		 
-			if (window.hasOwnProperty('webkitSpeechRecognition')) {
-
-					var recognition = new webkitSpeechRecognition();
-
-					recognition.continuous = false;
-					recognition.interimResults = false;
-
-					recognition.lang = "es-MX";
-					recognition.start();
-
-					recognition.onresult = function(e) {
-						document.getElementById(id).value = e.results[0][0].transcript;
-						recognition.stop();
-						//document.getElementById('labnol').submit();
-						$('#mic').css('background',"url('assets/images/micro/inactivo.png')");
-						$('#mic2').css('background',"url('assets/images/micro/inactivo.png')");
-						$('#mic3').css('background',"url('assets/images/micro/inactivo.png')");
-					};
-
-					recognition.onerror = function(e) {
-						recognition.stop();
-
-					}
-				}
-		};
-			$('#mic').click( function() { 
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$('#mic2').click( function() { 
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$('#mic3').click( function() { 
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$("input#transcript1").click(function () {
-				document.getElementById('audioNombre').play();
-			});
-			$("input#transcript2").click(function () {
-				document.getElementById('audioMail').play();
-			});
-			$("textarea#transcript3").click(function () {
-				document.getElementById('audioSanta').play();
-			});
-
-	}
-	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
-		var  pedidos = serviceStorePedidos.getPedidos();
-		if(pedidos.length <= 0){
-			$location.path("/indexqa.html")
-		}else{
-		   	$rootScope.cartaExito = false;
-			serviceStorePedidos.deleteAllPedidos();
-			 	$scope.regresar=function(){
-			 		$location.path("/indexqa.html");
-			 	}
-		 }
-	}
-
-})();
 (function() {
     angular.module('busquedas', []).controller("busquedaResultadoController", busquedaResultadoController)
         .controller("mejoresMarcasController", busquedaResultadoController);
@@ -313,7 +202,6 @@
                     color2: "none",
                     color3: "#FC3491",
                     fondo: "#f6cfe4",
-
                     label: "disney collection"
                 },
                 {
@@ -461,7 +349,7 @@
                     "color2": "none",
                     "color3": "#9ABDCA",
                     fondo: "#f6cfe4",
-                    label: "montables"
+                    label: "Transformers"
                 },
                 {
                     color1: "#97F34E",
@@ -501,7 +389,7 @@
                     color3: "#FC3491",
                     fondo: "#f6cfe4",
                     label: "frozen II"
-                }   
+                }
             ];
             var index = -1;
             var label = {
@@ -529,6 +417,118 @@
 
         };
     };
+})();
+
+(function(){
+	angular.module('carta',[]).controller( "cartaController", cartaController )
+	.controller( "cartaControllerFelicidades", cartaControllerFelicidades );
+
+	function cartaController($rootScope, $scope, serviceStorePedidos,$location ){
+
+		$scope.carta = {email:"",mensaje:"",nombre:""};
+		$scope.information = {
+			success: true,
+			data: {
+				color1:"#97F34E",
+				color2:"none",
+				color3:"#FC3491",
+				fondo:"#f6cfe4",
+				label:"Mi carta a Santa"
+			},
+			code: 0
+		};
+		$scope.isActiveBtnEnviar = true;
+		$scope.pedidos = function(){
+		   return serviceStorePedidos.getPedidos();
+		}
+		$scope.eliminarPedido = function(index){
+		   serviceStorePedidos.deletePedido(index);
+		}
+		$scope.enviarPedido = function(){
+			$scope.isActiveBtnEnviar = false;
+			if($scope.carta.mensaje === "")
+				$scope.carta.mensaje="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería";
+			serviceStorePedidos.enviarPedido($scope.carta,function(response){
+			 if( response.success )
+				if( response.code === -2 ) {
+					$("#modalEnvioMal").modal('show');
+					$scope.isActiveBtnEnviar = true;
+				}else
+					if( response.code ===-1 ) {
+						$("#modalEnvioMalFalta").modal('show');
+						$scope.isActiveBtnEnviar = true;
+					}else if(response.code === 1 ){
+						$rootScope.cartaExito = true;
+						$location.path("/micarta/felicidades");
+					}
+			});
+		}
+		$scope.addFavoritos=function(p){
+			$(".fa.fa-heart-o").click(function() {
+			$(this).removeClass("fa-heart-o")
+			$(this).addClass("fa-heart")
+			})
+		};
+		$scope.microfono=function(id){
+
+			if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+					var recognition = new webkitSpeechRecognition();
+
+					recognition.continuous = false;
+					recognition.interimResults = false;
+
+					recognition.lang = "es-MX";
+					recognition.start();
+
+					recognition.onresult = function(e) {
+						document.getElementById(id).value = e.results[0][0].transcript;
+						recognition.stop();
+						//document.getElementById('labnol').submit();
+						$('#mic').css('background',"url('assets/images/micro/inactivo.png')");
+						$('#mic2').css('background',"url('assets/images/micro/inactivo.png')");
+						$('#mic3').css('background',"url('assets/images/micro/inactivo.png')");
+					};
+
+					recognition.onerror = function(e) {
+						recognition.stop();
+
+					}
+				}
+		};
+			$('#mic').click( function() {
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$('#mic2').click( function() {
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$('#mic3').click( function() {
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$("input#transcript1").click(function () {
+				document.getElementById('audioNombre').play();
+			});
+			$("input#transcript2").click(function () {
+				document.getElementById('audioMail').play();
+			});
+			$("textarea#transcript3").click(function () {
+				document.getElementById('audioSanta').play();
+			});
+
+	}
+	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
+		var  pedidos = serviceStorePedidos.getPedidos();
+		if(pedidos.length <= 0){
+			$location.path("/indexqa.html")
+		}else{
+		   	$rootScope.cartaExito = false;
+			serviceStorePedidos.deleteAllPedidos();
+			 	$scope.regresar=function(){
+			 		$location.path("/indexqa.html");
+			 	}
+		 }
+	}
+
 })();
 
 (function(){
@@ -620,80 +620,6 @@
         };
 
     }/*end funcion subCategoriaController*/
-})();
-
-(function() {
-    angular.module('home', []).controller("inicioController", inicioController)
-
-    function inicioController($scope, serviceProducto, $location, $http, myConfig) {
-        $scope.banners = [];
-        $scope.top10 = [];
-        $scope.totalCartas = "000000";
-        serviceProducto.getTop10(function(data) {
-            $scope.top10 = data.toys || [];
-        });
-        $scope.irDetalleTop = function(id) {
-            $location.path("/detalletopdiez/" + id);
-        }
-        $scope.irSeccion = function(path) {
-            $location.path(path);
-        }
-        $scope.irCarta = function() {
-            $location.path("/micarta");
-        };
-        $scope.openInstrucciones = function() {
-            $("#modalInstrucciones").modal('show');
-        }
-        initFooterAnimations();
-      //  animationSnow();
-    }
-
-    function initFooterAnimations() {
-        $("#footerArmables").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
-        $("#footerNinas").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-        $("#footerVehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':70})
-        $("#footerNinos").AnimationSvg({ 'spriteWidth': 960, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-        $("#footerBebes").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
-        $("#footerVideoJuegos").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-    };
-
-    function animationSnow() {
-        var nsnow = 4;
-        var count = 0;
-        var _swith = 0;
-        var inter = setInterval(mySnow, 1600);
-        var increment1 = 0;
-        var increment2 = 0;
-
-        function mySnow() {
-            increment1 = getRandomInt(240, 310);
-            increment2 = getRandomInt(380, 430);
-            for (var i = 0; i < nsnow; i++) {
-                $("#container_principal").append("<div class='snow" + getRandomInt(1, 3) + "' style='left:" + getRandomInt(0, nsnow) * (_swith === 0 ? increment1 : increment2) + "px'>*</div>");
-
-            }
-            _swith = (_swith === 0) ? 1 : 0;
-
-            count++;
-            if (count >= 4) {
-                limpia();
-
-            }
-        }
-
-        function getRandomInt(min, max) {
-            min = Math.ceil(min);
-            max = Math.floor(max);
-            return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
-        }
-
-
-        function limpia() {
-            clearInterval(inter);
-        }
-    }
-
-
 })();
 
 (function(){
@@ -825,6 +751,80 @@
                //slider.prev()
               });
     }//end init galleria
+})();
+
+(function() {
+    angular.module('home', []).controller("inicioController", inicioController)
+
+    function inicioController($scope, serviceProducto, $location, $http, myConfig) {
+        $scope.banners = [];
+        $scope.top10 = [];
+        $scope.totalCartas = "000000";
+        serviceProducto.getTop10(function(data) {
+            $scope.top10 = data.toys || [];
+        });
+        $scope.irDetalleTop = function(id) {
+            $location.path("/detalletopdiez/" + id);
+        }
+        $scope.irSeccion = function(path) {
+            $location.path(path);
+        }
+        $scope.irCarta = function() {
+            $location.path("/micarta");
+        };
+        $scope.openInstrucciones = function() {
+            $("#modalInstrucciones").modal('show');
+        }
+        initFooterAnimations();
+      //  animationSnow();
+    }
+
+    function initFooterAnimations() {
+        $("#footerArmables").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
+        $("#footerNinas").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+        $("#footerVehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':70})
+        $("#footerNinos").AnimationSvg({ 'spriteWidth': 960, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+        $("#footerBebes").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
+        $("#footerVideoJuegos").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+    };
+
+    function animationSnow() {
+        var nsnow = 4;
+        var count = 0;
+        var _swith = 0;
+        var inter = setInterval(mySnow, 1600);
+        var increment1 = 0;
+        var increment2 = 0;
+
+        function mySnow() {
+            increment1 = getRandomInt(240, 310);
+            increment2 = getRandomInt(380, 430);
+            for (var i = 0; i < nsnow; i++) {
+                $("#container_principal").append("<div class='snow" + getRandomInt(1, 3) + "' style='left:" + getRandomInt(0, nsnow) * (_swith === 0 ? increment1 : increment2) + "px'>*</div>");
+
+            }
+            _swith = (_swith === 0) ? 1 : 0;
+
+            count++;
+            if (count >= 4) {
+                limpia();
+
+            }
+        }
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        }
+
+
+        function limpia() {
+            clearInterval(inter);
+        }
+    }
+
+
 })();
 
 (function(){
@@ -1037,7 +1037,7 @@
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                              $http({url: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/typeahead?search-string="+word})
+                              $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})
                                     .then(function(data) {
                                         var contents = data.data;
                                             if (word !== "") {
@@ -1845,7 +1845,6 @@
 
                 if(screenDeviceMobile){
                   $(elem).show();
-                  var toplimit = 0;
                 }else{
                   var toplimit = 320;
                 }
@@ -1854,14 +1853,14 @@
                 locat = $location.path();
 
                 if (locat.indexOf("detal") > -1) {
-                    toplimit = 0;
+                  //  toplimit = 0;
                     $(elem).show();
                 }
                 $rootScope.$on('$locationChangeSuccess', function(event, next, current) {
                     $(elem).show();
                     locat = $location.path();
                     if (locat.indexOf("detal") > -1) {
-                        toplimit = 0;
+                      //  toplimit = 0;
                         $(elem).show();
                     }else if(locat.indexOf("micarta") > -1){
                        isShow = false;
@@ -1871,7 +1870,7 @@
                 locat = $location.path();
 
                 if (locat.indexOf("detal") > -1) {
-                    toplimit = 0;
+                  //  toplimit = 0;
                     $(elem).show();
                 }
                 win.scroll(function() {
@@ -1965,6 +1964,273 @@
         };
     };
 
+})();
+
+(function(){
+       angular.module('componentMenuCategorias',[]).directive('menuCategorias',linkData)
+       .directive("etiquetaCategoria",linkData2)
+       .directive("optionAnimate",optionAnimate)
+       .directive('menuCategoriasMobil',linkData4)
+       .directive("bannerCategoria",linkData5);
+        function linkData($rootScope,$location,serviceProducto,$routeParams){/*menu categoria*/
+         return {
+             restrict:'AE',
+             templateUrl: 'app/components/menuCategorias/menuCategorias.html',
+             scope:{
+                isWeb:"="
+             },
+             link: function (scope, elem, attrs) {
+                var offset = $(elem).parent().offset();
+                var win = $( window ),lastStateScroll = 0,up =0;;
+                scope.rutaActual = $location.path();
+                scope.menuCategorias = [];
+                $rootScope.$on('$locationChangeSuccess', function(event, next, current) {
+                    scope.rutaActual = $location.path();
+                });
+                win.scroll( scrollAction );
+                function showWhenScrollUp( win,limit ){
+                    var stateScroll = win.scrollTop();
+
+                    if( lastStateScroll < stateScroll ){/*si es menor significa que el scroll ba hacia abajo*/
+                        elem.css("position","relative");/*si el scroll va hacia abajo regresamos el elemento a su posicion inicial*/
+                        elem.show();
+                        up=0;
+                    }else{
+                        showWhenScrollUpDown(win,limit);// cuando el scroll va hacia arriba ejectamos la funcion
+                    }
+                    lastStateScroll = stateScroll;
+                };
+                function showWhenScrollUpDown(win,limit){//funcion que detecta cuando el scroll va hacia abajo cambia la posicion a fixed si paso el limite del scroll establecido
+                    if( win.scrollTop() >limit ){
+                        if(up===10){
+                            elem.css("position","fixed");
+                            elem.hide();
+                            elem.fadeIn();
+                        }
+                        up +=1;
+                    }else{
+                        up=0;
+                        elem.show();
+                        elem.css("position","relative");
+                    }
+                };
+                function scrollAction(){
+                    offset = $(elem).parent().offset();
+                    showWhenScrollUp( win, offset.top );
+                };//end scrollAction
+                function initMenu(){
+                    $("#armables").AnimationSvg({'spriteWidth':700,'spriteHeight':100,steps:7,'areaWidth':65});
+                    $("#bebes").AnimationSvg({'spriteWidth':700,'spriteHeight':100,steps:7,'areaWidth':65});
+                    $("#coleccionables").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#disfraces").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#drones").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#exteriores").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#juegosdemesa").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#ninas").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#ninos").AnimationSvg({'spriteWidth':960,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#peluches").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#vehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':65});
+                    $("#videojuegos").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+                    $("#micarta").AnimationSvg({'spriteWidth':680,'spriteHeight':99,steps:7,'areaWidth':150});
+                    //$("#micartaMobile").AnimationSvg({'spriteWidth':670,'spriteHeight':98,steps:7,'areaWidth':150});
+                }
+
+                serviceProducto.getCategorias(function(data){
+                    scope.menuCategorias =  data.data;
+                });
+                scope.irA = function(direccion){
+                    $location.path("/categoria/"+direccion);
+                };
+                scope.tutoClick = function(){
+                };
+                initMenu();
+             }
+        };
+    };
+    function linkData2(serviceProducto){/*banner categoria*/
+        return {
+            restrict:'E',
+            templateUrl:'app/components/menuCategorias/etiquetaCategoria.html',
+            replace:true,
+            scope:{
+                categoria:"=",
+              //  pictureWeb:"@",
+                index:"@",
+                label:"@",
+                fondo:"@",
+                width:"=",
+                height:"=",
+                information:"="
+            },
+            link:function( $scope, elem, attrs){
+                $scope.data = {};
+                $scope.$watch('categoria',function(old, news){
+                    if(old != "" && old!=undefined){
+                        serviceProducto.getBannerSliderCategoria( "categoria", $scope.categoria, function( data ){
+                            resizeEtiqueta( data );
+                        });
+                    };
+                });
+                $scope.$watch('information',function(old,news){
+                    if( old!=undefined )
+                        resizeEtiqueta( old );
+                });
+                function resizeEtiqueta(data,_width){
+
+                    windowsWidth = $( window ).width();
+                    var _data = data.data;
+                    var label =  ($scope.label === undefined || $scope.label === "") ? _data.label : _data.label;
+                    $(".etiqueta > .texto").html(label);
+                    var width = $(".etiqueta > .texto").outerWidth();
+                    var height =25+$(".etiqueta > .texto").outerHeight();
+                    if( windowsWidth <= 481 || windowsWidth < 350){
+                        $(".etiqueta > .texto").css("font-size","1em");
+                        width = $(".etiqueta > .texto").outerWidth();
+
+                        if( width >=380 || width >= 280 ){/*in case of text is biger that device*/
+                            $(".etiqueta > .texto").css("top","20px");
+                            width = 240;
+                            $(".etiqueta > .texto").css("width",width+"px");
+                            height =25+$(".etiqueta > .texto").outerHeight();
+                        }else{
+                              if("Construcción y Armables" === data.data.label){
+                                  height +=25;
+                              }else {
+                                height +=1;
+                              }
+
+                        }
+                    }
+                    if( windowsWidth <= 1024 ){
+                        $(".etiqueta > .texto").css("font-size","2.2em");
+                        width = $(".etiqueta > .texto").outerWidth();
+
+                        if( width >=770){/*in case of text is biger that device*/
+                            $(".etiqueta > .texto").css("top","20px");
+                            width = 710;
+                            $(".etiqueta > .texto").css("width",width+"px");
+                            height =$(".etiqueta > .texto").outerHeight();
+                        }
+                    }
+                    width = 50+width;
+                    $scope.bannerWidth =  width;
+                    $scope.label = label;
+                    $scope.fondo = ($scope.fondo ===undefined || $scope.fondo === "") ?  $scope.fondo : '';
+
+                    $("#svgetiqueta").attr("width",(width + 30));
+                    if(_data != undefined){
+                      $("#svgpoligon1").attr({"stroke":_data.color1,"points":"4,2 28,"+(height+15)+" "+(width-15)+","+(height+5)+" "+( width + 10 )+",16"});
+                      $("#svgpoligon2").attr({"fill": _data.color2,"points":"4,3 28,108 189,97 212,17"});
+                      $("#svgpoligon3").attr({"fill": _data.color3,"points":width+",94 "+width+",21.5 12,9 16,"+(height+8)+" "+width+","+height});
+                    }
+                };
+                $( window ).resize(function() {
+                    $scope.dimension = $( window ).width();
+                    $scope.$apply();
+                });
+            }
+        };
+    };
+
+    function optionAnimate(serviceProducto){/*banner categoria*/
+        return {
+            restrict:'E',
+            templateUrl:'app/components/menuCategorias/optionAnimate.html',
+            replace:true,
+            scope:{
+                categoria:"=",
+                pathImgSvg:"@"
+            },
+            link:function( $scope, elem, attrs){
+                $("#"+elem.attr("id")).AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
+            }
+        };
+    };
+        function linkData4($rootScope,$location,serviceProducto,$routeParams){/*menu categoria*/
+         return {
+             restrict:'AE',
+             templateUrl: 'app/components/menuCategorias/menuCategoriasMobil.html',
+             scope:{
+                isWeb:"="
+             },
+             link: function (scope, elem, attrs) {
+
+                var win = $( window ),lastStateScroll = 0;
+
+                scope.rutaActual = $location.path();
+                scope.menuCategorias = [];
+
+                $rootScope.$on('$locationChangeStart', function(event, next, current) {
+                    scope.rutaActual = $location.path();
+                });
+
+
+                serviceProducto.getCategorias(function(data){
+                    scope.menuCategorias =  data.data;
+                });
+                scope.getBackground=function( urlImage ){
+                    return scope.image={"background-image":"url('"+urlImage+"')"};
+                }
+
+                scope.closeMenu = function(){
+                  $('#menu-categorias-mobile-content').fadeOut(0);
+                }
+
+                scope.irA = function(direccion){
+                  if("exteriores" === direccion || "drones" === direccion || "coleccionables" === direccion || "peluches" === direccion){
+                      switch (direccion) {
+                        case "exteriores":
+                          $location.path("/subcategoria/exteriores/catst1896485");
+                          $('#menu-categorias-mobile-content').fadeOut(0);
+                          break;
+                          case "drones":
+                            $location.path("/subcategoria/drones/catst1833807");
+                            $('#menu-categorias-mobile-content').fadeOut(0);
+                            break;
+                            case "coleccionables":
+                              $location.path("/subcategoria/coleccionables/catst1833811");
+                              $('#menu-categorias-mobile-content').fadeOut(0);
+                              break;
+                              case "peluches":
+                                $location.path("/subcategoria/peluches/catst1833808");
+                                $('#menu-categorias-mobile-content').fadeOut(0);
+                                break;
+                        default:
+
+                      }
+
+                  }else{
+                    $location.path("/categoria/"+direccion);
+                    $('#menu-categorias-mobile-content').fadeOut(0);
+                  }
+
+                };
+                   scope.tutoClick = function(){
+                        $('#menu-categorias-mobile-content').fadeOut(0);
+                   };
+             }
+        };
+    };
+    function linkData5(serviceProducto){/*banner categoria*/
+        return {
+            restrict:'E',
+            templateUrl:'app/components/menuCategorias/bannerCategoria.html',
+            replace:true,
+            scope:{
+                categoria:"=",
+                pictureWeb:"@",
+                index:"@",
+                fondo:"@",
+                patron:"@"
+            },
+            link:function( $scope, elem, attrs){
+                $scope.$watch('fondo',function(old, news){
+                    $scope.styles = {"background-image":"url('"+$scope.patron+"')","background-color":$scope.fondo};
+                });
+
+            }
+        };
+    };
 })();
 
 (function(){
@@ -2193,234 +2459,3 @@
 })(); 
 
 
-
-(function(){
-       angular.module('componentMenuCategorias',[]).directive('menuCategorias',linkData)
-       .directive("etiquetaCategoria",linkData2)
-       .directive("optionAnimate",optionAnimate)
-       .directive('menuCategoriasMobil',linkData4)
-       .directive("bannerCategoria",linkData5);
-        function linkData($rootScope,$location,serviceProducto,$routeParams){/*menu categoria*/
-         return {
-             restrict:'AE',
-             templateUrl: 'app/components/menuCategorias/menuCategorias.html',
-             scope:{
-                isWeb:"="
-             },
-             link: function (scope, elem, attrs) {
-                var offset = $(elem).parent().offset();
-                var win = $( window ),lastStateScroll = 0,up =0;;
-                scope.rutaActual = $location.path();
-                scope.menuCategorias = [];
-                $rootScope.$on('$locationChangeSuccess', function(event, next, current) {
-                    scope.rutaActual = $location.path();
-                });
-                win.scroll( scrollAction );
-                function showWhenScrollUp( win,limit ){
-                    var stateScroll = win.scrollTop();
-
-                    if( lastStateScroll < stateScroll ){/*si es menor significa que el scroll ba hacia abajo*/
-                        elem.css("position","relative");/*si el scroll va hacia abajo regresamos el elemento a su posicion inicial*/
-                        elem.show();
-                        up=0;
-                    }else{
-                        showWhenScrollUpDown(win,limit);// cuando el scroll va hacia arriba ejectamos la funcion
-                    }
-                    lastStateScroll = stateScroll;
-                };
-                function showWhenScrollUpDown(win,limit){//funcion que detecta cuando el scroll va hacia abajo cambia la posicion a fixed si paso el limite del scroll establecido
-                    if( win.scrollTop() >limit ){
-                        if(up===10){
-                            elem.css("position","fixed");
-                            elem.hide();
-                            elem.fadeIn();
-                        }
-                        up +=1;
-                    }else{
-                        up=0;
-                        elem.show();
-                        elem.css("position","relative");
-                    }
-                };
-                function scrollAction(){
-                    offset = $(elem).parent().offset();
-                    showWhenScrollUp( win, offset.top );
-                };//end scrollAction
-                function initMenu(){
-                    $("#armables").AnimationSvg({'spriteWidth':700,'spriteHeight':100,steps:7,'areaWidth':65});
-                    $("#bebes").AnimationSvg({'spriteWidth':700,'spriteHeight':100,steps:7,'areaWidth':65});
-                    $("#coleccionables").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#disfraces").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#drones").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#exteriores").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#juegosdemesa").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#ninas").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#ninos").AnimationSvg({'spriteWidth':960,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#peluches").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#vehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':65});
-                    $("#videojuegos").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-                    $("#micarta").AnimationSvg({'spriteWidth':680,'spriteHeight':99,steps:7,'areaWidth':150});
-                    $("#micartaMobile").AnimationSvg({'spriteWidth':680,'spriteHeight':98,steps:7,'areaWidth':140});
-
-
-                }
-
-                serviceProducto.getCategorias(function(data){
-                    scope.menuCategorias =  data.data;
-                });
-                scope.irA = function(direccion){
-                    $location.path("/categoria/"+direccion);
-                };
-                scope.tutoClick = function(){
-                };
-                initMenu();
-             }
-        };
-    };
-    function linkData2(serviceProducto){/*banner categoria*/
-        return {
-            restrict:'E',
-            templateUrl:'app/components/menuCategorias/etiquetaCategoria.html',
-            replace:true,
-            scope:{
-                categoria:"=",
-              //  pictureWeb:"@",
-                index:"@",
-                label:"@",
-                fondo:"@",
-                width:"=",
-                height:"=",
-                information:"="
-            },
-            link:function( $scope, elem, attrs){
-                $scope.data = {};
-                $scope.$watch('categoria',function(old, news){
-                    if(old != "" && old!=undefined){
-                        serviceProducto.getBannerSliderCategoria( "categoria", $scope.categoria, function( data ){
-                            resizeEtiqueta( data );
-                        });
-                    };
-                });
-                $scope.$watch('information',function(old,news){
-                    if( old!=undefined )
-                        resizeEtiqueta( old );
-                });
-                function resizeEtiqueta(data,_width){
-                    windowsWidth = $( window ).width();
-                    var _data = data.data;
-                    var label =  $scope.label === undefined || $scope.label ==="" ? _data.label:$scope.label;
-                    $(".etiqueta > .texto").html(label);
-                    var width = $(".etiqueta > .texto").outerWidth();
-                    var height =25+$(".etiqueta > .texto").outerHeight();
-                    if( windowsWidth <= 481 || windowsWidth < 350){
-                        $(".etiqueta > .texto").css("font-size","1em");
-                        width = $(".etiqueta > .texto").outerWidth();
-
-                        if( width >=380 || width >= 280 || width > 355){/*in case of text is biger that device*/
-                            $(".etiqueta > .texto").css("top","20px");
-                            width = 240;
-                            $(".etiqueta > .texto").css("width",width+"px");
-                            height =25+$(".etiqueta > .texto").outerHeight();
-                        }else{
-                            height +=15;
-                        }
-                    }
-                    if( windowsWidth <= 1024 ){
-                        $(".etiqueta > .texto").css("font-size","2.2em");
-                        width = $(".etiqueta > .texto").outerWidth();
-
-                        if( width >=770){/*in case of text is biger that device*/
-                            $(".etiqueta > .texto").css("top","20px");
-                            width = 710;
-                            $(".etiqueta > .texto").css("width",width+"px");
-                            height =$(".etiqueta > .texto").outerHeight();
-                        }
-                    }
-                    width = 50+width;
-                    $scope.bannerWidth =  width;
-                    $scope.label = label;
-                    $scope.fondo = $scope.fondo ===undefined || $scope.fondo === "" ? _data.fondo:$scope.fondo;
-                    $("#svgetiqueta").attr("width",(width + 30) );
-                    $("#svgpoligon1").attr({"stroke":_data.color1,"points":"4,2 28,"+(height+15)+" "+(width-15)+","+(height+5)+" "+( width + 10 )+",16"});
-                    $("#svgpoligon2").attr({"fill":_data.color2,"points":"4,3 28,108 189,97 212,17"});
-                    $("#svgpoligon3").attr({"fill":_data.color3,"points":width+",94 "+width+",21.5 12,9 16,"+(height+8)+" "+width+","+height});
-                };
-                $( window ).resize(function() {
-                    $scope.dimension = $( window ).width();
-                    $scope.$apply();
-                });
-            }
-        };
-    };
-
-    function optionAnimate(serviceProducto){/*banner categoria*/
-        return {
-            restrict:'E',
-            templateUrl:'app/components/menuCategorias/optionAnimate.html',
-            replace:true,
-            scope:{
-                categoria:"=",
-                pathImgSvg:"@"
-            },
-            link:function( $scope, elem, attrs){
-                $("#"+elem.attr("id")).AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
-            }
-        };
-    };
-        function linkData4($rootScope,$location,serviceProducto,$routeParams){/*menu categoria*/
-         return {
-             restrict:'AE',
-             templateUrl: 'app/components/menuCategorias/menuCategoriasMobil.html',
-             scope:{
-                isWeb:"="
-             },
-             link: function (scope, elem, attrs) {
-
-                var win = $( window ),lastStateScroll = 0;
-
-                scope.rutaActual = $location.path();
-                scope.menuCategorias = [];
-
-                $rootScope.$on('$locationChangeStart', function(event, next, current) {
-                    scope.rutaActual = $location.path();
-                });
-
-
-                serviceProducto.getCategorias(function(data){
-                    scope.menuCategorias =  data.data;
-                });
-                scope.getBackground=function( urlImage ){
-                    return scope.image={"background-image":"url('"+urlImage+"')"};
-                }
-
-                scope.irA = function(direccion){
-                    $location.path("/categoria/"+direccion);
-                    $('#menu-categorias-mobile-content').fadeOut(0);
-                };
-                   scope.tutoClick = function(){
-                        $('#menu-categorias-mobile-content').fadeOut(0);
-                   };
-             }
-        };
-    };
-    function linkData5(serviceProducto){/*banner categoria*/
-        return {
-            restrict:'E',
-            templateUrl:'app/components/menuCategorias/bannerCategoria.html',
-            replace:true,
-            scope:{
-                categoria:"=",
-                pictureWeb:"@",
-                index:"@",
-                fondo:"@",
-                patron:"@"
-            },
-            link:function( $scope, elem, attrs){
-                $scope.$watch('fondo',function(old, news){
-                    $scope.styles = {"background-image":"url('"+$scope.patron+"')","background-color":$scope.fondo};
-                });
-
-            }
-        };
-    };
-})();

@@ -1,6 +1,6 @@
 .bodyFiguras{
 	background: #f2f2f2;
-	
+
 	background-image:url(../images/peluches.png);
 }
 .bodyCarta{
@@ -16,7 +16,7 @@
 }
 .back{
 	margin-top: 3%;
-	
+
 }
 .felicidades{
 	font-size: 3.5em;
@@ -41,12 +41,26 @@ a:hover{
 .ups-image img{
  height: 60px;
 }
-.texto-carta-titulo{
-	position: absolute;
-	top: 0px;
-	left: 26%;
-	width:100%;
-	z-index:20;
+@media only screen and (max-width:991px) {
+	.texto-carta-titulo{
+		position: absolute;
+		top: 0px;
+		width:100%;
+		z-index:20;
+	}
+	#svgetiqueta{
+		height: 150px !important;
+	}
+}
+
+@media only screen and (min-width:992px) {
+	.texto-carta-titulo{
+		position: absolute;
+		top: 0px;
+		left: 26%;
+		width:100%;
+		z-index:20;
+	}
 }
 .form-group{
 	margin-top: 30px;

@@ -1,6 +1,11 @@
-<div class=" hidden-sm hidden-xs ">
+<div class="">
     <div id="container_principal">
-        <img src="assets/images/home/banner_home_01.png" class="img-responsive" width="100%" />
+
+        <picture>
+            <source media="(max-width: 992px)" srcset="assets/images/home/banner_home_01_mobile.png">
+            <source media="(max-width: 991px)" srcset="assets/images/home/banner_home_01.png">
+            <img src="assets/images/home/banner_home_01.png" alt="Banner" style="width:100%;">
+        </picture>
     </div>
 </div>
 
@@ -34,10 +39,10 @@
                         </figure>
                         <p class="productoTopDiez" ng-bind="item10.description"></p>
                     </div>
-                    <div class="addProductoTop10 hiden-sm  hidden-xs">
+                    <div class="addProductoTop10">
                         <agregar-pedidos producto="item10"></agregar-pedidos>
                     </div>
-                    <agregar-pedidos producto="item10" class="hidden-lg agregar-pedido-top10"></agregar-pedidos>
+                    <agregar-pedidos producto="item10" class="agregar-pedido-top10"></agregar-pedidos>
                 </div>
             </div>
         </div>
@@ -153,13 +158,16 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 hidden-sm hidden-xs banners-mosaicos" style="margin-top: 4.5%;">
+
+        <div class="col-md-12 banners-mosaicos" style="margin-top: 4.5%;">
             <a href="https://www.youtube.com/channel/UCL9rrG1FPZb3714IHa3v-PQ" target="_blank">
-                <img src="assets/images/desktop_youtube.png" style="width:100%;" /></a>
-        </div>
-        <div class="col-md-12 hidden-lg banners-mosaicos">
-            <a href="https://www.youtube.com/channel/UCL9rrG1FPZb3714IHa3v-PQ" target="_blank">
-                <img src="assets/images/mobile_youtube.png" />
+
+
+                <picture>
+                    <source media="(max-width: 992px)" srcset="assets/images/mobile_youtube.png">
+                    <source media="(max-width: 991px)" srcset="assets/images/desktop_youtube.png">
+                    <img src="assets/images/desktop_youtube.png" alt="Banner" style="width:100%;">
+                </picture>
             </a>
         </div>
 
@@ -174,7 +182,7 @@
 
             <p class="favoritosTitle">CATEGORÍAS FAVORITAS</p>
         </div>
-        <div class="row">
+        <div class="row" style="display: flex;flex-flow: wrap;">
 
 
             <div class="col-xs-6 col-sm-6 col-md-2">

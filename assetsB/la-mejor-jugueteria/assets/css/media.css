@@ -120,14 +120,6 @@
     #slider>div.owl-controls.clickable {
         display: none!important;
     }
-    .mediaItemImage {
-        /*			height:300px;*/
-    }
-    .btn-rosa {
-        height: 40px;
-        font-size: 1em;
-        line-height: 15px;
-    }
     .itemPlp figcaption {
         font-size: 12px;
         text-align: left;
@@ -135,7 +127,7 @@
     .gridPlp .itemPlp {
         width: 45%;
         margin-bottom: 0px;
-        margin: 0 10px 20px 0;
+        margin: 0 10px 50px 0;
     }
     .itemPlp figcaption {
         font-size: 1.2em;

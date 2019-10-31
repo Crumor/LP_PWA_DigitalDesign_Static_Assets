@@ -208,8 +208,10 @@
     /*CSS Detalle producto*/
     /*CSS Escribe tu carta*/
     .texto-carta-titulo {
-        width: 125%;
-        left: 0 !important;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        z-index: 20;
     }
     .label-carta {
         font-size: 1.1em;
