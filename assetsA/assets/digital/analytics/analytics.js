@@ -1005,6 +1005,158 @@ dataLayer.push({
 
 
 
+                
+/*PRIMER NIVEL OTRAS CATEGORÍAS*/ 
+
+            break;
+            case '/tienda/otras-categorias/catst16656479':
+ dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'automotriz_301019',
+'name': 'OC Automotriz',
+'creative': 'blp_oc_automotriz',
+'position': '01'
+},
+{
+'id': 'motodeportiva_301019',
+'name': 'OC Moto Deportiva',
+'creative': 'blp_oc_deportiva',
+'position': '02'
+},
+{
+'id': 'motourbana_301019',
+'name': 'OC Moto Urbana',
+'creative': 'blp_oc_urbana',
+'position': '03'
+},
+{
+'id': 'chopper_301019',
+'name': 'OC Moto Chopper',
+'creative': 'blp_oc_chopper',
+'position': '04'
+},
+{
+'id': 'multi_301019',
+'name': 'OC Moto Multi',
+'creative': 'blp_oc_multi',
+'position': '05'
+},
+{
+'id': 'proteinas_301019',
+'name': 'OC Proteinas',
+'creative': 'blp_oc_proteinas',
+'position': '06'
+},
+{
+'id': 'superfoood_301019',
+'name': 'OC SuperFood',
+'creative': 'blp_oc_superfood',
+'position': '07'
+},
+{
+'id': 'personalcare_301019',
+'name': 'OC Personal',
+'creative': 'blp_oc_personal',
+'position': '08'
+},
+{
+'id': 'yoga_301019',
+'name': 'OC Yoga',
+'creative': 'blp_oc_yoga',
+'position': '09'
+},
+{
+'id': 'WellnessTodo_301019',
+'name': 'OC Wellness Todo',
+'creative': 'blp_oc_wellnesstodo',
+'position': '10'
+},
+{
+'id': 'electricas_301019',
+'name': 'OC Electricas',
+'creative': 'blp_oc_electricas',
+'position': '11'
+},
+{
+'id': 'manuales_301019',
+'name': 'OC Manuales',
+'creative': 'blp_oc_manuales',
+'position': '12'
+},
+{
+'id': 'hidrolavadoras_301019',
+'name': 'OC Hidrolavadoras',
+'creative': 'blp_oc_hidrolavadoras',
+'position': '13'
+},
+{
+'id': 'aspiradoras_301019',
+'name': 'OC Aspiradoras',
+'creative': 'blp_oc_aspiradoras',
+'position': '14'
+},
+{
+'id': 'TodoFerreteria_301019',
+'name': 'OC Todo Ferreteria',
+'creative': 'blp_oc_Ferreteria',
+'position': '15'
+},
+{
+'id': 'alimentos_301019',
+'name': 'OC Alimentos',
+'creative': 'blp_oc_alimentos',
+'position': '16'
+},
+{
+'id': 'platos_301019',
+'name': 'OC Platos',
+'creative': 'blp_oc_platos',
+'position': '17'
+},
+{
+'id': 'estetica_301019',
+'name': 'OC Estetica',
+'creative': 'blp_oc_estetica',
+'position': '18'
+},
+{
+'id': 'juguetes_301019',
+'name': 'OC Juguetes',
+'creative': 'blp_oc_juguetes',
+'position': '19'
+},
+{
+'id': 'salud_301019',
+'name': 'OC Salud',
+'creative': 'blp_oc_salud',
+'position': '20'
+},
+{
+'id': 'higiene_301019',
+'name': 'OC Higiene',
+'creative': 'blp_oc_higiene',
+'position': '21'
+},
+{
+'id': 'TodoMascota_301019',
+'name': 'OC Todo Mascota',
+'creative': 'blp_oc_todomascota',
+'position': '22'
+}
+]
+}
+}
+});
+
+                
+                
+                
+                
+                
 
 
 /*PRIMER NIVEL VIDEOJUEGOS*/ 

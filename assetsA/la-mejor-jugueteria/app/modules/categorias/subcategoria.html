@@ -21,19 +21,19 @@
     <div class="row rowContentMobile">
         <div class="col-md-12 col-sm-12 col-xs-12 p-r-0 p-l-0">
             <ul class="gridPlp">
-                <li class="itemPlp"  ng-repeat="iCategory in subcategorias">
+                <li class="itemPlp" ng-repeat="iCategory in subcategorias">
                     <figure class="itemFigure">
-                        <a href="#/detalle/{{iCategory.id}}" >
-                            <img  lazy-src="{{iCategory.imageBg}}" lazy-load/>
+                        <a href="#/detalle/{{iCategory.id}}">
+                            <img lazy-src="{{iCategory.imageBg}}" lazy-load/>
                             <p class="loader_generic"></p>
                             <figcaption>{{iCategory.description}}</figcaption>
                         </a>
                     </figure>
 
-                    <div class="addToy hidden-xs hidden-sm">
+                    <div class="addToy">
                         <agregar-pedidos producto="iCategory"></agregar-pedidos>
                     </div>
-                    <agregar-pedidos producto="iCategory" class="hidden-lg"></agregar-pedidos>
+
                 </li>
             </ul>
         </div>
@@ -41,17 +41,17 @@
     <div class="row" ng-show="loaded">
         <div class="col-md-12 col-xs-12">
             <div style="position:relative;margin:0 auto; width:187px;">
-                <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif"/>
+                <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif" />
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 pleca-micarta hidden-xs">
-             <i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
+            <i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
             <button type="button" class="btn-ir-micarta" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
         <div class="col-md-12 pleca-micarta-mobil hidden-lg hidden-sm">
-             <div><i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
+            <div><i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
             <button type="button" class="btn-ir-micarta-mobil" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
     </div>

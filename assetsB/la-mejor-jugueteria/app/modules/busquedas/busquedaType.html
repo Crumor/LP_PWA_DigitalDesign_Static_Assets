@@ -10,68 +10,68 @@
             <back-history></back-history>
         </div>
     </div>
-        <div class="row" >
-                <div class="col-md-12 col-xs-12 main-title-searchresult">
-                    <div class="col-md-12 col-xs-12 col-sm-12" style="padding-right:0px;">
-                        <div style="position:relative; float:left;">
-                            <img src="assets/images/paginabusqueda.svg" class="img-responsive">
-                        </div>
-                        <!--<img src="assets/images/paginabusqueda.svg" class="img-responsive hidden-xs" style="display: inline-block;">-->
-                        <div class="tituloResultadoPdp">
-                            <span class="icon-liv-zoom-13" style="color:#e62c9a;"></span>Tu búsqueda <span style="color:#000;">"{{word}}"</span > <span ng-hide="loaded">arrojó</span>
-                            <span ng-hide="loaded" style="color:#000;">"{{total}}"</span>
-                            <span ng-hide="loaded">resultados</span>
-                        </div>
-                    </div>
-
-
-                        <div class="col-md-12 col-xs-12 col-sm-12 " style="font-size:.7em;padding-left:35px;padding-top:15px;" ng-hide="totalAux ===-1 || totalAux > 0">
-                                <p class="mensaje-no-resultados">Prueba con otro nombre de búsqueda o explora por categoría o marca</p>
-                        </div>
-                        <div class="col-md-3 margin-b-carta-btn" style="padding-left:35px;"  ng-hide="totalAux ===-1 || totalAux > 0">
-                                <button type="button" style="font-size:.9em;" class="btn-rosa" onClick="javascript:location.href='#/'">Regresar al inicio</button>
-                        </div>
+    <div class="row">
+        <div class="col-md-12 col-xs-12 main-title-searchresult">
+            <div class="col-md-12 col-xs-12 col-sm-12" style="padding-right:0px;">
+                <div style="position:relative; float:left;">
+                    <img src="assets/images/paginabusqueda.svg" class="img-responsive">
                 </div>
-        </div>
-        <div class="row" style="margin-right:-15px; margin-bottom:30px;">
-            <ul class="gridPlp">
-                <li class="itemPlp resultSearch" ng-repeat="res in resultadosBusqueda">
-                    <figure class="itemFigure">
-                        <a href="#/detalle/{{res.id}}">
-                            <img  lazy-src="{{res.imageBg}}" lazy-load/>
-                            <p class="loader_generic"></p>
-                            <figcaption>{{res.description}}</figcaption>
-                        </a>
-                    </figure>
+                <!--<img src="assets/images/paginabusqueda.svg" class="img-responsive hidden-xs" style="display: inline-block;">-->
+                <div class="tituloResultadoPdp">
+                    <span class="icon-liv-zoom-13" style="color:#e62c9a;"></span>Tu búsqueda <span style="color:#000;">"{{word}}"</span > <span ng-hide="loaded">arrojó</span>
+                    <span ng-hide="loaded" style="color:#000;">"{{total}}"</span>
+                    <span ng-hide="loaded">resultados</span>
+                </div>
+            </div>
 
-                    <p class="addToy hidden-xs hidden-sm">
-                        <agregar-pedidos producto="res"></agregar-pedidos>
-                    </p>
-                    <agregar-pedidos producto="res" class="hidden-lg"></agregar-pedidos>
-                </li>
-            </ul>
-        </div>
-        <div class="row" ng-show="seeMore">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <p class="text-center">
-                    <a href ng-click="nextPage()" class="ver-mas">Ver más</a>
-                </p>
+
+            <div class="col-md-12 col-xs-12 col-sm-12 " style="font-size:.7em;padding-left:35px;padding-top:15px;" ng-hide="totalAux ===-1 || totalAux > 0">
+                <p class="mensaje-no-resultados">Prueba con otro nombre de búsqueda o explora por categoría o marca</p>
+            </div>
+            <div class="col-md-3 margin-b-carta-btn" style="padding-left:35px;" ng-hide="totalAux ===-1 || totalAux > 0">
+                <button type="button" style="font-size:.9em;" class="btn-rosa" onClick="javascript:location.href='#/'">Regresar al inicio</button>
             </div>
         </div>
-        <div class="row" ng-show="loaded">
-                <div class="col-md-12 col-xs-12">
-                    <div style="position:relative;margin:-3em auto 0 auto; width:187px;">
-                        <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif"/>
-                    </div>
-                </div>
+    </div>
+    <div class="row" style="margin-right:-15px; margin-bottom:30px;">
+        <ul class="gridPlp">
+            <li class="itemPlp resultSearch" ng-repeat="res in resultadosBusqueda">
+                <figure class="itemFigure">
+                    <a href="#/detalle/{{res.id}}">
+                        <img lazy-src="{{res.imageBg}}" lazy-load/>
+                        <p class="loader_generic"></p>
+                        <figcaption>{{res.description}}</figcaption>
+                    </a>
+                </figure>
+
+                <p class="addToy hidden-xs hidden-sm">
+                    <agregar-pedidos producto="res"></agregar-pedidos>
+                </p>
+                <agregar-pedidos producto="res" class="hidden-lg"></agregar-pedidos>
+            </li>
+        </ul>
+    </div>
+    <div class="row" ng-show="seeMore">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <p class="text-center">
+                <a href ng-click="nextPage()" class="ver-mas">Ver más</a>
+            </p>
         </div>
+    </div>
+    <div class="row" ng-show="loaded">
+        <div class="col-md-12 col-xs-12">
+            <div style="position:relative;margin:-3em auto 0 auto; width:187px;">
+                <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif" />
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-12 pleca-micarta hidden-xs">
-             <i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
+            <i>¡Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
             <button type="button" class="btn-ir-micarta" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
         <div class="col-md-12 pleca-micarta-mobil hidden-lg hidden-sm">
-             <div><i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
+            <div><i>¡Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
             <button type="button" class="btn-ir-micarta-mobil" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
     </div>

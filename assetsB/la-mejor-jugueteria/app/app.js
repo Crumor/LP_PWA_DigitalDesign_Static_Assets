@@ -202,7 +202,6 @@
                     color2: "none",
                     color3: "#FC3491",
                     fondo: "#f6cfe4",
-
                     label: "disney collection"
                 },
                 {
@@ -350,7 +349,7 @@
                     "color2": "none",
                     "color3": "#9ABDCA",
                     fondo: "#f6cfe4",
-                    label: "montables"
+                    label: "Transformers"
                 },
                 {
                     color1: "#97F34E",
@@ -390,7 +389,7 @@
                     color3: "#FC3491",
                     fondo: "#f6cfe4",
                     label: "frozen II"
-                }   
+                }
             ];
             var index = -1;
             var label = {
@@ -423,19 +422,19 @@
 (function(){
 	angular.module('carta',[]).controller( "cartaController", cartaController )
 	.controller( "cartaControllerFelicidades", cartaControllerFelicidades );
-	
+
 	function cartaController($rootScope, $scope, serviceStorePedidos,$location ){
-		
+
 		$scope.carta = {email:"",mensaje:"",nombre:""};
 		$scope.information = {
-			success: true, 
+			success: true,
 			data: {
 				color1:"#97F34E",
 				color2:"none",
 				color3:"#FC3491",
 				fondo:"#f6cfe4",
-				label:"Mi carta a santa"
-			}, 
+				label:"Mi carta a Santa"
+			},
 			code: 0
 		};
 		$scope.isActiveBtnEnviar = true;
@@ -454,7 +453,7 @@
 				if( response.code === -2 ) {
 					$("#modalEnvioMal").modal('show');
 					$scope.isActiveBtnEnviar = true;
-				}else 
+				}else
 					if( response.code ===-1 ) {
 						$("#modalEnvioMalFalta").modal('show');
 						$scope.isActiveBtnEnviar = true;
@@ -470,8 +469,8 @@
 			$(this).addClass("fa-heart")
 			})
 		};
-		$scope.microfono=function(id){ 
-		 
+		$scope.microfono=function(id){
+
 			if (window.hasOwnProperty('webkitSpeechRecognition')) {
 
 					var recognition = new webkitSpeechRecognition();
@@ -497,13 +496,13 @@
 					}
 				}
 		};
-			$('#mic').click( function() { 
+			$('#mic').click( function() {
 				$(this).css('background',"url('assets/images/micro/animated.gif')");
 			})
-			$('#mic2').click( function() { 
+			$('#mic2').click( function() {
 				$(this).css('background',"url('assets/images/micro/animated.gif')");
 			})
-			$('#mic3').click( function() { 
+			$('#mic3').click( function() {
 				$(this).css('background',"url('assets/images/micro/animated.gif')");
 			})
 			$("input#transcript1").click(function () {
@@ -520,17 +519,18 @@
 	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
 		var  pedidos = serviceStorePedidos.getPedidos();
 		if(pedidos.length <= 0){
-			$location.path("/")
+			$location.path("/indexqa.html")
 		}else{
 		   	$rootScope.cartaExito = false;
 			serviceStorePedidos.deleteAllPedidos();
 			 	$scope.regresar=function(){
-			 		$location.path("/");
+			 		$location.path("/indexqa.html");
 			 	}
 		 }
 	}
 
 })();
+
 (function(){
     angular.module('categorias',[]).controller( "categoriasController", categoriaController ).
     controller( "subCategoriaController", subCategoriaController );
@@ -1037,7 +1037,7 @@
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                              $http({url: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/typeahead?search-string="+word})
+                              $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})
                                     .then(function(data) {
                                         var contents = data.data;
                                             if (word !== "") {
@@ -1845,7 +1845,6 @@
 
                 if(screenDeviceMobile){
                   $(elem).show();
-                  var toplimit = 0;
                 }else{
                   var toplimit = 320;
                 }
@@ -1854,14 +1853,14 @@
                 locat = $location.path();
 
                 if (locat.indexOf("detal") > -1) {
-                    toplimit = 0;
+                  //  toplimit = 0;
                     $(elem).show();
                 }
                 $rootScope.$on('$locationChangeSuccess', function(event, next, current) {
                     $(elem).show();
                     locat = $location.path();
                     if (locat.indexOf("detal") > -1) {
-                        toplimit = 0;
+                      //  toplimit = 0;
                         $(elem).show();
                     }else if(locat.indexOf("micarta") > -1){
                        isShow = false;
@@ -1871,7 +1870,7 @@
                 locat = $location.path();
 
                 if (locat.indexOf("detal") > -1) {
-                    toplimit = 0;
+                  //  toplimit = 0;
                     $(elem).show();
                 }
                 win.scroll(function() {
@@ -2033,9 +2032,7 @@
                     $("#vehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':65});
                     $("#videojuegos").AnimationSvg({'spriteWidth':800,'spriteHeight':100,steps:8,'areaWidth':65});
                     $("#micarta").AnimationSvg({'spriteWidth':680,'spriteHeight':99,steps:7,'areaWidth':150});
-                    $("#micartaMobile").AnimationSvg({'spriteWidth':680,'spriteHeight':98,steps:7,'areaWidth':140});
-
-
+                    //$("#micartaMobile").AnimationSvg({'spriteWidth':670,'spriteHeight':98,steps:7,'areaWidth':150});
                 }
 
                 serviceProducto.getCategorias(function(data){
@@ -2079,9 +2076,10 @@
                         resizeEtiqueta( old );
                 });
                 function resizeEtiqueta(data,_width){
+
                     windowsWidth = $( window ).width();
                     var _data = data.data;
-                    var label =  $scope.label === undefined || $scope.label ==="" ? _data.label:$scope.label;
+                    var label =  ($scope.label === undefined || $scope.label === "") ? _data.label : _data.label;
                     $(".etiqueta > .texto").html(label);
                     var width = $(".etiqueta > .texto").outerWidth();
                     var height =25+$(".etiqueta > .texto").outerHeight();
@@ -2089,13 +2087,18 @@
                         $(".etiqueta > .texto").css("font-size","1em");
                         width = $(".etiqueta > .texto").outerWidth();
 
-                        if( width >=380 || width >= 280 || width > 355){/*in case of text is biger that device*/
+                        if( width >=380 || width >= 280 ){/*in case of text is biger that device*/
                             $(".etiqueta > .texto").css("top","20px");
                             width = 240;
                             $(".etiqueta > .texto").css("width",width+"px");
                             height =25+$(".etiqueta > .texto").outerHeight();
                         }else{
-                            height +=15;
+                              if("Construcción y Armables" === data.data.label){
+                                  height +=25;
+                              }else {
+                                height +=1;
+                              }
+
                         }
                     }
                     if( windowsWidth <= 1024 ){
@@ -2112,11 +2115,14 @@
                     width = 50+width;
                     $scope.bannerWidth =  width;
                     $scope.label = label;
-                    $scope.fondo = $scope.fondo ===undefined || $scope.fondo === "" ? _data.fondo:$scope.fondo;
-                    $("#svgetiqueta").attr("width",(width + 30) );
-                    $("#svgpoligon1").attr({"stroke":_data.color1,"points":"4,2 28,"+(height+15)+" "+(width-15)+","+(height+5)+" "+( width + 10 )+",16"});
-                    $("#svgpoligon2").attr({"fill":_data.color2,"points":"4,3 28,108 189,97 212,17"});
-                    $("#svgpoligon3").attr({"fill":_data.color3,"points":width+",94 "+width+",21.5 12,9 16,"+(height+8)+" "+width+","+height});
+                    $scope.fondo = ($scope.fondo ===undefined || $scope.fondo === "") ?  $scope.fondo : '';
+
+                    $("#svgetiqueta").attr("width",(width + 30));
+                    if(_data != undefined){
+                      $("#svgpoligon1").attr({"stroke":_data.color1,"points":"4,2 28,"+(height+15)+" "+(width-15)+","+(height+5)+" "+( width + 10 )+",16"});
+                      $("#svgpoligon2").attr({"fill": _data.color2,"points":"4,3 28,108 189,97 212,17"});
+                      $("#svgpoligon3").attr({"fill": _data.color3,"points":width+",94 "+width+",21.5 12,9 16,"+(height+8)+" "+width+","+height});
+                    }
                 };
                 $( window ).resize(function() {
                     $scope.dimension = $( window ).width();
@@ -2166,9 +2172,38 @@
                     return scope.image={"background-image":"url('"+urlImage+"')"};
                 }
 
+                scope.closeMenu = function(){
+                  $('#menu-categorias-mobile-content').fadeOut(0);
+                }
+
                 scope.irA = function(direccion){
+                  if("exteriores" === direccion || "drones" === direccion || "coleccionables" === direccion || "peluches" === direccion){
+                      switch (direccion) {
+                        case "exteriores":
+                          $location.path("/subcategoria/exteriores/catst1896485");
+                          $('#menu-categorias-mobile-content').fadeOut(0);
+                          break;
+                          case "drones":
+                            $location.path("/subcategoria/drones/catst1833807");
+                            $('#menu-categorias-mobile-content').fadeOut(0);
+                            break;
+                            case "coleccionables":
+                              $location.path("/subcategoria/coleccionables/catst1833811");
+                              $('#menu-categorias-mobile-content').fadeOut(0);
+                              break;
+                              case "peluches":
+                                $location.path("/subcategoria/peluches/catst1833808");
+                                $('#menu-categorias-mobile-content').fadeOut(0);
+                                break;
+                        default:
+
+                      }
+
+                  }else{
                     $location.path("/categoria/"+direccion);
                     $('#menu-categorias-mobile-content').fadeOut(0);
+                  }
+
                 };
                    scope.tutoClick = function(){
                         $('#menu-categorias-mobile-content').fadeOut(0);
@@ -2224,6 +2259,9 @@
                  scope.irDetalle =function(id){
                     $location.path("/detalle/"+id);
                  }
+                                                 scope.getLG= function(image){
+                                    return image.replace('XL','LG');
+                                }
                 var render = function(){
                     var items = [];
                     var content = "";
@@ -2231,9 +2269,7 @@
                     if( scope.typeOwl === "4" ){
                             items = scope.elements || [];
                                 scope.itemsD = items;
-                                scope.getLG= function(image){
-                                    return image.replace('XL','LG');
-                                }
+
                                     scope.$watchCollection("itemsD",function(){
                                         owl.owlCarousel({
                                             items : scope.items === undefined ? 4: scope.items,
@@ -2254,6 +2290,7 @@
                                 serviceProducto.getTop10( function( data ){
                                     items = data.toys || [];
                                     scope.itemsD = items;
+                               
                                     scope.$watchCollection("itemsD",function(){
                                         owl.owlCarousel({
                                             items : scope.items === undefined ? 5: scope.items,
