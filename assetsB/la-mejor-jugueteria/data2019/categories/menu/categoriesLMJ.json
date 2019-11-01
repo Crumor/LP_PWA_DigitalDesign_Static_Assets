@@ -1,103 +1,101 @@
-
 {
-  "categories": {
-    "category": [
-      {
-        "categoryid": "subCategories",
-        "label": "Niñas",
-        "picture": "./assets/images/menu-categorias/ninas_800.svg",
-        "navigationState": "/juguetes-de-niño/N-2hqi?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/ninas.json",
-		"color":"#f3d55b"
-      },
-      {
-        "categoryid": "niños",
-        "label": "Niños",
-        "picture": "./assets/images/menu-categorias/ninos_960.svg",
-        "navigationState": "/juguetes-de-niña/N-2hqw?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/ninos.json",
-		"color":"#a4bfce"
-      },
-	  {
-        "categoryid": "construccion-y-armables",
-        "label": "Construcción y Armables",
-        "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
-        "navigationState": "/juegos-de-mesa/N-2ho9?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/construccionyarmable.json",
-		"color":"#f89338"
-      },
-      {
-        "categoryid": "bebés",
-        "label": "Bebés",
-        "picture": "./assets/images/menu-categorias/bebes_700.svg",
-        "navigationState": "/didácticos/cat170936?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/bebes.json",
-		"color":"#00bea5"
-      },
-      {
-        "categoryid": "vehículos",
-        "label": "Vehículos",
-        "picture": "./assets/images/menu-categorias/montable_800.svg",
-        "navigationState": "/personajes-figuras-de-acción/N-2kkg?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/vehiculos.json",
-		"color":"#df4d60"
-      },
-	 {
-        "categoryid": "exteriores",
-        "label": "Exteriores",
-        "picture": "./assets/images/menu-categorias/exteriores_800.svg",
-        "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/exteriores.json",
-		    "color":"#ffb44b"
-      },
-      {
-        "categoryid": "catst1833807",
-        "label": "Radio Control",
-        "picture": "./assets/images/menu-categorias/drones_800.svg",
-        "navigationState": "/electrónicos-radio-control/N-2ho4?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2017/categories/secondLevel/radiocontrol.json",
-		"color":"#00cfff"
-      },
-	   {
-        "categoryid": "juegos-de-mesa",
-        "label": "Juegos de mesa",
-        "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
-        "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/juegosmesaymanualidades.json",
-		"color":"#fae8b1"
-      },
-	  {
-        "categoryid": "catst1833811",
-        "label": "Coleccionables",
-        "picture": "./assets/images/menu-categorias/coleccionables_800.svg",
-        "navigationState": "?s=xbox&d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2017/categories/secondLevel/coleccionables.json",
-		"color":"#eceff1"
-      },
-      {
-        "categoryid": "catst1833808",
-        "label": "Peluches",
-        "picture": "./assets/images/menu-categorias/peluches_800.svg",
-        "navigationState": "/juguetes-al-aire-libre/N-2hok?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2017/categories/secondLevel/peluches.json",
-		"color":"#f3d55b"
-      },
-      {
-        "categoryid": "disfraces",
-        "label": "Disfraces",
-        "picture": "./assets/images/menu-categorias/disfraces_800.svg",
-        "navigationState": "/ps3/cat1020687?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/Disfraces.json",
-		"color":"#e8887c"
-      },
-      {
-        "categoryid": "videojuegos",
-        "label": "Videojuegos",
-        "picture": "./assets/images/menu-categorias/videojuegos_800.svg",
-        "navigationState": "/videojuegos/catst1578010?d3106047a194921c01969dfdec083925=json",
-        "subCategories": "./data2019/categories/secondLevel/videojuegos.json",
-		"color":"#84787e"
-      }
-    ]
-  }
+    "categories": {
+        "category": [{
+                "categoryid": "subCategories",
+                "label": "Niñas",
+                "picture": "./assets/images/menu-categorias/ninas_800.svg",
+                "navigationState": "/juguetes-de-niño/N-2hqi?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/ninas.json",
+                "color": "#f3d55b"
+            },
+            {
+                "categoryid": "niños",
+                "label": "Niños",
+                "picture": "./assets/images/menu-categorias/ninos_960.svg",
+                "navigationState": "/juguetes-de-niña/N-2hqw?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/ninos.json",
+                "color": "#a4bfce"
+            },
+            {
+                "categoryid": "construccion-y-armables",
+                "label": "Construcción y Armables",
+                "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
+                "navigationState": "/juegos-de-mesa/N-2ho9?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/construccionyarmable.json",
+                "color": "#f89338"
+            },
+            {
+                "categoryid": "bebés",
+                "label": "Bebés",
+                "picture": "./assets/images/menu-categorias/bebes_700.svg",
+                "navigationState": "/didácticos/cat170936?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/bebes.json",
+                "color": "#00bea5"
+            },
+            {
+                "categoryid": "vehículos",
+                "label": "Vehículos",
+                "picture": "./assets/images/menu-categorias/montable_800.svg",
+                "navigationState": "/personajes-figuras-de-acción/N-2kkg?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/vehiculos.json",
+                "color": "#df4d60"
+            },
+            {
+                "categoryid": "exteriores",
+                "label": "Exteriores",
+                "picture": "./assets/images/menu-categorias/exteriores_800.svg",
+                "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/exteriores.json",
+                "color": "#ffb44b"
+            },
+            {
+                "categoryid": "drones",
+                "label": "Radio Control",
+                "picture": "./assets/images/menu-categorias/drones_800.svg",
+                "navigationState": "/electrónicos-radio-control/N-2ho4?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/radiocontrol.json",
+                "color": "#00cfff"
+            },
+            {
+                "categoryid": "juegos-de-mesa",
+                "label": "Juegos de mesa",
+                "picture": "./assets/images/menu-categorias/juegosdemesa_800.svg",
+                "navigationState": "/ps4/cat21090008?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/juegosmesaymanualidades.json",
+                "color": "#fae8b1"
+            },
+            {
+                "categoryid": "coleccionables",
+                "label": "Coleccionables",
+                "picture": "./assets/images/menu-categorias/coleccionables_800.svg",
+                "navigationState": "?s=xbox&d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/coleccionables.json",
+                "color": "#eceff1"
+            },
+            {
+                "categoryid": "peluches",
+                "label": "Peluches",
+                "picture": "./assets/images/menu-categorias/peluches_800.svg",
+                "navigationState": "/juguetes-al-aire-libre/N-2hok?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/peluches.json",
+                "color": "#f3d55b"
+            },
+            {
+                "categoryid": "disfraces",
+                "label": "Disfraces",
+                "picture": "./assets/images/menu-categorias/disfraces_800.svg",
+                "navigationState": "/ps3/cat1020687?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/Disfraces.json",
+                "color": "#e8887c"
+            },
+            {
+                "categoryid": "videojuegos",
+                "label": "Videojuegos",
+                "picture": "./assets/images/menu-categorias/videojuegos_800.svg",
+                "navigationState": "/videojuegos/catst1578010?d3106047a194921c01969dfdec083925=json",
+                "subCategories": "./data2019/categories/secondLevel/videojuegos.json",
+                "color": "#84787e"
+            }
+        ]
+    }
 }

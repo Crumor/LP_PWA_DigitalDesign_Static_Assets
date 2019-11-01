@@ -1,108 +1,101 @@
-
 <div ng-include="'app/components/menuCategorias/plecasMenu.html'">
 </div>
 <div class="container">
 
-<div class="ng-scope">
-  <div class="row">
-  	<div class="col-md-12">
-		<div class="back">
-			<a href="#/" style="color: #495462">
-				<span class="icon-regresar" style="font-size: 2em;vertical-align: middle;"> </span>
-				Regresar
-		   </a>
-		</div>
-	</div>
-	<div class="col-md-1 col-lg-1">
-	</div>
-	<div class="col-md-10 col-lg-10 bodyFiguras">
-		<div class="row">
-					<div class="texto-carta-titulo">
-						                <etiqueta-categoria information="information" label="Mi carta a Santa Claus" width="dimension"></etiqueta-categoria>
-					</div>
-		</div>
-			  <div class="row" >
-				  <div class="col-md-8 col-sm-10 bodyCarta">
-
-
-					<div style="font-size:1.1em;margin-top:10px; color:#e10098; text-align:center;" ng-hide="isActiveBtnEnviar">
-							Estamos enviado tu carta a Santa Claus, espera un momento.
-							</div>
-<div ng-show="isActiveBtnEnviar">
-					<form id="labnol" method="get" >
-						<div class="form-group" >
-							<label for="nombrekid" class="label-carta">
+    <div class="ng-scope">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="back">
+                    <a href="#/" style="color: #495462">
+                        <span class="icon-regresar" style="font-size: 2em;vertical-align: middle;"> </span> Regresar
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-1 col-lg-1">
+            </div>
+            <div class="col-md-10 col-lg-10 bodyFiguras">
+                <div class="row">
+                    <div class="texto-carta-titulo">
+                        <etiqueta-categoria information="information" label="Mi carta a Santa Claus" width="dimension"></etiqueta-categoria>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-10 bodyCarta">
+                        <div style="font-size:1.1em;margin-top:10px; color:#e10098; text-align:center;" ng-hide="isActiveBtnEnviar">
+                            Estamos enviado tu carta a Santa Claus, espera un momento.
+                        </div>
+                        <div ng-show="isActiveBtnEnviar">
+                            <form id="labnol" method="get">
+                                <div class="form-group">
+                                    <label for="nombrekid" class="label-carta">
 							¿Cómo te llamas?
 							</label>
-							<input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="custom-form" name="q" id="transcript1" ng-model="carta.nombre" placeholder="Escribe tu nombre">
+                                    <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="custom-form" name="q" id="transcript1" ng-model="carta.nombre" placeholder="Escribe tu nombre">
 
-							<div ng-click="microfono('transcript1')"  id="mic" tabindex="0" aria-label="Search by voice"></div>
+                                    <div ng-click="microfono('transcript1')" id="mic" tabindex="0" aria-label="Search by voice"></div>
 
-							<audio src="assets/audio/nombre.ogg" id="audioNombre" style="display: none">
+                                    <audio src="assets/audio/nombre.ogg" id="audioNombre" style="display: none">
 								<p>Tu navegador implementa el elemento audio</p>
 							</audio>
-						</div>
+                                </div>
 
-						<div class="form-group" >
-							<label for="emailpapamama" class="label-carta">
+                                <div class="form-group">
+                                    <label for="emailpapamama" class="label-carta">
 							¿Cuál es el correo de tu papá o mamá?
 							</label>
-							<input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="custom-form" name="q" id="transcript2" ng-model="carta.email" placeholder="Escribe el email de tu papá o mamá">
-							<audio src="assets/audio/mail.ogg" id="audioMail" style="display: none">
+                                    <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="custom-form" name="q" id="transcript2" ng-model="carta.email" placeholder="Escribe el email de tu papá o mamá">
+                                    <audio src="assets/audio/mail.ogg" id="audioMail" style="display: none">
 								<p>Tu navegador implementa el elemento audio</p>
 							</audio>
-						</div>
+                                </div>
 
 
-						<div class="form-group"  >
-						<label class="label-carta">Mensaje a Santa Claus</label>
-							<textarea rows="10" cols="50"  name="q" id="transcript3" class="custom-form" ng-model="carta.mensaje" rows="6" style="height:auto;" placeholder="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería">
+                                <div class="form-group">
+                                    <label class="label-carta">Mensaje a Santa Claus</label>
+                                    <textarea rows="10" cols="50" name="q" id="transcript3" class="custom-form" ng-model="carta.mensaje" rows="6" style="height:auto;" placeholder="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería">
 							</textarea>
-							<div ng-click="microfono('transcript3')"  id="mic3" tabindex="0" aria-label="Search by voice"></div>
+                                    <div ng-click="microfono('transcript3')" id="mic3" tabindex="0" aria-label="Search by voice"></div>
 
-							<audio src="assets/audio/santa.ogg" id="audioSanta" >
+                                    <audio src="assets/audio/santa.ogg" id="audioSanta">
 								<p>Tu navegador implementa el elemento audio</p>
 							</audio>
-						</div>
-					</form>
+                                </div>
+                            </form>
 
-					<div class="row " style="margin-top: 10%">
-							<div class="col-md-3 col-xs-6">
-								<p class="texto-carta-tusregalos" >Tus regalos</p>
-							</div>
-							<div class="col-md-6 col-xs-6" style="text-align: right;">
-								<i style="display: none" class="fa fa-heart baby" aria-hidden="true"></i>
-								<p class="marcaFav" style="display: none">Marca con el corazón tu regalo favorito</p>
-							</div>
-							<div class="col-md-3 col-xs-6" style="padding: 0">
-								<button type="button" class="btn-agregar" onClick="javascript:location.href='#/'">Agregar más juguetes</button>
-							</div>
-					</div>
-						<div class="row" style="border: 2px solid #e10098">
-							<div class="col-md-2 col-xs-6" ng-repeat="p in pedidos() track by $index" >
-								<div class="myGifts">
+                            <div class="row " style="margin-top: 10%">
+                                <div class="col-md-6 col-xs-6">
+                                    <p class="texto-carta-tusregalos">Tus regalos</p>
+                                </div>
 
-									<i style="display: none" class="fa fa-heart-o" ng-click="addFavoritos(p)" aria-hidden="true"></i>
-									<img ng-src="{{p.imageBg}}" style="width:100%;"/>
-									<div class="descriptionMicarta">
-										<p ng-bind="p.description"></p>
-									</div>
-									<button type="button" class="btn-eliminar" ng-click="eliminarPedido($index)">Eliminar</button>
-								</div>
-							</div>
-						</div>
-						<div class="row" style="text-align: center;">
-							<button ng-show="isActiveBtnEnviar" type="button" class="btn-rosa btn-enviar-carta hidden-xs" analytics-on="click" analytics-event="Envio-de-carta" analytics-label="exito"  ng-click="enviarPedido()">Enviar mi carta
+                                <div class="col-md-6 col-xs-6" style="padding: 0">
+                                    <button type="button" class="btn-agregar" onClick="javascript:location.href='#/'">Agregar más juguetes</button>
+                                </div>
+                            </div>
+                            <div class="row" style="border: 2px solid #e10098; padding:15px 0;">
+                                <div class="col-md-2 col-xs-6" ng-repeat="p in pedidos() track by $index">
+                                    <div class="myGifts">
+
+                                        <i style="display: none" class="fa fa-heart-o" ng-click="addFavoritos(p)" aria-hidden="true"></i>
+                                        <img ng-src="{{p.imageBg}}" style="width:100%;" />
+                                        <div class="descriptionMicarta">
+                                            <p ng-bind="p.description"></p>
+                                        </div>
+                                        <button type="button" class="btn-eliminar" ng-click="eliminarPedido($index)">Eliminar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="text-align: center;">
+                                <button ng-show="isActiveBtnEnviar" type="button" class="btn-rosa btn-enviar-carta hidden-xs" analytics-on="click" analytics-event="Envio-de-carta" analytics-label="exito" ng-click="enviarPedido()">Enviar mi carta
 							<i class="fa fa-angle-right" aria-hidden="true"></i>
 							</button>
-							<button ng-show="isActiveBtnEnviar" type="button" class="btn-rosa btn-enviar-carta hidden-lg hidden-md hidden-sm" analytics-on="click" analytics-event="Envio-de-carta" analytics-label="exito"  ng-click="enviarPedido()">Enviar carta<i class="fa fa-angle-right" aria-hidden="true"></i></button>
-						</div>
-				  </div>
-				 </div>
-			</div>
-	</div>
-	<div class="col-2 col-lg-2">
-	</div>
-  </div>
-</div>
+                                <button ng-show="isActiveBtnEnviar" type="button" class="btn-rosa btn-enviar-carta hidden-lg hidden-md hidden-sm" analytics-on="click" analytics-event="Envio-de-carta" analytics-label="exito" ng-click="enviarPedido()">Enviar carta<i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 col-lg-2">
+            </div>
+        </div>
+    </div>
 </div>
