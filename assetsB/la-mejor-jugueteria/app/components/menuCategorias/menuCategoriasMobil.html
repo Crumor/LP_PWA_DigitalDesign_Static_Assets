@@ -1,5 +1,12 @@
 <div class="menu-categorias-mobile hidden-lg hidden-md">
     <ul>
+        <li>
+          <a href ng-click="closeMenu()" ng-style="{'border-color':c.color}" value="Close">
+              <div class="imgMenu">
+                <img src="./assets/images/menu-categorias/close.svg"></img>
+              </div>
+          </a>
+        </li>
         <li ng-repeat="c in menuCategorias">
                 <a href ng-click="irA(c.categoryid)" analytics-on="click" title="{{c.label}}" ng-style="{'border-color':c.color}" analytics-event="MainMenu-{{c.label}}" value="{{c.label}}" ng-class="{'active':'/categoria/'+c.categoryid === rutaActual}">
                     <div class="imgMenu" ng-style="getBackground(c.picture)">
