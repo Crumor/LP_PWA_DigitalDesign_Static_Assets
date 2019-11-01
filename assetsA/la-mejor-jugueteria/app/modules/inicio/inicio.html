@@ -1,25 +1,14 @@
-<div class=" hidden-sm hidden-xs ">
+<div class="">
     <div id="container_principal">
-        <img src="assets/images/home/banner_home_01.png" class="img-responsive" width="100%" />
 
-        <div class="hidden-xs level7 plecaRecibidas">
-            <!--<p class="total" ng-bind="totalCartas"></p> -->
-            <!--<div>
-                <img src="assets/images/cartas_recibidas.svg" />
-            </div> -->
-        </div>
+        <picture>
+            <source media="(max-width: 992px)" srcset="assets/images/home/banner_home_01_mobile.png">
+            <source media="(max-width: 991px)" srcset="assets/images/home/banner_home_01.png">
+            <img src="assets/images/home/banner_home_01.png" alt="Banner" style="width:100%;">
+        </picture>
     </div>
 </div>
 
-
-<div class="hidden-lg">
-
-    <div class="bannerIpad">
-        <img src="assets/images/home/banner_home_01_mobile.png" class="img-responsive" width="100%" />
-        <div class="level7 plecaRecibidas ipad">
-        </div>
-    </div>
-</div>
 <div class="container-fluid hidden-xs hidden-sm superContentMenu">
     <menu-categorias id="id-menu-categorias" class="contentMenu"></menu-categorias>
 </div>
@@ -50,10 +39,10 @@
                         </figure>
                         <p class="productoTopDiez" ng-bind="item10.description"></p>
                     </div>
-                    <div class="addProductoTop10 hiden-sm  hidden-xs">
+                    <div class="addProductoTop10">
                         <agregar-pedidos producto="item10"></agregar-pedidos>
                     </div>
-                    <agregar-pedidos producto="item10" class="hidden-lg agregar-pedido-top10"></agregar-pedidos>
+                    <agregar-pedidos producto="item10" class="agregar-pedido-top10"></agregar-pedidos>
                 </div>
             </div>
         </div>
@@ -133,6 +122,14 @@
     </div>
     <div class="row">
         <div class="col-md-3 banners-mosaicos">
+            <div class="contentBannerMosaico" ng-click="irSeccion('/favoritos/montables')">
+                <figure>
+                    <img lazy-load lazy-class="efectZoom" lazy-src="assets/images/home/bn-secundario-8.jpg" class="img-responsive" />
+                    <p class="loader_generic"></p>
+                </figure>
+            </div>
+        </div>
+        <div class="col-md-3 banners-mosaicos">
             <div class="contentBannerMosaico" ng-click="irSeccion('/favoritos/Frozen II')">
                 <figure>
                     <img lazy-load lazy-class="efectZoom" lazy-src="assets/images/home/bn-secundario-5.jpg" class="img-responsive" />
@@ -141,38 +138,36 @@
             </div>
         </div>
         <div class="col-md-3 banners-mosaicos">
-            <div class="contentBannerMosaico" ng-click="irSeccion('/favoritos/feber')">
+
+            <div class="contentBannerMosaico" ng-click="irSeccion('/favoritos/jurassic world')">
                 <figure>
-                    <img lazy-load lazy-class="efectZoom" lazy-src="assets/images/home/06_bn_secundario.jpg" class="img-responsive" />
+                    <img lazy-load lazy-class="efectZoom" lazy-src="assets/images/home/bn-secundario-6.jpg" class="img-responsive" />
+
                     <p class="loader_generic"></p>
                 </figure>
             </div>
         </div>
         <div class="col-md-3 banners-mosaicos">
-            <div class="contentBannerMosaico" ng-click="irSeccion('/favoritos/hasbro')">
+            <div class="contentBannerMosaico" ng-click="irSeccion('/favoritos/barbie')">
                 <figure>
-                    <img lazy-load lazy-class="efectZoom" lazy-src="assets/images/home/07_bn_secundario.jpg" class="img-responsive" />
-                    <p class="loader_generic"></p>
-                </figure>
-            </div>
-        </div>
-        <div class="col-md-3 banners-mosaicos">
-            <div class="contentBannerMosaico" ng-click="irSeccion('/favoritos/disney collection')">
-                <figure>
-                    <img lazy-load lazy-class="efectZoom" lazy-src="assets/images/home/08_bn_secundario.jpg" class="img-responsive" />
+
+                    <img lazy-load lazy-class="efectZoom" lazy-src="assets/images/home/bn-secundario-7.jpg" class="img-responsive" />
                     <p class="loader_generic"></p>
                 </figure>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 hidden-sm hidden-xs banners-mosaicos" style="margin-top: 4.5%;">
+
+        <div class="col-md-12 banners-mosaicos" style="margin-top: 4.5%;">
             <a href="https://www.youtube.com/channel/UCL9rrG1FPZb3714IHa3v-PQ" target="_blank">
-                <img src="assets/images/desktop_youtube.png" style="width:100%;" /></a>
-        </div>
-        <div class="col-md-12 hidden-lg banners-mosaicos">
-            <a href="https://www.youtube.com/channel/UCL9rrG1FPZb3714IHa3v-PQ" target="_blank">
-                <img src="assets/images/mobile_youtube.png" />
+
+
+                <picture>
+                    <source media="(max-width: 992px)" srcset="assets/images/mobile_youtube.png">
+                    <source media="(max-width: 991px)" srcset="assets/images/desktop_youtube.png">
+                    <img src="assets/images/desktop_youtube.png" alt="Banner" style="width:100%;">
+                </picture>
             </a>
         </div>
 
@@ -187,7 +182,7 @@
 
             <p class="favoritosTitle">CATEGORÍAS FAVORITAS</p>
         </div>
-        <div class="row">
+        <div class="row" style="display: flex;flex-flow: wrap;">
 
 
             <div class="col-xs-6 col-sm-6 col-md-2">

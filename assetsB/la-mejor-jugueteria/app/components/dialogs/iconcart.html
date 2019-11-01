@@ -1,83 +1,83 @@
-
 <div>
     <a href="#/micarta">
-              <style>
-                .cls-1 {
-                  fill: #fffd45;
-                }
+        <style>
+            .cls-1 {
+                fill: #fffd45;
+            }
 
-                .cls-2 {
-                  fill: #cb226a;
-                }
+            .cls-2 {
+                fill: #cb226a;
+            }
 
-                .cls-3 {
-                  fill: #ff318e;
-                }
+            .cls-3 {
+                fill: #ff318e;
+            }
 
-                .cls-4 {
-                  fill: #f1f1f1;
-                }
+            .cls-4 {
+                fill: #f1f1f1;
+            }
 
-                .cls-5 {
-                  fill: #ff85bb;
-                }
+            .cls-5 {
+                fill: #ff85bb;
+            }
 
-                .cls-6 {
-                  isolation: isolate;
-                  font-size: 82.28px;
-                  fill: #666;
-                  color: white;
-                  font-family: Roboto-Bold, Roboto;
-                  font-weight: 700;
-                }
+            .cls-6 {
+                isolation: isolate;
+                font-size: 82.28px;
+                fill: #666;
+                color: white;
+                font-family: Roboto-Bold, Roboto;
+                font-weight: 700;
+            }
 
-                .container {
-                  position: relative;
-                }
+            .container {
+                position: relative;
+            }
 
-                .text-block {
-                  position: absolute;
-                  top: 41px;
-                  left: 45px;
-                  font-size: 50px;
-                  font-family: Roboto-Bold, Roboto;
-                  font-weight: 700;
-                  fill: #666;
-                  color: white;
-                  /*
+            .text-block {
+                position: absolute;
+                top: 41px;
+                left: 45px;
+                font-size: 50px;
+                font-family: Roboto-Bold, Roboto;
+                font-weight: 700;
+                fill: #666;
+                color: white;
+                /*
                   background-color: black;
                   padding-left: 20px;
                   padding-right: 20px;*/
-                }
-                .text-block-mobile {
-                  position: absolute;
-                  top: 48px;
-                  left: 29px;
-                  font-size: 50px;
-                  font-family: Roboto-Bold, Roboto;
-                  font-weight: 700;
-                  fill: #666;
-                  color: white;
-                  /*
+            }
+
+            .text-block-mobile {
+                position: absolute;
+                /*top: 48px;*/
+                left: 29px;
+                font-size: 50px;
+                font-family: Roboto-Bold, Roboto;
+                font-weight: 700;
+                fill: #666;
+                color: white;
+                /*
                   background-color: black;
                   padding-left: 20px;
                   padding-right: 20px;*/
-                }
+            }
+        </style>
+        <title>Mi carta</title>
+        <div class="container iconCarta">
+            <a href="#/micarta" id="micarta">
+                <text class="text-block" transform="translate(58.9 113.13)">{{cartas}}</text>
+                <div class="icono micarta"></div>
+            </a>
+        </div>
+        <div class="container iconCartaMobile">
+            <a href="#/micarta"  ng-click="hideIconCard()">
+                <text class="text-block-mobile">{{cartas}}</text>
+                <img style="width: 160px; height: 85px;" src="/assets/images/menu-categorias/carta_mobile_03.png"></img>
 
-
-              </style>
-            <title>Mi carta</title>
-            <div class="container hidden-xs hidden-sm">
-              <a  href="#/micarta" id="micarta" >
-                  <text class="text-block" transform="translate(58.9 113.13)" >{{cartas}}</text>
-                  <div class="icono micarta"></div>
-              </a>
-          </div>
-          <div class="container hidden-lg">
-              <a  href="#/micarta" id="micartaMobile" >
-                  <text class="text-block-mobile">{{cartas}}</text>
-                  <div class="icono micartaMobile"></div>
-              </a>
-          </div>
+                <div class="icono"></div>
+            </a>
+        </div>
     </a>
 </div>

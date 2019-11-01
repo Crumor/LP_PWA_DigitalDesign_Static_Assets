@@ -18,7 +18,7 @@
         "color1":"#94F0F3",
         "color2":"none",
         "color3":"#FFA200",
-        "label":"Construcción y Armables",
+        "label":"Construcción",
         "fondo":"#ff4d53"
     },
         "bebés":{
@@ -35,7 +35,7 @@
         "label":"Vehículos",
         "fondo":"#9af7ff"
     },
-        "catst1896485":{
+        "exteriores":{
         "color1":"#92E8DF",
         "color2":"none",
         "color3":"#FF4C60",
