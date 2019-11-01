@@ -90,7 +90,8 @@ function countDownBuenFin(){
             }
 }
 
-    function myOnloadFunction(pageName,path) {
+
+function myOnloadFunction(pageName,path) {
         showBlp();
         switch(pageName){
 
@@ -114,14 +115,14 @@ function countDownBuenFin(){
 		'position':'2'
 		},
 		{
-		'id':'linea_blanca_281019',
-       'name':'Línea Blanca hasta 47% de desc',
+		'id':'linea_blanca_011119',
+       'name':'Línea Blanca hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'3'
 		},
   {
-		'id':'cocina_281019',
-		'name':'Cocina hasta 25% de desc',
+		'id':'cocina_011119',
+		'name':'Cocina hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
@@ -139,42 +140,42 @@ function countDownBuenFin(){
 		},
 							{
 		'id':'pantallas_281019',
-		'name':'Pantallas hasta 25%de desc',
+		'name':'Pantallas hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'7'
 		},
 							{
-		'id':'videojuegos_281019',
+		'id':'videojuegos_011119',
 		'name':'Videojuegos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'8'
 		},
 												{
-		'id':'juguetes_281019',
-		'name':'Juguetes hasta 20% de desc',
+		'id':'juguetes_011119',
+		'name':'Juguetes hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'9'
 		},
 							{
-		'id':'ropa_deportiva_281019',
-		'name':'Ropa Deportiva hasta 25% de desc',
+		'id':'aparatos_ejercicio_011119',
+		'name':'Aparatos de Ejercicio hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'10'
 		},									{
-		'id':'chamarras_el_281019',
-		'name':'Chamarras Él hasta 15% de desc',
+		'id':'chamarras_el_011119',
+		'name':'Chamarras Él hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'11'
 		},
 							{
-		'id':'chamarras_ella_281019',
-		'name':'Chamarras Ella hasta 15% de desc',
+		'id':'chamarras_ella_011119',
+		'name':'Chamarras Ella hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},			
 							{
-		'id':'bebes_281019',
-		'name':'Bebés hasta 35% de desc',
+		'id':'bebes_011119',
+		'name':'Bebés hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'13'
 		},									{
@@ -184,8 +185,8 @@ function countDownBuenFin(){
        'position':'14'
 		},
 							{
-		'id':'zapatos_281019',
-		'name':'Zapatos hasta 15% de desc',
+		'id':'zapatos_011119',
+		'name':'Zapatos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'15'
 		},
