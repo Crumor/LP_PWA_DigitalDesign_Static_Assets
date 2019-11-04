@@ -89,8 +89,7 @@ function countDownBuenFin(){
                 console.log("time__fail");
             }
 }
-
-    function myOnloadFunction(pageName,path) {
+function myOnloadFunction(pageName,path) {
         showBlp();
         switch(pageName){
 
@@ -102,105 +101,98 @@ function countDownBuenFin(){
                         'promotions': [// Array of promoFieldObjects.
 
          {
-		'id':'muebles_211019',
-		'name':'Muebles hasta 50% de desc',
+		'id':'muebles_041119',
+		'name':'Muebles hasta 40% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 		{
-		'id':'top_deals_211019',
+		'id':'top_deals_041119',
 		'name':'TOP deals ofertas del día',
 		'creative':'h_banner_secun',
 		'position':'2'
 		},
 		{
-		'id':'linea_blanca_011119',
-       'name':'Línea Blanca hasta 40% de desc',
+		'id':'casa_041119',
+       'name':'Casa hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'3'
 		},
   {
-		'id':'cocina_011119',
-		'name':'Cocina hasta 20% de desc',
+		'id':'linea_blanca_041119',
+		'name':'Línea Blanca hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
 							{
-		 'id':'colchones_281019',
-		'name':'Colchones a precio individual',
+		 'id':'cocina_041119',
+		'name':'Cocina hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'5'
 		},
 							{
-		'id':'blancos_281019',
-		'name':'Blancos hasta 35% de desc',
+		'id':'videojuegos_041119',
+		'name':'Videojuegos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'6'
 		},
 							{
-		'id':'pantallas_281019',
-		'name':'Pantallas hasta 25% de desc',
+		'id':'celulares_041119',
+		'name':'Celulares hasta 13 MSI',
        'creative':'h_banner_secun',
        'position':'7'
 		},
 							{
-		'id':'videojuegos_011119',
-		'name':'Videojuegos hasta 20% de desc',
+		'id':'juguetes_041119',
+		'name':'Juguetes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'8'
 		},
 												{
-		'id':'juguetes_011119',
-		'name':'Juguetes hasta 25% de desc',
+		'id':'zapatos_041119',
+		'name':'Zapatos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'9'
 		},
 							{
-		'id':'aparatos_ejercicio_011119',
-		'name':'Aparatos de Ejercicio hasta 30% de desc',
+		'id':'garmin_041119',
+		'name':'Garmin hasta 15 MSI',
        'creative':'h_banner_secun',
        'position':'10'
 		},									{
-		'id':'chamarras_el_011119',
-		'name':'Chamarras Él hasta 20% de desc',
+		'id':'ae_041119',
+		'name':'American Eagle hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'11'
 		},
 							{
-		'id':'chamarras_ella_011119',
-		'name':'Chamarras Ella hasta 20% de desc',
+		'id':'ropa_deportiva_041119',
+		'name':'Ropa Deportiva hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},			
 							{
-		'id':'bebes_011119',
-		'name':'Bebés hasta 25% de desc',
+		'id':'ella_041119',
+		'name':'Ella hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'13'
 		},									{
-		'id':'gap_281019',
-		'name':'Gap hasta 30% de desc',
+		'id':'bebes_041119',
+		'name':'Bebés hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'14'
 		},
 							{
-		'id':'zapatos_011119',
-		'name':'Zapatos hasta 20% de desc',
+		'id':'el_041119',
+		'name':'Él hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'15'
-		},
-							{
-		'id':'relojes_281019',
-		'name':'Relojes hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'16'
 		}
      
                         ]
                     }
                 }
             });
-            
             
  /*AQUÍ INICIA LANDING*/    
  
