@@ -183,6 +183,14 @@
                     fondo: "#f6cfe4",
                     label: "nintendo"
                 },
+                                {
+                    "color1": "#0DC6AB",
+                    "color2": "none",
+                    "color3": "#FF475C",
+                    fondo: "#f6cfe4",
+                    label: "distroller"
+                },
+                
                 {
                     color1: "#97F34E",
                     color2: "none",
