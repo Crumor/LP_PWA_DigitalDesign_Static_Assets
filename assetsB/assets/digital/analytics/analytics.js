@@ -90,7 +90,8 @@ function countDownBuenFin(){
             }
 }
 
-    function myOnloadFunction(pageName,path) {
+
+function myOnloadFunction(pageName,path) {
         showBlp();
         switch(pageName){
 
@@ -102,98 +103,92 @@ function countDownBuenFin(){
                         'promotions': [// Array of promoFieldObjects.
 
          {
-		'id':'muebles_211019',
-		'name':'Muebles hasta 50% de desc',
+		'id':'muebles_041119',
+		'name':'Muebles hasta 40% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 		{
-		'id':'top_deals_211019',
+		'id':'top_deals_041119',
 		'name':'TOP deals ofertas del día',
 		'creative':'h_banner_secun',
 		'position':'2'
 		},
 		{
-		'id':'linea_blanca_281019',
-       'name':'Línea Blanca hasta 47% de desc',
+		'id':'casa_041119',
+       'name':'Casa hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'3'
 		},
   {
-		'id':'cocina_281019',
-		'name':'Cocina hasta 25% de desc',
+		'id':'linea_blanca_041119',
+		'name':'Línea Blanca hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
 							{
-		 'id':'colchones_281019',
-		'name':'Colchones a precio individual',
+		 'id':'cocina_041119',
+		'name':'Cocina hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'5'
 		},
 							{
-		'id':'blancos_281019',
-		'name':'Blancos hasta 35% de desc',
+		'id':'videojuegos_041119',
+		'name':'Videojuegos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'6'
 		},
 							{
-		'id':'pantallas_281019',
-		'name':'Pantallas hasta 25%de desc',
+		'id':'celulares_041119',
+		'name':'Celulares hasta 13 MSI',
        'creative':'h_banner_secun',
        'position':'7'
 		},
 							{
-		'id':'videojuegos_281019',
-		'name':'Videojuegos hasta 20% de desc',
+		'id':'juguetes_041119',
+		'name':'Juguetes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'8'
 		},
 												{
-		'id':'juguetes_281019',
-		'name':'Juguetes hasta 20% de desc',
+		'id':'zapatos_041119',
+		'name':'Zapatos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'9'
 		},
 							{
-		'id':'ropa_deportiva_281019',
-		'name':'Ropa Deportiva hasta 25% de desc',
+		'id':'garmin_041119',
+		'name':'Garmin hasta 15 MSI',
        'creative':'h_banner_secun',
        'position':'10'
 		},									{
-		'id':'chamarras_el_281019',
-		'name':'Chamarras Él hasta 15% de desc',
+		'id':'ae_041119',
+		'name':'American Eagle hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'11'
 		},
 							{
-		'id':'chamarras_ella_281019',
-		'name':'Chamarras Ella hasta 15% de desc',
+		'id':'ropa_deportiva_041119',
+		'name':'Ropa Deportiva hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},			
 							{
-		'id':'bebes_281019',
-		'name':'Bebés hasta 35% de desc',
+		'id':'ella_041119',
+		'name':'Ella hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'13'
 		},									{
-		'id':'gap_281019',
-		'name':'Gap hasta 30% de desc',
+		'id':'bebes_041119',
+		'name':'Bebés hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'14'
 		},
 							{
-		'id':'zapatos_281019',
-		'name':'Zapatos hasta 15% de desc',
+		'id':'el_041119',
+		'name':'Él hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'15'
-		},
-							{
-		'id':'relojes_281019',
-		'name':'Relojes hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'16'
 		}
      
                         ]
@@ -1005,6 +1000,158 @@ dataLayer.push({
 
 
 
+                
+/*PRIMER NIVEL OTRAS CATEGORÍAS*/ 
+
+            break;
+            case '/tienda/otras-categorias/catst16656479':
+ dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'automotriz_301019',
+'name': 'OC Automotriz',
+'creative': 'blp_oc_automotriz',
+'position': '01'
+},
+{
+'id': 'motodeportiva_301019',
+'name': 'OC Moto Deportiva',
+'creative': 'blp_oc_deportiva',
+'position': '02'
+},
+{
+'id': 'motourbana_301019',
+'name': 'OC Moto Urbana',
+'creative': 'blp_oc_urbana',
+'position': '03'
+},
+{
+'id': 'chopper_301019',
+'name': 'OC Moto Chopper',
+'creative': 'blp_oc_chopper',
+'position': '04'
+},
+{
+'id': 'multi_301019',
+'name': 'OC Moto Multi',
+'creative': 'blp_oc_multi',
+'position': '05'
+},
+{
+'id': 'proteinas_301019',
+'name': 'OC Proteinas',
+'creative': 'blp_oc_proteinas',
+'position': '06'
+},
+{
+'id': 'superfoood_301019',
+'name': 'OC SuperFood',
+'creative': 'blp_oc_superfood',
+'position': '07'
+},
+{
+'id': 'personalcare_301019',
+'name': 'OC Personal',
+'creative': 'blp_oc_personal',
+'position': '08'
+},
+{
+'id': 'yoga_301019',
+'name': 'OC Yoga',
+'creative': 'blp_oc_yoga',
+'position': '09'
+},
+{
+'id': 'WellnessTodo_301019',
+'name': 'OC Wellness Todo',
+'creative': 'blp_oc_wellnesstodo',
+'position': '10'
+},
+{
+'id': 'electricas_301019',
+'name': 'OC Electricas',
+'creative': 'blp_oc_electricas',
+'position': '11'
+},
+{
+'id': 'manuales_301019',
+'name': 'OC Manuales',
+'creative': 'blp_oc_manuales',
+'position': '12'
+},
+{
+'id': 'hidrolavadoras_301019',
+'name': 'OC Hidrolavadoras',
+'creative': 'blp_oc_hidrolavadoras',
+'position': '13'
+},
+{
+'id': 'aspiradoras_301019',
+'name': 'OC Aspiradoras',
+'creative': 'blp_oc_aspiradoras',
+'position': '14'
+},
+{
+'id': 'TodoFerreteria_301019',
+'name': 'OC Todo Ferreteria',
+'creative': 'blp_oc_Ferreteria',
+'position': '15'
+},
+{
+'id': 'alimentos_301019',
+'name': 'OC Alimentos',
+'creative': 'blp_oc_alimentos',
+'position': '16'
+},
+{
+'id': 'platos_301019',
+'name': 'OC Platos',
+'creative': 'blp_oc_platos',
+'position': '17'
+},
+{
+'id': 'estetica_301019',
+'name': 'OC Estetica',
+'creative': 'blp_oc_estetica',
+'position': '18'
+},
+{
+'id': 'juguetes_301019',
+'name': 'OC Juguetes',
+'creative': 'blp_oc_juguetes',
+'position': '19'
+},
+{
+'id': 'salud_301019',
+'name': 'OC Salud',
+'creative': 'blp_oc_salud',
+'position': '20'
+},
+{
+'id': 'higiene_301019',
+'name': 'OC Higiene',
+'creative': 'blp_oc_higiene',
+'position': '21'
+},
+{
+'id': 'TodoMascota_301019',
+'name': 'OC Todo Mascota',
+'creative': 'blp_oc_todomascota',
+'position': '22'
+}
+]
+}
+}
+});
+
+                
+                
+                
+                
+                
 
 
 /*PRIMER NIVEL VIDEOJUEGOS*/ 
@@ -3957,52 +4104,40 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'principal_111019',
-    'name': 'Aero Principal',
-    'creative': 'blp_aero_principal',
+    'id': 'sueteres_ella_051119',
+    'name': 'Aero Sueteres Ella',
+    'creative': 'blp_aero_sueteres_ella',
     'position': '01'
 },
 {
-    'id': 'denim_111019',
-    'name': 'Aero Denim',
-    'creative': 'blp_aero_denim',
+    'id': 'chamarras_el_051119',
+    'name': 'Aero Chamarras El',
+    'creative': 'blp_aero_chamarras_el',
     'position': '02'
 },
 {
-    'id': 'blusas_111019',
-    'name': 'Aero Blusas',
-    'creative': 'blp_aero_blusas',
+    'id': 'playeras_el_051119',
+    'name': 'Aero Playeras El',
+    'creative': 'blp_aero_playeras_el',
     'position': '03'
 },
 {
-    'id': 'chamarras_111019',
-    'name': 'Aero Chamarras',
-    'creative': 'blp_aero_chamarras',
+    'id': 'chamarras_ella_051119',
+    'name': 'Aero Chamarras Ella',
+    'creative': 'blp_aero_chamarras_ella',
     'position': '04'
 },
 {
-    'id': 'playeras_111019',
-    'name': 'Aero Playeras',
-    'creative': 'blp_aero_playeras',
+    'id': 'ninas_051119',
+    'name': 'Aero Ninas',
+    'creative': 'blp_aero_ninas',
     'position': '05'
 },
 {
-    'id': 'playerasel_111019',
-    'name': 'Aero Playeras El',
-    'creative': 'blp_aero_playerasel',
-    'position': '06'
-},
-{
-    'id': 'ninas_111019',
-    'name': 'Aero Ninas',
-    'creative': 'blp_aero_ninas',
-    'position': '07'
-},
-{
-    'id': 'ninos_111019',
+    'id': 'ninos_051119',
     'name': 'Aero Ninos',
     'creative': 'blp_aero_ninos',
-    'position': '08'
+    'position': '06'
 }
 ]
 }

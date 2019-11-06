@@ -1,0 +1,33 @@
+{
+    "marcas": [
+        { "link": "#/mejoresmarcas/lego", "imagen": "./assets/images/marca/logo_lego.png" },
+        { "link": "#/mejoresmarcas/prinsel", "imagen": "./assets/images/marca/logo_prinsel.png" },
+        { "link": "#/mejoresmarcas/distroller", "imagen": "./assets/images/marca/logo_distroller.png" },
+        { "link": "#/mejoresmarcas/playmobil", "imagen": "./assets/images/marca/logo_playmobil.png" },
+        { "link": "#/mejoresmarcas/disney collection", "imagen": "./assets/images/marca/logo_disney_collection.png" },
+        { "link": "#/mejoresmarcas/nerf", "imagen": "./assets/images/marca/logo_nerf.png" },
+        { "link": "#/mejoresmarcas/barbie", "imagen": "./assets/images/marca/logo_barbie.png" },
+        { "link": "#/mejoresmarcas/play doh", "imagen": "./assets/images/marca/logo_play_doh.png" },
+        { "link": "#/mejoresmarcas/marvel", "imagen": "./assets/images/marca/logo_marvel.png" },
+        { "link": "#/mejoresmarcas/little pony", "imagen": "./assets/images/marca/logo_my_little_pony.png" },
+        { "link": "#/mejoresmarcas/paw patrol", "imagen": "./assets/images/marca/logo_paw_patrol.png" },
+        { "link": "#/mejoresmarcas/fisher price", "imagen": "./assets/images/marca/logo_fisher_price.png" },
+
+
+        { "link": "#/mejoresmarcas/starwars", "imagen": "./assets/images/marca/logo_starwars.png" },
+        { "link": "#/mejoresmarcas/playskool", "imagen": "./assets/images/marca/logo_playskool.png" },
+        { "link": "#/mejoresmarcas/enchantimals", "imagen": "./assets/images/marca/logo_enchantimals.png" },
+        { "link": "#/mejoresmarcas/nintendo", "imagen": "./assets/images/marca/logo_disney_nintendo.png" },
+        { "link": "#/mejoresmarcas/xbox", "imagen": "./assets/images/marca/logo_xbox.png" },
+        { "link": "#/mejoresmarcas/justice league", "imagen": "./assets/images/marca/logo_justiceleague.png" },
+        { "link": "#/mejoresmarcas/hot wheels", "imagen": "./assets/images/marca/logo_hot_wheels.png" },
+        { "link": "#/mejoresmarcas/shopkins", "imagen": "./assets/images/marca/logo_shopkins.png" },
+        { "link": "#/mejoresmarcas/peppa pig", "imagen": "./assets/images/marca/logo_peppa_pig.png" },
+        { "link": "#/mejoresmarcas/playstation", "imagen": "./assets/images/marca/logo_playstation.png" },
+        { "link": "#/mejoresmarcas/mega blocks", "imagen": "./assets/images/marca/logo_megablocks.png" },
+        { "link": "#/mejoresmarcas/mega construx", "imagen": "./assets/images/marca/logo_megaconstrux.png" },
+        { "link": "#/mejoresmarcas/shopkins", "imagen": "./assets/images/marca/logo_shopkins.png" },
+        { "link": "#/mejoresmarcas/transformers", "imagen": "./assets/images/marca/logo_transformers.png" },
+        { "link": "#/mejoresmarcas/hatchimals", "imagen": "./assets/images/marca/logo_hatchimals.png" }
+    ]
+}

@@ -8,8 +8,8 @@ body {
 }
 
 #container_principal {
-
     position: relative;
+    margin-top: 1rem;
     /*
     height: auto;
     padding-bottom: 10px;
@@ -22,24 +22,6 @@ body {
     display: inline-block;
     left: 30px;
     top: 30px;
-}
-
-@media (max-width:991px) {
-  .icon_carta {
-      position: fixed;
-      bottom: 0%;
-      right: 2%;
-      z-index: 999;
-  }
-}
-
-@media (min-width:992px) {
-  .icon_carta {
-      position: fixed;
-      bottom: 50%;
-      right: 5%;
-      z-index: 999;
-  }
 }
 
 .contenidoPrincipal {
@@ -114,14 +96,14 @@ body {
 }
 
 .bannerPrincipal {
-  background: rgba(23,7,127,1);
-  background: -moz-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23,7,127,1)), color-stop(77%, rgba(88,7,180,1)), color-stop(100%, rgba(88,7,180,1)));
-  background: -webkit-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
-  background: -o-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
-  background: -ms-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
-  background: linear-gradient(to bottom, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17077f', endColorstr='#5807b4', GradientType=0 );
+    background: rgba(23, 7, 127, 1);
+    background: -moz-linear-gradient(top, rgba(23, 7, 127, 1) 0%, rgba(88, 7, 180, 1) 77%, rgba(88, 7, 180, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23, 7, 127, 1)), color-stop(77%, rgba(88, 7, 180, 1)), color-stop(100%, rgba(88, 7, 180, 1)));
+    background: -webkit-linear-gradient(top, rgba(23, 7, 127, 1) 0%, rgba(88, 7, 180, 1) 77%, rgba(88, 7, 180, 1) 100%);
+    background: -o-linear-gradient(top, rgba(23, 7, 127, 1) 0%, rgba(88, 7, 180, 1) 77%, rgba(88, 7, 180, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(23, 7, 127, 1) 0%, rgba(88, 7, 180, 1) 77%, rgba(88, 7, 180, 1) 100%);
+    background: linear-gradient(to bottom, rgba(23, 7, 127, 1) 0%, rgba(88, 7, 180, 1) 77%, rgba(88, 7, 180, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#17077f', endColorstr='#5807b4', GradientType=0);
     /* background: rgb(255, 254, 175);
     background: radial-gradient(circle, rgba(255, 254, 175, 1) 0%, rgba(196, 157, 255, 1) 68%, rgba(90, 108, 255, 1) 100%); */
 }
@@ -229,97 +211,235 @@ body {
     height: 100%;
 }
 
+
 /* Stars background*/
 
 @keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
 }
+
 @-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
 }
+
 @-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
 }
+
 @-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
 }
 
 @keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-webkit-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-moz-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-ms-keyframes move-clouds-back {
-    from {background-position: 0;}
-    to {background-position:10000px 0;}
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
 }
 
-.stars{
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  width:100%;
-  height:100%;
-  display:block;
+@-webkit-keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+@-moz-keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+@-ms-keyframes move-clouds-back {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
 }
 
 .stars {
-  background-image: url('../images/animation/home/patron.png');
-  height: 100%;
-    z-index:0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
-.efectos{position:relative;}
-.efectos .destello{position:relative;}
-.efectos .destello2{position:absolute;;}
+.stars {
+    background-image: url('../images/animation/home/patron.png');
+    height: 100%;
+    z-index: 0;
+}
 
-.efectos .destello-01{right: 40px; top: 15px; animation: destello-efecto-01 5s infinite; -webkit-animation: destello-efecto-01 8s infinite;}
-.efectos .destello-02{right: 60px; top: 0px; animation: destello-efecto-02 10s infinite; -webkit-animation: destello-efecto-02 10s infinite;}
-.efectos .destello-03{right: 200px; top: 200px; animation: destello-efecto-03 4s infinite; -webkit-animation: destello-efecto-03 4s infinite;}
-.efectos .destello-04{right: 240px; top: 15px; animation: destello-efecto-04 6s infinite; -webkit-animation: destello-efecto-04 6s infinite;}
-.efectos .destello-05{right: 80px; top: 15px; animation: destello-efecto-05 11s infinite; -webkit-animation: destello-efecto-05 11s infinite;}
-.efectos .destello-06{right: 450px; top: 28px; animation: destello-efecto-04 6s infinite; -webkit-animation: destello-efecto-04 6s infinite;}
-.efectos .destello-07{right: 320px; top: 65px; animation: destello-efecto-02 10s infinite; -webkit-animation: destello-efecto-02 10s infinite;}
-.efectos .destello-08{right: 20px; top: 90px; animation: destello-efecto-01 5s infinite; -webkit-animation: destello-efecto-01 8s infinite;}
+.efectos {
+    position: relative;
+}
 
+.efectos .destello {
+    position: relative;
+}
+
+.efectos .destello2 {
+    position: absolute;
+    ;
+}
+
+.efectos .destello-01 {
+    right: 40px;
+    top: 15px;
+    animation: destello-efecto-01 5s infinite;
+    -webkit-animation: destello-efecto-01 8s infinite;
+}
+
+.efectos .destello-02 {
+    right: 60px;
+    top: 0px;
+    animation: destello-efecto-02 10s infinite;
+    -webkit-animation: destello-efecto-02 10s infinite;
+}
+
+.efectos .destello-03 {
+    right: 200px;
+    top: 200px;
+    animation: destello-efecto-03 4s infinite;
+    -webkit-animation: destello-efecto-03 4s infinite;
+}
+
+.efectos .destello-04 {
+    right: 240px;
+    top: 15px;
+    animation: destello-efecto-04 6s infinite;
+    -webkit-animation: destello-efecto-04 6s infinite;
+}
+
+.efectos .destello-05 {
+    right: 80px;
+    top: 15px;
+    animation: destello-efecto-05 11s infinite;
+    -webkit-animation: destello-efecto-05 11s infinite;
+}
+
+.efectos .destello-06 {
+    right: 450px;
+    top: 28px;
+    animation: destello-efecto-04 6s infinite;
+    -webkit-animation: destello-efecto-04 6s infinite;
+}
+
+.efectos .destello-07 {
+    right: 320px;
+    top: 65px;
+    animation: destello-efecto-02 10s infinite;
+    -webkit-animation: destello-efecto-02 10s infinite;
+}
+
+.efectos .destello-08 {
+    right: 20px;
+    top: 90px;
+    animation: destello-efecto-01 5s infinite;
+    -webkit-animation: destello-efecto-01 8s infinite;
+}
 
 @-webkit-keyframes destello-efecto-01 {
-  0%, 50%, 100% {opacity: 0.7;}
-  25%, 75% {opacity: 0.7;transform: scale3d(.3, .3, .3);-webkit-transform: scale3d(.3, .3, .3);}
+    0%,
+    50%,
+    100% {
+        opacity: 0.7;
+    }
+    25%,
+    75% {
+        opacity: 0.7;
+        transform: scale3d(.3, .3, .3);
+        -webkit-transform: scale3d(.3, .3, .3);
+    }
 }
 
-
 @keyframes destello-efecto-02 {
-  0%, 50%, 100% {opacity: 0.4;}
-  25%, 75% {opacity: 0.4;-webkit-transform: scale3d(.1, .1, .1);transform: scale3d(.1, .1, .1);}
+    0%,
+    50%,
+    100% {
+        opacity: 0.4;
+    }
+    25%,
+    75% {
+        opacity: 0.4;
+        -webkit-transform: scale3d(.1, .1, .1);
+        transform: scale3d(.1, .1, .1);
+    }
 }
 
 @keyframes destello-efecto-03 {
-  0%, 50%, 100% {opacity: 0.5;}
-  25%, 75% {opacity: 0.5;-webkit-transform: scale3d(.1, .1, .1);transform: scale3d(.1, .1, .1);}
+    0%,
+    50%,
+    100% {
+        opacity: 0.5;
+    }
+    25%,
+    75% {
+        opacity: 0.5;
+        -webkit-transform: scale3d(.1, .1, .1);
+        transform: scale3d(.1, .1, .1);
+    }
 }
 
 @keyframes destello-efecto-04 {
-  0%, 50%, 100% {opacity: 0.6;}
-  25%, 75% {opacity: 0.6;-webkit-transform: scale3d(.2, .2, .2);transform: scale3d(.2, .2, .2);}
+    0%,
+    50%,
+    100% {
+        opacity: 0.6;
+    }
+    25%,
+    75% {
+        opacity: 0.6;
+        -webkit-transform: scale3d(.2, .2, .2);
+        transform: scale3d(.2, .2, .2);
+    }
 }
 
 @keyframes destello-efecto-05 {
-  0%, 50%, 100% {opacity: 0.5;}
-  25%, 75% {opacity: 0.5;-webkit-transform: scale3d(.2, .2, .2);transform: scale3d(.2, .2, .2);}
+    0%,
+    50%,
+    100% {
+        opacity: 0.5;
+    }
+    25%,
+    75% {
+        opacity: 0.5;
+        -webkit-transform: scale3d(.2, .2, .2);
+        transform: scale3d(.2, .2, .2);
+    }
 }
 
 
@@ -365,6 +485,7 @@ hr {
     margin-bottom: 60px;
     width: 20%;
     display: inline-block;
+    float: none !important;
 }
 
 .productoTopDiez {
@@ -1409,7 +1530,7 @@ ol>li {
 /*modal para alerta en agregar a carta un juguete*/
 
 .modal-responsive-agregar {
-    width: 430px;
+    width: 340px;
 }
 
 .modal-video {}
@@ -1462,10 +1583,20 @@ ol>li {
     background-size: contain;
 }
 
-.etiqueta {
-    position: relative;
-    height: 100px;
-    margin-top: 20px;
+@media only screen and (max-width:991px) {
+    .etiqueta {
+        position: relative;
+        height: 130px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .etiqueta {
+        position: relative;
+        height: 100px;
+        margin-top: 20px;
+    }
 }
 
 .etiqueta>.texto {
@@ -1598,7 +1729,6 @@ ol>li {
 footer {
     height: 250px;
     border-top: solid 1px #f2f2f2;
-
 }
 
 .footerTopWhite {
@@ -1871,14 +2001,14 @@ footer {
 }
 
 .fondoNocheStatic {
-    background: rgba(23,7,127,1);
-    background: -moz-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23,7,127,1)), color-stop(77%, rgba(88,7,180,1)), color-stop(100%, rgba(88,7,180,1)));
+    background: rgba(23, 7, 127, 1);
+    background: -moz-linear-gradient(top, rgba(23, 7, 127, 1) 0%, rgba(88, 7, 180, 1) 77%, rgba(88, 7, 180, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(23, 7, 127, 1)), color-stop(77%, rgba(88, 7, 180, 1)), color-stop(100%, rgba(88, 7, 180, 1)));
     /* background: -webkit-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
     background: -o-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
     background: -ms-linear-gradient(top, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%);
     background: linear-gradient(to bottom, rgba(23,7,127,1) 0%, rgba(88,7,180,1) 77%, rgba(88,7,180,1) 100%); */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17077f', endColorstr='#5807b4', GradientType=0 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#17077f', endColorstr='#5807b4', GradientType=0);
     height: 200px;
     background-size: 1120px 210px;
     background-position-x: -92px;
@@ -1977,4 +2107,82 @@ footer {
     margin-left: 0px;
     font-size: 1em;
     height: 40px;
+}
+
+
+
+@media (max-width:991px) {
+    .icon_carta {
+        position: fixed;
+        bottom: 0%;
+        right: 2%;
+        z-index: 999;
+    }
+    .mediaItemImage {
+        height: 230px;
+    }
+    .itemIteractivoCaroucel .descripcion {
+        text-align: center;
+        font-size: 12px;
+        min-height: 36px;
+        height: 36px;
+        overflow: hidden;
+    }
+    .btn-rosa {
+        height: 40px;
+        font-size: 1em;
+        line-height: 15px;
+    }
+    .iconCartaMobile {
+        display: block;
+    }
+    .iconCarta {
+        display: none;
+    }
+    .agregar-pedido-top10 {
+        display: block;
+    }
+    .addProductoTop10 {
+        opacity: 0 !important;
+    }
+    .addToy {
+        opacity: 1!important;
+        background: #e62c9a;
+        color: white;
+    }
+}
+
+@media (min-width:992px) {
+    .icon_carta {
+        position: fixed;
+        bottom: 50%;
+        right: 5%;
+        z-index: 999;
+    }
+    .iconCartaMobile {
+        display: none;
+    }
+    .agregar-pedido-top10 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .agregar-pedido-top10 {
+        display: none;
+    }
+    .addProductoTop10 {
+        opacity: 1;
+    }
+    .item-productoTopDiez {
+        margin-top: 7rem;
+    }
+    .btn-eliminar {
+        display: block !important;
+    }
+    .itemPlp .addToy {
+        opacity: 1;
+        background: #e62c9a;
+        color: white;
+    }
 }
