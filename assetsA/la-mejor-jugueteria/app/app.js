@@ -933,7 +933,7 @@
 (function() {
     angular.module('paths', []).constant('myConfig', {
         pathServices: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/plp?category-id=catst13886215",
-        pathServiceSearch:"https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/typeahead?",
+        pathServiceSearch:"https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/typeahead?search-string=",
         pathServicePlp:"https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/plp?",
         pathServicePdp:"https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/pdp?productId=",
         pathServiceSubCategoria: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/plp?category-id=",
@@ -947,7 +947,8 @@
         pathHomeJSON: "data2019/home/Home.json",
         jsonSliderMarcas: "data2019/marcas/marcas.json",
         pathPdp: "",
-        pathSendCarts: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/eccardQA/",
+      //  pathSendCarts: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/CreateCard/",
+        pathSendCarts: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/eccard/",
         pathBlackList: "data2019/home/blackList.json"
     });
 })();
@@ -1045,8 +1046,9 @@
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                              $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})
-                                    .then(function(data) {
+                      //  $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})
+                        var url = myConfig.pathServiceSearch+word;
+                          $http.get(url).then(function(data) {
                                         var contents = data.data;
                                             if (word !== "") {
                                                 var responseValues = contents.results;
