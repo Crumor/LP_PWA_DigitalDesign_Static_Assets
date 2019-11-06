@@ -527,12 +527,12 @@
 	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
 		var  pedidos = serviceStorePedidos.getPedidos();
 		if(pedidos.length <= 0){
-			$location.path("/indexqa.html")
+			$location.path("/index.html")
 		}else{
 		   	$rootScope.cartaExito = false;
 			serviceStorePedidos.deleteAllPedidos();
 			 	$scope.regresar=function(){
-			 		$location.path("/indexqa.html");
+			 		$location.path("/index.html");
 			 	}
 		 }
 	}
