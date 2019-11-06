@@ -4104,52 +4104,40 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'principal_111019',
-    'name': 'Aero Principal',
-    'creative': 'blp_aero_principal',
+    'id': 'sueteres_ella_051119',
+    'name': 'Aero Sueteres Ella',
+    'creative': 'blp_aero_sueteres_ella',
     'position': '01'
 },
 {
-    'id': 'denim_111019',
-    'name': 'Aero Denim',
-    'creative': 'blp_aero_denim',
+    'id': 'chamarras_el_051119',
+    'name': 'Aero Chamarras El',
+    'creative': 'blp_aero_chamarras_el',
     'position': '02'
 },
 {
-    'id': 'blusas_111019',
-    'name': 'Aero Blusas',
-    'creative': 'blp_aero_blusas',
+    'id': 'playeras_el_051119',
+    'name': 'Aero Playeras El',
+    'creative': 'blp_aero_playeras_el',
     'position': '03'
 },
 {
-    'id': 'chamarras_111019',
-    'name': 'Aero Chamarras',
-    'creative': 'blp_aero_chamarras',
+    'id': 'chamarras_ella_051119',
+    'name': 'Aero Chamarras Ella',
+    'creative': 'blp_aero_chamarras_ella',
     'position': '04'
 },
 {
-    'id': 'playeras_111019',
-    'name': 'Aero Playeras',
-    'creative': 'blp_aero_playeras',
+    'id': 'ninas_051119',
+    'name': 'Aero Ninas',
+    'creative': 'blp_aero_ninas',
     'position': '05'
 },
 {
-    'id': 'playerasel_111019',
-    'name': 'Aero Playeras El',
-    'creative': 'blp_aero_playerasel',
-    'position': '06'
-},
-{
-    'id': 'ninas_111019',
-    'name': 'Aero Ninas',
-    'creative': 'blp_aero_ninas',
-    'position': '07'
-},
-{
-    'id': 'ninos_111019',
+    'id': 'ninos_051119',
     'name': 'Aero Ninos',
     'creative': 'blp_aero_ninos',
-    'position': '08'
+    'position': '06'
 }
 ]
 }

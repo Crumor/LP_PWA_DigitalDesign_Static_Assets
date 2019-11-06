@@ -183,6 +183,14 @@
                     fondo: "#f6cfe4",
                     label: "nintendo"
                 },
+                                {
+                    "color1": "#0DC6AB",
+                    "color2": "none",
+                    "color3": "#FF475C",
+                    fondo: "#f6cfe4",
+                    label: "distroller"
+                },
+                
                 {
                     color1: "#97F34E",
                     color2: "none",
@@ -939,7 +947,7 @@
         pathHomeJSON: "data2019/home/Home.json",
         jsonSliderMarcas: "data2019/marcas/marcas.json",
         pathPdp: "",
-        pathSendCarts: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/CreateCard/",
+        pathSendCarts: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/eccardQA/",
         pathBlackList: "data2019/home/blackList.json"
     });
 })();
@@ -1095,7 +1103,7 @@
             resultado = data.map(function(val) {
                 var producto = serviceModel.producto();
                 producto.id = val.productId;
-                producto.idOriginal = val.productId;
+                producto.idOriginal = val.skuRepositoryId;
                 producto.description = val.productDisplayName;
                 producto.longDescription = val.hasOwnProperty("productDescription") ? val["productDescription"] != null ? val["productDescription"][0] : "" : "";
                 producto.imageBg = val.xlImage;
@@ -1640,6 +1648,7 @@
                         }
                     });
                     sendCarta.listId = newPedidos;
+                    console.log(sendCarta);
                     $http({
                         method: "POST",
                         url: myConfig.pathSendCarts,

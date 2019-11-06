@@ -2,7 +2,7 @@
     "marcas": [
         { "link": "#/mejoresmarcas/lego", "imagen": "./assets/images/marca/logo_lego.png" },
         { "link": "#/mejoresmarcas/prinsel", "imagen": "./assets/images/marca/logo_prinsel.png" },
-        { "link": "#/mejoresmarcas/playmobil", "imagen": "./assets/images/marca/logo_distroller.png" },
+        { "link": "#/mejoresmarcas/distroller", "imagen": "./assets/images/marca/logo_distroller.png" },
         { "link": "#/mejoresmarcas/playmobil", "imagen": "./assets/images/marca/logo_playmobil.png" },
         { "link": "#/mejoresmarcas/disney collection", "imagen": "./assets/images/marca/logo_disney_collection.png" },
         { "link": "#/mejoresmarcas/nerf", "imagen": "./assets/images/marca/logo_nerf.png" },
