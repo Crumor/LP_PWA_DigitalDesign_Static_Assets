@@ -1530,30 +1530,44 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'celulares_motorola_200619',
-'name': 'Celulares_Motorola',
-'creative': 'blp_Celulares_Motorola',
-'position': '01'
+    'id': 'singles_main_071119',
+    'name': 'Singles Main',
+    'creative': 'blp_celulares_singles_main',
+    'position': '01'
 },
 {
-'id': 'celulares_accesorios_200619',
-'name': 'Celulares_Accesorios',
-'creative': 'blp_Celulares_Accesorios',
-'position': '02'
+    'id': 'singles_iphone_071119',
+    'name': 'Singles iphone',
+    'creative': 'blp_celulares_singles_iphone',
+    'position': '02'
 },
 {
 
-'id': 'celulares_baterias_200619',
-'name': 'Celulares_Baterías',
-'creative': 'blp_Celulares_Baterias',
-'position': '03'
+    'id': 'singles_samsung_071119',
+    'name': 'Singles Samsung',
+    'creative': 'blp_celulares_singles_samsung',
+    'position': '03'
                                                 
 },
 {
-'id': 'celulares_modelos_200619',
-'name': 'Celulares_Modelos',
-'creative': 'blp_Celulares_Modelos',
-'position': '04'
+    'id': 'samsung_fold_071119',
+    'name': 'Samsung Fold',
+    'creative': 'blp_celulares_fold',
+    'position': '04'
+
+},
+{
+    'id': 'accesorios_071119',
+    'name': 'Accesorios',
+    'creative': 'blp_celulares_accesorios',
+    'position': '05'
+
+},
+{
+    'id': 'conectado_071119',
+    'name': 'Conectado',
+    'creative': 'blp_celulares_conectado',
+    'position': '06'
 
 }
 ]
