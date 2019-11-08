@@ -189,6 +189,100 @@ function myOnloadFunction(pageName,path) {
 		'name':'Él hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'15'
+		},
+				{
+		'id':'linea_blanca_111119',
+		'name':'Línea Blanca hasta 51% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
+        },
+		{
+		'id':'celulares_111119',
+		'name':'Celulares hasta 25% de reemboloso o hasta 10% de reembolso y hasta 18 MSI',
+		'creative':'h_banner_secun',
+		'position':'2'
+		},
+		{
+		'id':'pantallas_111119',
+       'name':'Pantallas hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'3'
+		},
+  {
+		'id':'computo_111119',
+		'name':'Cómputo hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'4'
+		},
+							{
+		 'id':'relojes_111119',
+		'name':'Relojes hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'5'
+		},
+							{
+		'id':'zapatos_111119',
+		'name':'Zapatos hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'6'
+		},
+							{
+		'id':'aparatos_ejercicio_111119',
+		'name':'Aparatos de ejercicio hasta 35% de desc o hasta 20 MSI',
+       'creative':'h_banner_secun',
+       'position':'7'
+		},
+							{
+		'id':'deportes_111119',
+		'name':'Deportes hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
+		},
+												{
+		'id':'muebles_111119',
+		'name':'Muebles hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'9'
+		},
+							{
+		'id':'electricos_111119',
+		'name':'Eléctricos hasta 49% de desc',
+       'creative':'h_banner_secun',
+       'position':'10'
+		},									{
+		'id':'colchones_111119',
+		'name':'Colchones hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'11'
+		},
+							{
+		'id':'juguetes_111119',
+		'name':'Juguetes hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'12'
+		},			
+							{
+		'id':'ella_111119',
+		'name':'Ella hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'13'
+		},									{
+		'id':'el_111119',
+		'name':'Él hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'14'
+		},
+							{
+		'id':'asadores_111119',
+		'name':'Asadores hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'15'
+		},
+                            {
+		'id':'vinos_licores_111119',
+		'name':'Vinos y licores hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'16'
 		}
      
                         ]
@@ -1530,30 +1624,44 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'celulares_motorola_200619',
-'name': 'Celulares_Motorola',
-'creative': 'blp_Celulares_Motorola',
-'position': '01'
+    'id': 'singles_main_071119',
+    'name': 'Singles Main',
+    'creative': 'blp_celulares_singles_main',
+    'position': '01'
 },
 {
-'id': 'celulares_accesorios_200619',
-'name': 'Celulares_Accesorios',
-'creative': 'blp_Celulares_Accesorios',
-'position': '02'
+    'id': 'singles_iphone_071119',
+    'name': 'Singles iphone',
+    'creative': 'blp_celulares_singles_iphone',
+    'position': '02'
 },
 {
 
-'id': 'celulares_baterias_200619',
-'name': 'Celulares_Baterías',
-'creative': 'blp_Celulares_Baterias',
-'position': '03'
+    'id': 'singles_samsung_071119',
+    'name': 'Singles Samsung',
+    'creative': 'blp_celulares_singles_samsung',
+    'position': '03'
                                                 
 },
 {
-'id': 'celulares_modelos_200619',
-'name': 'Celulares_Modelos',
-'creative': 'blp_Celulares_Modelos',
-'position': '04'
+    'id': 'samsung_fold_071119',
+    'name': 'Samsung Fold',
+    'creative': 'blp_celulares_fold',
+    'position': '04'
+
+},
+{
+    'id': 'accesorios_071119',
+    'name': 'Accesorios',
+    'creative': 'blp_celulares_accesorios',
+    'position': '05'
+
+},
+{
+    'id': 'conectado_071119',
+    'name': 'Conectado',
+    'creative': 'blp_celulares_conectado',
+    'position': '06'
 
 }
 ]

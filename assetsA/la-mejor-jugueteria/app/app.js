@@ -100,6 +100,414 @@
 }
 })();
 
+(function(){
+	angular.module('carta',[]).controller( "cartaController", cartaController )
+	.controller( "cartaControllerFelicidades", cartaControllerFelicidades );
+
+	function cartaController($rootScope, $scope, serviceStorePedidos,$location ){
+
+		$scope.carta = {email:"",mensaje:"",nombre:""};
+		$scope.information = {
+			success: true,
+			data: {
+				color1:"#97F34E",
+				color2:"none",
+				color3:"#FC3491",
+				fondo:"#f6cfe4",
+				label:"Mi carta a Santa"
+			},
+			code: 0
+		};
+		$scope.isActiveBtnEnviar = true;
+		$scope.pedidos = function(){
+		   return serviceStorePedidos.getPedidos();
+		}
+		$scope.eliminarPedido = function(index){
+		   serviceStorePedidos.deletePedido(index);
+		}
+		$scope.enviarPedido = function(){
+			$scope.isActiveBtnEnviar = false;
+			if($scope.carta.mensaje === "")
+				$scope.carta.mensaje="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería";
+			serviceStorePedidos.enviarPedido($scope.carta,function(response){
+			 if( response.success )
+				if( response.code === -2 ) {
+					$("#modalEnvioMal").modal('show');
+					$scope.isActiveBtnEnviar = true;
+				}else
+					if( response.code ===-1 ) {
+						$("#modalEnvioMalFalta").modal('show');
+						$scope.isActiveBtnEnviar = true;
+					}else if(response.code === 1 ){
+						$rootScope.cartaExito = true;
+						$location.path("/micarta/felicidades");
+					}
+			});
+		}
+		$scope.addFavoritos=function(p){
+			$(".fa.fa-heart-o").click(function() {
+			$(this).removeClass("fa-heart-o")
+			$(this).addClass("fa-heart")
+			})
+		};
+		$scope.microfono=function(id){
+
+			if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+					var recognition = new webkitSpeechRecognition();
+
+					recognition.continuous = false;
+					recognition.interimResults = false;
+
+					recognition.lang = "es-MX";
+					recognition.start();
+
+					recognition.onresult = function(e) {
+						document.getElementById(id).value = e.results[0][0].transcript;
+						recognition.stop();
+						//document.getElementById('labnol').submit();
+						$('#mic').css('background',"url('assets/images/micro/inactivo.png')");
+						$('#mic2').css('background',"url('assets/images/micro/inactivo.png')");
+						$('#mic3').css('background',"url('assets/images/micro/inactivo.png')");
+					};
+
+					recognition.onerror = function(e) {
+						recognition.stop();
+
+					}
+				}
+		};
+			$('#mic').click( function() {
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$('#mic2').click( function() {
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$('#mic3').click( function() {
+				$(this).css('background',"url('assets/images/micro/animated.gif')");
+			})
+			$("input#transcript1").click(function () {
+				document.getElementById('audioNombre').play();
+			});
+			$("input#transcript2").click(function () {
+				document.getElementById('audioMail').play();
+			});
+			$("textarea#transcript3").click(function () {
+				document.getElementById('audioSanta').play();
+			});
+
+	}
+	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
+		var  pedidos = serviceStorePedidos.getPedidos();
+		if(pedidos.length <= 0){
+			$location.path("/index.html")
+		}else{
+		   	$rootScope.cartaExito = false;
+			serviceStorePedidos.deleteAllPedidos();
+			 	$scope.regresar=function(){
+			 		$location.path("/index.html");
+			 	}
+		 }
+	}
+
+})();
+
+(function(){
+    angular.module('categorias',[]).controller( "categoriasController", categoriaController ).
+    controller( "subCategoriaController", subCategoriaController );
+    function categoriaController( $scope, serviceProducto, $routeParams,$location,$timeout ){
+        $scope.categorias = [];
+        $scope.idCategoria = "";
+
+        // $scope
+        $scope.loaded = true;
+        $scope.banner = null;
+        if( $routeParams.hasOwnProperty("categoria")){
+            serviceProducto.getCategoria( $routeParams.categoria, function( data ){
+                if( data.success ){
+                    $scope.banner = data.data.principal;
+                    $scope.idCategoria = $routeParams.categoria;
+                    $timeout(function(){
+                        $scope.categorias = data.data.subcategorias;
+                        $scope.loaded = false;
+                    },500);
+                }else{
+                    $location.path("/");
+                }
+            });
+        }else{
+            console.log("No existe identificador ");
+        }
+    }
+    function subCategoriaController( $scope, serviceProducto, $routeParams,$timeout,$location,$http ){
+        $scope.categorias = [];
+        $scope.label = "";
+        $scope.idCategoria = "";
+        $scope.fondo = "";
+        $scope.loaded = true;
+        $scope.firstItemType = "image";
+        $scope.idCategoria = "";
+        var pageActual = 1;
+        var totalPages = 1;
+        var win = $( window );
+        var categorias= [];
+        var _data = [];
+        $scope.banner = {};
+        if( $routeParams.hasOwnProperty("categoria") && $routeParams.hasOwnProperty("subcategoria")){
+            if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1833808" === $routeParams.subcategoria){
+                serviceProducto.getSubSubCategoria($routeParams.subcategoria, pageActual, responseSubSubCategoria);
+                if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1833808" === $routeParams.subcategoria){
+                  serviceProducto.getSubCategoria( $routeParams.categoria,$routeParams.subcategoria,pageActual, function( data ){
+                      _data= data;
+                          $scope.banner = _data.data.principal;
+                  });
+                }
+                $scope.banner = $routeParams.categoria;
+                $scope.idCategoria = $routeParams.subcategoria;
+              return;
+            }
+            serviceProducto.getSubCategoria( $routeParams.categoria,$routeParams.subcategoria,pageActual, function( data ){
+                _data= data;
+                if( _data.success ){
+                    $scope.label = _data.data.principal.label;
+                  //  $scope.banner = _data.data.principal;
+                    $scope.fondo =  _data.data.principal.hasOwnProperty("colorfondo") ? _data.data.principal.colorfondo: "" ;
+                    $scope.idCategoria = $routeParams.categoria;
+                    serviceProducto.getSubSubCategoria( _data.data.principal.categoryid, pageActual, responseSubSubCategoria);
+                }
+            });
+        }
+        $scope.irDetalle=function(id){
+            $location.path("/detalle/"+id);
+        }
+        win.scroll(function() {
+            if ( ( $(document).height() - win.height() == win.scrollTop() ) && $scope.loaded ===false) {
+                pageActual ++;
+                if( pageActual <= totalPages ){
+                    $scope.loaded = true;
+                    serviceProducto.getSubSubCategoria( _data.data.principal.navigationState, pageActual, responseSubSubCategoria );
+                }else{
+                    console.log("");
+                }
+		   }
+	    });
+        function responseSubSubCategoria(data){
+
+                categorias = categorias.concat( data.data );
+                $scope.subcategorias = categorias;
+                totalPages = data.totalPages;
+                $scope.loaded  = false;
+
+        };
+
+    }/*end funcion subCategoriaController*/
+})();
+
+(function(){
+    angular.module('detalle',[]).controller("detalleJugueteController",detalleController)
+    .directive('twitter', [compartirTwitter]);
+    function compartirTwitter(){
+        return {
+            link: function(scope, element, attr) {
+                setTimeout(function() {
+                        twttr.widgets.createShareButton(
+                            attr.url,
+                            element[0],
+                            function(el) {}, {
+                                count: 'none',
+                                text: attr.text
+                            }
+                        );
+                });
+            }
+        }
+    }
+    function detalleController($scope,$routeParams,serviceProducto,$location,$timeout){
+        $scope.vm = {};
+        $scope.vm.success = false;
+        $scope.vm.producto = [];
+        $scope.imagenAux = "";
+        $scope.loaded = true;
+        $scope.indexActive = -1;
+        if( $routeParams.hasOwnProperty("productId") ){
+            serviceProducto.getProducto( $routeParams.productId,function(data){
+                if( data.success ){
+                    $scope.imagenAux = data.data.imageBg;
+                    $scope.vm.success = data.success;
+                    $scope.vm.producto = data.data;
+           
+                    $timeout(function(){
+                        initGallery($scope);
+                        $scope.loaded =false;
+                    },1000);
+                }
+            },1);
+
+        }else{
+            console.log(" No existe identificador ");
+        }
+        $scope.cambioImagen = function(imagen) {
+            $scope.imagenAux = imagen;
+        };
+        $scope.share = function(producto){
+          FB.ui({
+              method: 'share',
+              mobile_iframe: true,
+              href: 'http://lamejorjugueteria.liverpool.com.mx/#/detalle/'+producto.id,
+          } , function(response){
+          });
+        };
+        $scope.compartirGoogle=function( producto ){
+            var href="https://plus.google.com/share?url=http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F"+producto.id+"&ref_src=twsrc%5Etfw&text="+producto.description;
+            window.open(href,
+  'http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F'+producto.id+'&ref_src=twsrc%5Etfw&text='+producto.description, 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+        }
+        $scope.shareTwitter = function(producto){
+          var src = 'https://twitter.com/intent/tweet?text=http://lamejorjugueteria.liverpool.com.mx/#/detalle/'+producto.id;
+          window.open('https://twitter.com/intent/tweet?text=http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F'+producto.id)
+        }
+        $scope.goToSlider=function(index){
+          $scope.indexActive = index;
+          var owl = $('#slider').data('owlCarousel');
+          owl.goTo(index+1);
+        }
+    };//end detalle controller
+    var foo = function( event ) {
+          if ( event ) {
+          } else {
+          }
+    };
+    function initGallery(scope){
+              // reference for main items
+              var slider = $('#slider');
+              // reference for thumbnail items
+              var thumbnailSlider = $('#thumbnailSlider');
+              //transition time in ms
+              var duration = 500;
+              // carousel function for main slider
+              slider.owlCarousel({
+                autoPlay:false,
+                pagination:false,
+                navigation:false,
+                items : 1,
+                itemsDesktop : [1199,1],
+                itemsDesktopSmall : [980,1],
+                itemsTablet: [768,1],
+                itemsTabletSmall: false,
+                itemsMobile : [479,1],
+                singleItem : true
+              });//.on('changed.owl.carousel', function (e) {
+
+              $("#thumbnailSlider > .owl-wrapper-outer > .owl-wrapper > .owl-item:first").trigger( "click");
+              foo();
+              // carousel function for thumbnail slider
+              thumbnailSlider.owlCarousel({
+               autoPlay:false,
+               pagination:false,
+               navigation:false,
+               items : 9,
+                itemsDesktop : [1199,9],
+                itemsDesktopSmall : [980,9],
+                itemsTablet: [768,4],
+                itemsTabletSmall: false,
+                itemsMobile : [479,3],
+                singleItem : false
+              }).on('click', '.owl-item', function () {
+               // On click of thumbnail items to trigger same main item
+               slider.trigger('owl.goTo', [$(this).index()+1, duration, true]);
+                $(".owl-item").removeClass("active");
+                $(this).addClass("active");
+              }).on('changed.owl.carousel', function (e) {
+               // On change of thumbnail item to trigger main item
+               slider.trigger('owl.goTo', [e.item.index+1, duration, true]);
+                $(".owl-item").removeClass("active");
+              });
+              //These two are navigation for main items
+              $('.slider-right').click(function() {
+               slider.trigger('owl.next');
+               //slider.next()
+              });
+              $('.slider-left').click(function() {
+               slider.trigger('owl.prev');
+               //slider.prev()
+              });
+    }//end init galleria
+})();
+
+(function() {
+    angular.module('home', []).controller("inicioController", inicioController)
+
+    function inicioController($scope, serviceProducto, $location, $http, myConfig) {
+        $scope.banners = [];
+        $scope.top10 = [];
+        $scope.totalCartas = "000000";
+        serviceProducto.getTop10(function(data) {
+            $scope.top10 = data.toys || [];
+        });
+        $scope.irDetalleTop = function(id) {
+            $location.path("/detalletopdiez/" + id);
+        }
+        $scope.irSeccion = function(path) {
+            $location.path(path);
+        }
+        $scope.irCarta = function() {
+            $location.path("/micarta");
+        };
+        $scope.openInstrucciones = function() {
+            $("#modalInstrucciones").modal('show');
+        }
+        initFooterAnimations();
+      //  animationSnow();
+    }
+
+    function initFooterAnimations() {
+        $("#footerArmables").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
+        $("#footerNinas").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+        $("#footerVehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':70})
+        $("#footerNinos").AnimationSvg({ 'spriteWidth': 960, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+        $("#footerBebes").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
+        $("#footerVideoJuegos").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
+    };
+
+    function animationSnow() {
+        var nsnow = 4;
+        var count = 0;
+        var _swith = 0;
+        var inter = setInterval(mySnow, 1600);
+        var increment1 = 0;
+        var increment2 = 0;
+
+        function mySnow() {
+            increment1 = getRandomInt(240, 310);
+            increment2 = getRandomInt(380, 430);
+            for (var i = 0; i < nsnow; i++) {
+                $("#container_principal").append("<div class='snow" + getRandomInt(1, 3) + "' style='left:" + getRandomInt(0, nsnow) * (_swith === 0 ? increment1 : increment2) + "px'>*</div>");
+
+            }
+            _swith = (_swith === 0) ? 1 : 0;
+
+            count++;
+            if (count >= 4) {
+                limpia();
+
+            }
+        }
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        }
+
+
+        function limpia() {
+            clearInterval(inter);
+        }
+    }
+
+
+})();
+
 (function() {
     angular.module('busquedas', []).controller("busquedaResultadoController", busquedaResultadoController)
         .controller("mejoresMarcasController", busquedaResultadoController);
@@ -428,414 +836,6 @@
 })();
 
 (function(){
-	angular.module('carta',[]).controller( "cartaController", cartaController )
-	.controller( "cartaControllerFelicidades", cartaControllerFelicidades );
-
-	function cartaController($rootScope, $scope, serviceStorePedidos,$location ){
-
-		$scope.carta = {email:"",mensaje:"",nombre:""};
-		$scope.information = {
-			success: true,
-			data: {
-				color1:"#97F34E",
-				color2:"none",
-				color3:"#FC3491",
-				fondo:"#f6cfe4",
-				label:"Mi carta a Santa"
-			},
-			code: 0
-		};
-		$scope.isActiveBtnEnviar = true;
-		$scope.pedidos = function(){
-		   return serviceStorePedidos.getPedidos();
-		}
-		$scope.eliminarPedido = function(index){
-		   serviceStorePedidos.deletePedido(index);
-		}
-		$scope.enviarPedido = function(){
-			$scope.isActiveBtnEnviar = false;
-			if($scope.carta.mensaje === "")
-				$scope.carta.mensaje="Este año he sido buen niñ@. Acabo la tarea antes de jugar. Respeto a mis mayores, ayudo en mi casa y sobre todo me como mis verduras. Te agradecería si me pudieras traer los juguetes que seleccione en La Mejor Juguetería";
-			serviceStorePedidos.enviarPedido($scope.carta,function(response){
-			 if( response.success )
-				if( response.code === -2 ) {
-					$("#modalEnvioMal").modal('show');
-					$scope.isActiveBtnEnviar = true;
-				}else
-					if( response.code ===-1 ) {
-						$("#modalEnvioMalFalta").modal('show');
-						$scope.isActiveBtnEnviar = true;
-					}else if(response.code === 1 ){
-						$rootScope.cartaExito = true;
-						$location.path("/micarta/felicidades");
-					}
-			});
-		}
-		$scope.addFavoritos=function(p){
-			$(".fa.fa-heart-o").click(function() {
-			$(this).removeClass("fa-heart-o")
-			$(this).addClass("fa-heart")
-			})
-		};
-		$scope.microfono=function(id){
-
-			if (window.hasOwnProperty('webkitSpeechRecognition')) {
-
-					var recognition = new webkitSpeechRecognition();
-
-					recognition.continuous = false;
-					recognition.interimResults = false;
-
-					recognition.lang = "es-MX";
-					recognition.start();
-
-					recognition.onresult = function(e) {
-						document.getElementById(id).value = e.results[0][0].transcript;
-						recognition.stop();
-						//document.getElementById('labnol').submit();
-						$('#mic').css('background',"url('assets/images/micro/inactivo.png')");
-						$('#mic2').css('background',"url('assets/images/micro/inactivo.png')");
-						$('#mic3').css('background',"url('assets/images/micro/inactivo.png')");
-					};
-
-					recognition.onerror = function(e) {
-						recognition.stop();
-
-					}
-				}
-		};
-			$('#mic').click( function() {
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$('#mic2').click( function() {
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$('#mic3').click( function() {
-				$(this).css('background',"url('assets/images/micro/animated.gif')");
-			})
-			$("input#transcript1").click(function () {
-				document.getElementById('audioNombre').play();
-			});
-			$("input#transcript2").click(function () {
-				document.getElementById('audioMail').play();
-			});
-			$("textarea#transcript3").click(function () {
-				document.getElementById('audioSanta').play();
-			});
-
-	}
-	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
-		var  pedidos = serviceStorePedidos.getPedidos();
-		if(pedidos.length <= 0){
-			$location.path("/indexqa.html")
-		}else{
-		   	$rootScope.cartaExito = false;
-			serviceStorePedidos.deleteAllPedidos();
-			 	$scope.regresar=function(){
-			 		$location.path("/indexqa.html");
-			 	}
-		 }
-	}
-
-})();
-
-(function(){
-    angular.module('categorias',[]).controller( "categoriasController", categoriaController ).
-    controller( "subCategoriaController", subCategoriaController );
-    function categoriaController( $scope, serviceProducto, $routeParams,$location,$timeout ){
-        $scope.categorias = [];
-        $scope.idCategoria = "";
-
-        // $scope
-        $scope.loaded = true;
-        $scope.banner = null;
-        if( $routeParams.hasOwnProperty("categoria")){
-            serviceProducto.getCategoria( $routeParams.categoria, function( data ){
-                if( data.success ){
-                    $scope.banner = data.data.principal;
-                    $scope.idCategoria = $routeParams.categoria;
-                    $timeout(function(){
-                        $scope.categorias = data.data.subcategorias;
-                        $scope.loaded = false;
-                    },500);
-                }else{
-                    $location.path("/");
-                }
-            });
-        }else{
-            console.log("No existe identificador ");
-        }
-    }
-    function subCategoriaController( $scope, serviceProducto, $routeParams,$timeout,$location,$http ){
-        $scope.categorias = [];
-        $scope.label = "";
-        $scope.idCategoria = "";
-        $scope.fondo = "";
-        $scope.loaded = true;
-        $scope.firstItemType = "image";
-        $scope.idCategoria = "";
-        var pageActual = 1;
-        var totalPages = 1;
-        var win = $( window );
-        var categorias= [];
-        var _data = [];
-        $scope.banner = {};
-        if( $routeParams.hasOwnProperty("categoria") && $routeParams.hasOwnProperty("subcategoria")){
-            if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1833808" === $routeParams.subcategoria){
-                serviceProducto.getSubSubCategoria($routeParams.subcategoria, pageActual, responseSubSubCategoria);
-                if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1833808" === $routeParams.subcategoria){
-                  serviceProducto.getSubCategoria( $routeParams.categoria,$routeParams.subcategoria,pageActual, function( data ){
-                      _data= data;
-                          $scope.banner = _data.data.principal;
-                  });
-                }
-                $scope.banner = $routeParams.categoria;
-                $scope.idCategoria = $routeParams.subcategoria;
-              return;
-            }
-            serviceProducto.getSubCategoria( $routeParams.categoria,$routeParams.subcategoria,pageActual, function( data ){
-                _data= data;
-                if( _data.success ){
-                    $scope.label = _data.data.principal.label;
-                  //  $scope.banner = _data.data.principal;
-                    $scope.fondo =  _data.data.principal.hasOwnProperty("colorfondo") ? _data.data.principal.colorfondo: "" ;
-                    $scope.idCategoria = $routeParams.categoria;
-                    serviceProducto.getSubSubCategoria( _data.data.principal.categoryid, pageActual, responseSubSubCategoria);
-                }
-            });
-        }
-        $scope.irDetalle=function(id){
-            $location.path("/detalle/"+id);
-        }
-        win.scroll(function() {
-            if ( ( $(document).height() - win.height() == win.scrollTop() ) && $scope.loaded ===false) {
-                pageActual ++;
-                if( pageActual <= totalPages ){
-                    $scope.loaded = true;
-                    serviceProducto.getSubSubCategoria( _data.data.principal.navigationState, pageActual, responseSubSubCategoria );
-                }else{
-                    console.log("");
-                }
-		   }
-	    });
-        function responseSubSubCategoria(data){
-
-                categorias = categorias.concat( data.data );
-                $scope.subcategorias = categorias;
-                totalPages = data.totalPages;
-                $scope.loaded  = false;
-
-        };
-
-    }/*end funcion subCategoriaController*/
-})();
-
-(function(){
-    angular.module('detalle',[]).controller("detalleJugueteController",detalleController)
-    .directive('twitter', [compartirTwitter]);
-    function compartirTwitter(){
-        return {
-            link: function(scope, element, attr) {
-                setTimeout(function() {
-                        twttr.widgets.createShareButton(
-                            attr.url,
-                            element[0],
-                            function(el) {}, {
-                                count: 'none',
-                                text: attr.text
-                            }
-                        );
-                });
-            }
-        }
-    }
-    function detalleController($scope,$routeParams,serviceProducto,$location,$timeout){
-        $scope.vm = {};
-        $scope.vm.success = false;
-        $scope.vm.producto = [];
-        $scope.imagenAux = "";
-        $scope.loaded = true;
-        $scope.indexActive = -1;
-        if( $routeParams.hasOwnProperty("productId") ){
-            serviceProducto.getProducto( $routeParams.productId,function(data){
-                if( data.success ){
-                    $scope.imagenAux = data.data.imageBg;
-                    $scope.vm.success = data.success;
-                    $scope.vm.producto = data.data;
-           
-                    $timeout(function(){
-                        initGallery($scope);
-                        $scope.loaded =false;
-                    },1000);
-                }
-            },1);
-
-        }else{
-            console.log(" No existe identificador ");
-        }
-        $scope.cambioImagen = function(imagen) {
-            $scope.imagenAux = imagen;
-        };
-        $scope.share = function(producto){
-          FB.ui({
-              method: 'share',
-              mobile_iframe: true,
-              href: 'http://lamejorjugueteria.liverpool.com.mx/#/detalle/'+producto.id,
-          } , function(response){
-          });
-        };
-        $scope.compartirGoogle=function( producto ){
-            var href="https://plus.google.com/share?url=http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F"+producto.id+"&ref_src=twsrc%5Etfw&text="+producto.description;
-            window.open(href,
-  'http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F'+producto.id+'&ref_src=twsrc%5Etfw&text='+producto.description, 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
-        }
-        $scope.shareTwitter = function(producto){
-          var src = 'https://twitter.com/intent/tweet?text=http://lamejorjugueteria.liverpool.com.mx/#/detalle/'+producto.id;
-          window.open('https://twitter.com/intent/tweet?text=http%3A%2F%2Flamejorjugueteria.liverpool.com.mx%2F%23%2Fdetalle%2F'+producto.id)
-        }
-        $scope.goToSlider=function(index){
-          $scope.indexActive = index;
-          var owl = $('#slider').data('owlCarousel');
-          owl.goTo(index+1);
-        }
-    };//end detalle controller
-    var foo = function( event ) {
-          if ( event ) {
-          } else {
-          }
-    };
-    function initGallery(scope){
-              // reference for main items
-              var slider = $('#slider');
-              // reference for thumbnail items
-              var thumbnailSlider = $('#thumbnailSlider');
-              //transition time in ms
-              var duration = 500;
-              // carousel function for main slider
-              slider.owlCarousel({
-                autoPlay:false,
-                pagination:false,
-                navigation:false,
-                items : 1,
-                itemsDesktop : [1199,1],
-                itemsDesktopSmall : [980,1],
-                itemsTablet: [768,1],
-                itemsTabletSmall: false,
-                itemsMobile : [479,1],
-                singleItem : true
-              });//.on('changed.owl.carousel', function (e) {
-
-              $("#thumbnailSlider > .owl-wrapper-outer > .owl-wrapper > .owl-item:first").trigger( "click");
-              foo();
-              // carousel function for thumbnail slider
-              thumbnailSlider.owlCarousel({
-               autoPlay:false,
-               pagination:false,
-               navigation:false,
-               items : 9,
-                itemsDesktop : [1199,9],
-                itemsDesktopSmall : [980,9],
-                itemsTablet: [768,4],
-                itemsTabletSmall: false,
-                itemsMobile : [479,3],
-                singleItem : false
-              }).on('click', '.owl-item', function () {
-               // On click of thumbnail items to trigger same main item
-               slider.trigger('owl.goTo', [$(this).index()+1, duration, true]);
-                $(".owl-item").removeClass("active");
-                $(this).addClass("active");
-              }).on('changed.owl.carousel', function (e) {
-               // On change of thumbnail item to trigger main item
-               slider.trigger('owl.goTo', [e.item.index+1, duration, true]);
-                $(".owl-item").removeClass("active");
-              });
-              //These two are navigation for main items
-              $('.slider-right').click(function() {
-               slider.trigger('owl.next');
-               //slider.next()
-              });
-              $('.slider-left').click(function() {
-               slider.trigger('owl.prev');
-               //slider.prev()
-              });
-    }//end init galleria
-})();
-
-(function() {
-    angular.module('home', []).controller("inicioController", inicioController)
-
-    function inicioController($scope, serviceProducto, $location, $http, myConfig) {
-        $scope.banners = [];
-        $scope.top10 = [];
-        $scope.totalCartas = "000000";
-        serviceProducto.getTop10(function(data) {
-            $scope.top10 = data.toys || [];
-        });
-        $scope.irDetalleTop = function(id) {
-            $location.path("/detalletopdiez/" + id);
-        }
-        $scope.irSeccion = function(path) {
-            $location.path(path);
-        }
-        $scope.irCarta = function() {
-            $location.path("/micarta");
-        };
-        $scope.openInstrucciones = function() {
-            $("#modalInstrucciones").modal('show');
-        }
-        initFooterAnimations();
-      //  animationSnow();
-    }
-
-    function initFooterAnimations() {
-        $("#footerArmables").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
-        $("#footerNinas").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-        $("#footerVehiculos").AnimationSvg({'spriteWidth':800,'spriteHeight':200,steps:4,'areaWidth':70})
-        $("#footerNinos").AnimationSvg({ 'spriteWidth': 960, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-        $("#footerBebes").AnimationSvg({ 'spriteWidth': 700, 'spriteHeight': 100, steps: 7, 'areaWidth': 90 });
-        $("#footerVideoJuegos").AnimationSvg({ 'spriteWidth': 800, 'spriteHeight': 100, steps: 8, 'areaWidth': 90 });
-    };
-
-    function animationSnow() {
-        var nsnow = 4;
-        var count = 0;
-        var _swith = 0;
-        var inter = setInterval(mySnow, 1600);
-        var increment1 = 0;
-        var increment2 = 0;
-
-        function mySnow() {
-            increment1 = getRandomInt(240, 310);
-            increment2 = getRandomInt(380, 430);
-            for (var i = 0; i < nsnow; i++) {
-                $("#container_principal").append("<div class='snow" + getRandomInt(1, 3) + "' style='left:" + getRandomInt(0, nsnow) * (_swith === 0 ? increment1 : increment2) + "px'>*</div>");
-
-            }
-            _swith = (_swith === 0) ? 1 : 0;
-
-            count++;
-            if (count >= 4) {
-                limpia();
-
-            }
-        }
-
-        function getRandomInt(min, max) {
-            min = Math.ceil(min);
-            max = Math.floor(max);
-            return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
-        }
-
-
-        function limpia() {
-            clearInterval(inter);
-        }
-    }
-
-
-})();
-
-(function(){
     angular.module('factorys',[]).factory('JsonCategorias',categorias)
     .factory('home',home)
     .factory('storePedidos',storePedidos)
@@ -1046,7 +1046,7 @@
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                      //  $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})
+                      /* $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})*/
                         var url = myConfig.pathServiceSearch+word;
                           $http.get(url).then(function(data) {
                                         var contents = data.data;
