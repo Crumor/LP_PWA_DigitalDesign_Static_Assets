@@ -2383,6 +2383,64 @@ dataLayer.push({
 }
 }
 });
+                
+                
+                
+/*BLP MABE*/ 
+
+            break;
+            case '/tienda/mabe/cat5300107':
+            
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_mabe_111119',
+    'name': 'Main Mabe',
+    'creative': 'blp_mabe_main',
+    'position': '01'
+},
+{
+    'id': 'hornos_111119',
+    'name': 'Hornos y estufas',
+    'creative': 'blp_mabe_hornos',
+    'position': '02'
+},
+{
+    'id': 'lavavajillas_111119',
+    'name': 'Lavavajillas',
+    'creative': 'blp_mabe_lavavajillas',
+    'position': '03'
+},
+{
+    'id': 'mabeio_111119',
+    'name': 'IO Mabe',
+    'creative': 'blp_mabe_mabeio',
+    'position': '04'
+},
+{
+    'id': 'geprofile_111119',
+    'name': 'GE Profile',
+    'creative': 'blp_mabe_geprofile',
+    'position': '05'
+}
+]
+}
+}
+});
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
 
 
 /* Michael Kors*/ 
