@@ -120,9 +120,9 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'3'
 		},
-  {
-		'id':'linea_blanca_041119',
-		'name':'Línea Blanca hasta 40% de desc',
+        {
+		'id':'linea_blanca_121119',
+		'name':'Línea Blanca hasta 44% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
@@ -157,8 +157,8 @@ function myOnloadFunction(pageName,path) {
        'position':'9'
 		},
 							{
-		'id':'garmin_041119',
-		'name':'Garmin hasta 15 MSI',
+		'id':'pantallas_121119',
+		'name':'Pantallas hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'10'
 		},									{
@@ -189,100 +189,6 @@ function myOnloadFunction(pageName,path) {
 		'name':'Él hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'15'
-		},
-				{
-		'id':'linea_blanca_111119',
-		'name':'Línea Blanca hasta 51% de desc',
-		'creative':'h_banner_central',
-		'position':'1'
-        },
-		{
-		'id':'celulares_111119',
-		'name':'Celulares hasta 25% de reemboloso o hasta 10% de reembolso y hasta 18 MSI',
-		'creative':'h_banner_secun',
-		'position':'2'
-		},
-		{
-		'id':'pantallas_111119',
-       'name':'Pantallas hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'3'
-		},
-  {
-		'id':'computo_111119',
-		'name':'Cómputo hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'4'
-		},
-							{
-		 'id':'relojes_111119',
-		'name':'Relojes hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'5'
-		},
-							{
-		'id':'zapatos_111119',
-		'name':'Zapatos hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'6'
-		},
-							{
-		'id':'aparatos_ejercicio_111119',
-		'name':'Aparatos de ejercicio hasta 35% de desc o hasta 20 MSI',
-       'creative':'h_banner_secun',
-       'position':'7'
-		},
-							{
-		'id':'deportes_111119',
-		'name':'Deportes hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'8'
-		},
-												{
-		'id':'muebles_111119',
-		'name':'Muebles hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'9'
-		},
-							{
-		'id':'electricos_111119',
-		'name':'Eléctricos hasta 49% de desc',
-       'creative':'h_banner_secun',
-       'position':'10'
-		},									{
-		'id':'colchones_111119',
-		'name':'Colchones hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'11'
-		},
-							{
-		'id':'juguetes_111119',
-		'name':'Juguetes hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'12'
-		},			
-							{
-		'id':'ella_111119',
-		'name':'Ella hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
-		},									{
-		'id':'el_111119',
-		'name':'Él hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'14'
-		},
-							{
-		'id':'asadores_111119',
-		'name':'Asadores hasta 40% de desc',
-       'creative':'h_banner_secun',
-       'position':'15'
-		},
-                            {
-		'id':'vinos_licores_111119',
-		'name':'Vinos y licores hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'16'
 		}
      
                         ]
