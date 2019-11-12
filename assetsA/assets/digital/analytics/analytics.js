@@ -59,7 +59,7 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'3'
 		},
-  {
+        {
 		'id':'linea_blanca_041119',
 		'name':'Línea Blanca hasta 40% de desc',
        'creative':'h_banner_secun',
@@ -96,8 +96,8 @@ function myOnloadFunction(pageName,path) {
        'position':'9'
 		},
 							{
-		'id':'garmin_041119',
-		'name':'Garmin hasta 15 MSI',
+		'id':'pantallas_121119',
+		'name':'Pantallas hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'10'
 		},									{
