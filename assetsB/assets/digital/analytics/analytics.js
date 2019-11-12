@@ -121,8 +121,8 @@ function myOnloadFunction(pageName,path) {
        'position':'3'
 		},
         {
-		'id':'linea_blanca_041119',
-		'name':'Línea Blanca hasta 40% de desc',
+		'id':'linea_blanca_121119',
+		'name':'Línea Blanca hasta 44% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
