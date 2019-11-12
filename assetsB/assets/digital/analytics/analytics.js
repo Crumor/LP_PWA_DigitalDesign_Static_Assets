@@ -212,142 +212,94 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'bts_main_180619',
-'name': 'Back to School Liverpool',
-'creative': 'blp_el_bts_main',
-'position': '01'
+    'id': 'main_121119',
+    'name': 'Main El',
+    'creative': 'blp_el_main',
+    'position': '01'
 },
 {
-'id': 'acapella_300719',
-'name': 'Acapella Él',
-'creative': 'blp_el_acapella',
-'position': '02'
+    'id': 'chamarras_121119',
+    'name': 'Chamarras',
+    'creative': 'blp_el_chamarras',
+    'position': '02'
 },
 {
-'id': 'aeropostale_130819',
-'name': 'Aeropostale',
-'creative': 'blp_el_aeropostale',
-'position': '03'
+    'id': 'aeropostale_121119',
+    'name': 'Aeropostale',
+    'creative': 'blp_el_aeropostale',
+    'position': '03'
 },
 {
-'id': 'american_eagle_300719',
-'name': 'American Eagle',
-'creative': 'blp_el_american_eagle',
-'position': '04'
+    'id': 'ae_121119',
+    'name': 'American Eagle',
+    'creative': 'blp_el_ae',
+    'position': '04'
 },
 {
-'id': 'new_arrivals_130519',
-'name': 'New Arrivals Él',
-'creative': 'blp_el_New_Arrivals',
-'position': '05'
+    'id': 'playeras_121119',
+    'name': 'Playeras',
+    'creative': 'blp_el_playeras',
+    'position': '05'
 },
 {
-'id': 'new_arrivals_1_130519',
-'name': 'New Arrivals 1',
-'creative': 'blp_el_New_Arrivals_1',
-'position': '06'
+    'id': 'casual_121119',
+    'name': 'Casual',
+    'creative': 'blp_el_casual',
+    'position': '06'
 },
 {
-'id': 'new_arrivals_2_130519',
-'name': 'New Arrivals 2',
-'creative': 'blp_el_New_Arrivals_2',
-'position': '07'
+    'id': 'jeans_121119',
+    'name': 'Jeans',
+    'creative': 'blp_el_jeans',
+    'position': '07'
 },
 {
-'id': 'new_arrivals_3_130519',
-'name': 'New Arrivals 3',
-'creative': 'blp_el_New_Arrivals_3',
-'position': '08'
+    'id': 'sacos_121119',
+    'name': 'Sacos',
+    'creative': 'blp_el_sacos',
+    'position': '08'
 },
 {
-'id': 'new_arrivals_4_130519',
-'name': 'New Arrivals 4',
-'creative': 'blp_el_New_Arrivals_4',
+'id': 'marcas_hugo_121119',
+'name': 'Marcas Hugo',
+'creative': 'blp_el_marcas_hugo',
 'position': '09'
 },
 {
-'id': 'new_arrivals_5_130519',
-'name': 'New Arrivals 5',
-'creative': 'blp_el_New_Arrivals_5',
+'id': 'marcas_banana_121119',
+'name': 'Marcas Banana',
+'creative': 'blp_el_marcas_banana',
 'position': '10'
 },
 {
-'id': 'new_arrivals_6_130519',
-'name': 'New Arrivals 6',
-'creative': 'blp_el_New_Arrivals_6',
+'id': 'marcas_american_121119',
+'name': 'Marcas American',
+'creative': 'blp_el_marcas_american',
 'position': '11'
 },
 {
-'id': 'boss_hugo_130519',
-'name': 'Boss Hugo',
-'creative': 'blp_el_boss',
+'id': 'marcas_psycho_121119',
+'name': 'Marcas Psycho',
+'creative': 'blp_el_marcas_psycho',
 'position': '12'
 },
 {
-'id': 'camisas_casuales_130519',
-'name': 'Camisas Casuales',
-'creative': 'blp_el_street_playeras',
+'id': 'marcas_gap_121119',
+'name': 'Marcas GAP',
+'creative': 'blp_el_marcas_GAP',
 'position': '13'
 },
 {
-'id': 'street_sueter_130519',
-'name': 'Street Mochilas',
-'creative': 'blp_el_street_mochilas',
+'id': 'marcas_ben_121119',
+'name': 'Marcas Ben',
+'creative': 'blp_el_marcas_ben',
 'position': '14'
 },
 {
-'id': 'chamarras_130519',
-'name': 'Chamarras',
-'creative': 'blp_el_chamarras',
-'position': '15'
-},
-{
-'id': 'marcas_el_hugo_130519',
-'name': 'Marcas Hugo',
-'creative': 'blp_el_marcas_hugo',
-'position': '16'
-},
-{
-'id': 'marcas_el_banana_130519',
-'name': 'Marcas Banana',
-'creative': 'blp_el_marcas_banana',
-'position': '17'
-},
-{
-'id': 'marcas_el_american_130519',
-'name': 'Marcas American',
-'creative': 'blp_el_marcas_american',
-'position': '18'
-},
-{
-'id': 'marcas_el_jcrew_130519',
-'name': 'Marcas JCrew',
-'creative': 'blp_el_marcas_jcrew',
-'position': '19'
-},
-{
-'id': 'marcas_el_psycho_130519',
-'name': 'Marcas Psycho',
-'creative': 'blp_el_marcas_psycho',
-'position': '20'
-},
-{
-'id': 'marcas_el_gap_130519',
-'name': 'Marcas Gap',
-'creative': 'blp_el_marcas_gap',
-'position': '21'
-},
-{
-'id': 'marcas_el_ben_130519',
-'name': 'Marcas Ben',
-'creative': 'blp_el_marcas_ben',
-'position': '22'
-},
-{
-'id': 'marcas_el_ralph_130519',
+'id': 'marcas_ralph_121119',
 'name': 'Marcas Ralph',
 'creative': 'blp_el_marcas_ralph',
-'position': '23'
+'position': '15'
 }
 ]
 }
