@@ -4042,34 +4042,40 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'main_210619',
+    'id': 'main_131119',
     'name': 'Samsung Main',
     'creative': 'blp_samsung_main',
     'position': '01'
 },
 {
-    'id': 'watch_210619',
-    'name': 'Samsung Watch',
-    'creative': 'blp_samsung_watch',
+    'id': 'samsung_fold_131119',
+    'name': 'Samsung Fold',
+    'creative': 'blp_samsung_fold',
     'position': '02'
 },
 {
-    'id': 'family_210619',
-    'name': 'Samsung Family',
-    'creative': 'blp_samsung_family',
+    'id': 'samsung_watch_131119',
+    'name': 'Samsung Watch',
+    'creative': 'blp_samsung_watch',
     'position': '03'
 },
 {
-    'id': 'tab_210619',
-    'name': 'Samsung Tab',
-    'creative': 'blp_samsung_tab',
+    'id': 'hub_131119',
+    'name': 'Samsung Hub',
+    'creative': 'blp_samsung_hub',
     'position': '04'
 },
 {
-    'id': 'lavadora_210619',
+    'id': 'tab_131119',
+    'name': 'Samsung Tab',
+    'creative': 'blp_samsung_tab',
+    'position': '05'
+},
+{
+    'id': 'lavadora_131119',
     'name': 'Samsung Lavadora',
     'creative': 'blp_samsung_lavadora',
-    'position': '05'
+    'position': '06'
 }
 ]
 }
