@@ -3536,58 +3536,46 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'main_210619',
-    'name': 'Apple Main',
-    'creative': 'blp_apple_main',
+    'id': 'especiales_131119',
+    'name': 'Apple Especiales',
+    'creative': 'blp_apple_especiales',
     'position': '01'
 },
 {
-    'id': 'watch_210619',
+    'id': 'watch_131119',
     'name': 'Apple Watch',
     'creative': 'blp_apple_watch',
     'position': '02'
 },
 {
-    'id': 'macbook_210619',
+    'id': 'macbook_131119',
     'name': 'Apple Macbook',
     'creative': 'blp_apple_macbook',
     'position': '03'
 },
 {
-    'id': 'homepod_210619',
+    'id': 'homepod_131119',
     'name': 'Apple Homepedo',
     'creative': 'blp_apple_homepod',
     'position': '04'
 },
 {
-    'id': 'macbookair_210619',
-    'name': 'Apple Macbookair',
-    'creative': 'blp_apple_macbookair',
+    'id': 'accesorios_131119',
+    'name': 'Apple Accesorios',
+    'creative': 'blp_apple_accesorios',
     'position': '05'
 },
 {
-    'id': 'ipad_210619',
+    'id': 'ipad_131119',
     'name': 'Apple Ipad',
     'creative': 'blp_apple_ipad',
     'position': '06'
 },
 {
-    'id': 'imac_210619',
+    'id': 'imac_131119',
     'name': 'Apple Imac',
     'creative': 'blp_apple_imac',
     'position': '07'
-},
-{
-    'id': 'accesorios_210619',
-    'name': 'Apple Accesorios',
-    'creative': 'blp_apple_accesorios',
-    'position': '08'
-},
-{
-    'id': 'macpro_210619',
-    'name': 'Apple Macpro',
-    'creative': 'blp_apple_macpro',
-    'position': '09'
 }
 ]
 }
