@@ -1,0 +1,286 @@
+
+
+h1 {
+    color: #161616;
+    font: 13px robotoregular, arial, sans-serif;
+    
+    }
+    
+    h2 {
+    color: #3B3B3E;
+    font: 13px robotoregular, arial, sans-serif;
+    
+    }
+    
+    #titulo_producto h1 {
+    color: #000;
+    font: 24px/24px robotoregular, arial, sans-serif;
+    line-height: 10px;
+    padding: 0 0 3px
+    }
+    
+    .titulo {
+    color: #999;
+    font: 13px arial, sans-serif
+    }
+    
+    h3 {
+    color: #333
+    }
+    
+    a {
+    background: transparent;
+    color: #555;
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: baseline
+    }
+    
+    a,p,div {
+    font-family: arial, sans-serif
+    }
+    
+    legend,legend span {
+    font-family: robotoregular, arial, sans-serif
+    }
+    
+    #guest_user h2,.titulo-h2,#new_user h2 {
+    color: #565656;
+    font: 1.2em/1em arial, sans-serif
+    }
+    
+    .numeros,.datos {
+    color: #474747;
+    font-family: arial;
+    font-weight: normal;
+    padding-right: 50px
+    }
+    
+    .rosa_small {
+    color: #e0068d;
+    font: .7em/.8em arial, Helvetica, sans-serif
+    }
+    
+    .rosa_small_italica {
+    color: #e0068d;
+    font: .7em/.8em arial, Helvetica, sans-serif;
+    font-style: italic
+    }
+    
+    .rosa_regular {
+    color: #e0068d;
+    font: .8em/.9em arial, Helvetica, sans-serif
+    }
+    
+    .rosa_medio {
+    color: #e0068d;
+    font: .9em/1em arial, Helvetica, sans-serif
+    }
+    
+    .rosa_bold {
+    color: #e0068d;
+    font: .9em/1em arial, Helvetica, sans-serif;
+    font-weight: bold
+    }
+    
+    .gris_small,.inscribete_b p {
+    color: #666;
+    font: .7em arial, Helvetica, sans-serif
+    }
+    
+    .sku_detalle,.sm-gray {
+    color: #838383;
+    font: .80em/.9em roboto, Helvetica, sans-serif;
+    height: 39px;
+    padding: 5px 0;
+    position: relative
+    }
+    
+    .gris_medio {
+    color: #666;
+    font: .9em/1em arial, Helvetica, sans-serif
+    }
+    
+    .gris_bold {
+    color: #666;
+    font: .9em/1em arial, Helvetica, sans-serif;
+    font-weight: bold
+    }
+    
+    .gris_italica_open {
+    color: #666;
+    font: 1em/1.2em arial, Helvetica, sans-serif
+    }
+    
+    .black_small {
+    color: #161616;
+    font: .7em/.8em arial, Helvetica, sans-serif
+    }
+    
+    .black_small_italica {
+    color: #161616;
+    font: .7em/.8em arial, Helvetica, sans-serif;
+    font-style: italic
+    }
+    
+    .black_regular {
+    color: #161616;
+    font: .8em/.9em arial, Helvetica, sans-serif
+    }
+    
+    .black_medio {
+    color: #161616;
+    font: .9em/1em arial, Helvetica, sans-serif
+    }
+    
+    .black_bold {
+    color: #161616;
+    font: .9em/1em arial, Helvetica, sans-serif;
+    font-weight: bold
+    }
+    
+    .black_big_bold {
+    color: #161616;
+    font: 1.2em/1em arial, Helvetica, sans-serif;
+    font-weight: bold
+    }
+    
+    .azul_small {
+    color: #3B3B3E;
+    font: .7em arial, Helvetica, sans-serif
+    }
+    
+    .azul_small_italica {
+    color: #3B3B3E;
+    font: 10px/11px arial, sans-serif;
+    font-style: italic
+    }
+    
+    .azul_regular {
+    color: #3B3B3E;
+    font: .8em/.9em arial, Helvetica, sans-serif
+    }
+    
+    .azul {
+    color: #3B3B3E
+    }
+    
+    .azul_medio {
+    color: #3B3B3E;
+    font: .9em/1em arial, Helvetica, sans-serif
+    }
+    
+    .azul_bold {
+    color: #3B3B3E;
+    font: .9em/1em arial, Helvetica, sans-serif;
+    font-weight: bold
+    }
+    
+    .azul_bold_gde {
+    background: url(/assets/images/iconos/call_icon_sm.jpg) no-repeat 2px 1px;
+    color: #3B3B3E;
+    display: block;
+    font: 1.1em arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 20px
+    }
+    
+    .azul_bold_big {
+    background: url(/assets/images/iconos/icono_pencil.gif) no-repeat 2px 4px;
+    color: #e90f8f;
+    display: block;
+    font: 1.1em arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-indent: 20px
+    }
+    
+    .subtitulo_detalles {
+    color: #000;
+    font: 11px arial, sans-serif
+    }
+    
+    h2.nombre-producto-modulo,.minishopping-name {
+    color: #333;
+    font-family: verdana, arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.2em
+    }
+    
+    h2.nombre-producto-modulo:hover,.minishopping-name:hover {
+    color: #0c9bd3;
+    cursor: pointer
+    }
+    
+    .descripcion_larga {
+    color: #3b3b3e;
+    font: .8em/.9em arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    text-align: left
+    }
+    
+    div.seccion_datos h2 {
+    color: #000;
+    font: 18px arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px
+    }
+    
+    div.seccion_datos h2.over {
+    color: #3B3B3E !important;
+    font: 18px arial, sans-serif
+    }
+    
+    .menu_portada h3 {
+    color: #3d3d3d;
+    font: 1.5em robotoregular,arial,sans-serif;
+    letter-spacing: -1px;
+    width: 220px;
+    text-transform: uppercase;
+    }
+    
+    .medidas_modulo {
+    text-align: left
+    }
+    
+    span.medidas {
+    color: #3B3B3E;
+    font: 12px arial, Helvetica, sans-serif bolder
+    }
+    
+    .text-regular {
+    font: .9em arial, sans-serif
+    }
+    
+    .precio_tachado {
+    color: #666;
+    font: 12px/15px arial, sans-serif;
+    text-decoration: line-through
+    }
+    
+    .precio_regular {
+    color: #e0068d;
+    font: 13px arial, sans-serif
+    }
+    
+    .container h2,h4,.all_promos h3 {
+    color: #3B3B3E;
+    font: 13px arial, sans-serif
+    }
+    
+    .gris_small_italica,.medidas_leyenda {
+    color: #666;
+    font: 10px/11px arial, sans-serif;
+    font-style: italic
+    }
+    
+    .gris_regular,.gris_regular_open {
+    color: #666;
+    font: .8em/.9em arial, Helvetica, sans-serif
+    }
+    
+    /* GR 2018 font weight bold change */
+    .font-add-giftlist{font-weight: normal;}
+    .font-add-giftlist:hover{color: #333;}
+    /* GR 2018 end */
