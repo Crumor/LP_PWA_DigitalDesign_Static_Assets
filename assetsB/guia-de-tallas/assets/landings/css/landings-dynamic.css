@@ -1,0 +1,168 @@
+/*******HEADER & FOOTER LANDINGS STYLES***********/
+ul{list-style: none}
+.row:before, .row:after, .panel:before, .panel:after {content: " "; display: table;}
+.row:after, .panel:after {clear: both;}
+
+
+.large-12{width:100%}
+.large-11{width:91.66667%}
+.large-10{width:83.33333%}
+.large-9{width:75%}
+.large-8{width:66.66667%}
+.large-7{width:58.33333%}
+.large-6{width:50%;}
+.large-5{width:41.66667%;}
+.large-4{width:33.33333%;}
+.large-3{width:25%;}
+.large-2{width:16.66667%;}
+.large-1{width:8.33333%;}
+
+.columns{padding-left: 0.425rem;padding-right: 0.425rem;position: relative;float: left; }
+
+*, *:before, *:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+
+#landing-header {
+    width: 100%;
+    background: #FAFAFA;
+    height: 76px;
+}
+
+.landing-header-content {
+    display: block;
+    width: 100%;
+    max-width: 78.2rem;
+    margin: 0 auto;
+}
+
+
+#landing-footer {
+    width: 100%;
+    margin-top: 1.111rem;
+
+}
+#landing-footer .panel{background: none!important}
+
+
+.full-width {
+    width: 100%!important;
+}
+
+.gray{background: #EDEDED;}
+
+.master-logo {
+    width: 8rem;
+    display: block;
+    float: left;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+
+.go-site {float: right;}
+
+.go-site p {
+    float: left;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: 22px;
+    margin-right: 20px;
+}
+.go-site p a:hover {
+ 
+    cursor: pointer;
+}
+
+.landing-footer-content{
+    width: 100%;
+    max-width: 78.2rem;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.landing-footer-content .panel > *
+{
+    margin-top:11px;    
+}
+
+.lv-logo{display: block;}
+.large1{text-align: center;}
+.large2{text-align: center;}
+.large3{text-align: center;}
+
+ul.social-connect {
+text-align: center;
+margin: 0.2rem 0;
+}
+
+ul.social-connect a{
+display: block;
+padding: 1em;
+}
+ul.social-connect li {
+width: 30px;
+height: 30px;
+display: inline-block;
+margin: 0px 5px;
+background: url(/assets/images/bg/sprite_landing.png) no-repeat;
+}
+
+ul.social-connect li:hover{cursor: pointer;}
+
+ul.social-connect li.fb {background-position: -23px -20px;}
+ul.social-connect li.twt{background-position: -67px -20px;}
+ul.social-connect li.pt{background-position: -111px -20px;}
+ul.social-connect li.go{background-position: -157px -20px;}
+
+ul.social-connect li.fb:hover {background-position: -23px -65px;}
+ul.social-connect li.twt:hover{background-position: -67px -65px;}
+ul.social-connect li.pt:hover{background-position: -111px -65px;}
+ul.social-connect li.go:hover{background-position: -157px -65px;}
+
+span.conditions {
+margin-top: 25px;
+}
+.conditions a {
+cursor: pointer;
+display: inline-block;
+font-size: 0.8rem;
+margin: 0 0.3rem ;
+}
+.conditions a:hover{}
+
+#copywrite {
+    font-size: 0.8rem;
+}
+
+
+@media only screen and (min-width: 40em) {
+    .master-logo {
+        width: 10rem;
+    }
+    .large1{text-align: left;}
+    .large2{text-align: center;}
+    .large3{text-align: right;}
+}
+
+
+.lan-content{width: 1250px; margin: 0 auto}
+#landing #landing-header{margin-bottom: 1em}
+.lan-bn, .lan-nav, #landing .panel, #landing .callout, #landing .brands{background: #ccc; font-weight: bold; text-align: center;}
+.lan-bn{height: 500px;}
+.lan-right, .lan-nav{height:835px;}
+.lan-right.min, .lan-nav.min{height: 520px;}
+
+#landing{margin: 0}
+#landing .panel{height: 250px; margin-bottom: 1.2em}
+#landing .callout{height: 250px;}
+#landing .carousel{background: #888; padding-top: 1em; margin-bottom: 1.2em}
+#landing .columns{margin-bottom: 1.3em}
+#landing .brands{height: 50px;}
+#landing #landing-footer .panel{height: auto!important;}
+#landing .panel.small{height: 150px;}
+#landing .panel.height{height: 420px;}
+
+
+.clear{clear: both;}
