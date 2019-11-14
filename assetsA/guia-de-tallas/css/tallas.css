@@ -1,0 +1,219 @@
+a:hover, a:link{color: #000;} 
+#ninas, #ninos, #bebes, #damas, #caballeros, #calzado{
+  background-color: whitesmoke;           
+  padding: 4em 1em 1em;
+  height: 100px;
+}
+.logo{
+  background-color: #FFF;
+  width: 100%;
+  color: #FF0099;
+  font-size: 40px;
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  font-weight: bolder;
+  position: fixed;
+  z-index: 1;
+
+}
+
+#menu{
+  background-color: #fff;
+  width: 100%; 
+  position: fixed;
+  z-index: 3;
+}
+
+.sub-nav {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: -0.25rem 0 1.125rem;
+  padding-top: 0.25rem;
+  align-content: space-between;
+  position: fixed;
+  z-index: 2;
+  margin-top: 60px;
+  background-color: #fff;
+}
+
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+  float: none;
+  display: inline;
+  margin-left: 0px!important;
+  margin-bottom: 0;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #999999;
+}
+
+.sub-nav dd.active a, .sub-nav li.active a {
+  border-radius: 3px;
+  text-align: start;
+  font-weight: normal;
+  background: #FF0099;
+  padding: 0.1875rem 1rem;
+  cursor: default;
+  color: #fff;
+}
+
+.title-table{
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #666;
+}
+
+.title-table02{
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ff0099;
+}
+
+.title-table03{
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #999999;
+}
+
+.row {
+  width: 100%;
+  background: whitesmoke;
+}
+
+.columns{text-align:center;}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.orbit-container {
+  overflow: hidden;
+  max-width: 1250px;
+  position: relative;
+  background: none;
+  margin: auto;
+}
+
+.orbit-container .orbit-slides-container img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.orbit-container .orbit-timer{
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  height: 6px;
+  width: 100%;
+  z-index: 10;
+}
+
+.orbit-container .orbit-prev {
+  left: 0;
+}
+
+.orbit-container .orbit-next {
+  right: 0;
+}
+
+.orbit-container .orbit-slide-number {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  font-size: 10px;
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  color: #FFFFFF;
+  background: transparent;
+  z-index: 10;
+}
+
+.fullWidth{width: 100%;margin-left: auto;margin-right: auto;max-width: initial;}
+
+h3 {
+font-size: 1.2rem;
+}
+
+
+.secciones {
+  background-color: #fff;
+  height: 100%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.secciones02 {
+  background-color: #fff;
+  height: 100%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.category-text-left{
+  color: #fff;
+  text-align: center;
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  font-size: 20px;
+  background-color: #f57921;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: auto;
+}
+
+.category-text-right{
+  color: #fff;
+  text-align: center;
+  font-family: 'roboto', helvetica, arial, sans-serif;
+  font-size: 20px;
+  background-color: #f57921;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: auto;
+}
+
+#content {
+  max-width: 1250px;
+  margin: auto;
+}
+
+.button {
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  /* text-decoration: none; */
+  /* text-align: center; */
+  -webkit-appearance: none;
+  border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  /* padding-bottom: 2rem; */
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #fff;
+  border-color: #fff;
+  color: #FFFFFF;
+  transition: background-color 300ms ease-out;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #fff;
+  color: #FFFFFF;
+}
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
+  background: #b3006b;
+}
