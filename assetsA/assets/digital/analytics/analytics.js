@@ -32,7 +32,7 @@ var catExcludeList = [{catId:"cat7180011",validate:"true",id:"cat-0001", action:
 }
 function countDownBuenFin(){
 	try {
-                var endDate = new Date("November 15, 2019 23:59:59").getTime();
+                var endDate = new Date("November 14, 2019 21:00:00").getTime();
                 var elDays = document.querySelectorAll(".cdh_days");
                 var elHours = document.querySelectorAll(".cdh_hours");
                 var elMinutes = document.querySelectorAll(".cdh_minutes");
