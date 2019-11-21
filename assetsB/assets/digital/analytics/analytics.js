@@ -152,7 +152,7 @@ function myOnloadFunction(pageName,path) {
 		},
 							{
 		'id':'pantallas_191119',
-		'name':'Pantallas hasta 25% de desc',
+		'name':'Pantallas hasta 45% de desc',
        'creative':'h_banner_secun',
        'position':'9'
 		},									{
