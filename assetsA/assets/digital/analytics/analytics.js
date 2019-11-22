@@ -152,7 +152,7 @@ function myOnloadFunction(pageName,path) {
 		},
 							{
 		'id':'pantallas_191119',
-		'name':'Pantallas hasta 45% de desc',
+		'name':'Pantallas hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'9'
 		},									{
@@ -183,6 +183,12 @@ function myOnloadFunction(pageName,path) {
 		'name':'Navidad hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'14'
+		},
+                            {
+		'id':'computo_191119',
+		'name':'Cómputo hasta 10% de desc',
+       'creative':'h_banner_secun',
+       'position':'15'
 		}
      
                         ]
