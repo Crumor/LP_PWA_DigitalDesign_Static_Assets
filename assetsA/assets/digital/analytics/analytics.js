@@ -3249,39 +3249,39 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'tops_el_210619',
-    'name': 'Hugo Tops Él',
-    'creative': 'blp_hugo_tops_el',
+    'id': 'principal_251119',
+    'name': 'Hugo Main',
+    'creative': 'blp_hugo_main',
     'position': '01'
 },
 {
-    'id': 'accesorios_el_210619',
-    'name': 'Hugo Accesorios',
-    'creative': 'blp_hugo_accesorios_el',
+    'id': 'liam_251119',
+    'name': 'Hugo Liam',
+    'creative': 'blp_hugo_liam',
     'position': '02'
 },
 {
-    'id': 'bottoms_el_210619',
-    'name': 'Hugo Bottoms',
-    'creative': 'blp_hugo_bottoms_el',
+    'id': 'logo_251119',
+    'name': 'Hugo Logo',
+    'creative': 'blp_hugo_logo',
     'position': '03'
 },
 {
-    'id': 'tops_ella_210619',
-    'name': 'Hugo Tops Ella',
-    'creative': 'blp_hugo_tops_ella',
+    'id': 'vestidos_251119',
+    'name': 'Hugo Vestidos',
+    'creative': 'blp_hugo_vestidos',
     'position': '04'
 },
 {
-    'id': 'bottoms_ella_210619',
-    'name': 'Hugo Bottoms Ella',
-    'creative': 'blp_hugo_bottoms_ella',
+    'id': 'calzado_251119',
+    'name': 'Hugo Calzado',
+    'creative': 'blp_hugo_calzado',
     'position': '05'
 },
 {
-    'id': 'accesorios_ella_210619',
-    'name': 'Hugo Accesorios Ella',
-    'creative': 'blp_hugo_accesorios_ella',
+    'id': 'ropa_interior_251119',
+    'name': 'Hugo Ropa',
+    'creative': 'blp_hugo_ropa',
     'position': '06'
 }
 ]
