@@ -190,7 +190,126 @@ function myOnloadFunction(pageName,path) {
 		'name':'Deportes hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'14'
+		},
+				
+					{
+		'id':'pantallas_291119',
+		'name':'Pantallas hasta 55% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
+           	},
+		
+                            
+        {
+		'id':'muebles_291119',
+		'name':'Muebles hasta 50% de desc',
+		'creative':'h_banner_secun',
+		'position':'2'
+		},
+            {
+        'id':'linea_blanca_291119',
+		'name':'Línea Blanca hasta 47% de desc',
+		'creative':'h_banner_secun',
+		'position':'3'
+		},
+           	{
+ 		'id':'cocina_291119',
+		'name':'Cocina hasta 40% de desc',
+		'creative':'h_banner_secun',
+		'position':'4'
+		},
+          	 {
+		'id':'colchones_291119',
+		'name':'Colchones hasta 50% de desc',
+		'creative':'h_banner_secun',
+		'position':'5'
+		},
+            {
+		'id':'casa_291119',
+		'name':'Casa hasta 40% de desc',
+		'creative':'h_banner_secun',
+		'position':'6'
+		},
+            {
+		'id':'celulares_291119',
+		'name':'Celulares hasta 25% de reem ó hasta 10% de reem y hasta 18 MSI',
+        'creative':'h_banner_secun',
+        'position':'7'
+		},                
+            {
+		'id':'juguetes_291119',
+		'name':'Juguetes hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'8'
+		},              
+            {
+		'id':'computo_291119',
+		'name':'Cómputo hasta 20% de desc',
+		'creative':'h_banner_secuun',
+		'position':'9'
+		},
+			 
+                            
+                            
+            {
+		'id':'bebes_y_niños_291119',
+		'name':'Bebés y Niños hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'10'
+		},
+             {
+        'id':'ella_291119',
+		'name':'Ella hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'11'
+		},           
+             {
+		'id':'el_291119',
+		'name':'Él hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'12'
+		 },
+             {
+        'id':'zapatos_291119',
+		'name':'Zapatos hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'13'
+		},
+             {
+        'id':'deportes_291119',
+		'name':'Deportes hasta 40% de desc',
+		'creative':'h_banner_secun',
+		'position':'14'
+		 },
+             
+                            
+                            
+              {
+        'id':'nike_y_puma_291119',
+		'name':'Nike y Puma hasta 40% de desc',
+		'creative':'h_banner_secun',
+		'position':'15'
+		},
+              {
+        'id':'videojuegos_291119',
+		'name':'Videojuegos hasta 15% de desc',
+		'creative':'h_banner_secun',
+		'position':'16'
+		},
+              {
+        'id':'sonido_291119',
+		'name':'Sonido hasta 40% de desc',
+		'creative':'h_banner_secun',
+		'position':'17'
+		 },
+              {
+        'id':'swarovski_291119',
+		'name':'Swarovski hasta 50% de desc',
+		'creative':'h_banner_secun',
+		'position':'18'
 		}
+				
+				
      
                         ]
                     }
