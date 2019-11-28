@@ -1483,23 +1483,39 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'singles_main_071119',
-    'name': 'Singles Main',
-    'creative': 'blp_celulares_singles_main',
+    'id': 'cyber_main_071119',
+    'name': 'Cyber Main',
+    'creative': 'blp_celulares_cyber_main',
     'position': '01'
 },
 {
-    'id': 'singles_iphone_071119',
-    'name': 'Singles iphone',
-    'creative': 'blp_celulares_singles_iphone',
+    'id': 'cyber_motorola_071119',
+    'name': 'Cyber Motorola',
+    'creative': 'blp_celulares_cyber_motorola',
     'position': '02'
 },
 {
 
-    'id': 'singles_samsung_071119',
-    'name': 'Singles Samsung',
-    'creative': 'blp_celulares_singles_samsung',
-    'position': '03'
+    'id': 'cyber_apple_071119',
+    'name': 'Cyber Apple',
+    'creative': 'blp_celulares_cyber_apple',
+    'position': '02'
+                                                
+},
+{
+
+    'id': 'bf_main_071119',
+    'name': 'BF Main',
+    'creative': 'blp_celulares_bf_main',
+    'position': '01'
+                                                
+},
+{
+
+    'id': 'bfriday_motorola_071119',
+    'name': 'BFriday Motorola',
+    'creative': 'blp_celulares_bfriday_motorola',
+    'position': '02'
                                                 
 },
 {
