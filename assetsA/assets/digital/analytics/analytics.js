@@ -307,6 +307,113 @@ function myOnloadFunction(pageName,path) {
 		'name':'Swarovski hasta 50% de desc',
 		'creative':'h_banner_secun',
 		'position':'18'
+		},
+	{
+		'id':'linea_blanca_021219',
+		'name':'Línea Blanca hasta 51% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
+        },
+		{
+		'id':'pantallas_021219',
+       'name':'Pantallas hasta 55% de desc',
+       'creative':'h_banner_secun',
+       'position':'2'
+		},
+			{
+		 'id':'computadoras_021219',
+		'name':'Computadoras hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'3'
+		},
+			{
+		'id':'celulares_021219',
+		'name':'Celulares hasta 25% de desc o hasta 10% de reembolso y 18 Meses Sin Intereses',
+       'creative':'h_banner_secun',
+       'position':'4'
+		},
+            {
+		'id':'muebles_021219',
+		'name':'Muebles hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'5'
+		},
+            {
+		'id':'colchones_021219',
+		'name':'Colchones hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'6'
+		},
+            {
+		'id':'cocina_021219',
+		'name':'Cocina hasta 46% de desc',
+       'creative':'h_banner_secun',
+       'position':'7'
+		},		
+            {
+		'id':'zapatos_021219',
+		'name':'Zapatos hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
+		},		
+            {
+		'id':'juguetes_021219',
+		'name':'Juguetes hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'9'
+		},									{
+		'id':'videojuegos_021219',
+		'name':'Videojuegos hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'10'
+		},
+            {
+		'id':'casa_021219',
+		'name':'Casa hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'11'
+		},
+            {
+		'id':'el_021219',
+		'name':'Él hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'12'
+		},
+            {
+		'id':'ella_021219',
+		'name':'Ella hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'13'
+		},
+			{
+		'id':'bebes_niños_021219',
+		'name':'Bebés y Niños hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'14'
+		},
+			{
+		'id':'deportes_021219',
+		'name':'Deportes hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'15'
+		},
+			{
+		'id':'sonido_021219',
+		'name':'Sonido hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'16'
+		},
+		{
+		'id':'vinos_licores_021219',
+		'name':'Vinos y Licores hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'17'
+		},
+		{
+		'id':'motos_021219',
+		'name':'Motos 30% de desc y 20 Meses Sin Intereses',
+       'creative':'h_banner_secun',
+       'position':'18'
 		}
 				
 				
