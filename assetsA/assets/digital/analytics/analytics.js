@@ -102,7 +102,13 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-         {
+           {
+		'id':'juguetes_011219',
+		'name':'Juguetes hasta 20% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
+        },
+							{
 		'id':'juguetes_251119',
 		'name':'Juguetes hasta 20% de desc',
 		'creative':'h_banner_central',
