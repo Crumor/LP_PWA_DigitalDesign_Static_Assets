@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-           {
+              	{
 		'id':'juguetes_031219',
 		'name':'Juguetes',
 		'creative':'h_banner_central',
@@ -134,14 +134,14 @@ function myOnloadFunction(pageName,path) {
        'position':'5'
 		},
             {
-		'id':'colchones_251119',
-		'name':'Colchones hasta 20% de desc',
+		'id':'colchones_031219',
+		'name':'Colchones hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'6'
 		},
             {
-		'id':'pantallas_251119',
-		'name':'Pantallas hasta 25% de desc',
+		'id':'pantallas_031219',
+		'name':'Pantallas hasta 45% de desc',
        'creative':'h_banner_secun',
        'position':'7'
 		},
@@ -162,15 +162,10 @@ function myOnloadFunction(pageName,path) {
 		'name':'Zapatos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'10'
-		},									{
-		'id':'el_251119',
-		'name':'Él hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'11'
-		},
-            {
-		'id':'ella_251119',
-		'name':'Ella hasta 20% de desc',
+		},									
+                 {
+		'id':'ella_031219',
+		'name':'Ella hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},
@@ -179,17 +174,21 @@ function myOnloadFunction(pageName,path) {
 		'name':'Bebés y Niños hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'13'
-		},
+		},           
             {
-		'id':'deportes_251119',
-		'name':'Deportes hasta 25% de desc',
+		'id':'el_031219',
+		'name':'Él hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'11'
+		},
+            
+            {
+		'id':'deportes_031219',
+		'name':'Deportes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'14'
 		}
-				
 					
-				
-				
      
                         ]
                     }
