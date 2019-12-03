@@ -102,18 +102,13 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-           {
-		'id':'juguetes_011219',
-		'name':'Juguetes hasta 20% de desc',
+              	{
+		'id':'juguetes_031219',
+		'name':'Juguetes',
 		'creative':'h_banner_central',
 		'position':'1'
         },
-							{
-		'id':'juguetes_251119',
-		'name':'Juguetes hasta 20% de desc',
-		'creative':'h_banner_central',
-		'position':'1'
-        },
+							
 		{
 		'id':'top_deals_251119',
 		'name':'TOP deals ofertas del día',
@@ -139,14 +134,14 @@ function myOnloadFunction(pageName,path) {
        'position':'5'
 		},
             {
-		'id':'colchones_251119',
-		'name':'Colchones hasta 20% de desc',
+		'id':'colchones_031219',
+		'name':'Colchones hasta 40% de desc',
        'creative':'h_banner_secun',
        'position':'6'
 		},
             {
-		'id':'pantallas_251119',
-		'name':'Pantallas hasta 25% de desc',
+		'id':'pantallas_031219',
+		'name':'Pantallas hasta 45% de desc',
        'creative':'h_banner_secun',
        'position':'7'
 		},
@@ -167,15 +162,10 @@ function myOnloadFunction(pageName,path) {
 		'name':'Zapatos hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'10'
-		},									{
-		'id':'el_251119',
-		'name':'Él hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'11'
-		},
-            {
-		'id':'ella_251119',
-		'name':'Ella hasta 20% de desc',
+		},									
+                 {
+		'id':'ella_031219',
+		'name':'Ella hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},
@@ -184,13 +174,21 @@ function myOnloadFunction(pageName,path) {
 		'name':'Bebés y Niños hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'13'
-		},
+		},           
             {
-		'id':'deportes_251119',
-		'name':'Deportes hasta 25% de desc',
+		'id':'el_031219',
+		'name':'Él hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'11'
+		},
+            
+            {
+		'id':'deportes_031219',
+		'name':'Deportes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'14'
 		}
+				
      
                         ]
                     }
@@ -1483,23 +1481,39 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'singles_main_071119',
-    'name': 'Singles Main',
-    'creative': 'blp_celulares_singles_main',
+    'id': 'cyber_main_071119',
+    'name': 'Cyber Main',
+    'creative': 'blp_celulares_cyber_main',
     'position': '01'
 },
 {
-    'id': 'singles_iphone_071119',
-    'name': 'Singles iphone',
-    'creative': 'blp_celulares_singles_iphone',
+    'id': 'cyber_motorola_071119',
+    'name': 'Cyber Motorola',
+    'creative': 'blp_celulares_cyber_motorola',
     'position': '02'
 },
 {
 
-    'id': 'singles_samsung_071119',
-    'name': 'Singles Samsung',
-    'creative': 'blp_celulares_singles_samsung',
-    'position': '03'
+    'id': 'cyber_apple_071119',
+    'name': 'Cyber Apple',
+    'creative': 'blp_celulares_cyber_apple',
+    'position': '02'
+                                                
+},
+{
+
+    'id': 'bf_main_071119',
+    'name': 'BF Main',
+    'creative': 'blp_celulares_bf_main',
+    'position': '01'
+                                                
+},
+{
+
+    'id': 'bfriday_motorola_071119',
+    'name': 'BFriday Motorola',
+    'creative': 'blp_celulares_bfriday_motorola',
+    'position': '02'
                                                 
 },
 {
