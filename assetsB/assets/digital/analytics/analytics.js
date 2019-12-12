@@ -188,10 +188,9 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'14'
 		},
-				
-				
-		
-				
+
+
+
 		{
 		'id':'linea_blanca_061219',
 		'name':'Línea blanca hasta 47% de desc',
@@ -313,10 +312,9 @@ function myOnloadFunction(pageName,path) {
 		'name':'Aparatos de ejercicio hasta 40% de desc',
 		'creative':'h_banner_secun',
 		'position':'19'
-		}		
+		}
 
-				
-     
+	
                         ]
                     }
                 }
@@ -3008,40 +3006,52 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'pickbox1_260619',
-    'name': 'Pickbox Caja 1',
-    'creative': 'blp_pickbox_1',
+    'id': 'main_121219',
+    'name': 'Main PB',
+    'creative': 'blp_pickbox_main',
     'position': '01'
 },
 {
-    'id': 'pickbox2_260619',
-    'name': 'Pickbox Caja 2',
-    'creative': 'blp_pickbox_2',
+    'id': 'cleanser_121219',
+    'name': 'Cleanser PB',
+    'creative': 'blp_pickbox_cleanser',
     'position': '02'
 },
 {
-    'id': 'pickbox3_260619',
-    'name': 'Pickbox Caja 3',
-    'creative': 'blp_pickbox_3',
+    'id': 'DG_121219',
+    'name': 'DG PB',
+    'creative': 'blp_pickbox_dg',
     'position': '03'
 },
 {
-    'id': 'pickbox4_260619',
-    'name': 'Pickbox Caja 4',
-    'creative': 'blp_pickbox_4',
+    'id': 'fem_121219',
+    'name': 'Fem Florarl PB',
+    'creative': 'blp_pickbox_fem',
     'position': '04'
 },
 {
-    'id': 'pickbox5_260619',
-    'name': 'Pickbox Caja 5',
-    'creative': 'blp_pickbox_5',
+    'id': 'makeup_121219',
+    'name': 'Make Up PB',
+    'creative': 'blp_pickbox_makeup',
     'position': '05'
 },
 {
-    'id': 'pickbox6_260619',
-    'name': 'Pickbox Caja 6',
-    'creative': 'blp_pickbox_6',
+    'id': 'skincare_121219',
+    'name': 'SkinCare PB',
+    'creative': 'blp_pickbox_skincare',
     'position': '06'
+},
+{
+    'id': 'lanzamientonew_121219',
+    'name': 'Lanzamiento New PB',
+    'creative': 'blp_pickbox_lanzamientonew',
+    'position': '07'
+},
+{
+    'id': 'new_121219',
+    'name': 'New PB',
+    'creative': 'blp_pickbox_new',
+    'position': '08'
 }
 ]
 }
