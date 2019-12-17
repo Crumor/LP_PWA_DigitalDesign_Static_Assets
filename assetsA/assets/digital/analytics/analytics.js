@@ -103,217 +103,91 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
               	{
-		'id':'juguetes_031219',
-		'name':'Juguetes',
+		'id':'ella_161219',
+		'name':'Ella',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 							
 		{
-		'id':'top_deals_251119',
+		'id':'top_deals_161219',
 		'name':'TOP deals ofertas del día',
 		'creative':'h_banner_secun',
 		'position':'2'
 		},
 		{
-		'id':'muebles_251119',
+		'id':'muebles_161219',
        'name':'Muebles hasta 50% de desc',
        'creative':'h_banner_secun',
        'position':'3'
 		},
 			{
-		 'id':'linea_blanca_251119',
-		'name':'Línea Blanca hasta 40% de desc',
+		 'id':'linea_blanca_161219',
+		'name':'Línea Blanca hasta 47% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
 			{
-		'id':'casa_251119',
-		'name':'Casa hasta 40% de desc',
+		'id':'casa_161219',
+		'name':'Casa hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'5'
 		},
             {
-		'id':'colchones_031219',
-		'name':'Colchones hasta 40% de desc',
+		'id':'colchones_161219',
+		'name':'Colchones hasta 36% de desc',
        'creative':'h_banner_secun',
        'position':'6'
 		},
             {
-		'id':'pantallas_031219',
-		'name':'Pantallas hasta 45% de desc',
+		'id':'pantallas_161219',
+		'name':'Pantallas hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'7'
 		},
             {
-		'id':'celulares_251119',
-		'name':'Celulares hasta 13 meses sin intereses',
+		'id':'celulares_161219',
+       'name':'Celulares hasta 13 MSI',
        'creative':'h_banner_secun',
        'position':'8'
 		},		
             {
-		'id':'computo_251119',
-		'name':'Cómputo hasta 10% de desc',
+		'id':'computo_161219',
+       'name':'Cómputo hasta 10% de desc',
        'creative':'h_banner_secun',
        'position':'9'
 		},		
             {
-		'id':'zapatos_251119',
-		'name':'Zapatos hasta 20% de desc',
+		'id':'zapatos_161219',
+       'name':'Zapatos',
        'creative':'h_banner_secun',
        'position':'10'
 		},									
                  {
-		'id':'ella_031219',
-		'name':'Ella hasta 25% de desc',
-       'creative':'h_banner_secun',
-       'position':'12'
-		},
-            {
-		'id':'bebes_niños_251119',
-		'name':'Bebés y Niños hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
-		},           
-            {
-		'id':'el_031219',
-		'name':'Él hasta 25% de desc',
+		'id':'gap_161219',
+		'name':'GAP',
        'creative':'h_banner_secun',
        'position':'11'
 		},
+            {
+		'id':'bebes_niños_161219',
+		'name':'Bebés y Niños',
+       'creative':'h_banner_secun',
+       'position':'12'
+		},           
+            {
+		'id':'el_161219',
+		'name':'Él',
+       'creative':'h_banner_secun',
+       'position':'13'
+		},
             
             {
-		'id':'deportes_031219',
+		'id':'deportes_161219',
 		'name':'Deportes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'14'
-		},
-
-
-
-		{
-		'id':'linea_blanca_061219',
-		'name':'Línea blanca hasta 47% de desc',
-		'creative':'h_banner_central',
-		'position':'1'
-           	},
-		
-                            
-     		{
-		'id':'computo_061219',
-		'name':'Cómputo hasta 20% de desc',
-		'creative':'h_banner_secun',
-		'position':'2'
-		},
-           	 {
-		'id':'celulares_061219',
-		'name':'Celulares hasta 25% de reem ó hasta 10% de reem y hasta 18 MSI',
-		'creative':'h_banner_secun',
-		'position':'3'
-		},
-           	{
- 		'id':'pantallas_061219',
-		'name':'Pantallas hasta 55% de desc',
-		'creative':'h_banner_secun',
-		'position':'4'
-		},
-          	 {
-		'id':'juguetes_061219',
-		'name':'Juguetes hasta 30% de desc',
-		'creative':'h_banner_secun',
-		'position':'5'
-		},
-           	{
-		'id':'cocina_061219',
-		'name':'Cocina hasta 40% de desc',
-		'creative':'h_banner_secun',
-		'position':'6'
-		},            
-                            
-            	{
-		'id':'casa_061219',
-		'name':'Casa hasta 40% de desc',
-        	'creative':'h_banner_secun',
-       		'position':'7'
-		},                
-           	{
-		'id':'muebles_061219',
-		'name':'Muebles hasta 50% de desc',
-        	'creative':'h_banner_secun',
-        	'position':'8'
-		},              
-           	{
-		'id':'casa_061219',
-		'name':'Casa hasta 40% de desc',
-		'creative':'h_banner_secuun',
-		'position':'9'
-		},
-			 {
-		'id':'colchones_061219',
-		'name':'Colchones hasta 44% de desc',
-        	'creative':'h_banner_secun',
-        	'position':'10'
-		},
-             	{
-        	'id':'zapatos_061219',
-		'name':'Zapatos hasta 30% de desc',
-        	'creative':'h_banner_secun',
-        	'position':'11'
-		},           
-             
-                            
-                            
-             	{
-		'id':'el_061219',
-		'name':'Él hasta 30% de desc',
-        	'creative':'h_banner_secun',
-        	'position':'12'
-		 },
-             	{
-        	'id':'ella_061219',
-		'name':'Ella hasta 30% de desc',
-        	'creative':'h_banner_secun',
-        	'position':'13'
-		},
-             	{
-        	'id':'bebes_ninos_061219',
-		'name':'Bebés y niños 40% de desc',
-		'creative':'h_banner_secun',
-		'position':'14'
-		 },
-             	{
-        	'id':'deportes_061219',
-		'name':'Deportes hasta 40% de desc',
-		'creative':'h_banner_secun',
-		'position':'15'
-		},
-                 
-                            
-            	{
-        	'id':'relojes_061219',
-		'name':'Relojes hasta 50% de desc',
-		'creative':'h_banner_secun',
-		'position':'16'
-		},
-        	{
-        	'id':'sonido_061219',
-		'name':'Sonido hasta 40% de desc',
-		'creative':'h_banner_secun',
-		'position':'17'
-		 },
-            	{
-        	'id':'vinos_y_licores_061219',
-		'name':'Vinos y licores hasta 25% de desc',
-		'creative':'h_banner_secun',
-		'position':'18'
-		},
-                {
-        	'id':'aparatos_ejercicio_061219',
-		'name':'Aparatos de ejercicio hasta 40% de desc',
-		'creative':'h_banner_secun',
-		'position':'19'
 		}
-
 	
                         ]
                     }
