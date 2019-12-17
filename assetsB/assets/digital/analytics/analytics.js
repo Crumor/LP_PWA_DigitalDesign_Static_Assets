@@ -188,7 +188,6 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'14'
 		}
-
 	
                         ]
                     }
@@ -3281,39 +3280,39 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'principal_251119',
-    'name': 'Hugo Main',
-    'creative': 'blp_hugo_main',
+    'id': 'principal_171219',
+    'name': 'Hugo Main Movil',
+    'creative': 'blp_hugo_main_movil',
     'position': '01'
 },
 {
-    'id': 'liam_251119',
-    'name': 'Hugo Liam',
-    'creative': 'blp_hugo_liam',
+    'id': 'el_171219',
+    'name': 'Hugo El',
+    'creative': 'blp_hugo_el',
     'position': '02'
 },
 {
-    'id': 'logo_251119',
-    'name': 'Hugo Logo',
-    'creative': 'blp_hugo_logo',
+    'id': 'ella_171219',
+    'name': 'Hugo Ella',
+    'creative': 'blp_hugo_ella',
     'position': '03'
 },
 {
-    'id': 'vestidos_251119',
-    'name': 'Hugo Vestidos',
-    'creative': 'blp_hugo_vestidos',
+    'id': 'playeras_171219',
+    'name': 'Hugo Playeras',
+    'creative': 'blp_hugo_playeras',
     'position': '04'
 },
 {
-    'id': 'calzado_251119',
+    'id': 'calzado_171219',
     'name': 'Hugo Calzado',
     'creative': 'blp_hugo_calzado',
     'position': '05'
 },
 {
-    'id': 'ropa_interior_251119',
-    'name': 'Hugo Ropa',
-    'creative': 'blp_hugo_ropa',
+    'id': 'ropa_interior_171219',
+    'name': 'Hugo Ropa Interior',
+    'creative': 'blp_hugo_ropa_interior',
     'position': '06'
 }
 ]
