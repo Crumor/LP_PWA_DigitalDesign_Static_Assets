@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/credit-new.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+	$( function() {
+	var icons = {
+	  header: "arrow-down-img",
+	  activeHeader: "arrow-up-img"
+	};
+
+
+	$( "#tabs_credit" ).tabs({ active: 0 });
+	// $( ".tabs_credit_info" ).tabs({ active: 0});
+	$(".credit-accordion").accordion({
+		header: "h3",
+		collapsible: true,
+		heightStyle: "content",
+		active: false,
+		icons: icons
+
+	});
+	var temp_dilisa_tab_PDF = $('#dilisa_tab_PDF')[0].childNodes[0];
+	if (temp_dilisa_tab_PDF.classList.contains('arrow-down-img')) {
+	  temp_dilisa_tab_PDF.classList.remove('arrow-down-img');
+	  temp_dilisa_tab_PDF.classList.add('arrow-right-img');
+	}
+	var temp_lpc_tab_PDF = $('#lpc_tab_PDF')[0].childNodes[0];
+	if (temp_lpc_tab_PDF.classList.contains('arrow-down-img')) {
+	  temp_lpc_tab_PDF.classList.remove('arrow-down-img');
+	  temp_lpc_tab_PDF.classList.add('arrow-right-img');
+	}
+	
+	
+	var hash = window.location.hash ? window.location.hash.substring(1) : ""
+	if(hash){
+		if(hash.includes('dilisa')){
+			$("#dilisa_tab_image").trigger( "click" );
+		}else{
+			// promo_dilisa_tab
+			$("#lpc_tab_image").trigger( "click" );
+		}
+		var offset = $("#promo_"+hash).offset(); 
+		$('html, body').animate({
+			scrollTop: offset.top,
+			scrollLeft: offset.left
+		});
+
+		$("#promo_"+hash).trigger( "click" );
+	}
+
+	$('#dilisa_tab_PDF').on('click',function(e){
+		var url = e.target.children[1].attributes[0].nodeValue;
+		window.open(url, "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+		temp_dilisa_tab_PDF.classList.remove('arrow-up-img');
+		temp_dilisa_tab_PDF.classList.add('arrow-right-img');
+	});
+	$('#lpc_tab_PDF').on('click',function(e){
+		var url = e.target.children[1].attributes[0].nodeValue;
+		window.open(url, "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+		temp_lpc_tab_PDF.classList.remove('arrow-up-img');
+		temp_lpc_tab_PDF.classList.add('arrow-right-img');
+	});
+	
+
+  } );
+  </script>
+
+</head>
+<body>
+<div id="main_wrapper" class="container">
+<p>&nbsp;</p>
+<section class="row" id="home_credit">
+<!--<div id="header_credit">
+<div id="logo_credit"></div>
+<p id="helper_credit">¿Necesitas ayuda de un asesor?
+<span>01 800 713 5555</span> </p>
+
+<input type="hidden" value="dilisa_tab_image" id="card">
+
+</div>-->
+<div id="tabs_credit" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+
+<ul class="ul_benefits nav nav-tabs" >
+
+	<li  id="tabDilisa" class="ui-state-hover">
+		<a href="#dilisa_tab" id="dilisa_tab_image"><img src="assets/images/tarjeta-lp.svg"/></a>
+	</li>
+
+	<li id="tabLpc">
+		<a href="#lpc_tab" id="lpc_tab_image"><img src="assets/images/tarjeta-premium.svg"/></a>
+	</li>
+
+	<li >
+		<a href="#livertu_tab" id="livertu_tab_image"><img src="assets/images/tarjeta-livertu.svg"/></a>
+	</li>
+</ul>
+
+<div id="dilisa_tab" aria-labelledby="dilisa_tab_image" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-for-content-roots" >
+	<div class="card_info_container col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding-pleas">
+		<div class="left_content_credit col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding-pleas">
+			<h1>Liverpool Departamental</h1>
+		
+		</div>
+	</div>
+<div class="tabs_credit_info col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding-pleas">
+
+<!--credito acordeon-->
+		<!--Beneficios-->
+ <div class="credit-accordion">
+		<h3>Beneficios</h3>
+
+		<div id="credit_info_benefits" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" >
+		<div class="row-fluid">
+		<p class="accordion-title">No lo piense más, con la <span class="hightlight-pink">Tarjeta de Crédito Liverpool </span> es mucho más fácil obtener BENEFICIOS</p>
+		<!--<p class="accordion-sub-title">Solicita tu tarjeta de crédito en el almacén Liverpool o Fábricas de Francia de tu preferencia a nivel nacional.</p>-->
+				<div class="row-fluid benifits-container">
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-01.png" alt=""> </figure>
+				<p>Tramítela ahora y obtenga un 10% de descuento* adicional a las promociones vigentes en su primer día de compras.</p>
+				</div>
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-02.png" alt=""> </figure>
+				<p>Tarjetas adicionales sin costo.</p>
+				</div>
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-03.png" alt=""> </figure>
+				<p>Anualidad Sin costo.</p>
+				</div>
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-04.png" alt=""> </figure>
+				<p>Disposición Segura de Efectivo** en cajeros Liverpool.</p>
+				</div>
+		
+				</div>
+				<div class="row-fluid benifits-container">
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-06.png" alt=""> </figure>
+				<p>Plan de pagos fijos: compre lo que quiera, y
+difiera el pago hasta en 48 mensualidades.</p>
+				</div>
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-07.png" alt=""> </figure>
+				<p>Hasta 30 días para realizar el pago de su Tarjeta después de su fecha de corte.</p>
+				</div>
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-08.png" alt=""> </figure>
+				<p>Programa Integral Familiar: Servicios de asistencia y Seguro de vida al inscribirse al programa.</p>
+				</div>
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-09.png" alt=""> </figure>
+				<p>Compras por Internet: Compre lo que quiera a través del portal <a class="hightlight-pink" href="https://www.liverpool.com.mx">liverpool.com.mx</a></p>
+				</div>
+				<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-10.png" alt=""> </figure>
+				<p>Plan Llamaseguro Liverpool Obtenga un teléfono celular al contratar un plan de renta mensual con cargo a su Tarjeta.</p>
+				</div>
+								<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-12.png" alt=""> </figure>
+				<p>Ahora tus tarjetas Liverpool tienen integrado tu Monedero Electrónico.</p>
+				</div>
+
+								<div class="span3"><figure class="text-center"> <img src="assets/images/beneficios-dilisa-beneficios-13.png" alt=""> </figure>
+				<p>Recargas de tiempo aire.</p>
+				</div>
+
+				</div>
+				<!--<p class="accordion-sub-title">Puedes realizar tu pago en línea de tu tarjeta 2 días hábiles antes de tu fecha de corte. </p>-->
+				<div class="clear">&nbsp;</div>
+				<div class="row-fluid">
+				<div class="span6">
+				<ul class="card-tab-list">
+					<li>
+					<p>Consulta los movimientos de tu Tarjeta así como las compras en liverpool.com.mx</p>
+					</li>
+					<li>
+					<p>Conoce información sobre promociones, estatus de compra, saldos, planes de crédito y más a través de nuestro Centro de Atención Telefónica.</p>
+					</li>
+				</ul>
+				</div>
+				<div class="span6">
+				<ul class="card-tab-list">
+					<li><span class="hightlight-pink">(*) </span> El descuento será aplicable a las compras realizadas con Tarjetas de Crédito Liverpool o Liverpool Visa. Sobre el limite del crédito otorgado. Válido el primer día de compras en cualquiera de nuestros almacenes, liverpool.com.mx o boutiques del grupo excepto Sfera. No aplica en los departamentos de: Perfumería y Cosméticos, Restaurante, Gourmet, Rincón Gourmet, Seguros, Dulcería, Viajes, Tarjetas de Regalo y Vinos y Licores.</li>
+					<li><span class="hightlight-pink">(**) </span> Para disposición de efectivo se requiere un mínimo de 1 año de manejo de cuenta.</li>
+				</ul>
+				</div>
+				</div>
+				</div>
+		</div>
+
+<h3>Programa de Puntos Rosas </h3>
+<div id="card_info_services" aria-labelledby="ui-id-14" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<ul class="card-tab-list">
+	<li>
+	<p>Programa de “DÍAS DE PUNTOS ROSAS”</p>
+	</li>
+	<li>
+	<p>
+		<b>Generación de Puntos Rosas</b>
+		<br/><br/>
+
+Con el Programa de Lealtad “Días de Puntos Rosas” de tu Tarjeta de Crédito Departamental Liverpool podrás obtener Puntos Rosas, los cuales se convertirán a dinero en Monedero Electrónico o bien, te darán la oportunidad de participar en promociones especiales donde podrás ganar atractivos premios.
+
+	</p>
+	</li>
+	<li>
+	<p>El porcentaje de puntos que obtendrás, los departamentos participantes, así como las excepciones se especificarán en cada Promoción vigente dentro del portal www.liverpool.com.mx y en el área de Servicio a Clientes de nuestros almacenes Liverpool.</p>
+	</li>
+	<li>
+	<p><b>Conversión de Puntos Rosas a dinero en Monedero Electrónico:</b></p>
+	</li>
+	<li>
+	<p>Cada vez que acumules 200 Puntos Rosas, estos se convertirán automáticamente a dinero en tu Monedero Electrónico que esta integrado a tu Tarjeta Liverpool.</p>
+	</li>
+
+	<li>
+	<p>Podrás redimir tu monedero electrónico de Puntos Rosas por cualquier producto que este a la venta y disponible en nuestros almacenes.
+</p>
+	</li>
+
+	<li>
+	<p>Excepciones para la redención del monedero de Puntos Rosas: compras o servicios por internet, Viajes Liverpool, Farmacia Liverpool, Viajes el Corte Inglés, oficinas de seguro, Liverpool Móvil y Boutiques del Grupo.
+</p>
+	</li>
+
+
+	<li>
+	<p>Compras o servicios por internet, Viajes Liverpool, Farmacia Liverpool, Viajes el Corte Inglés, oficinas de seguro, Liverpool Móvil y Boutiques del Grupo.
+</p>
+	</li>
+	<li>
+	<p><b>Valor de los puntos:</b>
+		<br/><br/>
+
+Cada punto acumulado es equivalente al 10% en pesos y podrá variar de acuerdo a la promoción seleccionada y vigente.
+<br/><br/>
+Tus Puntos Rosas NUNCA vencen.
+</p>
+	</li>
+
+	<li>
+	<p>
+		<b>Consulta de Puntos Rosas</b>
+		<br/><br/>
+
+Podrás visualizar la generación, conversión y saldo de sus Puntos Rosas al corte dentro de tu Estado de Cuenta, en la APP, en www.liverpool.com.mx, a través de nuestro Centro de Atención Telefónico o bien acudiendo al Departamento de Servicio a Clientes dentro de nuestros almacenes.
+</p>
+	</li>
+		<li>
+	<p>
+
+		<b>Monedero Electrónico integrado a la Tarjeta Departamental Liverpool</b>
+		<br/><br/>
+
+Ahora en tu Tarjeta de Crédito Departamental Liverpool se integra un Monedero Electrónico el cual podrás recibir transferencias de saldo de otros Monederos por Promociones especiales o bien por conversión de puntos del Programa de Lealtad “Puntos Rosas” y con ello podrás realizar compras, todo a través de tu Tarjeta.
+<br/><br/>
+Para brindarte una mayor seguridad tu Tarjeta Liverpool deberá contener los estándares de seguridad de lo contrario no podrás obtener este nuevo beneficio en tu plástico.
+<br/><br/>
+Cada Tarjeta Liverpool administrará su propio Monedero Electrónico.
+<br/><br/>
+El Monedero Electrónico integrado en tu Tarjeta podrá recibir saldo a través de una transferencia del Programa de Lealtad “Puntos Rosas” o por una transacción desde el punto de venta como resultado de una promoción especial.
+<br/><br/>
+Con tu nuevo Monedero Electrónico de tu Tarjeta Liverpool podrás comprar productos o certificados de regalo dentro de las Tiendas Liverpool o Boutiques del Grupo. (No aplica en las agencias de Viajes El Corte Inglés y oficinas de Seguros).
+</p>
+	</li>
+
+	<li>
+		<p>
+			<b>El saldo de tu nuevo Monedero Electrónico:</b>
+			<br/><br/>
+
+No es reembolsable, ni se puede canjear por dinero en efectivo.
+<br/><br/>
+No puede ser utilizado para el pago de una cuenta de crédito Liverpool.
+<br/><br/>
+Podrás visualizar el saldo de tu Monedero Electrónico integrado en tu Tarjeta Liverpool a través de tu Estado de Cuenta, Punto de Venta, Departamento de Crédito y a través de nuestro Centro de Atención Telefónico.
+<br/><br/>
+No olvides que puedes transferir a tu nuevo Monedero Electrónico integrado en tu Tarjeta Liverpool, los saldos de otros monederos.
+
+		</p>
+	</li>
+</ul>
+
+<p style="margin-top:2em">Alerta SMS:
+Recibirá notificaciones a través de mensajes SMS en su celular por compras o disposiciones en efectivo realizadas con tu tarjeta de crédito <b>Livertú o Fabrícate</b>.</p>
+<ul class="card-tab-list show-pink-bullets">
+	<li><p>Aplica para todas sus <b>compras realizadas a través de Internet o Vía telefónica</b>.</p></li>
+	<li><p>Compras con su tarjeta de crédito dentro de nuestros almacenes Liverpool.</p></li>
+	<li><p>Te invitamos a actualizar tus datos en nuestros almacenes Liverpool o en el Centro de Atención Telefónica para disfrutar de este servicio.</p></li>
+</ul>
+
+</div>
+</div>
+
+		<!--Beneficios-->
+<h3>Requisitos </h3>
+<!--Requisitos-->
+<div id="credit_info_required" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+	<div class="row-fluid">
+		<p class="accordion-title">Hay más de una manera para hacer de la <span class="hightlight-pink">tarjeta de Crédito Liverpool </span> parte de su vida.</p>
+		<p class="mt20">En todos los tipos de trámite es necesario ser mayor de edad*, presentar identificación oficial vigente** y comprobante de domicilio.</p>
+<p>
+* Ser mayor de 18 años.
+</p>
+<p>
+** Identificación oficial (credencial de elector, pasaporte mexicano vigente, para extranjeros forma migratoria FM2 o FM3).</p>
+		<!--<p class="accordion-sub-title">Solicita tu tarjeta de crédito en el almacén Liverpool o Fábricas de Francia de tu preferencia a nivel nacional. </p>-->
+		<div class="row-fluid">
+		<div class="span4">
+		<p class="cards-ul-title">Trámite con historial crediticio</p>
+		<ul class="card-tab-list">
+			<li>Contar con Historial de una Tarjeta de crédito bancaria, departamental, autoservicio o un crédito de nómina personal, automotriz o hipotecario.</li>
+		</ul>
+		</div>
+		<div class="span4">
+		<p class="cards-ul-title">Trámite sin historial crediticio</p>
+		<ul class="card-tab-list">
+			<li>Comprobante de ingresos mayores a $4,000</li>
+			<li>Comprobante de domicilio vigente a tu nombre o de un familiar directo</li>
+		</ul>
+		</div>
+		</div>
+		<div class="clear">&nbsp;</div>
+	</div>
+
+
+</div>
+<!--Requisitos-->
+<h3>Protección </h3>
+<!--Protección-->
+<div id="card_info_protection" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title"><span class="hightlight-pink">Protección </span> integral Familiar</p>
+	<div class="row-fluid">
+	<div class="span6">
+	<ul class="card-tab-list">
+		<li>
+		<p><span class="">Membresía Dental </span></p>
+		</li>
+		<li>
+		<p><span class="">Plan Salud </span></p>
+		</li>
+		<li>
+		<p><span class="">Asistencia Automovilística </span></p>
+		</li>
+		<li>
+		<p><span class="">Asistencia en el Hogar </span></p>
+		</li>
+		<li>
+		<p><span class="">Asesoría Jurídica </span></p>
+		</li>
+	</ul>
+	</div>
+	</div>
+	<div class="clear">&nbsp;</div>
+	<p class="accordion-sub-title">Para conocer a detalle estos servicios de asistencia y sus costos ingrese a <a href="https://www.liverpool.com.mx/seguros"> <span class="hightlight-pink">https://www.liverpool.com.mx/seguros </span> </a> o comuníquese al <span class="hightlight-pink">10 55 48 37 </span> en la CDMX y área metropolitana o al <span class="hightlight-pink">01800 800 1743 </span> del interior de la república las <b>24 horas </b>los <b>365 días </b> del año.</p>
+	<div class="clear">&nbsp;</div>
+	<p class="mt20">Los servicios de Asistencia de <span class="hightlight-pink">Protección Integral Familiar son extensivos </span> para su cónyuge e hijos menores de 21 años. </p><p class="mt20">En la entrega de su nueva <span class="hightlight-pink">Tarjeta de Crédito Liverpool </span> le regalamos 1 mes sin costo.</p>
+	</div>
+
+</div>
+<!--Protección-->
+<h3>Servicios </h3>
+<!--Servicios-->
+<div id="card_info_services" aria-labelledby="ui-id-4" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+	<div class="row-fluid">
+	<p class="accordion-title">Comprometidos con ofrecerle un mejor servicio <span class="hightlight-pink">Liverpool </span> pone a su disposición:</p>
+	<div class="row-fluid">
+	<div class="span6">
+	<ul class="card-tab-list">
+		<li>
+		<p><span class="hightlight-pink">Más de 120 almacenes </span> a nivel nacional donde le recibiremos con gusto y le atenderemos como se merece.</p>
+		</li>
+		<li>
+		<p><span class="hightlight-pink">Mesa de Regalos </span></p>
+		</li>
+		<li>
+		<p><span class="hightlight-pink">Viajes Liverpool </span></p>
+		</li>
+		<li>
+		<p><span class="hightlight-pink">Atención personalizada </span> vía telefónica marcando en la CDMX 5262 9999, del interior de la república al 01 800  52 62 99 99.</p>
+		</li>
+		<li>
+		<p><span class="hightlight-pink">Kioscos de consulta digital </span> dentro de nuestros almacenes</p>
+		</li>
+	</ul>
+	</div>
+	
+	<div class="span6">
+	<ul class="list_bullet-pink">
+		<li><p><span class="txt_highlight_pink">Alerta SMS: </span> Recibirás notificaciones a través de mensajes SMS en tu celular por compras o disposiciones en efectivo realizadas con tu Tarjeta de Crédito Liverpool. Aplica para todas sus compras realizadas a través de internet o vía telefónica.</p>
+		</li>
+			<li><p>Disposiciones en efectivo a través de cajeros automáticos dentro de Liverpool</p></li>
+			<li><p>Compras con tu Tarjeta de Crédito dentro de nuestros almacenes Liverpool</p></li>
+		<li><p>Te invitamos a actualizar tus datos en nuestros almacenes Liverpool para disfrutar de este servicio.</p></li>
+		
+	</ul>
+	</div>
+	</div>
+	</div>
+</div>
+<!--Servicios-->
+<h3>Cuotas y comisiones </h3>
+<!--Cuotas y comisiones-->
+<div id="card_info_comision" aria-labelledby="ui-id-5" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+		<div class="row-fluid">
+			<p class="accordion-title"><span class="hightlight-pink">Cuotas y comisiones </span></p>
+			<!-- start here -->
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText">Comisión anual </label></div>
+				<div class="span3"><label class="boldText">Sin costo </label></div>
+				</div>
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText">Cargo por reposición </label></div>
+				<div class="span3"><label class="boldText">Sin costo </label></div>
+				</div>
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText">Aclaraciones improcedentes </label></div>
+				<div class="span3"><label class="boldText">Sin costo </label></div>
+				</div>
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText">Cuota por sobregiro </label></div>
+				<div class="span3"><label class="boldText">Sin costo </label></div>
+				</div>
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText">Comisión por requerimiento de pago </label></div>
+				<div class="span3"><label class="boldText">$379.00 </label></div>
+				</div>
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText">Comisión por disposición en cajeros automáticos Liverpool </label></div>
+				<div class="span3"><label class="boldText">6.9% </label></div>
+				</div>
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText">Tarjeta adicional </label></div>
+				<div class="span3"><label class="boldText">Sin costo </label></div>
+				</div>
+				<div class="row-fluid card-detail-table-row">
+				<div class="span9"><label class="boldText"> <strong>Costo Anual Total (CAT)* </strong> </label></div>
+				<div class="span3"><label class="boldText"> <strong>CAT Promedio: 17.6% </strong> </label></div>
+				</div>
+				<p>* Fecha de cálculo al 1° de diciembre de 2019. Tasa promedio 16.3% sin IVA. Para fines informativos y de comparación exclusivamente. Nota: Todas las cifras antes mencionadas son "Sin IVA".</p>
+			<!--ends here -->
+	</div>
+</div>
+<!--Cuotas y comisiones-->
+
+<h3>Pagos</h3>
+
+<div id="card_info_comision" aria-labelledby="ui-id-6" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+		<div class="row-fluid">
+				<div class="clear">&nbsp;</div>
+				<p class="accordion-title"><span class="hightlight-pink">El pago se puede realizar en: </span></p>
+				<div class="row-fluid">
+				<div class="span6">
+				<ul class="card-tab-list">
+					<li>
+					<p>Tienda Liverpool</p>
+					</li>
+					<li>
+					<p>Desde www.liverpool.com.mx (Si su banco es Bancomer o Banamex)</p>
+					</li>
+					<li>
+					<p>Para tu comodidad también puedes pagar tu Liverpool Visa desde el Portal/Banca electrónica de tu preferencia</p>
+					</li>
+				</ul>
+				</div>
+				</div>
+				<div class="clear">&nbsp;</div>
+		</div>
+</div>
+<h3 id="promo_dilisa_tab_image">Promociones</h3>
+	<img style="width: 100%" src="assets/images/beneficios-dilisa-promociones-01.jpg">
+<h3 id="dilisa_tab_PDF"> Ley de transparencia
+	<a href="https://assets.liverpool.com.mx/web/lib/contratoDILISA.pdf" target="_blank" style="color:#333"></a>
+</h3>
+</div>
+<!--Credito acordeon-->
+
+</div>
+
+</div>
+<!--lpc_tab. visa liverpool-->
+<div id="lpc_tab" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-for-content-roots"><div class="card_info_container">
+<div class="left_content_credit">
+<h1>Liverpool Visa</h1>
+</div>
+</div>
+<div class="tabs_credit_info ui-tabs ui-widget ui-widget-content ui-corner-all">
+
+<div class="credit-accordion">
+<h3>Beneficios </h3>
+
+	<div id="credit_info_benefits" aria-labelledby="ui-id-6" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" >
+	<div class="row-fluid">
+	<p class="accordion-title">Con tu Tarjeta <span class="hightlight-pink">Liverpool Visa</span>, acumula puntos en todas tus compras para cambiarlos en nuestras tiendas.</p>
+	<p class="accordion-sub-title"><!--Solicita tu tarjeta de cr&amp;#0233;dito en el almac&amp;#0233;n Liverpool o F&amp;#0225;bricas de Francia de tu preferencia a nivel nacional.-->&nbsp;</p>
+	<div class="row-fluid benifits-container">
+	<div class="span3"><figure class="text-center">          
+		<img src="assets/images/beneficios-visa-beneficios-01.png" alt="Aceptación internacional y respaldo visa
+	">           </figure>
+	<p>Aceptación internacional en miles de establecimientos gracias al respaldo Visa</p>
+	</div>
+	<div class="span3"><figure class="text-center">          <img src="assets/images/beneficios-visa-beneficios-02.png" alt="Anualidad más baja en el Mercado, y el primer año gratis">           </figure>
+	<p>Anualidad más baja en el Mercado, y el primer año gratis</p>
+	</div>
+	<div class="span3"><figure class="text-center">          <img src="assets/images/beneficios-visa-beneficios-02.png" alt="Por ser tarjetahabiente eres parte del Programa de Cliente Consentido. Disfruta de muchos beneficios y descuentos exclusivos">           </figure>
+	<p>Por ser tarjetahabiente eres parte del Programa de Cliente Consentido. Disfruta de muchos beneficios y descuentos exclusivos</p>
+	</div>
+	<div class="span3"><figure class="text-center">          <img src="assets/images/beneficios-visa-beneficios-04.png" alt="Disfruta del 10% de descuento en tu primer día de compras en nuestros almacenes y Liverpool.com.mx">           </figure>
+	<p>Disfruta del 10% de descuento en tu primer día de compras en nuestros almacenes y Liverpool.com.mx</p>
+	</div>
+	</div>
+	<div class="row-fluid benifits-container">
+	<div class="span3"><figure class="text-center">          <img src="assets/images/beneficios-visa-beneficios-05.png" alt="Disposición segura de efectivo">           </figure>
+	<p>Disposición segura de efectivo</p>
+	</div>
+	<div class="span3"><figure class="text-center">          <img src="assets/images/beneficios-visa-beneficios-06.png" alt="Paga tu tarjeta en donde quieras">           </figure>
+	<p>Paga tu Tarjeta en donde quieras</p>
+	</div>
+	<div class="span3"><figure class="text-center">          <img src="assets/images/beneficios-visa-beneficios-07.png" alt="Plan de pagos fijos para que compres lo que quieras y pagues después">           </figure>
+	<p>Plan de pagos fijos: Puedes diferir tus compras hasta en 48 meses</p>
+	</div>
+	</div>
+	<div class="row-fluid benifits-container">
+	<div class="span3"><figure class="text-center">          <img src="assets/images/beneficios-visa-beneficios-08.png" alt="Pago a meses de servicios como colegiaturas y hospitales">         </figure>
+	<p>Pago a Meses Sin Intereses: en servicios como
+colegiaturas y hospitales. Además disfuta 6 meses
+sin intereses en todas tus compras en el extranjero*</p>
+	</div>
+	<div class="span3"><figure class="text-center">           <img src="assets/images/beneficios-visa-beneficios-09.png" alt="Domiciliación de pagos">          </figure>
+	<p>Domiciliación de pagos</p>
+	</div>
+	<div class="span3"><figure class="text-center">           <img src="assets/images/beneficios-visa-beneficios-10.png" alt="Horario de atención preferencial">          </figure>
+	<p>Horario de atención preferencial</p>
+	</div>
+	<div class="span3"><figure class="text-center">           <img src="assets/images/beneficios-visa-beneficios-11.png" alt="Monedero electrónico en tu misma tarjeta">          </figure>
+	<p>Monedero Electrónico en tu misma Tarjeta</p>
+	</div>
+	<div class="span3"><figure class="text-center">           <img src="assets/images/beneficios-visa-beneficios-12.png" alt="Seguro de protección Visa gratuito">          </figure>
+	<p>Seguro de protección Visa gratuito</p>
+	</div>
+	<div class="span3"><figure class="text-center">           <img src="assets/images/beneficios-visa-beneficios-13.png" alt="Seguro de protección Visa gratuito">          </figure>
+	<p>Compras por internet en cualquier página</p>
+	</div>
+	<div class="span3"><figure class="text-center">           <img src="assets/images/beneficios-visa-beneficios-14.png" alt="Tarjetas adicionales sin costo">          </figure>
+	<p>Tarjetas adicionales sin costo</p>
+	</div>
+	</div>
+	<div class="clear">&nbsp;</div>
+	<div class="row-fluid">
+	<div class="span6">
+	<ul class="card-tab-list">
+		<li>
+		<p>Consulta en <a class="hightlight-pink" href="https://www.liverpool.com.mx">liverpool.com.mx</a>: saldos, compras,
+fechas de pago y estado de cuenta</p>
+		</li>
+		<li>
+		<p>Conoce información sobre promociones, estatus de compra, saldos o planes de Crédito, a través de nuestro Centro de Atención Telefónica.</p>
+		</li>
+		<li><p>
+Tu Tarjeta Liverpool Visa es aceptada en cualquier establecimiento de México y el Mundo, además disfruta del respaldo de Visa las 24 horas del día.
+</p></li>
+<li><p>
+Tu primer año de anualidad es completamente gratuito, a partir del segundo año se tendrá que pagar una anualidad de $399; ¡De las anualidades más bajas en el mercado!
+</p></li>
+<li><p>
+Siendo parte del Programa Cliente Consentido podrás tener sorpresas, promociones y beneficios exclusivos. Mientras más uses tu Tarjeta, más beneficios obtendrás.
+</p></li>
+<li><p>
+Disfruta de 10% de descuento adicional a promociones vigentes en el primer día de compras en tiendas Liverpool y Liverpool.com.mx ¡Puedes comprar en tienda e internet en días diferentes!
+</p></li>
+<li><p>
+Podrás disponer de efectivo en cajeros Liverpool o bien, en los cajeros RED y Plus en México y el extranjero. Para esto se requiere un mínimo de 6 meses de manejo de cuenta.
+</p></li>
+<li><p>
+Paga tu Tarjeta en tu almacén favorito, portal bancario de tu preferencia o por Liverpool.com.mx
+</p></li>
+<li><p>
+Aprovecha el Plan de Pagos Fijos, para que compres lo que quieras y lo pagues hasta en 48 cómodos meses. Aplica para compras dentro de nuestros almacenes y en liverpool.com.mx
+</p></li>
+<li><p>
+Con tu Tarjeta Liverpool Visa podrás pagar a meses sin intereses: colegiaturas, hospitales, honorarios médicos y aseguradoras. Monto mínimo: $4,000, $2,000, $ 2,500 respectivamente. Válido al 31 de diciembre de 2018. Tickets acumulables a partir del monto mínimo. Para hacer válida la promoción llama al Centro de Atención Telefónica al (01 55) 52 62 99 99 dentro de los 15 días posteriores al haber realizado la compra. La Tarjeta debe estar al corriente en sus pagos. CAT 0% informativo.
+</p></li>
+<li><p>
+Domicilia tus pagos como: UBER, Telcel, ATT, Movistar, Izzi, Unefón y Sky, entre otros muchos más. (Excepto Telmex).
+</p></li>
+<p><li>
+Puedes solicitar Tarjetas adicionales sin costo.
+</p></li>
+<li><p>
+(*) Para disposición de efectivo se requiere un mínimo de 1 año de manejo de cuenta.
+</p></li>
+	</ul>
+	</div>
+	<div class="span6">
+	<ul class="card-tab-list">
+		<li><span class="hightlight-pink">(*)           </span>El descuento será aplicable a las compras realizadas con Tarjetas de Crédito Liverpool o Liverpool Visa. Sobre el límite del crédito otorgado. Válido el primer día de compras en cualquiera de nuestros almacenes o Boutiques del Grupo, excepto Sfera, y en el primer día de compras en liverpool.com.mx No aplica en los departamentos de: Perfumería y Cosméticos, Restaurante, Gourmet, Rincón Gourmet, Seguros, Dulcería, Viajes, Tarjetas de Regalo y Vinos y Licores.</li>
+		<li><span class="hightlight-pink">(**)           </span> Para disposición de efectivo se requiere un mínimo de 6 meses de manejo de cuenta.</li>
+	</ul>
+	</div>
+	</div>
+	</div>
+</div>
+
+<h3>Programa Puntos Rosas </h3>
+<div id="credit_info_program" aria-labelledby="ui-id-7" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title"><span class="hightlight-pink">La Tarjeta Liverpool Visa</span>  tiene el mejor programa de puntos porque cada compra que realices, dentro y fuera de nuestras tiendas, te da la mayor cantidad de puntos pagando una de las anualidades más bajas del mercado.</p>
+<p class="accordion-sub-title">Beneficios del programa</p>
+<ul class="card-tab-list">
+	<li>
+	<p>Recibe <span class="txt_highlight_pink">10% </span>en puntos por cada una de tus compras hechas en cualquier establecimiento a nivel nacional e internacional.</p>
+	</li>
+	<li>
+	<p>Obtén el <b>DOBLE de puntos</b>al comprar en Liverpool, liverpool.com.mx y Boutiques: Pottery Barn, Pottery Barn Kids, Pottery Barn Teen, Williams-Sonoma, West Elm, Banana Republic, GAP, P.S., Chico´s, Etam y Motherhood Maternity.</p>
+	</li>
+	<li>
+	<p>Tus puntos valen dinero en                      <span class="hightlight-pink">Monedero Electrónico:</span> cada que se acumulen <b>200  puntos o más</b>, estos serán transferidos mensualmente y de forma automática a tu Monedero Electrónico integrado en tu Tarjeta, para ello la cuenta deberá estar al corriente.</p>
+	</li>
+	<li>
+	<p>El <span class="hightlight-pink">Monedero Electrónico</span> se encuentra <b>integrado</b> en tu Tarjeta de Crédito <span class="hightlight-pink">Liverpool Visa</span>.</p>
+	</li>
+	<li>
+	<p>Con tu Monedero Electrónico puedes comprar cualquier producto dentro de nuestros almacenes Liverpool, solo tienes que indicarle al vendedor del almacén que tu pago será con éste. No aplica en las agencias de Viajes El Corte Inglés y oficinas de Seguros.</p>
+	</li>
+	<li>
+	<p><span class="hightlight-pink">Tus puntos</span> de Cliente Premium <b>NUNCA</b> vencen.</p>
+	</li>
+	<li>
+	<p>Los puntos equivalen a <b>10% </b>en pesos.</p>
+	</li>
+</ul>
+<p class="accordion-sub-title"><b>Consulta de puntos:</b></p>
+<p class="mb5 mt10">La información sobre tus puntos acumulados la recibirás de manera mensual en el estado de cuenta y podrás consultarla en cualquiera de estos medios:</p>
+<ul class="card-tab-list">
+	<li>
+	<p>En internet  <span class="hightlight-pink">www.liverpool.com.mx</span></p>
+	</li>
+	<li>
+	<p>Kioscos de consulta digital ubicados dentro de nuestros almacenes.</p>
+	</li>
+	<li>
+	<p>Centro de Atención Telefónica, llamando al 5262 9999</p>
+	</li>
+</ul>
+</div>
+</div>
+
+<h3 id="promo_lpc_tab_image">Promociones</h3>
+	<div class="promociones_">
+			<div><img src="assets/images/beneficios-visa-promociones-01.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-02.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-03.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-04.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-05.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-06.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-07.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-08.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-09.png"/></div>
+	<div><img src="assets/images/beneficios-visa-promociones-10.png"/></div>
+
+	</div>
+
+<h3>Requisitos </h3>
+<div id="credit_info_required" aria-labelledby="ui-id-8" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title">Obtén la <span class="hightlight-pink">Tarjeta de Crédito Liverpool Visa      </span> en 30 minutos y empieza a disfrutar los beneficios que solo  <b>Liverpool     </b> te ofrece.</p>
+<div class="clear">&nbsp;</div>
+<div class="row-fluid">
+	<div class="span4">
+		<ul class="card-tab-list">
+		<li>En todos los tipos de trámite es necesario ser mayor de edad*, presentar identificación oficial vigente** y comprobante de domicilio.</li>
+<li>
+* Ser mayor de 18 años.</li>
+<li>
+** Identificación oficial (credencial de elector, pasaporte mexicano vigente, para extranjeros forma migratoria FM2 o FM3).</li>
+</ul>
+	</div>
+<div class="span4">
+<p class="cards-ul-title">Trámite con historial crediticio</p>
+<ul class="card-tab-list">
+	<li>Contar con Historial de una Tarjeta de crédito bancaria, departamental, autoservicio o un crédito de nómina personal, automotriz o hipotecario.</li>
+</ul>
+</div>
+
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+
+
+<h3>Protección </h3>
+<div id="card_info_protection" aria-labelledby="ui-id-9" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title">Tu Tarjeta<span class="hightlight-pink"> Liverpool Visa  </span> te respalda en todo momento ya que cuenta con una serie de seguros diseñados para ti:</p>
+<p class="accordion-sub-title"><strong>Seguro de Protección de Precio</strong></p>
+<p style="text-align:justify"><span class="hightlight-pink">Recibe sin costo el Seguro de Protección de Precio</span> el cual te ayuda a conseguir el mejor precio en productos comprados con tu Tarjeta Liverpool Visa. Simplemente se paga el costo total del producto con la Tarjeta y si dentro de los 30 días siguientes a la compra ves una publicidad escrita o un aviso de del mismo producto, por un precio menor ya sea en alguna publicidad física o internet, te será reembolsada la diferencia por hasta el monto del beneficio por artículo*. Para más información consulta  <a href="http://www.visa.com/portalbeneficios" class="hightlight-pink">www.visa.com/portalbeneficios</a>.</p>
+<!--<p class=&quot;accordion-sub-title&quot;>Solicita tu tarjeta de cr&amp;#0233;dito en el almac&amp;#0233;n Liverpool o F&amp;#0225;bricas de Francia de tu preferencia a nivel nacional.  </p>-->
+<div class="clear">&nbsp;</div>
+<p class="accordion-sub-title"><strong>PROGRAMA INTEGRAL FAMILIAR</strong></p>
+<div class="row-fluid">
+<div class="span6">
+<ul class="card-tab-list">
+	<li>
+	<p>Membresía Dental.</p>
+	</li>
+	<li>
+	<p>Plan Salud.</p>
+	</li>
+	<li>
+	<p>Asistencia Automovilística.</p>
+	</li>
+	<li>
+	<p>Asistencia en el Hogar.</p>
+	</li>
+	<li>
+	<p>Asesoría Jurídica.</p>
+	</li>
+</ul>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+<p class="accordion-sub-title">Para conocer a detalle estos servicios de asistencia y sus costos ingresa a                             <a href="http://assets.liverpool.com.mx/pif/" class="hightlight-pink">                                 https://www.liverpool.com.mx/seguros</a> o comunícate al <span class="hightlight-pink">10 55 48 37</span>                             en la CDMX y Área Metropolitana o al <span class="hightlight-pink"> 01800 800 1743</span> del Interior de la República las                             <b>24 horas</b> los <b>365 días</b> del año.</p>
+<div class="card-tab-list"><p>* Consulta términos y condiciones en www.visa.com/portalbeneficios. </p>
+</div>
+<div class="card-tab-list"><p>
+Para hacer uso del beneficio solo tienes que ingresar, registrarte, completar el formulario y cargar los documentos referentes al reclamo. No aplica con otras promociones, ni en sitios de subasta. Monto máximo de reembolso $200 dls. Comunícate al centro de asistencias: desde E.U.A. y Canadá 01800 396 9665 y resto del mundo 303 967 1098.</p></div>
+</div>
+</div>
+
+<h3>Servicios </h3>
+<div id="card_info_services" aria-labelledby="ui-id-10" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title">Utiliza los <span class="hightlight-pink">servicios </span> sin costo que tenemos para ti.</p>
+<p class="accordion-sub-title"><strong>Servicio de alertas SMS</strong></p>
+<p style="text-align:justify">Recibe notificaciones por mensaje SMS en tu celular por compras o disposiciones en efectivo realizadas con tu Tarjeta de Crédito  <span class="hightlight-pink">Liverpool Visa </span>. Para contratar acude al departamento de Atención a Clientes en el almacén de tu preferencia o comunícate al Centro de Atención Telefónica. <br>
+<strong>(01 55) 52 62 99 99</strong>.</p>
+<p class="accordion-sub-title"><strong>Servicios VISA</strong></p>
+<div class="row-fluid">
+<div class="span6">
+<ul class="card-tab-list">
+	<li><span class="hightlight-pink" style="">Servicio de Adelanto de Efectivo de Emergencia</span>
+	<p>En caso de emergencia, también puedes solicitar un adelanto de efectivo contra tu cuenta. El Centro de Asistencia de Visa Classic hará los arreglos necesarios para enviarte el efectivo por el medio más rápido posible al lugar donde te encuentres.</p>
+	</li>
+	<li><span class="hightlight-pink">Centro de Información para Viajes</span>
+	<p>Tu Tarjeta Liverpool Visa te proporciona gratuitamente servicios de información y asistencia para que viajes con más seguridad y ahorres tiempo y dinero. Obtén información y asistencia durante las 24 horas del día, los 7 días de la semana, con solo llamar al teléfono indicado en el reverso de tu Tarjeta o directamente al Centro de Asistencia de Visa Classic.</p>
+	</li>
+	<li><span class="hightlight-pink">Servicio de Reposición Urgente de Tarjeta</span>
+	<p style="line-height: 1.5em;">Si tu Tarjeta Liverpool Visa se extravía o es robada, el Centro de Asistencia de Visa Classic, atiende tu llamada en español y toma las medidas necesarias para bloquear la Tarjeta extraviada o robada y protegerte del uso no autorizado de la cuenta. También coordina el envío de una nueva Tarjeta al lugar donde te encuentres dentro de un plazo de un día hábil dentro y fuera de Norteamérica.</p>
+	</li>
+</ul>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+<div class="card-tab-list">Consulta términos y condiciones en www.visa.com.mx  o comunícate al centro de asistencias: desde E.U.A. y Canadá 01800 396 9665 y resto del mundo 303 967 1098.</div>
+</div>
+</div>
+
+
+<h3>Cuotas y comisiones </h3>
+<div id="card_info_comision" aria-labelledby="ui-id-11" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title"><span class="hightlight-pink">Cuotas y comisiones       </span></p>
+<!-- start here -->
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Comisión anual        </label></div>
+<div class="span3"><label class="boldText">$399        </label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Cargo por reposición        </label></div>
+<div class="span3"><label class="boldText">$99.00        </label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Aclaraciones improcedentes        </label></div>
+<div class="span3"><label class="boldText">$180.00        </label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Cuota por sobregiro        </label></div>
+<div class="span3"><label class="boldText">Sin costo        </label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Comisión por requerimiento de pago        </label></div>
+<div class="span3"><label class="boldText">$299.00        </label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Comisión por disposición en cajeros automáticos nacionales y en el extranjero         </label></div>
+<div class="span3"><label class="boldText">Vigente 6.9%        </label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Tarjeta adicional         </label></div>
+<div class="span3"><label class="boldText">Sin costo        </label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">         <strong>Costo Anual Total (CAT)*         </strong>         </label></div>
+<div class="span3"><label class="boldText">         <strong>CAT Promedio: 34.5%         </strong>          </label></div>
+</div>
+<p>* Fecha de cálculo al 1° de diciembre de 2019. Tasa promedio 28.6% sin IVA. Para fines informativos y de comparación exclusivamente.
+
+Nota: Todas las cifras antes mencionadas son "Sin IVA".</p>
+<!--ends here --></div>
+</div>
+
+
+
+<h3>Pagos </h3>
+	<div id="card_info_comision" aria-labelledby="ui-id-12" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+	<div class="row-fluid">
+	<div class="clear">&nbsp;</div>
+	<p class="accordion-title"><span class="hightlight-pink">El pago se puede realizar en: </span></p>
+	<div class="row-fluid">
+	<div class="span6">
+	<ul class="card-tab-list">
+		<li>
+		<p>Tienda</p>
+		</li>
+		<li>
+		<p>Para tu comodidad también puedes pagar tu
+Liverpool Visa desde el Portal/Banca electrónica
+de tu preferencia.</p>
+		</li>
+		<li>
+		<p>Desde la página de liverpool.com.mx en el
+apartado de crédito, si la cuenta con la que
+pagas es débito Bancomer o Banamex.</p>
+		</li>
+	</ul>
+
+	</div>
+	</div>
+	<div class="clear">&nbsp;</div>
+	</div>
+	</div>
+
+
+<h3 id="lpc_tab_PDF"> Ley de transparencia
+	<a href="https://assets.liverpool.com.mx/web/lib/contratoLPC.pdf" target="_blank" style="color:#333"></a>
+</h3>
+</div>
+
+
+
+
+
+
+
+</div>
+</div>
+<!--livertu_tab. livertu-->
+<div id="livertu_tab" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-for-content-roots" ><div class="card_info_container">
+<div class="left_content_credit">
+<h1>Livertú Universitarios</h1>
+
+</div>
+</div>
+<div class="tabs_credit_info ui-tabs ui-widget ui-widget-content ui-corner-all">
+
+<div class="credit-accordion">
+
+<h3>Beneficios </h3>
+<div id="credit_info_benefits" aria-labelledby="ui-id-12" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" >
+<div class="row-fluid">
+<p class="accordion-title">Comienza a hacer historia con <b>Livertú</b> y disfruta de un 10% en tu primer compra</p>
+<div class="row-fluid benifits-container">
+<div class="span3"><figure class="text-center"><img src="assets/images/beneficios-livertu-beneficios-01.png" alt=""></figure>
+<p>Tramítela ahora y obtenga un 10% de
+descuento* adicional a las promociones
+vigentes en su primer día de compras.</p>
+</div>
+<div class="span3"><figure class="text-center"><img src="assets/images/beneficios-livertu-beneficios-02.png" alt=""></figure>
+<p>Anualidad                                 sin costo.</p>
+</div>
+<div class="span3"><figure class="text-center"><img src="assets/images/beneficios-livertu-beneficios-03.png" alt=""></figure>
+<p>Plan Llama seguro Liverpool                                 obtén un teléfono celular al contratar un plan de renta mensual con cargo a tu Tarjeta.</p>
+</div>
+
+<div class="span3"><figure class="text-center"><img src="assets/images/beneficios-livertu-beneficios-05.png" alt=""></figure>
+<p>Plan de pagos fijos: compre lo que quiera, y
+difiera el pago hasta en 48 mensualidades. </p>
+</div>
+<div class="span3"><figure class="text-center"><img src="assets/images/beneficios-livertu-beneficios-06.png" alt=""></figure>
+<p>Hasta 30 días para realizar el pago de su Tarjeta después de su fecha de corte.</p>
+</div>
+<div class="span3"><figure class="text-center"><img src="assets/images/beneficios-livertu-beneficios-07.png" alt=""></figure>
+<p>Programa Integral Familiar: Servicios de asistencia y Seguro de vida al inscribirte al programa.</p>
+</div>
+<div class="span3"><figure class="text-center"><img src="assets/images/beneficios-livertu-beneficios-08.png" alt=""></figure>
+<p>Compras por Internet: Compre lo que quiera a través del portal <a class="hightlight-pink" href="https://www.liverpool.com.mx">liverpool.com.mx</a></p>
+</div>
+
+</div>
+<div class="clear">&nbsp;</div>
+<div class="row-fluid">
+<div class="span6">
+<ul class="card-tab-list">
+<li><p>
+	Consulta los movimientos de tu Tarjeta así como, las compras en liverpool.com.mx</p>
+</li>
+<li><p>
+Conoce información sobre promociones, estatus de compra, saldos, planes de crédito, a través de nuestro Centro de Atención Telefónica.</p>
+</li>
+<li><p>
+(*) El descuento será aplicable a las compras realizadas con la Tarjeta Livertú. Consulta departamentos participantes. Sobre el límite del crédito otorgado.</p>
+
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<h3>Programa de Puntos Rosas </h3>
+<div id="card_info_services" aria-labelledby="ui-id-14" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<ul class="card-tab-list">
+	<li>
+	<p>Programa de “DÍAS DE PUNTOS ROSAS”</p>
+	</li>
+	<li>
+	<p>
+		<b>Generación de Puntos Rosas</b>
+		<br/><br/>
+
+Con el Programa de Lealtad “Días de Puntos Rosas” de tu Tarjeta de Crédito Departamental Liverpool podrás obtener Puntos Rosas, los cuales se convertirán a dinero en Monedero Electrónico o bien, te darán la oportunidad de participar en promociones especiales donde podrás ganar atractivos premios.
+
+	</p>
+	</li>
+	<li>
+	<p>El porcentaje de puntos que obtendrás, los departamentos participantes, así como las excepciones se especificarán en cada Promoción vigente dentro del portal www.liverpool.com.mx y en el área de Servicio a Clientes de nuestros almacenes Liverpool.</p>
+	</li>
+	<li>
+	<p><b>Conversión de Puntos Rosas a dinero en Monedero Electrónico:</b></p>
+	</li>
+	<li>
+	<p>Cada vez que acumules 200 Puntos Rosas, estos se convertirán automáticamente a dinero en tu Monedero Electrónico que esta integrado a tu Tarjeta Liverpool.</p>
+	</li>
+
+	<li>
+	<p>Podrás redimir tu monedero electrónico de Puntos Rosas por cualquier producto que este a la venta y disponible en nuestros almacenes.
+</p>
+	</li>
+
+	<li>
+	<p>Excepciones para la redención del monedero de Puntos Rosas: compras o servicios por internet, Viajes Liverpool, Farmacia Liverpool, Viajes el Corte Inglés, oficinas de seguro, Liverpool Móvil y Boutiques del Grupo.
+</p>
+	</li>
+
+
+	<li>
+	<p>Compras o servicios por internet, Viajes Liverpool, Farmacia Liverpool, Viajes el Corte Inglés, oficinas de seguro, Liverpool Móvil y Boutiques del Grupo.
+</p>
+	</li>
+	<li>
+	<p><b>Valor de los puntos:</b>
+		<br/><br/>
+
+Cada punto acumulado es equivalente al 10% en pesos y podrá variar de acuerdo a la promoción seleccionada y vigente.
+<br/><br/>
+Tus Puntos Rosas NUNCA vencen.
+</p>
+	</li>
+
+	<li>
+	<p>
+		<b>Consulta de Puntos Rosas</b>
+		<br/><br/>
+
+Podrás visualizar la generación, conversión y saldo de sus Puntos Rosas al corte dentro de tu Estado de Cuenta, en la APP, en www.liverpool.com.mx, a través de nuestro Centro de Atención Telefónico o bien acudiendo al Departamento de Servicio a Clientes dentro de nuestros almacenes.
+</p>
+	</li>
+		<li>
+	<p>
+
+		<b>Monedero Electrónico integrado a la Tarjeta Departamental Liverpool</b>
+		<br/><br/>
+
+Ahora en tu Tarjeta de Crédito Departamental Liverpool se integra un Monedero Electrónico el cual podrás recibir transferencias de saldo de otros Monederos por Promociones especiales o bien por conversión de puntos del Programa de Lealtad “Puntos Rosas” y con ello podrás realizar compras, todo a través de tu Tarjeta.
+<br/><br/>
+Para brindarte una mayor seguridad tu Tarjeta Liverpool deberá contener los estándares de seguridad de lo contrario no podrás obtener este nuevo beneficio en tu plástico.
+<br/><br/>
+Cada Tarjeta Liverpool administrará su propio Monedero Electrónico.
+<br/><br/>
+El Monedero Electrónico integrado en tu Tarjeta podrá recibir saldo a través de una transferencia del Programa de Lealtad “Puntos Rosas” o por una transacción desde el punto de venta como resultado de una promoción especial.
+<br/><br/>
+Con tu nuevo Monedero Electrónico de tu Tarjeta Liverpool podrás comprar productos o certificados de regalo dentro de las Tiendas Liverpool o Boutiques del Grupo. (No aplica en las agencias de Viajes El Corte Inglés y oficinas de Seguros).
+</p>
+	</li>
+
+	<li>
+		<p>
+			<b>El saldo de tu nuevo Monedero Electrónico:</b>
+			<br/><br/>
+
+No es reembolsable, ni se puede canjear por dinero en efectivo.
+<br/><br/>
+No puede ser utilizado para el pago de una cuenta de crédito Liverpool.
+<br/><br/>
+Podrás visualizar el saldo de tu Monedero Electrónico integrado en tu Tarjeta Liverpool a través de tu Estado de Cuenta, Punto de Venta, Departamento de Crédito y a través de nuestro Centro de Atención Telefónico.
+<br/><br/>
+No olvides que puedes transferir a tu nuevo Monedero Electrónico integrado en tu Tarjeta Liverpool, los saldos de otros monederos.
+
+		</p>
+	</li>
+</ul>
+
+<p style="margin-top:2em">Alerta SMS:
+Recibirá notificaciones a través de mensajes SMS en su celular por compras o disposiciones en efectivo realizadas con tu tarjeta de crédito <b>Livertú o Fabrícate</b>.</p>
+<ul class="card-tab-list show-pink-bullets">
+	<li><p>Aplica para todas sus <b>compras realizadas a través de Internet o Vía telefónica</b>.</p></li>
+	<li><p>Compras con su tarjeta de crédito dentro de nuestros almacenes Liverpool.</p></li>
+	<li><p>Te invitamos a actualizar tus datos en nuestros almacenes Liverpool o en el Centro de Atención Telefónica para disfrutar de este servicio.</p></li>
+</ul>
+
+</div>
+</div>
+
+<h3 id="promo_lpc_tab_image">Promociones</h3>
+<img src="assets/images/beneficios-dilisa-promociones-01.jpg" style="width:100%;"/>
+
+
+
+
+
+<h3>Requisitos </h3>
+<div id="credit_info_required" aria-labelledby="ui-id-13" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title">Comienza a hacer historia con <span class="hightlight-pink">Livertú...</span></p>
+<p class="accordion-sub-title">Solicita tu tarjeta de crédito en el almacén Liverpool.</p>
+<ul class="card-tab-list">
+	<li>
+	<p>Tener entre 18 y 23 años de edad.</p>
+	</li>
+	<li>
+	<p>Comprobante de ingresos del último mes por $ 2,500 presentando el recibo de nomina.</p>
+	</li>
+	<li>
+	<p>Identificación oficial: credencial de elector, pasaporte mexicano vigente.</p>
+	</li>
+	<li>
+	<p>Comprobante de domicilio a nombre del solicitante o de un familiar directo: luz, agua, teléfono o boleto predial.</p>
+	</li>
+	<li>
+	<p>De no comprobar los ingresos requeridos deberá presentar un obligado solidario con un buen historial crediticio(únicamente podran ser los padres).</p>
+	</li>
+</ul>
+</div>
+</div>
+
+
+<h3>Protección </h3>
+<div id="card_info_protection" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title"><span class="hightlight-pink">Protección</span> Integral Familiar</p>
+<ul class="card-tab-list">
+	<li>
+	<p>Membresía Dental.</p>
+	</li>
+	<li>
+	<p>Plan Salud</p>
+	</li>
+	<li>
+	<p>Asistencia Automovilística</p>
+	</li>
+	<li>
+	<p>Asistencia en el Hogar</p>
+	</li>
+	<li>
+	<p>Asesoría Jurídica</p>
+	</li>
+</ul>
+</div>
+<p class="card-tab-list">Para conocer a detalle estos servicios de asistencia y sus costos ingresa a <a href="http://assets.liverpool.com.mx/pif/"><span class="hightlight-pink">https://www.liverpool.com.mx/seguros</span></a> o comunícate al <span class="hightlight-pink">10 55 48 37</span> CDMX y área metropolitana o al <span class="hightlight-pink">800 800 1743</span> del interior de la república las <b>24 horas</b> los <b>365 días</b> del año.</p>
+<div class="clear">&nbsp;</div>
+<p class="card-tab-list">Los servicios de Asistencia de <span class="hightlight-pink">Protección Integral Familiar son extensivos</span> para tu cónyuge e hijos menores de 21 años. </p><p> En la entrega de tu nueva <span class="hightlight-pink">Tarjeta de Crédito Liverpool</span> te regalamos 1 mes sin costo.</p>
+
+</div>
+
+
+
+<h3>Servicios </h3>
+<div id="card_info_services" aria-labelledby="ui-id-14" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title">Comprometidos con ofrecerte un mejor servicio <span class="hightlight-pink">Liverpool</span> pone a tu disposición:</p>
+<ul class="card-tab-list">
+	<li>
+	<p><span class="hightlight-pink">Más de 95 almacenes</span> a nivel nacional donde te recibiremos con gusto y te atenderemos como te mereces.</p>
+	</li>
+	<li>
+	<p><span class="hightlight-pink">Mesa de Regalos</span></p>
+	</li>
+	<li>
+	<p><span class="hightlight-pink">Viajes Liverpool</span></p>
+	</li>
+	<li>
+	<p><span class="hightlight-pink">Atención personalizada</span> vía telefónica marcando de la CDMX al 52 62 99 99 o del interior de la República al 01 800 713 55 55.</p>
+	</li>
+	<li>
+	<p><span class="hightlight-pink">Ventas a Distancia</span> a través de nuestra página de <strong>internet</strong> <a class="hightlight-pink" href="https://www.liverpool.com.mx">liverpool.com.mx</a> o vía telefónica en nuestro Centro de Atención a Clientes.</p>
+	</li>
+</ul>
+
+<p style="margin-top:2em">Alerta SMS:
+Recibirá notificaciones a través de mensajes SMS en su celular por compras o disposiciones en efectivo realizadas con tu tarjeta de crédito <b>Livertú o Fabrícate</b>.</p>
+<ul class="card-tab-list show-pink-bullets">
+	<li><p>Aplica para todas sus <b>compras realizadas a través de Internet o Vía telefónica</b>.</p></li>
+	<li><p>Compras con su tarjeta de crédito dentro de nuestros almacenes Liverpool.</p></li>
+	<li><p>Te invitamos a actualizar tus datos en nuestros almacenes Liverpool o en el Centro de Atención Telefónica para disfrutar de este servicio.</p></li>
+</ul>
+
+</div>
+</div>
+
+
+
+<h3>Cuotas y comisiones </h3>
+<div id="card_info_transparency" aria-labelledby="ui-id-15" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<p class="accordion-title"><span class="hightlight-pink">Cuotas y comisiones</span></p>
+<!-- start here -->
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Comisión anual</label></div>
+<div class="span3"><label class="boldText">Sin costo</label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Cargo por reposición</label></div>
+<div class="span3"><label class="boldText">Sin costo</label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Aclaraciones improcedentes</label></div>
+<div class="span3"><label class="boldText">Sin costo</label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Cuota por sobregiro</label></div>
+<div class="span3"><label class="boldText">Sin costo</label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText">Comisión por requerimiento de pago</label></div>
+<div class="span3"><label class="boldText">$379.00</label></div>
+</div>
+<div class="row-fluid card-detail-table-row">
+<div class="span9"><label class="boldText"><strong>Costo Anual Total (CAT)*</strong></label></div>
+<div class="span3"><label class="boldText"><strong>CAT Promedio: 17.6%</strong></label></div>
+</div>
+<p>* Fecha de cálculo al 1° de diciembre de 2019. Tasa promedio 16.3% sin IVA. Para fines informativos y de comparación exclusivamente.</p>
+<p>
+
+Nota: Todas las cifras antes mencionadas son "Sin IVA".</p>
+<!--ends here --></div>
+</div>
+
+<h3>Pagos </h3>
+<div id="card_info_comision" aria-labelledby="ui-id-5" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel"  >
+<div class="row-fluid">
+<div class="clear">&nbsp;</div>
+<p class="accordion-title"><span class="hightlight-pink">El pago se puede realizar en: </span></p>
+<div class="row-fluid">
+<div class="span6">
+<ul class="card-tab-list">
+	<li>
+	<p>Tienda Liverpool</p>
+	</li>
+	<li>
+	<p>Desde www.liverpool.com.mx (Si su banco es Bancomer o Banamex)</p>
+	</li>
+	<li>
+	<p>En línea desde el portal del banco de tu
+preferencia:
+
+
+Recuerde dar de alta su Tarjeta en el
+portal de tu banco</p>
+	</li>
+</ul>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+</div></div>
+
+</div>
+</section>
+</div>
+
+
+</body>
+</html>

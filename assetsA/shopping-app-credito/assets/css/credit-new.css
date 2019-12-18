@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/Roboto-Light-webfont.eot');
+    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Light-webfont.woff') format('woff'), url('fonts/Roboto-Light-webfont.ttf') format('truetype'), url('fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Regular-webfont.woff') format('woff'), url('fonts/Roboto-Regular-webfont.ttf') format('truetype'), url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/Roboto-Bold-webfont.eot');
+    src: url('fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Bold-webfont.woff') format('woff'), url('fonts/Roboto-Bold-webfont.ttf') format('truetype'), url('fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/Roboto-Medium-webfont.eot');
+    src: url('fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Medium-webfont.woff') format('woff'), url('fonts/Roboto-Medium-webfont.ttf') format('truetype'), url('fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'robotocondensedregular';
+    src: url('fonts/RobotoCondensed-Regular-webfont.eot');
+    src: url('fonts/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/RobotoCondensed-Regular-webfont.woff') format('woff'), url('fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype'), url('fonts/RobotoCondensed-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+.ul_benefits li img{
+ width:100px;
+}
+
+.ui-stater-focus{
+    border:transparent!important;
+    -webkit-tap-highlight-color:transparent!important;
+}
+
+ul.ul_info_credit{
+    width:100%;
+    /*height: 40px;
+    overflow-x:scroll;
+    overflow-y:hidden;*/
+}
+ul.ul_benefits > .ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active{
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-radius:4px 4px 0 0;
+
+}
+
+.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active .pointer{
+
+}
+
+.border-for-content-roots{
+    border-bottom: 1px solid #ddd;
+border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+}
+.no-padding-pleas{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+ul.ul_benefits.nav-tabs>li>a:hover{
+ border-color: transparent!important;
+}
+h1.h1-sub-title-all{
+    font-size: 20px;
+    font-family: "robotoregular"
+}
+ul.tabs_inline_list{
+    list-style:none;
+    padding-left: 0px;
+    font-family: "robotoregular"
+}
+.custom-height-manual{
+    height: auto;
+    min-height:308px;
+    max-height: 368px; 
+    text-align: center;
+}
+.custom-height-manual > p{
+    text-align: left;
+}
+.arrow-up-img{
+    width:20px;
+    height: 20px;
+background: url(arrow_up.png)no-repeat center #fff;
+background-size:100%;
+float: right;
+}
+.arrow-down-img{
+    width:20px;
+    height: 20px;
+background: url(arrow_down.png)no-repeat  center #fff;
+background-size:100%;
+float: right;
+}
+.ui-accordion-header{
+    border-top:1px solid #ddd;
+    padding-top: 5px;
+}
+h3{
+    margin-top: 10px;
+    font-size: 20px!important;
+    padding: 10px 0px;
+    font-family: "robotoregular"
+}
+.txt_highlight_pink{
+
+    color: #000;
+    font-family: "robotomedium"
+}
+.credit-table {
+    width: 100%;
+}
+.credit-table td {
+    padding: 1em;
+    font-family: "roboto", arial, sans-serif;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+}
+.credit-table tr:nth-child(even) > td {
+    background: #FAFAFA;
+}
+
+.credit-table tr:nth-child(odd) > td {
+    -webkit-box-shadow: inset 0 -10px 9px -12px #ccc;
+    -moz-box-shadow: inset 0 -10px 9px -12px #ccc;
+    -o-box-shadow: inset 0 -10px 9px -12px #ccc;
+    box-shadow: inset 0 -10px 9px -12px #ccc;
+}
+b{
+    font-family: "robotobold", arial, sans-serif;
+}
+.nav>li>a {
+    padding: 8px 13px!important;
+}
+.ui-state-focus{
+    outline: none!important;
+}
+.ui-state-active a, .ui-state-hover a {
+    outline: none!important;
+}
+/*none*/
+
+/*bug 1-26-2017 id 12442*/
+.tramite-extranjeros .tramite-titulo{
+    background-color:#cccccc;
+    padding:1px !important;
+    margin:15px -15px;
+    font-size:16px;
+    font-weight:bold;
+    width:auto;
+    display:block;
+}
+.tramite-extranjeros .tramite-titulo > h2{
+    margin: 4px 0px;
+    color:#000 !important;
+    font-size:14px;
+    margin:4px auto 4px 15px;
+}
+
+.tramite-extranjeros .tramite-titulo > .h2titulo{
+ margin: 4px 0px;
+    color:#000 !important;
+    margin-left:15px;   
+}
+div.tramite-extranjeros > ol > li > ul > li {
+    list-style-type: disc;
+}
+div.tramite-extranjeros > ol {
+    list-style-type: lower-alpha;
+}
+
+
+/*creditnew constanza*/
+.card-container{
+padding: 0;
+}
+.card-details{
+padding: 8% 4%;
+position: static;
+    width: 100%; /* Bootstrap 3 Upgrade */
+}
+.card-details .card-details-header{
+margin-top: 0;
+margin-bottom: 10px;
+}
+.card-details-header .span3{
+float: left;
+width: 30%;
+}
+.card-details-header .span9{
+float: left;
+margin-left: 5%;
+width: 65%;
+}
+.custom-select-list, .custom-select-options{
+margin: 0 0 10%;
+width: 100%;
+}
+.card-specification{
+padding: 0 5%;
+width: 90%;
+}
+.cards-content .accordion{
+padding: 0 2%;
+}
+.card-detail-table-row .span9, .card-detail-table-row .span3{
+float: left;
+width: 49%;
+}
+.card-detail-table-row .span3{
+margin-left: 2%;
+}
+.card-detail-table-row:nth-child(2n+1){
+background-color: #fff;
+}
+.benifits-container .span3{
+display: block;
+width: 100%;
+float: left;
+margin-top: 20px;
+}
+.row-fluid .benifits-container .span3 figure img {
+    max-width: 100%;
+    height: auto;
+}
+.accordion-title{
+font-family: 'Roboto Condensed Medium',arial,sans-serif !important;
+font-size: 16px !important;
+line-height: 20px !important;
+}
+.accordion-sub-title{
+font-family: 'Roboto Condensed Medium',arial,sans-serif !important;
+font-size: 14px !important;
+line-height: 18px !important;
+}
+/*termina credit new cons*/
+
+.card-detail-table-row {
+    border-top: 1px solid #DDDDDD;
+    line-height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    overflow: auto;
+}
+.card-detail-table-row:nth-child(2n+1) {
+    background-color: #F9F9F9;
+}
+.card-detail-table-row .span9, .card-detail-table-row .span3 {
+    float: left;
+    width: 49%;
+}
+.card-detail-table-row .span3 {
+    margin-left: 2%;
+}
+
+/* start  align row-fliud benefits */
+.row-fluid .benifits-container .span3{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.row-fluid .benifits-container .span3 figure{
+    display: inline-block;
+    margin-top: 3%;
+    width: 25%;
+}
+.row-fluid .benifits-container .span3 figure img{
+    max-width: 100%;
+    height: auto;
+}
+.row-fluid .benifits-container .span3 p{
+    vertical-align: middle;
+    width: 70%;
+    display: inline-block;
+    margin-left: 2%;
+}
+/*  end  align row-fliud benefits */
+
+.promociones_{
+            display: flex;
+            flex-wrap: wrap;/*wrap | wrap-reverse*/
+
+}
+.promociones_ div{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.promociones_ div img{
+    width: 100%;
+}
+@media only screen and (max-width: 991px) {
+.promociones_ div {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.nav>li>a {
+    padding: 15px 0px!important;
+}
+h1{
+    font-size:25px;
+}
+}
+
+
+
+
