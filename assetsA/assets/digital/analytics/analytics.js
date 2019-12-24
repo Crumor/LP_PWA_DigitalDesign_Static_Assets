@@ -102,7 +102,93 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-              	{
+        {
+		'id':'ella_251219',
+       'name':'Ella hasta 40% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
+        },
+							
+		{
+		'id':'top_deals_251219',
+       'name':'TOP deals ofertas del día',
+		'creative':'h_banner_secun',
+		'position':'2'
+		},
+		{
+		'id':'el_251219',
+		'name':'Él hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'3'
+		},
+			{
+		'id':'bebes_ninos_251219',
+		'name':'Bebes y Niños hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'4'
+		},
+			{
+		'id':'zapatos_251219',
+		'name':'Zapatos hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'5'
+		},
+            {
+		'id':'deportes_251219',
+		'name':'Deportes hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'6'
+		},
+            {
+		'id':'muebles_251219',
+            'name':'Muebles hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'7'
+		},
+            {
+		'id':'linea_blanca_251219',
+            'name':'Línea Blanca hasta 47% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
+		},		
+            {
+		'id':'casa_251219',
+            'name':'Casa hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'9'
+		},		
+            {
+		'id':'cocina_251219',
+            'name':'Cocina hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'10'
+		},									
+                 {
+		'id':'celulares_251219',
+		'name':'Celulares hasta 13 MSI',
+       'creative':'h_banner_secun',
+       'position':'11'
+		},
+            {
+		'id':'pantallas_251219',
+            'name':'Pantallas hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'12'
+		},           
+            {
+		'id':'sonido_251219',
+           'name':'Sonido hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'13'
+		},
+            
+            {
+		'id':'relojes_251219',
+		'name':'Relojes hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'14'
+		},
+							{
 		'id':'ella_161219',
 		'name':'Ella',
 		'creative':'h_banner_central',
@@ -122,7 +208,7 @@ function myOnloadFunction(pageName,path) {
        'position':'3'
 		},
 			{
-		 'id':'linea_blanca_161219',
+	'id':'linea_blanca_161219',
 		'name':'Línea Blanca hasta 47% de desc',
        'creative':'h_banner_secun',
        'position':'4'
