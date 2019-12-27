@@ -688,9 +688,9 @@ dataLayer.push({
     'position': '06'
 },
 {
-    'id': 'aireacondicionado_210619',
-    'name': 'Aire Acondicionado',
-    'creative': 'blp_lineablanca_aire',
+    'id': 'calefactores_210619',
+    'name': 'Calefactores',
+    'creative': 'blp_lineablanca_calefactores',
     'position': '07'
 },
 {
@@ -958,9 +958,9 @@ dataLayer.push({
     'position': '02'
 },
 {
-    'id': 'muebles_210619',
-    'name': 'Muebles TV',
-    'creative': 'blp_muebles_muebles',
+    'id': 'muebles_271219',
+    'name': 'Chimeneas',
+    'creative': 'blp_muebles_chimeneas',
     'position': '03'
 },
 {
