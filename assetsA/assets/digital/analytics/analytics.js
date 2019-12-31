@@ -150,7 +150,13 @@ function myOnloadFunction(pageName,path) {
             'name':'Línea Blanca hasta 47% de desc',
        'creative':'h_banner_secun',
        'position':'8'
-		},		
+		},
+							 {
+		'id':'linea_blanca_010120',
+            'name':'Línea Blanca hasta 36% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
+		},
             {
 		'id':'casa_251219',
             'name':'Casa hasta 25% de desc',
