@@ -108,6 +108,12 @@ function myOnloadFunction(pageName,path) {
 		'creative':'h_banner_central',
 		'position':'1'
         },
+							 {
+		'id':'el_030120',
+       'name':'Él hasta 50% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
+        },
 							
 		{
 		'id':'top_deals_251219',
@@ -139,6 +145,30 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'6'
 		},
+			{
+		'id':'ella_030120',
+		'name':'Ella hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'3'
+		},
+			{
+		'id':'bebes_ninos_030120',
+		'name':'Bebes y Niños hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'4'
+		},
+			{
+		'id':'zapatos_030120',
+		'name':'Zapatos hasta 50% de desc',
+       'creative':'h_banner_secun',
+       'position':'5'
+		},
+            {
+		'id':'deportes_030120',
+		'name':'Deportes hasta 40% de desc',
+       'creative':'h_banner_secun',
+       'position':'6'
+		},								
             {
 		'id':'muebles_251219',
             'name':'Muebles hasta 50% de desc',
@@ -151,7 +181,7 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'8'
 		},
-							 {
+		{
 		'id':'linea_blanca_010120',
             'name':'Línea Blanca hasta 36% de desc',
        'creative':'h_banner_secun',
@@ -175,6 +205,12 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'11'
 		},
+		{
+		'id':'celulares_020120',
+		'name':'Celulares hasta 24 MSI ó hasta 10% de descu y hasta 18 MSI',
+       'creative':'h_banner_secun',
+       'position':'11'
+		},
             {
 		'id':'pantallas_251219',
             'name':'Pantallas hasta 25% de desc',
@@ -187,96 +223,15 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'13'
 		},
-            
             {
-		'id':'relojes_251219',
-		'name':'Relojes hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'14'
-		},
-							{
-		'id':'ella_161219',
-		'name':'Ella',
-		'creative':'h_banner_central',
-		'position':'1'
-        },
-							
-		{
-		'id':'top_deals_161219',
-		'name':'TOP deals ofertas del día',
-		'creative':'h_banner_secun',
-		'position':'2'
-		},
-		{
-		'id':'muebles_161219',
-       'name':'Muebles hasta 50% de desc',
-       'creative':'h_banner_secun',
-       'position':'3'
-		},
-			{
-	'id':'linea_blanca_161219',
-		'name':'Línea Blanca hasta 47% de desc',
-       'creative':'h_banner_secun',
-       'position':'4'
-		},
-			{
-		'id':'casa_161219',
-		'name':'Casa hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'5'
-		},
-            {
-		'id':'colchones_161219',
-		'name':'Colchones hasta 36% de desc',
-       'creative':'h_banner_secun',
-       'position':'6'
-		},
-            {
-		'id':'pantallas_161219',
-		'name':'Pantallas hasta 25% de desc',
-       'creative':'h_banner_secun',
-       'position':'7'
-		},
-            {
-		'id':'celulares_161219',
-       'name':'Celulares hasta 13 MSI',
-       'creative':'h_banner_secun',
-       'position':'8'
-		},		
-            {
-		'id':'computo_161219',
-       'name':'Cómputo hasta 10% de desc',
-       'creative':'h_banner_secun',
-       'position':'9'
-		},		
-            {
-		'id':'zapatos_161219',
-       'name':'Zapatos',
-       'creative':'h_banner_secun',
-       'position':'10'
-		},									
-                 {
-		'id':'gap_161219',
-		'name':'GAP',
-       'creative':'h_banner_secun',
-       'position':'11'
-		},
-            {
-		'id':'bebes_niños_161219',
-		'name':'Bebés y Niños',
-       'creative':'h_banner_secun',
-       'position':'12'
-		},           
-            {
-		'id':'el_161219',
-		'name':'Él',
+		'id':'jbl_030120',
+           'name':'Audífonos JBL hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'13'
 		},
-            
             {
-		'id':'deportes_161219',
-		'name':'Deportes hasta 20% de desc',
+		'id':'relojes_251219',
+		'name':'Relojes hasta 50% de desc',
        'creative':'h_banner_secun',
        'position':'14'
 		}
