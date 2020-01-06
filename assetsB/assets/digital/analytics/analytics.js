@@ -198,6 +198,12 @@ function myOnloadFunction(pageName,path) {
            'creative':'h_banner_secun',
            'position':'13'
 		},
+							 {
+		'id':'computo_070120',
+           'name':'Computo hasta 10% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
+		},
             {
 		'id':'relojes_251219',
 		'name':'Relojes hasta 50% de desc',
