@@ -103,12 +103,6 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
         {
-		'id':'ella_251219',
-       'name':'Ella hasta 40% de desc',
-		'creative':'h_banner_central',
-		'position':'1'
-        },
-							 {
 		'id':'el_030120',
        'name':'Él hasta 50% de desc',
 		'creative':'h_banner_central',
@@ -121,30 +115,12 @@ function myOnloadFunction(pageName,path) {
 		'creative':'h_banner_secun',
 		'position':'2'
 		},
-		{
-		'id':'el_251219',
-		'name':'Él hasta 40% de desc',
+							{
+		'id':'pandora_040120',
+		'name':'Pandora hasta 40% de desc',
        'creative':'h_banner_secun',
-       'position':'3'
-		},
-			{
-		'id':'bebes_ninos_251219',
-		'name':'Bebes y Niños hasta 40% de desc',
-       'creative':'h_banner_secun',
-       'position':'4'
-		},
-			{
-		'id':'zapatos_251219',
-		'name':'Zapatos hasta 40% de desc',
-       'creative':'h_banner_secun',
-       'position':'5'
-		},
-            {
-		'id':'deportes_251219',
-		'name':'Deportes hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'6'
-		},
+       'position':'3_1'
+		},		
 			{
 		'id':'ella_030120',
 		'name':'Ella hasta 50% de desc',
@@ -175,12 +151,6 @@ function myOnloadFunction(pageName,path) {
        'creative':'h_banner_secun',
        'position':'7'
 		},
-            {
-		'id':'linea_blanca_251219',
-            'name':'Línea Blanca hasta 47% de desc',
-       'creative':'h_banner_secun',
-       'position':'8'
-		},
 		{
 		'id':'linea_blanca_010120',
             'name':'Línea Blanca hasta 36% de desc',
@@ -198,9 +168,14 @@ function myOnloadFunction(pageName,path) {
             'name':'Cocina hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'10'
-		},									
+		},	
+		{'id':'iphone_020120',
+		'name':'iPhone hasta 10% de desc',
+       'creative':'h_banner_secun',
+       'position':'11_1'
+					},		
                  {
-		'id':'celulares_251219',
+		'id':'celulares_070120',
 		'name':'Celulares hasta 13 MSI',
        'creative':'h_banner_secun',
        'position':'11'
@@ -218,16 +193,16 @@ function myOnloadFunction(pageName,path) {
        'position':'12'
 		},           
             {
-		'id':'sonido_251219',
-           'name':'Sonido hasta 25% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
+		'id':'computo_030120',
+           'name':'Computo hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
 		},
-            {
-		'id':'jbl_030120',
-           'name':'Audífonos JBL hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
+							 {
+		'id':'computo_070120',
+           'name':'Computo hasta 10% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
 		},
             {
 		'id':'relojes_251219',
