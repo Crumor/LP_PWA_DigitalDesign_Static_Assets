@@ -501,76 +501,220 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'running_fest_200919',
-    'name': 'Running Fest',
-    'creative': 'blp_deportes_running_fest',
+    'id': 'aire_libre_061119',
+    'name': 'Aire Libre',
+    'creative': 'blp_deportes_airelibre',
     'position': '01'
 },
 {
-    'id': 'americano_280819',
-    'name': 'Americano',
-    'creative': 'blp_deportes_americano',
+    'id': 'acuaticos_061119',
+    'name': 'Acuaticos',
+    'creative': 'blp_deportes_acuaticos',
     'position': '02'
 },
 {
-    'id': 'running_280819',
-    'name': 'Running',
-    'creative': 'blp_deportes_running',
+    'id': 'ballet_061119',
+    'name': 'Ballet',
+    'creative': 'blp_deportes_ballet',
     'position': '03'
 },
 {
-    'id': 'entrenamiento_280819',
-    'name': 'Entrenamiento',
-    'creative': 'blp_deportes_entrenamiento',
+    'id': 'beisbol_061119',
+    'name': 'Beisbol',
+    'creative': 'blp_deportes_beisbol',
     'position': '04'
 },
 {
-    'id': 'ella_280819',
-    'name': 'Ella',
-    'creative': 'blp_deportes_ella',
+    'id': 'basquet_061119',
+    'name': 'Basquet',
+    'creative': 'blp_deportes_basquet',
     'position': '05'
 },
 {
-    'id': 'futbol_280819',
-    'name': 'Futbol',
-    'creative': 'blp_deportes_futbol',
+    'id': 'box_061119',
+    'name': 'Box',
+    'creative': 'blp_deportes_box',
     'position': '06'
 },
 {
-    'id': 'basquetbol_280819',
-    'name': 'Basquetbol',
-    'creative': 'blp_deportes_basquetbol',
+    'id': 'campismo_061119',
+    'name': 'Campismo',
+    'creative': 'blp_deportes_campismo',
     'position': '07'
 },
 {
-    'id': 'tenisel_280819',
-    'name': 'Tenis El',
-    'creative': 'blp_deportes_tenisel',
+    'id': 'ciclismo_061119',
+    'name': 'Ciclismo',
+    'creative': 'blp_deportes_ciclismo',
     'position': '08'
 },
 {
-    'id': 'tenisella_280819',
-    'name': 'Tenis Ella',
-    'creative': 'blp_deportes_tenisella',
+    'id': 'caza_061119',
+    'name': 'Caza',
+    'creative': 'blp_deportes_caza',
     'position': '09'
 },
 {
-    'id': 'ninas_280819',
-    'name': 'Ninas',
-    'creative': 'blp_deportes_ninas',
+    'id': 'correr_061119',
+    'name': 'Correr',
+    'creative': 'blp_deportes_correr',
     'position': '10'
 },
 {
-    'id': 'ninos_280819',
-    'name': 'Ninos',
-    'creative': 'blp_deportes_ninos',
+    'id': 'entrenamiento_061119',
+    'name': 'Entrenamiento',
+    'creative': 'blp_deportes_entrenamiento',
     'position': '11'
 },
 {
-    'id': 'motos_280819',
+    'id': 'americano_061119',
+    'name': 'Americano',
+    'creative': 'blp_deportes_americano',
+    'position': '12'
+},
+{
+    'id': 'futbol_061119',
+    'name': 'Futbol',
+    'creative': 'blp_deportes_futbol',
+    'position': '13'
+},
+{
+    'id': 'golf_061119',
+    'name': 'Golf',
+    'creative': 'blp_deportes_golf',
+    'position': '14'
+},
+{
+    'id': 'moto_061119',
+    'name': 'Moto',
+    'creative': 'blp_deportes_moto',
+    'position': '15'
+},
+{
+    'id': 'pesca_061119',
+    'name': 'Pesca',
+    'creative': 'blp_deportes_pesca',
+    'position': '16'
+},
+{
+    'id': 'raqueta_061119',
+    'name': 'Raqueta',
+    'creative': 'blp_deportes_pesca',
+    'position': '17'
+},
+{
+    'id': 'voleibol_061119',
+    'name': 'Voleibol',
+    'creative': 'blp_deportes_voleibol',
+    'position': '18'
+},
+{
+    'id': 'yoga_061119',
+    'name': 'Yoga',
+    'creative': 'blp_deportes_yoga',
+    'position': '19'
+},
+{
+    'id': 'jerseysb_160120',
+    'name': 'Jersey SB',
+    'creative': 'blp_deportes_jerseySB',
+    'position': '20'
+},
+{
+    'id': 'accesoriossb_160120',
+    'name': 'Accesorios SB',
+    'creative': 'blp_deportes_accesoriosSB',
+    'position': '21'
+},
+{
+    'id': 'gorrassb_160120',
+    'name': 'Gorras SB',
+    'creative': 'blp_deportes_gorrasSB',
+    'position': '22'
+},
+{
+    'id': 'pantallassb_160120',
+    'name': 'Pantallas SB',
+    'creative': 'blp_deportes_pantallasSB',
+    'position': '23'
+},
+{
+    'id': 'sonidosb_160120',
+    'name': 'Pantallas SB',
+    'creative': 'blp_deportes_pantallasSB',
+    'position': '24'
+},
+{
+    'id': 'mueblessb_160120',
+    'name': 'Muebles SB',
+    'creative': 'blp_deportes_mueblesSB',
+    'position': '25'
+},
+{
+    'id': 'autografiablesb_160120',
+    'name': 'Auto SB',
+    'creative': 'blp_deportes_autoSB',
+    'position': '26'
+},
+{
+    'id': 'frigosb_160120',
+    'name': 'Frigo SB',
+    'creative': 'blp_deportes_frigoSB',
+    'position': '27'
+},
+{
+    'id': 'vinosb_160120',
+    'name': 'Vino SB',
+    'creative': 'blp_deportes_vinoSB',
+    'position': '28'
+},
+{
+    'id': 'asadoressb_160120',
+    'name': 'Asadores SB',
+    'creative': 'blp_deportes_asadoresSB',
+    'position': '29'
+},
+{
+    'id': 'aparatos_061119',
+    'name': 'Aparatos',
+    'creative': 'blp_deportes_aparatos',
+    'position': '30'
+},
+{
+    'id': 'ropa_061119',
+    'name': 'Ropa',
+    'creative': 'blp_deportes_ropa',
+    'position': '31'
+},
+{
+    'id': 'motos_061119',
     'name': 'Motos',
     'creative': 'blp_deportes_motos',
-    'position': '12'
+    'position': '32'
+},
+{
+    'id': 'tenisel_061119',
+    'name': 'Tenis El',
+    'creative': 'blp_deportes_tenisel',
+    'position': '33'
+},
+{
+    'id': 'tenisella_061119',
+    'name': 'Tenis Ella',
+    'creative': 'blp_deportes_tenisella',
+    'position': '34'
+},
+{
+    'id': 'ninos_061119',
+    'name': 'Tenis Ninos',
+    'creative': 'blp_deportes_tenisninos',
+    'position': '35'
+},
+{
+    'id': 'ninas_061119',
+    'name': 'Tenis Ninas',
+    'creative': 'blp_deportes_tenisninas',
+    'position': '36'
 }
 ]
 }
