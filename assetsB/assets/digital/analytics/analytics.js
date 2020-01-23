@@ -1310,34 +1310,112 @@ dataLayer.push({
     'position': '08'
 },
 {
-    'id': 'greatest_hits_090819',
-    'name': 'Greatest Hits',
-    'creative': 'blp_videojuegos_greatest_hits',
+    'id': 'luigis_mansion_270919',
+    'name': 'Luigis',
+    'creative': 'blp_videojuegos_luigis_mansion',
     'position': '09'
 },
 {
-    'id': 'control_090819',
-    'name': 'Control',
-    'creative': 'blp_videojuegos_control',
+    'id': 'greatest_hits_090819',
+    'name': 'Greatest Hits',
+    'creative': 'blp_videojuegos_greatest_hits',
     'position': '10'
 },
 {
-    'id': 'fifa_090819',
-    'name': 'Fifa 20',
-    'creative': 'blp_videojuegos_fifa',
+    'id': 'cod_270919',
+    'name': 'COD',
+    'creative': 'blp_videojuegos_COD',
     'position': '11'
+},
+{
+    'id': 'FIFA_030919',
+    'name': 'FIFA 2020',
+    'creative': 'blp_videojuegos_fifa',
+    'position': '12'
+},   
+{
+    'id': 'dragonball_2020_270919',
+    'name': 'Dragon Ball',
+    'creative': 'blp_videojuegos_dragonball',
+    'position': '05'
+},   
+{
+    'id': 'pokemon_030919',
+    'name': 'Pokemon',
+    'creative': 'blp_videojuegos_pokemon',
+    'position': '13'
 },
 {
     'id': 'starwars_090819',
     'name': 'Star Wars',
     'creative': 'blp_videojuegos_starwars',
-    'position': '12'
+    'position': '14'
 },
 {
-    'id': 'mario_090819',
-    'name': 'Mario',
-    'creative': 'blp_videojuegos_mario',
-    'position': '13'
+    'id': 'Fortnite_030919',
+    'name': 'Fortnite',
+    'creative': 'blp_videojuegos_fortnite',
+    'position': '15'
+},
+{
+    'id': 'aventura_090819',
+    'name': 'Filtros Aventura',
+    'creative': 'blp_videojuegos_aventura',
+    'position': '16'
+},
+{
+    'id': 'deportes_090819',
+    'name': 'Filtros Deportes',
+    'creative': 'blp_videojuegos_deportes',
+    'position': '17'
+},
+{
+    'id': 'disparos_090819',
+    'name': 'Filtros Disparos',
+    'creative': 'blp_videojuegos_disparos',
+    'position': '18'
+},
+{
+    'id': 'peleas_090819',
+    'name': 'Filtros Peleas',
+    'creative': 'blp_videojuegos_peleas',
+    'position': '19'
+},
+{
+    'id': 'terror_090819',
+    'name': 'Filtros Terror',
+    'creative': 'blp_videojuegos_terror',
+    'position': '20'
+},
+{
+    'id': 'carreras_090819',
+    'name': 'Filtros Carreras',
+    'creative': 'blp_videojuegos_carreras',
+    'position': '21'
+},
+{
+    'id': 'aventura_090819',
+    'name': 'Filtros Aventura',
+    'creative': 'blp_videojuegos_aventura',
+    'position': '16'
+},
+{
+    'id': 'aventura_090819',
+    'name': 'Filtros Aventura',
+    'creative': 'blp_videojuegos_aventura',
+    'position': '16'
+},
+{
+    'id': 'aventura_090819',
+    'name': 'Filtros Aventura',
+    'creative': 'blp_videojuegos_aventura',
+    'position': '16'
+},
+{
+    'id': 'aventura_090819',
+    'name': 'Filtros Aventura',
+    'creative': 'blp_videojuegos_aventura',
+    'position': '16'
 },
 {
     'id': 'cod_090819',
@@ -1580,6 +1658,12 @@ dataLayer.push({
    'position': '04'
 },
 {
+    'id': 'casa_organizadores_220120',
+    'name': 'Casa Organizadores',
+    'creative': 'blp_casa_organizadores',
+    'position': '04'
+},
+{
    'id': 'casa_vajillas_210619',
    'name': 'Casa Vajillas',
    'creative': 'blp_vajillas_Casa',
@@ -1602,6 +1686,34 @@ dataLayer.push({
    'name': 'Casa Entretenimiento',
    'creative': 'blp_entretenimiento_Casa',
    'position': '08'
+},
+{
+   'id': 'casa_libros_210619',
+   'name': 'Casa Libros',
+   'creative': 'blp_libros_Casa',
+   'position': '10'
+
+},
+{
+    'id': 'casa_automotriz_051119',
+    'name': 'Casa Automotriz',
+    'creative': 'blp_casa_automotriz',
+    'position': '11'
+
+},
+{
+    'id': 'casa_ferreteria_051119',
+    'name': 'Casa Ferreteria',
+    'creative': 'blp_casa_ferreteria',
+    'position': '12'
+
+},
+{
+    'id': 'casa_asadores_051119',
+    'name': 'Casa Asadores',
+    'creative': 'blp_casa_asadores',
+    'position': '13'
+
 },
 {
    'id': 'casa_libros_210619',
@@ -4295,27 +4407,27 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'sueteres_ella_051119',
-    'name': 'Aero Sueteres Ella',
-    'creative': 'blp_aero_sueteres_ella',
+    'id': 'playeras_ella_230120',
+    'name': 'Aero Playeras Ella',
+    'creative': 'blp_aero_playeras_ella',
     'position': '01'
 },
 {
-    'id': 'chamarras_el_051119',
-    'name': 'Aero Chamarras El',
-    'creative': 'blp_aero_chamarras_el',
+    'id': 'playeras_el_230120',
+    'name': 'Aero Playeras El',
+    'creative': 'blp_aero_playeras_el',
     'position': '02'
 },
 {
-    'id': 'playeras_el_051119',
-    'name': 'Aero Playeras El',
-    'creative': 'blp_aero_playeras_el',
+    'id': 'sudaderas_el_230120',
+    'name': 'Aero Sudaderas El',
+    'creative': 'blp_aero_sudaderas_el',
     'position': '03'
 },
 {
-    'id': 'chamarras_ella_051119',
-    'name': 'Aero Chamarras Ella',
-    'creative': 'blp_aero_chamarras_ella',
+    'id': 'vestidos_ella_051119',
+    'name': 'Aero Vestidos Ella',
+    'creative': 'blp_aero_vestidos_ella',
     'position': '04'
 },
 {
