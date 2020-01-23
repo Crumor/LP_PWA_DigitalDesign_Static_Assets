@@ -107,7 +107,7 @@ function myOnloadFunction(pageName,path) {
 		'name':'Bebes hasta 60% de desc',
        'creative':'h_banner_central',
        'position':'1'
-							
+		},					
 		{
 		'id':'top_deals_251219',
        'name':'TOP deals ofertas del día',
@@ -127,7 +127,7 @@ function myOnloadFunction(pageName,path) {
        'position':'4'
 		},
 			{
-		 'id':'ninos_150120',
+		'id':'ninos_150120',
 		'name':'Niños hasta 60% de desc',
        'creative':'h_banner_secun',
        'position':'5'
@@ -145,20 +145,20 @@ function myOnloadFunction(pageName,path) {
        'position':'7'
 		},								
             {
-		 'id':'muebles_251219',
-       'name':'Muebles hasta 50% de desc',
+		'id':'celulares_230120',
+		'name':'Celulares hasta 13 MSI',
        'creative':'h_banner_secun',
        'position':'8'
 		},
 		{
-		'id':'linea_blanca_150120',
-            'name':'Línea Blanca hasta 40% de desc',
+		'id':'pantallas_170120',
+            'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'9'
 		},
             {
-		 'id':'colchones_200120',
-            'name':'Colchones hasta 40% de desc',
+		'id':'computo_070120',
+           'name':'Computo hasta 10% de desc',
            'creative':'h_banner_secun',
            'position':'10'
 		},		
@@ -167,24 +167,29 @@ function myOnloadFunction(pageName,path) {
        'name':'Viajes hasta 60% de desc',
        'creative':'h_banner_secun',
        'position':'11'
-		},	
-		{ 
-			'id':'celulares_170120',
-		'name':'Celulares hasta 10% de reembolso',
+		},						   {
+		'id':'muebles_251219',
+       'name':'Muebles hasta 50% de desc',
        'creative':'h_banner_secun',
        'position':'12'
-					},		
-                 {
-		'id':'pantallas_170120',
-            'name':'Pantallas hasta 30% de desc',
+		},
+		{ 
+			'id':'electricos_230120',
+            'name':'Eléctricos hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'13'
-		},
-		{
-		 'id':'computo_070120',
-           'name':'Computo hasta 10% de desc',
+					},		
+                 {
+	'id':'colchones_200120',
+            'name':'Colchones hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'14'
+		},
+		{
+		'id':'linea_blanca_150120',
+            'name':'Línea Blanca hasta 40% de desc',
+           'creative':'h_banner_secun',
+           'position':'15'
 		}
 	
                         ]
