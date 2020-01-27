@@ -3668,7 +3668,7 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'especiales_131119',
+    'id': 'especiales_270120',
     'name': 'Apple Especiales',
     'creative': 'blp_apple_especiales',
     'position': '01'
