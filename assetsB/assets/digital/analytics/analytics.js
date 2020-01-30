@@ -103,70 +103,70 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
         {
-		'id':'bebes_150120',
-		'name':'Bebes hasta 60% de desc',
+		'id':'ella_270120',
+		'name':'Ella hasta 60% de desc',
        'creative':'h_banner_central',
        'position':'1'
 		},					
 		{
-		'id':'top_deals_251219',
-       'name':'TOP deals ofertas del día',
-		'creative':'h_banner_secun',
-		'position':'2'
+		'id':'el_150120',
+		'name':'Él hasta 60% de desc',
+       'creative':'h_banner_secun',
+       'position':'2'
 		},
 							{
-		'id':'ella_030120',
-		'name':'Ella hasta 60% de desc',
+		'id':'bebes_270120',
+		'name':'Bebés hasta 60% de desc',
        'creative':'h_banner_secun',
        'position':'3'
 		},		
 			{
-		'id':'el_150120',
-		'name':'Él hasta 60% de desc',
-       'creative':'h_banner_secun',
-       'position':'4'
-		},
-			{
 		'id':'ninos_150120',
 		'name':'Niños hasta 60% de desc',
        'creative':'h_banner_secun',
-       'position':'5'
+       'position':'4'
 		},
 			{
 		'id':'zapatos_150120',
 		'name':'Zapatos hasta 60% de desc',
        'creative':'h_banner_secun',
-       'position':'6'
+       'position':'5'
 		},
-            {
+			{
 		'id':'deportes_150120',
 		'name':'Deportes hasta 60% de desc',
-       'creative':'h_banner_secun',
-       'position':'7'
+           'creative':'h_banner_secun',
+           'position':'6'
+		},
+            {
+		'id':'aparatos_270120',
+           'name':'Aparatos de Ejercicio hasta 40% de desc',
+           'creative':'h_banner_secun',
+           'position':'7'
 		},								
             {
-		'id':'celulares_230120',
-		'name':'Celulares hasta 13 MSI',
+		'id':'apple_270120',
+		'name':'Apple hasta 10% de desc',
        'creative':'h_banner_secun',
        'position':'8'
 		},
 		{
-		'id':'pantallas_170120',
-            'name':'Pantallas hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'9'
+		'id':'celulares_270120',
+		'name':'Celulares hasta 24 MSI',
+       'creative':'h_banner_secun',
+       'position':'9'
 		},
             {
-		'id':'computo_070120',
-           'name':'Computo hasta 10% de desc',
+		'id':'pantallas_170120',
+            'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'10'
 		},		
             {
-		'id':'viajes_200120',
-       'name':'Viajes hasta 60% de desc',
-       'creative':'h_banner_secun',
-       'position':'11'
+		'id':'computo_270120',
+           'name':'Computo hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'11'
 		},						   {
 		'id':'muebles_251219',
        'name':'Muebles hasta 50% de desc',
@@ -174,22 +174,16 @@ function myOnloadFunction(pageName,path) {
        'position':'12'
 		},
 		{ 
-			'id':'electricos_230120',
-            'name':'Eléctricos hasta 30% de desc',
+			'id':'colchones_200120',
+            'name':'Colchones hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'13'
 					},		
                  {
-	'id':'colchones_200120',
-            'name':'Colchones hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'14'
-		},
-		{
-		'id':'linea_blanca_150120',
+	'id':'linea_blanca_150120',
             'name':'Línea Blanca hasta 40% de desc',
            'creative':'h_banner_secun',
-           'position':'15'
+           'position':'14'
 		}
 	
                         ]
