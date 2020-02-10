@@ -158,7 +158,7 @@ function myOnloadFunction(pageName,path) {
             },									
             {
 		'id':'deportes_100220',
-		'name':'Deportes hasta 25% de desc',
+		'name':'Deportes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'10'
 		},
