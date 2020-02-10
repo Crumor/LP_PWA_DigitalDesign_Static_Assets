@@ -103,87 +103,76 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
        {
-		'id':'muebles_040220',
-		'name':'Muebles hasta 50% de desc',
+		'id':'muebles_100220',
+		'name':'Muebles hasta 40% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 		{
-		'id':'linea_blanca_040220',
-       'name':'Línea Blanca hasta 44% de desc',
+		'id':'cocina_100220',
+       'name':'Cocina hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'2'
 		},
 			{
-		 'id':'casa_040220',
-		'name':'Casa hasta 25% de desc',
+		 'id':'linea_blanca_100220',
+		'name':'Línea Blanca hasta 44% de desc',
        'creative':'h_banner_secun',
        'position':'3'
 		},
 			{
-		'id':'cocina_040220',
-		'name':'Cocina hasta 25% de desc',
+		'id':'casa_100220',
+		'name':'Casa hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
             {
-		'id':'muebles_bebe_040220',
-		'name':'Muebles para Bebé hasta 20% de desc',
+		'id':'pantallas_100220',
+		'name':'Pantallas hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'5'
 		},
             {
-		'id':'especial_apple_040220',
-		'name':'Especial Apple hasta 10% de desc',
+		'id':'celulares_100220',
+		'name':'Celulares hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'6'
 		},
             {
-		'id':'pantallas_040220',
-		'name':'Pantallas hasta 25% de desc',
+		'id':'computo_100220',
+		'name':'Cómputo hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'7'
 		},		
             {
-		'id':'celulares_040220',
-		'name':'Celulares hasta 20% de desc o hasta 13 Meses Sin Intereses',
+		'id':'zapatos_100220',
+		'name':'Zapatos hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'8'
 		},		
             {
-		'id':'sonido_040220',
-		'name':'Sonido hasta 30% de desc',
+		'id':'ella_100220',
+		'name':'Ella hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'9'
-		},									{
-		'id':'relojes_040220',
-		'name':'Relojes hasta 25% de desc',
+            },									
+            {
+		'id':'deportes_100220',
+		'name':'Deportes hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'10'
 		},
             {
-		'id':'zapatos_040220',
-		'name':'Zapatos hasta 25% de desc',
+		'id':'el_100220',
+		'name':'Él hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'11'
 		},
             {
-		'id':'american_eagle_040220',
-		'name':'American Eagle hasta 15% de desc',
+		'id':'fragancias_100220',
+		'name':'Fragancias',
        'creative':'h_banner_secun',
        'position':'12'
-		},
-            {
-		'id':'deportes_040220',
-		'name':'Deportes hasta 20% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
-		},
-			{
-		'id':'beauty_040220',
-		'name':'Beauty',
-       'creative':'h_banner_secun',
-       'position':'14'
 		}
 	
                         ]
