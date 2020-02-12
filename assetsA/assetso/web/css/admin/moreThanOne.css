@@ -1,0 +1,42 @@
+.contentBox#moreThanOne {
+  padding: 30px;
+  text-align: center;
+}
+.contentBox#moreThanOne .registerTitles {
+  margin-bottom: 60px;
+}
+.contentBox#moreThanOne .registerTitles h2.titleModule {
+  margin-bottom: 40px;
+}
+.contentBox#moreThanOne .whichIcons {
+  text-align: center;
+}
+.contentBox#moreThanOne .whichIcons a {
+  cursor: pointer;
+}
+.contentBox#moreThanOne .whichIcons a img {
+  background-repeat: no-repeat;
+}
+
+/* .contentBox#moreThanOne .whichIcons a img.changeBabyOn:hover {
+  background-image: url("/assetso/web/images/grBabyHover.png");
+  background-repeat: no-repeat;
+  added background-position in react we have using diffrent scenario
+  background-position: -1px -1px;
+} */
+
+/* .contentBox#moreThanOne .whichIcons a img.changeWeddingOn:hover {
+  background-image: url("/assetso/web/images/grWeddingHover.png");
+  background-repeat: no-repeat;
+  added background-position in react we have using diffrent scenario
+  background-position: -1px -1px;
+} */
+.contentBox#moreThanOne .whichIcons a:hover {
+  text-decoration: none;
+}
+
+/* fix image size */
+.contentBox#moreThanOne .whichIcons .col-xs-6 a img {
+  height: 181px;
+  width: 181px;
+}

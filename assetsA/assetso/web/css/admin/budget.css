@@ -1,0 +1,689 @@
+.size-Smallest {
+  height: 40px;
+  width: 100px;
+}
+.size-Smallest .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Smallest .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Small {
+  height: 35px;
+  width: 135px;
+}
+.size-Small .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Small .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Medium {
+  height: 40px;
+  width: 180px;
+}
+.size-Medium .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Medium .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-Large {
+  height: 50px;
+  width: 200px;
+}
+.size-Large .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Large .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-ExtraLarge {
+  height: 50px;
+  width: 280px;
+}
+.size-ExtraLarge .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-ExtraLarge .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Big {
+  height: 50px;
+  width: 330px;
+}
+.size-Big .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Big .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.budgetHeader {
+  margin-bottom: 32px;
+}
+.budgetHeader h1 {
+  margin: 32px 0 8px 0;
+  text-transform: uppercase;
+}
+.budgetHeader h2 {
+  color: #080808;
+  margin: 0;
+}
+.budgetComponent {
+  background: #f3f3f3;
+  -moz-box-shadow: 0px -3px 7px 0 rgba(0,0,0,0.2);
+       box-shadow: 0px -3px 7px 0 rgba(0,0,0,0.2);
+  height: auto;
+  padding: 40px 0 60px;
+}
+.budgetComponent .container {
+  background: #fff;
+  -moz-box-shadow: 0px -3px 7px 0 rgba(0,0,0,0.2);
+       box-shadow: 0px -3px 7px 0 rgba(0,0,0,0.2);
+  padding: 25px;
+}
+.budgetComponent .initialBudget {
+  background: #f2f2f2;
+  border: 1px solid #aaa;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 30px;
+}
+.budgetComponent .initialBudget h3 {
+  color: #040404;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+.budgetComponent .initialBudget h3 a {
+  color: #e10098;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.budgetComponent .initialBudget p {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  vertical-align: bottom;
+}
+.budgetComponent .addCategory {
+  font-size: 15px;
+}
+.budgetComponent .budgetFilters > div {
+  padding: 0;
+}
+.budgetComponent .budgetFilters .filters {
+  width: 90%;
+}
+.budgetComponent .budgetFilters .filters i {
+  background: #f2f2f2 !important;
+  border-left: 1px solid #d7d7d7;
+  color: #666;
+}
+.budgetIcons {
+  margin-bottom: 43px;
+}
+.budgetIcons i {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.budgetOverview {
+  border: 1px solid #e2e2e2;
+  clear: both;
+  padding: 15px 0 0 0;
+}
+.budgetOverview h3 {
+  color: #040404;
+  font-size: 16px;
+  margin: 0 0 20px 0;
+  padding: 0 10px;
+}
+.budgetOverview .barOverview {
+  margin-bottom: 3px;
+  overflow: auto;
+}
+.budgetOverview .barOverview p {
+  color: #666;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 10px;
+}
+.budgetOverview .barOverview p.total {
+  color: #070707;
+}
+.budgetOverview .bar {
+  background: #b5b4b4;
+  clear: both;
+  height: 6px;
+  margin: 0 auto 15px;
+  width: 90%;
+}
+.budgetOverview .bar .barFill {
+  height: 6px;
+  background: #e10098;
+  position: relative;
+  width: 75%;
+  z-index: 10;
+}
+.budgetOverview .pending,
+.budgetOverview .totalAmmount {
+  border-top: 1px solid #e2e2e2;
+  padding: 10px 0 10px 15px;
+}
+.budgetOverview .pending p,
+.budgetOverview .totalAmmount p {
+  color: #666;
+  display: inline-block;
+  font-size: 17px;
+  vertical-align: middle;
+  margin: 0;
+  width: 50%;
+}
+.budgetOverview .pending span,
+.budgetOverview .totalAmmount span {
+  color: inherit;
+  display: inline-block;
+  font-size: 17px;
+  vertical-align: middle;
+}
+.budgetOverview .totalAmmount p {
+  color: #070707;
+}
+.mainContent .category {
+  margin-bottom: 50px;
+  padding: 0;
+}
+.mainContent .category .categoryHeader {
+  background: #f2f2f2;
+  padding: 5px 0 5px 20px;
+}
+.mainContent .category .categoryHeader h2 {
+  color: #666;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  width: 90%;
+}
+.mainContent .category .categoryHeader .iconBox,
+.mainContent .category .categoryHeader .iconBox i,
+.mainContent .category .categoryHeader h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mainContent .category .categoryHeader .iconBox {
+  text-align: center;
+}
+.mainContent .category .categoryHeader .iconBox i {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0 5px;
+}
+.mainContent .category .categoryContent table,
+.mainContent .category .categoryContent table tr {
+  border: 1px solid #e2e2e2;
+}
+.mainContent .category .categoryContent table {
+  width: 100%;
+}
+.mainContent .category .categoryContent th {
+  font-size: 12px;
+  padding: 8px 0;
+  text-align: center;
+  width: 22%;
+}
+.mainContent .category .categoryContent th:first-of-type {
+  text-align: left;
+  padding-left: 25px;
+}
+.mainContent .category .categoryContent th:last-of-type {
+  width: 10%;
+}
+.mainContent .category .categoryContent th p {
+  margin: 0;
+}
+.mainContent .category .categoryContent tbody tr {
+  height: 70px;
+}
+.mainContent .category .categoryContent tbody tr td {
+  text-align: center;
+}
+.mainContent .category .categoryContent tbody tr td.cost .input-group {
+  margin: 0 auto;
+  max-width: 130px;
+  width: 70%;
+}
+.mainContent .category .categoryContent tbody tr td.concept {
+  font-weight: bold;
+  padding-left: 25px;
+  text-align: left;
+}
+.mainContent .category .categoryContent tbody tr td.paidOut a,
+.mainContent .category .categoryContent tbody tr td.pending p {
+  color: #060606;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.mainContent .category .categoryContent tbody tr td.paidOut span {
+  color: #828282;
+}
+.mainContent .category .categoryContent tbody tr td.pending p {
+  cursor: default;
+  margin: 0;
+  text-decoration: none;
+}
+.mainContent .category .categoryContent tbody tr td.menuIcon {
+  position: relative;
+}
+.mainContent .category .categoryContent tbody tr td.menuIcon > i {
+  color: #c4c4c4;
+  cursor: pointer;
+  float: right;
+  padding: 30px;
+}
+.mainContent .category .categoryContent tbody tr td.menuIcon .iconMenuOpen {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  -moz-box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+       box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+  display: none;
+  left: -100px;
+  padding: 10px 15px;
+  position: absolute;
+  text-align: left;
+  top: -5px;
+  width: 120px;
+  z-index: 10;
+}
+.mainContent .category .categoryContent tbody tr td.menuIcon .iconMenuOpen span {
+  display: block;
+  color: #666;
+  cursor: pointer;
+  margin: 5px 0;
+}
+.mainContent .category .categoryContent tbody tr td.menuIcon .iconMenuOpen span i {
+  color: #666;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.mainContent .category .categoryContent tfoot tr {
+  height: 40px;
+}
+.mainContent .category .categoryContent tfoot tr td {
+  text-align: center;
+}
+.mainContent .category .categoryContent tfoot tr td p {
+  color: #040404;
+  font-size: 16px;
+  margin: 0;
+}
+.mainContent .category .categoryContent tfoot tr td:first-of-type p {
+  font-size: 18px;
+  margin: 0 !important;
+}
+.mainContent .category .categoryContent .addExpense {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  cursor: pointer;
+  padding: 10px 0;
+  text-align: center;
+}
+.mainContent .category .categoryContent .addExpense i {
+  color: #666;
+}
+.mainContent .category .categoryContent .addExpense p {
+  margin: 0;
+}
+.mainContent .category .categoryContent .collapsedElement {
+  display: none;
+}
+.smallModal .modal-dialog {
+  width: 350px;
+}
+.mediumModal .modal-dialog {
+  width: 700px;
+}
+.largeModal .modal-dialog {
+  width: 800px;
+}
+.largeModal .modal-body {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.centerModal {
+  padding: 0 !important;
+  text-align: center;
+}
+.centerModal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.centerModal .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.centerModal .modal-content .modal-body {
+  font-family: 'robotoRegular';
+}
+.centerModal .modal-content .modal-body h2 {
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.centerModal .modal-content .modal-body .requiredFields {
+  font-size: 13px;
+  color: #f00;
+}
+.centerModal .close {
+  font-size: 18px;
+  opacity: 0.5 !important;
+  margin-top: 2px;
+}
+.centerModal button {
+  font-size: 18px;
+  margin-top: 40px;
+}
+#addPayModal .headerContent {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+#addPayModal .headerContent > div {
+  padding: 0;
+}
+#addPayModal .confirmP .checkbox {
+  text-align: center;
+}
+#addPayModal .deleteP {
+  text-align: center;
+}
+#addPayModal .deleteP i {
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  padding-top: 10px;
+}
+#addPayModal button {
+  height: 40px;
+  margin-top: 20px;
+}
+#addPayModal .bodyContent {
+  background: #f2f2f2;
+  padding: 10px 0 5px;
+}
+#addPayModal .bodyContent:nth-child(odd) {
+  background: #fff;
+}
+#addPayModal .bodyContent:last-of-type {
+  display: none;
+}
+#addPayModal .materialStyle {
+  margin-bottom: 0;
+}
+#addPayModal .incorrectAmmount {
+  color: #f00;
+  font-size: 12px;
+}
+#addCategory button {
+  margin-top: 20px;
+}
+#addExpenseModal form,
+#editExpenseModal form {
+  margin-top: 20px;
+}
+#addExpenseModal form .formBlock label,
+#editExpenseModal form .formBlock label {
+  color: #000;
+}
+#addExpenseModal form .cost,
+#editExpenseModal form .cost {
+  margin-bottom: 15px;
+}
+#addExpenseModal form .cost label,
+#editExpenseModal form .cost label {
+  float: left;
+  color: #000;
+  margin-right: 15px;
+  padding-top: 5px;
+}
+#addExpenseModal form .cost label span,
+#editExpenseModal form .cost label span {
+  color: #f00;
+}
+#addExpenseModal form .cost > div,
+#editExpenseModal form .cost > div {
+  width: 100px;
+}
+#addExpenseModal form .cost > div .input-group-addon,
+#editExpenseModal form .cost > div .input-group-addon,
+#addExpenseModal form .cost > div input,
+#editExpenseModal form .cost > div input {
+  color: #000;
+}
+#addExpenseModal form .calendarInput,
+#editExpenseModal form .calendarInput {
+  display: none;
+}
+#addExpenseModal form .calendarInput .input-group,
+#editExpenseModal form .calendarInput .input-group {
+  width: 200px;
+}
+#addExpenseModal form .checkbox,
+#editExpenseModal form .checkbox {
+  clear: both;
+  margin: 15px 0;
+}
+#addExpenseModal form .checkbox label,
+#editExpenseModal form .checkbox label {
+  color: #000;
+}
+#addExpenseModal form .note,
+#editExpenseModal form .note {
+  margin-bottom: 15px;
+}
+#addExpenseModal form .note textarea,
+#editExpenseModal form .note textarea {
+  color: #000;
+  height: 120px;
+  padding: 10px 15px;
+  resize: none;
+  width: 100%;
+}
+#addExpenseModal form .note .totalLetters,
+#editExpenseModal form .note .totalLetters {
+  color: #666;
+  font-size: 13px;
+  float: right;
+  margin: 5px 10px 0 0;
+}
+#initialBudgetModal {
+  overflow: auto;
+}
+#initialBudgetModal .modal-body {
+  overflow: auto;
+}
+#initialBudgetModal .modal-body > p {
+  margin: 15px 0;
+}
+#initialBudgetModal .modal-body .category select,
+#initialBudgetModal .modal-body .concept select {
+  color: #000;
+  font-size: 13px;
+  padding-left: 5px;
+}
+#initialBudgetModal .modal-body .category i,
+#initialBudgetModal .modal-body .concept i {
+  background: #f2f2f2 !important;
+}
+#initialBudgetModal .modal-body .addIcon i {
+  color: #666;
+  cursor: pointer;
+  font-size: 20px;
+  display: block;
+  padding-top: 5px;
+}
+#initialBudgetModal .modal-body .cost {
+  padding-top: 10px;
+}
+#initialBudgetModal .modal-body .toAssign .input-group-addon {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#initialBudgetModal .modal-body .toAssign .form-control {
+  color: #000;
+  padding-left: 5px;
+}
+#initialBudgetModal .modal-body .toAssign .form-control.error {
+  border: 1px solid #f00;
+}
+#initialBudgetModal form .initialValue {
+  float: left;
+  width: 200px;
+}
+#initialBudgetModal form .initialValue input {
+  font-size: 20px;
+  color: #000;
+}
+#initialBudgetModal form .toAssignValue {
+  color: #666;
+  font-family: 'robotoCondensed';
+  font-size: 20px;
+  float: left;
+  margin: 0 0 0 20px;
+}
+#initialBudgetModal form .toAssignValue p {
+  margin: 0;
+}
+#initialBudgetModal .headerContent {
+  margin-top: 20px;
+}
+#initialBudgetModal .headerContent p {
+  color: #000;
+  font-size: 14px;
+}
+#initialBudgetModal .headerContent .col-sm-12 p {
+  color: #666;
+}
+#initialBudgetModal .row.rowContent.last,
+#initialBudgetModal .row.errorMessage,
+#initialBudgetModal .rowButton {
+  display: none;
+}
+#initialBudgetModal .row.rowContent.last button,
+#initialBudgetModal .row.errorMessage button,
+#initialBudgetModal .rowButton button {
+  margin-top: 20px;
+}
+#initialBudgetModal .row.errorMessage .icon-tache2.big {
+  height: 30px;
+  padding: 8px;
+}
+#initialBudgetModal .row.errorMessage .icon-tache2.small {
+  font-size: 6px;
+  padding: 5px;
+}
+#initialBudgetModal .row.errorMessage p {
+  line-height: 1;
+  padding: 0 0 0 10px;
+  width: 70%;
+}
+.wrap {
+  background: #f3f3f3;
+  width: 100% !important;
+}
+.budgetContent {
+  background: #fff;
+  padding: 10px 50px !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.titleBudget,
+.subtitleBudget {
+  text-align: center;
+}
+.subtitleBudget {
+  color: #666;
+}
+.budgetWrap {
+  background: #f3f3f3;
+  margin-top: 10px;
+  padding: 30px;
+}
+.budgetWrap .col-md-10.col-sm-10 {
+  margin-top: 20px;
+}
+.budgetWrap .input-group {
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 45%;
+}
+.budgetWrap .input-group .input-group-addon {
+  -moz-border-radius: initial;
+       border-radius: initial;
+  font-size: 20px;
+  padding: 7px 20px 7px 10px;
+}
+.budgetWrap .input-group input {
+  -moz-border-radius: initial;
+       border-radius: initial;
+  height: 40px;
+}
+.btnStart {
+  width: 50%;
+}
+.noteBudget {
+  color: #666;
+  margin-top: 5px;
+}
+.adviceBudget {
+  margin-bottom: 150px;
+  margin-top: 30px;
+}

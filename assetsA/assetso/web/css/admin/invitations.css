@@ -1,0 +1,1140 @@
+/*Invitations.css v1.8.9.1*/
+/*Changes : Step container padding margins added, innershadow*/
+.container-fluid{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.size-Smallest {
+	height: 40px;
+	width: 100px;
+}
+.size-Smallest .iconRight {
+	margin: 2px 3px 0 0;
+	float: right;
+	font-size: 13px;
+}
+.size-Smallest .iconLeft {
+	margin: 2px 0 0 3px;
+	float: left;
+	font-size: 13px;
+}
+.size-Small {
+	height: 35px;
+	width: 135px;
+}
+.size-Small .iconRight {
+	margin: 2px 3px 0 0;
+	float: right;
+	font-size: 13px;
+}
+.size-Small .iconLeft {
+	margin: 2px 0 0 3px;
+	float: left;
+	font-size: 13px;
+}
+.size-Medium {
+	height: 40px;
+	width: 180px;
+}
+.size-Medium .iconRight {
+	margin: 2px 10px 0 0;
+	float: right;
+	font-size: 13px;
+}
+.size-Medium .iconLeft {
+	margin: 2px 0 0 10px;
+	float: left;
+	font-size: 13px;
+}
+.size-Large {
+	height: 50px;
+	width: 200px;
+}
+.size-Large .iconRight {
+	margin: 2px 10px 0 0;
+	float: right;
+	font-size: 13px;
+}
+.size-Large .iconLeft {
+	margin: 2px 0 0 10px;
+	float: left;
+	font-size: 13px;
+}
+.size-ExtraLarge {
+	height: 50px;
+	width: 280px;
+}
+.size-ExtraLarge .iconRight {
+	margin: 2px 20px 0 0;
+	float: right;
+	font-size: 13px;
+}
+.size-ExtraLarge .iconLeft {
+	margin: 2px 0 0 20px;
+	float: left;
+	font-size: 13px;
+}
+.size-Big {
+	height: 50px;
+	width: 330px;
+}
+.size-Big .iconRight {
+	margin: 2px 20px 0 0;
+	float: right;
+	font-size: 13px;
+}
+.size-Big .iconLeft {
+	margin: 2px 0 0 20px;
+	float: left;
+	font-size: 13px;
+}
+.size-Full {
+	height: 50px;
+	width: 100%;
+}
+.size-Full .iconRight {
+	margin: 2px 20px 0 0;
+	float: right;
+	font-size: 13px;
+}
+.size-Full .iconLeft {
+	margin: 2px 0 0 20px;
+	float: left;
+	font-size: 13px;
+}
+#map {
+	height: 485px;
+}
+#map_google {
+	height: 298px;
+}
+#description {
+	font-size: 15px;
+	font-weight: 300;
+}
+#infowindowContent .title {
+	font-weight: bold;
+}
+#infowindowContent {
+	display: none;
+}
+#map #infowindowContent {
+	display: inline;
+}
+.pacCard {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#pacContainer {
+	padding-bottom: 12px;
+}
+.pac-controls {
+	display: inline-block;
+	padding: 5px 11px;
+}
+.pac-controls label {
+	font-size: 13px;
+	font-weight: 300;
+}
+#pacInput {
+	width: 100%;
+}
+#title {
+	color: #fff;
+	background-color: #4d90fe;
+	font-size: 25px;
+	font-weight: 500;
+	padding: 6px 12px;
+}
+.gmnoprint .gm-style-mtc {
+	display: none;
+}
+#pacInput:-moz-placeholder {
+	color: transparent !important;
+}
+#pacInput::-moz-placeholder {
+	color: transparent !important;
+}
+#pacInput:-ms-input-placeholder {
+	color: transparent !important;
+}
+#pacInput::placeholder {
+	color: transparent !important;
+}
+.containerSteps,
+.giftBreadcrumbs {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.containerSteps {
+	font-family: robotoCondensed;
+}
+.containerSteps .descriptionStep,
+.containerSteps .viewStep {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	min-width: 300px;
+	padding: 0;
+}
+@media screen and (min-width: 1500px){
+	.containerSteps .descriptionStep,
+	.containerSteps .viewStep {
+		margin-left: 5%;
+	}
+}
+.containerSteps .viewStep {
+	padding-top: 10px;
+	padding-right: 5%;
+}
+.containerSteps .descriptionStep figure {
+	position: relative;
+	text-align: right;
+}
+.containerSteps .descriptionStep figure img,
+.containerSteps .descriptionStep figure figcaption {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.containerSteps .descriptionStep figure figcaption {
+	left: 23%;
+}
+.containerSteps .descriptionStep figure figcaption p {
+	text-align: left;
+	width: 100%;
+}
+.containerSteps .descriptionStep figure figcaption p b,
+.containerSteps .descriptionStep figure figcaption p span {
+	display: block;
+}
+.welcomeHeader {
+	/*-moz-box-shadow: inset 0px 5px 7px 0 rgba(0,0,0,0.2);*/
+			 /*box-shadow: inset 0px 5px 7px 0 rgba(0,0,0,0.2);*/
+	/*width: 100%;*/
+	/*margin: 0;*/
+	text-align: center;
+	color: #3b3b3e;
+	font-family: robotoCondensed;
+}
+.welcomeHeader+.mainContainer,
+.welcomeHeader {
+	/*background: #f9f9f9;*/
+}
+.welcomeHeader h1 {
+	/*width: 80%;*/
+	/*margin-left: 10%;*/
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	border-bottom: 1px solid #b3b3b3;
+	padding: 0 0 20px 0;
+}
+.mainContainer {
+	font-family: robotoCondensed;
+	width: 100%;
+	padding: 0 0 40px 0;
+	margin: 0;
+	margin-top: 10px;
+	-moz-box-shadow: inset 0px 5px 7px 0 rgba(0,0,0,0.28);
+	box-shadow: inset 0px 5px 7px 0 rgba(0,0,0,0.28);
+	/*display: -webkit-inline-box;*/
+	display: inline-block;
+}
+.mainContainer.shadowBox {
+  -moz-box-shadow: inset 0px 5px 7px 0 rgba(0,0,0,0.2);
+  box-shadow: inset 0px 5px 7px 0 rgba(0,0,0,0.2);
+  margin-top: 60px!important;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+.mainContainer p {
+	font-family: robotoRegular;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 17px;
+}
+.mainContainer .gridContainer {
+	width: 100%;
+}
+.mainContainer .gridContainer .listInvitation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 60%;
+	margin-left: 20%;
+}
+.mainContainer .gridContainer .listInvitation .cardInvitation {
+	display: inline-block;
+	vertical-align: top;
+	width: 224px;
+	margin: 20px 14px;
+	padding: 0;
+	border: 2px solid #e0e0e0;
+}
+.mainContainer .gridContainer .listInvitation .cardInvitation img {
+	width: 100%;
+}
+.mainContainer .gridContainer .listInvitation .cardInvitation figure figcaption {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.mainContainer .gridContainer .listInvitation .cardInvitation button {
+	margin-top: 5px;
+}
+.mainContainer .gridContainer .listInvitation .cardInvitation button:last-child {
+	margin-bottom: 10px;
+}
+.mainContainer .step2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.mainContainer .step2 .content {
+	-moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.17);
+			 box-shadow: 0 5px 5px 0 rgba(0,0,0,0.17);
+}
+.mainContainer .step2 li {
+  width: auto;
+  margin: 30px auto auto auto;
+  background: transparent;
+}
+.mainContainer .step2 li .title {
+	font-weight: bold;
+	margin-top: 20px;
+}
+.mainContainer .step2 li .text {
+	padding: 5px;
+}
+.mainContainer .step2 li .formMessageLength {
+	float: right;
+	font-size: 11px;
+	margin: 10px 5px 10px 0;
+}
+.mainContainer .step2 li .checkbox {
+	clear: both;
+	padding-left: 10px !important;
+}
+.mainContainer .step2 li .center {
+  width: auto;
+  height: 700px;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  position: relative;
+  min-height: 700px;
+  overflow-y: auto;
+}
+@media (min-width: 1024px) {
+   .mainContainer .step2 li .center figure {
+    zoom: 0.74;
+   }
+}
+@media (min-width: 1200px) {
+   .mainContainer .step2 li .center figure {
+    zoom: 0.75;
+   }
+}
+
+@media (min-width: 1353px) {
+   .mainContainer .step2 li .center figure {
+    zoom: 0.8;
+   }
+}
+@media (min-width: 1400px) {
+   .mainContainer .step2 li .center figure {
+    zoom: 0.86;
+   }
+}
+@media (min-width: 1600px) {
+   .mainContainer .step2 li .center figure {
+    zoom: 1;
+   }
+}
+.mainContainer .step2 li .center figure {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.mainContainer .step2 li .center figure img {
+/*   margin-left: 3.7%; */
+  /* margin-top: 3.5%; */
+  /* width: 92.6%; */
+}
+.mainContainer .step2 li .center figure .editTextFigure {
+	background: #666;
+    color: #fff;
+    cursor: pointer;
+    right: 0;
+    padding: 5px 12px 7px 15px;
+    position: absolute;
+    top: -20px;
+    max-height: 42px;
+}
+.mainContainer .step2 li .center figure .editTextFigure span,
+.mainContainer .step2 li .center figure .editTextFigure p {
+	display: inline-block;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.mainContainer .step2 li .center figure .editTextFigure p {
+	font-style: italic;
+	margin-left: 5px;
+}
+.mainContainer .step2 li .center .contentText {
+	font-family: robotoCondensed;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 700px;
+	margin: 0;
+	padding: 0;
+}
+.mainContainer .step2 li .center .contentText .frame {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.mainContainer .step2 li .center .contentText .messageTitle,
+.mainContainer .step2 li .center .contentText .messageDate,
+.mainContainer .step2 li .center .contentText .messageInvitation,
+.mainContainer .step2 li .center .contentText .messageName,
+.mainContainer .step2 li .center .contentText .messageCouple,
+.mainContainer .step2 li .center .contentText .messageTime {
+	position: absolute;
+}
+.mainContainer .step2 li .center .contentText .messageTime {
+	color: #000;
+	font-size: 14px;
+	top: 49%;
+	width: 100%;
+	text-align: center;
+}
+.mainContainer .step2 li .center .contentText .messageTitle {
+	left: 0;
+	top: 12%;
+	width: 100%;
+	height: 6%;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.mainContainer .step2 li .center .contentText .messageDate {
+	left: 0;
+	top: 19%;
+	width: 100%;
+	height: 6%;
+}
+.mainContainer .step2 li .center .contentText .messageName,
+.mainContainer .step2 li .center .contentText .messageCouple {
+	font-size: 20px;
+	left: 0%;
+	text-transform: uppercase;
+	top: 29%;
+	width: 100%;
+	height: 10%;
+}
+.mainContainer .step2 li .center .contentText .messageCouple {
+	top: 36%;
+}
+.mainContainer .step2 li .center .contentText .messageInvitation {
+	font-size: 13px;
+	top: 55%;
+	width: 100%;
+	height: 15%;
+	padding: 0 5%;
+	overflow: hidden;
+}
+.mainContainer .step2 li .center .contentText .messageName,
+.mainContainer .step2 li .center .contentText .messageCouple {
+	margin: 0;
+	padding: 0;
+}
+.mainContainer .step2 li .center .contentText .messageName .first,
+.mainContainer .step2 li .center .contentText .messageCouple .first,
+.mainContainer .step2 li .center .contentText .messageName .last,
+.mainContainer .step2 li .center .contentText .messageCouple .last {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	text-transform: uppercase;
+}
+.mainContainer .step2 li .center .contentText .messageName .first,
+.mainContainer .step2 li .center .contentText .messageCouple .first {
+	height: 60%;
+	font-size: 2em;
+}
+.mainContainer .step2 li .center .contentText .messageName .last,
+.mainContainer .step2 li .center .contentText .messageCouple .last {
+	height: 40%;
+	font-size: 1em;
+}
+.mainContainer .step2 li .left,
+.mainContainer .step2 li .right {
+	margin: 5% 5%;
+}
+.mainContainer .step2 li .left {
+	height: 700px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.mainContainer .step2 li .left button {
+	font-size: 16px;
+}
+.mainContainer .step2 li .left textarea,
+.mainContainer .step2 li .left ul {
+  /*display: inline-block;*/
+  vertical-align: top;
+  position: relative;
+}
+.mainContainer .step2 li .left textarea {
+	width: 100%;
+	height: 110px;
+	resize: none;
+}
+.mainContainer .step2 li .left h1 {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+}
+.mainContainer .step2 li .left ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.mainContainer .step2 li .left ul li {
+	width: 100%;
+	height: auto;
+	margin: 10px auto;
+}
+.mainContainer .step2 li .left ul li:last-child {
+	margin-bottom: 29px;
+}
+.mainContainer .step2 li .left #formDate,
+.mainContainer .step2 li .left .input-group-addon {
+	-moz-border-radius: 0px;
+			 border-radius: 0px;
+}
+.mainContainer .step2 li .left ul#mapArea {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 10;
+}
+.mainContainer .step2 li .left ul#mapArea .btnSecondarySpecial {
+	border: 0;
+}
+.mainContainer .step2 li .left ul#mapArea .btnSecondarySpecial i {
+	float: left;
+	font-weight: bold;
+	font-size: 10px;
+	padding-top: 8px;
+}
+.mainContainer .step2 li .left .inputBlock {
+	margin: 0;
+}
+.mainContainer .step2 li .right a {
+	margin: 20px 0;
+	height: 45px;
+}
+.mainContainer .step2 li .right a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.mainContainer .step2 li .right a.addEditLink:hover {
+	color: #000;
+}
+.mainContainer .step2 li .right a i {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.mainContainer .step2 .content {
+	border: 1px solid #b3b3b3;
+}
+.mainContainer .step3 {
+	list-style-type: none;
+	margin: 0;
+	padding: 40px 0 20px 0;
+	width: 100%;
+}
+.mainContainer .step3 .content {
+	-moz-box-shadow: inset 0 0 1em transparent, 0 0 1em #666;
+			 box-shadow: inset 0 0 1em transparent, 0 0 1em #666;
+}
+.mainContainer .step3 li {
+	/* margin: 30px 1.5% 2.5% 1.5%; */
+	background: transparent;
+/*span
+				border 0
+				margin 0
+				text-align left
+				width 100%*/
+}
+.mainContainer .step3 li .title {
+	font-weight: bold;
+	margin-top: 20px;
+}
+.mainContainer .step3 li .text {
+	padding: 5px;
+}
+.mainContainer .step3 li .formMessageLength {
+	border-top: 1px solid #666;
+	text-align: right;
+}
+.mainContainer .step3 li .center {
+  	width: auto;
+    height: 700px;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    position: relative;
+    min-height: 700px;
+    overflow-y: auto;
+}
+@media (min-width: 1024px) {
+   .mainContainer .step3 li .center figure {
+    zoom: 0.74;
+   }
+}
+@media (min-width: 1200px) {
+   .mainContainer .step3 li .center figure {
+    zoom: 0.75;
+   }
+}
+
+@media (min-width: 1353px) {
+   .mainContainer .step3 li .center figure {
+    zoom: 0.8;
+   }
+}
+@media (min-width: 1400px) {
+   .mainContainer .step3 li .center figure {
+    zoom: 0.86;
+   }
+}
+@media (min-width: 1600px) {
+   .mainContainer .step3 li .center figure {
+    zoom: 1;
+   }
+}
+.mainContainer .step3 li .center figure {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.mainContainer .step3 li .center figure img {
+  /* margin-left: 3.7%; */
+  margin-top: 3.5%;
+  /* width: 92.6%; */
+}
+.mainContainer .step3 li .center figure .editTextFigure {
+	background: #666;
+    color: #fff;
+    cursor: pointer;
+    right: 0;
+    padding: 5px 5px 5px 15px;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    /* width: 100px; */
+    height: 30px;
+    cursor: pointer;
+}
+.mainContainer .step3 li .center figure .editTextFigure span,
+.mainContainer .step3 li .center figure .editTextFigure p {
+	display: inline-block;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.mainContainer .step3 li .center figure .editTextFigure p {
+	font-style: italic;
+	margin-left: 5px;
+}
+.mainContainer .step3 li .center .contentText {
+	font-family: robotoCondensed;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 700px;
+	margin: 0;
+	padding: 0;
+}
+.mainContainer .step3 li .center .contentText .frame {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.mainContainer .step3 li .center .contentText .messageTitle,
+.mainContainer .step3 li .center .contentText .messageDate,
+.mainContainer .step3 li .center .contentText .messageInvitation,
+.mainContainer .step3 li .center .contentText .messageName,
+.mainContainer .step3 li .center .contentText .messageCouple,
+.mainContainer .step3 li .center .contentText .messageTime {
+	position: absolute;
+}
+.mainContainer .step3 li .center .contentText .messageTime {
+	color: #000;
+	font-size: 14px;
+	top: 49%;
+	width: 100%;
+	text-align: center;
+}
+.mainContainer .step3 li .center .contentText .messageTitle {
+	left: 0;
+	top: 12%;
+	width: 100%;
+	height: 6%;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.mainContainer .step3 li .center .contentText .messageDate {
+	left: 0;
+	top: 19%;
+	width: 100%;
+	height: 6%;
+}
+.mainContainer .step3 li .center .contentText .messageName,
+.mainContainer .step3 li .center .contentText .messageCouple {
+	font-size: 20px;
+	left: 0%;
+	text-transform: uppercase;
+	top: 29%;
+	width: 100%;
+	height: 10%;
+}
+.mainContainer .step3 li .center .contentText .messageCouple {
+	top: 36%;
+}
+.mainContainer .step3 li .center .contentText .messageInvitation {
+	font-size: 13px;
+	top: 55%;
+	width: 100%;
+	height: 15%;
+	padding: 0 5%;
+	overflow: hidden;
+}
+.mainContainer .step3 li .center .contentText .messageName,
+.mainContainer .step3 li .center .contentText .messageCouple {
+	margin: 0;
+	padding: 0;
+}
+.mainContainer .step3 li .center .contentText .messageName .first,
+.mainContainer .step3 li .center .contentText .messageCouple .first,
+.mainContainer .step3 li .center .contentText .messageName .last,
+.mainContainer .step3 li .center .contentText .messageCouple .last {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	text-transform: uppercase;
+}
+.mainContainer .step3 li .center .contentText .messageName .first,
+.mainContainer .step3 li .center .contentText .messageCouple .first {
+	height: 60%;
+	font-size: 2em;
+}
+.mainContainer .step3 li .center .contentText .messageName .last,
+.mainContainer .step3 li .center .contentText .messageCouple .last {
+	height: 40%;
+	font-size: 1em;
+}
+.mainContainer .step3 li .center ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.mainContainer .step3 li .center ul .overFlowBox {
+  /*height: 500px;*/
+  overflow-y: auto;
+}
+.mainContainer .step3 li .center ul li {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	padding: 15px 25px;
+}
+.mainContainer .step3 li .center ul li.selectAll {
+	border-bottom: 1px solid #ccc;
+}
+.mainContainer .step3 li .center ul li.disabled {
+	position: relative;
+	padding: 15px 25px 0;
+}
+.mainContainer .step3 li .center ul li.disabled .descriptionGuest.dependentGuest {
+	padding-bottom: 15px;
+}
+.mainContainer .step3 li .center ul li.disabled:before {
+	content: "";
+	background: rgba(255,255,255,0.5);
+	left: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+.mainContainer .step3 li .center ul li .check,
+.mainContainer .step3 li .center ul li .guest {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.mainContainer .step3 li .center ul li .check {
+	width: 10%;
+	border-right: 1px solid #666;
+}
+.mainContainer .step3 li .center ul li .guest {
+	width: 80%;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest {
+	padding-left: 10%;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name i {
+	color: #666;
+	font-size: 20px;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name div,
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name label {
+	display: inline-block;
+	vertical-align: top;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name div {
+	/*width: 5%; */
+    font-size: 20px;
+    color: #666;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name label {
+	margin-bottom: 0;
+	margin-left: 10px;
+	color: #666;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .reference,
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .location {
+	font-size: 1em;
+	color: #b3b3b3;
+	padding-left: 20px;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .reference {
+	padding-left: 33px;
+	line-height: 1;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .mailDetail {
+	font-size: 12px;
+	color: #b3b3b3;
+	float: right;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest.dependentGuest .reference {
+	padding-left: 63px;
+}
+.mainContainer .step3 li .center ul li .guest .descriptionGuest.dependentGuest i.icon-flecha_invitado {
+	margin-right: 10px;
+}
+.mainContainer .step3 li .center ul > li:last-child {
+	margin-bottom: 10px;
+}
+.mainContainer .step3 li .center .messageGuest {
+	position: relative;
+	left: 0;
+	margin-top: -43px;
+	top: 50%;
+}
+.mainContainer .step3 li .center .messageGuest span {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: robotoRegular;
+	position: relative;
+}
+.mainContainer .step3 li .center .messageGuest .firstP {
+	font-size: 1.5em;
+}
+.mainContainer .step3 li .center .messageGuest .secondP {
+	font-size: 1.1em;
+}
+.mainContainer .step3 li .left,
+.mainContainer .step3 li .right {
+	margin: 5% 5% 5% 5%;
+}
+.mainContainer .step3 li .left {
+  width: auto;
+  height: 700px;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  position: relative;
+  min-height: 700px;
+  overflow-y: auto;
+}
+@media (min-width: 1024px) {
+   .mainContainer .step3 li .left figure {
+    zoom: 0.74;
+   }
+}
+@media (min-width: 1200px) {
+   .mainContainer .step3 li .left figure {
+    zoom: 0.75;
+   }
+}
+
+@media (min-width: 1353px) {
+   .mainContainer .step3 li .left figure {
+    zoom: 0.8;
+   }
+}
+@media (min-width: 1400px) {
+   .mainContainer .step3 li .left figure {
+    zoom: 0.86;
+   }
+}
+@media (min-width: 1600px) {
+   .mainContainer .step3 li .left figure {
+    zoom: 1;
+   }
+}
+.mainContainer .step3 li .left figure {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.mainContainer .step3 li .left figure .editTextFigure {
+	background: #666;
+	color: #fff;
+	cursor: pointer;
+	right: 0px;
+	padding: 5px 5px 5px 15px;
+	position: absolute;
+	top: -20px;
+	/*width: 75px;*/
+	height: 30px;
+}
+.mainContainer .step3 li .left figure .editTextFigure i,
+.mainContainer .step3 li .left figure .editTextFigure p {
+	display: inline-block;
+	font-size: 15px;
+	/*margin: 0;*/
+	padding: 0;
+	margin-left: 5px;
+	/*vertical-align: middle;*/
+}
+.mainContainer .step3 li .left figure .editTextFigure p {
+	font-size: 14px;
+	margin-right: 10px;
+}
+.mainContainer .step3 li .left img {
+  /* margin-left: 3.7%; */
+  margin-top: 3.5%;
+  /* width: 92.6%; */
+}
+.mainContainer .step3 li .right a {
+  margin: 20px 0;
+  height: 50px;
+}
+.mainContainer .step3 li .right a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.mainContainer .step3 li .right a.addEditLink:hover {
+	color: #000 !important;
+}
+.mainContainer .step3 .content {
+	border: 1px solid #b3b3b3;
+}
+.showMore button {
+	background: #b3b3b3;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.showMore button i {
+	margin-top: 7px;
+}
+.mainContainer .gridContainer .listInvitation .cardInvitation.lastRow {
+	display: none;
+}
+.step3 .searchBlock {
+	border: none !important;
+	/*margin: 20px 0 !important;*/
+	padding-bottom: 0px !important;
+}
+.step3 .searchBlock .buttonSearch {
+	border-right: none;
+	color: #ccc;
+	padding: 9px 15px;
+	width: 40px;
+}
+.step3 .searchBlock .buttonSearch:hover {
+	background: #fff;
+	border-color: #ccc;
+}
+.step3 .searchBlock .buttonSearch i {
+  font-size: 14px;
+}
+.step3 .searchBlock .form-control {
+	border-left: none;
+}
+.step3 .searchBlock .form-control:focus {
+	border-color: #ccc;
+	-moz-box-shadow: none;
+			 box-shadow: none;
+}
+ul.guestList .form-control {
+	height: 38px;
+}
+.invitationCreated-header span {
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	top: -10px;
+	left: -85px;
+}
+.invitationCreated-container .step3 li .right a {
+	margin: 30px 15px;
+	height: 55px;
+	padding: 15px 0 0;
+}
+.left .editTextFigure {
+    position: absolute;
+    top: 0;
+    max-height: 42px;
+    color: #fff;
+    opacity: 0;
+    text-decoration: none;
+    padding: 5px 5px 5px 15px;
+    right: 16px;
+    background: #e10098;
+    cursor: pointer;
+}
+.left:hover .editTextFigure {
+    opacity:1;
+}
+.invitationCreated-container .step3 li .center figure .editTextFigure p {
+	margin: 2px 10px 0 16px;
+	font-size: 14px;
+}
+.invitationCreated-container .editTextFigure {
+	background: #666;
+	color: #fff;
+	cursor: pointer;
+	right: 0;
+	padding: 3px 0 5px 10px;
+	position: absolute;
+	top: 0;
+	width: 100px;
+	cursor: pointer;
+}
+.invitationCreated-container .editTextFigure span,
+.invitationCreated-container .editTextFigure p {
+	display: inline-block;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.editTextFigure span {
+	cursor: pointer;
+}
+.invitationCreated-container .editTextFigure p {
+	font-style: normal !important;
+	margin-left: 5px;
+}
+#addPlaceAndHour {
+	border: 1px solid #d8d8d8;
+	height: 40px;
+	margin: 0;
+	padding-left: 20px;
+	text-align: left;
+}
+#addPlaceAndHour i {
+	margin: 5px 10px 0 0;
+	font-weight: bold;
+}
+.stepBarGlobal {
+	width: 90px;
+}
+.iClass {
+	font-size: 10px;
+	color: #b3b3b3;
+}
+.giftBreadcrumbs ul {
+	padding-left: 30px;
+}
+.adminContainerSpace {
+	padding-top: 10px;
+}
+.materialStyle {
+	margin-bottom: 0;
+}
+.checkbox.guests {
+	display: none;
+}
+.timepicker-picker button.count.btn.btn-primary {
+	background: #E10098;
+	border: none;
+	border-radius: 0px;
+}
+p#companionsAdded {
+  margin-top: -10px !important;
+}
+.mainContainer .step2 li .left ul#mapArea .btnSecondarySpecial i {
+	margin: 2px 0 0 -5px !important;
+}
+.editInvitationContainer {
+	background: #f5f5f5;
+}
+.editInvitationContainer-card {
+  background: #FFFFFF !important;
+}
+
+.input-search-group .btn.btn-default.buttonSearch,
+.input-search-group span.input-group-btn+input.form-control {
+  background: none !important;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.input-search-group .btn.btn-default.buttonSearch {
+	box-shadow: none !important;
+	background: transparent !important;
+	color: #a8a8a8 !important;
+}
+
+.input-search-group .input-group-btn + input.form-control {
+	box-shadow: none !important;
+}
+.myInvTitleWeb {
+    position: absolute;
+    top: 194px;
+    right: 47%;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}

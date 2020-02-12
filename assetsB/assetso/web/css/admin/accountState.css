@@ -1,0 +1,474 @@
+.bgGray {
+	background-color: #f3f3f3;
+	padding: 20px 10% !important;
+}
+.bgWhite {
+	background-color: #fff;
+}
+.contentPadding-10 {
+	padding: 10px;
+}
+.pl-0 {
+	padding-left: 0;
+}
+.pr-0 {
+	padding-right: 0;
+}
+.adminAccountStateContainer {
+	padding: 10px 30px;
+	width: 100%;
+	display: block;
+	/* margin: 0 80px; */
+}
+.adminAccountStateContainer p,
+.adminAccountStateContainer a,
+.adminAccountStateContainer div,
+.adminAccountStateContainer th,
+.adminAccountStateContainer td {
+	font-family: robotoRegular;
+}
+.adminAccountStateContainer--custom {
+	padding: 10px 100px !important;
+}
+.adminAccountStateContainer .bb-1 {
+	border-bottom: solid 1px #dedede;
+}
+.adminAccountStateContainer .additionalInfo {
+	color: #666;
+	padding: 20px 0px 0px 0px;
+}
+.adminAccountStateContainer .toolsLink {
+	padding-top: 15px;
+}
+.adminAccountStateContainer .toolsLink a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+.adminAccountStateContainer .toolsLink a i {
+	cursor: pointer;
+	font-size: 30px !important;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.adminAccountStateContainer .barFilterAccountState {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.adminAccountStateContainer .barFilterAccountState i {
+	font-size: 18px !important;
+}
+.adminAccountStateContainer .barFilterAccountState--filters i {
+	font-size: 14px !important;
+}
+.contentInfoStatement .accountStatement {
+	width: 100%;
+}
+.contentInfoStatement .accountStatement thead tr th {
+	padding: 15px 0px;
+}
+.contentInfoStatement .accountStatement tbody tr {
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #dedede;
+}
+.contentInfoStatement .accountStatement tbody tr td {
+	padding: 20px 0 15px 0;
+}
+.contentInfoStatement .accountStatement .bcb-1 {
+	border-color: #000;
+}
+.contentInfoStatement .accountStatement .totalGifts {
+	font-size: 15px;
+	font-weight: bold;
+	color: #666;
+}
+.contentInfoStatement .accountStatement .colorBoldPink {
+	color: #e10098;
+	font-size: 18px;
+	font-weight: bold;
+}
+.contentInfoStatement .accountStatement .colorBoldBlack {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+.contentInfoStatement .accountStatement .styleCol1 {
+	padding-left: 30px;
+}
+.contentInfoStatement .accountStatement .styleCol1 p {
+	font-size: 14px;
+	line-height: 5px;
+	color: #666;
+}
+.contentInfoStatement .accountStatement .styleCol1 a {
+	font-size: 10px;
+	text-decoration: none;
+	color: #e10098;
+}
+.contentInfoStatement .accountStatement .styleCol1 a i {
+	font-size: 7px;
+}
+.contentInfoStatement .accountStatement .styleCol2 {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.contentInfoStatement .accountStatement .styleCol3 {
+	padding-left: 30px;
+}
+.contentInfoStatement .accountStatement .styleCol3 p {
+	font-size: 14px;
+	line-height: 5px;
+	color: #b7b7b7;
+}
+.contentInfoStatement .accountStatement .styleCol3 a {
+	font-size: 10px;
+	text-decoration: none;
+	color: #e10098;
+}
+.contentInfoStatement .accountStatement .styleCol4 {
+	padding-right: 10px;
+	color: #3b3b3b;
+}
+.gadget {
+	border: solid 1px #dedede;
+	padding: 12px;
+	margin: 18px 0px;
+}
+.gadget--custom {
+	margin-top: 57px;
+}
+.gadget p {
+	line-height: 15px;
+	width: 100%;
+}
+.gadget .title {
+	font-size: 12px;
+	font-weight: bold;
+}
+.gadget .price {
+	font-size: 16px;
+	font-weight: bold;
+}
+.gadget .ofert {
+	font-size: 11px;
+	color: #666;
+}
+.gadget .detail a {
+	font-size: 10px;
+	text-decoration: none;
+	color: #e10098;
+}
+.gadget .transferent {
+	padding: 15px 25px;
+}
+.gadget .transferent a {
+	display: block;
+	text-align: center;
+}
+.detailState {
+	padding: 10px 5%;
+}
+#transitProducts .modal-dialog {
+	width: 80%;
+}
+#transitProducts .modal-content {
+	-moz-border-radius: inherit;
+			 border-radius: inherit;
+}
+.transitDiv {
+	color: #bfbfbf;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	text-align: right;
+}
+.transitDiv a {
+	text-decoration: underline;
+}
+.transitDiv .titleTransit {
+	display: block;
+	font-size: 10px;
+}
+/*detail info*/
+.shadowSquare {
+	border: solid 1px #dedede;
+	-moz-box-shadow: 0px 4px 8px #dedede;
+			 box-shadow: 0px 4px 8px #dedede;
+	background-color: #fff;
+}
+.infoListGifts .imageGift {
+	width: 180px;
+}
+.infoListGifts .isbono i {
+	font-size: 16px !important;
+}
+.infoListGifts .isbono i.icon-check {
+	color: #4fac6a;
+}
+.infoListGifts .isbono i.icon-tache2 {
+	color: #818181;
+}
+.infoListGifts .legendCancel {
+	font-size: 10px;
+	color: #818181;
+}
+.infoListGifts .cancel {
+	color: #b3b3b3;
+}
+.infoListGifts .rode {
+	font-weight: bold;
+}
+.infoListGifts .numMoney {
+	font-size: 13px;
+}
+.paginator {
+	padding: 20px 0px;
+}
+.paginator .seeAll {
+	display: inline-block;
+	width: 80%;
+}
+.paginator .seeAll a {
+	display: inline-block;
+	text-decoration: underline;
+	font-size: 12px;
+	color: #000;
+}
+.paginator .seeAll span {
+	display: inline-block;
+	float: right;
+}
+.paginator .controlPage {
+	display: inline-block;
+	float: right;
+}
+.paginator .controlPage .customPagination {
+	display: inline-block;
+	padding-left: 0;
+	-moz-border-radius: 4px;
+			 border-radius: 4px;
+}
+.paginator .controlPage .customPagination li {
+	display: inline-block;
+}
+.paginator .controlPage .customPagination li a {
+	font-size: 12px;
+	text-decoration: none;
+	position: relative;
+	padding: 0px;
+	line-height: 1.42857143;
+}
+.paginator .controlPage .customPagination li .start i,
+.paginator .controlPage .customPagination li .back i,
+.paginator .controlPage .customPagination li .next i,
+.paginator .controlPage .customPagination li .end i {
+	font-size: 10px;
+}
+.paginator .controlPage .customPagination li .numPage {
+	padding: 0px 6px;
+}
+.paginator .controlPage .customPagination li .numPage i {
+	display: inline-block;
+	margin-top: -22px;
+	font-size: 12px !important;
+	font-style: normal;
+}
+/*bar info */
+.barInfoGift {
+	padding: 10px 0px 23px 0px;
+	margin-bottom: 10px;
+}
+.barInfoGift > div {
+	position: relative;
+}
+.barInfoGift .title {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 15%;
+}
+.barInfoGift--custom {
+	padding: 10px 0px 5px 0px;
+}
+.barInfoGift--custom .title {
+	padding-left: 0;
+	padding-top: 15px;
+}
+.barInfoGift .concept {
+	font-size: 13px;
+}
+.barInfoGift .concept .icon-ayuda {
+	margin-right: 5px;
+	cursor: pointer;
+}
+.barInfoGift .val {
+	line-height: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+}
+.barInfoGift .val.cancel {
+	color: #b3b3b3;
+}
+.barInfoGift .aditionalInfo {
+	line-height: 8px;
+	font-size: 10px;
+	color: #818181;
+}
+.barInfoGift .separator {
+	height: 60px;
+	width: 1px;
+	background-color: #b3b3b3;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: -3px;
+}
+.barInfoGift .trans a {
+	font-size: 10px;
+	text-decoration: underline;
+}
+/*footer actions*/
+.footerActions {
+	padding: 40px 0px;
+}
+.footerActions .btnGray {
+	color: #fff;
+	width: 160px;
+	background-color: #666;
+}
+.footerActions .btnGray i {
+	position: absolute;
+	left: 0;
+}
+.footerActions .btnGray :hover,
+.footerActions .btnGray :focus {
+	color: #fff !important;
+}
+/*bonus*/
+.bonusContainer {
+	-moz-box-sizing: border-box;
+			 box-sizing: border-box;
+	padding: 20px 40px !important;
+}
+.bonusContainer .title,
+.bonusContainer .title i,
+.bonusContainer .title span {
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+.bonusContainer .subtitle {
+    border-bottom: none;
+	padding-top: 10px;
+}
+.infoGiftsBonus > .inlineSectionBonus.validate {
+    border-bottom: 1px solid #dedede;
+}
+.bonusContainer .infoAditional {
+	border-bottom: solid 1px #dedede;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.bonusContainer .infoAditional p {
+	font-size: 14px;
+	color: #666;
+	line-height: 5px;
+}
+.bonusContainer .seeDetail {
+	margin: 0px;
+}
+.bonusContainer .seeDetail a {
+	font-size: 10px;
+	text-decoration: none;
+	color: #e10098;
+}
+.bonusContainer .bonusInfo {
+	background-color: #f3f3f3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.bonusContainer .inlineSectionBonus p {
+	color: #000;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0;
+}
+.bonusContainer .inlineSectionBonus p:last-child {
+	float: right;
+	right: 0px;
+}
+.bonusContainer .novalidate p {
+	color: #818181;
+}
+.bonusContainer .validate p {
+	color: #666;
+}
+.bonusContainer .bonusTotal {
+	margin-top: 10px;
+	border-bottom: solid 1px #dedede;
+}
+.bonusContainer .bonusTotal p {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.bonusContainer .rodeTotal {
+	background-color: transparent !important;
+}
+.bonusContainer .rodeTotal p {
+	color: #666;
+	font-size: 15px;
+	font-weight: bold;
+}
+.bonusContainer .aproximateRodeTotal {
+	border-top: solid 1px #dedede;
+}
+.bonusContainer .aproximateRodeTotal p {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.bonusContainer .inline p {
+	display: inline-block;
+}
+.defaultLink,
+.defaultAction,
+.principalLink,
+.darkLink,
+.mediumLink,
+.lightLink,
+.addEditLink,
+.deleteLink,
+.specialLink {
+	padding: 10px !important;
+}
+.eventButtons {
+	height: 100%;
+	overflow: hidden;
+}
+.eventButtons div {
+	padding: 125px 0 0 0;
+}
+.primaryDisabled {
+	background-color: #e799c2 !important;
+	cursor: auto;
+}
+.specialDisabled {
+	color: #e799c2 !important;
+	border: 1px solid #e799c2 !important;
+	cursor: auto;
+}
+.filter-arrow {
+	color: #7f7f7f;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.tache--custom {
+	color: #6c6c6c;
+}
+.cTable.bottomLine tbody tr td.articulo {
+	padding-left: 0;
+}

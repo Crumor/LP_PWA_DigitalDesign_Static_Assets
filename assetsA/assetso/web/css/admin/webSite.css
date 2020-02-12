@@ -1,0 +1,287 @@
+.size-Smallest {
+  height: 40px;
+  width: 100px;
+}
+.size-Smallest .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Smallest .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Small {
+  height: 35px;
+  width: 135px;
+}
+.size-Small .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Small .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Medium {
+  height: 40px;
+  width: 180px;
+}
+.size-Medium .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Medium .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-Large {
+  height: 50px;
+  width: 200px;
+}
+.size-Large .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Large .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-ExtraLarge {
+  height: 50px;
+  width: 280px;
+}
+.size-ExtraLarge .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-ExtraLarge .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Big {
+  height: 50px;
+  width: 330px;
+}
+.size-Big .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Big .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.dInline,
+header.createWebSite .stepDescription,
+header.createWebSite .steps,
+header.createWebSite .steps .stepBarGlobal,
+header.createWebSite .stepDescription > div,
+main.createSite .contentBox .templateBlock figcaption .templateName,
+main.createSite .contentBox .templateBlock figcaption .templateActions,
+main.createSite .contentBox .templateBlock figcaption .templateActions a,
+main.createSite.step2 .contentBox form .eventURL > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+header.createWebSite {
+  border-bottom: 2px solid #979797;
+  padding: 20px 0;
+}
+header.createWebSite .last {
+  text-align: right;
+}
+header.createWebSite .stepDescription .stepContainer,
+header.createWebSite .steps .stepContainer {
+  color: #7f7f7f;
+  text-align: right;
+}
+header.createWebSite .stepDescription .stepContainer .currentCount,
+header.createWebSite .steps .stepContainer .currentCount {
+  color: #e10098;
+}
+header.createWebSite .steps {
+  width: 40%;
+}
+header.createWebSite .steps .stepBarGlobal {
+  background: #efefef;
+  height: 7px;
+  width: 48%;
+}
+header.createWebSite .steps .stepBarGlobal.active {
+  background: #e10098;
+}
+header.createWebSite .stepDescription {
+  margin-right: 15px;
+}
+header.createWebSite .stepDescription > div i {
+  font-size: 40px;
+  margin-right: 5px;
+}
+header.createWebSite .stepDescription > div p {
+  line-height: 1em;
+  font-weight: bold;
+  text-align: left;
+}
+header.createWebSite .stepDescription > div p span {
+  display: block;
+}
+main.createSite {
+  background: url("/assetso/web/images/step2Background.png") repeat;
+}
+main.createSite .contentBox {
+  background: transparent;
+  border: none;
+  -moz-box-shadow: none;
+       box-shadow: none;
+  display: block;
+  margin: 50px auto;
+  padding: 0 50px;
+  max-width: 1000px;
+  width: 80%;
+}
+main.createSite .contentBox h1,
+main.createSite .contentBox h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 150px 0 0 0;
+  text-align: center;
+}
+main.createSite .contentBox h2 {
+  border-top: 2px solid rgba(151,151,151,0.16);
+  font-size: 18px;
+  font-weight: normal;
+  margin: 50px 0 25px;
+  padding-top: 20px;
+}
+main.createSite .contentBox .templateBlock {
+  margin-bottom: 40px;
+}
+main.createSite .contentBox .templateBlock figure {
+  border: 2px solid #e0e0e0;
+}
+main.createSite .contentBox .templateBlock figure img {
+  width: 100%;
+}
+main.createSite .contentBox .templateBlock figcaption .templateName,
+main.createSite .contentBox .templateBlock figcaption .templateActions {
+  font-weight: bold;
+  width: 49%;
+}
+main.createSite .contentBox .templateBlock figcaption .templateName p,
+main.createSite .contentBox .templateBlock figcaption .templateActions p {
+  line-height: 1;
+  margin: 0;
+  padding-left: 10px;
+}
+main.createSite .contentBox .templateBlock figcaption .templateActions a {
+  font-size: 14px;
+  font-weight: normal;
+  height: 30px;
+  margin-right: 1%;
+  padding-top: 5px;
+  width: 47%;
+}
+main.createSite.step2 .contentBox {
+  background: #fff;
+  -moz-box-shadow: 0px 0px 2px #ccc;
+       box-shadow: 0px 0px 2px #ccc;
+}
+main.createSite.step2 .contentBox h1 {
+  padding-bottom: 33px;
+  padding-top: 20px;
+  margin-top: 110px;
+}
+main.createSite.step2 .contentBox h2 {
+  margin-top: 0;
+}
+main.createSite.step2 .contentBox form .eventURL > * {
+  margin: 0;
+  width: 48%;
+}
+main.createSite.step2 .contentBox form .eventURL p {
+  width: 50%;
+}
+main.createSite.step2 .contentBox form .formButtons {
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+main.createSite.step2 .contentBox form .formButtons > div {
+  padding: 0;
+}
+main.createSite.step2 .contentBox form .formButtons button {
+  font-size: 18px;
+}
+main.createSite.step2 .contentBox form .inputBlock {
+  height: 40px;
+  margin: 0;
+}
+main.createSite.step2 .contentBox form .privacy {
+  border: 1px solid #d8d8d8;
+  padding: 10px 20px 15px;
+  margin-top: 20px;
+}
+main.createSite.step2 .contentBox form .privacy h3 {
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+main.createSite.step2 .contentBox form .privacy .materialStyle {
+  position: relative;
+}
+main.createSite.step2 .contentBox form .privacy .materialStyle .inputMaterial {
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+}
+main.createSite.step2 .contentBox form .privacy .materialStyle .error {
+  font-weight: normal;
+}
+main.createSite.step2 .contentBox form .privacy .materialStyle #confirmPassword-error,
+main.createSite.step2 .contentBox form .privacy .materialStyle #password-error {
+  font-size: 11px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+main.createSite.step2 .contentBox form .privacy .radio label {
+  font-size: 16px;
+  font-weight: bold;
+}
+main.createSite.step2 .contentBox form .privacy .description {
+  font-size: 11px;
+  line-height: 1.5em;
+  margin: 0 0 10px 0;
+  width: 80%;
+}
+main.createSite.step2 .contentBox form .privacy .radio {
+  margin-top: 20px;
+}
+main.createSite.step2 .contentBox form .privacy .passwordBlock {
+  display: none;
+  margin-top: 30px;
+}

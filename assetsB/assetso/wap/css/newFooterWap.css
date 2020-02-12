@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.wrapFooter {
+  background: #f3f3f3;
+}
+.schedules {
+  background: #cbd5d7;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0 15px 0;
+}
+.schedules p {
+  margin: 0;
+}
+.schedules p a {
+  color: #e10098;
+}
+.contact {
+  background: #e4e8e9;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0 15px 0;
+}
+.contact p {
+  margin: 0;
+}
+.contact p span {
+  color: #e10098;
+}
+.menuWap {
+  width: 100%;
+  background: #fff;
+  -moz-box-shadow: 0px 2px 25px 0px #ccc;
+       box-shadow: 0px 2px 25px 0px #ccc;
+}
+.menuWap tr {
+  border-bottom: 1px solid #dedede;
+}
+.menuWap td {
+  padding: 15px;
+}
+.menuWap td a {
+  font-size: 18px;
+  color: #000;
+}
+.menuWap td i {
+  color: #e10098;
+}
+.menuWap td:nth-child(1) {
+  width: 90%;
+}
+.social {
+  padding: 15px 0 15px 0;
+}
+.social p {
+  margin: 0;
+  text-align: center;
+}
+.social p i {
+  font-size: 25px;
+}
+.social p i:nth-child(2) {
+  margin: 0 30px 0 30px;
+}
+.linkTag {
+  margin: 0;
+  font-size: 12;
+  text-align: center;
+  color: #ccc;
+}
+.linkTag span {
+  font-weight: bold;
+  color: #e10098;
+}
+.linkToHomeWeb {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+.linkToHomeWeb a {
+  color: #e10098;
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+}
+.copyright span {
+  color: #000;
+}

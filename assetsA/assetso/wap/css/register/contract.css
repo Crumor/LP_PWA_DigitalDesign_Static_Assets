@@ -1,0 +1,140 @@
+body {
+  background: #fff;
+}
+.subtitleContract {
+  color: #666;
+  text-align: left;
+}
+.pdfContent {
+  border: 1px dashed #000;
+  max-height: 300px;
+  overflow: auto;
+  padding: 10px;
+}
+.pdfContent p {
+  color: #666;
+  text-align: left;
+}
+.termsConditions {
+  padding: 15px 35px;
+}
+.termsConditions p,
+.termsConditions input {
+  display: inline-block;
+  float: left;
+}
+.buttonsPdf span {
+  font-size: 25px;
+  float: right;
+  padding: 10px;
+}
+.innerButtons {
+  width: 100%;
+}
+.contractWrapper {
+  margin: 15px;
+}
+.titleMesa {
+  color: #bfbfbf;
+  font-family: 'robotoCondensed';
+  font-size: 22px;
+  margin-bottom: -10px;
+}
+.titleSection {
+  font-size: 25px;
+}
+.downloadIcon {
+  font-size: 25px;
+  right: 30px;
+  position: absolute;
+  top: 40px;
+  color: #9e9e9e;
+  font-size: 2em;
+}
+/* eventMangement  */
+.downloadIcon-eventMangement {
+  font-size: 25px;
+  right: 30px;
+  position: absolute;
+  top: 10px;
+}
+.buttonBlack {
+  font-size: 18px;
+}
+#contract .subtitleModule {
+  margin: 20px 0 30px;
+}
+#contract button {
+  font-size: 18px;
+}
+.privacy {
+  border: 1px solid #e10098;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+}
+.privacy h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0 15px 0;
+  text-transform: uppercase;
+}
+.privacy p {
+  font-size: 13px;
+  margin: 0;
+  text-align: center;
+}
+.pdfContent {
+  padding: 0px 10px;
+  overflow-x: hidden;
+}
+.pdfContent .pdfLogo img {
+  display: block;
+  margin: 0 auto 30px;
+  max-width: 200px;
+  width: 100%;
+}
+.pdfContent .grLogo {
+  padding-top: 10px;
+}
+.pdfContent .eventInfo p {
+  line-height: 1.4;
+  margin: 0;
+}
+.pdfContent .eventInfo span {
+  font-weight: bold;
+}
+.pdfContent .subtitle {
+  font-family: 'robotoCondensed';
+  font-size: 23px;
+  margin: 30px 0 20px 0;
+}
+.pdfContent .bonus {
+  line-height: 1.4;
+  margin: 0;
+}
+.pdfContent .mainContent {
+  margin-top: 20px;
+  text-align: justify;
+}
+.pdfContent .mainContent span {
+  background: #f2e776;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 5px;
+}
+.pdfContent .signature p {
+  border-top: 3px solid #000;
+  font-size: 13px;
+  margin-top: 100px;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.liverpoolLogo,
+.grLogo,
+.signature,
+.eventInfo {
+  display: none;
+}

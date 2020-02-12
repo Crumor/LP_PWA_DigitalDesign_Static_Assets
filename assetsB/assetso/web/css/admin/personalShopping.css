@@ -1,0 +1,167 @@
+.wrap {
+	background-color: #fff;
+	padding: 15px 0 15px 0;
+}
+.listDown {
+	-moz-border-radius: 0 !important;
+			 border-radius: 0 !important;
+}
+.fa {
+	font-size: 13px !important;
+	padding: 3.3px;
+}
+.btn,
+.form-control,
+.dropdown-menu {
+	-moz-border-radius: 0 !important;
+			 border-radius: 0 !important;
+}
+.labelListDown {
+	position: relative;
+	padding: 6px 60px;
+	float: left;
+	cursor: default;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.splitListDown {
+	background-color: #f2f2f2 !important;
+}
+.categoryStyle {
+	min-width: 230px !important;
+}
+.bonusStyle {
+	min-width: 243px !important;
+}
+.categoryTag {
+/*Added 15px to fix category in registrados*/
+	padding: 0 15px 0 15px;
+	margin-top: 15px;
+	font-size: 14px;
+	margin-left: -15px;
+}
+.catTitle {
+	color: #b7b7b7;
+}
+.tablePersonalShopping {
+	width: 100%;
+	text-align: center;
+}
+.tablePersonalShopping thead tr {
+	font-size: 12.3px;
+}
+.rowLines {
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+.tablePersonalShopping a {
+	color: #000;
+	text-decoration: none;
+}
+.tablePersonalShopping a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.tablePersonalShopping img {
+	width: 100px;
+	height: 80px;
+}
+.tablePersonalShopping div {
+	display: block;
+}
+.textToLeft {
+	text-align: left;
+}
+.textToBold {
+	font-weight: bold;
+	color: #000;
+}
+.sku {
+	font-size: 12px;
+}
+.statusDeliver {
+	margin-top: 9px;
+	font-size: 13px;
+	color: #0abd3e;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.statusDeliverToStore {
+	margin-top: 9px;
+	font-size: 13px;
+	color: #4fac6a;
+}
+.statusReturn {
+	color: #6d6d6d;
+	margin-top: 9px;
+	font-size: 13px;
+}
+.detailText {
+	font-size: 13px;
+	color: #888;
+}
+.confirmCheck {
+	font-size: 20px !important;
+	color: #4fac6a;
+}
+.disableCheck {
+	color: #6d6d6d;
+	font-size: 13px !important;
+}
+.articleInner {
+	width: 300px;
+}
+.priceAndQuant {
+	width: 130px;
+}
+.textToDisable {
+	color: #bebebe;
+}
+.returnArticle {
+	font-size: 13px;
+	color: #6d6d6d;
+}
+.quantityInner {
+	font-size: 17px;
+}
+.priceInner,
+.articleInner {
+	font-size: 15.7px;
+}
+.inputSearch {
+	height: 38px;
+}
+.search-personal-shoping {
+	margin-left: 20%;
+}
+.headPriceInner {
+	/* BalRam - changes made to fix width in 100% */
+	min-width: 140px;
+}
+.headQuantityInner {
+	/* BalRam - changes made to fix width in 100% */
+	min-width: 140px;
+}
+table.tablePersonalShopping td:nth-child(1){
+  width: 2%;
+}
+table.tablePersonalShopping td:nth-child(2){
+  width: 7%;
+}
+table.tablePersonalShopping td:nth-child(3){
+  width: 2%;
+}
+table.tablePersonalShopping td:nth-child(4){
+  width: 2%;
+}
+table.tablePersonalShopping td:nth-child(5){
+  width: 5%;
+}
+table.tablePersonalShopping td:nth-child(6){
+  width: 5%;
+}
+.catTitle {
+  color: #b7b7b7;
+  margin-right: 10px;
+}

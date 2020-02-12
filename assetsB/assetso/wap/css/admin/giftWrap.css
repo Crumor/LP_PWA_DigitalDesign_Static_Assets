@@ -1,0 +1,100 @@
+.accordionOrder span {
+  color: #555;
+  position: relative;
+  display: block;
+  border-top: 1px solid #dedede;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+#giftWrapPopUp h1 {
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+  background: #fff;
+  margin: 0;
+  padding: 10px;
+}
+#giftWrapPopUp .col-xs-12 p {
+  color: #000;
+  font-size: 13px;
+  margin: 10px 0 10px 0;
+}
+#giftWrapPopUp .col-xs-12 p:nth-child(1) {
+  font-weight: bold;
+}
+#giftWrapPopUp .col-xs-12 textarea {
+  margin: 0;
+  min-height: 17%;
+  max-height: 17%;
+}
+#giftWrapPopUp .col-xs-12 .charsType {
+  float: right;
+}
+.panelAccordion {
+  display: none;
+}
+.panelAccordion span {
+  color: #555;
+  position: relative;
+  display: block;
+  border-top: 1px solid #dedede;
+  font-size: 15px;
+  padding: 10px 15px;
+  background: #f2f2f2;
+}
+.modal-dialog {
+  margin: 0 !important;
+}
+.black-return {
+  color: #666;
+}
+.cSelect.searchGift select {
+  background-color: #fff;
+}
+.cSelect select {
+  font-size: 15px;
+  color: #3b3b3e;
+  height: 35px;
+  width: 100%;
+  border: 1px solid #e10098;
+  padding-left: 15px;
+}
+.buttonContent {
+  margin: 30px 0 0 0;
+}
+.buttonContent .primary {
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  background: #e10098;
+  border: 0;
+  cursor: pointer;
+  margin: 0 0 10px 0;
+}
+.buttonContent .secondary {
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  background: #666;
+  margin-right: 10px;
+  border: 0;
+  cursor: pointer;
+}
+.colorsContainer {
+  width: 50%;
+}
+.colorsContainer .colorPixel {
+  -moz-border-radius: 100%;
+       border-radius: 100%;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.disabled {
+  color: #d2d2d2 !important;
+}
+.disabled select {
+  border: 1px solid #d2d2d2;
+  color: #d2d2d2;
+}

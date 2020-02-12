@@ -1,0 +1,549 @@
+a {
+  color: inherit;
+}
+ahover {
+  text-decoration: none;
+}
+body {
+  font-family: 'robotoRegular';
+}
+.giftBackground {
+  background: url("/assetso/web/images/step2Background.png") repeat;
+}
+.grayBackground {
+  background: #f2f2f2;
+}
+
+#blackBox {
+  background: transparent;
+  display: none;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+/* Duplicate from Main.css error.css lines 26 to 788 removed */
+h2.registerGiftTitle,
+h2.registerGiftSubTitle {
+  font-family: 'robotoCondensed';
+  font-size: 28px;
+  line-height: 1.21;
+  margin: 37px 0 0;
+}
+h2.registerGiftSubTitle {
+  margin: 0 0 18px 0;
+}
+p.registerGiftText {
+  color: #666;
+  font-family: 'robotoCondensed';
+  font-size: 14px;
+  line-height: 1.79;
+  margin-bottom: 40px;
+}
+hr.registerGiftLine {
+  border-bottom: 1px dashed #d8d8d8;
+  border-top: none;
+  margin-top: 32px;
+}
+hr.registerGiftLineSolid {
+  border-bottom: 1px solid #d8d8d8;
+  border-top: none;
+  margin: 25px 0;
+}
+.selectStore .cSelect:last-of-type {
+  display: none;
+}
+.addressList a.helpIcon {
+  float: right;
+  margin: -5px 0 0 0;
+}
+.addressList > p {
+  color: #f00;
+  font-size: 13px;
+  text-align: right;
+}
+.addressList > h2 {
+  color: #666;
+  font-size: 18px;
+  line-height: 2.33;
+  margin: 10px 0 0 0;
+}
+.addressList > h2 span {
+  color: #000;
+}
+.addressList .addressDetail {
+  position: relative;
+}
+.addressList .addressDetail h3 {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 0;
+}
+.addressList .addressDetail p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.addressList .addressDetail .addressSummary {
+  margin-top: 20px;
+}
+.addressList .addressDetail .addressSummary > div {
+  display: inline-block;
+  vertical-align: top;
+}
+.addressList .addressDetail .addressSummary > div:first-of-type {
+  width: 9%;
+}
+.addressList .addressDetail .addressSummary > div:last-of-type {
+  margin-left: 3%;
+  width: 85%;
+}
+.addressList .addressDetail .addressSummary .multipleAddress .inputBlock {
+  margin-top: 5px;
+}
+.addressList .addressDetail .addressAsigned {
+  margin: 10px 0 30px;
+}
+.addressList .addressDetail .addressAsigned .headers p {
+  color: #000;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.addressList .addressDetail .addressAsigned .inputBlock {
+  margin: 10px 0 17px;
+}
+.addressList .addressDetail .addressAsigned .btnSecondarySpecial {
+  border: 1px solid #000;
+}
+.addressList .addressDetail .disableBlock {
+  background: rgba(255,255,255,0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.addressList#multiple .addressAsigned {
+  display: none;
+}
+.addressList#multiple .addressAsigned > div {
+  margin: 0 auto;
+  max-width: 375px;
+}
+.addressList#multiple .addressAsigned.visible {
+  display: block;
+}
+.addressList#multiple .addressAsigned.visible .cSelect.errorSelect {
+  border: 1px solid #f00;
+}
+.addressList#multiple .addressAsigned.visible .cSelect.errorSelect select {
+  border-bottom: 1px solid #f00;
+}
+.addressList#one .addressAsigned > div {
+  margin: 0 auto;
+  max-width: 375px;
+}
+.buttonBlock {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.buttonBlock .disableNextButton {
+  height: 50px;
+  position: absolute;
+  right: 0;
+  width: 200px;
+}
+.formBlock h2.formBlockTitle {
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 0 5px;
+  vertical-align: middle;
+}
+.formBlock h3 {
+  color: #666;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+.formBlockLarge > div {
+  padding-left: 0;
+}
+.formBlockLarge .hidden-xs {
+  padding-top: 20px;
+  text-align: center;
+}
+.terms {
+  padding-bottom: 40px;
+}
+.terms p {
+  font-size: 13px;
+}
+.terms p a {
+  color: #e10098;
+}
+.newAddresButtons {
+  margin-bottom: 30px;
+}
+.newAddresButtons button {
+  font-family: 'robotoCondensed';
+  font-size: 16px;
+  height: 40px;
+  margin-right: 30px;
+}
+.requiredInput {
+  color: #f00;
+  text-align: right;
+}
+#noAddress .buttonBlock {
+  margin-top: 0;
+}
+#noAddress .buttonBlock .disableNextButton {
+  height: 50px;
+  position: absolute;
+  right: 0;
+  width: 200px;
+}
+#noAddress .buttonBlock button {
+  font-size: 18px;
+  float: left;
+}
+#noAddress .buttonBlock button:last-of-type {
+  float: right;
+}
+@media screen and (min-width: 768px) {
+  .addressList .formBlock h2.formBlockTitle {
+    margin-bottom: 0;
+  }
+  .addressList .addressDetail .addressSummary > div:first-of-type {
+    width: 15%;
+  }
+  .addressList .addressDetail .addressSummary > div:last-of-type {
+    margin-left: 0%;
+    width: 82%;
+  }
+  .inputBlock {
+    margin: 0 0 15px 0;
+  }
+  #multipleAddress .floatRightButton {
+    float: right;
+    padding-top: 0 !important;
+    width: 45% !important;
+  }
+  #multipleAddress .btnSecondarySpecial {
+    font-size: 16px !important;
+    height: 40px;
+  }
+  #multipleAddress #multiple h2,
+  #multipleAddress #one h2,
+  #multipleAddress #multiple .addressDetail .addressSummary,
+  #multipleAddress #one .addressDetail .addressSummary {
+    display: inline-block;
+    margin-bottom: 35px;
+    max-width: 300px;
+    vertical-align: top;
+    width: 38%;
+  }
+  #multipleAddress #multiple h2 h3,
+  #multipleAddress #one h2 h3,
+  #multipleAddress #multiple .addressDetail .addressSummary h3,
+  #multipleAddress #one .addressDetail .addressSummary h3 {
+    font-size: 15px;
+  }
+  #multipleAddress #multiple h2 p,
+  #multipleAddress #one h2 p,
+  #multipleAddress #multiple .addressDetail .addressSummary p,
+  #multipleAddress #one .addressDetail .addressSummary p {
+    font-size: 13px;
+  }
+  #multipleAddress #multiple h2,
+  #multipleAddress #one h2 {
+    font-size: 17px;
+    width: 100%;
+  }
+  #multipleAddress #multiple .addressDetail .addressAsigned,
+  #multipleAddress #one .addressDetail .addressAsigned {
+    margin-bottom: 0px;
+    vertical-align: top;
+    width: 61%;
+  }
+  #multipleAddress #multiple .addressAsigned > div,
+  #multipleAddress #one .addressAsigned > div {
+    display: inline-block;
+    margin-left: 3%;
+    vertical-align: bottom;
+    width: 62%;
+  }
+  #multipleAddress #multiple .addressAsigned > div:last-of-type,
+  #multipleAddress #one .addressAsigned > div:last-of-type {
+    width: 30%;
+  }
+  #multipleAddress #multiple .addressAsigned > div .headers p,
+  #multipleAddress #one .addressAsigned > div .headers p {
+    font-size: 12px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .mobileSelect,
+  #multipleAddress #one .addressAsigned > div .mobileSelect {
+    font-size: 13px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .btnSecondarySpecial,
+  #multipleAddress #one .addressAsigned > div .btnSecondarySpecial {
+    height: auto;
+    max-width: 200px;
+    width: 100%;
+  }
+  #multipleAddress #multiple .addressAsigned > div .btnSecondarySpecial span,
+  #multipleAddress #one .addressAsigned > div .btnSecondarySpecial span {
+    font-size: 13px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .errorNoSelect,
+  #multipleAddress #one .addressAsigned > div .errorNoSelect {
+    color: #f00;
+    display: none;
+    font-size: 11px;
+    margin: -15px 0 0 0;
+  }
+  #multipleAddress #multiple .addressAsigned.visible,
+  #multipleAddress #one .addressAsigned.visible {
+    display: inline-block;
+  }
+  #multipleAddress #multiple .addressAsigned a.helpIcon img,
+  #multipleAddress #one .addressAsigned a.helpIcon img {
+    height: 15px;
+    width: 15px;
+  }
+  #multipleAddress .buttonBlock {
+    margin-top: 10px;
+  }
+  #multipleAddress .buttonBlock .btnSecondaryAction {
+    float: left;
+    margin: 0;
+    font-size: 18px;
+  }
+  #multipleAddress .buttonBlock .btnPrimary {
+    float: right;
+    font-size: 18px;
+  }
+  #newAddress .buttonBlock {
+    margin-top: 10px;
+  }
+  #newAddress .buttonBlock button {
+    display: inline-block;
+    max-width: 190px;
+    width: 45%;
+  }
+  #newAddress .formBlock h2.formBlockTitle {
+    margin-top: 0;
+  }
+  #newAddress .requiredInput {
+    margin: 0 0 -10px 0;
+  }
+  #noAddress {
+    padding-bottom: 80px;
+  }
+  #noAddress .buttonBlock {
+    margin-top: 50px;
+  }
+  #noAddress hr.registerGiftLine,
+  #multipleAddress hr.registerGiftLine,
+  #newAddress hr.registerGiftLine,
+  #noAddress hr.registerGiftLineSolid,
+  #multipleAddress hr.registerGiftLineSolid,
+  #newAddress hr.registerGiftLineSolid {
+    clear: both;
+  }
+  #noAddress .buttonBlock,
+  #multipleAddress .buttonBlock,
+  #newAddress .buttonBlock {
+    overflow: hidden;
+  }
+  #noAddress .registerTitles,
+  #multipleAddress .registerTitles,
+  #newAddress .registerTitles {
+    text-align: center;
+  }
+  #noAddress .registerTitles h2,
+  #multipleAddress .registerTitles h2,
+  #newAddress .registerTitles h2 {
+    display: inline-block;
+  }
+  #noAddress .whiteMobileButton,
+  #multipleAddress .whiteMobileButton,
+  #newAddress .whiteMobileButton,
+  #noAddress .btnSecondarySpecial,
+  #multipleAddress .btnSecondarySpecial,
+  #newAddress .btnSecondarySpecial {
+    float: right;
+    font-family: 'robotoCondensed';
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #noAddress,
+  #multipleAddress,
+  #newAddress {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #multipleAddress .buttonBlock {
+    margin-top: 25px;
+  }
+  #multipleAddress .floatRightButton {
+    width: 30% !important;
+  }
+  #multipleAddress #multiple .addressAsigned > div,
+  #multipleAddress #one .addressAsigned > div {
+    max-width: 250px;
+  }
+  #multipleAddress #multiple .addressAsigned > div:last-of-type,
+  #multipleAddress #one .addressAsigned > div:last-of-type {
+    float: right;
+    padding-top: 25px;
+    width: 140px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .headers p,
+  #multipleAddress #one .addressAsigned > div .headers p {
+    font-size: 15px;
+  }
+  #multipleAddress #multiple .addressAsigned > div .inputBlock,
+  #multipleAddress #one .addressAsigned > div .inputBlock,
+  #multipleAddress #multiple .addressAsigned > div .btnSecondarySpecial,
+  #multipleAddress #one .addressAsigned > div .btnSecondarySpecial {
+    margin-bottom: 0;
+  }
+  #multipleAddress #multiple .addressAsigned > div .mobileSelect,
+  #multipleAddress #one .addressAsigned > div .mobileSelect {
+    font-size: 15px;
+  }
+  #multipleAddress #multiple .addressAsigned a.helpIcon img,
+  #multipleAddress #one .addressAsigned a.helpIcon img {
+    height: 25px;
+    width: 25px;
+  }
+  #multipleAddress .buttonBlock {
+    margin: 80px 0 50px;
+  }
+}
+.alertError {
+  padding: 0 !important;
+  margin: 10px auto 25px;
+  position: relative;
+}
+.alertError.duplicatedErrMssg,
+.alertError.duplicatedEventMsg {
+  display: none;
+}
+.alertError i.icon-tache2 {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
+  vertical-align: middle;
+  width: 40px;
+}
+.alertError p {
+  color: #f00;
+  display: inline-block;
+  font-size: 14px;
+  float: none;
+  padding: 10px 0 10px 20px !important;
+  margin: 0;
+  text-align: left;
+  vertical-align: top;
+  width: 87%;
+}
+.alertError a.icon-tache2 {
+  cursor: pointer;
+  font-size: 6px;
+  height: 15px;
+  padding: 4px 0 0 0;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  top: 10px;
+  width: 15px;
+}
+/*FORMS*/
+#giftRegistry .formBlock,
+#giftRegistryEvent .formBlock {
+  position: relative;
+}
+#giftRegistry .formBlock .error,
+#giftRegistryEvent .formBlock .error {
+  font-size: 12px;
+  font-weight: bold;
+  bottom: -22px;
+}
+#giftRegistry .formBlock select.error,
+#giftRegistryEvent .formBlock select.error {
+  border: 1px solid #f00;
+  font-size: 15px;
+}
+#giftRegistry #allowEmail-error,
+#giftRegistryEvent #allowEmail-error {
+  background: #fff;
+  bottom: -45px;
+  font-size: 13px;
+  font-weight: normal;
+  z-index: 100;
+}
+/*MODAL*/
+.centerModal {
+  padding: 0 !important;
+  text-align: center;
+}
+.centerModal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.centerModal .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 350px;
+}
+.centerModal .modal-content .modal-body {
+  font-family: 'robotoRegular';
+}
+.centerModal .modal-content .modal-body h2 {
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.centerModal .modal-content .modal-body button {
+  font-size: 15px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.centerModal .modal-content .modal-body > p {
+  color: #6c6c6c;
+  font-family: 'robotoCondensed';
+  font-size: 15px;
+  margin: 20px 0;
+  width: 90%;
+}
+.centerModal .close {
+  font-size: 18px;
+  opacity: 0.5 !important;
+  margin-top: 2px;
+}
+/* Tooltip liststyle issue in Step 1 */
+.registerForm .popover-content ul {
+  list-style-type: disc;
+  padding-left: 10px;
+  list-style-position: inside;
+  text-indent: -20px;
+}
+#newAddress #giftRegistry p.registerGiftText{
+  margin-top: 30px;
+  margin-bottom: 25px;
+}

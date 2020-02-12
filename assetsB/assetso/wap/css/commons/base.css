@@ -1,0 +1,17 @@
+/*********** Constants and Variables *************/
+/********************** Colors **********************/
+/*********** Mixins *************/
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}

@@ -1,0 +1,145 @@
+div.toDosContainer {
+  width: 100%;
+  display: block;
+  background: #f3f3f3;
+  padding-top: 20px;
+}
+div.toDosContainer .toDosHead2 {
+  background: #fff;
+  padding: 10px 30px;
+  width: 1250px;
+  margin: 0 auto;
+}
+div.toDosContainer .toDosHead2 .filtrosdetareas {
+  display: inline-block;
+  width: 100%;
+}
+div.toDosContainer .toDosHead2 .filtrosdetareas .filtroalineacion {
+  display: inline-block;
+  width: 190px;
+}
+div.toDosContainer .toDosHead2 .filtrosdetareas .filtroalineacion.newtask {
+  float: right;
+}
+div.toDosContainer .toDosHead2 .inputDate span {
+  color: #000;
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+div.toDosContainer .toDosHead2 .inputDate input {
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+div.toDosContainer .toDosHead2 .panel-group .fecha {
+  float: right;
+  display: inline-block;
+  margin-top: -10px;
+}
+div.toDosContainer .toDosHead2 .panel-group .fecha p {
+  display: inline-block;
+  font-style: italic;
+  margin-right: 25px;
+}
+div.toDosContainer .toDosHead2 .panel-group .fecha i {
+  display: inline-block;
+}
+div.toDosContainer .toDosHead2 .panel-group .checkbox {
+  display: inline-block;
+}
+div.toDosContainer .toDosHead2 .panel-group .iClass.icon-sin_destacar {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+div.toDosContainer .toDosHead2 .panel-group .icon-sin_destacar.active:before {
+  content: "\e93b";
+  color: #f44336;
+}
+div.toDosContainer .toDosHead2 .panel-group .icon-editar {
+  margin-right: 10px;
+}
+div.toDosContainer .toDosHead2 .panel-group button.delete,
+div.toDosContainer .toDosHead2 .panel-group button.cancel,
+div.toDosContainer .toDosHead2 .panel-group button.save {
+  display: none;
+}
+div.toDosContainer .toDosHead2 .panel-group .panel-heading {
+  display: inline-block;
+  width: 90%;
+}
+div.toDosContainer .toDosHead2 .panel-group .panel-heading.collapsed .icon-flecha_light_abajo:before {
+  content: "\e94d";
+}
+div.toDosContainer .toDosHead2 .panel-group .panel-heading .panel-title {
+  display: inline-block;
+}
+div.toDosContainer .toDosHead2 .panel-group .panel-heading .panel-title a span {
+  font-size: 0.7em;
+}
+div.toDosContainer .toDosHead2 .panel-group input.inputMaterial.blabla {
+  height: 70px;
+}
+a.allMarked {
+  text-decoration: underline;
+  cursor: pointer;
+  float: right;
+}
+.toolsfordown {
+  margin-bottom: 30%;
+  font-size: 1.6em;
+  text-align: right;
+}
+.toolsfordown .iClass {
+  display: inline-block;
+}
+.modal-content h2.subtitleModule {
+  font-weight: 900;
+}
+.modal-content .modal-header {
+  border: none;
+}
+.modal-content .modal-header .close {
+  font-size: 16px !important;
+  margin-top: 6px;
+  color: #808080;
+  opacity: 2;
+}
+.modal-content .modal-body {
+  padding: 30px;
+}
+.modal-content .modal-body .col-md-6 {
+  padding: 0;
+}
+.modal-content .modal-footer {
+  border: none;
+}
+.panel-body {
+  padding: 0;
+}
+.progress {
+  width: 100%;
+  -moz-border-radius: 0;
+       border-radius: 0;
+  height: 5px;
+}
+.progress-bar {
+  background-image: -moz-linear-gradient(top, #e10098 0%, #e10098 100%);
+  background-image: linear-gradient(to bottom, #e10098 0%, #e10098 100%);
+}
+.progressData {
+  width: 100%;
+  margin-top: -15px;
+}
+.progressData p.minData,
+.progressData p.maxData {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.progressData p.minData {
+  color: #999;
+}
+.progressData p.maxData {
+  float: right;
+}

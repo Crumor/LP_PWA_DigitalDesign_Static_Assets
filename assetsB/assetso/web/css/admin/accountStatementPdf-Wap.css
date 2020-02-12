@@ -1,0 +1,282 @@
+body {
+  font-family: 'robotocondensedregular', arial, sans-serif;
+}
+.accountStatementwap  h3 {
+  font-size: 18px;
+}
+.accountStatementwap  h4 {
+  font-size: 16px;
+}
+.accountStatementwap {
+  font-size: 8pt;
+}
+.accountStatementwap .padding-logo-mesa {
+  padding: 20px 15px 0px 0px;
+}
+.accountStatementwap .info {
+  margin-top: 45px;
+}
+.accountStatementwap .info h3 {
+  font-weight: bold;
+}
+.accountStatementwap .toPrint .info p {
+  line-height: 10px;
+}
+.accountStatementwap .info .event {
+  font-size: 12px;
+  color: #666;
+  padding: 10px;
+}
+.accountStatementwap .info.contrato {
+  font-size: 10px;
+}
+.accountStatementwap .info.contrato p {
+  margin: 0px;
+}
+.accountStatementwap .info .num_mesa {
+  color: #666;
+  font-size: 18px;
+}
+.accountStatementwap .amper {
+  color: #e10098;
+}
+.accountStatementwap .label-liverpool-exclusive {
+  font-size: 11px;
+}
+.accountStatementwap .names {
+  color: #666;
+}
+.accountStatementwap .date_operation {
+  color: #666;
+}
+.accountStatementwap span.label {
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+}
+.accountStatementwap .Icon {
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.accountStatementwap .lamigos {
+  font-size: 10px;
+  color: #666;
+}
+/*estilos de tablas */
+.accountStatementwap .cuadricula {
+  background-image: url("../images/cuadricula.PNG");
+}
+.accountStatementwap .table-title {
+  background-color: #d8d8d8;
+  color: #000;
+  padding: 14px 0px 0px 15px;
+}
+.accountStatementwap .table-title span.pull-right {
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.accountStatementwap .title-mesa {
+  background-color: #d8d8d8;
+  color: #000;
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px;
+}
+.accountStatementwap .monto-no-validado {
+  font-size: 10px;
+  color: #666;
+}
+.accountStatementwap .bodytable table {
+  width: 100%;
+}
+.accountStatementwap .bodytable table td {
+  border: solid 1px #d8d8d8;
+  padding: 10px;
+  text-align: right;
+  font-size: 8pt;
+}
+.accountStatementwap .bodytable label {
+  color: #999;
+  margin: 0px;
+}
+.accountStatementwap .bodytable p {
+  font-weight: bold;
+  margin: 0px 0px 25px 0px;
+}
+.accountStatementwap .bodytable .col-xs-6 {
+  padding: 20px 15px;
+}
+.accountStatementwap .border-right {
+  border-right: solid 1px #d8d8d8;
+}
+.accountStatementwap .border-left {
+  border-left: solid 1px #d8d8d8;
+}
+.accountStatementwap .border-bottom {
+  border-bottom: solid 1px #d8d8d8;
+}
+.accountStatementwap .bodytable.col-xs-12 {
+  border: solid 1px #d8d8d8;
+  padding: 0px;
+}
+.margin_top {
+  margin-top: 20px;
+}
+/* estilos de tabla listado de articulos*/
+.accountStatementwap .tableResults {
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+.accountStatementwap .tableResults thead td {
+  padding: 5px 0px;
+}
+.accountStatementwap .tableResults tbody td {
+  padding: 10px 0;
+  width: 11%;
+}
+.accountStatementwap .tableResults tbody tr {
+  border-bottom: 1px solid #d8d8d8;
+}
+.accountStatementwap .tableResults a {
+  color: #000;
+  font-size: 12.3px;
+  text-decoration: none;
+}
+.accountStatementwap .tableResults a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.accountStatementwap .tableResults img {
+  -moz-border-radius: 50px;
+       border-radius: 50px;
+  height: 60px;
+  padding: 0;
+  width: 60px;
+}
+.tableResults div {
+  display: block;
+}
+.tableResults p {
+  font-size: 8pt;
+  margin: 0;
+}
+.accountStatementwap .tableResults.tableInvitados {
+  border: solid 1px #d8d8d8;
+  text-align: left;
+}
+.accountStatementwap .tableResults.tableInvitados thead td {
+  padding: 15px;
+}
+.accountStatementwap .tableResults.tableInvitados tbody td {
+  padding: 15px;
+}
+.accountStatementwap .tableResults.tableInfoInvitados {
+  border: solid 1px #d8d8d8;
+  text-align: left;
+}
+.accountStatementwap .tableResults.tableInfoInvitados tbody td {
+  padding: 15px;
+  border: solid 1px #d8d8d8;
+  font-size: 10px;
+}
+.accountStatementwap .tableResults.tableInfoInvitados tbody td i {
+  font-size: 15px;
+}
+.bebidas {
+  width: 100%;
+}
+.bebidas td {
+  text-align: center;
+}
+.accountStatementwap .bebidas td b.num_bebida {
+  color: #f00;
+  font-size: 25px;
+}
+.tarea_content {
+  border: solid 1px #d8d8d8;
+  padding: 15px 0px 0px 15px;
+}
+.icon-tache2 {
+  color: #666;
+}
+.icon-check {
+  color: #008000;
+}
+.icon-reloj {
+  color: #ff0;
+}
+.icon-destacar {
+  color: #f00;
+}
+.icon-corazon_relleno {
+  color: #e10098;
+}
+.headMessage {
+  font-size: 12.3px;
+}
+.headResults {
+  padding: 0;
+}
+.headResults div {
+  padding: 0;
+}
+.rowLines {
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+}
+.imgInner {
+  width: 30% !important;
+  text-align: left;
+}
+.numberResults {
+  text-align: right;
+}
+.resultsTitle {
+  font-size: 18px;
+  color: #666;
+  font-weight: bold;
+}
+.resultsTitle strong {
+  color: #000;
+}
+.div_star {
+  padding-top: 20px;
+}
+.sku {
+  font-weight: normal;
+}
+.disponible {
+  color: #008000;
+}
+.no_disponible {
+  color: #f00;
+}
+i.glyphicon.glyphicon-star {
+  color: #ff0 !important;
+}
+.accountStatementwap .label_categoria {
+  color: #666;
+  font-weight: bold;
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+.label_categoria b {
+  color: #000;
+}
+.list_coop {
+  width: 100%;
+}
+.list_coop tbody td {
+  padding: 10px 30px;
+  border: none;
+  text-align: left;
+}
+.list_coop tbody tr {
+  border-bottom: 1px solid #d8d8d8;
+}
+.accountStatementwap .td {
+  font-size: 8pt !important;
+}

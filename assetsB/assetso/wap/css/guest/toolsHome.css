@@ -1,0 +1,65 @@
+.toolsHome {
+  background: #f2f2f2;
+}
+.toolsHome .toolsOnUse {
+  background: #fff;
+  min-height: 70px;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 10px;
+}
+.toolsHome .toolsOnUse img {
+  display: inline-block;
+  width: 60px;
+}
+.toolsHome .toolsOnUse .alignTools {
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+  padding-left: 3%;
+}
+.toolsHome p {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.subtitleSection {
+  font-size: 16px;
+}
+.row.everyTool {
+  background: #f2f2f2;
+  padding: 25px;
+  padding-bottom: 0;
+}
+.row.everyTool .toolsIntro {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+}
+.row.everyTool .toolsIntro .websiteText img {
+  display: inline-block;
+}
+.row.everyTool .toolsIntro .websiteText h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+.row.everyTool .toolsIntro .website img {
+  width: 100%;
+}
+.row.everyTool .toolsCard {
+  background: #fff;
+  margin-bottom: 2px;
+  overflow: hidden;
+  min-height: 200px;
+  text-align: center;
+  padding: 20px 35px;
+  width: 49%;
+  display: inline-block;
+  overflow: hidden;
+}
+.row.everyTool .toolsCard border 1px solid #e6e6e6 img {
+  height: 60px;
+}
+.row.everyTool .toolsIntro .website img{
+  width: 100%;
+}

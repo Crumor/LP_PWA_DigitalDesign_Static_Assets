@@ -1,0 +1,1407 @@
+/*! invitedList.css v1.8.9.1 */
+.remindMessage .smallerContainer {
+	padding: 25px 40px !important;
+}
+.remindMessage h2 {
+	color: #72797b;
+}
+.remindMessage .bottomBlock {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.remindMessage .checkBoxes {
+	margin-top: 20px;
+}
+.remindMessage .messageBox p {
+	color: #3b3b3e;
+	margin: 27px 0 16px;
+}
+.remindMessage .messageBox p.totalLetters {
+  color: #666;
+  font-size: 13px;
+  margin: 0 10px 5px 0;
+}
+.remindMessage .messageBox p.totalLetters span {
+	color: inherit;
+	display: inline-block;
+}
+.remindMessage .messageBox textarea {
+	border: 1px solid #d8d8d8;
+	padding: 20px 15px;
+	resize: vertical;
+	width: 100%;
+}
+.remindMessage .messageBox span {
+	clear: both;
+	color: #81898b;
+	display: block;
+	margin: 5px 0 0 0;
+}
+.importListExcel h2 {
+	font-family: 'robotoRegular';
+	color: #73787a;
+	margin-bottom: 40px;
+}
+.importListExcel h2.noMargin {
+	margin-bottom: 10px;
+}
+.importListExcel .bottomBlock {
+  font-size: 18px;
+  margin: 80px 0;
+}
+.importListExcel .details::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #fff;
+  border: 0.5px solid #dbdbdb;
+}
+.importListExcel .details::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+.importListExcel .details::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #dbdbdb;
+}
+.importListExcel .imagesRow > div {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+	width: 33%;
+}
+.importListExcel .imagesRow > div:first-of-type img {
+	width: 90px;
+}
+.importListExcel .imagesRow img {
+	display: block;
+	margin: 10px auto;
+	vertical-align: middle;
+	width: 120px;
+}
+.importListExcel .grayBar {
+	background: #81888a;
+	height: 2px;
+	margin: 0 auto;
+	width: 70%;
+}
+.importListExcel .stepsRow {
+	position: relative;
+	margin-top: 40px;
+	text-align: center;
+}
+.importListExcel .stepsRow .step {
+	background: #fff;
+	border: 2px solid #81888a;
+	-moz-border-radius: 50%;
+			 border-radius: 50%;
+	color: #666;
+	display: block;
+	font-size: 17px;
+	height: 33px;
+	margin: 0 auto;
+	padding: 3px;
+	position: relative;
+	text-align: center;
+	top: -15px;
+	width: 33px;
+}
+.importListExcel .stepsRow p {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 10px auto 25px;
+	max-width: 270px;
+	width: 100%;
+}
+.importListExcel .topTable {
+	margin: 30px 0 15px;
+	overflow: auto;
+}
+.importListExcel .topTable h3,
+.importListExcel .topTable span {
+	display: block;
+	float: left;
+	margin: 0;
+}
+.importListExcel .topTable .duplicated {
+	color: #e1a625;
+	float: right;
+	margin-right: 20px;
+}
+.importListExcel .details > div,
+.importListExcel .detailsTop > div {
+	padding: 0;
+}
+.importListExcel .details > div p,
+.importListExcel .detailsTop > div p {
+	border: 1px solid #d8d8d8;
+	-moz-box-sizing: border-box;
+			 box-sizing: border-box;
+	height: 35px;
+	margin: 0;
+	padding: 7px 0 0 35px;
+	position: relative;
+}
+.importListExcel .details > div p.title,
+.importListExcel .detailsTop > div p.title {
+	font-weight: bold;
+}
+.importListExcel .details > div p i,
+.importListExcel .detailsTop > div p i {
+	font-size: 18px;
+	color: #e1a625;
+	position: absolute;
+	left: 10px;
+	top: 7px;
+}
+.importListExcel .details {
+	height: 140px;
+	overflow-y: auto;
+}
+.addGuestButton {
+	padding: 20px 0;
+	text-align: center;
+}
+.addGuestButton a {
+	font-size: 15px;
+	color: #666;
+}
+.addGuestButton a i {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.addGuestFormButton {
+	background: #fff;
+	padding: 30px 0;
+}
+.addGuestFormButton .row .flex-left button {
+  margin: 0 10px 0 30px;
+}
+.addGuestFormButton .row {
+	text-align: center;
+}
+.addGuestFormButton .row button {
+	font-size: 18px;
+	margin: 0 10px;
+}
+.addGuestForm {
+	margin-bottom: 0;
+}
+.addGuestForm h2 {
+	color: #72797b;
+	float: left;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+.addGuestForm > p {
+  color: #f00;
+  float: right;
+  font-size: 12px;
+  margin: 0;
+}
+.addGuestForm .materialStyle,
+.addGuestForm .cSelect {
+  margin-bottom: 30px;
+}
+.addGuestForm .materialStyle select.error,
+.addGuestForm .cSelect select.error {
+  color: #b3b3b3;
+}
+.addGuestForm .materialStyle select.error +.error,
+.addGuestForm .cSelect select.error +.error {
+  display: block;
+  margin-top: -15px;
+}
+.addGuestForm .materialStyle input.error +.error,
+.addGuestForm .cSelect input.error +.error {
+  display: block;
+  margin-top: 5px;
+}
+.addGuestForm .row {
+	clear: both;
+}
+.addGuestForm .row input option,
+.addGuestForm .row select option,
+.addGuestForm .row .cSelect option {
+	color: #000;
+}
+.addGuestForm .row p {
+	display: inline-block;
+	width: 100px;
+}
+.addGuestForm .row p span {
+	color: #f00;
+}
+.addGuestForm .row .radio {
+	display: inline-block;
+	width: 100px;
+}
+.addGuestForm .row .radio label {
+	color: #666;
+}
+.addGuestForm .row .radio +.error {
+	left: 0;
+	margin-left: 120px;
+	margin-top: 40px;
+}
+.addGuestForm .row .radio span.error {
+  display: block;
+  margin-bottom: -5px;
+  margin-left: -20px;
+  width: 110px;
+}
+.deleteCompanion {
+	overflow: auto;
+	padding: 10px 37px 0 0;
+}
+.deleteCompanion button {
+	float: right;
+}
+.invitedListComponent {
+  background: #f3f3f3;
+  height: auto;
+  padding: 40px 0 60px;
+}
+.invitedListComponent-newguest {
+  padding: 0;
+}
+.invitedListComponent-newguest .newguestContainer {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-pack: center;
+   -ms-flex-pack: center;
+       justify-content: center;
+  -moz-box-align: center;
+   -ms-flex-align: center;
+       align-items: center;
+  background: #f2f2f2;
+  padding: 15px 0;
+  cursor: pointer;
+}
+.invitedListComponent-newguest .newguestContainer h4 {
+  margin: 0 !important;
+  font-size: 17px !important;
+  color: #717171;
+}
+.invitedListComponent-newguest .newguestContainer i {
+  font-size: 20px;
+  margin-right: 25px;
+  color: #656565;
+}
+.invitedListComponent-validateGuest {
+  padding: 40px 0 0;
+}
+.invitedListComponent-validateGuest--buttons {
+  padding: 0 0 60px;
+}
+.invitedListComponent .container,
+.invitedListComponent .buttonContainer {
+  background: #fff;
+  -moz-box-shadow: 0px -3px 7px 0 rgba(0,0,0,0.2);
+       box-shadow: 0px -3px 7px 0 rgba(0,0,0,0.2);
+  padding: 15px 25px;
+}
+.invitedListComponent .container-newguest {
+  -moz-box-shadow: 0px 4px 7px 0 rgba(0,0,0,0.2);
+       box-shadow: 0px 4px 7px 0 rgba(0,0,0,0.2);
+}
+.invitedListComponent .buttonContainer {
+  -moz-box-shadow: none !important;
+       box-shadow: none !important;
+  background: #f9f9f9;
+}
+.invitedListComponent .buttonContainer .addGuestFormButton {
+  background: #f9f9f9;
+}
+.invitedListComponent .smallerContainer {
+	margin: 0 auto;
+	width: 940px !important;
+}
+.invitedListComponent .smallerContainer.companion {
+	display: none;
+	margin: 0 auto;
+}
+.invitedListComponent .smallerContainer.companion hr {
+	border-top: 1px solid #d8d8d8;
+}
+.invitedListComponent .editButtons {
+  	display: none;
+  	height: 41px;
+}
+.invitedListComponent .editButtons select {
+	font-size: 14px;
+}
+.invitedListComponent .descriptiveTextThird {
+	color: #080808;
+}
+.invitedListComponent .descriptiveTextThird p {
+	margin: 0;
+	font-weight: bold;
+}
+.invitedListHeader {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+.invitedListHeader h1 {
+	margin: 32px 0 8px 0;
+	text-transform: uppercase;
+}
+.invitedListHeader h1.subtitleSection {
+	text-transform: none;
+}
+.invitedListHeader h2 {
+  color: #080808;
+}
+.invitedListHeader h3 {
+	color: #73787a;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+.invitedListHeader h3 span {
+	color: #080808;
+	margin: 0;
+}
+.invitedListHeader.confirmation h1 {
+	color: #666;
+	float: left;
+	font-size: 25px;
+	margin: 55px 0 0 40px;
+	text-transform: none;
+}
+.invitedListHeader.confirmation img {
+	margin-top: 30px;
+	float: left;
+}
+.invitedListHeader.confirmation p {
+	color: #666;
+	margin: 30px 0 0 10px;
+}
+.invitedListFilter,
+.invitedListConfig {
+  padding-left: 0;
+}
+.invitedListFilter .filters i,
+.invitedListConfig .filters i {
+	background: #f2f2f2 !important;
+	border-left: 1px solid #d7d7d7;
+	color: #666;
+	padding-left: 0;
+}
+.invitedListFilterButtons {
+	text-align: right;
+}
+.invitedListFilterButtons a {
+  display: inline-block;
+  margin-left: 45px;
+  padding-top: 8px;
+  vertical-align: middle;
+  height: 40px !important;
+  margin-top: 0;
+}
+.invitedListConfig button {
+  border: none;
+  font-size: 14px;
+  height: 40px;
+  padding: 0 6px 0 5px !important;
+}
+.invitedListConfig .labelListDown-10 {
+  float: left;
+  height: 40px;
+  padding: 12px 1px!important;
+}
+.invitedListConfig .labelListDown-10 label {
+  font-size: 14px;
+  width: 100%!important;
+}
+.invitedListConfig .cSelect,
+.invitedListConfig .checkbox {
+  margin: 0 0 0 5px;
+}
+.invitedListConfig .filters select {
+	padding-left: 10px;
+}
+.invitedListConfig .enviarMenu {
+	border: 1px solid #000;
+	cursor: pointer;
+	display: block;
+	height: 40px;
+}
+.invitedListConfig .enviarMenu .dropdown-menu {
+  border: 1px solid #000;
+  -moz-box-shadow: none;
+       box-shadow: none;
+  margin-top: 5px;
+  min-width: 138px;
+  padding: 5px 0 0;
+  margin-left: -1px;
+  position: absolute;
+  top: 50px;
+  width: 165px;
+}
+.invitedListConfig .enviarMenu .dropdown-menu .icon-flecha_light_arriba {
+	background: #fff;
+	font-size: 20px;
+	left: 50%;
+	margin-left: -10px;
+	position: absolute;
+	top: -15px;
+	width: 19px;
+}
+.invitedListConfig .enviarMenu .dropdown-menu li a {
+	color: #81898b;
+	display: block;
+	font-size: 14px;
+	line-height: 1.1;
+	padding: 3px 10px 3px 15px;
+	width: 100%;
+}
+.invitedListConfig .enviarMenu .dropdown-menu li a:hover {
+	background: none;
+}
+.invitedListConfig .enviarMenu a {
+	color: #060606;
+	display: block;
+	font-size: 15px;
+	padding: 8px 10px 10px 15px;
+	position: relative;
+	width: 100%;
+}
+.invitedListConfig .enviarMenu a i {
+	position: absolute;
+	right: 15%;
+	top: 12px;
+}
+.invitedListConfig .selectAll {
+  width: 100%!important;
+  border: 1px solid #d8d8d8;
+}
+.invitedListConfig .selectAll .btnBasicSlidedown {
+  float: right;
+  -moz-border-radius: 0;
+       border-radius: 0;
+  width: 40px;
+  background-image: none;
+}
+.invitedListConfig .selectAll .dropdown-menu {
+  -moz-border-radius: 0;
+       border-radius: 0;
+  -moz-box-shadow: none;
+       box-shadow: none;
+  margin-top: 0px;
+  	/*margin-left: -1px;*/
+  	right: 0;
+  min-width: 192px;
+  width: 100%!important;
+}
+.invitedListConfig .selectAll .dropdown-menu li a {
+	color: #81898b;
+	display: block;
+	font-size: 14px;
+	line-height: 1.1;
+	padding: 3px 10px 3px 15px;
+	width: 100%;
+}
+.invitedListConfig .selectAll .dropdown-menu li a:hover {
+	background: none;
+}
+.invitedListIcons {
+  	text-align: right;
+}
+.invitedListIcons i {
+  cursor: pointer;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.invitedListSearch a {
+  height: 40px;
+  margin: 0;
+  padding-top: 8px;
+}
+.invitedListSearch .col-sm-8.col-sm-offset-1 {
+  padding-right: 0;
+}
+.invitedListSearch input.form-control {
+  font-size: 13px;
+  height: 40px;
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+.invitedListSearch .buttonSearch {
+  -moz-border-radius: 0;
+       border-radius: 0;
+  padding: 9px 12px;
+  height: 100% !important;
+}
+.invitedListSearch .buttonSearch i {
+	color: #949496;
+}
+.invitedListTable {
+	margin-top: 30px;
+}
+.invitedListTable table {
+	border: 1px solid #d8d8d8;
+}
+.invitedListTable table thead th {
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d8d8d8;
+	padding: 15px 0;
+	text-align: center;
+}
+.invitedListTable table thead th.invitationHeader {
+	padding-left: 4%;
+	text-align: left;
+}
+.invitedListTable table thead th.invitedHeader {
+	padding-left: 6%;
+	text-align: left;
+}
+.invitedListTable table thead th i {
+  margin-left: 10px;
+  font-size: 10px;
+}
+.invitedListTable table tbody tr {
+	border-bottom: 1px solid #d6d6d6;
+}
+.invitedListTable table .assignedTable {
+	text-align: center;
+}
+.invitedListTable table .guest .checkbox,
+.invitedListTable table .guest .guestInfo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 78%;
+}
+.invitedListTable table .guest .checkbox {
+	margin: 0 20px;
+	width: 20px;
+}
+.invitedListTable table .guest .guestInfo i,
+.invitedListTable table .guest .guestInfo div {
+	color: #666;
+	display: inline-block;
+	font-size: 23px;
+	vertical-align: middle;
+}
+.invitedListTable table .guest .guestInfo i {
+	margin-right: 10%;
+}
+.invitedListTable table .guest .guestInfo div p {
+	margin: 8px 0 8px 0;
+    line-height: 14px;
+}
+.invitedListTable table .guest .guestInfo div span {
+	color: #b3b3b3;
+}
+.invitedListTable table .guest .guestInfo.guestSecondLevel i.icon-flecha_invitado {
+	font-size: 15px;
+	margin: 0 10% 0 0;
+}
+.invitedListTable table .guestStatus div,
+.invitedListTable table .invitationStatus div {
+	text-align: center;
+}
+.invitedListTable table .guestStatus div > *,
+.invitedListTable table .invitationStatus div > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+.invitedListTable table .guestStatus .icon-check,
+.invitedListTable table .invitationStatus .icon-check {
+	color: #5ebd55;
+}
+.invitedListTable table .guestStatus .icon-reloj,
+.invitedListTable table .invitationStatus .icon-reloj {
+	color: #cfae13;
+}
+.invitedListTable table .guestStatus .icon-tache,
+.invitedListTable table .invitationStatus .icon-tache {
+	color: #6d6d6d;
+}
+.invitedListTable table .guestStatus .cSelect,
+.invitedListTable table .invitationStatus .cSelect {
+	border: none;
+	margin: 0;
+	width: 150px;
+}
+.invitedListTable table .guestStatus .cSelect i,
+.invitedListTable table .invitationStatus .cSelect i {
+	color: #000;
+	font-size: 12px !important;
+}
+.invitedListTable table .guestStatus .cSelect select,
+.invitedListTable table .invitationStatus .cSelect select {
+	border: none;
+	color: #666;
+	cursor: pointer;
+}
+.invitedListTable table .invitationStatus .cSelect {
+  width: 130px;
+  margin-left: 20px;
+  padding-left: 7px;
+  height: 20px;
+}
+.invitedListTable table .menuIcon {
+	cursor: pointer;
+	padding: 10px 15px;
+	position: relative;
+	text-align: center;
+}
+.invitedListTable table .menuIcon i {
+	color: #666;
+}
+.invitedListTable table .menuIcon .iconMenuOpen {
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	-moz-box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+			 box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+	display: none;
+	left: -100px;
+	padding: 10px 15px;
+	position: absolute;
+	text-align: left;
+	top: -5px;
+	width: 120px;
+	z-index: 10;
+}
+.invitedListTable table .menuIcon .iconMenuOpen span {
+	display: block;
+	color: #666;
+	cursor: pointer;
+	margin: 5px 0;
+}
+.invitedListTable table .menuIcon .iconMenuOpen span i {
+	color: #666;
+	font-size: 15px;
+	margin-right: 5px;
+}
+.noInvitedMessage {
+  padding: 35px 0 0 70px;
+}
+.noInvitedMessage a {
+  display: inline-block !important;
+  font-size: 14px;
+}
+.invitedListReminder {
+  padding: 20px 0;
+}
+.invitedListReminder .addPeopleBlock {
+  /*display: none;*/
+  margin-bottom: 30px;
+}
+.invitedListReminder .addPeopleBlock .topInfo {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+.invitedListReminder .addPeopleBlock .topInfo i {
+	float: right;
+}
+.invitedListReminder .addPeopleBlock input {
+	width: 280px;
+}
+.invitedListReminder .buttonBlock {
+	margin-top: 30px;
+}
+.invitedListReminder .buttonBlock button {
+	font-size: 18px;
+	margin: 0 15px 0 0;
+}
+.invitedListReminder .invitedInfo .informativeText {
+	font-size: 17px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+.invitedListReminder .invitedInfo .quantityGroupGift {
+	margin-top: -5px;
+	width: 130px;
+}
+.invitedListReminder .invitedInfo .quantityGroupGift span {
+	cursor: pointer;
+	-moz-border-radius: 0px;
+			 border-radius: 0px;
+	padding: 10px 18px;
+}
+.invitedListReminder .invitedInfo .quantityGroupGift input {
+	padding: 17px 0;
+	text-align: center;
+}
+.invitedListReminder .invitedInfo .requiredFields {
+  /*display: none;*/
+  float: right;
+}
+.invitedListReminder .messageInfo h2 {
+	font-weight: bold;
+}
+.invitedListReminder .messageInfo span {
+	display: block;
+}
+.invitedListReminder .messageInfo .titleModule {
+	font-size: 17px;
+	margin: 0;
+	line-height: 0.9;
+}
+.invitedListReminder .messageInfo .mainTextSecond {
+	margin: 15px 0;
+}
+.invitedListReminder .links {
+	border-top: 1px solid #ddd;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+.invitedListReminder .links button {
+	margin-top: 50px;
+}
+.invitedListReminder .links ul {
+	margin-left: 20px;
+}
+.invitedListReminder .links li {
+	list-style-type: disc;
+	margin: 10px 0;
+}
+.invitedListReminder .links li a {
+	color: #e10098;
+	text-decoration: underline;
+}
+.invitedListReminder .links li span {
+	display: block;
+	color: #666;
+	font-size: 12px;
+}
+.invitedListReminder.confirmation .links {
+	border-top: none;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.invitedListReminder.confirmation .links button {
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.invitedListGroups {
+	margin-top: 30px;
+}
+.invitedListGroups > div {
+	border: 1px solid #aaa;
+}
+.invitedListGroups h3 {
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;
+	padding: 9px 15px;
+	margin: 0;
+}
+.invitedListGroups h3.cursor {
+	cursor: pointer;
+}
+.invitedListGroups h3 i {
+	float: right;
+}
+.invitedListGroups h3 .notification {
+	background: #f00;
+	-moz-border-radius: 50%;
+			 border-radius: 50%;
+	display: inline-block;
+	height: 7px;
+	position: relative;
+	top: -10px;
+	width: 7px;
+}
+.invitedListGroups i {
+	color: #666;
+	display: inline-block;
+	font-size: 15px;
+	margin: 0 0 0 10px;
+	vertical-align: middle;
+}
+.invitedListGroups .approvedBox {
+	background: #f2f2f2;
+	border-top: 1px solid #aaa;
+	cursor: pointer;
+	padding: 5px 0;
+	position: relative;
+	display: flex;
+}
+.invitedListGroups .approvedBox > p {
+	margin: 0 !important;
+	padding-left: 10px;
+	width: 65% !important;
+}
+.invitedListGroups .approvedBox > p span {
+	text-align: left !important;
+	width: 10px !important;
+}
+.invitedListGroups .approvedBox > i:last-of-type {
+	position: absolute;
+	margin-top: -7px;
+	right: 5%;
+	top: 50%;
+}
+.invitedListGroups .approvedBox .icon-reloj {
+	color: #f00;
+}
+.invitedListGroups .icon-check {
+	color: #5ebd55;
+}
+.invitedListGroups .icon-reloj {
+	color: #cfae13;
+}
+.invitedListGroups .icon-tache {
+	color: #6d6d6d;
+}
+.invitedListGroups .confirmed p,
+.invitedListGroups .total p {
+	color: #666;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 0 5px 0;
+	vertical-align: middle;
+	width: 80%;
+}
+.invitedListGroups .confirmed p.confirmedT,
+.invitedListGroups .total p.confirmedT {
+	padding-top: 10px;
+}
+.invitedListGroups .confirmed p span,
+.invitedListGroups .total p span {
+	color: #000;
+	display: inline-block;
+	margin-right: 5px;
+	text-align: right;
+	width: 20px;
+}
+.invitedListGroups .total,
+.invitedListGroups .tables {
+	margin-top: 15px;
+	padding-top: 10px;
+}
+.invitedListGroups .groups {
+	margin-top: 15px;
+}
+.invitedListGroups .groups .iconMenuOpen {
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	-moz-box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+			 box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+	display: none;
+	left: auto;
+	padding: 10px 15px;
+	position: absolute;
+	right: 15%;
+	text-align: left;
+	top: -15px;
+	width: 120px;
+	z-index: 10;
+}
+.invitedListGroups .groups .iconMenuOpen span {
+	display: block;
+	color: #666;
+	cursor: pointer;
+	margin: 5px 0;
+}
+.invitedListGroups .groups .iconMenuOpen span i {
+	color: #666;
+	font-size: 15px;
+	margin: 0 5px 0 0;
+}
+.invitedListGroups .groups a.subtitleModule {
+	border-bottom: 1px solid #aaa;
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 5px 5px 15px;
+}
+.invitedListGroups .groups a.subtitleModule i {
+	color: #000;
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.invitedListGroups .groups button {
+	font-size: 12px;
+	height: 40px;
+	padding-right: 25px;
+	text-align: center;
+}
+.invitedListGroups .groups button i {
+	font-size: 16px;
+	float: none;
+	position: relative;
+	top: -2px;
+	right: 10px;
+}
+.invitedListGroups .groups #groupBlock > div {
+	border-bottom: 1px solid #d9d9d9;
+	padding: 10px;
+	position: relative;
+}
+.invitedListGroups .groups #groupBlock > div:last-of-type {
+	border-bottom: none;
+}
+.invitedListGroups .groups #groupBlock i.icon-menu_puntos {
+	color: #aaa;
+	cursor: pointer;
+	float: right;
+	padding: 5px;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+.invitedListGroups .groups #groupBlock p {
+	color: #666;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+}
+.invitedListGroups .groups #groupBlock p span {
+	color: #000;
+	font-size: 12px;
+}
+.invitedListGroups .tables {
+	padding: 8px 15px;
+}
+.invitedListGroups .tables > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+.invitedListGroups .tables > div:first-of-type {
+	margin-right: 7px;
+	width: 35px;
+}
+.invitedListGroups .tables > div img {
+	width: 100%;
+}
+.invitedListGroups .tables > div p {
+	color: #666;
+	margin: 0;
+}
+.invitedListGroups .tables > div p span {
+	color: #000;
+}
+.invitedListGroups .tables a {
+	font-size: 11px;
+	margin-bottom: 0;
+	margin-top: 5px;
+	text-align: center;
+	text-decoration: underline;
+}
+.smallModal .modal-dialog {
+	width: 350px;
+}
+.centerModal {
+	padding: 0 !important;
+	text-align: center;
+}
+.centerModal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.centerModal .modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+.centerModal .modal-content .modal-body {
+	font-family: 'robotoRegular';
+}
+.centerModal .modal-content .modal-body .guestStatusUpdate {
+	background: #f8f8f8;
+	display: none;
+	margin: 5px 0;
+	padding: 12px 0 12px 5px;
+}
+.centerModal .modal-content .modal-body .guestStatusUpdate i {
+	display: inline-block;
+	font-size: 23px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.centerModal .modal-content .modal-body .guestStatusUpdate p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+.centerModal .modal-content .modal-body .guestStatusUpdate.guestRejected i,
+.centerModal .modal-content .modal-body .guestStatusUpdate.guestRejected p {
+	color: #81898c;
+}
+.centerModal .modal-content .close {
+	font-size: 18px;
+	opacity: 0.5 !important;
+	margin-top: 2px;
+}
+#approveGuests h2,
+#notificationsModal h2,
+#newGroup h2,
+#deleteGroup h2,
+#editGroup h2,
+#addGuestToList h2,
+#errorExcel h2,
+#deleteGuest h2 {
+  font-family: 'robotoCondensed';
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+#approveGuests .modal-dialog,
+#notificationsModal .modal-dialog,
+#newGroup .modal-dialog,
+#deleteGroup .modal-dialog,
+#editGroup .modal-dialog,
+#addGuestToList .modal-dialog,
+#errorExcel .modal-dialog,
+#deleteGuest .modal-dialog {
+  width: 400px;
+}
+#approveGuests .modal-body,
+#notificationsModal .modal-body,
+#newGroup .modal-body,
+#deleteGroup .modal-body,
+#editGroup .modal-body,
+#addGuestToList .modal-body,
+#errorExcel .modal-body,
+#deleteGuest .modal-body {
+  padding: 10px 20px;
+}
+#approveGuests .modal-body > button,
+#notificationsModal .modal-body > button,
+#newGroup .modal-body > button,
+#deleteGroup .modal-body > button,
+#editGroup .modal-body > button,
+#addGuestToList .modal-body > button,
+#errorExcel .modal-body > button,
+#deleteGuest .modal-body > button {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+#approveGuests .modal-body > p,
+#notificationsModal .modal-body > p,
+#newGroup .modal-body > p,
+#deleteGroup .modal-body > p,
+#editGroup .modal-body > p,
+#addGuestToList .modal-body > p,
+#errorExcel .modal-body > p,
+#deleteGuest .modal-body > p {
+  color: #6c6c6c;
+  font-family: 'robotoCondensed';
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+#approveGuests .modal-body .guestBlock,
+#notificationsModal .modal-body .guestBlock,
+#newGroup .modal-body .guestBlock,
+#deleteGroup .modal-body .guestBlock,
+#editGroup .modal-body .guestBlock,
+#addGuestToList .modal-body .guestBlock,
+#errorExcel .modal-body .guestBlock,
+#deleteGuest .modal-body .guestBlock {
+  margin-bottom: 10px;
+}
+#approveGuests .modal-body .guestBlock:last-of-type,
+#notificationsModal .modal-body .guestBlock:last-of-type,
+#newGroup .modal-body .guestBlock:last-of-type,
+#deleteGroup .modal-body .guestBlock:last-of-type,
+#editGroup .modal-body .guestBlock:last-of-type,
+#addGuestToList .modal-body .guestBlock:last-of-type,
+#errorExcel .modal-body .guestBlock:last-of-type,
+#deleteGuest .modal-body .guestBlock:last-of-type {
+  border-bottom: 1px solid #d8d8d8;
+}
+#approveGuests .modal-body .guestBlock h4,
+#notificationsModal .modal-body .guestBlock h4,
+#newGroup .modal-body .guestBlock h4,
+#deleteGroup .modal-body .guestBlock h4,
+#editGroup .modal-body .guestBlock h4,
+#addGuestToList .modal-body .guestBlock h4,
+#errorExcel .modal-body .guestBlock h4,
+#deleteGuest .modal-body .guestBlock h4 {
+  background: #f8f8f8;
+  font-size: 14px;
+  padding: 8px 0 8px 10px;
+  margin: 0;
+}
+#approveGuests .modal-body .guestBlock h4 span,
+#notificationsModal .modal-body .guestBlock h4 span,
+#newGroup .modal-body .guestBlock h4 span,
+#deleteGroup .modal-body .guestBlock h4 span,
+#editGroup .modal-body .guestBlock h4 span,
+#addGuestToList .modal-body .guestBlock h4 span,
+#errorExcel .modal-body .guestBlock h4 span,
+#deleteGuest .modal-body .guestBlock h4 span {
+  font-weight: bold;
+}
+#approveGuests .modal-body .guestBlock .approveStatus,
+#notificationsModal .modal-body .guestBlock .approveStatus,
+#newGroup .modal-body .guestBlock .approveStatus,
+#deleteGroup .modal-body .guestBlock .approveStatus,
+#editGroup .modal-body .guestBlock .approveStatus,
+#addGuestToList .modal-body .guestBlock .approveStatus,
+#errorExcel .modal-body .guestBlock .approveStatus,
+#deleteGuest .modal-body .guestBlock .approveStatus {
+  border-bottom: 1px solid #f8f8f8;
+  overflow: auto;
+  padding: 12px 0 12px 10px;
+}
+#approveGuests .modal-body .guestBlock .approveStatus:last-of-type,
+#notificationsModal .modal-body .guestBlock .approveStatus:last-of-type,
+#newGroup .modal-body .guestBlock .approveStatus:last-of-type,
+#deleteGroup .modal-body .guestBlock .approveStatus:last-of-type,
+#editGroup .modal-body .guestBlock .approveStatus:last-of-type,
+#addGuestToList .modal-body .guestBlock .approveStatus:last-of-type,
+#errorExcel .modal-body .guestBlock .approveStatus:last-of-type,
+#deleteGuest .modal-body .guestBlock .approveStatus:last-of-type {
+  border-bottom: none;
+}
+#approveGuests .modal-body .guestBlock .approveStatus > *,
+#notificationsModal .modal-body .guestBlock .approveStatus > *,
+#newGroup .modal-body .guestBlock .approveStatus > *,
+#deleteGroup .modal-body .guestBlock .approveStatus > *,
+#editGroup .modal-body .guestBlock .approveStatus > *,
+#addGuestToList .modal-body .guestBlock .approveStatus > *,
+#errorExcel .modal-body .guestBlock .approveStatus > *,
+#deleteGuest .modal-body .guestBlock .approveStatus > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+#approveGuests .modal-body .guestBlock .approveStatus i,
+#notificationsModal .modal-body .guestBlock .approveStatus i,
+#newGroup .modal-body .guestBlock .approveStatus i,
+#deleteGroup .modal-body .guestBlock .approveStatus i,
+#editGroup .modal-body .guestBlock .approveStatus i,
+#addGuestToList .modal-body .guestBlock .approveStatus i,
+#errorExcel .modal-body .guestBlock .approveStatus i,
+#deleteGuest .modal-body .guestBlock .approveStatus i {
+  margin-top: 5px;
+  width: 10px;
+}
+#approveGuests .modal-body .guestBlock .approveStatus p,
+#notificationsModal .modal-body .guestBlock .approveStatus p,
+#newGroup .modal-body .guestBlock .approveStatus p,
+#deleteGroup .modal-body .guestBlock .approveStatus p,
+#editGroup .modal-body .guestBlock .approveStatus p,
+#addGuestToList .modal-body .guestBlock .approveStatus p,
+#errorExcel .modal-body .guestBlock .approveStatus p,
+#deleteGuest .modal-body .guestBlock .approveStatus p {
+  margin: 5px 0 0 10px;
+  width: 52%;
+}
+#approveGuests .modal-body .guestBlock .approveStatus div,
+#notificationsModal .modal-body .guestBlock .approveStatus div,
+#newGroup .modal-body .guestBlock .approveStatus div,
+#deleteGroup .modal-body .guestBlock .approveStatus div,
+#editGroup .modal-body .guestBlock .approveStatus div,
+#addGuestToList .modal-body .guestBlock .approveStatus div,
+#errorExcel .modal-body .guestBlock .approveStatus div,
+#deleteGuest .modal-body .guestBlock .approveStatus div {
+  float: right;
+  width: auto;
+}
+#approveGuests .modal-body .guestBlock .approveStatus div button:last-of-type,
+#notificationsModal .modal-body .guestBlock .approveStatus div button:last-of-type,
+#newGroup .modal-body .guestBlock .approveStatus div button:last-of-type,
+#deleteGroup .modal-body .guestBlock .approveStatus div button:last-of-type,
+#editGroup .modal-body .guestBlock .approveStatus div button:last-of-type,
+#addGuestToList .modal-body .guestBlock .approveStatus div button:last-of-type,
+#errorExcel .modal-body .guestBlock .approveStatus div button:last-of-type,
+#deleteGuest .modal-body .guestBlock .approveStatus div button:last-of-type {
+  margin-left: 5px;
+}
+#newGroup .modal-dialog,
+#duplicatedGuest .modal-dialog {
+	width: 450px;
+}
+#newGroup button,
+#duplicatedGuest button {
+	font-size: 18px;
+	height: 40px;
+	margin: 10px 0 20px;
+}
+#newGroup .alertError,
+#duplicatedGuest .alertError {
+  margin-bottom: 20px;
+}
+#duplicatedGuest .modal-content {
+  top: -130px;
+}
+#duplicatedGuest p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 25px 0 20px;
+}
+#duplicatedGuest .checkbox {
+	margin: 0 0 20px 20px;
+}
+#notificationsModal .modal-body .notificationBlock {
+	background: #efefef;
+	overflow: auto;
+	margin-bottom: 10px;
+	padding: 15px 10px;
+}
+#notificationsModal .modal-body .notificationBlock i {
+	color: #5ebd55;
+	float: left;
+	padding-top: 3px;
+}
+#notificationsModal .modal-body .notificationBlock i.icon-tache {
+	color: #737173;
+	font-size: 12px;
+	margin-right: 4px;
+}
+#notificationsModal .modal-body .notificationBlock p {
+	float: left;
+	line-height: 1.4;
+	margin: 0 0 0 10px;
+}
+#notificationsModal .modal-body .notificationBlock p span {
+	display: block;
+	font-weight: bold;
+}
+#importGuests h2 {
+	color: #8e8e8e;
+	font-family: 'robotoCondensed';
+	font-size: 19px;
+}
+#importGuests p {
+  /*font-weight: bold;*/
+	margin-bottom: 20px;
+}
+#importGuests li {
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+#importGuests li img {
+	display: inline-block;
+	margin-right: 10px;
+	width: 30px;
+}
+#importGuests .modal-dialog {
+    width: 380px;
+}
+#importGuests .modal-content {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+#importGuests .modal-content .modal-header,
+#importGuests .modal-content .modal-body {
+  padding: 15px 15px 15px 35px;
+}
+#myModalLabel4 .modal-content {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+#importGuests .checkbox {
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+#remindMessage p,
+#addGuestToList p {
+  margin-top: 25px;
+}
+#remindMessage button,
+#addGuestToList button {
+  display: block;
+  font-size: 18px;
+  margin: 30px auto;
+}
+/* 9342 */
+#remindMessage .modal-content {
+	min-height: auto;
+}
+#remindMessage .modal-content .row .col-xs-6:first-of-type {
+	display: none
+}
+#remindMessage .modal-content .row .col-xs-6:last-of-type {
+	margin: 12px auto 0;
+	float: none;
+}
+
+#deleteGroup button,
+#editGroup button,
+#deleteGuest button {
+  font-size: 18px;
+  margin-top: 50px;
+}
+.collapse-subtitle {
+	margin-left: 30px;
+	position: absolute;
+	top: 40px;
+	display: block;
+}
+.h80 {
+	height: 80px;
+}
+.full-height {
+	height: 100%;
+}
+.flecha-collapse {
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+}
+.flex-left {
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-moz-box-pack: start;
+	 -ms-flex-pack: start;
+			 justify-content: flex-start;
+	padding-left: 20px;
+}
+option.optionEnviar:disabled,
+option.optionSinEnviar:disabled {
+	display: none;
+}
+#gmail-modal .input-group input{
+	border-radius: 0px;
+	border-right: none;
+}
+#gmail-modal .input-group .input-group-btn .buttonSearch{
+	background: white!important;
+	border-radius: 0px;
+	height: inherit;
+	display: flex;
+	border-left: none;
+}
+#gmail-modal .input-group .input-group-btn .buttonSearch i.icon-zoom{
+	color: #999;
+}
+#gmail-modal #import.btnPrimary.size-Large.alignRight{
+	background: #444;
+}
+#gmail-modal #import.btnPrimary.size-Large.alignRight i{
+	display: none;
+}
+#gmail-modal #import.btnSecondary.size-Full.alignRight {
+	background: #444;
+	width: 50%;
+	margin-top: 20px;
+}
+#gmail-modal #import.btnSecondary.size-Full.alignRight i{
+	display: none;
+}
+#gmail-modal #cancelButton i{
+	display:none;
+}
+#gmail-modal #cancelButton{
+	display: none;
+}
+#gmail-modal .modal-content{
+	position: relative;
+}
+#gmail-modal #cancelButton:after{
+	content: "X";
+	border-radius: 100%;
+	color: white;
+	font-size: 12px;
+}
+.importListExcel .row.details{
+	margin-right: 0px!important;
+	margin-left: 0px !important;
+}
+.importListExcel .row.detailsTop {
+  margin: 0px;
+}
