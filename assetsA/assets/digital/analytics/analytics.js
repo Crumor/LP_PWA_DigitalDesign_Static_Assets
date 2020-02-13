@@ -585,106 +585,88 @@ dataLayer.push({
     'position': '19'
 },
 {
-    'id': 'jerseysb_160120',
-    'name': 'Jersey SB',
-    'creative': 'blp_deportes_jerseySB',
+    'id': 'aparatos_130220',
+    'name': 'Aparatos',
+    'creative': 'blp_deportes_aparatos',
     'position': '20'
 },
 {
-    'id': 'accesoriossb_160120',
-    'name': 'Accesorios SB',
-    'creative': 'blp_deportes_accesoriosSB',
+    'id': 'ropa_130220',
+    'name': 'Ropa',
+    'creative': 'blp_deportes_ropa',
     'position': '21'
 },
 {
-    'id': 'gorrassb_160120',
-    'name': 'Gorras SB',
-    'creative': 'blp_deportes_gorrasSB',
+    'id': 'motos_130220',
+    'name': 'Motos',
+    'creative': 'blp_deportes_motos',
     'position': '22'
 },
 {
-    'id': 'pantallassb_160120',
-    'name': 'Pantallas SB',
-    'creative': 'blp_deportes_pantallasSB',
+    'id': 'tenis_el130220',
+    'name': 'Tenis El',
+    'creative': 'blp_deportes_tenis_el',
     'position': '23'
 },
 {
-    'id': 'sonidosb_160120',
-    'name': 'Pantallas SB',
-    'creative': 'blp_deportes_pantallasSB',
+    'id': 'tenis_ella130220',
+    'name': 'Tenis Ella',
+    'creative': 'blp_deportes_tenis_ella',
     'position': '24'
 },
 {
-    'id': 'mueblessb_160120',
-    'name': 'Muebles SB',
-    'creative': 'blp_deportes_mueblesSB',
+    'id': 'tenis_ninos130220',
+    'name': 'Tenis Ninos',
+    'creative': 'blp_deportes_tenis_ninos',
     'position': '25'
 },
 {
-    'id': 'autografiablesb_160120',
-    'name': 'Auto SB',
-    'creative': 'blp_deportes_autoSB',
+    'id': 'tenis_ninas130220',
+    'name': 'Tenis Ninas',
+    'creative': 'blp_deportes_tenis_ninas',
     'position': '26'
 },
 {
-    'id': 'frigosb_160120',
-    'name': 'Frigo SB',
-    'creative': 'blp_deportes_frigoSB',
+    'id': 'aire_libre130220',
+    'name': 'Aire Libre',
+    'creative': 'blp_deportes_aire_libre',
     'position': '27'
 },
 {
-    'id': 'vinosb_160120',
-    'name': 'Vino SB',
-    'creative': 'blp_deportes_vinoSB',
+    'id': 'monitores130220',
+    'name': 'Monitores',
+    'creative': 'blp_deportes_monitores',
     'position': '28'
 },
 {
-    'id': 'asadoressb_160120',
-    'name': 'Asadores SB',
-    'creative': 'blp_deportes_asadoresSB',
+   'id': 'equipaje130220',
+    'name': 'Equipaje',
+    'creative': 'blp_deportes_equipaje',
     'position': '29'
 },
 {
-    'id': 'aparatos_061119',
-    'name': 'Aparatos',
-    'creative': 'blp_deportes_aparatos',
+    'id': 'nike130220',
+    'name': 'Nike',
+    'creative': 'blp_deportes_nike',
     'position': '30'
 },
 {
-    'id': 'ropa_061119',
-    'name': 'Ropa',
-    'creative': 'blp_deportes_ropa',
+    'id': 'puma130220',
+    'name': 'Puma',
+    'creative': 'blp_deportes_puma',
     'position': '31'
 },
 {
-    'id': 'motos_061119',
-    'name': 'Motos',
-    'creative': 'blp_deportes_motos',
+    'id': 'adidas130220',
+    'name': 'Adidas',
+    'creative': 'blp_deportes_adidas',
     'position': '32'
 },
 {
-    'id': 'tenisel_061119',
-    'name': 'Tenis El',
-    'creative': 'blp_deportes_tenisel',
+    'id': 'coleccionables130220',
+    'name': 'Coleccionables',
+    'creative': 'blp_deportes_coleccionables',
     'position': '33'
-},
-{
-    'id': 'tenisella_061119',
-    'name': 'Tenis Ella',
-    'creative': 'blp_deportes_tenisella',
-    'position': '34'
-},
-{
-    'id': 'ninos_061119',
-    'name': 'Tenis Ninos',
-    'creative': 'blp_deportes_tenisninos',
-    'position': '35'
-},
-{
-    'id': 'ninas_061119',
-    'name': 'Tenis Ninas',
-    'creative': 'blp_deportes_tenisninas',
-    'position': '36'
 }
 ]
 }
