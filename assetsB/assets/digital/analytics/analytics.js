@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-       {
+      {
 		'id':'muebles_100220',
 		'name':'Muebles hasta 40% de desc',
 		'creative':'h_banner_central',
@@ -133,8 +133,8 @@ function myOnloadFunction(pageName,path) {
        'position':'5'
 		},
             {
-		'id':'celulares_100220',
-		'name':'Celulares hasta 20% de desc',
+		'id':'celulares_120220',
+		'name':'Celulares hasta 24 MSI o 10% de reembolso y hasta 18 MSI',
        'creative':'h_banner_secun',
        'position':'6'
 		},
@@ -171,6 +171,12 @@ function myOnloadFunction(pageName,path) {
             {
 		'id':'fragancias_100220',
 		'name':'Fragancias',
+       'creative':'h_banner_secun',
+       'position':'12'
+		},
+                            {
+		'id':'dias_bebe_120220',
+		'name':'Días del bebé hasta 20% de descuento y hasta 9 Meses Sin Intereses',
        'creative':'h_banner_secun',
        'position':'12'
 		}
