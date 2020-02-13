@@ -747,136 +747,142 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'seleccion_210619',
-    'name': 'Selección',
-    'creative': 'blp_vinos_seleccion',
-    'position': '01'
+        'id': 'cerveza_clara_300120',
+        'name': 'Cervez Clara',
+        'creative': 'blp_vinos_cervezac',
+        'position': '01'
+},
+{
+        'id': 'cerveza_obs_300120',
+        'name': 'Cervez Obscura',
+        'creative': 'blp_vinos_cervezaob',
+        'position': '02'
 },
 {
     'id': 'rosado_210619',
     'name': 'Vino Rosado',
     'creative': 'blp_vinos_rosado',
-    'position': '02'
+    'position': '03'
 },
 {
     'id': 'blanco_210619',
     'name': 'Vino Blanco',
     'creative': 'blp_vinos_blanco',
-    'position': '03'
+    'position': '04'
 },
 {
     'id': 'tinto_210619',
     'name': 'Vino Tinto',
     'creative': 'blp_vinos_tinto',
-    'position': '04'
+    'position': '05'
 },
 {
     'id': 'espumoso_210619',
     'name': 'Vino Espumoso',
     'creative': 'blp_vinos_espumoso',
-    'position': '05'
+    'position': '06'
 },
 {
     'id': 'champagne_210619',
     'name': 'Vino Champagne',
     'creative': 'blp_vinos_champagne',
-    'position': '06'
+    'position': '07'
 },
 {
     'id': 'buchanans_140819',
     'name': 'Buchanans Soul',
     'creative': 'blp_vinos_buchanans',
-    'position': '07'
+    'position': '08'
 },
 {
     'id': 'donjulio_140819',
     'name': 'Don Julio',
     'creative': 'blp_vinos_donjulio',
-    'position': '08'
+    'position': '09'
 },
 {
     'id': 'tequila_210619',
     'name': 'Vinos Tequila',
     'creative': 'blp_vinos_tequila',
-    'position': '09'
+    'position': '10'
 },
 {
     'id': 'ron_210619',
     'name': 'Vinos Ron',
     'creative': 'blp_vinos_ron',
-    'position': '10'
+    'position': '11'
 },
 {
     'id': 'whisky_210619',
     'name': 'Vinos Whisky',
     'creative': 'blp_vinos_whisky',
-    'position': '11'
+    'position': '12'
 },
 {
     'id': 'brandy_210619',
     'name': 'Vinos Brandy',
     'creative': 'blp_vinos_brandy',
-    'position': '12'
+    'position': '13'
 },
 {
     'id': 'licores_210619',
     'name': 'Vinos Licores',
     'creative': 'blp_vinos_licores',
-    'position': '13'
+    'position': '14'
 },
 {
     'id': 'vodka_210619',
     'name': 'Vinos vodka',
     'creative': 'blp_vinos_vodka',
-    'position': '14'
+    'position': '15'
 },
 {
     'id': 'copas_210619',
     'name': 'Vinos copas',
     'creative': 'blp_vinos_copas',
-    'position': '15'
+    'position': '16'
 },
 {
     'id': 'accesorios_210619',
     'name': 'Vinos accesorios',
     'creative': 'blp_vinos_accesorios',
-    'position': '16'
+    'position': '17'
 },
 {
     'id': 'cavas_210619',
     'name': 'Vinos cavas',
     'creative': 'blp_vinos_cavas',
-    'position': '17'
+    'position': '18'
 },
 {
     'id': 'hieleras_210619',
     'name': 'Vinos hieleras',
     'creative': 'blp_vinos_hieleras',
-    'position': '18'
+    'position': '19'
 },
 {
     'id': 'experiencia_210619',
     'name': 'Vinos experiencia',
     'creative': 'blp_vinos_experiencia',
-    'position': '19'
+    'position': '20'
 },
 {
     'id': 'curados_210619',
     'name': 'Vinos curados',
     'creative': 'blp_vinos_curados',
-    'position': '20'
+    'position': '21'
 },
 {
     'id': 'bebidas_210619',
     'name': 'Vinos bebidas',
     'creative': 'blp_vinos_bebidas',
-    'position': '21'
+    'position': '22'
 },
 {
     'id': 'aceite_210619',
     'name': 'Vinos aceiete',
     'creative': 'blp_vinos_aceite',
-    'position': '22'
+    'position': '23'
 }
 ]
 }
