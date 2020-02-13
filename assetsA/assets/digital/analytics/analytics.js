@@ -1437,78 +1437,92 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school',
-    'position': '01'
+        'id': 'carriola_120220',
+        'name': 'Carriolas Bebes',
+        'creative': 'blp_bebes_carriolas',
+        'position': '01'
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_nina',
-    'position': '02'
+        'id': 'autoasientos_120220',
+        'name': 'Autoasientos Bebes',
+        'creative': 'blp_bebes_autoasientos',
+        'position': '02'
 },
 {
 
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_nino',
-    'position': '03'
+        'id': 'panaleras_120220',
+        'name': 'Panaleras Bebes',
+        'creative': 'blp_bebes_panaleras',
+        'position': '03'
                                                 
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_principal',
-    'position': '04'
+        'id': 'cuna_120220',
+        'name': 'Cuna Bebes',
+        'creative': 'blp_bebes_cuna',
+        'position': '04'
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_zap_nina',
-    'position': '05'
+        'id': 'juegocuna_120220',
+        'name': 'Juego Cuna Bebes',
+        'creative': 'blp_bebes_juegocuna',
+        'position': '05'
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_zap_nino',
-    'position': '06'
+        'id': 'moda_120220',
+        'name': 'Moda Bebes',
+        'creative': 'blp_bebes_moda',
+        'position': '06'
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_accesorios',
-    'position': '07'
+        'id': 'zapatos_120220',
+        'name': 'Zapatos Bebes',
+        'creative': 'blp_bebes_zapatos',
+        'position': '07'
 },
 {
-   'id': 'bebes_main_230719',
-   'name': 'Back to school - Liverpool',
-   'creative': 'blp_el_bebes_back_to_school_fisher_nina',
-   'position': '08'
+        'id': 'biberones_120220',
+        'name': 'Biberones Bebes',
+        'creative': 'blp_bebes_biberones',
+        'position': '08'
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_fisher_nino',
-    'position': '09'
+        'id': 'chupones_120220',
+        'name': 'Chupones Bebes',
+        'creative': 'blp_bebes_chupones',
+        'position': '09'
 },
 {
-   'id': 'bebes_main_230719',
-   'name': 'Back to school - Liverpool',
-   'creative': 'blp_el_bebes_back_to_school_carriolas',
-   'position': '10'
+        'id': 'esterilizadores_120220',
+        'name': 'Esterilizadores Bebes',
+        'creative': 'blp_bebes_esterilizadores',
+        'position': '10'
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_cuna',
-    'position': '11'
+        'id': 'monitores_120220',
+        'name': 'Monitores Bebes',
+        'creative': 'blp_bebes_monitores',
+        'position': '11'
 },
 {
-    'id': 'bebes_main_230719',
-    'name': 'Back to school - Liverpool',
-    'creative': 'blp_el_bebes_back_to_school_autoasientos',
-    'position': '12'
+        'id': 'bano_120220',
+        'name': 'Bano Bebes',
+        'creative': 'blp_bebes_bano',
+        'position': '12'
+
+},
+{
+        'id': 'gimnasio_120220',
+        'name': 'Gimnasio Bebes',
+        'creative': 'blp_bebes_gimnasio',
+        'position': '13'
+
+},
+{
+        'id': 'juguetes_120220',
+        'name': 'Juguetes Bebes',
+        'creative': 'blp_bebes_juguetes',
+        'position': '14'
 
 }
 ]
@@ -2628,76 +2642,58 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'gap_main_200619',
+'id': 'gap_main_130220',
 'name': 'gap_Principal',
 'creative': 'blp_gap_main',
 'position': '01'
 },
 {
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_nina',
+'id': 'gap_ella_130220',
+'name': 'gap_ella',
+'creative': 'blp_gap_ella',
 'position': '02'
 },
 {
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_nino',
+'id': 'gap_el_130220',
+'name': 'gap_el',
+'creative': 'blp_gap_el',
 'position': '03'
 },
 {
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_pantalones_nino',
+'id': 'gap_nina_130220',
+'name': 'gap_nina',
+'creative': 'blp_gap_nina',
 'position': '04'
 },
 {
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_pantalones_nina',
+'id': 'gap_nino_130220',
+'name': 'gap_nino',
+'creative': 'blp_gap_nino',
 'position': '05'
 },
 {
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_chamarras_nino',
+'id': 'gap_bebesnina_130220',
+'name': 'gap_bebesnina',
+'creative': 'blp_gap_bebesnina',
+'position': '05'
+},
+{
+'id': 'gap_bebesnino_130220',
+'name': 'gap_bebesnino',
+'creative': 'blp_gap_bebesnino',
 'position': '06'
 },
 {
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_chamarras_nina',
+'id': 'gap_firstdenim_130220',
+'name': 'gap_firstdenim',
+'creative': 'blp_gap_firstdenim',
 'position': '07'
 },
 {
-'id': 'gap_main_200619',
-'name': 'gap_Principal',
-'creative': 'blp_gap_video_infantiles',
+'id': 'gap_mejordenim_130220',
+'name': 'gap_mejordenim',
+'creative': 'blp_gap_mejordenim',
 'position': '08'
-},
-{
-'id': 'gap_main_200619',
-'name': 'gap_Principal',
-'creative': 'blp_gap_video_denim',
-'position': '09'
-},
-{
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_denim_el',
-'position': '10'
-},
-{
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_denim',
-'position': '11'
-},
-{
-'id': 'gap_200519',
-'name': 'gap',
-'creative': 'blp_gap_back_denim_ella',
-'position': '12'
 }
 ]
 }
@@ -4115,52 +4111,34 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'main_210619',
-    'name': 'Disney Main',
-    'creative': 'blp_disney_main',
+    'id': 'principal_050220',
+    'name': 'Disney Principal',
+    'creative': 'blp_disney_principal',
     'position': '01'
 },
 {
-    'id': 'lluvia_210619',
-    'name': 'Disney Lluvia',
-    'creative': 'blp_disney_lluvia',
+    'id': 'eats_050220',
+    'name': 'Disney Eats',
+    'creative': 'blp_disney_eats',
     'position': '02'
 },
 {
-    'id': 'playeras_210619',
-    'name': 'Disney Playeras',
-    'creative': 'blp_disney_playeras',
+    'id': 'disfraces_050220',
+    'name': 'Disney Disfraces',
+    'creative': 'blp_disney_disfraces',
     'position': '03'
 },
 {
-    'id': 'stitch_210619',
-    'name': 'Disney Stitch',
-    'creative': 'blp_disney_stitch',
+    'id': 'playeras_050220',
+    'name': 'Disney Playeras',
+    'creative': 'blp_disney_playeras',
     'position': '04'
 },
 {
-    'id': 'peluches_210619',
-    'name': 'Disney Peluches',
-    'creative': 'blp_disney_peluches',
-    'position': '05'
-},
-{
-    'id': 'princesas_210619',
+    'id': 'princesas_050220',
     'name': 'Disney Princesas',
     'creative': 'blp_disney_princesas',
-    'position': '06'
-},
-{
-    'id': 'munecas_210619',
-    'name': 'Disney Muñecas',
-    'creative': 'blp_disney_muñecas',
-    'position': '07'
-},
-{
-    'id': 'figuras_210619',
-    'name': 'Disney Figuras',
-    'creative': 'blp_disney_figuras',
-    'position': '08'
+    'position': '05'
 }
 ]
 }
