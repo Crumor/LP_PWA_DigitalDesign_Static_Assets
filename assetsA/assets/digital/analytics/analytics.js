@@ -102,15 +102,15 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-       {
-		'id':'muebles_100220',
-		'name':'Muebles hasta 40% de desc',
+     {
+		'id':'muebles_140220',
+		'name':'Muebles hasta 50% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 		{
-		'id':'cocina_100220',
-       'name':'Cocina hasta 25% de desc',
+		'id':'cocina_140220',
+       'name':'Cocina hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'2'
 		},
@@ -121,14 +121,14 @@ function myOnloadFunction(pageName,path) {
        'position':'3'
 		},
 			{
-		'id':'casa_100220',
-		'name':'Casa hasta 30% de desc',
+		'id':'casa_140220',
+		'name':'Casa hasta 35% de desc',
        'creative':'h_banner_secun',
        'position':'4'
 		},
             {
-		'id':'pantallas_100220',
-		'name':'Pantallas hasta 25% de desc',
+		'id':'pantallas_140220',
+		'name':'Pantallas hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'5'
 		},
@@ -178,7 +178,13 @@ function myOnloadFunction(pageName,path) {
 		'id':'dias_bebe_120220',
 		'name':'Días del bebé hasta 20% de descuento y hasta 9 Meses Sin Intereses',
        'creative':'h_banner_secun',
-       'position':'12'
+       'position':'13'
+		},
+                             {
+		'id':'dias_bebe_cintillo_140220',
+		'name':'Días del bebé - Baño hasta 30% de descuento',
+       'creative':'h_banner_secun',
+       'position':'14'
 		}
 	
                         ]
