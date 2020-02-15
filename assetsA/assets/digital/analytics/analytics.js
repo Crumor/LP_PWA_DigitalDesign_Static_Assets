@@ -102,86 +102,86 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-     {
-		'id':'muebles_140220',
+       {
+		'id':'muebles_150220',
 		'name':'Muebles hasta 50% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 		{
-		'id':'cocina_140220',
-       'name':'Cocina hasta 30% de desc',
-       'creative':'h_banner_secun',
-       'position':'2'
+         'id':'linea_blanca_150220',
+         'name':'Línea Blanca hasta 44% de desc',
+         'creative':'h_banner_secun',
+         'position':'2'
+           },
+		{
+		 'id':'colchones_150220',
+		 'name':'Colchones hasta 40% de desc',
+         'creative':'h_banner_secun',
+         'position':'3'
 		},
 			{
-		 'id':'linea_blanca_100220',
-		'name':'Línea Blanca hasta 44% de desc',
-       'creative':'h_banner_secun',
-       'position':'3'
-		},
-			{
-		'id':'casa_140220',
+		'id':'casa_150220',
 		'name':'Casa hasta 35% de desc',
-       'creative':'h_banner_secun',
-       'position':'4'
+        'creative':'h_banner_secun',
+        'position':'4'
 		},
             {
-		'id':'pantallas_140220',
-		'name':'Pantallas hasta 30% de desc',
+		'id':'cocina_150220',
+		'name':'Cocina hasta 30% de desc',
        'creative':'h_banner_secun',
        'position':'5'
 		},
             {
-		'id':'celulares_120220',
-		'name':'Celulares hasta 24 MSI o 10% de reembolso y hasta 18 MSI',
+		'id':'pantallas_150220',
+		'name':'Pantallas hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'6'
 		},
             {
-		'id':'computo_100220',
-		'name':'Cómputo hasta 20% de desc',
+		'id':'bebes_150220',
+		'name':'Bebés hasta 20% de descuento y hasta 9 Meses Sin Intereses',
        'creative':'h_banner_secun',
        'position':'7'
-		},		
+        },	
+        {
+        'id':'apple_150220',
+        'name':'Apple hasta 18 MSI',
+        'creative':'h_banner_secun',
+        'position':'8'
+            },		
             {
-		'id':'zapatos_100220',
+		'id':'zapatos_150220',
 		'name':'Zapatos hasta 25% de desc',
        'creative':'h_banner_secun',
-       'position':'8'
+       'position':'9'
 		},		
             {
-		'id':'ella_100220',
-		'name':'Ella hasta 25% de desc',
-       'creative':'h_banner_secun',
-       'position':'9'
-            },									
-            {
-		'id':'deportes_100220',
-		'name':'Deportes hasta 20% de desc',
+		'id':'accesorios_150220',
+		'name':'Accesorios hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'10'
-		},
+            },									
             {
-		'id':'el_100220',
-		'name':'Él hasta 20% de desc',
+		'id':'gap_150220',
+		'name':'Gap hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'11'
 		},
             {
-		'id':'fragancias_100220',
-		'name':'Fragancias',
+		'id':'american_eagle_150220',
+		'name':'American Eagle hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},
-                            {
-		'id':'dias_bebe_120220',
-		'name':'Días del bebé hasta 20% de descuento y hasta 9 Meses Sin Intereses',
+            {
+		'id':'deportes_150220',
+		'name':'Deportes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'13'
 		},
-                             {
-		'id':'dias_bebe_cintillo_140220',
+                            {
+		'id':'dias_bebe_cintillo_150220',
 		'name':'Días del bebé - Baño hasta 30% de descuento',
        'creative':'h_banner_secun',
        'position':'14'
