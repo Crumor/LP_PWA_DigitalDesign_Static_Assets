@@ -163,8 +163,8 @@ function myOnloadFunction(pageName,path) {
        'position':'10'
             },									
             {
-		'id':'gap_150220',
-		'name':'Gap hasta 25% de desc',
+		'id':'ninos_150220',
+		'name':'Niños hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'11'
 		},
@@ -181,8 +181,8 @@ function myOnloadFunction(pageName,path) {
        'position':'13'
 		},
                             {
-		'id':'dias_bebe_cintillo_150220',
-		'name':'Días del bebé - Baño hasta 30% de descuento',
+		'id':'dias_bebe_cintillo_210220',
+		'name':'Días del bebé - hasta 30% de descuento',
        'creative':'h_banner_secun',
        'position':'14'
 		}
