@@ -2764,52 +2764,40 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'jeans_ella_210619',
-    'name': 'AE Jeans Ella',
-    'creative': 'blp_ae_jeans_ella',
+    'id': 'curvy_jeans_180220',
+    'name': 'AE Curvy Jeans',
+    'creative': 'blp_ae_curvy_jeans',
     'position': '01'
 },
 {
-    'id': 'jeans_el_210619',
-    'name': 'AE Jeans El',
-    'creative': 'blp_ae_jeans_el',
+    'id': 'airflex_180220',
+    'name': 'AE AirFlex',
+    'creative': 'blp_ae_airflex',
     'position': '02'
 },
 {
-    'id': 'curvy_jeans_210619',
-    'name': 'AE Curvy Jeans',
-    'creative': 'blp_ae_curvy_jeans',
+    'id': 'playeras_ella_180220',
+    'name': 'AE Playeras Ella',
+    'creative': 'blp_ae_playeras_ella',
     'position': '03'
 },
 {
-    'id': 'airflex_210619',
-    'name': 'AE Airflex',
-    'creative': 'blp_ae_airflex',
+    'id': 'playeras_el_180220',
+    'name': 'AE Playeras El',
+    'creative': 'blp_ae_playeras_el',
     'position': '04'
 },
 {
-    'id': 'playeras_ella_210619',
-    'name': 'AE Playeras Ella',
-    'creative': 'blp_ae_playeras_ella',
+    'id': 'vestidos_180220',
+    'name': 'AE Vestidos',
+    'creative': 'blp_ae_vestidos',
     'position': '05'
 },
 {
-    'id': 'playeras_el_210619',
-    'name': 'AE Playeras El',
-    'creative': 'blp_ae_playeras_el',
+    'id': 'polos_180220',
+    'name': 'AE Polos',
+    'creative': 'blp_ae_polos',
     'position': '06'
-},
-{
-    'id': 'blusas_ella_210619',
-    'name': 'AE Blusas Ella',
-    'creative': 'blp_ae_blusas_ella',
-    'position': '07'
-},
-{
-    'id': 'polos_el_210619',
-    'name': 'AE Polos El',
-    'creative': 'blp_ae_polos_el',
-    'position': '08'
 }
 ]
 }
