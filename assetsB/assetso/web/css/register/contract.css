@@ -1,0 +1,115 @@
+body {
+  background: #fff;
+}
+.subtitleContract {
+  color: #666;
+  text-align: left;
+}
+.pdfContent {
+  border: 1px dashed #000;
+  max-height: 300px;
+  overflow: auto;
+  padding: 30px 50px;
+}
+.pdfContent p {
+  color: #666;
+  text-align: left;
+}
+.termsConditions {
+  padding: 15px 15px;
+  text-align: left;
+}
+.termsConditions input {
+  display: inline-block;
+  float: left;
+}
+.buttonsPdf span {
+  font-size: 25px;
+  float: right;
+  padding: 10px;
+}
+.innerButtons {
+  width: 100%;
+}
+.alignRight {
+  float: right;
+}
+.contractAlert {
+  display: none;
+  color: #f00;
+  font-size: 14px;
+  position: absolute;
+  top: 50px;
+  font-family: 'robotoCondensed';
+}
+.privacy {
+  border: 1px solid #e10098;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+}
+.privacy h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0 15px 0;
+  text-transform: uppercase;
+}
+.privacy p {
+  font-size: 13px;
+  margin: 0;
+  text-align: center;
+}
+.pdfContent .pdfLogo img {
+  margin-bottom: 30px;
+  width: 200px;
+}
+.pdfContent .liverpoolLogo {
+  display: none;
+  text-align: left;
+}
+.pdfContent .grLogo {
+  display: none;
+  padding-top: 10px;
+  text-align: right;
+}
+.pdfContent .eventInfo {
+  display: none;
+}
+.pdfContent .eventInfo p {
+  line-height: 1.4;
+  margin: 0;
+}
+.pdfContent .eventInfo span {
+  font-weight: bold;
+}
+.pdfContent .subtitle {
+  font-family: 'robotoCondensed';
+  font-size: 23px;
+  margin: 30px 0 20px 0;
+}
+.pdfContent .bonus {
+  line-height: 1.4;
+  margin: 0;
+}
+.pdfContent .mainContent {
+  margin-top: 20px;
+  text-align: justify;
+}
+.pdfContent .mainContent span {
+  background: #f2e776;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 5px;
+}
+.pdfContent .signature {
+  display: none;
+}
+.pdfContent .signature p {
+  border-top: 3px solid #000;
+  font-size: 13px;
+  margin-top: 100px;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}

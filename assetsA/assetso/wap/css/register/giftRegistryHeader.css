@@ -1,0 +1,73 @@
+.logoContainer {
+  border-bottom: 1px solid #b3b3b3;
+  border-top: 1px solid #b3b3b3;
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+}
+.logo {
+  padding: 12px;
+}
+.logo img {
+  width: 180px;
+  height: 23px;
+}
+.stepBarContainer {
+  margin: 0 auto;
+  text-align: center;
+  width: 285px;
+}
+.giftRegistryHeader {
+  background: #fff;
+  width: 100%;
+}
+.wrapHeader {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: auto;
+}
+.menu {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: #e10098;
+  padding: 10px;
+  display: block;
+}
+.steps {
+  float: right;
+  text-align: center;
+  width: 100%;
+}
+.stepBarGlobal {
+  background: #818b89;
+  display: inline-block;
+  height: 3px;
+  width: 68px;
+}
+.stepBarGlobal.active {
+  background: #e10098;
+}
+.stepContainer {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: right;
+  width: 285px;
+}
+.currentCount {
+  color: #e10098;
+}
+.lastCount {
+  color: #b3b3b3;
+}
+/* Added for back button on Event creation */
+.returnIconGRHeader {
+  padding: 5px 0px;
+  font-size: 25px;
+  color: #666;
+  /*Button Style */
+  /*background-color: #b3b3b3;*/
+  /*color: #fff; */
+}

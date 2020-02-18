@@ -1,0 +1,294 @@
+.containerInspiration .pl-0 {
+  padding-left: 0px;
+}
+.containerInspiration .sbs {
+  margin-top: 20px;
+}
+.containerInspiration .sbp {
+  margin-bottom: 20px;
+}
+.containerInspiration .bannerInspiration {
+  width: 100%;
+}
+.containerInspiration .banner {
+  display: block;
+}
+.containerInspiration .publications .imgHeader,
+.containerInspiration .banner .imgHeader {
+  position: relative;
+}
+.containerInspiration .publications .imgHeader img,
+.containerInspiration .banner .imgHeader img {
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+.containerInspiration .publications .imgHeader .text,
+.containerInspiration .banner .imgHeader .text {
+  position: absolute;
+  top: 0px;
+  font-family: 'robotoRegular';
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.containerInspiration .publications .imgHeader .text .title,
+.containerInspiration .banner .imgHeader .text .title {
+  font-size: 18px;
+  color: #fff;
+}
+.containerInspiration .publications .imgHeader .text .subtitle,
+.containerInspiration .banner .imgHeader .text .subtitle {
+  line-height: 0px;
+  font-size: 13px;
+  color: #fff;
+}
+.containerInspiration .publications .articleInspiration,
+.containerInspiration .banner .articleInspiration {
+  width: 100%;
+  display: block;
+}
+.containerInspiration .publications .seeMore,
+.containerInspiration .banner .seeMore {
+  color: #e0068d;
+  font-size: 15px;
+}
+.containerInspiration .publications figure a:hover p,
+.containerInspiration .banner figure a:hover p {
+  visibility: visible;
+  color: #fff;
+}
+.containerInspiration .publications figure a:hover img,
+.containerInspiration .banner figure a:hover img {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+.containerInspiration .publications figure a p,
+.containerInspiration .banner figure a p {
+  position: absolute;
+  visibility: hidden;
+  z-index: 20;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 30%;
+  text-align: center;
+  color: #fff;
+  font-family: 'robotoRegular';
+}
+.containerInspiration .publications figure figcaption,
+.containerInspiration .banner figure figcaption {
+  font-family: 'robotoCondensed';
+  font-size: 20px;
+  margin-top: 20px;
+}
+.containerInspiration .publications section,
+.containerInspiration .banner section {
+  margin-bottom: 30px;
+}
+.containerInspiration .publications section .imgDescription,
+.containerInspiration .banner section .imgDescription {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.containerInspiration .publications section .imgDescription,
+.containerInspiration .banner section .imgDescription,
+.containerInspiration .publications section .imgDate,
+.containerInspiration .banner section .imgDate {
+  font-family: 'robotoCondensed';
+  font-size: 15px;
+}
+.containerInspiration .publications section .imgDescription .title,
+.containerInspiration .banner section .imgDescription .title,
+.containerInspiration .publications section .imgDate .title,
+.containerInspiration .banner section .imgDate .title {
+  float: right;
+}
+.containerInspiration .publications section .imgDate,
+.containerInspiration .banner section .imgDate {
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.containerInspiration .seeMore {
+  font-family: 'robotoRegular';
+  font-size: 16px;
+}
+.containerInspiration article.second figure {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.containerInspiration article.second figure figcaption {
+  font-style: italic;
+}
+.containerInspiration .social {
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.containerInspiration .social a {
+  margin: 10px 5px;
+}
+.containerInspiration .social a span {
+  padding: 5px;
+  font-size: 16px;
+  color: #fff;
+  -moz-border-radius: 20px;
+       border-radius: 20px;
+}
+.containerInspiration .social a .icon-social-twitter {
+  background-color: #09f;
+}
+.containerInspiration .social a .icon-social-facebook {
+  background-color: #d35400;
+}
+.containerInspiration .social a .icon-social-pinterest {
+  background-color: #c00;
+}
+.containerInspiration .social a .icon-social-instagram {
+  background-color: #f06292;
+}
+.containerInspiration .social a .icon-social-google {
+  background-color: #d35400;
+}
+.containerInspiration .divisionPle {
+  height: 10px;
+  width: 50px;
+  border-top: solid 2px #dedede;
+  margin-top: 20px;
+}
+.containerInspiration .moreVisit {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.containerInspiration .moreVisit li {
+  border-bottom: solid 1px #dedede;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.containerInspiration .moreVisit li figure {
+  width: 30%;
+  max-width: 90px;
+}
+.containerInspiration .moreVisit li p {
+  width: 70%;
+  padding-left: 20px;
+  font-family: 'robotoRegular';
+  font-size: 16px;
+  color: #000;
+}
+.containerInspiration .moreVisit li a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.containerInspiration .moreVisit li a:hover {
+  text-decoration: none;
+}
+.containerInspiration .forYouEvent {
+  border: solid 1px #dedede;
+  width: 100%;
+  margin: 10px 0px;
+}
+.containerInspiration .forYouEvent img {
+  width: 100%;
+}
+.containerInspiration .collage article {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.containerInspiration .video {
+  width: 100%;
+  height: 350px;
+}
+.containerInspiration .navArticles {
+  margin-bottom: 40px;
+}
+.containerInspiration .btnNav {
+  background-color: #fff;
+  border: solid 1px #dedede;
+  color: #666;
+  height: 40px;
+  font-size: 16px;
+}
+.containerInspiration .btnNav i {
+  font-size: 12px !important;
+}
+.containerInspiration #galleryInspiration {
+  background-color: #e6e4e4;
+}
+.containerInspiration #galleryInspiration .owl-nav {
+  margin-top: 0px !important;
+}
+.containerInspiration #galleryInspiration .owl-nav .owl-prev,
+.containerInspiration #galleryInspiration .owl-nav .owl-next {
+  position: absolute;
+  top: 40%;
+  height: 40px;
+  width: 40px;
+  -moz-border-radius: 20px;
+       border-radius: 20px;
+  padding-top: 12px;
+  padding-left: 4px;
+  background-color: #fff;
+}
+.containerInspiration #galleryInspiration .owl-nav .owl-prev {
+  left: 0px;
+}
+.containerInspiration #galleryInspiration .owl-nav .owl-next {
+  right: 0px;
+}
+.containerInspiration #galleryInspiration .owl-nav .arrow-prev,
+.containerInspiration #galleryInspiration .owl-nav .arrow-next {
+  font-weight: bold;
+  font-size: 16px;
+  color: #666;
+}
+.containerInspiration #galleryInspiration .owl-nav .arrow-next {
+  padding-left: 6px;
+}
+.imgMedium {
+  height: 130px;
+  width: 100%;
+}
+.imgDate {
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+section .title {
+  float: right;
+}

@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+.headerCLP .col-md-12,
+.headerCLP .leftBreadCrumb {
+  padding: 0;
+}
+.headerCLP .col-md-12 p,
+.headerCLP .leftBreadCrumb p {
+  text-align: left !important;
+}
+.headerCLP .col-md-12 p i,
+.headerCLP .leftBreadCrumb p i {
+  color: #dedede;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.headerCLP .col-md-12 p a,
+.headerCLP .leftBreadCrumb p a {
+  font-size: 12px;
+  color: #afafaf !important;
+}
+.headerCLP .col-md-12 p a span,
+.headerCLP .leftBreadCrumb p a span {
+  color: #e10098;
+}
+.headerCLP .col-md-12 p a:hover,
+.headerCLP .leftBreadCrumb p a:hover {
+  color: #e10098;
+}
+.headerCLP .col-md-6 h3 {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  margin: 0;
+}
+.headerCLP .col-md-6 p {
+  text-align: right;
+  margin: 0;
+}
+.headerCLP .col-md-6 p a {
+  color: #000;
+}
+.wrapCLP {
+  margin-top: 20px;
+}
+.contentCLP {
+  margin-top: 30px;
+}
+.contentCLP .col-md-3 .panel {
+  -moz-box-shadow: none;
+       box-shadow: none;
+}
+.contentCLP .col-md-3 .panel-heading {
+  border-bottom: 1px solid #dedede;
+  cursor: pointer;
+}
+.contentCLP .col-md-3 .panel-title i {
+  float: right;
+}
+.contentCLP .col-md-3 ul {
+  list-style: none;
+  padding-left: 15px;
+}
+.contentCLP .col-md-3 li a {
+  color: #000;
+}
+.contentCLP .col-md-3 .listHeader {
+  font-weight: bold;
+  font-size: 17px;
+}
+.contentCLP .col-md-9 .col-md-12:first-child {
+  margin: 0 0 10px 0;
+}
+.contentCLP .col-md-9 .col-md-12 {
+  margin: 50px 0 10px 0;
+}
+.contentCLP .col-md-9 .col-md-12 h3 {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  margin: 0;
+}
+.contentCLP .col-md-9 .col-md-12 p {
+  text-align: right;
+  margin: 0;
+}
+.contentCLP .col-md-9 .col-md-12 p a {
+  color: #e10098;
+}
+.contentCLP .col-md-9 .col-md-4 a {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.contentCLP .col-md-9 .col-md-4 img {
+  width: 100%;
+}
+.contentCLP .col-md-9 .col-md-4 .titleImg {
+  width: 100%;
+  padding: 5px;
+  background: #f9f4f1;
+  position: absolute;
+  bottom: 0;
+}
+i {
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+i.rotate {
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

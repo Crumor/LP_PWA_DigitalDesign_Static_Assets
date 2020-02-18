@@ -1,0 +1,433 @@
+body {
+  background: #f2f2f2;
+  font-family: 'robotoRegular', arial, sans-serif;
+}
+.header {
+  background: #fff;
+  min-width: 1250px;
+  max-width: 1600px;
+}
+.logo {
+  height: 71px;
+}
+.container {
+  width: 1250px;
+  max-width: 1250px;
+}
+.header-container {
+  width: 1250px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.header-container div {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.header-container .contact {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+  height: 71px;
+  padding-top: 17px;
+}
+.header-container span {
+  display: block;
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+}
+.header-container .icono-ayuda {
+  height: 71px;
+  float: right;
+}
+.box-shadow-wrapper {
+  -moz-box-shadow: 0px 4px 7px -1px #ccc;
+       box-shadow: 0px 4px 7px -1px #ccc;
+  margin: 40px 0;
+  padding: 20px;
+  background: #fff;
+}
+.box-shadow-wrapper h4 {
+  font-family: 'robotoCondensed', sans-serif;
+  color: #3b3b3e;
+}
+.block-tip {
+  border: 10px solid #f6f5f5;
+}
+.block-tip p {
+  border: 1px dashed #666;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 12px;
+}
+.block-tip p span {
+  color: #666;
+}
+.vertical-center {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.vertical-center-left {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+h3 {
+  margin-top: 0;
+  color: #3b3b3e;
+  font-weight: 500;
+}
+.text-pink {
+  color: #e10098;
+}
+.text-gray {
+  color: #b3b3b3 !important;
+}
+.text-red {
+  color: #f00;
+}
+.fa-stack {
+  float: left;
+  background: #e10098;
+  -moz-border-radius: 15px;
+       border-radius: 15px;
+  height: 27px;
+  width: 27px;
+  margin-top: 7px;
+  margin-right: 15px;
+  line-height: 25px;
+  color: #fff;
+}
+.depositForm {
+  padding-left: 48px;
+  margin-top: 25px;
+}
+.depositForm form {
+  margin-top: 25px;
+}
+.headerPartialTransferences .vertical-center {
+  min-height: 118px;
+}
+.errorMessage span {
+  float: right;
+  font-size: 13px;
+}
+.titleForm {
+  font-weight: bold;
+}
+.quantity {
+  display: block;
+  font-size: 18px;
+}
+.quantityBlock {
+  margin-left: 14px;
+}
+small {
+  color: #666;
+  font-size: 12px;
+}
+button[disabled] {
+  opacity: 0.5;
+}
+hr {
+  border-bottom: 1px solid #d8d8d8;
+  border-top: none;
+  margin: 15px 0px 0px;
+}
+.block-verification {
+  width: 591px;
+  margin-bottom: 30px;
+}
+.block-verification .header-verification {
+  padding-left: 15px;
+  color: #3b3b3e;
+  height: 50px;
+  background-color: #f2f2f2;
+  -moz-box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.03);
+       box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.03);
+}
+.block-verification .header-verification span {
+  font-size: 18px;
+}
+.block-verification .content {
+  min-height: 124px;
+  -moz-box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.03);
+       box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.03);
+  border: solid 1px #d8d8d8;
+  padding: 14px 0px;
+  margin: 0px;
+}
+.block-verification .content .generalData {
+  border-right: solid 1px #d8d8d8;
+}
+.block-verification .content .generalData span {
+  color: #b3b3b3;
+}
+.block-verification .content .blockDeposit {
+  margin: 15px 0 0px 0;
+  height: 2.6em;
+}
+.block-verification .content .blockDeposit:last-child {
+  border-top: solid 1px #d8d8d8;
+  padding-top: 15px;
+  margin-top: 5px;
+}
+.block-verification .content .blockDeposit div {
+  padding: 0px;
+}
+.block-verification .date-verification {
+  margin-bottom: 10px;
+}
+.block-verification .date-verification span {
+  color: #666;
+}
+.block-verification .date-verification strong {
+  font-size: 15px;
+}
+.block-verification .box-description,
+.block-verification .box-instructions {
+  color: #666;
+}
+button i {
+  position: absolute;
+  left: 19px;
+  top: 23px;
+}
+button:focus {
+  outline: 0;
+}
+.inputBlock .grayMobileButton {
+  float: left;
+}
+.inputBlock .pinkMobileButton {
+  float: right;
+}
+.modal {
+  font-family: 'robotoRegular', arial, sans-serif;
+}
+.modal .modal-dialog {
+  margin: 15% auto;
+}
+.modal .modal-content {
+  width: 430px;
+  height: auto;
+}
+.modal .modal-header {
+  border-bottom: none;
+  padding: 25px 25px 0px;
+}
+.modal .modal-header button.close {
+  cursor: pointer;
+  background: #666 !important;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  border: 0;
+  padding: 0px 5px 1px;
+  font-family: arial;
+}
+.modal .modal-header .close {
+  color: #fff;
+  opacity: 1;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 17px;
+}
+.modal .modal-header .close:hover,
+.modal .modal-header .close:focus {
+  color: #fff;
+  opacity: 0.8;
+}
+.modal .modal-content {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+.modal .modal-body {
+  color: #666 !important;
+  padding: 25px;
+}
+.modal form {
+  margin-top: 15px;
+}
+.modal .form-control {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+.modal .form-control:focus {
+  border-color: #ccc;
+}
+.modal label {
+  font-weight: normal;
+  color: #3b3b3e;
+}
+.modal small {
+  color: #3b3b3e;
+}
+#option1,
+#option2 {
+  /* display: none; */
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+#myModalConfirmation form button {
+  margin-bottom: 12px;
+  margin-top: 22px;
+}
+#partialConfirmation {
+  padding: 50px 130px;
+}
+#partialConfirmation .box-name {
+  color: #666;
+  font-size: 24px;
+  margin-top: 60px;
+}
+#partialConfirmation h2 {
+  font-weight: bold;
+}
+#partialConfirmation .box-description {
+  font-size: 12px;
+  margin-top: 22px;
+  border-bottom: solid 1px #d8d8d8;
+  padding-bottom: 15px;
+}
+#partialConfirmation .title-confirmation {
+  display: block;
+  font-size: 24px;
+  font-family: 'robotoCondensed', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.box-icons {
+  padding: 10px 0 0 0;
+}
+.icon-descarga,
+.icon-imprimir {
+  margin: 10px;
+  color: #000;
+  font-size: 25px;
+}
+.box-instructions {
+  margin-top: 20px;
+}
+.box-save-data {
+  margin-top: 20px;
+  border-top: solid 1px #d8d8d8;
+  padding-top: 20px;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border: 0;
+}
+.panel {
+  -moz-box-shadow: none;
+       box-shadow: none;
+}
+.inputBlock {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.boxAccount {
+  display: none;
+}
+.alertSuccess,
+.alertWarning,
+.alertError {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.warning {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.panel-heading.disable .fa-stack {
+  background: #b3b3b3 !important;
+  color: #fff;
+}
+.panel-heading.disable h2 {
+  color: #b3b3b3 !important;
+}
+#option2 .materialStyle:first-child {
+  margin-bottom: 36px;
+}
+#formBankAccount {
+  display: none;
+}
+.selectAccount {
+  display: none;
+}
+.box-save-data button {
+  margin-top: 0px;
+  font-size: 16px;
+}
+#alertSave {
+  display: none;
+}
+#formLiverpoolAccount {
+  display: none;
+}
+#formLiverpoolAccount .materialStyle:first-child {
+  margin-bottom: 20px;
+}
+#blockAddAccounts {
+  padding: 0px;
+}
+/*with accounts*/
+#blockAccount,
+#blockNewAccount {
+  display: none;
+  border-top: solid 1px #d8d8d8;
+  padding-top: 25px;
+  margin-top: 25px !important;
+}
+#blockSelect {
+  display: none;
+}
+#option2 .row {
+  margin: 0px;
+}
+.txtConcept,
+.btnDelete {
+  display: none;
+}
+button[disabled] {
+  opacity: 0.5;
+}
+button {
+  font-size: 16px;
+}
+.block-buttons {
+  margin-top: 40px !important;
+}
+.radio label {
+  color: #666;
+}
+/*.cSelect
+    height: 43px;
+    select
+        padding-left: 21px;
+.cSelect p
+    position: absolute;
+    top: 0px;
+    color: red;*/
+#alertWarning,
+#alertDanger {
+  display: block;
+}
+.radio {
+  margin-top: 20px !important;
+}

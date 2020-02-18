@@ -1,0 +1,70 @@
+.contentBox#moreThanOne {
+    padding-bottom: 30px;
+}
+
+.contentBox#moreThanOne h2.registerGiftTitle,
+.contentBox#moreThanOne h2.registerGiftSubTitle {
+    font-family: 'robotoCondensed';
+    font-size: 22px;
+    line-height: 1.21;
+    margin: 37px 0 0;
+    display: inline-block;
+}
+
+.contentBox#moreThanOne h2.registerGiftSubTitle {
+    display: inline;
+}
+
+.contentBox#moreThanOne p.registerGiftText {
+    color: #666;
+    font-family: 'robotoCondensed';
+    font-size: 16px;
+    line-height: 1.79;
+    margin-top: 10px;
+}
+
+.contentBox#moreThanOne .whichIcons {
+    text-align: center;
+}
+
+.contentBox#moreThanOne .whichIcons a {
+    cursor: pointer;
+    width: 50%;
+}
+
+.contentBox#moreThanOne .whichIcons a img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+
+/* Hiding this because it is giving unrequired ui */
+
+
+/* .contentBox#moreThanOne .whichIcons a img.changeBabyOn:hover {
+  background-image: url("/assetso/wap/images/grBabyHover.png");
+  -moz-background-size: 100% auto;
+       background-size: 100% auto;
+  background-repeat: no-repeat;
+  /* added background-position in react we have using diffrent scenario */
+
+background-position: -1px -1px;
+
+}
+.contentBox#moreThanOne .whichIcons a img.changeWeddingOn:hover {
+    background-image: url("../../../../assetso/wap/images/grWeddingHover.png");
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /* added background-position in react we have using diffrent scenario */
+    
+    background-position: -1px -1px;
+}
+.contentBox#moreThanOne .whichIcons a:hover {
+    text-decoration: none;
+}
+.contentBox#moreThanOne .whichIcons p {
+    font-family: 'roboto';
+    color: #666;
+}

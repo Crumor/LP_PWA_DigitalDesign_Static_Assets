@@ -1,0 +1,927 @@
+/*! invitedList.css v1.8.9.1 */
+
+body {
+    font-family: 'robotoRegular';
+}
+
+button {
+    font-family: 'robotoRegular' !important;
+    margin-bottom: 10px;
+}
+
+hr {
+    display: block;
+}
+
+.mainContent {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titleList,
+.subtitleList {
+    font-family: 'robotoCondensed';
+}
+
+.subtitleList {
+    color: #666;
+    font-size: 16px;
+}
+
+.statusList {
+    border-top: 1px solid #d9d9d9;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.statusList li {
+    color: #666;
+    padding: 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.statusList span {
+    color: #000;
+    float: right;
+}
+
+.groupsDiv,
+.groupsDivModal,
+.guestInfo {
+    border: 1px solid #d9d9d9;
+    color: #999;
+    font-family: 'robotoRegular';
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+
+/* .groupsDiv a{
+  width: 330px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+} */
+
+#reminderMessageBox a {
+    width: 330px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.groupsDiv i,
+.groupsDivModal i,
+.guestInfo i {
+    float: right;
+    margin-top: 3px;
+}
+
+.groupsDiv a:hover,
+.groupsDivModal a:hover,
+.guestInfo a:hover,
+.groupsDiv a:focus,
+.groupsDivModal a:focus,
+.guestInfo a:focus {
+    color: #666;
+    text-decoration: none;
+}
+
+.guestInfo {
+    color: #666;
+    display: none;
+}
+
+.guestInfo p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.guestInfo span {
+    font-size: 14px;
+}
+
+.guestInfo i {
+    margin-top: -11px;
+}
+
+.forcedFields {
+    color: #f00;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.btnPrimaryAdd {
+    font-family: 'robotoCondensed' !important;
+    font-size: 18px;
+}
+
+.btnPrimaryAdd i {
+    font-size: 18px !important;
+}
+
+#cancelButton {
+    background: #969696;
+}
+
+.btnClose {
+    float: right;
+    font-family: 'robotoCondensed';
+    margin-top: -25px;
+    margin-bottom: 0px;
+    background: #fff;
+    border: none;
+}
+
+.btnClose i {
+    background: #666;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 8px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.groupTable {
+    border: 1px solid #d9d9d9;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.groupTable tr {
+    border: 1px solid #d9d9d9;
+}
+
+.groupTable td {
+    padding: 5px 10px;
+}
+
+.radio {
+    float: right;
+}
+
+.modal-title {
+    font-family: 'robotoCondensed' !important;
+}
+
+.modal-content {
+    min-height: 100%;
+    top: -5px;
+    width: 100%;
+}
+
+.createGroup {
+    font-family: 'robotoRegular' !important;
+    font-size: 16px;
+}
+
+.createGroupCont {
+    margin-top: 20px;
+}
+
+.createGroupCont p {
+    line-height: 23px;
+}
+
+.createGroupCont,
+.saveButton {
+    display: none;
+}
+
+.filtersContent div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.filtersContent button {
+    height: 35px;
+}
+
+.filtersContent i {
+    float: right;
+    font-size: 30px;
+}
+
+.selectAll,
+.groupNumber {
+    border-top: 1px dotted #d9d9d9;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.selectAll .col-xs-10,
+.groupNumber .col-xs-10 {
+    padding-left: 0;
+}
+
+.selectAll .checkbox,
+.groupNumber .checkbox {
+    padding-left: 5px;
+}
+
+.selectAll p,
+.groupNumber p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.groupNumber p {
+    display: inline-block;
+}
+
+.groupNumber span {
+    float: right;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.guestList,
+.groupList {
+    border-top: 1px solid #d9d9d9;
+    color: #666;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+.guestList li,
+.groupList li {
+    border-bottom: 1px solid #d9d9d9;
+    min-height: 70px;
+    position: relative;
+    padding-top: 8px;
+}
+
+.guestList i,
+.groupList i {
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    top: 40%;
+}
+
+.guestList span,
+.groupList span {
+    float: right;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.groupList li {
+    min-height: 50px;
+}
+
+.checkContent {
+    border-right: 1px solid #d8d8d8;
+    float: left;
+    padding-left: 20px;
+    width: 10%;
+}
+
+.guestContent {
+    float: left;
+    padding-left: 15px;
+    padding-top: 0px;
+    width: 90%;
+}
+
+.groupName,
+.namePlace {
+    color: #b3b3b3;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.iconsContent {
+    float: left;
+    width: 16%;
+}
+
+.info {
+    float: left;
+    width: 84%;
+}
+
+.arrowGuest {
+    float: left !important;
+    font-size: 14px !important;
+    margin-top: 4px;
+}
+
+.footerMenu {
+    background: #f2f2f2;
+    bottom: 0;
+    color: #666;
+    display: none;
+    font-family: 'robotoRegular';
+    font-size: 12px;
+    height: auto;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.footerMenu i {
+    font-size: 25px;
+}
+
+.footerMenu .col-xs-2 {
+    padding: 12px 20px;
+}
+
+.footerMenu .col-xs-4 {
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    padding: 16px;
+}
+
+.footerMenu .icon-tache2 {
+    font-size: 14px !important;
+    float: right;
+    padding: 5px;
+}
+
+.attendantMenu i,
+.sendMenu i {
+    float: right;
+    font-size: 12px !important;
+    margin-top: 5px;
+}
+
+.optionsGuest,
+.optionsSend {
+    display: none;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.optionsGuest li,
+.optionsSend li {
+    border-bottom: 1px solid #d9d9d9;
+    color: #000;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.optionsSend i {
+    font-size: 12px !important;
+    float: right;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+.titleGuests {
+    color: #b3b3b3;
+    font-size: 14px !important;
+    float: none !important;
+}
+
+.guestNumber {
+    margin-top: -10px;
+}
+
+.backButton {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.backButton i {
+    margin-top: 7px;
+}
+
+#editGroupModal .size-full {
+    font-family: 'robotoCondensed' !important;
+    font-size: 18px;
+}
+
+#editGroupModal .formBlock {
+    padding: 10px 0;
+}
+
+.leftBtnFilter {
+    padding-left: 0px !important;
+}
+
+.filterBackButton {
+    color: #666;
+    font-family: 'robotoCondensed' !important;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.filterBackButton i {
+    color: #666;
+    font-size: 14px;
+    left: 0;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.rightBtnFilter {
+    padding-right: 0px !important;
+}
+
+.filterCleanButton {
+    background: #f2f2f2;
+    border: none;
+    float: right;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.titleFilter {
+    font-size: 16px;
+}
+
+.filter {
+    border: 1px solid #ccc;
+}
+
+.filter td {
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.filter i {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.textCategory {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.sub,
+.sub2 {
+    color: #666;
+    font-size: 15px;
+}
+
+.tableFilter {
+    width: 100%;
+}
+
+.optionImport {
+    border: 1px solid #d8d8d8;
+    color: #666;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.optionImport i {
+    border: 1px solid #d8d8d8;
+    font-size: 25px;
+    left: 0;
+    margin-top: -6px;
+    padding: 10px;
+    position: absolute;
+}
+
+.optionImport p {
+    font-size: 18px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#importGuestModal .modal-content {
+    left: 5%;
+    margin-top: 30%;
+    min-height: 60%;
+    width: 90%;
+}
+
+.checkDiv {
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.guestQueue {
+    background: #f2f2f2;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.guestInviteDiv {
+    color: #666;
+    margin-top: 20px;
+}
+
+.headInvite {
+    background: #f8f8f8;
+    padding: 1px 10px;
+}
+
+.headInvite p {
+    margin-top: 5px;
+}
+
+.optionInvite {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 10px;
+    /* added postion  */
+    position: relative;
+}
+
+.optionInvite p {
+    margin-left: 20px;
+}
+
+.optionInvite span {
+    color: #b3b3b3;
+    float: right;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.approveMenu {
+    background: #fff;
+    -moz-box-shadow: 2px 3px 8px 0 #bfbfbf;
+    box-shadow: 2px 3px 8px 0 #bfbfbf;
+    display: none;
+    list-style: none;
+    margin-top: -35px;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+}
+
+.approveMenu li {
+    padding: 15px 50px 15px 20px;
+}
+
+.approveResult {
+    background: #f8f8f8;
+    display: none;
+    margin-left: -10px;
+    margin-top: -38px;
+    /* updated padding 2 to 0 */
+    padding: 0px 10px;
+    position: absolute;
+    /* updated width 92 to 100 */
+    width: 100%;
+    /* added left */
+    left: 10px;
+}
+
+.approvedGuest {
+    color: #000;
+    display: none;
+    font-weight: bolder;
+    margin-left: 0 !important;
+    margin-top: 6px;
+}
+
+.approvedGuest span {
+    color: #000;
+    float: none;
+    margin-right: 10px;
+}
+
+.rejectedGuest {
+    color: #bfbfbf;
+    display: none;
+    margin-left: 0 !important;
+    margin-top: 6px;
+}
+
+.rejectedGuest span {
+    color: #bfbfbf;
+    float: none;
+    margin-right: 10px;
+}
+
+
+/*Updated CSS for Confirmation Page( Event Tools) */
+
+.invitedListHeader.confirmation {
+    margin: 20px 0;
+}
+
+.invitedListHeader.confirmation>div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19%;
+}
+
+.invitedListHeader.confirmation>div:last-of-type {
+    width: 70%;
+}
+
+.invitedListHeader.confirmation img {
+    width: 50px;
+}
+
+.invitedListHeader.confirmation h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links>p {
+    font-weight: bold;
+}
+
+.links ul {
+    padding-left: 10px;
+}
+
+.links ul li {
+    list-style-type: disc;
+}
+
+.links ul li a {
+    color: #e10098;
+    text-decoration: underline;
+}
+
+.links ul li p {
+    margin: 0;
+}
+
+.links ul li span {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 12px;
+}
+
+.serachIconGuestList .input-group-btn .btn.btn-default.buttonSearch {
+    background: #fff!important;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-left: none
+}
+
+.serachIconGuestList .input-group-btn .btn.btn-default.buttonSearch:active {
+    box-shadow: none;
+    border: solid 1px #ccc;
+    border-left: none;
+    border-radius: 0px;
+    padding-left: 10px!important;
+}
+
+.serachIconGuestList #mount-point {
+    border-right: none;
+    border-radius: 0px;
+}
+
+#filter-modal-assist .leftBtnFilter .filterBackButton {
+    background: #fff;
+    border: none;
+    position: relative;
+}
+
+#filter-modal-assist .leftBtnFilter .filterBackButton i {
+    position: absolute!important;
+    right: 0px;
+    top: 24px!important;
+    margin-right: 10px;
+}
+
+#filter-modal-assist .rightBtnFilter {
+    margin-top: 10px;
+}
+
+.guestList .info {
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+
+/* 9005 */
+
+.modal.centerModal.smallModal .modal-title {
+    text-transform: capitalize;
+}
+
+.modal.centerModal.smallModal .btnPrimaryAction.size-Full.closeModal {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.m0 {
+    margin: 0!important;
+}
+
+
+/* css change for addGuest */
+
+#selectGender {
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+#selectAge {
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+#selectAssistance {
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+
+/*button#closeModal {
+  background: #969696;
+}*/
+
+.container.mobileView .modal.fade.centerModal.smallModal.in .modal-dialog {
+    width: inherit !important;
+}
+
+
+/* 9562 */
+
+#editGroupModal .modal .btnClose {
+    background: transparent !important;
+}
+
+#editGroupModal .modal .btnClose span {
+    font-size: 16px !important;
+    color: black;
+}
+
+#editGroupModal .modal .btnSecondary,
+#editGroupModal .modal .btnSecondarySpecialCustom {
+    font-size: 18px;
+}
+
+#editGroupModal .modal .btnSecondary {
+    background: #3b3b3e;
+}
+
+#editGroupModal .modal .btnSecondary#closeModal {
+    background: #787879;
+}
+
+#editGroupModal .modal .btnSecondarySpecialCustom {
+    background: #f2f2f2;
+    border-radius: none;
+    border: 1px solid black;
+}
+
+
+/* For Guest Name word wrap */
+
+p.nameGuest {
+    word-break: break-all;
+}
+
+.guestAddedModal .modal-content {
+    min-height: auto;
+}
+
+.modal-body .col-md-12.p-l-35+.col-md-6 btn#closeModal {
+    font-size: 14px !important;
+}
+
+.modal-body .col-md-12.p-l-35+.col-md-6 button#closeModal {
+    font-size: 14px !important;
+}
+
+
+/* Override Selects.css */
+
+.cSelect {
+    position: relative;
+    width: 100%;
+    height: 41px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+}
+
+.cSelect select {
+    font-size: 15px;
+    /* Change this because it should be grey. */
+    color: #999;
+    height: 40px;
+    width: 100%;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+label.placeHolderMaterial {
+    color: #999;
+    font-family: 'robotoRegular';
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 10px;
+    -moz-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+#remindMessage .modal-content {
+    min-height: auto;
+}
+
+#remindMessage #closeModal {
+    font-size: 14px;
+}
+
+
+/* Causes black background on new guest dupliacate modal
+button#closeModal {
+  background: #3b3b3e;
+}*/
+
+button#closeModal.deleteCancelarBtn {
+    background: #969696;
+}
+
+
+/* 9342 */
+
+#remindMessage .modal-content {
+    min-height: auto;
+}
+
+#remindMessage .modal-content .row .col-xs-6:first-of-type,
+.guestAddedModal .modal-content .row .col-xs-6:first-of-type {
+    display: none
+}
+
+#remindMessage .modal-content .row .col-xs-6:last-of-type,
+.guestAddedModal .modal-content .row .col-xs-6:last-of-type {
+    margin: 12px auto 0;
+    float: none;
+}
+
+#remindMessage .modal-content .row .col-xs-6:last-of-type button,
+.guestAddedModal .modal-content .row .col-xs-6:last-of-type button {
+    background: #3b3b3e !important;
+    margin: 12px auto 0;
+    float: none;
+}
+
+.guestAddedModal {
+    margin: 6px 0px 0px 0px;
+}
+
+.guestAddedModal .modal-content {
+    border-radius: 0px;
+}
+
+
+/*******/
+
+.modal-dialog.deleteGuestModal {
+    height: 200px;
+    min-height: auto;
+}
+
+#notificationsModal .modal-dialog {
+    width: 100vw !important;
+}
+
+.modal-content.invitationModalContent {
+    border-radius: 0;
+}
+
+#notificationsModal .closeButton span {
+    text-align: right;
+    display: inline-block;
+    width: 75%;
+}
+
+#notificationsModal .closeButton {
+    float: right;
+    padding: 0;
+}
+
+#notificationsModal .close {
+    opacity: 0.6;
+    margin-top: 0px;
+}
+
+#importGuestModal .container {
+    width: auto;
+}

@@ -1,0 +1,143 @@
+body {
+  background: #fff;
+}
+.innerWrap {
+  background: #fff;
+  margin: 20px 0 30px 0;
+}
+.innerWrap h1 {
+  margin-bottom: 30px;
+}
+.innerWrap button,
+.innerWrap a.btnPrimaryAction {
+  font-size: 18px;
+}
+.forgotPassword {
+  color: #e10098;
+  display: block;
+  margin: -15px 0 20px 0;
+  text-align: right;
+}
+.genderWrap {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.genderWrap .col-xs-4 {
+  font-size: 11px;
+}
+.genderWrap .col-xs-4:nth-child(1) {
+  padding: 13px;
+}
+.genderWrap .col-xs-4:nth-child(2) .radio,
+.genderWrap .col-xs-4:nth-child(3) .radio {
+  padding-left: 0;
+}
+.genderWrap .col-xs-4:nth-child(2) label,
+.genderWrap .col-xs-4:nth-child(3) label {
+  padding-left: 6px;
+}
+.termCondition {
+  font-size: 13px;
+  text-align: left;
+  margin: 10px 0 25px 0;
+}
+.termCondition a {
+  display: block;
+}
+.linkTermCondition {
+  color: #e10098;
+  cursor: pointer;
+}
+.linkTermCondition:hover {
+  text-decoration: none;
+  color: #e10098;
+}
+.accountButton {
+  width: 100%;
+  margin: 0;
+  float: right;
+}
+.alertRequired {
+  color: #f00;
+  text-align: right;
+}
+.pinkMobileButton,
+.blackMobileButton {
+  width: 100%;
+  max-width: 100%;
+}
+#sectionAccount {
+  display: none;
+}
+#createAccountMobile {
+  display: block;
+  margin-top: 20px;
+  padding: 12px 15px 15px;
+}
+.autologinTooltip {
+  left: -10px !important;
+  top: -140px !important;
+  width: 100% !important;
+}
+.autologinTooltip .arrow {
+  bottom: -10px;
+  margin-bottom: 0;
+}
+.autologinTooltip .headText {
+  font-size: 14px;
+}
+.autologinTooltip .closeLink {
+  font-size: 5px !important;
+  right: 5px !important;
+}
+.checkbox label {
+  padding-left: 5px !important;
+}
+.errorPassword {
+  display: none;
+}
+.errorPassword p {
+  color: #f00;
+  font-size: 14px;
+  margin: -10px 0 30px 0;
+}
+.alertError,
+.alertWarning {
+  margin-bottom: 20px;
+}
+.alertError i.icon-alerta_amarilla,
+.alertWarning i.icon-alerta_amarilla {
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 8px;
+}
+.alertError i.icon-tache2,
+.alertWarning i.icon-tache2 {
+  padding: 8px;
+  margin-top: 10px;
+}
+.alertError a.icon-tache2,
+.alertWarning a.icon-tache2 {
+  font-size: 7px;
+  padding: 5px;
+}
+.checkbox {
+  position: relative;
+}
+.checkbox div.detail {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+}
+.checkbox div.detail:first-of-type {
+  width: 72%;
+}
+.checkbox div.detail:last-of-type {
+  float: right;
+}
+.checkbox span {
+  margin-left: 0 !important;
+}
+#createNewAccount .genderWrap .col-xs-4:nth-child(1) {
+  font-size: 15px;
+}

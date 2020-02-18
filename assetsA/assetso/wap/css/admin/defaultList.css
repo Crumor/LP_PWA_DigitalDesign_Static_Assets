@@ -1,0 +1,147 @@
+.defaultList {
+  margin-top: 15px;
+  font-family: 'robotoRegular';
+}
+.defaultList .description {
+  margin-bottom: 16px;
+  color: #81898b;
+}
+.defaultList .titleList {
+  font-family: 'robotoCondensed';
+}
+.itemList {
+  font-family: 'robotoCondensed';
+}
+.itemList h4 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.itemList p {
+  margin: 0;
+}
+.itemList #myModalAddList p.txt-alert {
+  margin: 0 0 10px;
+}
+.itemList .articles,
+.itemList .priceRange {
+  color: #81898b;
+}
+.itemList .value {
+  font-weight: 600;
+}
+.itemList .descriptionList {
+  margin-bottom: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+.itemList #myModalAddList .descriptionList {
+  border-top: none;
+  padding-top: 0;
+}
+.itemsDefaultList h1 {
+  color: #000;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  text-transform: uppercase;
+}
+.itemsDefaultList h2 {
+  color: #666;
+  font-size: 16px;
+  margin: 0;
+}
+.itemsDefaultList h3 {
+  color: #2f2f2f;
+  font-size: 16px;
+  margin: 0;
+}
+.itemsDefaultList h3 span {
+  font-size: 18px;
+}
+.itemsDefaultList .btnPrimary {
+  margin-top: 15px;
+}
+.itemsDefaultList .filterButton {
+  float: right;
+  margin-top: 20px;
+}
+.defaultListProducts {
+  margin: 16px 0 0 0 !important;
+  padding: 0 10px;
+}
+.defaultListProducts .product {
+  border-top: 1px solid #d8d8d8;
+  padding: 18px 0;
+}
+.defaultListProducts .product:last-of-type {
+  border-bottom: 1px solid #d8d8d8;
+}
+.defaultListProducts .product > div {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  width: 49%;
+}
+.defaultListProducts .product img {
+  width: 100%;
+}
+.defaultListProducts .product .informativeText {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.1;
+  margin: 0;
+  text-transform: uppercase;
+}
+.defaultListProducts .product .descriptiveTextSecond {
+  margin: 5px 0 0 0;
+}
+.defaultListProducts .product .quantityAndGuest {
+  color: #000;
+  margin: 5px 0 0 0;
+}
+.tableFilter.radioFilters label,
+.categoryDefaultListModal label {
+  font-family: 'robotoRegular';
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px 15px 15px;
+  width: 100%;
+}
+.tableFilter.radioFilters td,
+.categoryDefaultListModal td {
+  padding: 0 !important;
+}
+.tableFilter.radioFilters .radio label::before,
+.categoryDefaultListModal .radio label::before,
+.tableFilter.radioFilters .checkbox label::before,
+.categoryDefaultListModal .checkbox label::before {
+  left: auto;
+  right: 20px;
+}
+.tableFilter.radioFilters .radio label::after,
+.categoryDefaultListModal .radio label::after,
+.tableFilter.radioFilters .checkbox label::after,
+.categoryDefaultListModal .checkbox label::after {
+  left: auto;
+  top: 18px;
+  right: 23px;
+}
+.secondFilter {
+  margin-top: 20px;
+}
+.modalContent {
+  display: none;
+}
+.imgList img {
+  max-width: 100%;
+}
+.btnSecondarySpecial,
+.addThisList,
+.btnFull {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0px; 
+}
+.descriptionList+.imgList picture img {
+  width: 100%;
+  height: 270px;
+}

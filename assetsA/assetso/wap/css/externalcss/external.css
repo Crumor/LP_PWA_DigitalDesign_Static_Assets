@@ -1,0 +1,1628 @@
+/* external.css v1.8.9.1 */
+/* Common for Display: none/block/inline properties*/
+.display-none{
+    display: none !important;
+}
+.display-block{
+    display: block !important;
+}
+.display-inline-block{
+    display: inline-block !important;
+}
+.display-hidden{
+    height: 0;
+    overflow: hidden;
+}
+.mb0{
+    margin-bottom: 0 !important;
+}
+.mb10{
+    margin-bottom: 10px !important;
+}
+.mb20{
+    margin-bottom: 20px !important;
+}
+.mt10{
+    margin-top: 10px !important;
+}
+.mt-15{
+    margin-top: 15px !important;
+}
+.pt10{
+    padding-top: 10px !important;
+}
+.pb10{
+    padding-bottom: 10px !important;
+}
+.text-align-center{
+    text-align: center;
+}
+img {
+    font-size: 10px;
+}
+/* END Common for Display: none/block/inline properties*/
+
+/* BalRam - Css for icon-menu_mobile Change */
+
+#webcollage, #content {
+    display: block !important;
+}
+/* for .icon-menu_mobile  */
+/* .open {
+    display: block !important;
+} */
+
+/* Event Management */
+
+/* barcode css */
+.oppeningContainer .celebratedGift .barcode{
+    border: 1px solid #808080;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 6px 20px;
+    font-size: 1.4em;
+    font-family: "robotoCondensed";
+    margin: 29px auto 16px!important;
+    width: 230px;
+}
+
+.position-rela {
+    position: relative;
+    overflow: hidden;
+}
+
+.showCelebrity{
+    -webkit-transition: left 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: left 0.4s;
+    top: 0;
+    position: absolute;
+    z-index: 99;
+    opacity: 1;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.editAdminInfo{
+    -webkit-transition: left 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: left 0.4s;
+    top: 0px;
+    position: absolute;
+    z-index: 100;
+    opacity: 1 !important;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.editAdminCelebratedInfo{
+    -webkit-transition: left 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: left 0.4s;
+    /* top: 0px; */
+    position: absolute;
+    padding: 20px;
+    z-index: 100;
+    opacity: 1 !important;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.deliveryAddressDetail{
+    -webkit-transition: left 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: left 0.4s;
+    top: 0px;
+    position: absolute;
+    z-index: 100;
+    opacity: 1 !important;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.addAddressForm {
+    -webkit-transition: left 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: left 0.4s;
+    top: 0px;
+    position: absolute;
+    z-index: 100;
+    opacity: 1 !important;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.editEventName{
+    -webkit-transition: left 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: left 0.4s;
+    top: 0;
+    position: absolute;
+    z-index: 99;
+    opacity: 1;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.row.eventBlock {
+    position: relative;
+}
+.row.eventBlock {
+    position: relative;
+/* list style type hide */
+}
+/*
+ul {
+    list-style-type: none;
+} */
+
+/* datefiltermodal height fix  */
+
+.datefiltermodal .modal-dialog  {
+    margin: 0;
+    height: 100%;
+}
+.datefiltermodal .modal-content {
+    height: auto;
+    min-height: 100%;
+}
+
+/* available in latest css */
+.customRadio {
+    background: #fff;
+    position: relative;
+    float: right;
+    width: 26px;
+    height: 26px;
+}
+
+.row.eventBlock {
+    /* position: relative; */
+}
+
+/* .container-fluid {
+    position: relative;
+    overflow: hidden;
+} */
+
+/* For favourite */
+.star {
+    font-family: verdana;
+    font-size: 22px;
+    display: inline-block;
+    color: #ccc;
+}
+.star:before {
+    content:"\2605";
+}
+.starafter:after {
+   content:"\2605";
+}
+.star-yellow {
+  color:rgb(255, 187, 0);
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+ }
+ .home-container {
+     position: relative;
+     overflow: hidden;
+ }
+   .home-container .alertSuccess {
+     margin-top: 15px;
+   }
+.modal-header {
+    padding: 15px !important;
+}
+
+
+.mainContainer .step3 .content .input-group .input-group-btn {
+    width: 1% !important;
+    position: relative;
+    left: 25px;
+    z-index: 999;
+}
+
+.mainContainer .step3 .content .input-group .input-group-btn .btn-default.buttonSearch {
+    line-height: normal;
+}
+
+.mainContainer .step3 .content .input-group .input-group-btn .buttonSearch i {
+    font-size: 14px;
+    left: 0 !important;
+}
+
+/* TimePicker css */
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    top: -96px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:before {
+    border-top: 7px solid rgba(0,0,0,0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:before {
+    bottom: -7px;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu:before {
+    left: 6px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:after {
+    border-top: 6px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:after {
+    bottom: -6px;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu:after {
+    left: 7px;
+}
+
+.bootstrap-datetimepicker-widget table td,
+.bootstrap-datetimepicker-widget table td span {
+    height: 0;
+    line-height: 0;
+}
+
+/* invitation template */
+.mainContainer.mainContainer--custom > ul {
+    padding: 0;
+}
+
+.modalSection.modalOne .mainTheme {
+    position: relative;
+}
+
+/* imported guest list view */
+.imported-guestlist {
+    padding: 0;
+}
+.imported-guestlist li{
+    border-bottom: 1px solid #787676;
+    padding: 5px 0;
+    list-style-type: none;
+}
+.imported-guestlist li .icon-alerta_amarilla{
+    float: right;
+}
+
+/* Added this fo EventCreation Errors, as it was not available. */
+.formBlock {
+    position: relative;
+}
+
+.formBlock input.error,
+.formBlock select.error {
+  font-weight: normal !important;
+}
+
+.formBlock .error {
+    font-weight: bold !important;
+    bottom: -22px !important;
+}
+/* side bar show hide */
+.visibleContent.side-bar-menu {
+    top: 0;
+    position: absolute;
+    background: #fff;
+    min-height: 100%;
+    opacity: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-transition: left 1.5s; /* For Chrome and Safari */
+    -moz-transition: left 1.5s; /* For Firefox */
+    -ms-transition: left 1.5s; /* For IE */
+    -o-transition: left 1.5s; /* For Opera */
+    transition: left 1.5s;
+}
+/* grayContent breaking and button  */
+.grayContent {
+    /* float: none; */
+}
+
+.innerOptions.walletBlock .radio {
+    width: auto;
+}
+
+/* set input:disabled placeHolder position */
+input:disabled+label.placeHolderMaterial {
+    font-size: 10px;
+    top: 1px;
+}
+
+/* set disable input color */
+input:disabled {
+    color: #b3b3b3;
+}
+
+input:disabled+label span {
+    color: #999;
+}
+
+
+/*---------Account Transfererence And Closure---------*/
+/* AccountStatus */
+/* radio inline css */
+span.radioInline > div {
+    display: inline;
+}
+.prodAccountUrl {
+    text-align: center;
+    text-decoration: underline;
+}
+#FiltermodalAccountState .modal-content {
+    height: 100%;
+}
+.break-word{
+    word-break: break-word;
+}
+/* Partial Transfer */
+.innerForm .input-group-error-label{
+    color: #f00;
+    width: 80%;
+}
+#option1.innerForm {    /* help icons position fix */
+    position: relative;
+}
+#option1.innerForm > .fa.fa-question-circle.fa-2x {
+    display: inline-block;
+    position: absolute;
+    top: -32px;
+    left: 115px;
+}
+.monedero-container .formBlock .error{
+    bottom: 0px !important;
+}
+button.close#bgBlack {
+    background: #3c3b3b !important;
+    color: #fff;
+    opacity: 1;
+    line-height: 0;
+}
+
+#closeModal {
+    line-height: 20px;
+    font-size: 18px;
+}
+/* kaltura-Image */
+#createEvent .imageBlock > div img {
+    border-radius: 50%;
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: cover;
+}
+
+/* show popover */
+.display-block {
+    display: block
+}
+.textDisponibility {
+    position: relative
+}
+
+.textDisponibility .popover.bottom {
+    top: 25px;
+    left: 15px;
+}
+
+/* Closure */
+.userbankcard-inneroptions .innerOptions .radio{
+    width: 95%;
+}
+#myModalConfirmation .errorMessage span {
+    float: right;
+}
+#myModalConfirmation .text-red {
+    color: #f00;
+}
+.closingGiftPanel .closingGiftImg,
+#giftListOption2 .closingGiftImg{
+    width: 22px;
+}
+.closingGiftPanel .closingGiftConfirmationImg{
+    width: 50px;
+}
+/*END Account Transfererence And Closure*/
+
+/* CSS for Counter in GiftListGuestView  */
+.customFormControl,
+.contentQuantity {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0px 6px 12px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+}
+.contentQuantity > .label {
+  position: relative;
+  float: left;
+  width: 40%;
+  font-size: 15px;
+  color: #555;
+  font-weight: normal;
+  border-right: solid 1px #ccc;
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+  text-align: left;
+  padding: 6px 0px;
+}
+.contentQuantity > .spiner {
+  display: table;
+  border: none;
+  position: relative;
+  float: left;
+  width: 60%;
+}
+.contentFavGift > .label {
+    position: relative;
+    float: left;
+    width: 80%;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: solid 1px #ccc;
+    -moz-border-radius: 0px;
+         border-radius: 0px;
+    text-align: left;
+    padding: 6px 0px;
+  }
+  .contentFavGift >.select {
+    font-size: 12px;
+    float: right;
+  }
+  /*css copy to touch spin*/
+  .bootstrap-touchspin input[type="number"] {
+    border: none;
+    width: 100%;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 5%;
+    height: 25px;
+    font-weight: bold;
+  }
+  .bootstrap-touchspin .input-group-btn-vertical {
+    position: relative;
+    white-space: nowrap;
+    width: 1%;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .bootstrap-touchspin .input-group-btn-vertical > .btn {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 8px 10px;
+    margin-bottom : 0px;
+    margin-left: -1px;
+    position: relative;
+    border: none;
+  }
+  .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up {
+    -moz-border-radius: 0;
+         border-radius: 0;
+  }
+  .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down {
+    margin-top: -2px;
+    -moz-border-radius: 0;
+         border-radius: 0;
+  }
+  .bootstrap-touchspin .input-group-btn-vertical i {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 9px;
+    font-weight: normal;
+  }
+
+/* productImgModal in GiftListGuestView */
+.productImgModal picture img {
+    /* width: vw!important; */
+    height: auto !important;
+}
+/* product Modal  height*/
+#productModal .modal-dialog {
+    height: auto;
+}
+
+#filtersModal .modal-content,
+#catModal .modal-content {
+    height: 100% !important;
+}
+
+#adminModal .modal-content  {
+    padding-top: 0px;
+}
+
+#adminModal .modal-header  {
+    padding-right: 0px !important;
+}
+
+#adminModal .modal-header div p {
+    width: 150px;
+}
+
+#adminModal .modal-header div .close {
+    line-height: 0;
+}
+
+#adminModal .modal-header div .close span {
+    line-height: 10px;
+}
+
+/* Added this generic css */
+.p-l-5 {
+    padding-left: 5px;
+}
+.p-l-10 {
+    padding-left: 10px !important;
+}
+.p-l-15 {
+    padding-left: 15px;
+}
+.p-l-20 {
+    padding-left: 20px;
+}
+.p-l-35 {
+    padding-left:35px;
+}
+.p-l-100 {
+    padding-left: 100px;
+}
+.pl-0 {
+    padding-left: 0;
+}
+.pr-0 {
+    padding-right: 0;
+}
+.p-r-15 {
+    padding-right: 15px;
+}
+.p-b-25 {
+    padding-bottom: 25px;
+}
+.m-l-0 {
+    margin-left: 0 !important;
+}
+.m-r-0 {
+    margin-right: 0 !important;
+}
+.popover-arrow-left {
+    left: 15% !important;
+}
+.popover-arrow-right {
+    left: 85% !important;
+}
+.break-word {
+    word-wrap: break-word;
+}
+.break-all {
+    word-break: break-all;
+}
+.anchor-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+/* inLine input_help_icon error its no available in lp css */
+.inLine.input_help_icon .materialStyle + .error {
+    bottom: -2px !important;
+}
+/* .row.everyTool .toolsCard */
+.row.everyTool .toolsCard {
+    margin-left: 3.3%;
+    margin-right: 1px;
+}
+/* Invitation css start */
+/* edit invitation css */
+
+/* .mobileView {
+    overflow: overlay;
+} */
+
+/* Invitation css end */
+
+/* CSS for Tool-tip GiftList */
+.detailGift {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    -moz-box-shadow: 0px 2px 3px #888;
+    box-shadow: 0px 2px 3px #888;
+    margin-top: 0px;
+    position: absolute;
+    padding: 10px;
+    z-index: 1000;
+    width: 165px;
+    left: 50px;
+    /* top: 7px; */
+}
+.detailText {
+    font-size: 13px;
+    color: #888;
+}
+.detailText i {
+    cursor: pointer;
+    font-size: 12px !important;
+    margin-left: 21px;
+    margin-top: 3px;
+    position: absolute;
+    top: -12px;
+    left: 50px;
+}
+/* Gift-list welcome pop-up */
+#adminModal .modal-dialog .modal-content  {
+    min-height: 450px !important;
+}
+.dropdown-menu.specialSelect {
+    background: #d3d3d3;
+    height: auto;
+    width: auto;
+    min-width: 145px;
+    padding: 0 12px;
+}
+ul.dropdown-menu.specialSelect li a {
+    font-size: 14px;
+    z-index: 9999999;
+    /* padding-bottom: 10px; */
+    padding: 5px;
+}
+.dropdown-toggle.btns-footer {
+    display: block;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.dropdown-toggle.btns-footer .caret{
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-bottom: 8px solid #666;
+}
+.footerBarOptions .closebar a .icon-tache2{
+    color: #666;
+}
+/* image circle for wap image upload*/
+.img-upload-circle{
+    border-radius: 50%;
+    height: 76px;
+    width: 76px;
+    object-fit: cover;
+}
+/* otherStores inside images because it wrap in anchor tag  */
+.otherStores img {
+    width: 19.5% !important ;
+}
+/* home page login .popover */
+.homeSessionContainer {
+    display: none;
+    background-color: #fff;
+    width: 316px;
+    height: auto;
+    padding: 15px;
+    position: absolute;
+    border: 1px solid #d8d8d8;
+    z-index: 10;
+    right: -10px;
+    bottom: 30px;
+    font-size: 12px;
+  }
+  .homeSessionContainer p {
+    margin: 0;
+  }
+  .homeSessionContainer p:nth-child(1) {
+    font-weight: bold;
+  }
+  .homeSessionContainer:before {
+    content: "";
+    position: absolute;
+    top: -moz-calc(100% - 6px) /*i.e. half the height*/;
+    top: calc(100% - 6px) /*i.e. half the height*/;
+    right: 50px;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
+    border-bottom: inherit;
+    border-right: inherit;
+    -moz-box-shadow: inherit;
+         box-shadow: inherit;
+}
+  .homeSessionContainer i {
+    font-size: 6px;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    padding: 6px;
+    -moz-border-radius: 100%;
+         border-radius: 100%;
+    float: right;
+}
+/* Adding this css for Home page event type images. */
+div.image-section {
+    position: relative;
+}
+
+div.image-section div.text-section {
+    display: inline;
+    color: #FFF;
+}
+
+div.image-section div.text-section .text-msg {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 10px;
+}
+
+div.image-section div.text-section .text-link {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    font-size: 10px;
+}
+
+div.image-section img.category-icon-img {
+    position: absolute;
+    top: 55%;
+    left: 68%;
+    width: 70px;
+    height: 70px;
+    margin-top: -75px;
+    margin-left: -100px;
+}
+/* For Gift List Profile Image */
+.adminInfo img {border-radius: 84px;height: 70px;width: 168px;object-fit: cover;}
+
+/* for main mobile container issue fix */
+/* .container-fluid.mobileView,
+.container-fluid#footer {
+    padding: 0;
+} */
+
+/*limpiar_filtros*/
+.limpiar_filtros
+{
+margin-top: -4px;
+margin-right: -6px;
+padding:20px !important;
+line-height:0px;
+}
+
+/* k regrsar button */
+.regrsear_button
+{
+padding:20px !important;
+line-height:0;
+}
+
+/*k greatar button */
+.greater_icon
+{
+position: relative !important;
+    top: -10px !important;
+    left: -79px !important;
+}
+
+/* k icon zoom before*/
+.icon-zoom:before {
+    position: relative;
+    left: -3px;
+    color: gray;
+    font-size: 15px;
+    font-weight:lighter;
+}
+/* k  input-group form*/
+.input-group .form-control {
+	padding-left: 15px;
+	background-color: #fff;
+    /*padding-left:30px;*/
+}
+/* k mountpint */
+input#mount-point {
+    width:100%;
+}
+/* k span.btn border none */
+/* span.btn
+{
+    border:none !important;
+} */
+
+/* k .box_aalign .checkbox */
+.box_aalign .checkbox #selectAll + label {
+    margin-left:19px;
+}
+/* k mount-poin   icon zoom*/
+#mount-point.icon-zoom{
+    top: -1px !important;
+    left: -8px !important;
+}
+
+/* ui breaking fix BKB */
+/* k guest list */
+/* ul.guestList
+{
+    border-top:none;
+} */
+/* k check conternt */
+/* .guestList .checkContent
+{
+    border-right:none !important;
+} */
+
+.icon-flecha_light_izq:before {
+    position:relative;
+}
+
+/* k dark link*/
+.customDarkLink .darkLink {
+    padding:10px;
+}
+/* col-xs-3 bagWrapper manage padding */
+/* moved to megamenu.css */
+
+
+/* margin top fix  */
+#content > .container {
+    margin-top: 0px !important;
+}
+/* moved to megamenu.css */
+
+  /* WAP createEvent popup */
+.articleName .iconHelp.inLine .popover.bottom {
+    left: 21px;
+    top: 30px;
+}
+.iconHelp.inLine .helpIconCss {
+    top: 38px;
+    left: 15px;
+}
+.iconHelp.inLine .helpIconCss .arrow{
+    left: 73%;
+}
+.iconHelp.inLine .helpIconCssEmail {
+    top: 35px;
+    left: 70px;
+}
+.iconHelp.inLine .helpIconCssEmail .arrow{
+    left: 95%;
+}
+.helpIcon .helpIconCss {
+    top: 30px;
+    left: 77px;
+}
+.helpIcon .helpIconCss .arrow{
+    left: 95%;
+}
+/*Virtual Invitation*/
+#hi4051 {
+    font-family: arial, sans-serif;
+    display: block;
+    background-color: #FFE1B4;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: auto;
+    width: 100%!important;
+    max-height: 1000px;
+    overflow: hidden;
+}
+/* Event management */
+.editOwnerWap{
+    margin: -20px 0px 5px 243px;
+    height: 23px;
+    width: 25px;
+}
+.editAdminCelebratedInfo .allowAdmin{
+    max-width: 100% !important;
+}
+.popMobile{
+    top: -98px !important;
+    left: 35px !important;
+}
+.arrowMobile{
+    left: 81% !important;
+}
+.showPopOver{
+    display:block !important;
+}
+/* Event management */
+/* modal popup box*/
+ .modal-pop-up-one
+{
+    height: auto !important;
+    min-height: 43% !important;
+}
+/*modal popup box end*/
+
+/* Its breaking disabled checkbox */
+/* .checkbox input[type="checkbox"]:disabled + label {
+    margin-left:36px;
+} */
+
+/*evarar button start*/
+button#customActionBTN.btnSecondaryAction.size-Full.btnPrimaryDisable
+{
+    padding-top:2px;
+    height: 50px;
+    width: 90%;
+    margin-left: 21px;
+    line-height: 50px;
+
+}
+button#customActionBTN.btnSecondaryAction.size-Full.principalLink
+{
+    padding-top:2px;
+    height: 50px;
+    width: 90%;
+    margin-left: 21px;
+    line-height: 50px;
+
+}
+
+/* evarar button end*/
+#myModalAddList .modal.fade.in .modal-dialog.modal-lg .modal-content{
+    min-height: auto !important;
+}
+
+/* gmail alignment*/
+/* import ui fix */
+/* .gmail_align p {
+    margin-bottom: -5px;
+} */
+
+/* check box align ment*/
+
+input#selectAll+label
+{
+    margin-left:20px !important;
+}
+input#peoplec5014464016527294956+label
+{
+    margin-left:36px;
+}
+/* Its breaking disabled checkbox */
+/* .checkbox input[type="checkbox"]:disabled + label::before {
+    margin-left: -56px !important;
+}
+.checkbox input[type="checkbox"]:disabled + label::after {
+    margin-left: -56px !important;
+} */
+
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group
+{
+    height:35px !important;
+}
+
+
+/* position of the agregar adminstarator page button not vissible*/
+.form-buttons-marg
+{
+    margin-top:-23px;
+    padding:0px !important;
+}
+input#Title.inputMaterial.inputmaterial-margin
+{
+    margin-bottom:-14px;
+    margin-top:-11px;
+}
+input#nombre.inputMaterial.inputmaterial-margin
+{
+    margin-bottom:-14px;
+}
+input#apellidoPaterno.inputMaterial.inputmaterial-margin
+{
+    margin-bottom:-14px;
+}
+input#apellidoMaterno.inputMaterial.inputmaterial-margin
+{
+    margin-bottom:-14px;
+}
+input#alias.inputMaterial.inputmaterial-margin
+{
+    margin-bottom:-14px;
+}
+input#celular.inputMaterial.inputmaterial-margin
+{
+    margin-top: -14px;
+}
+input#email.inputMaterial.inputmaterial-margin
+{
+    margin-top: -10px;
+}
+.margin-header
+{
+    margin-top:2px;
+}
+/* edit for datos de mi evento edit page cancel button */
+.medium-link-marg
+{
+    margin-top: -18px !important;
+}
+.row-box-marg
+{
+        padding-top: 0px !important;
+}
+.mailinput-marg
+{
+    margin-top: -8px !important;
+    margin-bottom:1px !important;
+}
+.allow-admin-marg-one
+{
+    margin-top:-13px !important;
+}
+.col-xs-12 .form-align-width
+{
+    height: 100px !important;
+}
+ .form-block-marg-one
+ {
+     margin-top:-11px;
+ }
+/* icon zomm search*/
+.icon-zoom-search
+{
+    position: relative !important;
+    left: -355px !important;
+    top: 0px !important;
+}
+.cancel-search-one {
+    position: relative !important;
+    top: -28px !important;
+    left: 343px !important;
+    z-index: 2 !important;
+}
+.form-contro-width {
+    width:97% !important;
+}
+/* added favroute icons css */
+.tableRegisteredGifts .imgInner input.checkStar + label {
+    font-size: 18px;
+    text-align: right;
+    padding-right: 10px;
+}
+#assistanceModal {
+    overflow: hidden !important;
+}
+
+#assistanceModal .filter.groupsOption .guestStatusDropDown.radio input[type="radio"] {
+    height: 20px;
+    width: 20px;
+}
+#filter-modal-assist .modal-body,
+#assistanceModal .modal-body {
+    padding: 15px;
+}
+
+#filter-modal-assist .modal-header .leftBtnFilter .filterBackButton > .icon-flecha_light_izq,
+#assistanceModal .modal-header .leftBtnFilter .filterBackButton > .icon-flecha_light_izq {
+    margin-top: 0;
+}
+#filter-modal-assist .modal-header .rightBtnFilter .filterCleanButton,
+#assistanceModal .modal-header .rightBtnFilter .filterCleanButton {
+    height: 44px;
+    margin-top: 0;
+}
+/*alignment of regalos page*/
+.tableregister-gift-td td
+{
+    max-width: 153px;
+    word-wrap: break-word;
+}
+
+.icon-right-pos-marg-add-svg-drecha
+{
+    position:relative;
+}
+ .tableRecievedgifts-one td
+ {
+     max-width: 162px;
+    word-wrap: break-word;
+ }
+ .tabelPersonalShoping_one td
+ {
+     max-width: 122px;
+    word-wrap: break-word;
+ }
+
+ /*/*Click on Editar butoon than in the end button is going hide*/
+
+.position-rela {
+height:809px;
+}
+
+
+
+/*Wap Header Part icons positions changed*/
+ .icon_icons_perfil_position_one {
+    font-size: 31px;
+    position: relative;
+    left: 9px;
+    top: -3px;
+ }
+
+.icon-bolsita-position-one {
+    font-size: 36px !important;
+    position: relative;
+    left: 5px;
+ }
+/* contentSearchTable padding fix  */
+.wrap.grayBackground .contentSearchTable {
+    padding: 8px;
+}
+
+/* GiftList WAP Message Area */
+
+.float-none{
+    float:none;
+}
+.searchProductBlockRegistered .input-group-btn .icon-tache2 {
+  color: gray!important;
+}
+
+#modalOptions .cSelect {
+  margin-bottom:0px;
+}
+
+#modalOptions .checkStar+label {
+  font-size:
+  26px;
+  position:
+  relative;
+  top: -5px;
+}
+#modalOptionCertificate .checkStar+label {
+    font-size:
+    26px;
+    position:
+    relative;
+    top: -5px;
+  }
+
+/* virtual invoitation close modal */
+button#wapsaveclose {
+    position: relative;
+    bottom: 30px;
+}
+
+label#shortUrl {
+    word-wrap: break-word;
+}
+span#dataEventMessage {
+    word-wrap: break-word;
+}
+#mapArea .bootstrap-datetimepicker-widget.dropdown-menu {
+    top: -70px;
+}
+#mapArea .form-group .bootstrap-timepicker.timepicker + label {
+    display: none;
+}
+.cancel-search-btn {
+    cursor: pointer;
+    font-size: 20px;
+    right: 20px;
+    top: 2px;
+    z-index: 999;
+    opacity: 0;
+    position: relative;
+}
+
+/* set input:disabled placeHolder position */
+input:disabled + label.placeHolderMaterial {
+    font-size: 10px;
+    top: 1px;
+}
+
+/* set input:disabled placeHolder position */
+input:read-only + label.placeHolderMaterial {
+    font-size: 10px;
+    top: 1px;
+}
+
+input:read-only + label.placeHolderMaterial span {
+    color: #74b0e2;
+}
+
+.giftPA .selectDayList {
+    padding: 0;
+}
+.mainContainer #step3.step3 {
+    margin-top: 20px;
+}
+/* txt-deco-none */
+.txt-deco-none {
+    text-decoration: none !important;
+}
+
+#addMessage .invi-msg {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 240px;
+}
+/* Myinvite title */
+h3#invTitle {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.serachIconGuestList > .input-group #mount-point {
+    height: 35px;
+}
+
+.serachIconGuestList > .input-group #mount-point + .input-group-btn #changeIcon{
+    margin-left: 3px;
+    line-height: 18px;
+}
+/* importGuestModal */
+#importGuestModal .modal-body .guestList .guestContent {
+    padding-top: 4px;
+}
+#importGuestModal .modal-body .cTable > .checkbox {
+    padding-left: 20px;
+}
+#importGuestModal .modal-body .guestList .guestContent .info .nameGuest {
+    float: left;
+}
+#importGuestModal .modal .optionImport.gmail_align {
+    padding: 5px !important;
+}
+/* Virtual invitation mensaje */
+/* Moved to invitations.css */
+
+/*Loading Spinner*/
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99998;
+  text-align: center;
+}
+
+#loading-image {
+ position: absolute;
+ width: 150px;
+ top: 50%;
+ bottom: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ z-index: 99999;
+}
+ /* createEvent */
+ .selectStoreStep {
+    margin-top: 30px;
+
+}
+/* Confirm assistance */
+
+.row.countBlock + hr,
+.addNewBlock > hr  {
+    margin-top: 0px;
+}
+.countBlock .input-group.quantityGroupGift {
+    margin-top: 0px;
+}
+/* Reminder landing page | Event Tools */
+.col-xs-12.requiredBlock {
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(221, 221, 221);
+    text-align: right;
+}
+/* CSS for reminder landing page | Event Tools */
+.reminderBlock {
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding-top: 20px;
+}
+/* createEvent */
+ .selectStoreStep {
+    margin-top: 30px;
+}
+/* Notification */
+.statusList li {
+    padding-right: 25px !important;
+}
+.statusList .wap-notification {
+    position: relative;
+    left: 7px;
+}
+.statusList .wap-notification .guest-count  {
+    float: left;
+}
+
+.statusList .wap-notification .notification {
+    background: #f00;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    float: left;
+    margin-right: 0px;
+}
+.statusList .wap-notification .icon-flecha_lightsvg_derecha {
+    position: absolute;
+    left: 35px;
+    top: 3px;
+    font-weight: bold;
+}
+/* Gift List Guest View CSS for Filter pop-up */
+/*#filtersModal .modal-header {
+    padding: 15px 0 !important;
+}*/
+#filtersModal .modal-header .icon-flecha_light_izq {
+    padding-right: 5px;
+}
+
+/* Event Tools Reminder page */
+#addGuestCheck:disabled + label {
+    margin-left: 0px;
+}
+#addGuestCheck:disabled + label::before {
+    margin-left: -20px!important;
+}
+
+/* confirmationModalPopup view modal */
+
+.border-top {
+    border-top: 1px solid #ccc;
+}
+
+.border-right {
+    border-right: 1px solid #ccc;
+}
+/* Gift List WAP */
+img.eventMessageImage {
+    height: 55px !important;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 0!important;
+}
+.confirmationModalPopup .modal-content {
+    border-radius: 20px !important;
+}
+
+.confirmationModalPopup .modal-body {
+    padding: 15px 15px 0 15px;
+}
+
+.confirmationModalPopup .modal-body .modal-btn-container {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.modal-btn-container .modal-btn-box {
+    padding: 10px 15px;
+}
+
+#sharingModal .modal-header .close {
+    width: 25px !important;
+    height: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+#sharingModal .modal-body .btn {
+    line-height: 1.42857143;
+}
+
+.selectAllRG > .checkbox,
+.selectRegister > .checkbox {
+    padding-left: 20px;
+}
+/* GiftList WAP */
+.searchProductBlockRegistered .input-group-btn .icon-tache2 {
+    color: gray !important;
+}
+
+#modalOptions .cSelect {
+    margin-bottom: 0px;
+}
+#modalOptions .checkStar+label {
+    font-size: 26px;
+    position: relative;
+    top: -5px;
+}
+
+
+#modalOptions .cSelect {
+  margin-bottom: 0px;
+}
+
+/* For Firefox For Remvoing spinner from input type*/
+.accountTransference input[type='number'] {
+    -moz-appearance:textfield;
+
+}
+
+#modalOptions .checkStar+label {
+  font-size:
+  26px;
+  position:
+  relative;
+  top: -5px;
+}
+
+/* Webkit browsers like Safari and Chrome */
+.accountTransference input[type=number]::-webkit-inner-spin-button,
+.accountTransference input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* below css is for modal in dates de mi evento when celebrity gets edited */
+#editAdminCelebratedInfoModal .modal-content{
+    overflow-y: auto!important;
+    border-radius: 0px!important;
+    border:none!important;
+}
+/* below css is for modal in dates de mi evento when celebrity gets edited */
+#editAdminCelebratedInfoModal .modal-body{
+    padding: 0px;
+    overflow: scroll;
+}
+
+/* registerForm */
+.homelogin-box .checkbox a {
+    margin-top: 1px;
+    float: right;
+    margin-right: -16px;
+}
+/* for disabling the increment and decrement in Table Org */
+.disbaleDiv{
+    background-color: lightgray!important;
+    pointer-events: none;
+}
+
+
+#wapmsgclose {
+    position:relative;
+    bottom:30px;
+}
+
+
+/* removing width of the field from  */
+.mobileView #editAdminCelebratedInfoModal .adminMail,
+.mobileView #editAdminCelebratedInfoModal .btnPrimaryAction,
+.mobileView #editAdminCelebratedInfoModal .mediumLink{
+    max-width: none!important;
+  }
+
+  /* for permission checkbox in datos de mi evento checkbox  */
+  .permissionCheckBox{
+    padding: 0px 20px
+  }
+  /* changePermission */
+  .changePermission .allowAdmin .checkbox > input {
+      margin-left: 0;
+  }
+.management-link a {
+    border-bottom: 1px solid #dadada;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    padding: 17px 0 13px 18px;
+    width: 100%;
+  }
+
+  .management-link a i{
+    float: right;
+    padding-right: 12px;
+  }
+/* predetermined page in gift list fix the wap */
+.categoryDefaultListModal .tableFilter .optionFilter .radio label::before {
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 1px solid #000;
+    height: 18px;
+    width: 18px;
+}
+
+.categoryDefaultListModal .tableFilter .optionFilter .radio label::after {
+    background-color: #000;
+    border: 1px solid #000;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    height: 12px;
+    width: 12px;
+}
+/* for closing gift range in eventmanagement */
+#closingGiftManagement.closureContainer .progress {
+    width:auto!important;
+}
+/* for border in WAP when there is only one oaddess */
+.myEventContent .deliveryAddress .addressContainer #oneAddressOnly {
+    border-bottom: 1px solid #dedede !important;
+  }
+.popover-content ul {
+    padding: 0;
+}
+/* Tools Landing Page for anonymous user */
+h2.subtitleSection.divider{
+    position: relative;
+    border-bottom: 0 !important;
+}
+
+h2.subtitleSection.divider::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #d2d2d2;
+    width: 60%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0px;
+}
+.centeraligned {
+  width: 94%!important;
+  margin-left: 0;
+}
+
+.mainText.greyBox {
+    color: #838383;
+}
+.newMessageIcon{
+    color: #666;
+    font-family: robotoCondensed;
+}
+.eventCongratulationsMessage {
+    color: #000;
+    font-family: robotoCondensed;
+    margin-top: 10px;
+}
+.titleSection.paginaWapTools{
+  margin-left: 0px!important;
+}
+
+#socialModal .guestList li, .groupList li {
+    border-bottom: none;
+    min-height: 33px!important;
+}
+/* DeleteBtn for guestlist */
+.deleteCancelarBtn {
+    background-color: #969696;
+}
+.editAdminCelebratedInfo .boxContent .allowAdmin.permissionBox .materialStyle label {
+    position: absolute !important;
+}
+.changePermission.allowAdmin .checkbox {
+    padding-left: 15px;
+}
+.changePermission.allowAdmin .checkbox label {
+    left: 0px !important;
+}
+/* added for stepBarContainer in partial and closure transference */
+.partialTransference .stepBarContainer {
+    width : auto;
+  }
+  .giftRegistryClosure .stepBarContainer {
+    width : auto;
+  }
+  /* -------------- */

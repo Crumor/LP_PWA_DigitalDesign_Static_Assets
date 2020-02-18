@@ -1,0 +1,1094 @@
+/*MyEvent.css v1.8.9*/
+.croppieControls {
+  width: 360px;
+  height: 80px;
+  margin-bottom: 60px;
+}
+.croppieImage {
+  width: 80px;
+  height: 80px;
+}
+#createEvent .imageBlock > div img{
+    width: 200px!important;
+    height: 200px!important;
+    border: 6px solid #ececec;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.croppieImage {
+    width: 200px;
+    height: 200px;
+    border: 6px solid #ececec;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.croppiePreview {
+  width: 300px;
+  height: 350px;
+  display: none;
+  margin-bottom: 50px;
+}
+.chooseFile {
+  visibility: hidden;
+}
+.displayInline {
+  display: inline;
+}
+.addAdministrator {
+  position: absolute;
+  right: -125px;
+  top: 73px;
+}
+@media screen and (min-width: 768px) {
+  .addAdministrator {
+    left: 580px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .addAdministrator {
+    left: 361px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .addAdministrator {
+    left: 362px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .addAdministrator {
+    left: 380px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .addAdministrator {
+    left: 420px;
+  }
+}
+@media screen and (min-width: 1540px) {
+  .addAdministrator {
+    left: 430px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .addAdministrator {
+    left: 459px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .addAdministrator {
+    position: absolute;
+    top: 73px;
+    left: 490px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .addAdministrator {
+    position: absolute;
+    top: 73px;
+    left: 490px;
+  }
+}
+.editEventIcon {
+  display: inline;
+  width: 20px;
+  margin-left: 15px;
+  vertical-align: unset;
+}
+.celebratedCard .informativeTextSecond {
+  margin-bottom: 30px;
+}
+.marked {
+  background-color: #ff9;
+  font-weight: bold;
+}
+.myWallets .primaryColorLink i {
+  font-size: 10px;
+}
+.noMargin {
+  margin: 0 !important;
+}
+.specificWidth {
+  width: 250px !important;
+}
+.oppeningContainer .selectedOptions {
+  display: none;
+  margin-top: 40px;
+}
+.oppeningContainer .selectedOptions p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0 !important;
+}
+.oppeningContainer .selectedOptions p span {
+  font-weight: normal !important;
+}
+.oppeningContainer .buttonBlock {
+  display: none;
+  margin-top: 20px;
+}
+.oppeningContainer .buttonBlock button {
+  font-size: 18px;
+}
+.oppeningContainer .radio {
+  margin: 20px 0 0;
+}
+.oppeningContainer .radio .label {
+  font-size: 14px;
+}
+.oppeningContainer .giftDeliveryAddress {
+  display: none;
+  margin-top: 20px;
+}
+.oppeningContainer .giftDeliveryAddress > p {
+  font-size: 14px !important;
+  margin-right: 20px;
+  display: inline-block;
+}
+.oppeningContainer .giftDeliveryAddress > a i {
+  font-size: 16px;
+  font-weight: bold;
+}
+.oppeningContainer .giftItem p {
+  font-size: 14px !important;
+  margin: 30px 0;
+}
+.oppeningContainer .alertBox {
+  display: none;
+}
+.oppeningContainer .cSelect.filters.adress {
+  display: none;
+}
+.oppeningContainer p.mainText.adress {
+  margin-top: 20px;
+  display: inline-block;
+}
+.oppeningContainer .cSelect {
+  float: none;
+  width: 45%;
+  height: 41px;
+}
+.oppeningContainer .cSelect p {
+  font-size: 14px !important;
+}
+.oppeningContainer .pdp-productGift {
+  width: 300px;
+  margin: 0;
+}
+.oppeningContainer .pdp-productGift-list.visible {
+  background: #fff;
+  border: 1px solid #808080;
+  z-index: 2;
+}
+.oppeningContainer .pdp-productGift-list.visible ul {
+  margin-bottom: 0;
+}
+.oppeningContainer .productGift p {
+  margin-left: 10px !important;
+}
+.oppeningContainer span.titleGift {
+  color: #f00;
+}
+.oppeningContainer span.titleGift p {
+  margin: 0;
+  color: #b4b4b4;
+  display: inline-block;
+}
+.oppeningContainer span.arrowDown i {
+  font-size: 1.5em;
+}
+.oppeningContainer p.yourGift {
+  color: #666;
+}
+.oppeningContainer p.asignAdress {
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.oppeningContainer p.asignAdress i {
+  margin-left: 5px;
+}
+.oppeningContainer p.emailGift {
+  font-family: "robotoCondensed";
+  color: #000;
+  font-size: 1.4em;
+}
+.oppeningContainer ul.facets {
+  margin-bottom: 25px;
+}
+.oppeningContainer a.goto {
+  color: #e10098;
+}
+.oppeningContainer a.goto i {
+  margin-left: 10px;
+}
+.oppeningContainer .celebratedGift {
+  border: 1px solid #808080;
+  -moz-border-radius: 5px;
+       border-radius: 5px;
+  height: 180px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.oppeningContainer .celebratedGift p.giftEvent {
+  color: #666;
+  font-family: "robotoCondensed";
+  font-size: 15px;
+  margin-top: 10px;
+}
+.oppeningContainer .celebratedGift .celebratedName {
+  background: #e10098;
+  color: #fff;
+  font-size: 1.4em;
+  padding: 10px 20px;
+  font-family: "robotoCondensed";
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: -1px;
+}
+.oppeningContainer .celebratedGift .celebratedName.gray {
+  background: #9e9e9e;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 0px;
+       border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+       border-top-right-radius: 0px;
+  margin-left: -1px;
+}
+.oppeningContainer .celebratedGift .celebratedNumber {
+  border: 1px solid #808080;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  font-family: "robotoCondensed";
+  margin: 35px auto;
+  width: 230px;
+}
+.oppeningContainer .celebratedGift .barcode {
+  border: 1px solid #808080;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  font-family: "robotoCondensed";
+  margin: 35px auto 16px;
+  width: 230px;
+}
+.oppeningContainer .subtitleContract {
+  color: #666;
+  text-align: left;
+}
+.oppeningContainer .pdfContent {
+  border: 1px solid #dedede;
+  max-height: 300px;
+  overflow: auto;
+  padding: 15px;
+}
+.oppeningContainer .pdfContent p {
+  color: #666;
+  text-align: left;
+}
+.oppeningContainer .termsConditions {
+  padding: 15px 30px;
+}
+.oppeningContainer .termsConditions p,
+.oppeningContainer .termsConditions input {
+  display: inline-block;
+  float: left;
+}
+.oppeningContainer .buttonsPdf i {
+  font-size: 25px;
+  float: right;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  display: inline-block;
+}
+.oppeningContainer .innerButtons {
+  width: 100%;
+}
+.oppeningContainer .selesctedGift h2.subtitleModule {
+  display: inline-block;
+}
+.oppeningContainer .selesctedGift h2.subtitleModule:last-child {
+  float: right;
+}
+.oppeningContainer .primaryColorLink {
+  font-size: 12px;
+}
+.oppeningContainer .primaryColorLink i {
+  color: #e10098;
+  font-size: 0.6em;
+  padding-left: 5px;
+}
+.oppeningContainer .selectedOptionsNow p {
+  padding-top: 20px;
+}
+.closureContainer .fullProgressMessage {
+  margin: 25px 0;
+}
+.closureContainer .fullProgressMessage p {
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+.closureContainer .fullProgressMessage p:first-of-type {
+  font-family: 'robotoCondensed';
+  text-transform: uppercase;
+}
+.closureContainer .fullProgressMessage p:last-of-type {
+  font-size: 13px;
+}
+.closureContainer p.yourGift {
+  color: #666;
+}
+.closureContainer p.amountGift {
+  color: #666;
+  font-size: 1.1em;
+  margin-top: 25px;
+}
+.closureContainer p.amountGift span {
+  color: #e10098;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.closureContainer p.emailGift {
+  font-family: "robotoCondensed";
+  color: #000;
+  font-size: 1.4em;
+}
+.closureContainer .progress {
+  width: 350px;
+  margin-top: 10px;
+  -moz-border-radius: 0;
+       border-radius: 0;
+  height: 5px;
+}
+.closureContainer .progress-bar {
+  background-image: -moz-linear-gradient(top, #e10098 0%, #e10098 100%);
+  background-image: linear-gradient(to bottom, #e10098 0%, #e10098 100%);
+}
+.closureContainer .progressData {
+  width: 350px;
+  margin-top: -15px;
+}
+.closureContainer .progressData p.minData,
+.closureContainer .progressData p.maxData {
+  display: inline-block;
+  font-size: 0.8em;
+}
+.closureContainer .progressData p.maxData {
+  float: right;
+}
+.editAdminInfo {
+  margin-top: 51px;
+}
+.editAdminInfo form .twoInputBox .materialStyle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 320px;
+}
+.editAdminInfo form .twoInputBox span {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 20px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.editAdminInfo form .twoInputBox--oneLine {
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.editAdminInfo form .twoInputBox--oneLine .materialStyle:first-child {
+  width: 20%;
+  margin-right: 2%;
+}
+.editAdminInfo form .twoInputBox--oneLine .materialStyle {
+  width: 65%;
+}
+.editAdminInfo form .inputBlock {
+  margin-bottom: 20px;
+  max-width: 320px;
+  width: 80%;
+}
+.editAdminInfo form .inputBlock input {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+.editAdminInfo form .placeHolderMaterial {
+  left: 15px;
+}
+.editAdminInfo form input,
+.editAdminInfo form select,
+.editAdminInfo form .cSelect {
+  border: 1px solid #dedede;
+  color: #3b3b3e;
+  padding-left: 15px;
+  max-width: 320px;
+  width: 80%;
+}
+.editAdminInfo form .cSelect {
+  height: 42px;
+  padding: 0;
+}
+.editAdminInfo form input[type="text"]:disabled {
+  background: #fff;
+}
+.editAdminInfo form select {
+  border: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.editAdminInfo form select:disabled {
+  color: #b3b3b3;
+}
+.editAdminInfo form .changePermission {
+  margin: 30px 0 25px;
+}
+.editAdminInfo form .changePermission label,
+.editAdminInfo form .changePermission img {
+  color: #666;
+  display: inline-block;
+  font-family: 'robotoRegular';
+  font-size: 14px;
+  margin: 0 0 0 5px;
+  vertical-align: top;
+}
+.editAdminInfo form .changePermission img {
+  margin-left: 15px;
+  margin-top: -5px;
+  width: 20px;
+}
+.editAdminInfo form .changePermission .resend {
+  margin-bottom: 30px;
+  max-width: 320px;
+  overflow: auto;
+  padding-top: 5px;
+}
+.editAdminInfo form .changePermission .resend a {
+  color: #e10098;
+  font-size: 12px;
+  float: right;
+  text-decoration: underline;
+}
+.editAdminInfo form .changePermission .resend a.clicked {
+  color: #666;
+  text-decoration: none;
+}
+.editAdminInfo form .changePermission .resend i {
+  color: #666;
+  display: none;
+  float: right;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.editAdminInfo form .changePermission .mailInput {
+  display: none;
+  margin-top: 10px;
+}
+.editAdminInfo form .changePermission .mailInput p {
+  font-size: 12px;
+  max-width: 320px;
+}
+.editAdminInfo form .changePermission .mailInput span {
+  color: #f00;
+}
+.editAdminInfo form .changePermission .mailInput .materialStyle {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.editAdminInfo form .formButtons > * {
+  color: #fff;
+  display: inline-block;
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  height: 40px;
+  margin-right: 25px;
+  padding-left: 0;
+  text-align: center;
+  vertical-align: top;
+  width: 198px;
+}
+.editAdminInfo form .formButtons .grayMobileButton {
+  padding: 8px 0 0 0;
+}
+.editAdminInfo h2 {
+  color: #3b3b3e !important;
+  font-family: 'robotoCondensed';
+  font-weight: bold;
+  font-size: 18px !important;
+  margin-bottom: 19px !important;
+}
+.editAdminInfo h2 span {
+  color: #666 !important;
+  font-size: 12px !important;
+  font-weight: normal;
+}
+.myEventAdminInfo > div {
+  border-bottom: 1px solid #dedede;
+  /*margin-bottom: 50px;*/
+}
+.myEventAdminInfo > div > div:last-of-type {
+  display: none;
+}
+.myEventAdminInfo h2 {
+  color: #3b3b3e;
+  font-family: 'robotoCondensed';
+  font-size: 24px;
+  margin: 38px 0 0 0;
+  padding-left: 15px;
+}
+.myEventAdminInfo h3 {
+  color: #3b3b3e;
+  font-size: 18px;
+  font-weight: bold;
+  height: 35px;
+  margin: 51px 0 22px;
+}
+.myEventAdminInfo h3 span {
+  font-family: 'robotoCondensed';
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+}
+.myEventAdminInfo .admin {
+  padding-bottom: 50px;
+}
+.myEventAdminInfo .admin a {
+  font-size: 18px;
+  font-family: 'robotoCondensed';
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  max-width: 190px;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.myEventAdminInfo .admin p {
+  color: #020202;
+  font-size: 14px;
+  margin-bottom: 22px;
+  word-wrap: break-word;
+
+}
+.myEventAdminInfo .admin .label {
+  color: #666;
+  font-size: 11px;
+  margin-bottom: 8px;
+  padding: 0;
+}
+.myEventAdminInfo .admin.NoMailNumber .blackMobileButton {
+  margin-top: 130px;
+}
+.myEventAdminInfo .addAdminButton {
+  border-bottom: none;
+  padding-top: 25px;
+}
+.myEventAdminInfo .addAdminButton a {
+  height: 40px;
+}
+.myEventContainer {
+  margin: 20px 0 0 0;
+}
+.myEventContainer .addressButtonsBlock {
+  display: none;
+}
+.myEventContainer .myEventInfo {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 40px;
+}
+.myEventContainer .myEventInfo--custom {
+  border-bottom: 0;
+  padding-bottom: 40px;
+}
+.myEventContainer .myEventInfo .editEventNameButtons button {
+  font-size: 18px;
+  height: 40px;
+}
+.myEventContainer .myEventInfo .editEventName {
+  display: none;
+}
+.myEventContainer .myEventInfo .editEventName input {
+  font-size: 14px;
+  height: 40px;
+}
+.myEventContainer .myEventInfo .editEventName .totalLetters {
+  font-size: 12px;
+  padding: 5px 0 0 0;
+  text-align: right;
+}
+.myEventContainer .myEventInfo .editEventName .totalLetters span {
+  color: inherit;
+}
+.myEventContainer .myEventInfo.noBorder {
+  border-bottom: none;
+}
+.myEventContainer .myEventInfo h1 {
+  color: #3b3b3e;
+  font-family: 'robotoCondensed';
+  font-size: 28px;
+  margin: 0 0 31px 0;
+}
+.myEventContainer .myEventInfo p {
+  color: #020202;
+  font-size: 14px;
+  margin-bottom: 17px;
+}
+.myEventContainer .myEventInfo span.messageText {
+  display: block;
+  margin: 0;
+}
+.myEventContainer .myEventInfo .label {
+  display: block;
+  color: #666;
+  font-size: 11px;
+  margin-bottom: 6px;
+  padding: 0;
+  text-align: left;
+}
+.myEventContainer .addAddressButton {
+  margin-top: 10px;
+}
+.myEventContainer .addAddressButton a {
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.myEventContainer .addAddressButton i {
+  font-size: 10px;
+  margin-right: 15px;
+  margin-top: -10px;
+}
+.myEventContainer .addressIntro {
+  padding-bottom: 15px;
+}
+.myEventContainer .addressIntro p {
+  font-size: 13px;
+  color: #666;
+}
+.myEventContainer .addressIntro p span {
+  color: #3b3b3e;
+  font-weight: bold;
+  margin: 0;
+}
+.myEventContainer .addressIntro .alertBox {
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  position: relative;
+  width: 100%;
+}
+.myEventContainer .addressIntro .alertBox p,
+.myEventContainer .addressIntro .alertBox i {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 15px;
+}
+.myEventContainer .addressIntro .alertBox i:first-of-type {
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.myEventContainer .addressIntro .alertBox i:last-of-type {
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.myEventContainer .addressIntro .alertBox.succesMessage {
+  border: 1px solid #01ae4c;
+}
+.myEventContainer .addressIntro .alertBox.succesMessage p {
+  color: #01ae4c;
+}
+.myEventContainer .addressIntro .alertBox.succesMessage i.icon-check {
+  background: #01ae4c;
+}
+.myEventContainer .addressIntro .alertBox.succesMessage i.icon-cerrar {
+  color: #01ae4c;
+}
+.myEventContainer .addressIntro .alertBox.warningMessage {
+  border: 1px solid #ffd457;
+}
+.myEventContainer .addressIntro .alertBox.warningMessage p {
+  color: #ffd457;
+}
+.myEventContainer .addressIntro .alertBox.warningMessage i.icon-alerta_amarilla {
+  background: #ffd457;
+}
+.myEventContainer .addressIntro .alertBox.warningMessage i.icon-cerrar {
+  color: #ffd457;
+}
+.myEventContainer .addressIntro .requiredFields {
+  color: #f00;
+  float: right;
+  font-size: 11px;
+  margin-top: -15px;
+}
+.myEventContainer .addressButtons input,
+.myEventContainer .addressButtons a,
+.myEventContainer .addressButtons button {
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  height: 40px;
+  max-width: 200px;
+  margin: 10px 0 40px;
+  padding: 8px 0;
+  text-align: center;
+  width: 90%;
+}
+.myEventContainer .addressBlock .addressName {
+  color: #3b3b3e;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 23px 0;
+}
+.myEventContainer .addressBlock .addressInfo {
+  margin-bottom: 40px;
+}
+.myEventContainer .addressBlock .addressInfo .adminName {
+  font-family: 'robotoCondensed';
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 7px;
+}
+.myEventContainer .addressBlock .addressInfo .addressData {
+  color: #040404;
+  line-height: 18px;
+  min-height: 90px;
+  margin-bottom: 29px;
+}
+.myEventContainer .addressBlock .addressInfo .btnPrimaryAction {
+  display: block;
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  height: 40px;
+  margin: 29px 0 0 0;
+  padding-top: 8px;
+  text-align: center;
+  width: 90%;
+}
+.myEventContainer .addressBlock .addressInfo .form span {
+  color: #666;
+}
+.myEventContainer .addressBlock .addressInfo .form .inputBlock {
+  margin-top: 5px;
+}
+.myEventContainer .addressBlock .addressInfo .form .inputBlock select {
+  color: #3b3b3e !important;
+  height: 35px;
+  padding: 8px 0 8px 8px;
+  max-width: 200px;
+  width: 90%;
+}
+.myEventContainer .addressBlock .addressInfo .form input {
+  background: #fff;
+}
+.myEventContainer .editEventAddress {
+  margin-top: -25px;
+}
+.myEventContainer .editEventAddress .termsConditions p {
+  font-size: 12px;
+}
+.myEventContainer .editEventAddress .termsConditions p a {
+  color: #e10098;
+  cursor: pointer;
+}
+.myEventContainer .editEventAddress .twoInputBox .materialStyle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 320px;
+}
+.myEventContainer .editEventAddress .twoInputBox span {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 20px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.myEventContainer .editEventAddress .twoInputBox--oneLine {
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 320px;
+}
+.myEventContainer .editEventAddress .twoInputBox--oneLine .materialStyle:first-child {
+  width: 30%;
+  margin-right: 2%;
+}
+.myEventContainer .editEventAddress .twoInputBox--oneLine .materialStyle {
+  width: 68%;
+}
+.myEventContainer .editEventAddress .addressButtons {
+  margin-top: 0;
+}
+.myEventContainer .editEventAddress .addressButtons a,
+.myEventContainer .editEventAddress .addressButtons input,
+.myEventContainer .editEventAddress .addressButtons button {
+  display: inline-block;
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  height: 40px;
+  max-width: 180px;
+  margin-right: 10px;
+  padding-top: 8px;
+  vertical-align: middle;
+  width: 45%;
+}
+.myEventContainer .editEventAddress .addressButtons a {
+  margin-right: 30px;
+}
+.myEventContainer .editEventAddress .addressButtons button {
+  margin-bottom: 30px;
+}
+.myEventContainer .editEventAddress .cSelect {
+  margin: 10px 0;
+  max-width: 320px;
+  width: 80%;
+}
+.myEventContainer .editEventAddress select {
+  background: #fff;
+  color: #b3b3b3;
+  margin: 0;
+}
+.myEventContainer .editEventAddress .materialStyle {
+  margin: 10px 0 0 0;
+}
+.myEventContainer .editEventAddress .materialStyle input:disabled {
+  background: #fff;
+}
+.myEventContainer .editEventAddress .materialStyle label {
+  padding-left: 5px;
+}
+.myEventContainer .editEventAddress .materialStyle span {
+  color: #f00;
+}
+.myEventContainer .editEventAddress .materialStyle .inputMaterial {
+  border: 1px solid #dedede;
+  max-width: 320px;
+  width: 100%;
+}
+.myEventContainer .editEventAddress .materialStyle .inputMaterial.smallSize {
+  width: 40%;
+}
+.myEventContainer .editEventAddress h2 {
+  font-size: 16px;
+  margin: 34px 0 8px 0;
+}
+.myEventContainer .editEventAddress h2:first-of-type {
+  margin: 0 0 13px 0;
+}
+.myEventContainer .editEventAddress p {
+  color: #666;
+  font-size: 14px;
+  margin: 0 0 17px 0;
+}
+.myEventContainer .giftPAAddress {
+  display: none;
+}
+.myEventContainer .giftPreference {
+  font-weight: bold;
+  margin-top: -9px;
+}
+.myEventContainer .giftPreference label {
+  color: #3b3b3e;
+  font-size: 15px;
+  font-family: 'robotoRegular';
+  left: 0;
+  margin-left: 25px;
+  position: relative;
+  top: -3px;
+}
+.myEventContainer .giftPA address {
+  color: #060606;
+  margin-bottom: 20px;
+}
+.myEventContainer .giftPA .giftPAName {
+  color: #3b3b3e;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 31px 0 23px;
+}
+.myEventContainer .giftPA .giftPAAdmin {
+  color: #666;
+  font-family: 'robotoCondensed';
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+.myEventContainer .giftPA .days span {
+  color: #666;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.myEventContainer .giftPA .days .selectDayList li {
+  margin-bottom: 5px;
+}
+.myEventContainer .giftPA .days .selectDayList li label {
+  color: #666;
+  font-size: 13px;
+  font-family: 'robotoRegular';
+  left: 15px;
+  position: relative;
+}
+.myEventContainer .giftPAButtons {
+  display: none;
+  margin-bottom: 30px;
+}
+.myEventContainer .giftPAButtons a,
+.myEventContainer .giftPAButtons input,
+.myEventContainer .giftPAButtons button {
+  display: inline-block;
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  height: 40px;
+  padding: 8px 0 0;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 170px;
+}
+.myEventContainer .giftPAButtons button {
+  padding-top: 0;
+}
+.myEventContainer .myEventRight a {
+  display: block;
+  font-family: 'robotoCondensed';
+  font-size: 16px;
+  height: 40px;
+  margin: 0 0 13px 0;
+  padding-top: 8px;
+  text-align: center;
+  width: 198px;
+}
+.myEventContainer .myEventRight a i {
+  float: right;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.myEventContainer .myEventRight .dropdown-menu {
+  border: 1px solid #000;
+  padding: 0;
+  position: relative;
+}
+.myEventContainer .myEventRight .dropdown-menu li a {
+  color: #7d7b7d;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  padding: 3px 0 3px 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+.myEventContainer .myEventRight .dropdown-menu li a:hover {
+  background: #fff;
+}
+.myEventContainer .myEventRight .dropdown-menu li a > i {
+  font-size: 10px;
+}
+.myEventContainer .myEventRight .dropdown-menu > i {
+  background: #fff;
+  font-size: 20px;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  top: -15px;
+  width: 19px;
+}
+.myEventMenu {
+  width: 230px;
+}
+.myEventMenu li {
+  border-bottom: 1px dotted #dedede;
+  list-style-type: none;
+}
+.myEventMenu li a {
+  color: #3b3b3e;
+  display: block;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+.myEventMenu li a:hover,
+.myEventMenu li a.active {
+  color: #e10098;
+  text-decoration: none;
+}
+.custom-border {
+  border-top: 1px solid #dedede;
+}
+.img-croppie{
+  position: relative;
+}
+.uploadIcon{
+  font-size: 18px;
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  background: #000;
+  padding: 10px;
+  opacity: 0.7;
+  border-radius: 100%;
+  color: #FFF;
+}
+.uploadIcon i{
+  color: #FFF;
+  font-weight: bolder;
+}
+.contractWrapper {
+  margin-bottom: 100px;
+}
+/* for image upload on hover */
+.imageBlock > .imageWrap {
+  display: inline-block;
+  position: relative;
+}
+.imageBlock > .imageWrap .uploadIcon {
+  background: #000;
+  padding: 24px;
+  opacity: 0.6;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  color: #FFF;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.imageBlock > .imageWrap .uploadIcon .icon-camara{
+  color: #FFF;
+  font-weight: normal;
+  font-size: 64px;
+}
+.imageBlock > .imageWrap:hover .uploadIcon {
+  color: #fff;
+  opacity: 0.8;
+}
+.editAdminInfo form #email{text-transform: lowercase;}

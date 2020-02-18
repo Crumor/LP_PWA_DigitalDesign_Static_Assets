@@ -1,0 +1,755 @@
+body {
+    overflow-x: hidden;
+}
+
+.imgLogo {
+    padding: 10px;
+}
+
+.giftMenu {
+    background-color: #f7f3f1;
+    float: left;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.giftMenu h3 {
+    color: #666;
+    display: inline-block;
+    font-family: 'robotoRegular';
+    font-size: 11px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.giftMenu i {
+    color: #e10098;
+    padding-right: 5px;
+}
+
+.homeBack {
+    background: url("../../../../assetso/web/images/home/homeBack.jpg");
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    float: left;
+    min-height: 340px;
+    width: 100%;
+}
+
+.homeBack-message {
+    margin-top: 7.5%;
+}
+
+.bannerTitle {
+    font-size: 40px;
+}
+
+.bannerSubtitle {
+    font-size: 24px;
+}
+
+.bannerTitle,
+.bannerSubtitle {
+    color: #fff;
+    padding-left: 45px;
+}
+
+.registerForm {
+    background-color: #fff;
+    font-family: 'robotoRegular';
+    float: left;
+    padding: 17px 15px;
+    width: 80%;
+    margin: 15% 0;
+}
+
+.registerForm hr {
+    border-style: dashed;
+}
+
+.registerForm p {
+    color: #666;
+    font-family: 'robotoCondensed';
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-control {
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.forgotPassword {
+    color: #e10098;
+    text-decoration: none;
+    text-align: right;
+}
+
+.forgotPassword a {
+    color: #e10098;
+    cursor: pointer;
+}
+
+.titleBlock {
+    padding: 15px 0;
+}
+
+.titleBlock,
+.subtitleBlock,
+.eventBlock,
+.inspirateBlock {
+    font-family: 'robotoRegular';
+    font-weight: bold;
+    text-align: center;
+}
+
+.titleBlock {
+    font-size: 22px;
+    padding: 35px 0 20px 0;
+}
+
+.titleBlock-custom {
+    padding: 20px 0 40px 0;
+}
+
+.titleBlock-custom2 {
+    padding: 35px 0 5px 0;
+}
+
+.subtitleBlock,
+.eventBlock,
+.inspirateBlock {
+    font-size: 16px;
+}
+
+.imageBlock {
+    margin-bottom: 40px;
+}
+
+.imageBlock img {
+    width: 100%;
+}
+
+.imageBlock p {
+    color: #666;
+    padding: 10px 0;
+}
+
+.tutorialBlock {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.imgNumbers {
+    width: 80%;
+}
+
+.tutoImg {
+    height: 120px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 35%;
+}
+
+.tutoImg img {
+    width: 80%;
+}
+
+.sectionTuto {
+    padding-bottom: 10px;
+}
+
+.circleTuto {
+    border: 1px solid;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: none;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 4px;
+    width: 30px;
+}
+
+.eventBlock {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.eventBlock .subtitleBlock {
+    color: #666;
+}
+
+.moreInfo,
+.moreInfo a {
+    color: #e10098;
+    padding: 15px 0;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.eventImage {
+    padding: 5px;
+    width: 100%;
+}
+
+.eventImage img {
+    width: 100%;
+}
+
+.moreInfo i {
+    font-size: 18px;
+    bottom: 16px;
+    padding-left: 10px;
+    padding-top: 1px;
+    position: absolute;
+    right: -20px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.inspirateBlock {
+    text-align: left;
+    padding: 30px 0;
+}
+
+.inspirateBlock p {
+    color: #666;
+    min-height: 80px;
+}
+
+.inspirateBlock img {
+    width: 100%;
+}
+
+.footerInspirate {
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    color: #666;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.conceptInsp {
+    float: right;
+}
+
+.owl-insp .owl-wrapper-outer {
+    height: auto;
+    margin-left: 0;
+}
+
+.owl-insp .owl-item {
+    padding: 0 10px;
+}
+
+.eventProvides {
+    float: left;
+    padding: 0 10%;
+    width: 100%;
+}
+
+.providesimg {
+    float: left;
+    max-height: 400px;
+    width: 100%;
+}
+
+.providesImg img {
+    padding: 12px 0;
+    width: 100%;
+}
+
+.owl-buttons div {
+    background: none !important;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -40px;
+    top: 40%;
+}
+
+.owl-next {
+    position: absolute;
+    right: -40px;
+    top: 40%;
+}
+
+.owl-prev i,
+.owl-next i {
+    color: #666;
+    font-size: 30px;
+}
+
+.mui-textfield>input,
+.mui-textfield>textarea {
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.mui-textfield--float-label>input:not(:focus).mui--is-not-empty~label {
+    -moz-transform: matrix();
+    transform: matrix();
+}
+
+.backButton {
+    float: right;
+    cursor: pointer;
+}
+
+.intoMesaLabel {
+    color: #e10098;
+    cursor: pointer;
+}
+
+#intoMesa {
+    display: none;
+}
+
+#intoMesa p {
+    font-family: 'robotoRegular';
+    font-size: 14px;
+    text-align: left;
+}
+
+.checkbox label {
+    color: #b3b3b3;
+}
+
+.checkbox span {
+    font-weight: bolder;
+    margin-left: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.checkbox i {
+    font-size: 10px;
+}
+
+
+/* Added css to fix tooltip issue. */
+
+.autologinTooltip {
+    background: #fff;
+    border: 1px solid #b6b6b6;
+    display: none;
+    height: 160px;
+    left: 100px;
+    position: absolute;
+    top: 70px;
+    width: 340px;
+    left: 85px;
+}
+
+.autologinTooltip .arrow {
+    background: #fff;
+    left: 53%;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.autologinTooltip .closeLink {
+    background: #666;
+    color: #fff;
+    font-size: 8px;
+    position: absolute;
+    padding: 5px;
+    right: 10px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.headTooltip {
+    margin-left: 5%;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.headTooltip .headText {
+    border-bottom: 1px solid #b3b3b3;
+    text-align: center;
+}
+
+.headTooltip .bodyText {
+    font-size: 12px;
+    line-height: 1;
+    text-align: left;
+}
+
+.alertError,
+.alertWarning {
+    border: 1px solid #f00;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.alertError span,
+.alertWarning span {
+    background: #f00;
+    color: #fff;
+    left: 0;
+    padding: 5px 10px;
+    position: absolute;
+    top: 5px;
+}
+
+.alertError i,
+.alertWarning i {
+    font-style: normal;
+}
+
+.alertError .col-md-10,
+.alertWarning .col-md-10 {
+    padding: 0;
+}
+
+.alertError p,
+.alertWarning p {
+    color: #f00 !important;
+    font-size: 12px !important;
+}
+
+.alertWarning {
+    border: 1px solid #f7d75c;
+}
+
+.alertWarning span {
+    background: #f7d75c;
+}
+
+.alertWarning p {
+    color: #f7d75c !important;
+}
+
+.alertWarning .closeBtn {
+    background: #f7d75c !important;
+}
+
+.closeBtn {
+    background: #f00;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 8px;
+    padding: 0px 3px;
+    position: absolute;
+    right: 7px;
+}
+
+.btnExtraLarge {
+    font-size: 18px;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.wrapper1 {
+    height: 55vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -moz-perspective: 2px;
+    perspective: 2px;
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper1 {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .wrapper1 {
+        height: 500px;
+    }
+}
+
+.section {
+    position: relative;
+    height: 100%;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    z-index: -1;
+}
+
+.alertEmail {
+    color: #f00 !important;
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+.videoLink {
+    display: none;
+    margin: -30px 0 15px;
+    text-align: center;
+}
+
+.videoLink a {
+    color: #e10098;
+    text-decoration: underline;
+}
+
+.videoLink i {
+    margin-left: 5px;
+}
+
+.bg1::after {
+    background-image: url("/assetso/web/images/home/parallaxBack.jpg");
+    -moz-background-size: cover;
+    background-size: cover;
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding-right: 0;
+    }
+    .imgLogo {
+        display: none;
+    }
+    .giftMenu {
+        background-color: #fff;
+        height: 50px;
+    }
+    .giftMenu h3 {
+        display: none;
+    }
+    .giftMenu i {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .homeBack .container {
+        padding: 0;
+    }
+    .bannerSubtitle {
+        display: none;
+    }
+    .bannerTitle {
+        padding: 0;
+        text-align: center;
+    }
+    .registerForm {
+        margin-bottom: 40px;
+        padding: 20px 15px;
+        width: 100%;
+    }
+    .loginButton {
+        float: none;
+        height: 45px;
+        width: 100%;
+    }
+    .tutorialBlock {
+        padding: 10px 0;
+    }
+    .imageBlock {
+        text-align: left;
+    }
+    .titleBlock,
+    .subtitleBlock {
+        text-align: left;
+    }
+    .titleBlock {
+        font-size: 24px;
+        font-weight: 900;
+        padding: 5px 15px;
+    }
+    .imgNumbers {
+        display: none;
+    }
+    .tutoImg {
+        height: 85px;
+        padding-bottom: 0;
+        width: 50%;
+    }
+    .sectionTuto {
+        padding: 10px 20px;
+    }
+    .tutorialBlock .titleBlock {
+        color: #000;
+        text-align: center;
+    }
+    .circleTuto {
+        display: block;
+    }
+    .eventBlock .titleBlock {
+        padding: 0;
+    }
+    .eventBlock .col-md-12 {
+        padding: 0;
+    }
+    .eventImage {
+        padding: 1px;
+    }
+    .eventBlock p {
+        height: 35px;
+    }
+    .eventBlock.titleBlock {
+        text-align: left !important;
+    }
+    .eventBlock.col-md-12.col-xs-6 p {
+        text-align: center;
+    }
+    .parallaxBlock {
+        display: none;
+    }
+    .eventProvides {
+        padding: 0;
+    }
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        left: 20px;
+        top: 35%;
+        background: #fff !important;
+        padding: 10px 20px !important;
+        opacity: 1 !important;
+    }
+    .owl-next {
+        left: inherit;
+        right: 20px;
+    }
+    .owl-buttons div {
+        background: #fff !important;
+    }
+}
+
+div#loginMRpopup .modal-content {
+    /*disabled as it expands modal size in GR home*/
+    width: 430px;
+    border-radius: 0px;
+}
+
+.parallax-bg {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+/* estilos login */
+
+#loginMRpopup .modal-content {
+    width: 432px;
+}
+
+#loginMRpopup .modal-header button.close {
+    background: #666;
+    opacity: 1;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    width: 23px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+#loginMRpopup .modal-body button {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#loginMRpopup .modal-body input {
+    height: 50px;
+}
+
+#loginMRpopup .modal-body input:focus {
+    border: solid #E10098;
+    color: #565656;
+}
+
+#loginMRpopup a.p-l-5 {
+    margin-left: 30px;
+    color: #f00 !important;
+    font-weight: bold;
+}
+
+#loginMRpopup a.p-l-5 i {
+    font-weight: bold;
+    color: #000;
+}
+
+#loginMRpopup a.p-l-5 i {
+    font-weight: bold;
+    color: #000;
+    margin-left: 5px;
+}
+
+#loginMRpopup .primaryColorLink {
+    font-size: 13px;
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 20px;
+}
+
+#loginMRpopup .row:last-child p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 0 15px 15px 0;
+    */
+}
+
+#loginMRpopup .row:last-child button {
+    background: #3B3B3E!important;
+}
+
+
+/* #loginMRpopup .modal-header {
+    border-bottom: none;
+} */
+
+#loginMRpopup .modal-header .modal-title {
+    margin-top: 10px;
+}
+
+#loginMRpopup .row:nth-child(1) label,
+#loginMRpopup .row:nth-child(2) label {
+    display: block;
+    color: #565656;
+    font-weight: 500;
+    font-size: 18px;
+}

@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="14px" height="14px">
+<path fill-rule="evenodd"  fill="rgb(102, 102, 102)"
+ d="M13.999,1.400 L12.599,0.001 L6.999,5.600 L1.401,0.001 L-0.001,1.400 L5.599,6.999 L-0.001,12.600 L1.401,14.000 L6.999,8.400 L12.599,14.000 L13.999,12.600 L8.399,6.999 L13.999,1.400 Z"/>
+=======
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="14px" height="14px">
+<path fill-rule="evenodd"  fill="rgb(102, 102, 102)"
+ d="M13.999,1.400 L12.599,0.001 L6.999,5.600 L1.401,0.001 L-0.001,1.400 L5.599,6.999 L-0.001,12.600 L1.401,14.000 L6.999,8.400 L12.599,14.000 L13.999,12.600 L8.399,6.999 L13.999,1.400 Z"/>
+>>>>>>> refs/remotes/origin/Chava_Repository_4_Mesa
+=======
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="14px" height="14px">
+<path fill-rule="evenodd"  fill="rgb(102, 102, 102)"
+ d="M13.999,1.400 L12.599,0.001 L6.999,5.600 L1.401,0.001 L-0.001,1.400 L5.599,6.999 L-0.001,12.600 L1.401,14.000 L6.999,8.400 L12.599,14.000 L13.999,12.600 L8.399,6.999 L13.999,1.400 Z"/>
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/Chava_Repository_4_Mesa
+=======
+>>>>>>> refs/remotes/origin/develop
+>>>>>>> refs/remotes/origin/Chava_Repository_4_Mesa
+</svg>

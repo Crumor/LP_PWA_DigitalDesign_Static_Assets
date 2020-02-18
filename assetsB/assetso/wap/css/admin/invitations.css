@@ -1,0 +1,933 @@
+/*Invitations.css v1.8.9.1*/
+
+.size-Full {
+    height: 50px;
+    width: 100%;
+}
+
+.size-Full .iconRight {
+    margin: 2px 20px 0 0;
+    float: right;
+    font-size: 13px;
+}
+
+.size-Full .iconLeft {
+    margin: 2px 0 0 20px;
+    float: left;
+    font-size: 13px;
+}
+
+#map {
+    height: 380px;
+}
+
+#map_google {
+    height: 380px;
+}
+
+#description {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindowContent .title {
+    font-weight: bold;
+}
+
+#infowindowContent {
+    display: none;
+}
+
+#map #infowindowContent {
+    display: inline;
+}
+
+#mapArea {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mapArea li:first-chld .checkbox {
+    margin-left: 15px;
+}
+
+.pacCard {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#pacContainer {
+    padding-bottom: 12px;
+}
+
+.pac-container {
+    z-index: 10000 !important;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pacInput {
+    width: 100%;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+.gmnoprint .gm-style-mtc {
+    display: none;
+}
+
+#pacInput::-webkit-input-placeholder {
+    color: transparent !important;
+}
+
+#pacInput:-moz-placeholder {
+    color: transparent !important;
+}
+
+#pacInput::-moz-placeholder {
+    color: transparent !important;
+}
+
+#pacInput:-ms-input-placeholder {
+    color: transparent !important;
+}
+
+#pacInput::placeholder {
+    color: transparent !important;
+}
+
+.disabledMobile {
+    position: relative;
+}
+
+.disabledMobile:before {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.disabledMobile .disabledIcon {
+    color: #e0e0e0;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.containerSteps,
+.giftBreadcrumbs {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.containerSteps {
+    font-family: robotoRegular;
+    /*! border-top: 1px solid #ccc; */
+    padding-top: 10px;
+}
+
+.containerSteps .descriptionStep,
+.containerSteps .viewStep {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.containerSteps .descriptionStep figure {
+    position: relative;
+    height: 50px;
+}
+
+.containerSteps .descriptionStep figure img,
+.containerSteps .descriptionStep figure figcaption {
+    position: absolute;
+}
+
+.containerSteps .descriptionStep figure img {
+    left: 7%;
+}
+
+.containerSteps .descriptionStep figure figcaption {
+    left: 23%;
+}
+
+.containerSteps .descriptionStep figure figcaption p {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.containerSteps .descriptionStep figure figcaption p b,
+.containerSteps .descriptionStep figure figcaption p span {
+    display: block;
+}
+
+.mainContainer {
+    font-family: robotoCondensed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer--custom {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.mainContainer p {
+    font-family: robotoRegular;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.mainContainer .gridContainer {
+    width: 100%;
+}
+
+.mainContainer .gridContainer .listInvitation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.mainContainer .gridContainer .listInvitation li {
+    margin-bottom: 20px;
+}
+
+.mainContainer .gridContainer .listInvitation .cardInvitation {
+    border: 1px solid #f2f2f2;
+}
+
+.mainContainer .gridContainer .listInvitation .cardInvitation img {
+    max-width: 100%;
+}
+
+.mainContainer .gridContainer .listInvitation .cardInvitation figure figcaption {
+    font-family: 'robotoRegular';
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.mainContainer .gridContainer .listInvitation .cardInvitation button {
+    height: 30px;
+    margin-top: 5px;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.mainContainer .gridContainer .listInvitation .cardInvitation button:last-child {
+    margin-bottom: 10px;
+}
+
+.stepBarContainer {
+    margin: 0 auto;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.stepBarGlobal {
+    width: 30%!important;
+    height: 7px!important;
+    background: #818b89;
+    display: inline-block;
+}
+
+.mainContainer .step2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.mainContainer .step2 .mainTheme {
+    margin: 20px 0;
+    position: relative;
+    zoom: 0.8;
+    overflow: auto;
+}
+
+.mainContainer .step2 figure {
+    margin: 20px 0;
+    position: relative;
+    overflow: auto;
+}
+
+.editBox p {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.editBox {
+    background: #3b3b3e;
+    color: #fff;
+    padding: 5px 0 5px 10px;
+    position: absolute;
+    top: 76px;
+    right: 0;
+    width: 117px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .step2 .mainTheme .editBox {
+    background: #3b3b3e;
+    color: #fff;
+    padding: 5px 0 5px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px;
+}
+
+.mainContainer .step2 .mainTheme .editBox p,
+.mainContainer .step2 .mainTheme .editBox i {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer .step2 .mainTheme .editBox i {
+    margin: 0 10px;
+}
+
+.mainContainer .step2 .content {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.mainContainer .step2 .content .modalSection {
+    padding: 17px 15px 32px 15px;
+    margin: 0;
+    /*position: absolute;
+	left: 0;
+	top: 0;*/
+    width: 100%;
+    background: #fff;
+}
+
+.mainContainer .step2 .content .modalSection img {
+    width: 100%;
+    /* height: 100%; */
+    /* height: 100%; */
+}
+
+.mainContainer .step2 .content .modalSection .controlContainer {
+    padding: 5px 20px 10px;
+}
+
+.mainContainer .step2 .content .modalSection .controlContainer a {
+    font-size: 18px;
+    height: 50px;
+    padding: 12px 0 0;
+    margin-bottom: 10px;
+}
+
+.mainContainer .step2 .content .modalSection .controlContainer a .icon-flecha_light_izq {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.mainContainer .step2 .content .modalOne {
+    padding: 0;
+    z-index: 1;
+}
+
+.mainContainer .step2 .content .modalTwo,
+.mainContainer .step2 .content .modalThree {
+    top: -210px;
+    z-index: 2;
+}
+
+.mainContainer .step2 .content .modalTwo .gridContainer,
+.mainContainer .step2 .content .modalThree .gridContainer {
+    margin-top: 40px;
+}
+
+.mainContainer .step2 .content .modalFour {
+    top: -210px;
+    z-index: 3;
+}
+
+.mainContainer .step2 .content .modalFour .addLink {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.mainContainer .step2 .content .modalFour button {
+    font-size: 18px;
+}
+
+.mainContainer .step2 .content .modalFour button.saveButton {
+    margin-top: 50px;
+}
+
+.mainContainer .step2 .content .modalThree #addPlaceAndHour {
+    border: 1px solid #d8d8d8;
+    font-size: 16px;
+    text-align: left;
+}
+
+.mainContainer .step2 .content .modalThree ul {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.mainContainer .step2 .content .modalThree ul li {
+    display: block;
+}
+
+.mainContainer .step2 .content .modalThree ul li button {
+    font-size: 18px;
+}
+
+.mainContainer .step2 .content .modalThree ul li button.saveButton {
+    margin-top: 50px;
+}
+
+.mainContainer .step2 .content .modalThree ul li .title,
+.mainContainer .step2 .content .modalThree ul li .text {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+.mainContainer .step2 .content .modalThree ul li .title {
+    padding-bottom: 0;
+    padding-left: 6px;
+}
+
+.mainContainer .step2 .content .modalThree ul li .text {
+    border: 1px solid #d8d8d8;
+    padding: 5px 10px 0 10px;
+    font-size: 1.2em;
+}
+
+.mainContainer .step2 .content .modalThree ul li .formMessageLength {
+    text-align: right;
+    width: 100%;
+    border-top: 1px solid #666;
+    padding-top: 5px;
+}
+
+.mainContainer .step2 .content .modalThree ul li .checkbox {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.mainContainer .step2 .content .containerTitle {
+    width: 100%;
+    position: relative;
+    min-height: 50px;
+}
+
+.mainContainer .step2 .content .containerTitle .titleTheme,
+.mainContainer .step2 .content .containerTitle .closeModal {
+    position: absolute;
+    display: inline-block !important;
+    vertical-align: top;
+    color: #000;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.mainContainer .step2 .content .containerTitle .titleTheme {
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center !important;
+    font-size: 20px;
+}
+
+.mainContainer .step2 .content .containerTitle .closeModal {
+    width: 5%;
+    left: 85%;
+    top: 5px;
+}
+
+
+/*New CSS overrides for Step2*/
+
+.mainContainer--custom .step2 {
+    height: 100%;
+    min-height: 820px;
+    overflow: -webkit-paged-x;
+}
+
+.mainContainer .step3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.mainContainer .step3 .buttonBlock a {
+    font-size: 18px;
+    height: 45px;
+    padding: 10px 0;
+}
+
+.mainContainer .step3 .content {
+    border: 0;
+}
+
+.mainContainer .step3 .content--custom {
+    margin-bottom: 50px;
+}
+
+.mainContainer .step3 li {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    /* background: ; */
+}
+
+.mainContainer .step3 li span {
+    border: 0;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.mainContainer .step3 li .title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.mainContainer .step3 li .text {
+    padding: 5px;
+}
+
+.mainContainer .step3 li .formMessageLength {
+    border-top: 1px solid #666;
+    text-align: right;
+}
+
+.mainContainer .step3 li .center {
+    position: relative;
+}
+
+.mainContainer .step3 li .center ul {
+    list-style-type: none;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    overflow-y: scroll;
+    margin-bottom: 10%;
+}
+
+.mainContainer .step3 li .center ul li {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    border-bottom: 1px solid #f2f1f2;
+    padding: 10px 0;
+}
+
+.mainContainer .step3 li .center ul li .check,
+.mainContainer .step3 li .center ul li .guest {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainContainer .step3 li .center ul li .check {
+    height: 40px;
+    width: 15%;
+    margin-top: 10px;
+    border-right: 1px solid #b3b3b3;
+    padding-left: 30px;
+}
+
+.mainContainer .step3 li .center ul li .guest {
+    width: 75%;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest {
+    padding-left: 20px;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest i {
+    color: #666;
+    font-size: 20px;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest i.icon-flecha_invitado {
+    margin-right: 10px;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name div,
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name label {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name div {
+    width: 5%;
+    font-size: 1.6em;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .name label {
+    width: 65%;
+    color: #666;
+    padding-left: 10px;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .reference,
+.mainContainer .step3 li .center ul li .guest .descriptionGuest .location {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #b3b3b3;
+    padding-left: 15%;
+}
+
+.mainContainer .step3 li .center ul li .guest .descriptionGuest.dependentGuest {
+    padding-left: 25px;
+}
+
+.mainContainer .step3 li .center ul li:nth-child(1) {
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #f2f1f2;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.mainContainer .step3 li .center ul li:last-child {
+    margin-bottom: 10px;
+}
+
+.mainContainer .step3 li .center ul li:first-child {
+    padding: 8px 0 8px 30px;
+}
+
+.mainContainer .step3 li .center .messageGuest {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.mainContainer .step3 li .center .messageGuest span {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: robotoRegular;
+    position: relative;
+    left: 0;
+}
+
+.mainContainer .step3 li .center .messageGuest .firstP {
+    font-size: 1.5em;
+}
+
+.mainContainer .step3 li .center .messageGuest .secondP {
+    font-size: 0.9em;
+}
+
+.mainContainer .step3 li .center img {
+    margin-left: 3.7%;
+    margin-top: 3.5%;
+    width: 92.6%;
+}
+
+.mainContainer .step3 li .right {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.mainContainer .step3 li .right a {
+    margin: -10px 0 20px;
+}
+
+.activeNotificationMenu {
+    display: none !important;
+}
+
+.stepBarGlobal {
+    width: 30%!important;
+    height: 7px!important;
+}
+
+.stepBarContainer {
+    margin: 0 auto;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.iClass {
+    color: #f2f2f2;
+    padding: 12px;
+    font-size: 2em;
+}
+
+.adminContainerSpace {
+    padding-top: 10px;
+}
+
+.adminContainerSpace .stepBarContainer {
+    text-align: center;
+    width: 100%;
+}
+
+.adminContainerSpace .stepBarContainer .stepBarGlobal {
+    height: 8px;
+    width: 31%;
+}
+
+.adminContainerSpace .stepContainer {
+    padding-right: 5%;
+    width: 100%;
+}
+
+.adminContainerSpace .stepContainer .lastCount {
+    color: #000;
+}
+
+.icon-liv-logo {
+    background-image: url("../../../../assetso/wap/images/liverpool-logo.png");
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.header-container {
+    border: 0;
+}
+
+.hidde {
+    display: none;
+}
+
+.modalTheme {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cardInvitation-img {
+    width: 100%;
+    height: 250px;
+}
+
+@media screen and (max-width: 376px) {
+    .cardInvitation-img {
+        height: 205px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cardInvitation-img {
+        height: 155px;
+    }
+}
+
+.listInvitation .col-xs-6:nth-of-type(odd) {
+    padding-right: 7.5px;
+}
+
+.listInvitation .col-xs-6:nth-of-type(even) {
+    padding-left: 7.5px;
+}
+
+#editInvitation .modal-content .modal-header {
+    text-align: center;
+}
+
+#editInvitation .modal-content .modal-header h4 {
+    font-weight: bold;
+}
+
+#editInvitation-message .modal-content {
+    height: 100vh;
+}
+
+#editInvitation-message .modal-body .inputMaterial-ei-message {
+    height: 150px;
+}
+
+#editInvitation-message textarea {
+    margin-top: 10px;
+}
+
+#editInvitation-message label {
+    margin-top: 10px;
+}
+
+.size-Full--custom {
+    height: 40px;
+    width: 100%;
+}
+
+.size-Full--custom2 {
+    height: 60px;
+    width: 100%;
+}
+
+.size-Full--custom3 {
+    height: 45px;
+    width: 100%;
+}
+
+#addMessage {
+    margin-top: 20px;
+}
+
+.mainContainer #step3.step3 .input-group .input-group-btn {
+    width: 40px!important;
+    padding: 7px;
+    position: absolute;
+    right: 0%;
+    left: 97%;
+    height: 34px;
+    z-index: 9;
+    border: solid 1px #ccc;
+    border-left: none;
+}
+
+.mainContainer #step3.step3 .input-group .input-group-btn span[type="button"] {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.mainContainer #step3.step3 .input-group input {
+    border-right: none;
+}
+
+.mainContainer #step3.step3 .input-group input:focus {
+    border-right: none;
+}
+
+.mainContainer #step3.step3 .input-group .cancel-search-btn {
+    width: 35px;
+    float: right;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+}
+
+.checkbox.checkboxmargin input[type="checkbox"]:disabled+label {
+    margin-left: auto !important;
+}
+
+.checkbox.checkboxmargin input[type="checkbox"]:disabled+label::before {
+    margin-left: -20px !important;
+}
+
+
+/*Moved from externalcss*/
+
+textarea.inputMaterial.gmpdirection {
+    padding-top: 25px;
+}
+
+#wapMsgModal .modal-body label.placeHolderMaterial {
+    display: block;
+    top: 20px;
+}
+
+#wapMsgModal .modal-body .materialStyle {
+    padding: 5px;
+}
+
+#editInvitation .modal-dialog .modal-content .modal-body>span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #d8d8d8;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+#editInvitation .modal-dialog .modal-content .modal-body>span button {
+    color: #000;
+    opacity: 1;
+    font-size: 29px;
+    font-weight: normal;
+    position: absolute;
+    bottom: initial;
+    right: 16px;
+    margin-top: 4px;
+}
+
+.mainContainer .step3 li .center ul li {
+    display: flex;
+    align-items: center;
+}
+
+#step3 .myInvitationGuestTitle {
+    margin-left: 15px
+}
+
+.mainContainer #step3.step3 .input-group {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 85%;
+    margin: 0 15px;
+}
+
+#wapMsgModal #formMessageLength {
+    float: right;
+    margin-bottom: 20px;
+}
+
+#wapMsgModal .modal-body label.placeHolderMaterial {
+    top: 10px;
+    left: 10px;
+    font-size: 10px;
+    color: #e10098;
+}

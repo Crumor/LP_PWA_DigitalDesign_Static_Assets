@@ -1,0 +1,36 @@
+.contentBox#whichMesa {
+  padding: 30px 0;
+  text-align: center;
+}
+.contentBox#whichMesa .registerTitles {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.contentBox#whichMesa .registerTitles h2.titleModule {
+  margin-bottom: 40px;
+}
+.contentBox#whichMesa .buttonBlock {
+  margin-bottom: 20px;
+}
+.contentBox#whichMesa .buttonBlock button {
+  font-size: 18px;
+}
+.container.borderTop {
+  border-top: 1px solid #b3b3b3;
+}
+.logoContent {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+.logoContent img {
+  width: 100%;
+}
+.nameEvent,
+.statusEvent {
+  font-size: 12px;
+  margin: 0;
+}
+.statusEvent {
+  font-weight: 900;
+}

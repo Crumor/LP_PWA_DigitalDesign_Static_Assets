@@ -1,0 +1,36 @@
+.contentAccountAdd {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.terminos {
+  color: #e10098;
+}
+.sex .radio {
+  display: inline-block;
+}
+.sex .title_sexo {
+  display: inline-block;
+  font-size: 15px;
+}
+.title_benefit {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'robotoRegular';
+  margin: 10px 0;
+}
+.list_benefit {
+  list-style: initial;
+  margin-left: 20px;
+}
+.list_benefit li {
+  font-weight: bold;
+  font-size: 12px;
+}
+.dateCustom,
+.input-group-addon {
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+.offset-md-c1 {
+  margin-left: 8.333333%;
+}
