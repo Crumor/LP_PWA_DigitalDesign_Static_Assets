@@ -110,7 +110,7 @@ function myOnloadFunction(pageName,path) {
         },
 		{
          'id':'linea_blanca_150220',
-         'name':'Línea Blanca hasta 44% de desc',
+         'name':'Línea Blanca hasta 40% de desc',
          'creative':'h_banner_secun',
          'position':'2'
            },
@@ -182,7 +182,7 @@ function myOnloadFunction(pageName,path) {
 		},
                             {
 		'id':'dias_bebe_cintillo_210220',
-		'name':'Días del bebé - hasta 30% de descuento',
+		'name':'Días del bebé - hasta 35% de descuento',
        'creative':'h_banner_secun',
        'position':'14'
 		}
