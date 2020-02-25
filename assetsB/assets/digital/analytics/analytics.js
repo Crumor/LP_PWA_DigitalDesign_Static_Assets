@@ -2654,40 +2654,22 @@ dataLayer.push({
 'position': '03'
 },
 {
-'id': 'gap_nina_130220',
-'name': 'gap_nina',
-'creative': 'blp_gap_nina',
+'id': 'gap_ninos_130220',
+'name': 'gap_ninos',
+'creative': 'blp_gap_ninos',
 'position': '04'
 },
 {
-'id': 'gap_nino_130220',
-'name': 'gap_nino',
-'creative': 'blp_gap_nino',
+'id': 'gap_bebes_130220',
+'name': 'gap_bebes',
+'creative': 'blp_gap_bebes',
 'position': '05'
-},
-{
-'id': 'gap_bebesnina_130220',
-'name': 'gap_bebesnina',
-'creative': 'blp_gap_bebesnina',
-'position': '05'
-},
-{
-'id': 'gap_bebesnino_130220',
-'name': 'gap_bebesnino',
-'creative': 'blp_gap_bebesnino',
-'position': '06'
-},
-{
-'id': 'gap_firstdenim_130220',
-'name': 'gap_firstdenim',
-'creative': 'blp_gap_firstdenim',
-'position': '07'
 },
 {
 'id': 'gap_mejordenim_130220',
 'name': 'gap_mejordenim',
 'creative': 'blp_gap_mejordenim',
-'position': '08'
+'position': '06'
 }
 ]
 }
