@@ -2139,59 +2139,113 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_principal',
-'position': '01'
+    'id': 'zapatos_main',
+    'name': 'Zapatos Main',
+    'creative': 'blp_zapatos_main',
+    'position': '01'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_el_graduacion',
-'position': '02'
+    'id': 'zapatos_tacones',
+    'name': 'Zapatos Tacones',
+    'creative': 'blp_zapatos_tacones',
+    'position': '02'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_ella_graduacion',
-'position': '03'
+    'id': 'zapatos_sandalias',
+    'name': 'Zapatos Sandalias',
+    'creative': 'blp_zapatos_sandalias',
+    'position': '03'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_nina_graduacion',
-'position': '04'
+    'id': 'zapatos_sneakers_ella',
+    'name': 'Zapatos Sneakers Ella',
+    'creative': 'blp_zapatos_sneakers_ella',
+    'position': '04'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_nino_graduacion',
-'position': '05'
+    'id': 'zapatos_botas_ella',
+    'name': 'Zapatos Botas Ella',
+    'creative': 'blp_zapatos_botas_ella',
+    'position': '05'
 },
 {
-'id': 'new_arrivals_zap_200519',
-'name': 'New Arrivals 1',
-'creative': 'blp_zapatos_New_Arrivals_1',
-'position': '06'
+    'id': 'zapatos_ella_todo',
+    'name': 'Zapatos Ella Todo',
+    'creative': 'blp_zapatos_ella_todo',
+    'position': '06'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_video',
-'position': '07'
+    'id': 'zapatos_deportivo_el',
+    'name': 'Zapatos Deportivo El',
+    'creative': 'blp_zapatos_deportivo_el',
+    'position': '07'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_bebes',
-'position': '08'
+    'id': 'zapatos_deportivo_ella',
+    'name': 'Zapatos Deportivo Ella',
+    'creative': 'blp_zapatos_deportivo_ella',
+    'position': '08'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_deportivos',
-'position': '09'
+    'id': 'zapatos_deportivo_ninos',
+    'name': 'Zapatos Deportivo Ninos',
+    'creative': 'blp_zapatos_deportivo_ninos',
+    'position': '09'
 },
+{
+    'id': 'zapatos_deportivo_ninas',
+    'name': 'Zapatos Deportivo Ninas',
+    'creative': 'blp_zapatos_deportivo_ninas',
+    'position': '10'
+},
+{
+    'id': 'zapatos_el_todo',
+    'name': 'Zapatos El Todo',
+    'creative': 'blp_zapatos_el_todo',
+    'position': '11'
+},
+{
+    'id': 'zapatos_casual_el',
+    'name': 'Zapatos Casual El',
+    'creative': 'blp_zapatos_casual_el',
+    'position': '12'
+},
+{
+    'id': 'zapatos_formal_el',
+    'name': 'Zapatos Formal El',
+    'creative': 'blp_zapatos_formal_el',
+    'position': '13'
+},
+{
+    'id': 'zapatos_sneaker_el',
+    'name': 'Zapatos Sneaker El',
+    'creative': 'blp_zapatos_sneaker_el',
+    'position': '14'
+},
+{
+    'id': 'zapatos_bota_el',
+    'name': 'Zapatos Bota El',
+    'creative': 'blp_zapatos_bota_el',
+    'position': '15'
+},
+{
+    'id': 'zapatos_nina',
+    'name': 'Zapatos Nina',
+    'creative': 'blp_zapatos_nina',
+    'position': '16'
+},
+{
+    'id': 'zapatos_bebes',
+    'name': 'Zapatos Bebes',
+    'creative': 'blp_zapatos_bebes',
+    'position': '17'
+},
+{
+    'id': 'zapatos_ninos',
+    'name': 'Zapatos Ninos',
+    'creative': 'blp_zapatos_ninos',
+    'position': '18'
+}
 ]
 }
 }
