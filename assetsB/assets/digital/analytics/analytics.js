@@ -103,88 +103,101 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
        {
-		'id':'muebles_150220',
-		'name':'Muebles hasta 50% de desc',
+		'id':'linea_blanca_260220',
+		'name':'Línea Blanca hasta 40% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 		{
-         'id':'linea_blanca_150220',
+         'id':'casa_260220',
          'name':'Línea Blanca hasta 40% de desc',
          'creative':'h_banner_secun',
          'position':'2'
            },
 		{
-		 'id':'colchones_150220',
+		 'id':'colchones_260220',
 		 'name':'Colchones hasta 40% de desc',
          'creative':'h_banner_secun',
          'position':'3'
 		},
 			{
-		'id':'casa_150220',
-		'name':'Casa hasta 35% de desc',
+		'id':'pantallas_260220',
+		'name':'Pantallas hasta 25% de desc',
         'creative':'h_banner_secun',
         'position':'4'
 		},
             {
-		'id':'cocina_150220',
-		'name':'Cocina hasta 30% de desc',
+		'id':'tablets_260220',
+		'name':'Tablets hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'5'
-		},
+		}, 
             {
-		'id':'pantallas_150220',
-		'name':'Pantallas hasta 25% de desc',
-       'creative':'h_banner_secun',
-       'position':'6'
-		},
-            {
-		'id':'bebes_150220',
+		'id':'bebes_260220',
 		'name':'Bebés hasta 20% de descuento y hasta 9 Meses Sin Intereses',
        'creative':'h_banner_secun',
-       'position':'7'
+       'position':'6'
         },	
         {
-        'id':'apple_150220',
+        'id':'apple_260220',
         'name':'Apple hasta 18 MSI',
         'creative':'h_banner_secun',
-        'position':'8'
-            },		
+        'position':'7'
+            },
             {
-		'id':'zapatos_150220',
-		'name':'Zapatos hasta 25% de desc',
+		'id':'el_260220',
+		'name':'Él hasta 15% de desc',
        'creative':'h_banner_secun',
-       'position':'9'
-		},		
+       'position':'8'
+		},				
             {
-		'id':'accesorios_150220',
+		'id':'accesorios_260220',
 		'name':'Accesorios hasta 25% de desc',
        'creative':'h_banner_secun',
-       'position':'10'
-            },									
+       'position':'9'
+            },
             {
-		'id':'ninos_150220',
-		'name':'Niños hasta 20% de desc',
+		'id':'ropa_interior_el_260220',
+		'name':'Ropa interior él hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'10'
+		},
+             {
+		'id':'zapatos_260220',
+		'name':'Zapatos hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'11'
-		},
+		},									
             {
-		'id':'american_eagle_150220',
-		'name':'American Eagle hasta 20% de desc',
+		'id':'ninos_260220',
+		'name':'Niños hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},
             {
-		'id':'deportes_150220',
-		'name':'Deportes hasta 20% de desc',
+		'id':'ella_260220',
+		'name':'Ella hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'13'
 		},
-                            {
-		'id':'dias_bebe_cintillo_210220',
-		'name':'Días del bebé - hasta 35% de descuento',
+            {
+		'id':'deportes_260220',
+		'name':'Deportes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'14'
+		},
+
+        {
+		'id':'viajes_260220',
+		'name':'Viajes hasta 65% de desc',
+       'creative':'h_banner_secun',
+       'position':'15'
+		},
+                            {
+		'id':'dias_bebe_cintillo_260220',
+		'name':'Días del bebé - hasta 30% de descuento',
+       'creative':'h_banner_secun',
+       'position':'16'
 		}
 	
                         ]
@@ -2139,59 +2152,113 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_principal',
-'position': '01'
+    'id': 'zapatos_main',
+    'name': 'Zapatos Main',
+    'creative': 'blp_zapatos_main',
+    'position': '01'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_el_graduacion',
-'position': '02'
+    'id': 'zapatos_tacones',
+    'name': 'Zapatos Tacones',
+    'creative': 'blp_zapatos_tacones',
+    'position': '02'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_ella_graduacion',
-'position': '03'
+    'id': 'zapatos_sandalias',
+    'name': 'Zapatos Sandalias',
+    'creative': 'blp_zapatos_sandalias',
+    'position': '03'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_nina_graduacion',
-'position': '04'
+    'id': 'zapatos_sneakers_ella',
+    'name': 'Zapatos Sneakers Ella',
+    'creative': 'blp_zapatos_sneakers_ella',
+    'position': '04'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_nino_graduacion',
-'position': '05'
+    'id': 'zapatos_botas_ella',
+    'name': 'Zapatos Botas Ella',
+    'creative': 'blp_zapatos_botas_ella',
+    'position': '05'
 },
 {
-'id': 'new_arrivals_zap_200519',
-'name': 'New Arrivals 1',
-'creative': 'blp_zapatos_New_Arrivals_1',
-'position': '06'
+    'id': 'zapatos_ella_todo',
+    'name': 'Zapatos Ella Todo',
+    'creative': 'blp_zapatos_ella_todo',
+    'position': '06'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_video',
-'position': '07'
+    'id': 'zapatos_deportivo_el',
+    'name': 'Zapatos Deportivo El',
+    'creative': 'blp_zapatos_deportivo_el',
+    'position': '07'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_bebes',
-'position': '08'
+    'id': 'zapatos_deportivo_ella',
+    'name': 'Zapatos Deportivo Ella',
+    'creative': 'blp_zapatos_deportivo_ella',
+    'position': '08'
 },
 {
-'id': 'zapatos_main_200619',
-'name': 'Zapatos_Principal',
-'creative': 'blp_el_zapatos_deportivos',
-'position': '09'
+    'id': 'zapatos_deportivo_ninos',
+    'name': 'Zapatos Deportivo Ninos',
+    'creative': 'blp_zapatos_deportivo_ninos',
+    'position': '09'
 },
+{
+    'id': 'zapatos_deportivo_ninas',
+    'name': 'Zapatos Deportivo Ninas',
+    'creative': 'blp_zapatos_deportivo_ninas',
+    'position': '10'
+},
+{
+    'id': 'zapatos_el_todo',
+    'name': 'Zapatos El Todo',
+    'creative': 'blp_zapatos_el_todo',
+    'position': '11'
+},
+{
+    'id': 'zapatos_casual_el',
+    'name': 'Zapatos Casual El',
+    'creative': 'blp_zapatos_casual_el',
+    'position': '12'
+},
+{
+    'id': 'zapatos_formal_el',
+    'name': 'Zapatos Formal El',
+    'creative': 'blp_zapatos_formal_el',
+    'position': '13'
+},
+{
+    'id': 'zapatos_sneaker_el',
+    'name': 'Zapatos Sneaker El',
+    'creative': 'blp_zapatos_sneaker_el',
+    'position': '14'
+},
+{
+    'id': 'zapatos_bota_el',
+    'name': 'Zapatos Bota El',
+    'creative': 'blp_zapatos_bota_el',
+    'position': '15'
+},
+{
+    'id': 'zapatos_nina',
+    'name': 'Zapatos Nina',
+    'creative': 'blp_zapatos_nina',
+    'position': '16'
+},
+{
+    'id': 'zapatos_bebes',
+    'name': 'Zapatos Bebes',
+    'creative': 'blp_zapatos_bebes',
+    'position': '17'
+},
+{
+    'id': 'zapatos_ninos',
+    'name': 'Zapatos Ninos',
+    'creative': 'blp_zapatos_ninos',
+    'position': '18'
+}
 ]
 }
 }
