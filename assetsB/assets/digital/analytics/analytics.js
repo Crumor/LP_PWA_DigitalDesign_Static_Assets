@@ -1258,9 +1258,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'mes_nintendo_m_090819',
-    'name': 'Mes Nintendo',
-    'creative': 'blp_videojuegos_mes_nintendo_m',
+    'id': 'consola_acm_270220',
+    'name': 'Animal Crossing Consola m',
+    'creative': 'blp_videojuegos_consola_ac_m',
     'position': '01'
 },
 {
@@ -1282,9 +1282,9 @@ dataLayer.push({
     'position': '04'
 },
 {
-    'id': 'mes_nintendo_090819',
-    'name': 'Mes Nintendo',
-    'creative': 'blp_videojuegos_mes_nintendo',
+    'id': 'animalcrossing_270220',
+    'name': 'Animal Crossing',
+    'creative': 'blp_videojuegos_animalcrossing',
     'position': '05'
 },
 {
@@ -1306,124 +1306,94 @@ dataLayer.push({
     'position': '08'
 },
 {
-    'id': 'luigis_mansion_270919',
-    'name': 'Luigis',
-    'creative': 'blp_videojuegos_luigis_mansion',
+    'id': 'animalcrossing2_060220',
+    'name': 'Animal Crossing2',
+    'creative': 'blp_videojuegos_animalcrossing2',
     'position': '09'
+},
+{
+    'id': 'ps4pro_270220',
+    'name': 'PS4 PRO',
+    'creative': 'blp_videojuegos_ps4pro',
+    'position': '10'
 },
 {
     'id': 'greatest_hits_090819',
     'name': 'Greatest Hits',
     'creative': 'blp_videojuegos_greatest_hits',
-    'position': '10'
-},
-{
-    'id': 'cod_270919',
-    'name': 'COD',
-    'creative': 'blp_videojuegos_COD',
     'position': '11'
 },
 {
-    'id': 'FIFA_030919',
-    'name': 'FIFA 2020',
-    'creative': 'blp_videojuegos_fifa',
+    'id': 'doom_060220',
+    'name': 'Doom',
+    'creative': 'blp_videojuegos_doom',
     'position': '12'
 },   
 {
-    'id': 'dragonball_2020_270919',
-    'name': 'Dragon Ball',
-    'creative': 'blp_videojuegos_dragonball',
-    'position': '05'
+    'id': 'RE3_060220',
+    'name': 'Resident Evil 3',
+    'creative': 'blp_videojuegos_re3',
+    'position': '13'
 },   
 {
-    'id': 'pokemon_030919',
+    'id': 'pokemon_060220',
     'name': 'Pokemon',
     'creative': 'blp_videojuegos_pokemon',
-    'position': '13'
+    'position': '14'
 },
 {
     'id': 'starwars_090819',
     'name': 'Star Wars',
     'creative': 'blp_videojuegos_starwars',
-    'position': '14'
+    'position': '15'
 },
 {
-    'id': 'Fortnite_030919',
-    'name': 'Fortnite',
-    'creative': 'blp_videojuegos_fortnite',
-    'position': '15'
+    'id': 'finalfantasy_060220',
+    'name': 'Final Fantasy',
+    'creative': 'blp_videojuegos_finalfantasy',
+    'position': '16'
 },
 {
     'id': 'aventura_090819',
     'name': 'Filtros Aventura',
     'creative': 'blp_videojuegos_aventura',
-    'position': '16'
+    'position': '17'
 },
 {
     'id': 'deportes_090819',
     'name': 'Filtros Deportes',
     'creative': 'blp_videojuegos_deportes',
-    'position': '17'
+    'position': '18'
 },
 {
     'id': 'disparos_090819',
     'name': 'Filtros Disparos',
     'creative': 'blp_videojuegos_disparos',
-    'position': '18'
+    'position': '19'
 },
 {
     'id': 'peleas_090819',
     'name': 'Filtros Peleas',
     'creative': 'blp_videojuegos_peleas',
-    'position': '19'
+    'position': '20'
 },
 {
     'id': 'terror_090819',
     'name': 'Filtros Terror',
     'creative': 'blp_videojuegos_terror',
-    'position': '20'
+    'position': '21'
 },
 {
     'id': 'carreras_090819',
     'name': 'Filtros Carreras',
     'creative': 'blp_videojuegos_carreras',
-    'position': '21'
-},
-{
-    'id': 'aventura_090819',
-    'name': 'Filtros Aventura',
-    'creative': 'blp_videojuegos_aventura',
-    'position': '16'
-},
-{
-    'id': 'aventura_090819',
-    'name': 'Filtros Aventura',
-    'creative': 'blp_videojuegos_aventura',
-    'position': '16'
-},
-{
-    'id': 'aventura_090819',
-    'name': 'Filtros Aventura',
-    'creative': 'blp_videojuegos_aventura',
-    'position': '16'
-},
-{
-    'id': 'aventura_090819',
-    'name': 'Filtros Aventura',
-    'creative': 'blp_videojuegos_aventura',
-    'position': '16'
-},
-{
-    'id': 'cod_090819',
-    'name': 'Call of Duty',
-    'creative': 'blp_videojuegos_cod',
-    'position': '14'
+    'position': '22'
 },
 {
     'id': 'pcgamer_090819',
     'name': 'Pc Gamer',
     'creative': 'blp_videojuegos_pcgamer',
-    'position': '15'
+    'position': '23'
 }
 ]
 }
