@@ -103,88 +103,101 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
        {
-		'id':'muebles_150220',
-		'name':'Muebles hasta 50% de desc',
+		'id':'linea_blanca_260220',
+		'name':'Línea Blanca hasta 40% de desc',
 		'creative':'h_banner_central',
 		'position':'1'
         },
 		{
-         'id':'linea_blanca_150220',
+         'id':'casa_260220',
          'name':'Línea Blanca hasta 40% de desc',
          'creative':'h_banner_secun',
          'position':'2'
            },
 		{
-		 'id':'colchones_150220',
+		 'id':'colchones_260220',
 		 'name':'Colchones hasta 40% de desc',
          'creative':'h_banner_secun',
          'position':'3'
 		},
 			{
-		'id':'casa_150220',
-		'name':'Casa hasta 35% de desc',
+		'id':'pantallas_260220',
+		'name':'Pantallas hasta 25% de desc',
         'creative':'h_banner_secun',
         'position':'4'
 		},
             {
-		'id':'cocina_150220',
-		'name':'Cocina hasta 30% de desc',
+		'id':'tablets_260220',
+		'name':'Tablets hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'5'
-		},
+		}, 
             {
-		'id':'pantallas_150220',
-		'name':'Pantallas hasta 25% de desc',
-       'creative':'h_banner_secun',
-       'position':'6'
-		},
-            {
-		'id':'bebes_150220',
+		'id':'bebes_260220',
 		'name':'Bebés hasta 20% de descuento y hasta 9 Meses Sin Intereses',
        'creative':'h_banner_secun',
-       'position':'7'
+       'position':'6'
         },	
         {
-        'id':'apple_150220',
+        'id':'apple_260220',
         'name':'Apple hasta 18 MSI',
         'creative':'h_banner_secun',
-        'position':'8'
-            },		
+        'position':'7'
+            },
             {
-		'id':'zapatos_150220',
-		'name':'Zapatos hasta 25% de desc',
+		'id':'el_260220',
+		'name':'Él hasta 15% de desc',
        'creative':'h_banner_secun',
-       'position':'9'
-		},		
+       'position':'8'
+		},				
             {
-		'id':'accesorios_150220',
+		'id':'accesorios_260220',
 		'name':'Accesorios hasta 25% de desc',
        'creative':'h_banner_secun',
-       'position':'10'
-            },									
+       'position':'9'
+            },
             {
-		'id':'ninos_150220',
-		'name':'Niños hasta 20% de desc',
+		'id':'ropa_interior_el_260220',
+		'name':'Ropa interior él hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'10'
+		},
+             {
+		'id':'zapatos_260220',
+		'name':'Zapatos hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'11'
-		},
+		},									
             {
-		'id':'american_eagle_150220',
-		'name':'American Eagle hasta 20% de desc',
+		'id':'ninos_260220',
+		'name':'Niños hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'12'
 		},
             {
-		'id':'deportes_150220',
-		'name':'Deportes hasta 20% de desc',
+		'id':'ella_260220',
+		'name':'Ella hasta 25% de desc',
        'creative':'h_banner_secun',
        'position':'13'
 		},
-                            {
-		'id':'dias_bebe_cintillo_210220',
-		'name':'Días del bebé - hasta 35% de descuento',
+            {
+		'id':'deportes_260220',
+		'name':'Deportes hasta 20% de desc',
        'creative':'h_banner_secun',
        'position':'14'
+		},
+
+        {
+		'id':'viajes_260220',
+		'name':'Viajes hasta 65% de desc',
+       'creative':'h_banner_secun',
+       'position':'15'
+		},
+                            {
+		'id':'dias_bebe_cintillo_260220',
+		'name':'Días del bebé - hasta 30% de descuento',
+       'creative':'h_banner_secun',
+       'position':'16'
 		}
 	
                         ]
