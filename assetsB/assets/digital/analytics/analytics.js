@@ -2688,6 +2688,12 @@ dataLayer.push({
 'name': 'gap_mejordenim',
 'creative': 'blp_gap_mejordenim',
 'position': '06'
+},
+{
+'id': 'gap_anorak_020320',
+'name': 'gap_anorak',
+'creative': 'blp_gap_anorak',
+'position': '07'
 }
 ]
 }
