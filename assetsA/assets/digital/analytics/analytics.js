@@ -202,94 +202,112 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'main_121119',
-    'name': 'Main El',
-    'creative': 'blp_el_main',
+    'id': 'blazers_060320',
+    'name': 'Blazers Él',
+    'creative': 'blp_el_blazers',
     'position': '01'
 },
 {
-    'id': 'chamarras_121119',
-    'name': 'Chamarras',
-    'creative': 'blp_el_chamarras',
+    'id': 'camisas_060320',
+    'name': 'Camisas Él',
+    'creative': 'blp_el_camisas',
     'position': '02'
 },
 {
-    'id': 'aeropostale_121119',
-    'name': 'Aeropostale',
-    'creative': 'blp_el_aeropostale',
+    'id': 'pantalones_060320',
+    'name': 'Pantalones Él',
+    'creative': 'blp_el_pantalones',
     'position': '03'
 },
 {
-    'id': 'ae_121119',
-    'name': 'American Eagle',
-    'creative': 'blp_el_ae',
+    'id': 'jeans_060320',
+    'name': 'Jeans Él',
+    'creative': 'blp_el_jeans',
     'position': '04'
 },
 {
-    'id': 'playeras_121119',
-    'name': 'Playeras',
-    'creative': 'blp_el_playeras',
+    'id': 'zapatos_060320',
+    'name': 'Zapatos Él',
+    'creative': 'blp_el_zapatos',
     'position': '05'
 },
 {
-    'id': 'casual_121119',
-    'name': 'Casual',
-    'creative': 'blp_el_casual',
+    'id': 'polos_060320',
+    'name': 'Polos Él',
+    'creative': 'blp_el_polos',
     'position': '06'
 },
 {
-    'id': 'jeans_121119',
-    'name': 'Jeans',
-    'creative': 'blp_el_jeans',
+    'id': 'trajesbano_060320',
+    'name': 'Trajes Bano Él',
+    'creative': 'blp_el_trajesbano',
     'position': '07'
 },
 {
-    'id': 'sacos_121119',
-    'name': 'Sacos',
-    'creative': 'blp_el_sacos',
+    'id': 'solares_060320',
+    'name': 'Solares Él',
+    'creative': 'blp_el_solares',
     'position': '08'
 },
 {
-'id': 'marcas_hugo_121119',
-'name': 'Marcas Hugo',
-'creative': 'blp_el_marcas_hugo',
-'position': '09'
+    'id': 'sudaderas_060320',
+    'name': 'Sudaderas Él',
+    'creative': 'blp_el_sudaderas',
+    'position': '09'
 },
 {
-'id': 'marcas_banana_121119',
-'name': 'Marcas Banana',
-'creative': 'blp_el_marcas_banana',
-'position': '10'
+    'id': 'joggers_060320',
+    'name': 'Joggers Él',
+    'creative': 'blp_el_joggers',
+    'position': '10'
 },
 {
-'id': 'marcas_american_121119',
-'name': 'Marcas American',
-'creative': 'blp_el_marcas_american',
-'position': '11'
+    'id': 'sneakers_060320',
+    'name': 'Sneakers Él',
+    'creative': 'blp_el_sneakers',
+    'position': '11'
 },
 {
-'id': 'marcas_psycho_121119',
-'name': 'Marcas Psycho',
-'creative': 'blp_el_marcas_psycho',
-'position': '12'
+    'id': 'accesorios_060320',
+    'name': 'Accesorios Él',
+    'creative': 'blp_el_accesorios',
+    'position': '12'
 },
 {
-'id': 'marcas_gap_121119',
-'name': 'Marcas GAP',
-'creative': 'blp_el_marcas_GAP',
-'position': '13'
+    'id': 'hugo_060320',
+    'name': 'Hugo Él',
+    'creative': 'blp_el_hugo',
+    'position': '13'
 },
 {
-'id': 'marcas_ben_121119',
-'name': 'Marcas Ben',
-'creative': 'blp_el_marcas_ben',
-'position': '14'
+    'id': 'banana_060320',
+    'name': 'Banana Él',
+    'creative': 'blp_el_banana',
+    'position': '14'
 },
 {
-'id': 'marcas_ralph_121119',
-'name': 'Marcas Ralph',
-'creative': 'blp_el_marcas_ralph',
-'position': '15'
+    'id': 'american_060320',
+    'name': 'American Él',
+    'creative': 'blp_el_american',
+    'position': '15'
+},
+{
+    'id': 'psycho_060320',
+    'name': 'Psycho Él',
+    'creative': 'blp_el_psycho',
+    'position': '16'
+},
+{
+    'id': 'gap_060320',
+    'name': 'GAP Él',
+    'creative': 'blp_el_gap',
+    'position': '17'
+},
+{
+    'id': 'ralph_060320',
+    'name': 'Ralph Él',
+    'creative': 'blp_el_ralph',
+    'position': '18'
 }
 ]
 }
@@ -4799,6 +4817,53 @@ dataLayer.push({
 }
 });
 
+                
+/*PLP PANTALLAS ELECTRÓNICA*/ 
+
+            break;
+            case '/tienda/pantallas/catst14457077':
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_pantallas43_060320',
+'name': 'Electrónica Pantallas 43',
+'creative': 'plp_electronica_pantallas_43',
+'position': '01'
+},
+{
+'id': 'plp_pantallas49_060320',
+'name': 'Electrónica Pantallas 49',
+'creative': 'plp_electronica_pantallas_49',
+'position': '02'
+},
+{
+'id': 'plp_pantallas65_060320',
+'name': 'Electrónica Pantallas 65',
+'creative': 'plp_electronica_pantallas_65',
+'position': '03'
+}
+]
+}
+}
+});
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
 
 /* BLP BUEN FIN*/ 
        
