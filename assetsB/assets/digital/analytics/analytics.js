@@ -122,7 +122,7 @@ function myOnloadFunction(pageName,path) {
 		},
 			{
 		'id':'muebles_090320',
-           'name':'Muebles hasta 32% de desc',
+           'name':'Muebles hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'4'
 		},
