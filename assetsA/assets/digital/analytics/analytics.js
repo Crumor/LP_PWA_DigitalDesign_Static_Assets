@@ -103,85 +103,85 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
        {
-		'id':'ella_130320',
-            'name':'Ella hasta 30% de desc',
+		'id':'muebles_170320',
+		'name':'Muebles hasta 30% de desc',
            'creative':'h_banner_central',
            'position':'1'
         },
 		{
-          'id':'el_130320',
-           'name':'Él hasta 30% de desc',
+          'id':'linea_blanca_180320',
+           'name':'Línea Blanca hasta 47% de desc',
            'creative':'h_banner_secun',
            'position':'2'
            },
 		{
-		'id':'deportes_130320',
-        'name':'Deportes hasta 30% de desc',
+		'id':'colchones_170320',
+           'name':'Colchones hasta 47% de desc',
         'creative':'h_banner_secun',
         'position':'3'
 		},
 			{
-	'id':'zapatos_130320',
-      'name':'Zapatos hasta 15% de desc',
+	'id':'casa_170320',
+           'name':'Casa hasta 40% de desc',
       'creative':'h_banner_secun',
       'position':'4'
 		},
             {
-		'id':'bolsas_130320',
-        'name':'Bolsas hasta 15% de desc',
+		'id':'muebles_bebes_170320',
+           'name':'Muebles de bebés hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'5'
 		}, 
             {
-		'id':'linea_blanca_el_130320',
-           'name':'Línea Blanca hasta 44% de desc',
+		'id':'pantallas_170320',
+           'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'6'
         },	
         {
-        'id':'muebles_130320',
-           'name':'Muebles hasta 30% de desc',
+        'id':'computo_170320',
+           'name':'Cómputo hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'7'
             },
             {
- 'id':'colchones_130320',
-           'name':'Colchones hasta 44% de desc',
+ 'id':'tablets_170320',
+           'name':'Tablets hasta 15% de desc',
            'creative':'h_banner_secun',
            'position':'8'
 		},				
             {
-		'id':'muebles_bebes_130320',
-           'name':'Muebles de bebés hasta 30% de desc',
+		'id':'gap_170320',
+           'name':'GAP hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'9'
             },
             {
- 'id':'casa_130320',
-           'name':'Casa hasta 40% de desc',
+ 'id':'american_eagle_170320',
+           'name':'American Eagle hasta 25% de desc',
            'creative':'h_banner_secun',
            'position':'10'
 		},
              {
-'id':'cocina_130320',
-           'name':'Cocina hasta 36% de desc',
+ 'id':'ella_170320',
+           'name':'Ella hasta 15% de desc',
            'creative':'h_banner_secun',
            'position':'11'
 		}, {
-'id':'pantallas_130320',
-      'name':'Pantallas hasta 25% de desc',
+  'id':'niños_170320',
+           'name':'Niños hasta 30% de desc',
       'creative':'h_banner_secun',
       'position':'12'
 		},									
             {
-'id':'computo_130320',
-        'name':'Cómputo hasta 15% de desc',
+  'id':'zapatos_170320',
+           'name':'Zapatos hasta 15% de desc',
         'creative':'h_banner_secun',
         'position':'13'
 		},
             {
-'id':'celulares_130320',
-        'name':'Celulares hasta 15% de desc',
+ 'id':'deportes_170320',
+           'name':'Deportes hasta 20% de desc',
         'creative':'h_banner_secun',
         'position':'14'
 		}
@@ -2713,10 +2713,22 @@ dataLayer.push({
 'position': '06'
 },
 {
+'id': 'gap_khaki_el_170330',
+'name': 'gap_khaki_el',
+'creative': 'blp_gap_khaki_el',
+'position': '07'
+},
+{
+'id': 'gap_khaki_ella_170330',
+'name': 'gap_khaki_ella',
+'creative': 'blp_gap_khaki_ella',
+'position': '08'
+},
+{
 'id': 'gap_anorak_020320',
 'name': 'gap_anorak',
 'creative': 'blp_gap_anorak',
-'position': '07'
+'position': '09'
 }
 ]
 }
@@ -4988,7 +5000,60 @@ dataLayer.push({
 }
 }
 });            
+       
+                
+                
+                
+                
+      /*PLP COMPUTADORAS COMPUTO Y ELECTRÓNICA */ 
+
+            break;
+            case '/tienda/computadoras/catst10075558':  
             
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_computadorasaio_170320',
+'name': 'Electrónica Computadoras AIO',
+'creative': 'plp_electronica_computadoras_aio',
+'position': '01'
+},
+{
+'id': 'plp_gamer_170320',
+'name': 'Electrónica Computadoras Gamer',
+'creative': 'plp_electronica_computadoras_gamer',
+'position': '02'
+},
+{
+'id': 'plp_laptop_170320',
+'name': 'Electrónica Computadoras Laptop',
+'creative': 'plp_electronica_computadoras_laptop',
+'position': '03'
+},
+{
+'id': 'plp_laptop21_170320',
+'name': 'Electrónica Computadoras Laptop21',
+'creative': 'plp_electronica_computadoras_laptop21',
+'position': '04'
+}
+]
+}
+}
+});                    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             /*PLP ZAPATOS ELLA*/ 
 
             break;
