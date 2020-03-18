@@ -2713,10 +2713,22 @@ dataLayer.push({
 'position': '06'
 },
 {
+'id': 'gap_khaki_el_170330',
+'name': 'gap_khaki_el',
+'creative': 'blp_gap_khaki_el',
+'position': '07'
+},
+{
+'id': 'gap_khaki_ella_170330',
+'name': 'gap_khaki_ella',
+'creative': 'blp_gap_khaki_ella',
+'position': '08'
+},
+{
 'id': 'gap_anorak_020320',
 'name': 'gap_anorak',
 'creative': 'blp_gap_anorak',
-'position': '07'
+'position': '09'
 }
 ]
 }
@@ -4988,7 +5000,60 @@ dataLayer.push({
 }
 }
 });            
+       
+                
+                
+                
+                
+      /*PLP COMPUTADORAS COMPUTO Y ELECTRÓNICA */ 
+
+            break;
+            case '/tienda/computadoras/catst10075558':  
             
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_computadorasaio_170320',
+'name': 'Electrónica Computadoras AIO',
+'creative': 'plp_electronica_computadoras_aio',
+'position': '01'
+},
+{
+'id': 'plp_gamer_170320',
+'name': 'Electrónica Computadoras Gamer',
+'creative': 'plp_electronica_computadoras_gamer',
+'position': '02'
+},
+{
+'id': 'plp_laptop_170320',
+'name': 'Electrónica Computadoras Laptop',
+'creative': 'plp_electronica_computadoras_laptop',
+'position': '03'
+},
+{
+'id': 'plp_laptop21_170320',
+'name': 'Electrónica Computadoras Laptop21',
+'creative': 'plp_electronica_computadoras_laptop21',
+'position': '04'
+}
+]
+}
+}
+});                    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             /*PLP ZAPATOS ELLA*/ 
 
             break;
