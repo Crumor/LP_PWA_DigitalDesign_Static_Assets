@@ -1007,88 +1007,82 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'salas_210619',
-    'name': 'Salas',
-    'creative': 'blp_muebles_salas',
+    'id': 'jardin_180320',
+    'name': 'Jardines',
+    'creative': 'blp_muebles_jardines',
     'position': '01'
 },
 {
-    'id': 'iluminación_210619',
-    'name': 'Iluminación',
-    'creative': 'blp_muebles_iluminacion',
+    'id': 'oficina_180320',
+    'name': 'Oficina',
+    'creative': 'blp_muebles_oficina',
     'position': '02'
 },
 {
-    'id': 'muebles_271219',
-    'name': 'Chimeneas',
-    'creative': 'blp_muebles_chimeneas',
+    'id': 'salas_180320',
+    'name': 'Salas',
+    'creative': 'blp_muebles_salas',
     'position': '03'
 },
 {
-    'id': 'colchones_210619',
+    'id': 'colchones_180320',
     'name': 'Colchones',
     'creative': 'blp_muebles_colchones',
     'position': '04'
 },
 {
-    'id': 'infantiles_210619',
+    'id': 'infantiles_180320',
     'name': 'Infantiles',
     'creative': 'blp_muebles_infantiles',
     'position': '05'
 },
 {
-    'id': 'ropa_210619',
-    'name': 'Ropa de cama',
-    'creative': 'blp_muebles_ropa',
+    'id': 'bebe_180320',
+    'name': 'Bebe',
+    'creative': 'blp_muebles_bebe',
     'position': '06'
 },
 {
-    'id': 'sillas_210619',
+    'id': 'sillas_180320',
     'name': 'Sillas',
     'creative': 'blp_muebles_sillas',
     'position': '07'
 },
 {
-    'id': 'cortinas_210619',
-    'name': 'Cortinas',
-    'creative': 'blp_muebles_cortinas',
+    'id': 'iluminacion_180320',
+    'name': 'Iluminacion',
+    'creative': 'blp_muebles_iluminacion',
     'position': '08'
 },
 {
-    'id': 'portaretratos_210619',
+    'id': 'portaretratos_180320',
     'name': 'Portaretratos',
     'creative': 'blp_muebles_portaretratos',
     'position': '09'
 },
 {
-    'id': 'tapetes_210619',
+    'id': 'tapetes_180320',
     'name': 'Tapetes',
     'creative': 'blp_muebles_tapetes',
-    'position': '08'
-},
-{
-    'id': 'cuadros_210619',
-    'name': 'Cuadros',
-    'creative': 'blp_muebles_cuadros',
-    'position': '09'
-},
-{
-    'id': 'espejos_210619',
-    'name': 'Espejos',
-    'creative': 'blp_muebles_espejos',
     'position': '10'
 },
 {
-    'id': 'jardin_210619',
-    'name': 'Jardin',
-    'creative': 'blp_muebles_jardin',
+    'id': 'cuadros_180320',
+    'name': 'Cuadros',
+    'creative': 'blp_muebles_cuadros',
     'position': '11'
+},
+{
+    'id': 'espejos_180320',
+    'name': 'Espejos',
+    'creative': 'blp_muebles_espejos',
+    'position': '12'
 },
 {
     'id': 'cdi_210619',
     'name': 'CDI',
     'creative': 'blp_muebles_cdi',
-    'position': '12'
+    'position': '13'
 }
 ]
 }
