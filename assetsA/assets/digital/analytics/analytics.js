@@ -707,52 +707,70 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'conectividad_210619',
+    'id': 'conectividad_180320',
     'name': 'Conectividad Hogar',
     'creative': 'blp_lineablanca_conectividad',
     'position': '01'
 },
 {
-    'id': 'lavadosecado_210619',
+    'id': 'lavadosecado_180320',
     'name': 'Lavado y secado',
     'creative': 'blp_lineablanca_lavado',
     'position': '02'
 },
 {
-    'id': 'cocinas_210619',
+    'id': 'cocinas_180320',
     'name': 'Cocinas',
     'creative': 'blp_lineablanca_cocinas',
     'position': '03'
 },
 {
-    'id': 'refrigeradores_210619',
+    'id': 'refrigeradores_180320',
     'name': 'Refrigeradores',
     'creative': 'blp_lineablanca_refrigeradores',
     'position': '04'
 },
 {
-    'id': 'parrillas_210619',
-    'name': 'Parrillas',
-    'creative': 'blp_lineablanca_parrillas',
+    'id': 'aires_180320',
+    'name': 'Aires',
+    'creative': 'blp_lineablanca_aires',
     'position': '05'
 },
 {
-    'id': 'cafe_210619',
-    'name': 'Café',
+    'id': 'purificador_180320',
+    'name': 'Purificador',
     'creative': 'blp_lineablanca_cafe',
     'position': '06'
 },
 {
-    'id': 'calefactores_210619',
-    'name': 'Calefactores',
-    'creative': 'blp_lineablanca_calefactores',
+    'id': 'parrillas_180320',
+    'name': 'Parrillas',
+    'creative': 'blp_lineablanca_parrillas',
     'position': '07'
 },
 {
-    'id': 'estufas_210619',
+    'id': 'microondas_180320',
+    'name': 'Microondas',
+    'creative': 'blp_lineablanca_microondas',
+    'position': '08'
+},
+{
+    'id': 'cafe_180320',
+    'name': 'Café',
+    'creative': 'blp_lineablanca_cafe',
+    'position': '09'
+},
+{
+    'id': 'campanas_180320',
+    'name': 'Campanas',
+    'creative': 'blp_lineablanca_campanas',
+    'position': '10'
+},
+{
+    'id': 'estufas_180320',
     'name': 'Estufas',
     'creative': 'blp_lineablanca_estufas',
-    'position': '08'
+    'position': '11'
 }
 ]
 }
