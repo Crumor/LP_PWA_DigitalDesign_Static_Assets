@@ -103,87 +103,87 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
        {
-		'id':'muebles_170320',
+		'id':'muebles_230320',
 		'name':'Muebles hasta 30% de desc',
-           'creative':'h_banner_central',
-           'position':'1'
+       'creative':'h_banner_central',
+       'position':'1'
         },
 		{
-          'id':'linea_blanca_180320',
-           'name':'Línea Blanca hasta 47% de desc',
+          'id':'linea_blanca_230320',
+           'name':'Línea Blanca hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'2'
            },
 		{
-		'id':'colchones_170320',
+		 'id':'colchones_230320',
            'name':'Colchones hasta 47% de desc',
-        'creative':'h_banner_secun',
-        'position':'3'
+           'creative':'h_banner_secun',
+           'position':'3'
 		},
 			{
-	'id':'casa_170320',
-           'name':'Casa hasta 40% de desc',
-      'creative':'h_banner_secun',
-      'position':'4'
+	 'id':'cocina_230320',
+           'name':'Cocina hasta 40% de desc',
+           'creative':'h_banner_secun',
+           'position':'4'
 		},
             {
-		'id':'muebles_bebes_170320',
+		 'id':'muebles_bebes_230320',
            'name':'Muebles de bebés hasta 40% de desc',
-        'creative':'h_banner_secun',
-        'position':'5'
+           'creative':'h_banner_secun',
+           'position':'5'
 		}, 
             {
-		'id':'pantallas_170320',
+		  'id':'pantallas_230320',
            'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'6'
         },	
         {
-        'id':'computo_170320',
-           'name':'Cómputo hasta 20% de desc',
+         'id':'sonido_230320',
+           'name':'Sonido hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'7'
             },
             {
- 'id':'tablets_170320',
+ 'id':'tablets_230320',
            'name':'Tablets hasta 15% de desc',
            'creative':'h_banner_secun',
            'position':'8'
 		},				
             {
-		'id':'gap_170320',
-           'name':'GAP hasta 40% de desc',
+	 'id':'videojuegos_230320',
+           'name':'Videojuegos hasta 10% de desc',
            'creative':'h_banner_secun',
            'position':'9'
             },
             {
- 'id':'american_eagle_170320',
-           'name':'American Eagle hasta 25% de desc',
+ 'id':'ella_230320',
+           'name':'Ella hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'10'
 		},
              {
- 'id':'ella_170320',
-           'name':'Ella hasta 15% de desc',
+ 'id':'el_230320',
+           'name':'Él hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'11'
 		}, {
-  'id':'niños_170320',
-           'name':'Niños hasta 30% de desc',
-      'creative':'h_banner_secun',
-      'position':'12'
+  'id':'deportes_230320',
+           'name':'Ropa Deportiva hasta 30% de desc',
+           'creative':'h_banner_secun',
+           'position':'12'
 		},									
             {
-  'id':'zapatos_170320',
-           'name':'Zapatos hasta 15% de desc',
-        'creative':'h_banner_secun',
-        'position':'13'
+  'id':'lentes_sol_230320',
+           'name':'Lentes de Sol hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
 		},
             {
- 'id':'deportes_170320',
-           'name':'Deportes hasta 20% de desc',
-        'creative':'h_banner_secun',
-        'position':'14'
+  'id':'zapatos_230320',
+           'name':'Zapatos hasta 15% de desc',
+           'creative':'h_banner_secun',
+           'position':'14'
 		}
 	
                         ]
