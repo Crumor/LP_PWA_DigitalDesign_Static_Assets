@@ -109,31 +109,31 @@ function myOnloadFunction(pageName,path) {
        'position':'1'
         },
 		{
-          'id':'linea_blanca_230320',
-           'name':'Línea Blanca hasta 40% de desc',
+          'id':'linea_blanca_240320',
+           'name':'Línea Blanca hasta 44% de desc',
            'creative':'h_banner_secun',
            'position':'2'
            },
 		{
-		 'id':'colchones_230320',
+		'id':'colchones_230320',
            'name':'Colchones hasta 47% de desc',
            'creative':'h_banner_secun',
            'position':'3'
 		},
 			{
-	 'id':'cocina_230320',
+	'id':'cocina_230320',
            'name':'Cocina hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'4'
 		},
             {
-		 'id':'muebles_bebes_230320',
+		'id':'muebles_bebes_230320',
            'name':'Muebles de bebés hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'5'
 		}, 
             {
-		  'id':'pantallas_230320',
+		'id':'pantallas_230320',
            'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'6'
@@ -151,7 +151,7 @@ function myOnloadFunction(pageName,path) {
            'position':'8'
 		},				
             {
-	 'id':'videojuegos_230320',
+	'id':'videojuegos_230320',
            'name':'Videojuegos hasta 10% de desc',
            'creative':'h_banner_secun',
            'position':'9'
@@ -943,70 +943,70 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'licuadoras_210619',
+    'id': 'licuadoras_230320',
     'name': 'Licuadoras Cocina',
     'creative': 'blp_cocina_licuadoras',
     'position': '01'
 },
 {
-    'id': 'microondas_210619',
+    'id': 'microondas_230320',
     'name': 'Microondas Cocina',
     'creative': 'blp_cocina_microondas',
     'position': '02'
 },
 {
-    'id': 'cafeteras_210619',
+    'id': 'cafeteras_230320',
     'name': 'Cafeteras Cocina',
     'creative': 'blp_cocina_cafeteras',
     'position': '03'
 },
 {
-    'id': 'batidoras_210619',
-    'name': 'Cafeteras Cocina',
+    'id': 'batidoras_230320',
+    'name': 'Batidoras Cocina',
     'creative': 'blp_cocina_batidoras',
     'position': '04'
 },
 {
-    'id': 'ollas_210619',
-    'name': 'Ollas Cocina',
-    'creative': 'blp_cocina_ollas',
+    'id': 'frigbares_230320',
+    'name': 'Frigobares Cocina',
+    'creative': 'blp_cocina_frigobares',
     'position': '05'
 },
 {
-    'id': 'frigobares_210619',
-    'name': 'Frigobares Cocina',
-    'creative': 'blp_cocina_frigobares',
+    'id': 'ollas_230320',
+    'name': 'Ollas Cocina',
+    'creative': 'blp_cocina_ollas',
     'position': '06'
 },
 {
-    'id': 'baterias_210619',
-    'name': 'Baterias Cocina',
-    'creative': 'blp_cocina_baterias',
+    'id': 'vajillas_230320',
+    'name': 'Vajillas Cocina',
+    'creative': 'blp_cocina_frigobares',
     'position': '07'
 },
 {
-    'id': 'refrigeradores_210619',
+    'id': 'baterias_230320',
+    'name': 'Baterias Cocina',
+    'creative': 'blp_cocina_baterias',
+    'position': '08'
+},
+{
+    'id': 'refrigeradores_230320',
     'name': 'Refrigeradores Cocina',
     'creative': 'blp_cocina_refrigeradores',
-    'position': '08'
-},
-{
-    'id': 'campanas_210619',
-    'name': 'Campanas Cocina',
-    'creative': 'blp_cocina_campanas',
-    'position': '08'
-},
-{
-    'id': 'estufas_210619',
-    'name': 'Estufas Cocina',
-    'creative': 'blp_cocina_estufas',
     'position': '09'
 },
 {
-    'id': 'recetas_210619',
-    'name': 'Recetas Cocina',
-    'creative': 'blp_cocina_recetas',
+    'id': 'campanas_230320',
+    'name': 'Campanas Cocina',
+    'creative': 'blp_cocina_campanas',
     'position': '10'
+},
+{
+    'id': 'estufas_230320',
+    'name': 'Estufas Cocina',
+    'creative': 'blp_cocina_estufas',
+    'position': '11'
 }
 ]
 }
