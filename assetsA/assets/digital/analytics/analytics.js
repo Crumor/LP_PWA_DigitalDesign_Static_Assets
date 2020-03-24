@@ -109,31 +109,31 @@ function myOnloadFunction(pageName,path) {
        'position':'1'
         },
 		{
-          'id':'linea_blanca_230320',
-           'name':'Línea Blanca hasta 40% de desc',
+          'id':'linea_blanca_240320',
+           'name':'Línea Blanca hasta 44% de desc',
            'creative':'h_banner_secun',
            'position':'2'
            },
 		{
-		 'id':'colchones_230320',
+		'id':'colchones_230320',
            'name':'Colchones hasta 47% de desc',
            'creative':'h_banner_secun',
            'position':'3'
 		},
 			{
-	 'id':'cocina_230320',
+	'id':'cocina_230320',
            'name':'Cocina hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'4'
 		},
             {
-		 'id':'muebles_bebes_230320',
+		'id':'muebles_bebes_230320',
            'name':'Muebles de bebés hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'5'
 		}, 
             {
-		  'id':'pantallas_230320',
+		'id':'pantallas_230320',
            'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'6'
@@ -151,7 +151,7 @@ function myOnloadFunction(pageName,path) {
            'position':'8'
 		},				
             {
-	 'id':'videojuegos_230320',
+	'id':'videojuegos_230320',
            'name':'Videojuegos hasta 10% de desc',
            'creative':'h_banner_secun',
            'position':'9'
