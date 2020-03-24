@@ -103,87 +103,87 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
        {
-		'id':'muebles_170320',
+		'id':'muebles_230320',
 		'name':'Muebles hasta 30% de desc',
-           'creative':'h_banner_central',
-           'position':'1'
+       'creative':'h_banner_central',
+       'position':'1'
         },
 		{
-          'id':'linea_blanca_180320',
-           'name':'Línea Blanca hasta 47% de desc',
+          'id':'linea_blanca_230320',
+           'name':'Línea Blanca hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'2'
            },
 		{
-		'id':'colchones_170320',
+		 'id':'colchones_230320',
            'name':'Colchones hasta 47% de desc',
-        'creative':'h_banner_secun',
-        'position':'3'
+           'creative':'h_banner_secun',
+           'position':'3'
 		},
 			{
-	'id':'casa_170320',
-           'name':'Casa hasta 40% de desc',
-      'creative':'h_banner_secun',
-      'position':'4'
+	 'id':'cocina_230320',
+           'name':'Cocina hasta 40% de desc',
+           'creative':'h_banner_secun',
+           'position':'4'
 		},
             {
-		'id':'muebles_bebes_170320',
+		 'id':'muebles_bebes_230320',
            'name':'Muebles de bebés hasta 40% de desc',
-        'creative':'h_banner_secun',
-        'position':'5'
+           'creative':'h_banner_secun',
+           'position':'5'
 		}, 
             {
-		'id':'pantallas_170320',
+		  'id':'pantallas_230320',
            'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'6'
         },	
         {
-        'id':'computo_170320',
-           'name':'Cómputo hasta 20% de desc',
+         'id':'sonido_230320',
+           'name':'Sonido hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'7'
             },
             {
- 'id':'tablets_170320',
+ 'id':'tablets_230320',
            'name':'Tablets hasta 15% de desc',
            'creative':'h_banner_secun',
            'position':'8'
 		},				
             {
-		'id':'gap_170320',
-           'name':'GAP hasta 40% de desc',
+	 'id':'videojuegos_230320',
+           'name':'Videojuegos hasta 10% de desc',
            'creative':'h_banner_secun',
            'position':'9'
             },
             {
- 'id':'american_eagle_170320',
-           'name':'American Eagle hasta 25% de desc',
+ 'id':'ella_230320',
+           'name':'Ella hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'10'
 		},
              {
- 'id':'ella_170320',
-           'name':'Ella hasta 15% de desc',
+ 'id':'el_230320',
+           'name':'Él hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'11'
 		}, {
-  'id':'niños_170320',
-           'name':'Niños hasta 30% de desc',
-      'creative':'h_banner_secun',
-      'position':'12'
+  'id':'deportes_230320',
+           'name':'Ropa Deportiva hasta 30% de desc',
+           'creative':'h_banner_secun',
+           'position':'12'
 		},									
             {
-  'id':'zapatos_170320',
-           'name':'Zapatos hasta 15% de desc',
-        'creative':'h_banner_secun',
-        'position':'13'
+  'id':'lentes_sol_230320',
+           'name':'Lentes de Sol hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
 		},
             {
- 'id':'deportes_170320',
-           'name':'Deportes hasta 20% de desc',
-        'creative':'h_banner_secun',
-        'position':'14'
+  'id':'zapatos_230320',
+           'name':'Zapatos hasta 15% de desc',
+           'creative':'h_banner_secun',
+           'position':'14'
 		}
 	
                         ]
@@ -1628,94 +1628,100 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-   'id': 'casa_210619',
-   'name': 'Casa',
-   'creative': 'blp_Casa',
-   'position': '01'
+    'id': 'blancos_230320',
+    'name': 'Casa Blancos',
+    'creative': 'blp_casa_blancos',
+    'position': '01'
 },
 {
-   'id': 'casa_sabanas_210619',
-   'name': 'Casa Sabanas',
-   'creative': 'blp_sabanas_Casa',
-   'position': '02'
+    'id': 'colchones_230320',
+    'name': 'Casa Colchones',
+    'creative': 'blp_casa_colchones',
+    'position': '02'
 },
 {
-
-   'id': 'casa_colchas_210619',
-   'name': 'Casa Colchas',
-   'creative': 'blp_colchas_Casa',
-   'position': '03'
+    'id': 'ventilacion_230320',
+    'name': 'Casa Ventilacion',
+    'creative': 'blp_casa_ventilacion',
+    'position': '03'
                                                 
 },
 {
-   'id': 'casa_edredones_210619',
-   'name': 'Casa Edredones',
-   'creative': 'blp_edredones_Casa',
-   'position': '04'
-},
-{
-    'id': 'casa_organizadores_220120',
-    'name': 'Casa Organizadores',
-    'creative': 'blp_casa_organizadores',
+    'id': 'aspiradoras_230320',
+    'name': 'Casa Aspiradoras',
+    'creative': 'blp_casa_aspiradoras',
     'position': '04'
 },
 {
-   'id': 'casa_vajillas_210619',
-   'name': 'Casa Vajillas',
-   'creative': 'blp_vajillas_Casa',
-   'position': '05'
+    'id': 'purificadores_230320',
+    'name': 'Casa Purificadores',
+    'creative': 'blp_casa_purificadores',
+    'position': '05'
 },
 {
-   'id': 'casa_mascotas_210619',
-   'name': 'Casa Mascotas',
-   'creative': 'blp_mascotas_Casa',
-   'position': '06'
+    'id': 'planchas_230320',
+    'name': 'Casa Planchas',
+    'creative': 'blp_casa_planchas',
+    'position': '06'
 },
 {
-   'id': 'casa_organizador_210619',
-   'name': 'Casa Organizador',
-   'creative': 'blp_organizador_Casa',
-   'position': '07'
+    'id': 'banos_230320',
+    'name': 'Casa Bano',
+    'creative': 'blp_casa_bano',
+    'position': '07'
 },
 {
-   'id': 'casa_entretenimiento_210619',
-   'name': 'Casa Entretenimiento',
-   'creative': 'blp_entretenimiento_Casa',
-   'position': '08'
+    'id': 'casa_vajillas_230320',
+    'name': 'Casa Vajillas',
+    'creative': 'blp_casa_vajillas',
+    'position': '08'
 },
 {
-   'id': 'casa_libros_210619',
-   'name': 'Casa Libros',
-   'creative': 'blp_libros_Casa',
-   'position': '10'
+    'id': 'casa_mascotas_230320',
+    'name': 'Casa Mascotas',
+    'creative': 'blp_casa_mascotas',
+    'position': '09'
+},
+{
+    'id': 'casa_maletas_230320',
+    'name': 'Casa Maletas',
+    'creative': 'blp_casa_maletas',
+    'position': '10'
 
 },
 {
-    'id': 'casa_automotriz_051119',
-    'name': 'Casa Automotriz',
-    'creative': 'blp_casa_automotriz',
+    'id': 'casa_entretenimiento_230320',
+    'name': 'Casa Entretenimiento',
+    'creative': 'blp_casa_entretenimiento',
     'position': '11'
 
 },
 {
-    'id': 'casa_ferreteria_051119',
-    'name': 'Casa Ferreteria',
-    'creative': 'blp_casa_ferreteria',
+    'id': 'casa_libros_230320',
+    'name': 'Casa Libros',
+    'creative': 'blp_casa_libros',
     'position': '12'
 
 },
 {
-    'id': 'casa_asadores_051119',
-    'name': 'Casa Asadores',
-    'creative': 'blp_casa_asadores',
+    'id': 'casa_automotriz_230320',
+    'name': 'Casa Automotriz',
+    'creative': 'blp_casa_automotriz',
     'position': '13'
 
 },
 {
-   'id': 'casa_libros_210619',
-   'name': 'Casa Libros',
-   'creative': 'blp_libros_Casa',
-   'position': '09'
+    'id': 'casa_ferreteria_230320',
+    'name': 'Casa Ferreteria',
+    'creative': 'blp_casa_ferreteria',
+    'position': '14'
+
+},
+{
+    'id': 'casa_asadores_230320',
+    'name': 'Casa Asadores',
+    'creative': 'blp_casa_asadores',
+    'position': '15'
 
 }
 ]
