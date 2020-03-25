@@ -103,82 +103,87 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
        {
-		'id':'linea_blanca_020320',
-		'name':'Línea blanca hasta 44% de desc',
+		'id':'muebles_230320',
+		'name':'Muebles hasta 30% de desc',
        'creative':'h_banner_central',
        'position':'1'
         },
 		{
-          'id':'casa_090320',
-           'name':'Casa hasta 40% de desc',
+          'id':'linea_blanca_240320',
+           'name':'Línea Blanca hasta 44% de desc',
            'creative':'h_banner_secun',
            'position':'2'
            },
 		{
-			'id':'colchones_090320',
-           'name':'Colchones hasta 40% de desc',
+		'id':'colchones_230320',
+           'name':'Colchones hasta 47% de desc',
            'creative':'h_banner_secun',
            'position':'3'
 		},
 			{
-		'id':'muebles_090320',
-           'name':'Muebles hasta 20% de desc',
+	'id':'cocina_230320',
+           'name':'Cocina hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'4'
 		},
             {
-		'id':'tendencia_el_090220',
-           'name':'Quince días de tendencia Él hasta 20% de desc',
+		'id':'muebles_bebes_230320',
+           'name':'Muebles de bebés hasta 40% de desc',
            'creative':'h_banner_secun',
            'position':'5'
 		}, 
             {
-		'id':'american_090320',
-           'name':'American Eagle hasta 20% de desc',
+		'id':'pantallas_230320',
+           'name':'Pantallas hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'6'
         },	
         {
-        'id':'ella_090320',
-           'name':'Ella hasta 25% de desc',
+         'id':'sonido_230320',
+           'name':'Sonido hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'7'
             },
             {
-		'id':'ninos_090320',
-           'name':'Niños hasta 25% de desc',
+ 'id':'tablets_230320',
+           'name':'Tablets hasta 15% de desc',
            'creative':'h_banner_secun',
            'position':'8'
 		},				
             {
-		'id':'el_090320',
-           'name':'Él hasta 25% de desc',
+	'id':'videojuegos_230320',
+           'name':'Videojuegos hasta 10% de desc',
            'creative':'h_banner_secun',
            'position':'9'
             },
             {
-	'id':'zapatos_090320',
-           'name':'Zapatos hasta 20% de desc',
+ 'id':'ella_230320',
+           'name':'Ella hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'10'
 		},
              {
-		'id':'pantallas_090320',
-           'name':'Pantallas hasta 25% de desc',
+ 'id':'el_230320',
+           'name':'Él hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'11'
-		},									
-            {
-		'id':'videojuegos_090320',
-           'name':'Videojuegos hasta 15% de desc',
+		}, {
+  'id':'deportes_230320',
+           'name':'Ropa Deportiva hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'12'
+		},									
+            {
+  'id':'lentes_sol_230320',
+           'name':'Lentes de Sol hasta 20% de desc',
+           'creative':'h_banner_secun',
+           'position':'13'
 		},
             {
-		'id':'viajes_090320',
-       'name':'Viajes hasta 72% de desc',
-       'creative':'h_banner_secun',
-       'position':'13'
+  'id':'zapatos_230320',
+           'name':'Zapatos hasta 15% de desc',
+           'creative':'h_banner_secun',
+           'position':'14'
 		}
 	
                         ]
@@ -702,52 +707,70 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'conectividad_210619',
+    'id': 'conectividad_180320',
     'name': 'Conectividad Hogar',
     'creative': 'blp_lineablanca_conectividad',
     'position': '01'
 },
 {
-    'id': 'lavadosecado_210619',
+    'id': 'lavadosecado_180320',
     'name': 'Lavado y secado',
     'creative': 'blp_lineablanca_lavado',
     'position': '02'
 },
 {
-    'id': 'cocinas_210619',
+    'id': 'cocinas_180320',
     'name': 'Cocinas',
     'creative': 'blp_lineablanca_cocinas',
     'position': '03'
 },
 {
-    'id': 'refrigeradores_210619',
+    'id': 'refrigeradores_180320',
     'name': 'Refrigeradores',
     'creative': 'blp_lineablanca_refrigeradores',
     'position': '04'
 },
 {
-    'id': 'parrillas_210619',
-    'name': 'Parrillas',
-    'creative': 'blp_lineablanca_parrillas',
+    'id': 'aires_180320',
+    'name': 'Aires',
+    'creative': 'blp_lineablanca_aires',
     'position': '05'
 },
 {
-    'id': 'cafe_210619',
-    'name': 'Café',
+    'id': 'purificador_180320',
+    'name': 'Purificador',
     'creative': 'blp_lineablanca_cafe',
     'position': '06'
 },
 {
-    'id': 'calefactores_210619',
-    'name': 'Calefactores',
-    'creative': 'blp_lineablanca_calefactores',
+    'id': 'parrillas_180320',
+    'name': 'Parrillas',
+    'creative': 'blp_lineablanca_parrillas',
     'position': '07'
 },
 {
-    'id': 'estufas_210619',
+    'id': 'microondas_180320',
+    'name': 'Microondas',
+    'creative': 'blp_lineablanca_microondas',
+    'position': '08'
+},
+{
+    'id': 'cafe_180320',
+    'name': 'Café',
+    'creative': 'blp_lineablanca_cafe',
+    'position': '09'
+},
+{
+    'id': 'campanas_180320',
+    'name': 'Campanas',
+    'creative': 'blp_lineablanca_campanas',
+    'position': '10'
+},
+{
+    'id': 'estufas_180320',
     'name': 'Estufas',
     'creative': 'blp_lineablanca_estufas',
-    'position': '08'
+    'position': '11'
 }
 ]
 }
@@ -920,70 +943,70 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'licuadoras_210619',
+    'id': 'licuadoras_230320',
     'name': 'Licuadoras Cocina',
     'creative': 'blp_cocina_licuadoras',
     'position': '01'
 },
 {
-    'id': 'microondas_210619',
+    'id': 'microondas_230320',
     'name': 'Microondas Cocina',
     'creative': 'blp_cocina_microondas',
     'position': '02'
 },
 {
-    'id': 'cafeteras_210619',
+    'id': 'cafeteras_230320',
     'name': 'Cafeteras Cocina',
     'creative': 'blp_cocina_cafeteras',
     'position': '03'
 },
 {
-    'id': 'batidoras_210619',
-    'name': 'Cafeteras Cocina',
+    'id': 'batidoras_230320',
+    'name': 'Batidoras Cocina',
     'creative': 'blp_cocina_batidoras',
     'position': '04'
 },
 {
-    'id': 'ollas_210619',
-    'name': 'Ollas Cocina',
-    'creative': 'blp_cocina_ollas',
+    'id': 'frigbares_230320',
+    'name': 'Frigobares Cocina',
+    'creative': 'blp_cocina_frigobares',
     'position': '05'
 },
 {
-    'id': 'frigobares_210619',
-    'name': 'Frigobares Cocina',
-    'creative': 'blp_cocina_frigobares',
+    'id': 'ollas_230320',
+    'name': 'Ollas Cocina',
+    'creative': 'blp_cocina_ollas',
     'position': '06'
 },
 {
-    'id': 'baterias_210619',
-    'name': 'Baterias Cocina',
-    'creative': 'blp_cocina_baterias',
+    'id': 'vajillas_230320',
+    'name': 'Vajillas Cocina',
+    'creative': 'blp_cocina_frigobares',
     'position': '07'
 },
 {
-    'id': 'refrigeradores_210619',
+    'id': 'baterias_230320',
+    'name': 'Baterias Cocina',
+    'creative': 'blp_cocina_baterias',
+    'position': '08'
+},
+{
+    'id': 'refrigeradores_230320',
     'name': 'Refrigeradores Cocina',
     'creative': 'blp_cocina_refrigeradores',
-    'position': '08'
-},
-{
-    'id': 'campanas_210619',
-    'name': 'Campanas Cocina',
-    'creative': 'blp_cocina_campanas',
-    'position': '08'
-},
-{
-    'id': 'estufas_210619',
-    'name': 'Estufas Cocina',
-    'creative': 'blp_cocina_estufas',
     'position': '09'
 },
 {
-    'id': 'recetas_210619',
-    'name': 'Recetas Cocina',
-    'creative': 'blp_cocina_recetas',
+    'id': 'campanas_230320',
+    'name': 'Campanas Cocina',
+    'creative': 'blp_cocina_campanas',
     'position': '10'
+},
+{
+    'id': 'estufas_230320',
+    'name': 'Estufas Cocina',
+    'creative': 'blp_cocina_estufas',
+    'position': '11'
 }
 ]
 }
@@ -1002,88 +1025,82 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'salas_210619',
-    'name': 'Salas',
-    'creative': 'blp_muebles_salas',
+    'id': 'jardin_180320',
+    'name': 'Jardines',
+    'creative': 'blp_muebles_jardines',
     'position': '01'
 },
 {
-    'id': 'iluminación_210619',
-    'name': 'Iluminación',
-    'creative': 'blp_muebles_iluminacion',
+    'id': 'oficina_180320',
+    'name': 'Oficina',
+    'creative': 'blp_muebles_oficina',
     'position': '02'
 },
 {
-    'id': 'muebles_271219',
-    'name': 'Chimeneas',
-    'creative': 'blp_muebles_chimeneas',
+    'id': 'salas_180320',
+    'name': 'Salas',
+    'creative': 'blp_muebles_salas',
     'position': '03'
 },
 {
-    'id': 'colchones_210619',
+    'id': 'colchones_180320',
     'name': 'Colchones',
     'creative': 'blp_muebles_colchones',
     'position': '04'
 },
 {
-    'id': 'infantiles_210619',
+    'id': 'infantiles_180320',
     'name': 'Infantiles',
     'creative': 'blp_muebles_infantiles',
     'position': '05'
 },
 {
-    'id': 'ropa_210619',
-    'name': 'Ropa de cama',
-    'creative': 'blp_muebles_ropa',
+    'id': 'bebe_180320',
+    'name': 'Bebe',
+    'creative': 'blp_muebles_bebe',
     'position': '06'
 },
 {
-    'id': 'sillas_210619',
+    'id': 'sillas_180320',
     'name': 'Sillas',
     'creative': 'blp_muebles_sillas',
     'position': '07'
 },
 {
-    'id': 'cortinas_210619',
-    'name': 'Cortinas',
-    'creative': 'blp_muebles_cortinas',
+    'id': 'iluminacion_180320',
+    'name': 'Iluminacion',
+    'creative': 'blp_muebles_iluminacion',
     'position': '08'
 },
 {
-    'id': 'portaretratos_210619',
+    'id': 'portaretratos_180320',
     'name': 'Portaretratos',
     'creative': 'blp_muebles_portaretratos',
     'position': '09'
 },
 {
-    'id': 'tapetes_210619',
+    'id': 'tapetes_180320',
     'name': 'Tapetes',
     'creative': 'blp_muebles_tapetes',
-    'position': '08'
-},
-{
-    'id': 'cuadros_210619',
-    'name': 'Cuadros',
-    'creative': 'blp_muebles_cuadros',
-    'position': '09'
-},
-{
-    'id': 'espejos_210619',
-    'name': 'Espejos',
-    'creative': 'blp_muebles_espejos',
     'position': '10'
 },
 {
-    'id': 'jardin_210619',
-    'name': 'Jardin',
-    'creative': 'blp_muebles_jardin',
+    'id': 'cuadros_180320',
+    'name': 'Cuadros',
+    'creative': 'blp_muebles_cuadros',
     'position': '11'
+},
+{
+    'id': 'espejos_180320',
+    'name': 'Espejos',
+    'creative': 'blp_muebles_espejos',
+    'position': '12'
 },
 {
     'id': 'cdi_210619',
     'name': 'CDI',
     'creative': 'blp_muebles_cdi',
-    'position': '12'
+    'position': '13'
 }
 ]
 }
@@ -1611,94 +1628,100 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-   'id': 'casa_210619',
-   'name': 'Casa',
-   'creative': 'blp_Casa',
-   'position': '01'
+    'id': 'blancos_230320',
+    'name': 'Casa Blancos',
+    'creative': 'blp_casa_blancos',
+    'position': '01'
 },
 {
-   'id': 'casa_sabanas_210619',
-   'name': 'Casa Sabanas',
-   'creative': 'blp_sabanas_Casa',
-   'position': '02'
+    'id': 'colchones_230320',
+    'name': 'Casa Colchones',
+    'creative': 'blp_casa_colchones',
+    'position': '02'
 },
 {
-
-   'id': 'casa_colchas_210619',
-   'name': 'Casa Colchas',
-   'creative': 'blp_colchas_Casa',
-   'position': '03'
+    'id': 'ventilacion_230320',
+    'name': 'Casa Ventilacion',
+    'creative': 'blp_casa_ventilacion',
+    'position': '03'
                                                 
 },
 {
-   'id': 'casa_edredones_210619',
-   'name': 'Casa Edredones',
-   'creative': 'blp_edredones_Casa',
-   'position': '04'
-},
-{
-    'id': 'casa_organizadores_220120',
-    'name': 'Casa Organizadores',
-    'creative': 'blp_casa_organizadores',
+    'id': 'aspiradoras_230320',
+    'name': 'Casa Aspiradoras',
+    'creative': 'blp_casa_aspiradoras',
     'position': '04'
 },
 {
-   'id': 'casa_vajillas_210619',
-   'name': 'Casa Vajillas',
-   'creative': 'blp_vajillas_Casa',
-   'position': '05'
+    'id': 'purificadores_230320',
+    'name': 'Casa Purificadores',
+    'creative': 'blp_casa_purificadores',
+    'position': '05'
 },
 {
-   'id': 'casa_mascotas_210619',
-   'name': 'Casa Mascotas',
-   'creative': 'blp_mascotas_Casa',
-   'position': '06'
+    'id': 'planchas_230320',
+    'name': 'Casa Planchas',
+    'creative': 'blp_casa_planchas',
+    'position': '06'
 },
 {
-   'id': 'casa_organizador_210619',
-   'name': 'Casa Organizador',
-   'creative': 'blp_organizador_Casa',
-   'position': '07'
+    'id': 'banos_230320',
+    'name': 'Casa Bano',
+    'creative': 'blp_casa_bano',
+    'position': '07'
 },
 {
-   'id': 'casa_entretenimiento_210619',
-   'name': 'Casa Entretenimiento',
-   'creative': 'blp_entretenimiento_Casa',
-   'position': '08'
+    'id': 'casa_vajillas_230320',
+    'name': 'Casa Vajillas',
+    'creative': 'blp_casa_vajillas',
+    'position': '08'
 },
 {
-   'id': 'casa_libros_210619',
-   'name': 'Casa Libros',
-   'creative': 'blp_libros_Casa',
-   'position': '10'
+    'id': 'casa_mascotas_230320',
+    'name': 'Casa Mascotas',
+    'creative': 'blp_casa_mascotas',
+    'position': '09'
+},
+{
+    'id': 'casa_maletas_230320',
+    'name': 'Casa Maletas',
+    'creative': 'blp_casa_maletas',
+    'position': '10'
 
 },
 {
-    'id': 'casa_automotriz_051119',
-    'name': 'Casa Automotriz',
-    'creative': 'blp_casa_automotriz',
+    'id': 'casa_entretenimiento_230320',
+    'name': 'Casa Entretenimiento',
+    'creative': 'blp_casa_entretenimiento',
     'position': '11'
 
 },
 {
-    'id': 'casa_ferreteria_051119',
-    'name': 'Casa Ferreteria',
-    'creative': 'blp_casa_ferreteria',
+    'id': 'casa_libros_230320',
+    'name': 'Casa Libros',
+    'creative': 'blp_casa_libros',
     'position': '12'
 
 },
 {
-    'id': 'casa_asadores_051119',
-    'name': 'Casa Asadores',
-    'creative': 'blp_casa_asadores',
+    'id': 'casa_automotriz_230320',
+    'name': 'Casa Automotriz',
+    'creative': 'blp_casa_automotriz',
     'position': '13'
 
 },
 {
-   'id': 'casa_libros_210619',
-   'name': 'Casa Libros',
-   'creative': 'blp_libros_Casa',
-   'position': '09'
+    'id': 'casa_ferreteria_230320',
+    'name': 'Casa Ferreteria',
+    'creative': 'blp_casa_ferreteria',
+    'position': '14'
+
+},
+{
+    'id': 'casa_asadores_230320',
+    'name': 'Casa Asadores',
+    'creative': 'blp_casa_asadores',
+    'position': '15'
 
 }
 ]
@@ -2708,10 +2731,22 @@ dataLayer.push({
 'position': '06'
 },
 {
+'id': 'gap_khaki_el_170330',
+'name': 'gap_khaki_el',
+'creative': 'blp_gap_khaki_el',
+'position': '07'
+},
+{
+'id': 'gap_khaki_ella_170330',
+'name': 'gap_khaki_ella',
+'creative': 'blp_gap_khaki_ella',
+'position': '08'
+},
+{
 'id': 'gap_anorak_020320',
 'name': 'gap_anorak',
 'creative': 'blp_gap_anorak',
-'position': '07'
+'position': '09'
 }
 ]
 }
@@ -4983,7 +5018,60 @@ dataLayer.push({
 }
 }
 });            
+       
+                
+                
+                
+                
+      /*PLP COMPUTADORAS COMPUTO Y ELECTRÓNICA */ 
+
+            break;
+            case '/tienda/computadoras/catst10075558':  
             
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'plp_computadorasaio_170320',
+'name': 'Electrónica Computadoras AIO',
+'creative': 'plp_electronica_computadoras_aio',
+'position': '01'
+},
+{
+'id': 'plp_gamer_170320',
+'name': 'Electrónica Computadoras Gamer',
+'creative': 'plp_electronica_computadoras_gamer',
+'position': '02'
+},
+{
+'id': 'plp_laptop_170320',
+'name': 'Electrónica Computadoras Laptop',
+'creative': 'plp_electronica_computadoras_laptop',
+'position': '03'
+},
+{
+'id': 'plp_laptop21_170320',
+'name': 'Electrónica Computadoras Laptop21',
+'creative': 'plp_electronica_computadoras_laptop21',
+'position': '04'
+}
+]
+}
+}
+});                    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             /*PLP ZAPATOS ELLA*/ 
 
             break;
