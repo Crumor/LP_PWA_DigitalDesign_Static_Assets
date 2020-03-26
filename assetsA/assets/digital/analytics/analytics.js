@@ -4152,33 +4152,31 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'principal_050220',
+    'id': 'principal_250320',
     'name': 'Disney Principal',
     'creative': 'blp_disney_principal',
     'position': '01'
 },
 {
-    'id': 'eats_050220',
-    'name': 'Disney Eats',
-    'creative': 'blp_disney_eats',
+    'id': 'ropa_050220',
+    'name': 'Disney Ropa',
+    'creative': 'blp_disney_ropa',
     'position': '02'
 },
 {
-    'id': 'disfraces_050220',
-    'name': 'Disney Disfraces',
-    'creative': 'blp_disney_disfraces',
+    'id': 'accesorios_050220',
+    'name': 'Disney Accesorios',
+    'creative': 'blp_disney_accesorios',
     'position': '03'
 },
 {
-    'id': 'playeras_050220',
-    'name': 'Disney Playeras',
-    'creative': 'blp_disney_playeras',
+    'name': 'Disney Juguetes',
+    'creative': 'blp_disney_juguetes',
     'position': '04'
 },
 {
-    'id': 'princesas_050220',
-    'name': 'Disney Princesas',
-    'creative': 'blp_disney_princesas',
+    'name': 'Disney Pijamas',
+    'creative': 'blp_disney_pijamas',
     'position': '05'
 }
 ]
