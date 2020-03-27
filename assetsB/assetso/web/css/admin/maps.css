@@ -1,0 +1,60 @@
+#map {
+  height: 485px;
+}
+#map_google {
+  height: 298px;
+}
+#description {
+  font-size: 15px;
+  font-weight: 300;
+}
+#infowindowContent .title {
+  font-weight: bold;
+}
+#infowindowContent {
+  display: none;
+}
+#map #infowindowContent {
+  display: inline;
+}
+.pacCard {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#pacContainer {
+  padding-bottom: 12px;
+}
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+.pac-controls label {
+  font-size: 13px;
+  font-weight: 300;
+}
+#pacInput {
+  width: 100%;
+}
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+.gmnoprint .gm-style-mtc {
+  display: none;
+}
+#pacInput:-moz-placeholder {
+  color: transparent !important;
+}
+#pacInput::-moz-placeholder {
+  color: transparent !important;
+}
+#pacInput:-ms-input-placeholder {
+  color: transparent !important;
+}
+#pacInput::placeholder {
+  color: transparent !important;
+}

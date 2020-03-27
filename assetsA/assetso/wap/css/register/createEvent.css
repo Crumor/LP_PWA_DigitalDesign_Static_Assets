@@ -1,0 +1,138 @@
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+#createEvent .buttonBlock {
+  margin-top: 50px;
+}
+#createEvent ul {
+  padding-left: 15px;
+}
+#createEvent ul li {
+  margin-bottom: 10px;
+}
+#createEvent .registerTitles h2 {
+  margin: 10px 0 20px;
+}
+#createEvent .registerTitles h3 {
+  font-family: 'robotoCondensed';
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#createEvent .imageBlock {
+  padding: 20px 0;
+  margin-bottom: 0px;
+}
+#createEvent .imageBlock > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 65%;
+}
+#createEvent .imageBlock > div:first-of-type {
+  width: 30%;
+}
+#createEvent .imageBlock > div .imageFile {
+  display: none;
+}
+#createEvent .imageBlock > div img {
+  margin: 0 auto;
+  max-width: 80px;
+  width: 90%;
+}
+#createEvent .imageBlock > div p {
+  margin: 0;
+}
+#createEvent .tipBlock {
+  border: 10px solid #f6f5f5;
+}
+#createEvent .tipBlock p {
+  border: 1px dashed #666;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 12px;
+}
+#createEvent .tipBlock p span {
+  color: #000;
+}
+.selectStore {
+  margin-top: 30px;
+}
+span.error {
+  color: #f00 !important;
+}
+.createAccountGR button {
+  font-size: 18px;
+}
+.createAccountGR h2 {
+  margin-bottom: 0 !important;
+}
+.createAccountGR .genderRadios {
+  margin-bottom: 20px;
+}
+.createAccountGR .genderRadios label {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.createAccountGR .genderRadios .radio {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 0 0 10px;
+}
+.createAccountGR .glyphicon-calendar {
+  color: #333;
+}
+.createAccountGR .terms {
+  padding-bottom: 20px;
+  text-align: right;
+}
+.createAccountGR .terms a {
+  color: #e10098;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  #createEvent {
+    background: url("/wap/images/step2Background.png") repeat;
+  }
+  #createEvent .buttonBlock {
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+  #createEvent .buttonBlock .grayMobileButton,
+  #createEvent .buttonBlock .pinkMobileButton {
+    float: left;
+    width: 200px;
+  }
+  #createEvent .buttonBlock .pinkMobileButton {
+    float: right;
+  }
+  #createEvent .registerTitles h2 {
+    margin: 25px 0;
+    text-align: center;
+  }
+  #createEvent .registerTitles h2.requiredInput {
+    text-align: right;
+  }
+  #createEvent .tipBlock {
+    margin-top: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #createEvent .contentBox {
+    padding: 0;
+  }
+  #createEvent .tipBlock {
+    margin-top: 30%;
+  }
+}

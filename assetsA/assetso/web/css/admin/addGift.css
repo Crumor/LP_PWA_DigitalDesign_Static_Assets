@@ -1,0 +1,208 @@
+#pdp-productAddToCart form #addGift {
+  color: #e10098;
+  font-size: 14px;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 10px auto 5px;
+  padding: 10px 8%;
+  text-align: left;
+  width: 100%;
+  border: 1px solid #c81685;
+}
+#pdp-productAddToCart form #addGift span {
+  color: #e10098;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  margin-top: 6px;
+}
+.popupAddGift {
+  border: 1px solid #e10098;
+  color: #666;
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  width: 100%;
+}
+.popupAddGift .arrow_ZoomOut:before {
+  border-bottom-color: #e10098;
+}
+.popupAddGift ul li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.popupAddGift ul li:last-child {
+  margin-bottom: 0px;
+}
+.popupAddGift ul li span {
+  font-size: 10px;
+  font-weight: bold;
+  float: right;
+  margin-top: 1px;
+}
+.Itrlink {
+  text-align: center !important;
+}
+#minishoppingbag .minishopping-added .minishopping-product {
+  margin-top: 1em !important;
+  width: 60%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+#minishoppingbag .minishopping-added .minishopping-product .minishopping-added-modulo {
+  margin-top: 0;
+}
+.minishopping-gift {
+  float: right;
+  width: 300px;
+  margin-top: 1em;
+  padding-left: 25px;
+  border-left: 1px solid #b3b3b3;
+}
+.minishopping-gift h5 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.minishopping-gift form span {
+  font: 14px 'robotocondensedregular', arial, sans-serif;
+  margin: 0;
+  color: #3b3b3e;
+  display: inline-block;
+  padding: 5px 0 0 10px;
+}
+.minishopping-gift .radio label:before {
+  height: 13px;
+  width: 13px;
+}
+.update-alert .alertSuccess {
+  padding: 0;
+}
+.update-alert i.icon-check {
+  padding: 20px;
+}
+.update-alert p {
+  font-size: 14px;
+  padding: 10px 3.5px 0 20px !important;
+}
+.update-alert a.icon-liv-close {
+  background: transparent;
+  color: #39b54a;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+.btn-default-liv {
+  color: #e10098;
+  font-size: 16px;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 10px auto 5px;
+  padding: 12px 12%;
+  text-align: left;
+  width: 100%;
+  border: 1px solid #c81685;
+}
+.btn-default-liv:focus {
+  outline: 0;
+}
+.btn-default-liv .icon-liv-right-06 {
+  color: #e10098;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  margin-top: 4px;
+}
+.btn-success-liv {
+  color: #fff;
+  font-size: 16px;
+  background: #e10098;
+  border: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin: 10px auto 5px;
+  padding: 12px 12%;
+  text-align: left;
+  width: 100%;
+}
+.btn-success-liv:focus {
+  outline: 0;
+}
+.btn-success-liv .icon-liv-right-06 {
+  color: #fdfdfd;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  margin-top: 6px;
+}
+button {
+  cursor: pointer;
+}
+.popupAddGift ul li a {
+  float: left;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 10px;
+}
+.addGiftBlock {
+  float: right;
+  margin: 10px 10px 10px 0;
+}
+.addGiftBlock #zoomdropdown {
+  border: none;
+  min-height: auto;
+  padding-right: 15px;
+  width: 250px;
+}
+.addGiftBlock #zoomdropdown:before,
+.addGiftBlock #zoomdropdown:after {
+  bottom: 160%;
+}
+.addGiftBlock #addGift {
+  height: 45px;
+}
+.addGiftBlock #addGift span {
+  color: #e10098;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  margin-top: 6px;
+}
+.addGiftBlock .popupAddGift {
+  background: #fff;
+  width: 280px;
+}
+.addGiftBlock .arrow_ZoomOut {
+  min-height: 80px;
+}
+#wn-header-right .addGiftBlock {
+  margin-top: -10px;
+}
+.typeEventWarning-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.typeEventWarning {
+  background: #fff;
+  padding: 9px;
+}
+.alertWarning {
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #ffd457;
+}

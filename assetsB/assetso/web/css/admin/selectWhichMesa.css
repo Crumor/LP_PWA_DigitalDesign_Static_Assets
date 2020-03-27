@@ -1,0 +1,55 @@
+/* body {
+  overflow-y: hidden;
+}
+.contentBox#whichMesa {
+  padding: 30px 30px 100px 30px;
+  text-align: center;
+}
+.contentBox#whichMesa .registerTitles {
+  margin-bottom: 60px;
+}
+.contentBox#whichMesa .registerTitles h2.titleModule {
+  margin-bottom: 40px;
+}
+.mainContainer {
+  height: 100vh;
+} */
+.contentBox#whichMesa {
+  padding: 30px 30px 100px 30px;
+  text-align: center;
+}
+.contentBox#whichMesa .registerTitles {
+  margin-bottom: 60px;
+}
+.contentBox#whichMesa .registerTitles h2.titleModule {
+  margin-bottom: 40px;
+}
+.contentBox#whichMesa .eventSelection a {
+	cursor: pointer;
+}
+.eventSelection {
+  float: left;
+  margin: 0 10%;
+  width: 80%;
+}
+.logoContent {
+  display: block;
+  margin: 10px auto;
+  height: 150px;
+  width: 150px;
+}
+.logoContent img {
+  width: 100%;
+}
+.imgMesa {
+  display: inline-block;
+  margin: 0 20px;
+}
+.nameEvent,
+.statusEvent {
+  font-size: 12px;
+  margin: 0;
+}
+.statusEvent {
+  font-weight: 900;
+}

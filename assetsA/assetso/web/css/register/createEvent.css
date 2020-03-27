@@ -1,0 +1,411 @@
+/* Duplicate from main.css line 2 to 785 removed
+*/
+input.custom-date {
+  height: 41px;
+}
+#createEvent .buttonBlock,
+#createCelebrate .buttonBlock {
+  margin-top: 50px;
+}
+#createEvent .buttonBlock button,
+#createCelebrate .buttonBlock button {
+  font-size: 18px;
+  font-family: 'robotoCondensed';
+  float: left;
+  line-height: 1.1;
+  padding: 12px 0;
+}
+#createEvent .buttonBlock button:last-of-type,
+#createCelebrate .buttonBlock button:last-of-type {
+  float: right;
+}
+#createEvent .titleSection,
+#createCelebrate .titleSection {
+  margin-bottom: 40px;
+}
+#createEvent .registerTitles h2,
+#createCelebrate .registerTitles h2 {
+  margin: 10px 0 20px;
+}
+#createEvent .selectStore,
+#createCelebrate .selectStore {
+  margin-top: 30px;
+}
+#createEvent .selectStore .inputBlock:last-of-type,
+#createCelebrate .selectStore .inputBlock:last-of-type {
+  display: none;
+}
+#createEvent .imageBlock,
+#createCelebrate .imageBlock {
+  padding: 10px 0;
+}
+#createEvent .imageBlock > div,
+#createCelebrate .imageBlock > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 65%;
+}
+#createEvent .imageBlock > div:first-of-type,
+#createCelebrate .imageBlock > div:first-of-type {
+  width: 30%;
+}
+#createEvent .imageBlock > div .imageFile,
+#createCelebrate .imageBlock > div .imageFile {
+  display: none;
+}
+#createEvent .imageBlock > div img,
+#createCelebrate .imageBlock > div img {
+  display: block;
+  margin: 0 auto;
+  max-width: 70px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  cursor: pointer;
+}
+#createEvent .imageBlock > div p,
+#createCelebrate .imageBlock > div p {
+  margin: 0;
+}
+#createEvent .tipBlock,
+#createCelebrate .tipBlock {
+  border: 10px solid #f6f5f5;
+}
+#createEvent .tipBlock p,
+#createCelebrate .tipBlock p {
+  border: 1px dashed #666;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 12px;
+}
+#createEvent .tipBlock p span,
+#createCelebrate .tipBlock p span {
+  color: #000;
+}
+#createEvent .tipBlockBasic,
+#createCelebrate .tipBlockBasic {
+  border: 10px solid #f6f5f5;
+  margin-top: 20px;
+}
+#createEvent .tipBlockBasic p,
+#createCelebrate .tipBlockBasic p {
+  border: 1px dashed #666;
+  color: #666;
+  background: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 12px;
+}
+#createEvent .tipBlockBasic p span,
+#createCelebrate .tipBlockBasic p span {
+  color: #000;
+}
+#createEvent .newLabel,
+#createCelebrate .newLabel {
+  left: 15px;
+}
+#createEvent .newInput,
+#createCelebrate .newInput {
+  border: 1px solid #ccc;
+  padding-left: 12px;
+}
+#createEvent .croppie,
+#createCelebrate .croppie {
+  height: 30em;
+}
+#createEvent .mu15,
+#createCelebrate .mu15 {
+  margin-top: 15px;
+}
+#createEvent .button-aligned,
+#createCelebrate .button-aligned {
+  width: 300px;
+  margin: 0 auto;
+}
+#createEvent .btn-block-i,
+#createCelebrate .btn-block-i {
+  width: 100% !important;
+}
+#createEvent .modal-image,
+#createCelebrate .modal-image {
+  width: 180px;
+  height: 180px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+#createEvent .labelStyle1,
+#createCelebrate .labelStyle1 {
+  display: block;
+  margin: 20px 0 5px;
+}
+#createEvent .icon-help-tooltip margin-left 5px,
+#createCelebrate .icon-help-tooltip margin-left 5px {
+  font-size: 20px;
+  vertical-align: sub;
+}
+#createEvent .hidden,
+#createCelebrate .hidden {
+  display: none;
+}
+#createEvent .croppiePreview,
+#createCelebrate .croppiePreview {
+  margin-left: 10%;
+}
+.materialStyle.dateCustom span {
+  color: #000;
+}
+.materialStyle.dateCustom span.required {
+  color: #f00;
+}
+@media screen and (min-width: 768px) {
+  #createEvent .contentBox,
+  #createCelebrate .contentBox {
+    padding-top: 20px;
+  }
+  #createEvent .buttonBlock,
+  #createCelebrate .buttonBlock {
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+  #createEvent .buttonBlock .grayMobileButton,
+  #createCelebrate .buttonBlock .grayMobileButton,
+  #createEvent .buttonBlock .pinkMobileButton,
+  #createCelebrate .buttonBlock .pinkMobileButton {
+    float: left;
+    width: 200px;
+  }
+  #createEvent .buttonBlock .pinkMobileButton,
+  #createCelebrate .buttonBlock .pinkMobileButton {
+    float: right;
+  }
+  #createEvent .registerTitles h2,
+  #createCelebrate .registerTitles h2 {
+    margin: 25px 0;
+    text-align: center;
+  }
+  #createEvent .registerTitles h2.requiredInput,
+  #createCelebrate .registerTitles h2.requiredInput {
+    text-align: right;
+  }
+  #createEvent .tipBlock,
+  #createCelebrate .tipBlock {
+    margin-top: 27%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #createEvent .contentBox,
+  #createCelebrate .contentBox {
+    padding: 20px 0 0 0;
+  }
+  #createEvent .tipBlock,
+  #createCelebrate .tipBlock {
+    margin-top: 30%;
+  }
+}
+.typeEventWarning {
+  background: #fff;
+  padding: 0 !important;
+  margin: 0 auto 50px;
+  width: 100%;
+  display: none;
+}
+.typeEventWarning .icon-alerta_amarilla {
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px;
+  vertical-align: middle;
+  width: 50px;
+}
+.typeEventWarning p {
+  color: #e3a726;
+  display: inline-block;
+  font-size: 15px;
+  float: none;
+  padding: 12px 0 12px 18px !important;
+  margin: 0;
+  text-align: center;
+  vertical-align: top;
+  width: 85% !important;
+}
+.typeEventWarning .icon-tache2 {
+  cursor: pointer;
+  font-size: 8px;
+  height: 20px;
+  margin: 14px 15px 0 0;
+  padding: 6px 0 0 0;
+  text-align: center;
+  width: 20px;
+}
+.grid,
+.grid-centered-big,
+.grid-centered-medium,
+.grid-centered-small,
+.grid-centered,
+.grid-two-elements-big {
+  margin: 1.5em auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+  min-height: 1em;
+}
+.grid-centered-big {
+  -ms-grid-columns: 3fr 20fr 3fr;
+      grid-template-columns: 3fr 20fr 3fr;
+}
+.grid-centered-medium {
+  -ms-grid-columns: 1fr 5fr 1fr;
+      grid-template-columns: 1fr 5fr 1fr;
+}
+.grid-centered-small {
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-centered {
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-two-elements-big {
+  width: 100%;
+  grid-gap: 3px;
+  -ms-grid-columns: 10fr 3fr 10fr;
+      grid-template-columns: 10fr 3fr 10fr;
+}
+.centered {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -moz-box-pack: center;
+   -ms-flex-pack: center;
+       justify-content: center;
+}
+.input-group-addon span {
+  color: #555;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.npv {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nph {
+  padding-left: 0;
+  padding-right: 0;
+}
+.right {
+  text-align: right;
+}
+.right-align {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-pack: end;
+   -ms-flex-pack: end;
+       justify-content: flex-end;
+}
+.left-align {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-pack: start;
+   -ms-flex-pack: start;
+       justify-content: flex-start;
+}
+.red {
+  color: #f00;
+}
+.pl25 {
+  padding-left: 25px;
+}
+label.invalid,
+label.error,
+span.error {
+  color: #f00;
+  font-weight: 200;
+}
+input.invalid,
+input.error,
+select.error {
+  border: 1px solid #f00 !important;
+}
+select.error {
+  color: #f00;
+}
+select.error ~ i {
+  border-top: 1px solid #f00;
+  border-right: 1px solid #f00;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+label.placeHolderMaterial {
+  color: #999 ;
+  font-size: 15px ;
+  font-weight: normal ;
+  position: absolute ;
+  pointer-events: none ;
+  left: 5px;
+  top: 10px;
+  -moz-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+@media screen and (max-width: 1200px) {
+  .grid-centered-big {
+    -ms-grid-columns: 1fr 1000fr 1fr;
+        grid-template-columns: 1fr 1000fr 1fr;
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-two-elements-big {
+    width: 100%;
+    grid-gap: 3px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+#formCelebratedAllEvents2 {
+  display: none;
+}
+
+/* for image upload on hover */
+.imageBlock > .imageWrap {
+  display: inline-block;
+  position: relative;
+}
+.imageBlock > .imageWrap .uploadIcon{
+  font-size: 18px;
+  background: #000;
+  padding: 10px 12px;
+  opacity: 0.7;
+  border-radius: 100%;
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-bottom: 0!important;
+  transform: translate(-50%, -50%);
+}
+.imageBlock > .imageWrap .uploadIcon i{
+  color: #FFF;
+  font-weight: bolder;
+    font-size: 24px;
+}
+.imageBlock > .imageWrap:hover .uploadIcon {
+  color: #fff;
+  opacity: 0.8;
+}

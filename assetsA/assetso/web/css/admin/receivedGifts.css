@@ -1,0 +1,467 @@
+/*ReceivedGifts.css v1.8.9*/
+.tableReceivedGifts {
+  text-align: center;
+  width: 100%;
+}
+.tableReceivedGifts tbody td {
+  padding-bottom: 20px;
+}
+.tableReceivedGifts a {
+  color: #000;
+  text-decoration: none;
+}
+.tableReceivedGifts a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.tableReceivedGifts img {
+  width: 100px;
+  height: 80px;
+}
+.tableReceivedGifts div {
+  display: block;
+}
+.btnGroupGift {
+  width: 100%;
+}
+.btnGift {
+  width: 20%;
+}
+.labelListDown {
+  padding: 6px 12px;
+  width: 80%;
+}
+/* verificar causa conflictos con regalos recibidos [andro]
+.btn
+	padding 6px 6px !important*/
+.categoryStyle {
+  min-width: 160px !important;
+}
+.bonusStyle {
+  min-width: 183px !important;
+}
+.addAgain {
+  color: #e10098;
+  font-size: 12px;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+.statusDeliver {
+  margin-top: 5px;
+}
+.typeGift {
+  color: #333;
+  font-size: 12px;
+}
+.typeGift-prices {
+  padding-right: 15px;
+  padding-top: 5px;
+}
+.typeGift-iconBox {
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-right: 0;
+}
+.typeGift-textBox {
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 0;
+}
+.typeGift i {
+  background: #fff;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  font-size: 17px !important;
+  height: 17px;
+}
+.detailText i {
+  cursor: pointer;
+  font-size: 12px !important;
+  margin-left: 21px;
+  margin-top: 3px;
+  position: absolute;
+}
+.detailGift {
+  background: #fff;
+  border: 1px solid #ebebeb;
+  -moz-box-shadow: 0px 2px 3px #888;
+       box-shadow: 0px 2px 3px #888;
+  margin-top: 10px;
+  position: absolute;
+  padding: 10px;
+  z-index: 1000;
+  width: auto;
+}
+.upIcon {
+  background: #fff;
+  color: #fff;
+  font-size: 14px !important;
+  left: 45%;
+  position: absolute;
+  text-shadow: 0px -1px #888;
+  top: -10px;
+}
+.articleInner {
+  width: 280px;
+}
+.priceAndQuant {
+  width: 100px;
+}
+.messages i {
+  font-size: 30px !important;
+}
+.messageIcon p {
+  font-size: 12px;
+}
+.messageIcon img {
+  height: 25px;
+  width: 35px;
+}
+.readedMessage {
+  height: 30px !important;
+  width: 35px !important;
+}
+.answeredMessage {
+  margin-left: 5px;
+  height: 32px !important;
+  width: 42px !important;
+}
+#detail1 {
+  display: none;
+}
+.btnClose {
+  background: none;
+  border: none;
+  color: #333;
+  float: right;
+}
+.btnClose i {
+  background: #333;
+  -moz-border-radius: 10px;
+       border-radius: 10px;
+  color: #fff;
+  font-style: normal;
+  padding: 2px 6px;
+}
+#messageModal .modal-content,
+#bothMessageModal .modal-content,
+#thanksMessageModal .modal-content,
+#formMessageModal .modal-content,
+#formThanksMessageModal .modal-content {
+  border: none;
+  -moz-border-radius: initial;
+       border-radius: initial;
+  margin: 20% auto;
+  width: 50%;
+}
+#messageModal textarea,
+#bothMessageModal textarea,
+#thanksMessageModal textarea,
+#formMessageModal textarea,
+#formThanksMessageModal textarea {
+  resize: none;
+  margin-bottom: 15px;
+}
+#messageModal form,
+#bothMessageModal form,
+#thanksMessageModal form,
+#formMessageModal form,
+#formThanksMessageModal form {
+  clear: both;
+}
+#messageModal .requiredFields,
+#bothMessageModal .requiredFields,
+#thanksMessageModal .requiredFields,
+#formMessageModal .requiredFields,
+#formThanksMessageModal .requiredFields {
+  float: right;
+  margin: 10px 0 20px;
+}
+#messageModal h4,
+#bothMessageModal h4,
+#thanksMessageModal h4,
+#formMessageModal h4,
+#formThanksMessageModal h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.congratsMessage {
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #ebebeb;
+}
+#tracingModal .modal-dialog {
+  margin: 10% auto;
+  width: 790px;
+}
+#tracingModal .modal-dialog .modal-content {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+#tracingModal .modal-dialog h4 {
+  margin-top: -2px;
+}
+#tracingModal .modal-dialog p.nameProduct {
+  margin-bottom: 5px;
+}
+#tracingModal .modal-dialog p.quantity {
+  font-size: 10px;
+}
+#tracingModal .modal-dialog button.btnClose {
+  margin-top: -5px;
+}
+#tracingModal .modal-dialog button.btnClose i {
+  background: #666;
+}
+#tracingModal .modal-dialog .orderRequest {
+  margin-bottom: 10px;
+}
+.headerTracing {
+  background: #f2f2f2;
+  float: left;
+  font-size: 11px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  width: 100%;
+}
+.contentTracing {
+  margin-right: 50px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: auto !important;
+}
+.subTracing {
+  margin: -10px 0;
+}
+.priceTag {
+  color: #f00;
+  font-size: 13px;
+  font-weight: 600;
+}
+.orderRequest {
+  float: right !important;
+  margin-right: 10px;
+}
+.imageTracing {
+  width: 100%;
+}
+.titleOrder {
+  font-size: 11px;
+}
+.subOrder {
+  font-size: 12px;
+  margin: -10px 0;
+  color: #9d9c9c;
+}
+.orderDelivered {
+  color: #50cc78;
+}
+.progress-bar-info {
+  background-color: #50cc78 !important;
+}
+.footerTlo {
+  background: #ebebeb;
+  margin: 40px 3% -15px;
+  width: 94% !important;
+}
+.footerTlo p {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+.footerTlo span {
+  font-weight: 100;
+}
+.footerTlo a {
+  color: #ef1098;
+}
+.progress {
+  margin-top: 60px;
+  margin-left: 0;
+  height: 16px;
+  -moz-box-shadow: inset 0 0px 0px rgba(255,255,255,0);
+       box-shadow: inset 0 0px 0px rgba(255,255,255,0);
+  -moz-border-radius: 15px;
+       border-radius: 15px;
+/*Full width of progress bar*/
+  width: 560px;
+}
+.progress.progressBar .progress-bar {
+  background: #27b34a !important;
+}
+.disabledMessage {
+  color: #dedede;
+  cursor: not-allowed;
+  border-color: #dedede;
+}
+.btnWhiteBlack {
+  font-family: 'robotoCondensed';
+}
+.btnWhiteBlack:hover {
+  color: #dedede !important;
+}
+.tooltip-inner {
+  background: #fff;
+  color: #000;
+  border: 1px solid #757575;
+  -moz-border-radius: 0;
+       border-radius: 0;
+  padding: 5px;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #757575;
+}
+#sharingModal .modal-dialog {
+  width: 25%;
+}
+#sharingModal .modal-content {
+  -moz-border-radius: 0px !important;
+       border-radius: 0px !important;
+  padding: 0px 0px 10px 0px;
+}
+#sharingModal .modal-content h4 {
+  text-align: left;
+}
+#sharingModal .modal-content #closeModal i {
+  display: block;
+  background: gray;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 23px;
+  padding: 1px 6px;
+  border-radius: 100%;
+  margin-top: -5px;
+}
+.divider {
+  margin-top: 0px;
+}
+.btn-label {
+  float: left;
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(0,0,0,0.15);
+  -moz-border-radius: 3px 0 0 3px;
+       border-radius: 3px 0 0 3px;
+}
+.btn-txt {
+  vertical-align: -webkit-baseline-middle;
+}
+.btn-labeled {
+  padding: 0px;
+  width: 80%;
+}
+.btn {
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+.priceBox {
+  text-align: left;
+  padding-left: 73px;
+}
+#receivedSection .alertSuccess.succesMessage {
+  border: none !important;
+}
+
+#receivedSection .alertSuccess.succesMessage i.icon-check {
+  background: #fff !important;
+  color: #39b54a !important;
+}
+
+#receivedSection .alertSuccess.succesMessage a.icon-tache2 {
+  display: none !important;
+}
+
+#recieved .row div.col-md-12.col-sm-12:nth-child(3){
+  padding: 0px
+}
+
+#recieved.tab-pane.active {
+  padding: 0px 15px;
+}
+
+#recieved .categoryTag{
+  margin-left: 0px
+}
+#recieved .categoryTag .catTitle{
+  margin-right: 5px;
+}
+
+#receivedSection tbody tr:first-child td{
+  padding-top: 25px;
+}
+
+#receivedSection tbody tr td:nth-child(1){
+  width: 10%;
+  text-align: center;
+}
+#receivedSection tbody tr td:nth-child(2){
+  width: 20%;
+}
+
+#receivedSection tbody tr td:nth-child(3){
+  width: 5%;
+}
+
+#receivedSection tbody tr td:nth-child(4){
+  width: 10%;
+}
+
+#receivedSection tbody tr td:nth-child(5){
+  width: 10%;
+}
+
+#receivedSection tbody tr td:nth-child(6){
+  width: 10%;
+}
+#receivedSection tbody tr td:nth-child(7){
+  width: 10%;
+}
+
+#recieved .btn.btn-default.buttonSearch{
+  background: #fff;
+  height: 40px!important;
+}
+.adminTabsContainer #tabs li.active{
+  border-bottom: solid 1px #f5f5f5
+}
+.tableReceivedGifts .alertSuccess {
+  border: none;
+  width: 220px;
+  display: flex !important;
+  align-items: center;
+  padding-left: 0;
+}
+.tableReceivedGifts .alertSuccess p {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  font-size: 13px;
+}
+.tableReceivedGifts .alertSuccess a.icon-tache2 {
+  background: transparent;
+  background: transparent;
+  color: #39b54a;
+  font-size: 8px;
+  padding-top: 0px;
+  position: absolute;
+  left: 185px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+.tableReceivedGifts .alertSuccess i {
+  background: transparent;
+  background: transparent;
+  color: #39b54a;
+  font-size: 15px;
+}

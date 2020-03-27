@@ -1,0 +1,117 @@
+.typeEvents_banner_titulo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.typeEvents_banner_subtitulo {
+    color: #fff;
+}
+
+.typeEvents_contArea_subtitle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.containerTypeEvents {
+    background: #f3f3f3;
+}
+
+.typeEvents_stamp {
+    margin-top: 10px;
+}
+
+.typeEvents_stamp img {
+    display: block;
+    margin: 0 auto;
+    max-width: 130px;
+    padding: 30px 0 0 0;
+    width: 100%;
+}
+
+.typeEvents_banner {
+    width: 100%;
+    height: 300px;
+    background: url("../../../../assetso/wap/images/guest/type-events/banner.jpg");
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.celebrations_banner {
+    width: 100%;
+    height: 300px;
+    background: url("../../../../assetso/wap/images/guest/celebrations/couple.jpg");
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.typeEvents_banner_efect {
+    height: 300px;
+    background: #000;
+    background: -moz-linear-gradient(left, #050505 0%, rgba(255, 255, 255, 0) 48%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #050505), color-stop(48%, rgba(255, 255, 255, 0)));
+    background: linear-gradient(to right, #050505 0%, rgba(255, 255, 255, 0) 48%);
+}
+
+.typeEvents_contArea {
+    background: #fff;
+    margin-bottom: 10%;
+    padding-bottom: 20px;
+}
+
+.typeEvents_list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -40px;
+    list-style: initial;
+    text-align: center;
+}
+
+.typeEvents_list li {
+    display: inline-block;
+    color: #666;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.typeEvents_list li .separator {
+    margin-right: 10px;
+    width: 5px;
+    height: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #666;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.typeEvents_contArea_list {
+    list-style: none;
+    padding: 0;
+}
+
+.typeEvents_contArea_list--custom li {
+    margin: 10px 0;
+}
+
+.typeEvents_contArea_list li {
+    margin: 0;
+}
+
+.typeEvents_contArea_list li:before {
+    content: "\e028";
+    font-family: 'icomoon' !important;
+    margin-right: 8px;
+    font-size: 12px;
+    color: #e10098;
+}
+
+.typeEvents_contArea_btn {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.typeEvents_contArea_note {
+    margin-top: 30px;
+}

@@ -1,0 +1,1098 @@
+/*Main.css v1.8.9.1*/
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'robotoRegular';
+}
+
+.giftBackground,
+.grayBackground {
+    background: #fff;
+}
+
+#blackBox {
+    background: transparent;
+    display: none;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.giftBreadcrumbs {
+    padding-left: 20px;
+    background-color: white;
+    padding-bottom: 1px;
+    margin-top: 3px;
+}
+
+.giftBreadcrumbs ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.giftBreadcrumbs ul li:last-of-type i {
+    display: none;
+}
+
+.giftBreadcrumbs ul li a {
+    color: #666;
+    display: inline-block;
+    font-size: 11px;
+    padding-top: 15px;
+    vertical-align: middle;
+}
+
+.giftBreadcrumbs ul li a:hover {
+    color: #e10098;
+}
+
+.giftBreadcrumbs ul li a.current {
+    color: #e10098;
+    cursor: initial;
+}
+
+.giftBreadcrumbs ul li i {
+    display: inline-block;
+    padding: 21px 21px 0;
+    vertical-align: middle;
+    font-size: 9px;
+    color: #dedede;
+}
+
+.contentBox {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.alertCustom,
+.warning {
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    float: left;
+    border: solid 1px #ffc446;
+    color: #ffc446;
+}
+
+.alertCustom .icon,
+.warning .icon {
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: #ffc446;
+}
+
+.alertCustom .icon i,
+.warning .icon i {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.alertCustom .message,
+.warning .message {
+    position: relative;
+    float: left;
+    line-height: 40px;
+    left: 1%;
+}
+
+.alertCustom i,
+.warning i {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.warningMessage {
+    border: 1px solid #e2a725;
+    color: #e2a725;
+    margin-bottom: 20px;
+}
+
+.warningMessage div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.warningMessage div:first-of-type {
+    background: #e2a725;
+    height: 40px;
+    position: relative;
+    width: 52px;
+}
+
+.warningMessage div:first-of-type img {
+    display: block;
+    height: 20px;
+    left: 15px;
+    position: absolute;
+    margin: -11px -10px 0 0;
+    top: 50%;
+    width: 24px;
+}
+
+.warningMessage div:last-of-type {
+    height: 40px;
+    position: relative;
+}
+
+.warningMessage div:last-of-type a {
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    margin: -8px 0 0 15px;
+    position: absolute;
+    top: 50%;
+    width: 15px;
+}
+
+.warningMessage div:last-of-type img {
+    width: 100%;
+}
+
+.warningMessage div:nth-child(2) {
+    max-width: 600px;
+    width: 85%;
+}
+
+.warningMessage div p {
+    font-size: 15px;
+    margin: 0 0 0 25px;
+    padding-top: 10px;
+}
+
+.selectTable select {
+    color: #ccc;
+    -webkit-appearance: inherit;
+}
+
+.selectTable i {
+    color: #ccc;
+    margin-top: -23px;
+    position: absolute;
+    right: 100px;
+}
+
+.selectGiftTable select {
+    -moz-border-radius: initial;
+    border-radius: initial;
+    -webkit-appearance: initial;
+}
+
+.selectGiftTable i {
+    background: #ccc;
+    font-size: 18px;
+    margin-top: -34px;
+    padding: 8px 11px;
+    pointer-events: none;
+    position: absolute;
+    right: 16px;
+}
+
+.inputBlock {
+    margin-top: 15px;
+    position: relative;
+}
+
+.inputBlock .labelInput,
+.inputBlock .labelSelect {
+    color: #b3b3b3;
+    font-size: 15px;
+    left: 0px;
+    padding: 10px 0 10px 13px;
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+}
+
+.inputBlock .labelInput span,
+.inputBlock .labelSelect span {
+    color: #f00;
+    margin-right: -3px;
+}
+
+.inputBlock .labelInput.inputActive,
+.inputBlock .labelSelect.inputActive {
+    font-size: 10px;
+    padding: 5px 0 0 13px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: auto;
+}
+
+.inputBlock .labelSelect {
+    left: 10px;
+    padding: 0;
+    top: 9px;
+    width: auto;
+}
+
+.inputBlock .mobileInput,
+.inputBlock .mobileSelect {
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #3b3b3e;
+    font-size: 15px;
+    height: 40px;
+    padding: 15px 0 0 13px;
+    width: 100%;
+}
+
+.inputBlock .mobileSelect {
+    color: #b3b3b3;
+    padding: 8px 0 10px 13px;
+}
+
+.inputBlock .mobileSelect option,
+.inputBlock .mobileSelect.selectedValue {
+    color: #3b3b3e;
+}
+
+.inputBlock .mobileCheckbox {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    position: relative;
+    float: left;
+    border: solid 1px;
+}
+
+.inputBlock .mobileCheckbox input[type=checkbox] {
+    visibility: hidden;
+}
+
+.inputBlock .mobileCheckbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 1px;
+    top: 1px;
+}
+
+.inputBlock .mobileCheckbox label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #000;
+    border: solid 1px;
+}
+
+.inputBlock .mobileCheckbox input[type=checkbox]:checked+label:after {
+    opacity: 1;
+}
+
+.inputBlock .checkLabel {
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    color: #999;
+    line-height: 14px;
+}
+
+.inputBlock .iconImage {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    float: left;
+}
+
+.mobileButton,
+.blackMobileButton,
+.grayMobileButton,
+.pinkMobileButton,
+.whiteMobileButton {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    height: 45px;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.mobileButton span,
+.blackMobileButton span,
+.grayMobileButton span,
+.pinkMobileButton span,
+.whiteMobileButton span {
+    font-family: 'robotoCondensed';
+    font-size: 18px;
+    display: block;
+    line-height: 1.1;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.mobileButton:hover,
+.blackMobileButton:hover,
+.grayMobileButton:hover,
+.pinkMobileButton:hover,
+.whiteMobileButton:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobileButton span,
+.blackMobileButton span,
+.grayMobileButton span,
+.pinkMobileButton span,
+.whiteMobileButton span {
+    font-family: 'robotoCondensed';
+    font-size: 18px;
+    display: block;
+    line-height: 1.1;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.mobileButton i,
+.blackMobileButton i,
+.grayMobileButton i,
+.pinkMobileButton i,
+.whiteMobileButton i {
+    margin-top: -7px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}
+
+.mobileButton i.moveLeft,
+.blackMobileButton i.moveLeft,
+.grayMobileButton i.moveLeft,
+.pinkMobileButton i.moveLeft,
+.whiteMobileButton i.moveLeft {
+    left: 30px;
+    right: auto;
+}
+
+#containMailAllow {
+    visibility: hidden;
+}
+
+.blackMobileButton {
+    background: #3b3b3e;
+    margin: 15px auto;
+}
+
+.grayMobileButton {
+    background: #969696;
+    margin: 15px auto;
+}
+
+.pinkMobileButton {
+    background: #e10098;
+    margin: 15px auto;
+}
+
+.pinkMobileButton span {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.whiteMobileButton {
+    border: 1px solid #b3b3b3;
+    color: #000;
+}
+
+.whiteMobileButton:hover {
+    color: #000;
+}
+
+a.helpIcon {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    vertical-align: middle;
+    outline: 0;
+}
+
+a.helpIcon img {
+    height: 25px;
+    width: 25px;
+}
+
+.labelStyle1 {
+    color: #f00;
+}
+
+.btnWhiteBlack,
+.btnWhitePink {
+    background: #fff;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+}
+
+.btnWhiteBlack:hover,
+.btnWhitePink:hover,
+.btnWhiteBlack:focus,
+.btnWhitePink:focus {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.btnWhitePink {
+    border: 1px solid #e10098;
+    color: #e10098;
+    font-size: 15px;
+}
+
+.btnWhitePink:hover,
+.btnWhitePink:focus {
+    color: #e10098;
+    text-decoration: none !important;
+}
+
+.btnPinkPink {
+    background: #e10098;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.btnPinkPink:hover,
+.btnPinkPink:focus {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.btnCarrouselPink {
+    background: #e10098;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 8px 0;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.btnCarrouselPink:hover {
+    color: #fff;
+}
+
+
+/* radio button */
+
+.customRadio {
+    background: #fff;
+    position: relative;
+    float: left;
+    width: 26px;
+    height: 26px;
+}
+
+.customRadio input[type=radio] {
+    visibility: hidden;
+}
+
+.customRadio label {
+    cursor: pointer;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    background: transparent;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.customRadio label:before {
+    opacity: 1;
+    content: '';
+    left: -3px;
+    top: -3px;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border: solid 1px #ccc;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.customRadio label:after {
+    opacity: 0;
+    content: '';
+    left: -3px;
+    top: -3px;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border: solid 1px #e10098;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.customRadio input[type=radio]:checked+label {
+    background: #e10098;
+}
+
+.customRadio input[type=radio]:checked+label:after {
+    opacity: 1;
+}
+
+.customRadio input[type=radio]:checked+label:before {
+    opacity: 1;
+}
+
+
+/* material design input */
+
+.materialStyle {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input.inputMaterial {
+    height: 40px;
+    font-size: 18px;
+    padding: 12px 0 0 5px;
+    display: block;
+    width: 100%;
+}
+
+input.inputMaterial:focus {
+    outline: none;
+}
+
+label.placeHolderMaterial {
+    color: #999;
+    font-size: 15;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+input.inputMaterial:focus~label.placeHolderMaterial,
+input.inputMaterial:valid~label.placeHolderMaterial,
+input.inputMaterial:optional~label.placeHolderMaterial {
+    top: 1px;
+    font-size: 10px;
+    color: #b3b3b3;
+}
+
+input.inputMaterial:focus~label.placeHolderMaterial {
+    color: #e10098;
+}
+
+input.inputMaterial:valid~label.placeHolderMaterial {
+    color: #b3b3b3;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1399px) and (min-device-width: 768px) {
+    body {
+        display: block;
+        max-width: 1280px !important;
+        float: left;
+        min-width: 1399px !important;
+        margin: 0px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .giftBackground {
+        background: url("../../../assetso/web/images/step2Background.png") repeat;
+    }
+    .grayBackground {
+        background: #f2f2f2;
+    }
+    .contentBox {
+        background: #fff;
+        -webkit-box-shadow: 0px 0px 2px #ccc;
+        -moz-box-shadow: 0px 0px 2px #ccc;
+        box-shadow: 0px 0px 2px #ccc;
+        display: block;
+        margin: 50px auto;
+        padding: 0 50px;
+        max-width: 1600px;
+        width: 80%;
+    }
+    .contentBox .mobileButton {
+        max-width: none;
+    }
+}
+
+.alertCustom,
+.warning {
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    float: left;
+    border: solid 1px #ffc446;
+    color: #ffc446;
+}
+
+.alertCustom .icon,
+.warning .icon {
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: #ffc446;
+}
+
+.alertCustom .icon i,
+.warning .icon i {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.alertCustom .message,
+.warning .message {
+    position: relative;
+    float: left;
+    line-height: 40px;
+    left: 1%;
+}
+
+.alertCustom i,
+.warning i {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.warning {
+    max-width: none;
+}
+
+.warning a.helpIcon {
+    display: inline-block;
+    margin: 0 0 5px 10px;
+}
+
+.warning .mobileInput.shortInput {
+    width: 60%;
+}
+
+@media screen and (min-width: 1300px) {
+    .contentBox {
+        padding: 0 30px;
+        max-width: none;
+    }
+}
+
+
+/*check box, icon star*/
+
+.checkStar {
+    display: none;
+}
+
+.checkStar+label {
+    cursor: pointer;
+    display: block;
+    font-weight: normal !important;
+    margin-bottom: 0%;
+    font-size: 20px;
+}
+
+.checkStar+label:before {
+    font-family: icomoon !important;
+    content: "\e018";
+}
+
+.checkStar:checked+label {
+    font-size: 20px;
+}
+
+.checkStar:checked+label:before {
+    content: "\e017";
+    color: #ffe400;
+}
+
+
+/*end check box, icon start*/
+
+
+/*check box, icon square*/
+
+.checkSquare {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    position: relative;
+    float: left;
+    border: solid 1px;
+}
+
+.checkSquare input[type=checkbox] {
+    visibility: hidden;
+}
+
+.checkSquare label {
+    cursor: pointer;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0px;
+    top: 1px;
+}
+
+.checkSquare label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #000;
+    border: solid 1px;
+    left: 1px;
+}
+
+.checkSquare input[type=checkbox]:checked+label:after {
+    opacity: 1;
+}
+
+
+/*end check box, icon square*/
+
+
+/*style paddings left and rigth*/
+
+.pl-1 {
+    padding-left: 1%;
+}
+
+.pr-1 {
+    padding-right: 1%;
+}
+
+.mt-2 {
+    margin-top: 2%;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
+.n-pl {
+    padding-left: 0px !important;
+}
+
+.n-pr {
+    padding-right: 0px !important;
+}
+
+
+/*end style paddings left and rigth*/
+
+
+/* filters select style for tabs */
+
+.filterTab {
+    cursor: pointer;
+    width: 100%;
+    padding: 5px 0 5px 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    background: url("../../../assetso/web/images/down-arrow.png"), -webkit-gradient(linear, right top, left top, from(#fff), to(#d9d9d9));
+    background: url("../../../assetso/web/images/down-arrow.png"), -moz-linear-gradient(right, #fff, #d9d9d9);
+    background: url("../../../assetso/web/images/down-arrow.png"), linear-gradient(to left, #fff, #d9d9d9);
+    background-position: -moz-calc(100% - 7px) -moz-calc(1em + -6px), -moz-calc(100% - -209px) -moz-calc(1em + -14px), 100% 0px;
+    background-position: calc(100% - 7px) calc(1em + -6px), calc(100% - -209px) calc(1em + -14px), 100% 0px;
+    background-repeat: no-repeat;
+}
+
+
+/*NOTIFICACIONES EN MENU*/
+
+#notificacionesMenu.contentMenuNotifications {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    width: 400px;
+    background: #fff;
+    z-index: 100;
+    -moz-box-shadow: 0px -3px 7px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 7px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification {
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information:first-child {
+    border-bottom: solid 1px #666;
+    min-height: 40px;
+    padding: 0px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information .cerrar {
+    font-size: 16px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information .cerrar a:hover {
+    text-decoration: none;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information .title {
+    color: #666;
+    font-size: 16px;
+    font-family: 'robotoCondensed';
+}
+
+
+/* added  */
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information {
+    background: #fff;
+}
+
+
+/* added  end */
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information.last-child:last-child {
+    background: #fafafa;
+    min-height: 30px;
+    border-bottom: none;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information:last-child .allNotifications a {
+    color: #e10098;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information:last-child .allNotifications a i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification .information:last-child .allNotifications :hover {
+    text-decoration: none;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li {
+    border-bottom: solid 2px #f2f2f2;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: row wrap;
+    flex-wrap: row wrap;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 80px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px 20px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .message {
+    font-size: 13px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .time {
+    font-size: 12px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .message,
+#notificacionesMenu.contentMenuNotifications .listNotification li .time {
+    margin: 0px;
+    padding: 0px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .image {
+    padding: 0;
+    text-align: center;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .image.hearth {
+    color: #f00;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .image>img {
+    width: 65%;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .image i {
+    color: #d3d3d3;
+    font-size: 30px;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li .icon {
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #000;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li.inactive .message {
+    font-weight: regular;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li.active {
+    background: #f2f2f2;
+}
+
+#notificacionesMenu.contentMenuNotifications .listNotification li.active .message {
+    font-weight: bold;
+}
+
+input.custom-date {
+    height: 41px;
+}
+
+
+/*For Image POP*/
+
+.logoContent img {
+    width: 240px;
+}
+
+.innerWrap .logoContentCelebration,
+.innerWrap .logoContentEvents {
+    width: 240px;
+}
+
+.innerWrap .logoContentCelebration:hover {
+    width: 240px;
+}
+
+.innerWrap .logoContentEvents:hover {
+    width: 240px;
+}
+
+.eventSelection .logoContent img {
+    width: 150px;
+    height: 150px;
+}
+
+.imageBlock>.imageWrap .uploadIcon .icon-camara {
+    color: #FFF;
+    font-weight: normal;
+    font-size: 64px;
+}
+
+.toolsHome .toolsOnUse img {
+    display: inline-block;
+    width: 60px;
+}
+
+.innerMain {
+    margin: 0 auto 50px;
+    min-width: 768px;
+    width: 1200px;
+    max-width: 1600px;
+}
+
+.innerWrap {
+    margin: 60px 0 0 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.characteristics {
+    min-height: 90px;
+}
+
+.characteristics p {
+    margin: 0;
+}
+
+.welcomeMessage {
+    color: #737873;
+    text-align: left;
+    font-size: 19px;
+}
+
+#giftRegistry>div.row.innerWrap {
+    background: #fff;
+    margin: 50px auto;
+    padding: 20px 100px 50px 100px;
+    min-width: 768px;
+    width: 1200px;
+    max-width: 1600px;
+    text-align: left;
+}
+
+.innerWrap .logoContentCelebration,
+.innerWrap .logoContentEvents {
+    background: url("../../../assetso/web/images/celebration.png");
+    -moz-background-size: cover;
+    background-size: cover;
+    display: block;
+    margin: 10px auto;
+    height: 240px;
+    width: 240px;
+}
+
+.innerWrap .logoContentEvents {
+    background: url("../../../assetso/web/images/events.png");
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.innerWrap .logoContentCelebration:hover {
+    background: url("../../../assetso/web/images/celebrationActive.png");
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.innerWrap .logoContentEvents:hover {
+    background: url("../../../assetso/web/images/eventsActive.png");
+    -moz-background-size: cover;
+    background-size: cover;
+}

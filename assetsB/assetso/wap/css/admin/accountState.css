@@ -1,0 +1,540 @@
+.bgGray {
+	background-color: #f3f3f3;
+}
+.bgWhite {
+	background-color: #fff;
+}
+.mobileGifts .modal-content {
+	height: auto;
+	min-height: 100%;
+	padding: 20px 0;
+}
+#modalTransit .navigation {
+	font-family: 'robotoCondensed';
+}
+#modalTransit .navigation p {
+	font-size: 18px;
+	color: #666;
+}
+#modalTransit .closeDiv {
+	text-align: right;
+}
+#modalTransit .closeBtn {
+	background: #666;
+	-moz-border-radius: 20px;
+			 border-radius: 20px;
+	color: #fff;
+	font-size: 10px;
+	margin-left: 5px;
+	padding: 6px;
+}
+#modalTransit .modal-body {
+	padding: 0;
+}
+.contentPadding-10 {
+	padding: 10px;
+}
+.adminAccountStateContainer {
+	font-family: Roboto;
+	padding: 10px 20px;
+	width: 100%;
+	display: block;
+}
+.pl-0 {
+	padding-left: 0;
+}
+.pr-0 {
+	padding-right: 0;
+}
+.pl-15 {
+	padding-left: 15px;
+}
+.pr-15 {
+	padding-right: 15px;
+}
+.pt-15 {
+	padding-top: 15px;
+}
+.pb-15 {
+	padding-bottom: 15px;
+}
+.mt-5 {
+  margin-top: 5% !important;
+}
+.bt-1 {
+	border-top: solid 1px;
+}
+.bb-1 {
+	border-bottom: solid 1px;
+}
+.bbc-black {
+	border-bottom-color: #000;
+}
+.bbc-gray {
+	border-bottom-color: #dbdbdb;
+}
+.bc-gray {
+	border-color: #dbdbdb;
+}
+.b-1-gray {
+	border: solid 1px #dbdbdb;
+}
+/*detail info*/
+.shadowSquare {
+	border: solid 1px #dedede;
+	-moz-box-shadow: 0px 0px 8px #dedede;
+			 box-shadow: 0px 0px 8px #dedede;
+	background-color: #fff;
+}
+.accountState {
+	font-family: 'robotoRegular';
+	margin-bottom: 40px;
+}
+.accountState .toolsLink{
+	margin-left: 30px;
+}
+.adminInfo ~ .accountState .toolsLink{
+	margin-left:0px;
+}
+.accountState .name {
+	font-family: 'robotoCondensed';
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+.accountState .toolsLink a {
+	text-decoration: none;
+	width: 50%;
+	display: inline-block;
+}
+.accountState .toolsLink a i {
+	font-weight: bold;
+	font-size: 30px !important;
+}
+.accountState .toolsLink a:first-child {
+	border-right: solid 1px;
+}
+.accountState .toolsLink a:first-child i {
+	float: left;
+}
+.accountState .summaryAccountMobilInfo {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.accountState .summaryAccountMobilInfo .titulo1 .col-xs-7,
+.accountState .summaryAccountMobilInfo .titulo1 .col-xs-5 {
+	float: none;
+	padding-left: 0;
+	display: inline-block;
+	vertical-align: middle;
+	width: 56%;
+}
+.accountState .summaryAccountMobilInfo .titulo1 .col-xs-5 {
+	width: 40%;
+}
+.accountState .summaryAccountMobilInfo .titulo1 .titleTotalGift {
+	font-size: 15px;
+}
+.accountState .summaryAccountMobilInfo .titulo1 .titleTotalGift .labelPink {
+	color: #e10098;
+}
+.accountState .summaryAccountMobilInfo .titulo1 .priceTotal {
+	color: #000;
+	font-size: 15px;
+	text-align: right;
+}
+.accountState .summaryAccountMobilInfo i {
+	color: #000;
+}
+.accountState .innerItem {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.accountState .innerItem p {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.accountState .innerItem .td-40,
+.accountState .innerItem .td-16,
+.accountState .innerItem .td-80,
+.accountState .innerItem .td-60,
+.accountState .innerItem .td-36,
+.accountState .innerItem .td-91,
+.accountState .innerItem .td-3 {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 0;
+}
+.accountState .innerItem .td-60 {
+	width: 60%;
+}
+.accountState .innerItem .td-36 {
+	width: 36%;
+}
+.accountState .innerItem .td-40 {
+	width: 40%;
+}
+.accountState .innerItem .td-16 {
+	width: 16%;
+}
+.accountState .innerItem .td-80 {
+	width: 80%;
+}
+.accountState .innerItem .td-3 {
+	width: 3%;
+}
+.accountState .innerItem .td-91 {
+	width: 91.66667%;
+}
+.accountState .innerItem .disponibility,
+.accountState .innerItem .mont {
+	font-size: 14px;
+	color: #666;
+}
+.accountState .innerItem .mont {
+	font-size: 15px;
+}
+.accountState .innerItem .noValidate {
+	font-size: 12px;
+	color: #d3d3d3;
+}
+.accountState .innerItem .noValidate2 {
+	font-size: 14px;
+	color: #d3d3d3;
+}
+.accountState .innerItem .return {
+	color: #d3d3d3;
+}
+.accountState .innerItem .decorationLeft i {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	position: absolute;
+	top: 20%;
+	right: 10px;
+}
+.accountState .innerItem .legend2 {
+	font-size: 13px;
+	color: #666;
+}
+.accountState .legend {
+	font-family: 'robotoCondensed';
+	font-size: 14px;
+	color: #666;
+	padding: 15px 0 10px 0;
+}
+.accountState .legend p {
+	margin: 0;
+}
+.accountState .drawOn {
+	margin-bottom: 20px;
+	padding: 15px 0;
+}
+.accountState .drawOn p {
+	margin-bottom: 5px;
+	color: #666;
+}
+.accountState .drawOn .disponibility,
+.accountState .drawOn .mont,
+.accountState .drawOn .approximate {
+	font-size: 16px;
+	color: #000;
+}
+.accountState .gadgetInfoArticle {
+		padding-top: 15px;
+		margin-left: 15px;
+		margin-right: 15px;
+}
+.accountState .gadgetInfoArticle > .inner {
+  padding-left: 0;
+  padding-right: 0;
+	padding-bottom: 15px;
+}
+
+.accountState .gadgetInfoArticle > .inner .head {
+	padding-top: 10px;
+	background-color: #f3f3f3;
+	border-bottom: solid 1px #dedede;
+	-moz-box-shadow: 0px 0px 8px #dedede;
+			 box-shadow: 0px 0px 8px #dedede;
+	margin: 0;
+}
+.accountState .gadgetInfoArticle > .inner .head p {
+	font-size: 15px;
+	color: #000;
+}
+.accountState .gadgetInfoArticle > .inner .head .date {
+	font-weight: normal;
+}
+.accountState .gadgetInfoArticle > .inner .content {
+	padding-top: 8px;
+}
+.accountState .gadgetInfoArticle > .inner .content .confirmCheck {
+	color: #008000;
+}
+.accountState .gadgetInfoArticle > .inner .content .return {
+	font-weight: bold;
+	color: #818181;
+}
+.accountState .gadgetInfoArticle > .inner .content p {
+	margin: 0;
+}
+.accountState .gadgetInfoArticle > .inner .content .titleArticle,
+.accountState .gadgetInfoArticle > .inner .content .price {
+	font-size: 14px;
+	color: #000;
+}
+.accountState .gadgetInfoArticle > .inner .content .sku,
+.accountState .gadgetInfoArticle > .inner .content .quantity,
+.accountState .gadgetInfoArticle > .inner .content .store,
+.accountState .gadgetInfoArticle > .inner .content .bonus {
+	font-size: 14px;
+	color: #666;
+}
+.accountState .gadgetInfoArticle > .inner .content .bonus i {
+	margin-left: 10px;
+}
+.accountState .gadgetInfoArticle > .inner .content .bonus i.icon-check {
+	color: #4fac6a;
+}
+.accountState .gadgetInfoArticle > .inner .content .sku {
+	font-size: 13px;
+}
+.accountState .gadgetInfoArticle > .inner .content .devolucion {
+	font-size: 14px;
+	color: #818181;
+}
+.accountState .gadgetInfoArticle > .inner .content .rowText {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.accountState .gadgetInfoArticle > .inner .content .rowText span {
+	padding-left: 4px;
+	color: #666;
+	font-weight: normal;
+}
+.accountState .bonusTotal,
+.accountState .aproximateBonusTotal {
+	padding-top: 5px;
+	border-top: solid 1px #dedede;
+}
+.accountState .bonusTotal p,
+.accountState .aproximateBonusTotal p {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.accountState .aproximateBonusTotal p {
+	color: #000;
+	font-size: 15px;
+}
+.accountState .titleDescrip {
+	font-size: 15px;
+	font-weight: bold;
+	color: #666;
+	margin: 0;
+}
+#transferencesOptions {
+	float: right;
+	width: 40%;
+}
+.columnInfo {
+	padding: 10px 20px;
+}
+.contentFilter {
+	font-family: robotoRegular;
+	width: 100%;
+	display: block;
+}
+.contentFilter .back {
+	font-family: 'robotoCondensed';
+	font-size: 18px !important;
+	color: #666;
+	line-height: 10px;
+}
+.contentFilter .back :hover,
+.contentFilter .back :focus,
+.contentFilter .back :active {
+	color: #000 !important;
+	text-decoration: none;
+}
+.contentFilter .back i {
+	font-size: 14px;
+}
+.contentFilter .back span {
+	line-height: 10px;
+}
+.contentFilter .filterSection .title {
+	font-size: 16px;
+}
+.contentFilter .filterSection a {
+	padding: 14px 10px 14px 0;
+	font-size: 16px !important;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	font-size: 14px;
+}
+.contentFilter .filterSection a :hover,
+.contentFilter .filterSection a :focus,
+.contentFilter .filterSection a :active {
+	color: #000 !important;
+	text-decoration: none;
+}
+.contentFilter .filterSection a i {
+	font-size: 14px !important;
+	float: right;
+}
+.contentFilter .filterSection .orderBy,
+.contentFilter .filterSection .selectStore {
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-size: 16px;
+}
+.contentFilter .filterSection .selectStore .checkSquare {
+	float: right !important;
+}
+.contentFilter .filterSection .listFilter {
+	padding: 0;
+}
+.contentFilter .filterSection .listFilter > li {
+	width: 100%;
+	display: block;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.btnPinkPinkMobil {
+	background: #e10098;
+	border: 1px solid;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 5px;
+	width: 100%;
+	color: #fff;
+}
+.btnWhitePinkMobil {
+	border: solid 1px #e10098;
+	background: #fff;
+	border: 1px solid;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 5px;
+	width: 100%;
+	color: #e10098;
+}
+.btnWhiteBlackMobil {
+	border: solid 1px #000;
+	background: #fff;
+	border: 1px solid;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 5px;
+	width: 100%;
+	color: #000;
+}
+#filter {
+	margin-left: 15px;
+}
+.cleanFilter {
+	background: #dedede;
+	font-size: 16px;
+	padding: 5px;
+	width: 100%;
+	color: #bfbfbf;
+	border: none;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.customRadio {
+	background: #fff;
+	position: relative;
+	float: right;
+	width: 26px;
+	height: 26px;
+}
+.primaryDisabled {
+	background-color: #e799c2 !important;
+	cursor: auto;
+}
+.specialDisabled {
+	color: #e799c2 !important;
+	border: 1px solid #e799c2 !important;
+	cursor: auto;
+}
+.customRadio input[type=radio] {
+	visibility: hidden;
+}
+.customRadio label {
+	cursor: pointer;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	left: 0px;
+	top: 0px;
+	-moz-border-radius: 20px;
+			 border-radius: 20px;
+}
+.customRadio label:before {
+	opacity: 1;
+	content: '';
+	left: -3px;
+	top: -3px;
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	background: transparent;
+	border: solid 1px #ccc;
+	-moz-border-radius: 20px;
+			 border-radius: 20px;
+}
+.customRadio label:after {
+	opacity: 0;
+	content: '';
+	left: -2px;
+	top: -2px;
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	background: transparent;
+	border: solid 1px #e10098;
+	-moz-border-radius: 20px;
+			 border-radius: 20px;
+}
+.customRadio input[type=radio]:checked + label {
+	background: #e10098;
+}
+.customRadio input[type=radio]:checked + label:after {
+	opacity: 1;
+}
+.customRadio input[type=radio]:checked + label:before {
+	opacity: 1;
+}
+
+/* 8465 */
+.accountState .shadowSquare .info {
+	margin-top: 0px
+}
+.accountState .shadowSquare .info p{
+	line-height: 1.5
+}
+
+/* 7098 */
+.modal-body button.close.closeClass#closeModal {
+	opacity: 1;
+}
+.modal-body button.close.closeClass#closeModal span {
+	opacity: 1;
+	background: #787879;
+	text-shadow: none;
+	color: white;
+	border-radius: 50%;
+	padding: 1px 5px
+}
+
+/* 9112 */
+.modal-body button.btnDelete.size-Full#closeModal {
+	font-size: 14px;
+}

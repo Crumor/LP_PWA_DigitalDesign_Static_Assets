@@ -1,0 +1,216 @@
+/*searchTable.css v1.8.9*/
+.grayBackground {
+  background: #f2f2f2;
+  width: 100%;
+}
+.contentSearchTable {
+  background: #fff;
+  -moz-box-shadow: 0px 0px 2px #ccc;
+       box-shadow: 0px 0px 2px #ccc;
+  float: left;
+  margin: 50px auto;
+  padding: 20px;
+  width: 85%;
+}
+.contentSearchTable p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.contentSearchTable input {
+  text-transform: capitalize;
+}
+.contentSearchTable .formBlock input#maternalName + label {
+	left: 15px;
+}
+.calendar-input input,
+.contentSearchTable #select2  {
+	color: #b3b3b3;
+	padding-left: 13px;
+}
+.contentSearchTable #eventNumberr {
+	margin-top: 20px;
+}
+.calendar-input ::-webkit-input-placeholder {
+	color: #b3b3b3;
+	font-size: 15px;
+}
+.calendar-input :-moz-placeholder {
+	color: #b3b3b3;
+	font-size: 15px;
+}
+.calendar-input ::-moz-placeholder {
+	color: #b3b3b3;
+	font-size: 15px;
+}
+.calendar-input :-ms-input-placeholder {
+	color: #b3b3b3;
+	font-size: 15px;
+}
+.calendar-input ::-ms-input-placeholder {
+	color: #b3b3b3;
+	font-size: 15px;
+}
+
+.contentSearchTable .alertError i.icon-tache2 {
+  margin: 10px 0 10px 10px;
+}
+.contentSearchTable .alertError p {
+  font-size: 14px;
+  font-weight: normal;
+  width: 75%;
+}
+.tableResults {
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+.tableResults thead td {
+  padding: 5px 0px;
+}
+.tableResults tbody td {
+  padding: 10px 0;
+}
+.tableResults a {
+  color: #000;
+  font-size: 12.3px;
+  text-decoration: none;
+}
+.tableResults a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.tableResults img {
+  -moz-border-radius: 50px;
+       border-radius: 50px;
+  height: 60px;
+  padding: 0;
+  width: 60px;
+}
+.tableResults div {
+  display: block;
+}
+.tableResults p {
+  font-size: 13px;
+  margin: 0;
+}
+.headMessage {
+  font-size: 12.3px;
+}
+.pinkMobileButton {
+  float: right;
+  height: 35px;
+  margin: 0 0 25px;
+  padding: 0 35px;
+}
+#searchBtn1,
+#searchBtn2 {
+  display: none;
+  margin-bottom: 15px;
+}
+.requiredMessage {
+  color: #f00;
+  float: right;
+  font-size: 12px;
+  margin: -5px 0 10px;
+}
+.searchLink {
+  color: #e10098;
+}
+.filtersContent {
+  margin: 40px 0 20px;
+  padding: 10px 0;
+}
+.filtersContent div {
+  padding-left: 0;
+}
+.headResults {
+  padding: 0;
+}
+.headResults div {
+  padding: 0;
+}
+.rowLines {
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+}
+.imgInner {
+  text-align: left;
+}
+.btnWhiteBlack {
+  font-size: 12px;
+  font-weight: 100;
+  padding: 5px 25px;
+}
+.btnWhiteBlack i {
+  margin-left: 15px;
+}
+.textToLeft {
+  text-align: left;
+}
+.linkCelebration {
+  margin-top: 10px;
+}
+.linkCelebration a {
+  text-decoration: underline !important;
+}
+.pagination {
+  float: right;
+  margin: 0;
+}
+.numberResults {
+  text-align: right;
+}
+.linksPags {
+  padding: 0 7px;
+}
+.numLinks {
+  padding: 0 3px;
+}
+.numLinks--active {
+  font-weight: bold;
+}
+.resultsTitle {
+  font-size: 18px;
+  color: #000;
+}
+.btnSecondarySpecial {
+  height: auto;
+}
+.btnSecondarySpecial i {
+  font-size: 11px;
+  padding-left: 20px;
+}
+.date input,
+.date span {
+  -moz-border-radius: inherit;
+       border-radius: inherit;
+}
+.btn-see-list {
+  padding: 10px 30px;
+  font-size: 14px;
+  font-family: robotoRegular;
+}
+.tableResults tbody tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+.tableResults tbody tr td{
+	padding: 20px 0px
+}
+.tableResults tbody tr td:first-child{
+	width: 50%;
+}
+.tableResults tbody tr td:nth-child(2){
+	width: 15%;
+}
+.tableResults tbody tr td:nth-child(3){
+	width: 15%;
+}
+.tableResults tbody tr td:nth-child(4){
+	width: 10%;
+}
+#clearFilter.btnSecondaryAdd.btn-delete-filters {
+    padding: 10px;
+}
+.cSelect #filterEvent{
+	color:#b2b2b2
+}

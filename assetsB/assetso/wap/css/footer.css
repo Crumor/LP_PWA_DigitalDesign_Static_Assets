@@ -1,0 +1,131 @@
+#go-ini {
+    border: 1px solid #ccc;
+    height: 4em;
+    line-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#arrow_up_icn {
+    background-image: url("../../../assetso/wap/images/redisign_SPRITE.png");
+    background-repeat: no-repeat;
+    background-position: -167px -250px;
+    height: 14px;
+    margin: 0 auto;
+    width: 14px;
+}
+
+.footer-header {
+    background-color: #cbd5d7;
+    color: #000;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-textleft {
+    display: inline-block;
+    width: 70%;
+}
+
+.footer-imageleft {
+    color: #e10098;
+    display: inline-block;
+    font-weight: 900;
+    width: 25%;
+}
+
+.footer-contact {
+    background: #e4e8e9;
+    font-size: 12px;
+    height: 90px;
+    padding: 1.02em 0;
+    text-align: center;
+}
+
+.footer-contact span a {
+    color: #e10098;
+    font-size: 11px;
+}
+
+.footer-bottom {
+    background: #f3f3f3;
+    color: #333;
+}
+
+.footerbtcontent {
+    background: #fff;
+    -moz-box-shadow: 0px 2px 25px 0px #ccc;
+    box-shadow: 0px 2px 25px 0px #ccc;
+    margin: 0 auto;
+    padding-bottom: 0;
+    width: 90%;
+}
+
+.footerbtcontent .sub-section {
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    height: auto;
+    margin: 0 auto;
+    min-height: 22px;
+    padding: 0;
+    width: 100%;
+}
+
+.footerbtcontent .sub-section a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footerbtcontent .sub-section h3 {
+    background: url("https://assets.liverpool.com.mx/mobileAssets/images/sprite/brand_right_arrow-pink.png") no-repeat right center;
+    background-position: 98% center;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footerbtcontent .sub-section h3 font {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bootom-footer {
+    background: #f3f3f3;
+    height: auto;
+    margin: 4px auto;
+    text-align: center;
+}
+
+#social-media_footer {
+    padding: 30px 0 10px 0;
+}
+
+.bootom-footer ul.breadcrumb.bread-terms {
+    margin: 0;
+    min-height: 40px;
+    text-align: center;
+}
+
+.bootom-footer .breadcrumb.bread-terms li a {
+    color: #e10098;
+    font-size: 12px;
+    padding: 0;
+}
+
+ul.breadcrumb.bread-terms.tmc_wap_footer li a {
+    font-size: 1.28em;
+}
+
+.bread-rights.breadcrumb li {
+    color: #505050;
+    float: left;
+}
+
+.bread-rights.breadcrumb li a {
+    color: #505050;
+    float: left;
+}

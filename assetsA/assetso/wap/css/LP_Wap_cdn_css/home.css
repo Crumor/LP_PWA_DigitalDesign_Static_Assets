@@ -1,0 +1,462 @@
+.mobileView .row {
+  margin: 0 !important;
+}
+.addGiftOptions,
+.myEventOptions,
+.editAdminInfo,
+.editAdminCelebratedInfo,
+.deliveryAddressDetail,
+.addAddressForm,
+.selectDeliveryDay,
+.myEventsMenu {
+  background: #fff;
+  min-height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+.addGiftOptions.visibleContent,
+.myEventOptions.visibleContent,
+.editAdminInfo.visibleContent,
+.editAdminCelebratedInfo.visibleContent,
+.deliveryAddressDetail.visibleContent,
+.addAddressForm.visibleContent,
+.selectDeliveryDay.visibleContent,
+.myEventsMenu.visibleContent {
+  opacity: 1;
+  top: 0 !important;
+}
+.addGiftOptions .addGiftMenu,
+.myEventOptions .addGiftMenu,
+.editAdminInfo .addGiftMenu,
+.editAdminCelebratedInfo .addGiftMenu,
+.deliveryAddressDetail .addGiftMenu,
+.addAddressForm .addGiftMenu,
+.selectDeliveryDay .addGiftMenu,
+.myEventsMenu .addGiftMenu {
+  height: 80%;
+  max-height: 400px;
+}
+.addGiftOptions ul,
+.myEventOptions ul,
+.editAdminInfo ul,
+.editAdminCelebratedInfo ul,
+.deliveryAddressDetail ul,
+.addAddressForm ul,
+.selectDeliveryDay ul,
+.myEventsMenu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.addGiftOptions ul li a,
+.myEventOptions ul li a,
+.editAdminInfo ul li a,
+.editAdminCelebratedInfo ul li a,
+.deliveryAddressDetail ul li a,
+.addAddressForm ul li a,
+.selectDeliveryDay ul li a,
+.myEventsMenu ul li a {
+  border-bottom: 1px solid #d9d9d9;
+  display: block;
+  font-size: 18px;
+  padding: 12px 0 10px 25px;
+  width: 100%;
+}
+.addGiftOptions ul li i,
+.myEventOptions ul li i,
+.editAdminInfo ul li i,
+.editAdminCelebratedInfo ul li i,
+.deliveryAddressDetail ul li i,
+.addAddressForm ul li i,
+.selectDeliveryDay ul li i,
+.myEventsMenu ul li i {
+  float: right;
+  margin-right: 15px;
+}
+.myEventOptions ul li a {
+  font-size: 16px;
+}
+.suspendedEventInfo {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 15px 0 5px;
+}
+.suspendedEventInfo i {
+  color: #666;
+  display: block;
+  font-size: 50px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+.suspendedEventInfo h2,
+.suspendedEventInfo p {
+  color: #666;
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+.suspendedEventInfo p {
+  font-size: 13px;
+}
+.titleTable {
+  font-size: 16px;
+}
+.adminInfo {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 17px 0 20px 0;
+}
+.adminInfo > div:first-of-type {
+  padding: 0;
+}
+.adminInfo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 64px;
+  width: 100%;
+}
+.adminInfo h2 {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+.adminInfo .eventDate {
+  font-size: 14px;
+  color: #81898b;
+  display: block;
+}
+.adminInfo i {
+  display: block;
+  font-size: 18px;
+  padding-top: 24px;
+  text-align: center;
+}
+.adminTabsContainer .intro h2 {
+  font-size: 15px;
+  margin-top: 24px;
+  text-align: center;
+}
+.adminTabsContainer .intro p {
+  color: #9b9696;
+}
+.adminTabsContainer .tabs {
+  padding: 0;
+}
+.adminTabsContainer .tabs .nav-tabs li {
+  padding-left: 0;
+  padding-right: 0;
+}
+.adminTabsContainer .tabs .nav-tabs li a {
+  -moz-border-radius: 0;
+       border-radius: 0;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.adminTabsContainer .tabs .nav-tabs li a span {
+  display: block;
+}
+.adminTabsContainer .tabs .nav-tabs li.active a {
+  color: #e10098;
+  border-bottom: 2px solid #e10098 !important;
+  border-top: 1px solid #ddd !important;
+}
+.eventBlock button,
+.eventBlock a {
+  height: 40px;
+}
+.eventBlock .btnPrimarySpecial {
+  display: block;
+  font-size: 14px;
+  margin: 20px 0 15px;
+  text-align: center;
+}
+.eventBlock .btnPrimarySpecial i {
+  float: right;
+  font-size: 20px;
+  padding-left: 10px;
+  position: relative;
+  right: 15px;
+  top: 0px;
+}
+.eventBlock .btnSecondarySpecial {
+  display: block;
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+}
+.giftMenuMobile {
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding: 1% 0 1% 3.5%;
+  position: relative;
+  margin: 0;
+}
+.giftMenuMobile .activeNotificationMenu {
+  background: #e10098;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  display: block;
+  height: 10px;
+  left: 45px;
+  position: absolute;
+  top: 0px;
+  width: 10px;
+}
+.giftMenuMobile i.icon-menu_mobile,
+.giftMenuMobile i.icon-tache2 {
+  color: #81888a;
+  display: inline-block;
+  font-size: 30px;
+  padding-right: 32%;
+  vertical-align: middle;
+  width: 25px;
+}
+.giftMenuMobile .mainLogo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+}
+.giftMenuMobile .menu {
+  background: #fff;
+  display: none;
+  left: 0;
+  padding: 0 0 150px 0;
+  position: absolute;
+  top: 35px;
+  z-index: 100;
+}
+.giftMenuMobile .menu ul {
+  border-top: 1px solid #dedede;
+  list-style-type: none;
+  padding: 0;
+}
+.giftMenuMobile .menu ul li a {
+  border-bottom: 1px solid #dadada;
+  color: #000;
+  display: block;
+  font-size: 16px;
+  padding: 17px 0 13px 18px;
+  width: 100%;
+}
+.giftMenuMobile .menu ul li a i {
+  color: #81898b;
+  float: right;
+  font-size: 18px;
+  padding-right: 12px;
+}
+.giftMenuMobile .menu ul li a i.iconLeft {
+  color: #fff;
+  background: #000;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  float: left;
+  font-size: 14px;
+  height: 20px;
+  padding: 3px;
+  margin-right: 4%;
+  text-align: center;
+  width: 20px;
+}
+.giftMenuMobile .menu .notificationItem a > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.giftMenuMobile .menu .notificationItem .notificationCount {
+  background: #ee4d8c;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  height: 20px;
+  position: absolute;
+  right: 50px;
+  width: 20px;
+}
+.giftMenuMobile .menu .notificationItem .notificationCount span {
+  display: block;
+  left: 50%;
+  margin: -7px 0 0 -3px;
+  position: absolute;
+  top: 50%;
+}
+.giftMenuMobile .menu .notificationItem .notificationLogo {
+  margin-right: 15px;
+  margin-top: -2px;
+  width: 12px;
+}
+.gifListMultisite {
+  padding-top: 30px;
+}
+.gifListMultisite p {
+  font-size: 16px;
+  margin: 27px 0 13px;
+}
+.gifListMultisite .btnPrimarySpecial {
+  margin: 20px 0 15px;
+  height: 40px;
+}
+.gifListMultisite .btnPrimarySpecial i {
+  float: right;
+  font-size: 20px;
+  padding-left: 10px;
+  position: relative;
+  right: 15px;
+  top: 0px;
+}
+.gifListMultisite .multisiteList {
+  list-style-type: none;
+  padding: 0;
+}
+.gifListMultisite .multisiteList li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 12px;
+  width: 45px;
+}
+.gifListMultisite .multisiteList li:last-of-type {
+  margin-right: 0;
+}
+.gifListMultisite .multisiteList li a {
+  display: block;
+  height: 45px;
+  width: 45px;
+}
+.gifListMultisite .multisiteList li img {
+  width: 100%;
+}
+.recomendationList h3 {
+  font-size: 17px;
+}
+.recomendationList h4 {
+  color: #000;
+  font-size: 13px;
+  line-height: 1.3;
+  margin: 10px 0 12px;
+}
+.recomendationList .disscountPrice {
+  color: #666;
+  font-size: 12px;
+  margin: 0;
+  text-decoration: line-through;
+}
+.recomendationList .owl-dots {
+  margin: 28px 0 15px;
+}
+.recomendationList .owl-dots .owl-dot span {
+  background: #eb8ec8;
+}
+.recomendationList .owl-dots .active span {
+  background: #e10098 !important;
+}
+.recomendationList .price {
+  color: #f00;
+  font-size: 14px;
+  margin: 0;
+}
+#adminModal .modal-content {
+  height: 80% !important;
+  max-height: 390px !important;
+  min-height: auto !important;
+  padding: 20px 0 0 0;
+  top: 70px;
+}
+#adminModal .modal-dialog {
+  margin: 0 auto !important;
+  width: 90% !important;
+}
+#adminModal .modalMultisite p {
+  color: #565656;
+  font-size: 14px;
+  line-height: 24.3px;
+  padding-top: 0;
+}
+#adminModal .modalMultisite ul {
+  margin: 10px 0 5px;
+  padding: 0;
+  text-align: center;
+}
+#adminModal .modalMultisite ul li {
+  display: inline-block;
+  margin-right: 1.5%;
+  vertical-align: top;
+}
+#adminModal .modalMultisite ul li:last-of-type {
+  margin-right: 0;
+}
+#adminModal .modalMultisite ul li a {
+  display: block;
+  cursor: pointer;
+}
+#adminModal .modalMultisite ul li a img {
+  height: 45px;
+  width: 45px;
+}
+#adminModal .modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+#adminModal .modal-header h4 {
+  clear: both;
+  color: #030303;
+  font-size: 22px;
+  line-height: 1;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+  width: 90%;
+}
+#adminModal .modal-header div {
+  float: right;
+  padding-right: 10px;
+}
+#adminModal .modal-header div p,
+#adminModal .modal-header div button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+#adminModal .modal-header div p {
+  color: #000;
+  font-family: 'robotoCondensed';
+  font-size: 15px;
+  line-height: 1;
+  width: 45px;
+}
+#adminModal .modal-header div .close {
+  background: #787879;
+  height: 16px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  opacity: 1;
+  width: 16px;
+}
+#adminModal .modal-header div .close span {
+  color: #fff;
+  font-size: 12px;
+}
+#adminModal .modalTipBox {
+  background: #f9f7f7;
+  padding: 10px 0;
+}
+#adminModal .modalTipBox #modalTip {
+  background: #fff;
+  border: 1px dashed #b4b4b4;
+  margin: 0 auto;
+  padding: 14px;
+  width: 90%;
+}
+#adminModal .modalTipBox #modalTip p {
+  color: #38383c;
+  font-size: 14.6px;
+  margin: 0;
+}
+#adminModal .modalTipBox #modalTip p span {
+  color: #000;
+}
+.linkVideo {
+  color: #e10098 !important;
+  margin: 24px 0 10px 0 !important;
+  text-align: right;
+  display: block;
+}
+.alignLeft {
+  text-align: left !important;
+}

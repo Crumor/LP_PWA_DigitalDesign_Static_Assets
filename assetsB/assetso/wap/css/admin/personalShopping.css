@@ -1,0 +1,275 @@
+/*PersonalShopping.css v1.8.9*/
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+.wrap {
+  margin: 15px 0 15px 0;
+}
+.innerButton {
+  text-align: center;
+}
+.mobileWhiteButton {
+  padding: 7px;
+  text-align: center;
+  border: 1px solid #a9a7a9;
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+.categoryTag {
+  margin-top: 15px;
+  padding: 5px 0 5px 0;
+  color: #849190;
+  border-top: 1px solid #f4f2f4;
+  border-bottom: 1px solid #f4f2f4;
+}
+.categoryTag span {
+  color: #000;
+}
+.tablePersonalShopping {
+  width: 100%;
+}
+.tablePersonalShopping tr {
+  border-bottom: 1px solid #f4f2f4;
+}
+.tablePersonalShopping td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tablePersonalShopping span {
+  display: block;
+  font-size: 14px;
+}
+.tablePersonalShopping .headTitle,
+.tablePersonalShopping .price {
+  font-weight: bold;
+}
+.tablePersonalShopping .quantity,
+.tablePersonalShopping .extra {
+  color: #849190;
+}
+.tablePersonalShopping .status,
+.tablePersonalShopping .confirmCheck {
+  color: #50cc78;
+}
+.tablePersonalShopping .statusDeliver {
+  color: #849190;
+}
+.tablePersonalShopping a {
+  color: #000;
+}
+.thumb {
+  width: 90px;
+  height: 80px;
+}
+.tableDetailProduct {
+  width: 100%;
+  border: 1px solid #f4f2f4;
+}
+.tableDetailProduct p {
+  margin: 0;
+}
+.tableDetailProduct tr {
+  border-bottom: 1px solid #f4f2f4;
+}
+.tableDetailProduct td {
+  padding: 15px;
+}
+.tableDetailProduct .fontSize16 {
+  font-size: 16px;
+}
+.tableDetailProduct .content {
+  font-weight: bold;
+  font-size: 14px;
+}
+.tableDetailProduct .contentSku {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+}
+.tableDetailProduct .secondaryContent {
+  font-weight: normal;
+  color: #849190;
+}
+.tableDetailProduct .confirmCheck,
+.tableDetailProduct .status {
+  color: #50cc78;
+}
+.tableDetailProduct .status {
+  font-weight: normal;
+  text-decoration: underline;
+}
+.backMenu {
+  background-color: #e10098;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+.container {
+  /* margin-top: 15px; */
+}
+.tableFilter {
+  width: 100%;
+  border: 1px solid #f4f2f4;
+}
+.tableFilter p {
+  margin: 0;
+}
+.tableFilter tr {
+  border-bottom: 1px solid #f4f2f4;
+}
+.tableFilter td {
+  padding: 15px;
+}
+.tableFilterOptions {
+  width: 100%;
+}
+.tableFilterOptions p {
+  margin: 0;
+}
+.tableFilterOptions td:nth-child(1) {
+  text-align: left;
+}
+.tableFilterOptions td:nth-child(2) {
+  text-align: right;
+}
+.tableFilterOptions .filterBackButton {
+  font-size: 18px;
+  line-height: 25px;
+  background: transparent;
+  border: 0;
+  padding: 10px;
+}
+.tableFilterOptions .filterCleanButton {
+  font-size: 13px;
+  background: #f2f2f2;
+  border: 0;
+  padding: 10px 27px 10px 27px;
+  color: #b3b3b3;
+}
+.tableFilterOptions .filterClearButton {
+  font-size: 13px;
+  background: #f2f2f2;
+  border: 0;
+  padding: 10px 27px 10px 27px;
+  color: #000;
+}
+.textCategory {
+  font-weight: bold;
+  font-size: 16px;
+}
+#myModalAddList .modal-content .modal-body {
+  position: relative;
+  padding: 15px 0;
+}
+#myModalAddList .modal-content .modal-body button.close {
+  position: absolute;
+  right: 10px;
+  z-index: 10;
+}
+#myModalAddList .modal-body .alert-container {
+  font-size: 12px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 25px;
+  padding: 0 30px 0px 15px;
+}
+#myModalAddList .modal-body .alert-container .icon-estado_de_mensaje_aprobado {
+  color: #fd0094;
+  position: absolute;
+  font-size: 13px;
+  z-index: 10;
+  margin-top: 1.5px;
+}
+#myModalAddList .modal-body .alert-container .txt-alert {
+  display: inline-block;
+  margin-left: 25px;
+  font-weight: bold;
+}
+#myModalAddList .modal-body .alert-container .txt-alert span {
+  margin-left: 5px;
+  font-weight: normal;
+}
+#myModalAddList .modal-body .modal-product {
+  padding: 0 15px;
+}
+#myModalAddList .modal-body .modal-product .descriptionList .title {
+  margin: 0 0 3px;
+  font-weight: bold;
+}
+#myModalAddList .modal-body .modal-product .descriptionList .articles {
+  margin: 0;
+  color: #81898b;
+}
+#myModalAddList .modal-body .modal-product .descriptionList .priceRange {
+  margin: 0 0 5px;
+  color: #81898b;
+}
+#myModalAddList .modal-body .modal-product .descriptionList span.value {
+  margin-left: 2px;
+  font-weight: bold;
+}
+#myModalAddList .modal-body .modal-product .row:first-child {
+  margin-bottom: 35px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 0 15px;
+}
+#myModalAddList .modal-body .modal-product .btnPrimarySpecial.btnFull {
+  width: 90% !important;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+#myModalAddList .modal-body .modal-product .btnPrimarySpecial.btnFull i.iconRight {
+  margin-top: 2.5px;
+}
+/* modal bootstrap */
+.modal-dialog {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.modal-content {
+  height: auto !important;
+  min-height: 100%  !important;
+  -moz-border-radius: 0 !important;
+       border-radius: 0 !important;
+}
+#myModalAddList .buttons {
+  text-align: center
+}
+#myModalAddList .buttons .btnPrimarySpecial.size-medium{
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto;
+}
+#deleteGiftModal .modal-dialog,
+#changeGiftModal .modal-dialog,
+#changeAddressModal .modal-dialog {
+  height: 200px !important;
+  top: 10vh !important;
+}
+#deleteGiftModal .modal-dialog .modal-content,
+#changeGiftModal .modal-dialog .modal-content,
+#changeAddressModal .modal-dialog .modal-content {
+  padding: 20px 0 0;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-pack: center;
+   -ms-flex-pack: center;
+       justify-content: center;
+}
+#deleteGiftModal .modal-dialog .modal-content .modal-body .row,
+#changeGiftModal .modal-dialog .modal-content .modal-body .row,
+#changeAddressModal .modal-dialog .modal-content .modal-body .row {
+  margin: 35px 0 0 !important;
+}
+#deleteGiftModal .modal-dialog .modal-content .modal-body p,
+#changeGiftModal .modal-dialog .modal-content .modal-body p,
+#changeAddressModal .modal-dialog .modal-content .modal-body p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}

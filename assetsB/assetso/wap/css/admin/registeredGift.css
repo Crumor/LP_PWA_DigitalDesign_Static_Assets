@@ -1,0 +1,592 @@
+/*RegisteredGift.css v1.8.9*/
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+.p-l-0 {
+  padding-left: 0px;
+}
+.m-l-20 {
+  margin-left: 20px;
+}
+.wrap {
+  margin: 15px 0 15px 0;
+}
+.innerButton {
+  text-align: center;
+}
+.mobileWhiteButton {
+  padding: 7px;
+  text-align: center;
+  border: 1px solid #a9a7a9;
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+.categoryTag,
+.categoryTagCertificado {
+  margin-top: 15px;
+  padding: 5px 0 5px 0;
+  color: #849190;
+  border-top: 1px solid #f4f2f4;
+  border-bottom: 1px solid #f4f2f4;
+}
+.categoryTag span,
+.categoryTagCertificado span {
+  color: #000;
+}
+.categoryTagCertificado {
+  border-top: none !important;
+}
+
+/*Negative due to &nbsp; */
+.categoryTagCertificado p {
+  margin-bottom: -20px;
+}
+.tablePersonalShopping,
+.tableRegisteredGifts {
+  width: 100%;
+}
+.tablePersonalShopping tr,
+.tableRegisteredGifts tr {
+  border-bottom: 1px solid #f4f2f4;
+}
+.tablePersonalShopping td,
+.tableRegisteredGifts td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tablePersonalShopping span,
+.tableRegisteredGifts span {
+  display: block;
+  font-size: 14px;
+}
+.tablePersonalShopping .headTitle,
+.tableRegisteredGifts .headTitle,
+.tablePersonalShopping .price,
+.tableRegisteredGifts .price {
+  font-weight: bold;
+}
+.tablePersonalShopping .quantity,
+.tableRegisteredGifts .quantity,
+.tablePersonalShopping .extra,
+.tableRegisteredGifts .extra {
+  color: #849190;
+}
+.tablePersonalShopping .status,
+.tableRegisteredGifts .status,
+.tablePersonalShopping .confirmCheck,
+.tableRegisteredGifts .confirmCheck {
+  color: #50cc78;
+}
+.tablePersonalShopping .statusDeliver,
+.tableRegisteredGifts .statusDeliver {
+  color: #849190;
+}
+.tablePersonalShopping a,
+.tableRegisteredGifts a {
+  color: #000;
+}
+.thumb {
+  width: 90px;
+  height: 80px;
+}
+.tableDetailProduct {
+  width: 100%;
+  border: 1px solid #f4f2f4;
+}
+.tableDetailProduct p {
+  margin: 0;
+}
+.tableDetailProduct tr {
+  border-bottom: 1px solid #f4f2f4;
+}
+.tableDetailProduct td {
+  padding: 15px;
+}
+.tableDetailProduct .content {
+  font-weight: bold;
+}
+.tableDetailProduct .secondaryContent {
+  font-weight: normal;
+  color: #849190;
+}
+.tableDetailProduct .confirmCheck,
+.tableDetailProduct .status {
+  color: #50cc78;
+}
+.tableDetailProduct .status {
+  font-weight: normal;
+  text-decoration: underline;
+}
+.backMenu {
+  background-color: #e10098;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+.container {
+  margin-top: 15px;
+}
+.tableFilter {
+  width: 100%;
+  border: 1px solid #f4f2f4;
+}
+.tableFilter p {
+  margin: 0;
+}
+.tableFilter tr {
+  border-bottom: 1px solid #f4f2f4;
+}
+.tableFilter td {
+  padding: 15px;
+}
+.tableFilter td:nth-child(2) {
+  text-align: right;
+}
+.tableFilterOptions {
+  width: 100%;
+}
+.tableFilterOptions p {
+  margin: 0;
+}
+.tableFilterOptions td:nth-child(1) {
+  text-align: left;
+}
+.tableFilterOptions td:nth-child(2) {
+  text-align: right;
+}
+.tableFilterOptions .filterBackButton {
+  background: transparent;
+  border: 0;
+  padding: 10px;
+}
+.tableFilterOptions .filterCleanButton {
+  background: #f2f2f2;
+  border: 0;
+  padding: 10px;
+  color: #000;
+}
+.textCategory {
+  font-weight: bold;
+}
+.textCategory .sku {
+  display: inline-block;
+  font-weight: normal;
+}
+.beforePrice {
+  text-decoration: line-through;
+}
+.textGreen {
+  color: #50cc78;
+}
+.textRed {
+  color: #f00;
+}
+.basicLinks {
+  vertical-align: middle;
+  padding: 5px;
+}
+.basicLinks a {
+  color: #000;
+  font-size: 25px;
+}
+.br {
+  border-right: solid 1px #f4f2f4;
+}
+.selectAllRG {
+  padding: 10px 0 0px 0;
+  height: 40px;
+  font-size: 14px;
+  color: #849190;
+  border-top: 1px solid #f4f2f4;
+  border-top-style: dashed;
+}
+.customFormControl,
+.contentQuantity {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+}
+.contentQuantity > .label {
+  position: relative;
+  float: left;
+  width: 40%;
+  font-size: 15px;
+  color: #555;
+  font-weight: normal;
+  border-right: solid 1px #ccc;
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+  text-align: left;
+  padding: 6px 0px;
+}
+.contentQuantity > .spiner {
+  display: table;
+  border: none;
+  position: relative;
+  float: left;
+  width: 60%;
+}
+.contentFavGift > .label {
+  position: relative;
+  float: left;
+  width: 80%;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  border-right: solid 1px #ccc;
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+  text-align: left;
+  padding: 6px 0px;
+}
+.contentFavGift >.select {
+  font-size: 12px;
+  float: right;
+}
+/*css copy to touch spin*/
+.bootstrap-touchspin input[type="text"] {
+  border: none;
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+  padding-right: 5%;
+  height: 25px;
+  font-weight: bold;
+}
+.bootstrap-touchspin .input-group-btn-vertical {
+  position: relative;
+  white-space: nowrap;
+  width: 1%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.bootstrap-touchspin .input-group-btn-vertical > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  padding: 8px 10px;
+  margin-left: -1px;
+  position: relative;
+  border: none;
+}
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up {
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down {
+  margin-top: -2px;
+  -moz-border-radius: 0;
+       border-radius: 0;
+}
+.bootstrap-touchspin .input-group-btn-vertical i {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  font-size: 9px;
+  font-weight: normal;
+}
+.headOptionModal {
+  border-bottom: solid 1px #d9d9d9;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.customBtnModalEnviar {
+  margin-top: 2%;
+  background-color: #3b3b3e;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px !important;
+  -moz-border-radius: 0px !important;
+       border-radius: 0px !important;
+  color: #fff;
+  margin-top: 20px;
+}
+.customBtnModalEnviar:active {
+  color: #fff !important;
+}
+.customBtnModalEnviar:hover {
+  color: #fff !important;
+}
+.titleOptionModal {
+  font-size: 18px;
+  color: #666;
+}
+.closeOptionModal {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}
+.closeOptionModal span {
+  font-size: 12px;
+  color: #666;
+  -moz-border-radius: 12px;
+       border-radius: 12px;
+  padding: 2px 4px;
+  margin-left: 5px;
+}
+.footerBarOptions {
+  display: block;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #f2f2f2;
+}
+.footerBarOptions .br {
+  border-right: solid 1px #d9d9d9;
+}
+.footerBarOptions .qb {
+  padding: 8px 5px;
+  height: 50px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.footerBarOptions .btns-footer {
+  background-color: transparent;
+  border: none;
+  color: #666;
+  width: 100%;
+  padding-top: 5px;
+}
+.footerBarOptions .btns-footer span {
+  margin-left: 10px!important;
+}
+.footerBarOptions a {
+  color: #666;
+  font-size: 24px;
+}
+.footerBarOptions a :active {
+  coloir: #666;
+}
+.footerBarOptions .closebar {
+  padding: 15px 13px;
+  color: #666;
+}
+.footerBarOptions .closebar a {
+  font-size: 16px;
+  padding: 10px;
+}
+.footerBarOptions .deleteBarItem {
+  padding: 12px 0px;
+}
+.footerBarOptions .deleteBarItem a {
+  padding: 5px;
+}
+/*end css copy to touch spin*/
+.mt-15 {
+  margin-top: 15px;
+}
+.np {
+  padding: 0;
+}
+.checkStar:checked {
+  color: #ffd457;
+}
+#footerBarOptionsRegisteredGifts {
+  display: none;
+}
+.specialSelect {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: solid transparent;
+  color: transparent;
+}
+.specialSelect option {
+  color: #666;
+  background: #d3d3d3;
+}
+.searchProductBlockRegistered,
+.searchProductBlockReceived,
+.searchProductBlockPersonal {
+  display: none;
+}
+.searchProductBlockRegistered .form-control,
+.searchProductBlockReceived .form-control,
+.searchProductBlockPersonal .form-control {
+  border-right: 0px;
+  height: 35px;
+  -moz-box-shadow: none;
+       box-shadow: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.searchProductBlockRegistered .form-control:focus,
+.searchProductBlockReceived .form-control:focus,
+.searchProductBlockPersonal .form-control:focus {
+  outline: none;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+.searchProductBlockRegistered button,
+.searchProductBlockReceived button,
+.searchProductBlockPersonal button,
+.searchProductBlockRegistered button:active,
+.searchProductBlockReceived button:active,
+.searchProductBlockPersonal button:active,
+.searchProductBlockRegistered button:focus,
+.searchProductBlockReceived button:focus,
+.searchProductBlockPersonal button:focus {
+    border: 1px solid #ccc;
+    border-left: 0px;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ccc;
+    font-size: 18px;
+    height: 35px;
+    margin-bottom: 0px;
+    width: 35px;
+    text-shadow: none;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    filter: none;
+    filter: none;
+    background-repeat: no-repeat;
+}
+#searchArticleRegistered,
+#searchArticlePersonal,
+#searchArticleReceived {
+  margin-bottom: 15px;
+}
+#searchArticleRegistered:focus,
+#searchArticleReceived:focus,
+#searchArticlePersonal:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
+select.specialSelect::-ms-expand {	
+  display: none; 
+}
+
+.specialSelect {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, .075);
+  border: solid transparent;
+  color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+.specialSelect option {
+  color: #666;
+  background: #d3d3d3;
+}
+select.specialSelect + .icon-caret_down {
+  display: none;
+}
+
+.home-container .btnWhiteBlack+.alertSuccess.succesMessage {
+  border: none !important;
+}
+
+.home-container .btnWhiteBlack+.alertSuccess.succesMessage i.icon-check {
+  background: #fff !important;
+  color: #39b54a !important;
+}
+
+.home-container .btnWhiteBlack+.alertSuccess.succesMessage a.icon-tache2 {
+  display: none !important;
+}
+i.icon-flecha_light_abajo.detailGiftBtn {
+  display: none;
+}
+.mobileView i.icon-flecha_light_abajo.tooltip-container{
+  display: none;
+}
+.mobileView label[for^="boxStar"] {
+  display: block;
+}
+#modalOptions .closeOptionModal span {
+    color: #666;
+}
+
+#modalOptions .input-group-btn-vertical button {
+  background: none;
+  border: none;
+}
+#modalOptions .input-group-btn-vertical button:active {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.mobileView #modalOptions label[for^="boxStar"] {
+  display: block;
+}
+#modalOptions .container.wrap .row:nth-child(2) .col-xs-12 .formBlock:nth-child(2){
+  margin-top: 15px;
+}
+div#modalOptions .modal-body {
+    padding-top: 0px;
+}
+div#modalOptions .contentQuantity .label{
+    width: 30%
+}
+div#modalOptions .contentQuantity .spiner.bootstrap-touchspin{
+    width: 70%
+}
+
+div#modalOptions .contentQuantity .spiner.bootstrap-touchspin .input-group-btn-vertical button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  top:-6px;
+}
+
+div#modalOptions .contentQuantity .spiner.bootstrap-touchspin .input-group-btn-vertical button i{
+  margin-top: 8px;
+}
+div#modalOptions .modal-body .headOptionModal{
+  padding-top: 0px;
+}
+/* Footer menu for iphoneSE */
+@media only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .dropdown-toggle.btns-footer {
+    padding-left: 0px !important;
+  }
+  
+  .footerBarOptions .btns-footer .caret {
+    margin-left: 6px !important;
+  }
+}
+@media screen and (max-device-width: 320px) {
+  
+  .dropdown-toggle.btns-footer {
+    padding-left: 0px !important;
+  }
+  
+  .footerBarOptions .btns-footer .caret {
+    margin-left: 6px !important;
+  }
+}

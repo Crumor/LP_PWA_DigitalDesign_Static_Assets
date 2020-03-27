@@ -1,0 +1,82 @@
+.bannerWine {
+  margin-bottom: 40px;
+}
+.detailInfoWine span {
+  font-weight: bold;
+}
+.wineOptions {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.inputCenter {
+  margin: 0 auto;
+}
+.inputCenter input[type=text] {
+  height: 40px;
+}
+.descTypeText {
+  font-size: 13px !important;
+}
+.titleTypeDrink {
+  font-size: 18px;
+  font-family: 'robotoRegular';
+  font-weight: bold;
+  color: #666;
+}
+.informationDrinks {
+  background-color: #fff;
+  height: 90px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  padding-top: 20px;
+}
+.informationDrinks ul {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+   -ms-flex-flow: row wrap;
+       flex-flow: row wrap;
+/* This aligns items to the end line on main-axis */
+  -moz-box-pack: center;
+   -ms-flex-pack: center;
+       justify-content: center;
+}
+.informationDrinks li {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.informationDrinks li p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.informationDrinks li .cant {
+  color: #fe0000;
+  font-size: 24;
+  font-family: 'robotoCondensed';
+  font-weight: bold;
+}
+.informationDrinks li .type {
+  color: #333;
+  font-size: 14px;
+  font-family: 'robotoRegular';
+  margin-top: -4px;
+}
+.informationDrinks .contentInfo {
+  margin: 0 auto;
+}
+.informationDrinks .contentInfo .item {
+  display: inline-block;
+}
+.wrapWineCalculator {
+  background: #f6f6f6;
+}
+.informationAditional {
+  margin-top: 30px;
+}
+.buyLiverpool {
+  float: right;
+  margin-bottom: 100px;
+}

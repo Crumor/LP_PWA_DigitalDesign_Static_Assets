@@ -1,0 +1,150 @@
+/*ToolsHome v1.8.9*/
+.toolsHome .toolsOnUse {
+  background: #fff;
+  min-height: 70px;
+  text-align: left;
+  padding: 15px 20px 25px 20px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 1px 1px #d4d4d4;
+  height: 120px;
+}
+.toolsHome .toolsOnUse img {
+  display: inline-block;
+  width: 60px;
+}
+.toolsHome .toolsOnUse .alignTools {
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+  padding-left: 3%;
+}
+.row.everyTool {
+  background: #f2f2f2;
+  padding-top: 25px;
+}
+.row.everyTool .toolsCard {
+  background: #fff;
+  min-height: 100px;
+  text-align: center;
+  padding: 20px 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 260px;
+  -moz-box-shadow: 0px 1px 1px 1px #d4d4d4;
+  box-shadow: 0px 1px 1px 1px #d4d4d4;
+}
+.row.everyTool .toolsCard .subtitleSection {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.row.everyTool .toolsCard .linkToTool a.primaryColorLink {
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 12px;
+}
+.row.everyTool .toolsCard .linkToTool i {
+  color: #e10098;
+  font-size: 0.6em;
+  padding-left: 5px;
+}
+.toolsIntro {
+  background: #fff;
+  min-height: 100px;
+  text-align: center;
+  padding: 20px 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 260px;
+}
+.toolsIntro .websiteText {
+  display: inline-block;
+  width: 50%;
+  padding-top: 20px;
+  text-align: left;
+}
+.toolsIntro .websiteText img {
+  display: inline-block;
+}
+.toolsIntro .websiteText h1 {
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 20px;
+}
+.toolsIntro .website {
+  height: 230px;
+  display: inline-block;
+  float: right;
+  margin-right: 3%;
+  width: 47%;
+}
+/*.toolsIntro .website img {
+	width: auto;
+	height: 100%;
+}*/
+.createbutton {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-fluid .row .col-sm-12 {
+	padding: 0;
+	margin: 0;
+}
+.container-fluid .row .col-sm-12 img {
+	width: 100%;
+}
+/*.row.everyTool { margin: 0;}*/
+
+.giftBreadcrumbs ul{
+  padding-left: 0px;
+}
+/*.giftMenu a { padding-left: 5px;}*/
+
+.row.height-80.nmh .container:first-child {
+  margin: 0px auto!important;
+}
+
+.main-menu {
+  width: 99%;
+  margin: 0 15px;
+}
+
+@media (min-width: 1400px){
+  .container-fluid.containerAnimation .row:first-child{
+      width: 98%;
+      max-width: 1600px;
+  }
+}
+@media (min-width: 1200px){
+  .container-fluid.containerAnimation .row:first-child {
+      width: 1170px;
+  }
+}
+@media (min-width: 992px){
+  .container-fluid.containerAnimation .row:first-child {
+      width: 970px;
+  }
+}
+@media (min-width: 768px){
+  .container-fluid.containerAnimation .row:first-child {
+      width: 98% !important;
+      max-width: 1600px !important;
+  }
+}
+.container-fluid.containerAnimation .row:first-child {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.toolsHome .row:first-child{
+  margin-right: -15px !important;
+  margin-left: -15px!important;
+  padding-left: 0px !important;
+  padding-right: 0px!important;
+}
+
+.container-fluid.containerAnimation .row:first-child .col-sm-10 {
+    width: 100% !important;
+}

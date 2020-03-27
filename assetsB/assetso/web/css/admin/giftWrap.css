@@ -1,0 +1,110 @@
+.gift {
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.gift:hover {
+  color: #000;
+}
+.registryClick {
+  font-size: 12px;
+}
+.modalContent {
+  overflow: hidden;
+  background: #f3f3f3;
+  padding: 20px;
+  margin: 10px 20px 0px 20px;
+  height: auto;
+  font-family: 'robotoregular', Arial, sans-serif;
+}
+.modalContent h1 {
+  font-weight: normal;
+  font-size: 15px;
+}
+.modalContent p {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+}
+.modalContent h2 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+.modalContent .col-md-6 {
+  float: left;
+  width: 50%;
+}
+.modalContent .col-md-12 {
+  float: left;
+  width: 100%;
+}
+.modalContent .col-md-12 span {
+  float: right;
+  font-size: 12px;
+  color: #666;
+}
+.modalContent textarea {
+  font-size: 14px;
+  font-family: 'robotoRegular';
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 30%;
+  max-height: 30%;
+}
+.cSelect {
+  width: 80% !important;
+}
+.cSelect.searchGift select {
+  background-color: #fff;
+}
+.cSelect select {
+  font-size: 15px;
+  color: #3b3b3e;
+  height: 35px;
+  width: 50%;
+  border: 1px solid #e10098;
+  padding-left: 15px;
+}
+.buttonContent {
+  text-align: right;
+  margin: 20px 20px 0px 20px;
+}
+.buttonContent .primary {
+  height: 40px;
+  width: 180px;
+  color: #fff;
+  background: #e10098;
+  border: 0;
+  cursor: pointer;
+}
+.buttonContent .secondary {
+  height: 40px;
+  width: 180px;
+  color: #fff;
+  background: #666;
+  margin-right: 10px;
+  border: 0;
+  cursor: pointer;
+}
+.buttonContent button {
+  font-size: 18px;
+}
+.colorsContainer {
+  width: 50%;
+}
+.colorsContainer .colorPixel {
+  -moz-border-radius: 100%;
+       border-radius: 100%;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.disabled {
+  color: #d2d2d2 !important;
+}
+.disabled select {
+  border: 1px solid #d2d2d2;
+  color: #d2d2d2;
+}

@@ -1,0 +1,247 @@
+/*searchTable.css v1.8.9*/
+body {
+  font-family: 'robotoRegular';
+}
+.grayBackground {
+  background: #f2f2f2;
+  min-height: 100%;
+}
+.contentSearchTable {
+  background: #fff;
+  -moz-box-shadow: 0px 0px 2px #ccc;
+       box-shadow: 0px 0px 2px #ccc;
+  float: left;
+  margin: 12px auto;
+  padding: 20px;
+  margin-top: 15px!important;
+  margin-bottom: 15px!important;
+}
+.contentSearchTable p {
+  font-size: 16px;
+  font-weight: bolder;
+}
+#searchBtn1,
+#searchBtn2 {
+  display: none;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 100%;
+}
+.requiredMessage {
+  color: #f00;
+  float: right;
+  font-size: 12px;
+  margin: -5px 0 10px;
+}
+.tableResults {
+  width: 100%;
+}
+.tableResults tr {
+  border-bottom: 1px solid #d8d8d8;
+}
+.tableResults td {
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+.tableResults td .col-xs-2 {
+  padding: 0;
+}
+.tableResults img {
+  -moz-border-radius: 50px;
+       border-radius: 50px;
+  height: 55px;
+  width: 55px;
+}
+.tableResults span {
+  display: block;
+  font-size: 14px;
+  margin: 2px 0;
+}
+.tableResults span.date{
+  margin-bottom: 10px;
+}
+.tableResults .date,
+.tableResults .tableType {
+  display: inline-block !important;
+}
+.tableResults .tableType {
+  font-weight: 600;
+  margin-left: 15px;
+}
+.tableResults a {
+  color: #000;
+  text-decoration: underline;
+}
+.tableResults p {
+  margin: 5px 0 20px;
+}
+.btnWhiteBlack {
+  padding: 10px 20px;
+  width: 100%;
+}
+.btnWhiteBlack i {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.resultsNumber {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+  text-align: left;
+}
+.headerFilters,
+.footerNav {
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  padding-top: 8px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.footerNav {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.footerNav div:nth-child(1) {
+  padding-left: 0;
+}
+.footerNav div:nth-child(2) {
+  padding-right: 0;
+}
+.leftBtn {
+  margin-right: 10px;
+}
+.inactive {
+  color: #b2b2b2;
+  font-weight: 400;
+}
+.optionFilter,
+.catFilter {
+  border: 1px solid #ccc;
+  height: 58px;
+}
+.optionFilter td,
+.catFilter td {
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+}
+.optionFilter i,
+.catFilter i {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.textCategory {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.titleFilter {
+  font-size: 18px;
+}
+.filtersModal .modal-dialog {
+  margin: -5px -1px;
+}
+.filtersModal .modal-content {
+  height: 102%;
+}
+.filterBackButton {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.filterCleanButton {
+  background: #f2f2f2;
+  border: none;
+  float: right;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+.leftBtnFilter {
+  padding-left: 0 !important;
+}
+.rightBtnFilter {
+  padding-right: 0 !important;
+}
+/* #datetimepicker1 input {
+  display: none;
+}
+#datetimepicker1 span {
+  display: none;
+} */
+#filtersModal .modal-content,
+#catModal .modal-content {
+  border: none;
+  min-height: 100%;
+  border-radius: 0;
+}
+#filtersModal .modal-dialog,
+#catModal .modal-dialog {
+  margin: 0;
+}
+#filtersModal .filterBackButton,
+#catModal .filterBackButton {
+  padding: 10px 15px;
+}
+#filtersModal .filterBackButton i,
+#catModal .filterBackButton i {
+  color: #666;
+  font-size: 14px;
+  left: 0;
+  margin-top: 4px;
+  position: absolute;
+}
+#filtersModal .fa-angle-left {
+  color: #666;
+  font-size: 24px;
+  margin-top: 7px;
+  position: absolute;
+}
+.titleModal {
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+.btnClean {
+  background: #f2f2f2;
+  border: none;
+  float: right;
+  padding: 10px;
+}
+.sub,
+.sub2 {
+  color: #666;
+  font-size: 15px;
+}
+.cSelect {
+  float: none;
+  margin-top: 20px;
+  width: 100%;
+}
+.btnSecondarySpecial {
+  font-family: 'robotoCondensed';
+  font-size: 18px;
+  height: 40px;
+}
+.btnSecondarySpecial i {
+  font-size: 12px;
+  margin-left: 10px;
+}
+#filter,
+.footerNav button {
+  font-size: 16px;
+}
+.findAnother {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+span.celebratedName {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* Added CSS for Calender in Event Search Form to remove border */
+.calendar-input .input-group-addon {
+  display: table-cell;
+  border-radius: 0px !important;
+}
+.col-xs-12.headerFilters ~ .col-xs-12:last-child .tableResults tr{
+  border-bottom:none;
+}

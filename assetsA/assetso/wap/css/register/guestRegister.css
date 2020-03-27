@@ -1,0 +1,241 @@
+.imageBlock {
+  padding: 10px 0;
+}
+.imageBlock > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+}
+.imageBlock > div:first-of-type {
+  width: 90px;
+}
+.imageBlock > div .imageFile {
+  display: none;
+}
+.imageBlock > div img {
+  display: block;
+  max-width: 70px;
+  width: 80px;
+}
+.imageBlock > div p {
+  margin: 0;
+}
+.inputDate span {
+  color: #000;
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+.inputDate input {
+  -moz-border-radius: 0px;
+       border-radius: 0px;
+}
+.multipleAddress {
+  display: inline-block;
+  vertical-align: top;
+}
+.multipleAddress.validChecked {
+  width: 30px;
+}
+.multipleAddress.descript {
+  width: 250px;
+}
+.multipleAddress.descript h3 {
+  font-size: 18px;
+  color: #000;
+  margin-top: 10px;
+}
+.multipleAddress.descript p {
+  font-size: 15px;
+}
+.inLine {
+  display: inline-block;
+}
+.iconHelp {
+  font-size: 25px !important;
+  margin-left: 10px;
+}
+.lineHeight-0 {
+  line-height: 0px;
+}
+.iconHelp2 {
+  color: #e10098;
+  font-size: 20px;
+}
+.iconHelp {
+  font-size: 28px;
+}
+.lineHeight-1-7 {
+  line-height: 1.76;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+#giftRegistry .buttonBlock {
+  margin-top: 0px;
+}
+#giftRegistry #contract .subtitleModule {
+  margin: 20px 0 30px;
+}
+#giftRegistry .alertError,
+#giftRegistry .alertWarning {
+  margin-bottom: 20px;
+}
+#giftRegistry .alertError i.icon-alerta_amarilla,
+#giftRegistry .alertWarning i.icon-alerta_amarilla {
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 8px;
+}
+#giftRegistry .alertError i.icon-tache2,
+#giftRegistry .alertWarning i.icon-tache2 {
+  padding: 8px;
+  margin-top: 10px;
+}
+#giftRegistry .alertError a.icon-tache2,
+#giftRegistry .alertWarning a.icon-tache2 {
+  font-size: 7px;
+  padding: 5px;
+}
+#giftRegisgryForm input.error,
+#giftRegisgryForm select.error {
+  border: 1px solid #f00;
+}
+#giftRegisgryForm input.error + i,
+#giftRegisgryForm select.error + i {
+  border-top: 1px solid #f00;
+  border-right: 1px solid #f00;
+}
+#giftRegisgryForm span.error {
+  color: #f00;
+  display: block;
+  margin: -15px 0 10px;
+}
+.exitModule {
+  display: block;
+  height: 40px;
+  margin-left: -5px;
+  width: 40px;
+}
+.articleName {
+  font-size: 18px;
+  position: relative;
+}
+
+.duplicatedEmail {
+  font-size: 14px;
+  color: #f00;
+  margin: -15px 0 20px;
+}
+.centerModal {
+  padding: 0 !important;
+  text-align: center;
+}
+.centerModal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.centerModal .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.centerModal .modal-dialog button {
+  font-size: 15px;
+  height: 40px;
+  margin-top: 20px;
+}
+.centerModal .modal-dialog p {
+  font-size: 15px;
+  width: 90%;
+}
+#mcheckbox1 {
+  position: relative;
+  margin-left: 10px;
+}
+.allowAdminAccess {
+  display: none;
+}
+.tipBlock {
+  border: 10px solid #f6f5f5;
+}
+.tipBlock p {
+  border: 1px dashed #666;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 12px;
+}
+.tipBlock p span {
+  color: #000;
+}
+.iconHelpContent {
+  background: #fff;
+  border: 1px solid #b3b3b3;
+  display: none;
+  padding: 5px 20px 5px 30px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 100;
+}
+.iconHelpContent i.icon-flecha_light_arriba {
+  background: #fff;
+  left: 50%;
+  margin-left: -7px;
+  position: absolute;
+  top: -14px;
+}
+.iconHelpContent ul {
+  padding: 0;
+}
+.iconHelpContent ul li {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.iconHelpContent ul li span {
+  font-weight: bold;
+}
+.addGuestBlock .guestFormInfo {
+  display: none;
+}
+.addGuestBlock .checkbox input {
+  margin-left: 10px;
+  position: relative;
+}
+.addGuestBlock .checkbox label {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.addGuestBlock .checkbox .ageCheckText {
+  display: none;
+}
+.addGuestBlock .checkbox .ageCheckText p {
+  margin: 5px 0 10px 15px;
+}
+button {
+  font-size: 18px;
+}
+.mobileView #giftRegistry .createEventAnimationRight #giftRegisgryForm .iconHelp #helpIconClickAliasOwner .popover-content ul {
+  padding: 0px;
+}
+.moreOptions .iconHelp [id^='helpPopup']{
+  left: 15px!important;
+}
+input[id^=email]{
+text-transform: lowercase!important;
+}
+.col-xs-12.col-sm-12.col-md-12.moreOptions {
+  padding-left: 20px;
+}
+
+.col-xs-12.col-sm-12.col-md-12.moreOptions.permitAccess {margin-left: 0px;}
+
+#giftRegisgryForm .articleName, #giftRegisgryForm .subtitleModule.titleForm {
+  font-size: 18px!important;
+  position: relative;
+  font-weight: bold!important;
+}

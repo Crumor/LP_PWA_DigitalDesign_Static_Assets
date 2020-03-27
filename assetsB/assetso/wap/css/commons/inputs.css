@@ -1,0 +1,74 @@
+/* material design input */
+.materialStyle {
+  position: relative;
+  margin-bottom: 20px;
+}
+.materialStyle label i {
+  color: #f00;
+}
+.materialStyle span {
+  color: #f00;
+}
+input.inputMaterial {
+  border: 1px solid #d8d8d8;
+  font-size: 18px;
+  padding: 12px 0 0 5px;
+  display: block;
+  width: 100%;
+}
+input.inputMaterial:focus {
+  outline: none;
+}
+/* Webkit browsers like Safari and Chrome - Vik edit*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+label.placeHolderMaterial {
+  color: #b3b3b3;
+  font-family: 'robotoRegular';
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  -moz-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+input.inputMaterial:focus ~ label.placeHolderMaterial,
+input.inputMaterial:valid ~ label.placeHolderMaterial {
+  top: 1px;
+  font-size: 10px;
+  color: #e10098;
+}
+input.inputMaterial:focus ~ label.placeHolderMaterial span,
+input.inputMaterial:valid ~ label.placeHolderMaterial span {
+  color: #e10098;
+}
+.quantityGroupGift {
+  margin-top: -5px;
+  width: 100px;
+}
+.minus,
+.plus {
+  background: #fff;
+}
+.buttonSearch i {
+  font-size: 20px;
+}
+.searchInput i {
+  color: #b3b3b3;
+  left: 30px;
+  position: absolute;
+  margin-top: 10px;
+}
+.searchInput input {
+  -moz-border-radius: 0;
+       border-radius: 0;
+  padding-left: 35px;
+}

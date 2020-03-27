@@ -1,0 +1,43 @@
+body {
+  background: #f7f3f0;
+}
+h2 {
+  font-size: 23px;
+  color: #3b3b3e;
+  text-align: left;
+}
+h3 {
+  text-align: left;
+  font-size: 15px;
+  color: #3b3b3e;
+  font-weight: bold;
+}
+.innerWrap {
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.logoContent {
+  padding: 30px 0 30px 0;
+}
+.logoContent img {
+  width: 100%;
+}
+.welcomeMessage {
+  color: #737873;
+  text-align: left;
+  font-size: 19px;
+}
+.characteristics {
+  text-align: left;
+  min-height: 90px;
+  color: #8d8d8d;
+}
+.characteristics ul {
+  min-height: 200px;
+  padding: 0;
+}
+.benefits {
+  cursor: pointer;
+  color: #e10098;
+  text-align: left;
+}

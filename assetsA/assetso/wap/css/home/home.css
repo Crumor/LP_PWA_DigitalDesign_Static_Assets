@@ -1,0 +1,628 @@
+.imgLogo {
+    padding: 10px;
+}
+
+.giftMenu {
+    background-color: #f7f3f1;
+    float: left;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.giftMenu h3 {
+    color: #666;
+    display: inline-block;
+    font-family: 'robotoRegular';
+    font-size: 11px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.giftMenu i {
+    color: #e10098;
+    padding-right: 5px;
+}
+
+.homeBack {
+    background: url("../../../../assetso/wap/images/home/homeBack.jpg");
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    float: left;
+    min-height: 425px;
+    width: 100%;
+}
+
+.homeBack .container {
+    padding: 30px 15px;
+}
+
+.bannerTitle,
+.bannerSubtitle {
+    color: #fff;
+    font-family: 'robotoRegular';
+    font-size: 27px;
+    padding-left: 45px;
+}
+
+.registerForm {
+    background-color: #fff;
+    font-family: 'robotoRegular';
+    float: left;
+    opacity: 1;
+    padding: 40px 15px;
+    width: 90%;
+}
+
+p {
+    color: #666;
+    font-family: 'robotoCondensed';
+    font-size: 16px;
+}
+
+button {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.inToMesa {
+    border-top: 1px dashed #ebebeb;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.checkbox {
+    margin-left: 20px;
+}
+
+.checkbox label {
+    color: #b3b3b3;
+}
+
+.checkbox span {
+    font-weight: bolder;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.checkbox i {
+    font-size: 10px;
+}
+
+.autologinTooltip {
+    background: #fff;
+    border: 1px solid #b6b6b6;
+    display: none;
+    height: 130px;
+    left: 20px;
+    position: absolute;
+    top: 280px;
+    width: 90%;
+}
+
+.autologinTooltip .arrow {
+    background: #fff;
+    left: 81%;
+    margin-top: 16px;
+    position: absolute;
+}
+
+.autologinTooltip .closeLink {
+    background: #666;
+    color: #fff;
+    font-size: 8px;
+    position: absolute;
+    padding: 5px;
+    right: 10px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.headTooltip {
+    margin-left: 5%;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.headTooltip .headText {
+    border-bottom: 1px solid #b3b3b3;
+    text-align: center;
+}
+
+.headTooltip .bodyText {
+    font-size: 12px;
+    line-height: 1;
+    text-align: left;
+}
+
+.form-control {
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.searchButton,
+.createButton,
+.loginButton,
+.createTuto {
+    background-color: #666;
+    border: none;
+    color: #fff;
+    font-family: 'robotoCondensed';
+    font-size: 20px;
+    height: 55px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.createButton,
+.loginButton,
+.createTuto {
+    background-color: #e10098;
+}
+
+.loginButton {
+    float: right;
+    height: 35px;
+    width: 50%;
+}
+
+.createTuto {
+    margin: 50px 0;
+    padding: 0 25px;
+    width: auto;
+}
+
+.forgotPassword,
+.intoMesaLabel {
+    color: #e10098;
+    text-decoration: none;
+    text-align: right;
+}
+
+.forgotPassword a,
+.intoMesaLabel a {
+    color: #e10098;
+}
+
+.titleBlock {
+    padding: 15px 0;
+}
+
+.titleBlock,
+.subtitleBlock,
+.eventBlock,
+.inspirateBlock {
+    font-family: 'robotoRegular';
+    text-align: center;
+}
+
+.imageBlock {
+    margin-bottom: 40px;
+}
+
+.imageBlock img {
+    width: 100%;
+}
+
+.imageBlock p {
+    color: #666;
+    padding: 10px 0;
+}
+
+.tutorialBlock {
+    background-color: #f9f9f9;
+    color: #666;
+    text-align: center;
+}
+
+.imgNumbers {
+    left: 10%;
+    position: absolute;
+    top: -100px;
+    width: 80%;
+}
+
+.tutoImg {
+    height: 120px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 35%;
+}
+
+.tutoImg img {
+    width: 100%;
+}
+
+.sectionTuto {
+    padding-bottom: 10px;
+}
+
+.circleTuto {
+    border: 1px solid;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: none;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 4px;
+    width: 30px;
+}
+
+.eventBlock {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.eventBlock .subtitleBlock {
+    color: #666;
+}
+
+.moreInfo,
+.moreInfo a {
+    color: #e10098;
+    padding: 15px 0;
+}
+
+.wsStyle a {
+    color: #e81818;
+}
+
+.pbStyle a {
+    color: #e81818;
+}
+
+.pbtStyle a {
+    color: #3a699b;
+}
+
+.pbkStyle a {
+    color: #74b0e2;
+}
+
+.weStyle a {
+    color: #af1a31;
+}
+
+.eventImage {
+    padding: 5px;
+    width: 100%;
+}
+
+.eventImage img {
+    width: 100%;
+}
+
+.moreInfo i {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 1px;
+    position: absolute;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.inspirateBlock {
+    text-align: left;
+    padding: 30px 0;
+}
+
+.inspirateBlock p {
+    color: #666;
+    min-height: 80px;
+}
+
+.inspirateBlock img {
+    width: 100%;
+}
+
+.footerInspirate {
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    color: #666;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.conceptInsp {
+    float: right;
+}
+
+.owl-insp .owl-wrapper-outer {
+    height: auto;
+    margin-left: 0;
+}
+
+.owl-insp .owl-item {
+    padding: 0 10px;
+}
+
+.eventProvides {
+    float: left;
+    padding: 0 10%;
+    width: 100%;
+}
+
+.providesimg {
+    float: left;
+    max-height: 400px;
+    width: 100%;
+}
+
+.providesImg img {
+    padding: 12px 0;
+    width: 100%;
+}
+
+.owl-buttons div {
+    background: none !important;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -40px;
+    top: 40%;
+}
+
+.owl-next {
+    position: absolute;
+    right: -40px;
+    top: 40%;
+}
+
+.owl-prev i,
+.owl-next i {
+    color: #666;
+    font-size: 20px;
+}
+
+.mui-textfield>input,
+.mui-textfield>textarea {
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.mui-textfield--float-label>input:not(:focus).mui--is-not-empty~label {
+    -webkit-transform: matrix();
+    -moz-transform: matrix();
+    transform: matrix();
+}
+
+.backButton {
+    float: right;
+}
+
+#intoMesa {
+    display: none;
+}
+
+.alertError,
+.alertWarning {
+    border: 1px solid #f00;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.alertError span,
+.alertWarning span {
+    background: #f00;
+    color: #fff;
+    left: 0;
+    padding: 5px 10px;
+    position: absolute;
+    top: 5px;
+}
+
+.alertError i,
+.alertWarning i {
+    font-style: normal;
+}
+
+.alertError .col-md-10,
+.alertWarning .col-md-10 {
+    padding: 0;
+    padding-left: 40px;
+}
+
+.alertError p,
+.alertWarning p {
+    color: #f00 !important;
+    font-size: 12px !important;
+}
+
+.alertWarning {
+    border: 1px solid #f7d75c;
+}
+
+.alertWarning span {
+    background: #f7d75c;
+}
+
+.alertWarning p {
+    color: #f7d75c !important;
+}
+
+.alertWarning .closeBtn {
+    background: #f7d75c !important;
+}
+
+.closeBtn {
+    background: #f00;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 8px;
+    padding: 0px 3px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.item a {
+    color: #000;
+}
+
+.eventBlock {
+    padding: 0 15px !important;
+}
+
+.eventItems {
+    float: left;
+    width: 100%;
+}
+
+.eventItems div {
+    padding: 0 5px;
+}
+
+.imgLogo {
+    display: none;
+}
+
+.giftMenu {
+    background-color: #fff;
+    height: 50px;
+}
+
+.giftMenu h3 {
+    display: none;
+}
+
+.giftMenu i {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.homeBack .container {
+    padding: 0;
+}
+
+.bannerSubtitle {
+    display: none;
+}
+
+.bannerTitle {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.registerForm {
+    margin-bottom: 40px;
+    opacity: 1;
+    padding: 40px 15px;
+    width: 100%;
+}
+
+.loginButton {
+    float: none;
+    height: 45px;
+    width: 100%;
+}
+
+.tutorialBlock {
+    padding: 10px 0;
+}
+
+.imageBlock {
+    text-align: left;
+}
+
+.titleBlock,
+.subtitleBlock {
+    text-align: left;
+}
+
+.titleBlock {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 5px 15px;
+}
+
+.imgNumbers {
+    display: none;
+}
+
+.tutoImg {
+    height: 85px;
+    padding-bottom: 0;
+    width: 50%;
+}
+
+.sectionTuto {
+    padding: 10px 20px;
+}
+
+.tutorialBlock .titleBlock {
+    color: #000;
+    text-align: center;
+}
+
+.circleTuto {
+    display: block;
+}
+
+.eventBlock {
+    text-align: left;
+}
+
+.eventBlock .titleBlock {
+    padding: 0;
+}
+
+.eventBlock .col-md-12 {
+    padding: 0;
+}
+
+.eventImage {
+    padding: 1px;
+}
+
+.eventBlock p {
+    height: 35px;
+}
+
+.eventBlock.titleBlock {
+    text-align: left !important;
+}
+
+.eventBlock.col-md-12.col-xs-6 p {
+    text-align: center;
+}
+
+.parallaxBlock {
+    display: none;
+}
+
+.eventProvides {
+    padding: 0;
+}
+
+.owl-prev,
+.owl-next {
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    position: absolute;
+    left: 20px;
+    top: 22%;
+    background: #fff !important;
+    padding: 10px 10px !important;
+    opacity: 1 !important;
+}
+
+.owl-next {
+    left: inherit;
+    right: 20px;
+}
+
+.owl-buttons div {
+    background: #fff !important;
+}
+
+
+}
