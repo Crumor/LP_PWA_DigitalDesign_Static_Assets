@@ -145,8 +145,8 @@ function myOnloadFunction(pageName,path) {
            'position':'7'
             },
             {
- 'id':'tablets_230320',
-           'name':'Tablets hasta 15% de desc',
+'id':'computadoras_270320',
+           'name':'computadoras hasta 20% de desc',
            'creative':'h_banner_secun',
            'position':'8'
 		},				
@@ -156,15 +156,21 @@ function myOnloadFunction(pageName,path) {
            'creative':'h_banner_secun',
            'position':'9'
             },
+							{
+	 'id':'celulares_270320',
+           'name':'celulares hasta 20% de reembolso',
+           'creative':'h_banner_secun',
+           'position':'9'
+            },
             {
- 'id':'ella_230320',
-           'name':'Ella hasta 20% de desc',
+ 'id':'ella_270320',
+           'name':'Ella hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'10'
 		},
              {
- 'id':'el_230320',
-           'name':'Él hasta 20% de desc',
+ 'id':'el_270320',
+           'name':'Él hasta 30% de desc',
            'creative':'h_banner_secun',
            'position':'11'
 		}, {
@@ -180,8 +186,8 @@ function myOnloadFunction(pageName,path) {
            'position':'13'
 		},
             {
-  'id':'zapatos_230320',
-           'name':'Zapatos hasta 15% de desc',
+  'id':'piel_270320',
+           'name':'Cuidado de la piel',
            'creative':'h_banner_secun',
            'position':'14'
 		}
