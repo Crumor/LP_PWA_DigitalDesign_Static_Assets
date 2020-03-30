@@ -122,7 +122,7 @@ function myOnloadFunction(pageName,path) {
           },
                 {
           'id':'cocina_300320',
-          'name':'Cocina hasta 15% de desc',
+          'name':'Cocina hasta 30% de desc',
      'creative':'h_banner_secun',
      'position':'4'
           },
