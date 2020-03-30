@@ -102,94 +102,89 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-       {
-		'id':'muebles_230320',
-		'name':'Muebles hasta 30% de desc',
-       'creative':'h_banner_central',
-       'position':'1'
+      {
+		'id':'linea_blanca_300320',
+		'name':'Línea Blanca hasta 44% de desc',
+		'creative':'h_banner_central',
+		'position':'1'
         },
 		{
-          'id':'linea_blanca_240320',
-           'name':'Línea Blanca hasta 44% de desc',
-           'creative':'h_banner_secun',
-           'position':'2'
-           },
-		{
-		'id':'colchones_230320',
-           'name':'Colchones hasta 47% de desc',
-           'creative':'h_banner_secun',
-           'position':'3'
+		'id':'muebles_300320',
+            'name':'Muebles hasta 30% de desc',
+            'creative':'h_banner_secun',
+            'position':'2'
 		},
 			{
-	'id':'cocina_230320',
-           'name':'Cocina hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'4'
+		 'id':'colchones_300320',
+		'name':'Colchones hasta 47% de desc',
+       'creative':'h_banner_secun',
+       'position':'3'
+		},
+			{
+		'id':'cocina_300320',
+		'name':'Cocina hasta 15% de desc',
+       'creative':'h_banner_secun',
+       'position':'4'
 		},
             {
-		'id':'muebles_bebes_230320',
-           'name':'Muebles de bebés hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'5'
-		}, 
-            {
-		'id':'pantallas_230320',
-           'name':'Pantallas hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'6'
-        },	
-        {
-         'id':'sonido_230320',
-           'name':'Sonido hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'7'
-            },
-            {
-'id':'computadoras_270320',
-           'name':'computadoras hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'8'
-		},				
-            {
-	'id':'videojuegos_230320',
-           'name':'Videojuegos hasta 10% de desc',
-           'creative':'h_banner_secun',
-           'position':'9'
-            },
-							{
-	 'id':'celulares_270320',
-           'name':'celulares hasta 20% de reembolso',
-           'creative':'h_banner_secun',
-           'position':'9'
-            },
-            {
- 'id':'ella_270320',
-           'name':'Ella hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'10'
-		},
-             {
- 'id':'el_270320',
-           'name':'Él hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'11'
-		}, {
-  'id':'deportes_230320',
-           'name':'Ropa Deportiva hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'12'
-		},									
-            {
-  'id':'lentes_sol_230320',
-           'name':'Lentes de Sol hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'13'
+		'id':'muebles_bebe_300320',
+		'name':'Muebles para Bebé hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'5'
 		},
             {
-  'id':'piel_270320',
-           'name':'Cuidado de la piel',
-           'creative':'h_banner_secun',
-           'position':'14'
+		'id':'videojuegos_300320',
+		'name':'Videojuegos hasta 10% de desc',
+       'creative':'h_banner_secun',
+       'position':'6'
+		},
+            {
+		'id':'computo_300320',
+		'name':'Cómputo hasta 10% de desc',
+       'creative':'h_banner_secun',
+       'position':'7'
+		},		
+            {
+		'id':'pantallas_300320',
+		'name':'Pantallas hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'8'
+		},		
+            {
+		'id':'aparatos_ejericio_300320',
+		'name':'Aparatos de ejericio hasta 20% de desc',
+       'creative':'h_banner_secun',
+       'position':'9'
+            },									
+            {
+		'id':'beauty_300320',
+		'name':'Beauty - Spa en casa',
+       'creative':'h_banner_secun',
+       'position':'10'
+		},
+            {
+		'id':'ae_300320',
+		'name':'American Eagle hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'11'
+		},
+            {
+		'id':'ella_300320',
+		'name':'Ella hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'12'
+		},
+            {
+		'id':'el_300320',
+		'name':'Él hasta 30% de desc',
+       'creative':'h_banner_secun',
+       'position':'13'
+		},
+			{
+		'id':'zapatos_070220',
+		'name':'Zapatos hasta 15% de desc',
+       'creative':'h_banner_secun',
+       'position':'14'
 		}
 	
                         ]
