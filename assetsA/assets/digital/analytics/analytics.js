@@ -108,6 +108,24 @@ function myOnloadFunction(pageName,path) {
           'creative':'h_banner_central',
           'position':'1'
       },
+				{
+          'id':'slider_homeoffice_300320',
+           'name':'Home office',
+           'creative':'h_banner_secun',
+           'position':'2'
+          },
+				{
+          'id':'slider_juegos_mesa_300320',
+           'name':'Juegos de Mesa',
+           'creative':'h_banner_secun',
+           'position':'3'
+          },
+				{
+          'id':'slider_yoga_300320',
+           'name':'Yoga',
+           'creative':'h_banner_secun',
+           'position':'4'
+          },
           {
           'id':'muebles_300320',
           'name':'Muebles hasta 30% de desc',
