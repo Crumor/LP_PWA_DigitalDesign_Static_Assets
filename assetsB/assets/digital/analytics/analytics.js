@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-            {
+          {
                               'id':'linea_blanca_300320',
                               'name':'Línea Blanca hasta 44% de desc',
                               'creative':'h_banner_central',
@@ -127,8 +127,8 @@ function myOnloadFunction(pageName,path) {
                                'position':'4'
                               },
                               {
-                              'id':'muebles_300320',
-                              'name':'Muebles hasta 30% de desc',
+                              'id':'muebles_010420',
+                              'name':'Muebles hasta 40% de desc',
                               'creative':'h_banner_secun',
                               'position':'2'
                               },
@@ -145,8 +145,8 @@ function myOnloadFunction(pageName,path) {
                          'position':'4'
                               },
                               {
-                              'id':'muebles_bebe_300320',
-                              'name':'Muebles para Bebé hasta 30% de desc',
+                              'id':'muebles_bebe_010420',
+                              'name':'Muebles para Bebé hasta 35% de desc',
                          'creative':'h_banner_secun',
                          'position':'5'
                               },
@@ -181,8 +181,8 @@ function myOnloadFunction(pageName,path) {
                          'position':'10'
                               },
                               {
-                              'id':'ae_300320',
-                              'name':'American Eagle hasta 25% de desc',
+                              'id':'jeans_010420',
+                              'name':'Jeans hasta 30% de desc',
                          'creative':'h_banner_secun',
                          'position':'11'
                               },
