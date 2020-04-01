@@ -627,81 +627,81 @@ dataLayer.push({
     'position': '19'
 },
 {
-    'id': 'aparatos_130220',
-    'name': 'Aparatos',
-    'creative': 'blp_deportes_aparatos',
+    'id': 'entrenacasa_010420',
+    'name': 'Entrenamiento en casa',
+    'creative': 'blp_deportes_entrenacasa',
     'position': '20'
 },
 {
-    'id': 'ropa_130220',
-    'name': 'Ropa',
-    'creative': 'blp_deportes_ropa',
+    'id': 'monitores_010420',
+    'name': 'Monitores',
+    'creative': 'blp_deportes_monitores',
     'position': '21'
 },
 {
-    'id': 'motos_130220',
-    'name': 'Motos',
-    'creative': 'blp_deportes_motos',
+    'id': 'ropa_010420',
+    'name': 'Ropa',
+    'creative': 'blp_deportes_ropa',
     'position': '22'
+},
+{
+    'id': 'aparatos_010420',
+    'name': 'Aparatos',
+    'creative': 'blp_deportes_aparatos',
+    'position': '23'
+},
+{
+    'id': 'suplementos_010420',
+    'name': 'Suplementos',
+    'creative': 'blp_deportes_suplementos',
+    'position': '24'
+},
+{
+    'id': 'deportes_acuaticos_010420',
+    'name': 'Deportes Acuaticos',
+    'creative': 'blp_deportes_deportesacuaticos',
+    'position': '25'
 },
 {
     'id': 'tenis_el130220',
     'name': 'Tenis El',
     'creative': 'blp_deportes_tenis_el',
-    'position': '23'
+    'position': '26'
 },
 {
     'id': 'tenis_ella130220',
     'name': 'Tenis Ella',
     'creative': 'blp_deportes_tenis_ella',
-    'position': '24'
+    'position': '27'
 },
 {
     'id': 'tenis_ninos130220',
     'name': 'Tenis Ninos',
     'creative': 'blp_deportes_tenis_ninos',
-    'position': '25'
+    'position': '28'
 },
 {
     'id': 'tenis_ninas130220',
     'name': 'Tenis Ninas',
     'creative': 'blp_deportes_tenis_ninas',
-    'position': '26'
-},
-{
-    'id': 'aire_libre130220',
-    'name': 'Aire Libre',
-    'creative': 'blp_deportes_aire_libre',
-    'position': '27'
-},
-{
-    'id': 'monitores130220',
-    'name': 'Monitores',
-    'creative': 'blp_deportes_monitores',
-    'position': '28'
-},
-{
-   'id': 'equipaje130220',
-    'name': 'Equipaje',
-    'creative': 'blp_deportes_equipaje',
     'position': '29'
 },
 {
-    'id': 'nike130220',
+    'id': 'nike_010420',
     'name': 'Nike',
     'creative': 'blp_deportes_nike',
     'position': '30'
 },
 {
-    'id': 'puma130220',
-    'name': 'Puma',
-    'creative': 'blp_deportes_puma',
+    'id': 'adidas_010420',
+    'name': 'Adidas',
+    'creative': 'blp_deportes_adidas',
     'position': '31'
 },
 {
-    'id': 'adidas130220',
-    'name': 'Adidas',
-    'creative': 'blp_deportes_adidas',
+    'id': 'puma_010420',
+    'name': 'Puma',
+    'creative': 'blp_deportes_puma',
     'position': '32'
 },
 {
