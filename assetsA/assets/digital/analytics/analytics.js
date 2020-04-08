@@ -156,6 +156,24 @@ function myOnloadFunction(pageName,path) {
                     'creative':'h_banner_secun',
                     'position':'H'
                          },
+                    {
+                    'id':'slider_detox_060420',
+                    'name':'Detox',
+                    'creative':'h_banner_secun',
+                    'position':'I'
+                         },
+                    {
+                    'id':'liverpool_pocket_080420',
+                    'name':'Descarga Liverpool Pocket',
+                    'creative':'h_banner_secun',
+                    'position':'J'
+                         },
+                    {
+                    'id':'slider_mascotas_080420',
+                    'name':'Mascotas',
+                    'creative':'h_banner_secun',
+                    'position':'K'
+                         },
                {
                'id':'colchones_060420',
                'name':'Colchones hasta 47% de desc',
@@ -182,7 +200,7 @@ function myOnloadFunction(pageName,path) {
                     },
                {
                'id':'muebles_bebe_060420',
-               'name':'Muebles para Bebé hasta 40% de desc',
+               'name':'Muebles para Bebé hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'6'
                      },
