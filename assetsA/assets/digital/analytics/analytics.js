@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                       {
+                                     {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
                'creative':'h_banner_central',
@@ -173,6 +173,18 @@ function myOnloadFunction(pageName,path) {
                     'name':'Mascotas',
                     'creative':'h_banner_secun',
                     'position':'K'
+                         },
+                         {
+                    'id':'slider_aspiradoras_130420',
+                    'name':'Aspiradoras',
+                    'creative':'h_banner_secun',
+                    'position':'L'
+                         },
+                    {
+                    'id':'slider_garmin_130420',
+                    'name':'Garmin',
+                    'creative':'h_banner_secun',
+                    'position':'M'
                          },
                {
                'id':'celulares_130420',
@@ -270,9 +282,9 @@ function myOnloadFunction(pageName,path) {
                'creative':'h_banner_secun',
                'position':'16'
                     },
-               {
-               'id':'yuya_130420',
-               'name':'Yuya',
+                {
+               'id':'dermo_130420',
+               'name':'Dermocosméticos hasta 15% de desc',
                'creative':'h_banner_secun',
                'position':'17'
                     }
@@ -4074,12 +4086,6 @@ dataLayer.push({
 }
 }
 });
-   
-/*BLP BANANA REPUBLIC*/ 
-
-break;
-case '/tienda/banana-republic/catst1316206':
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce'
+ break;  
+}
+}
