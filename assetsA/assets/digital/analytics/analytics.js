@@ -4086,12 +4086,6 @@ dataLayer.push({
 }
 }
 });
-   
-/*BLP BANANA REPUBLIC*/ 
-
-break;
-case '/tienda/banana-republic/catst1316206':
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce'
+ break;  
+}
+}
