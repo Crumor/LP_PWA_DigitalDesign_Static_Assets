@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                          {
+                {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
                'creative':'h_banner_central',
@@ -173,6 +173,18 @@ function myOnloadFunction(pageName,path) {
                     'name':'Mascotas',
                     'creative':'h_banner_secun',
                     'position':'K'
+                         },
+                         {
+                    'id':'slider_aspiradoras_130420',
+                    'name':'Aspiradoras',
+                    'creative':'h_banner_secun',
+                    'position':'L'
+                         },
+                    {
+                    'id':'slider_garmin_130420',
+                    'name':'Garmin',
+                    'creative':'h_banner_secun',
+                    'position':'M'
                          },
                {
                'id':'celulares_130420',
