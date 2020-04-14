@@ -282,9 +282,9 @@ function myOnloadFunction(pageName,path) {
                'creative':'h_banner_secun',
                'position':'16'
                     },
-               {
-               'id':'yuya_130420',
-               'name':'Yuya',
+                {
+               'id':'dermo_130420',
+               'name':'Dermocosméticos hasta 15% de desc',
                'creative':'h_banner_secun',
                'position':'17'
                     }
