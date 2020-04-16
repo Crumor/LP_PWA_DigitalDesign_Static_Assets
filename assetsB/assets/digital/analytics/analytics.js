@@ -186,6 +186,12 @@ function myOnloadFunction(pageName,path) {
                     'creative':'h_banner_secun',
                     'position':'M'
                          },
+				{
+                    'id':'slider_drones_150420',
+                    'name':'Drones',
+                    'creative':'h_banner_secun',
+                    'position':'N'
+                    },
                {
                'id':'celulares_130420',
                'name':'Celulares hasta 20% de reembolso + hasta 13 MSI',
