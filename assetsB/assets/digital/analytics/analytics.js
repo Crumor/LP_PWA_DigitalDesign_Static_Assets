@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                                     {
+                                                   {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
                'creative':'h_banner_central',
@@ -186,6 +186,12 @@ function myOnloadFunction(pageName,path) {
                     'creative':'h_banner_secun',
                     'position':'M'
                          },
+                         {
+                    'id':'slider_drones_150420',
+                    'name':'Drones',
+                    'creative':'h_banner_secun',
+                    'position':'N'
+                    },
                {
                'id':'celulares_130420',
                'name':'Celulares hasta 20% de reembolso + hasta 13 MSI',
@@ -199,8 +205,8 @@ function myOnloadFunction(pageName,path) {
                'position':'3'
                     },
                {
-               'id':'computo_130420',
-               'name':'Cómputo hasta 20% de desc',
+               'id':'computo_160420',
+               'name':'Cómputo hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'4'
                     },
@@ -253,8 +259,8 @@ function myOnloadFunction(pageName,path) {
                'position':'11'
                     },
                {
-               'id':'zapatos_130420',
-               'name':'Zapatos hasta 15% de desc',
+               'id':'zapatos_150420',
+               'name':'Zapatos hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'12'
                     },
@@ -282,7 +288,7 @@ function myOnloadFunction(pageName,path) {
                'creative':'h_banner_secun',
                'position':'16'
                     },
-                {
+               {
                'id':'dermo_130420',
                'name':'Dermocosméticos hasta 15% de desc',
                'creative':'h_banner_secun',
