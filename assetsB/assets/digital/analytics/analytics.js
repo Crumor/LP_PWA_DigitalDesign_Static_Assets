@@ -199,8 +199,8 @@ function myOnloadFunction(pageName,path) {
                'position':'3'
                     },
                {
-               'id':'computo_130420',
-               'name':'Cómputo hasta 20% de desc',
+               'id':'computo_160420',
+               'name':'Cómputo hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'4'
                     },
