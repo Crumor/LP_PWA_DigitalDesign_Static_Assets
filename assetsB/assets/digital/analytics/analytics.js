@@ -102,18 +102,20 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                                                   {
+                   
+               {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
                'creative':'h_banner_central',
                'position':'A'
                     },
                {
-               'id':'pantallas_130420',
-               'name':'Pantallas hasta 55% de desc',
-               'creative':'h_banner_central',
+               'id':'computo_160420',
+               'name':'Cómputo hasta 25% de desc',
+               'creative':'h_banner_secun',
                'position':'1'
-               },
+                    },
+               
                {
                'id':'credito_230320',
                'name':'Crédito',
@@ -192,6 +194,18 @@ function myOnloadFunction(pageName,path) {
                     'creative':'h_banner_secun',
                     'position':'N'
                     },
+                    {
+                    'id':'slider_ventiladores_170420',
+                    'name':'ventiladores',
+                    'creative':'h_banner_secun',
+                    'position':'O'
+                         },
+                    {
+                    'id':'slider_yuya_170420',
+                    'name':'Yuya',
+                    'creative':'h_banner_secun',
+                    'position':'P'
+                         },
                {
                'id':'celulares_130420',
                'name':'Celulares hasta 20% de reembolso + hasta 13 MSI',
@@ -204,12 +218,13 @@ function myOnloadFunction(pageName,path) {
                'creative':'h_banner_secun',
                'position':'3'
                     },
-               {
-               'id':'computo_160420',
-               'name':'Cómputo hasta 25% de desc',
-               'creative':'h_banner_secun',
+                    {
+               'id':'pantallas_130420',
+               'name':'Pantallas hasta 55% de desc',
+               'creative':'h_banner_central',
                'position':'4'
-                    },
+               },
+              
                {
                'id':'tablets_130420',
                'name':'Tablets hasta 15% de desc',
