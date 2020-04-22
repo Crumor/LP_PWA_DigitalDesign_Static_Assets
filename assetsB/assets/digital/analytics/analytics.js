@@ -102,8 +102,8 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-                   
-                             {
+               
+                              {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
                'creative':'h_banner_central',
@@ -260,8 +260,8 @@ function myOnloadFunction(pageName,path) {
                'position':'7'
                     },		
                {
-               'id':'muebles_bebe_200420',
-               'name':'Muebles para Bebé 30% de desc',
+               'id':'festival_infantil_220420',
+               'name':'Festival Infantil 25% de desc',
                'creative':'h_banner_secun',
                'position':'8'
                     },		
@@ -3081,64 +3081,52 @@ dataLayer.push({
     'position': '01'
 },
 {
-    'id': 'primeknit_210619',
-    'name': 'Adidas Primeknit',
-    'creative': 'blp_adidas_primeknit',
-    'position': '02'
-},
-{
     'id': 'mujer_210619',
     'name': 'Adidas Mujer',
     'creative': 'blp_adidas_mujer',
-    'position': '03'
+    'position': '02'
 },
 {
     'id': 'hombre_210619',
     'name': 'Adidas Hombre',
     'creative': 'blp_adidas_hombre',
+    'position': '03'
+},
+{
+    'id': 'nino_210619',
+    'name': 'Adidas Niño',
+    'creative': 'blp_adidas_niño',
     'position': '04'
 },
 {
-    'id': 'nino_210619',
-    'name': 'Adidas Niño',
-    'creative': 'blp_adidas_niño',
+    'id': 'nina_210619',
+    'name': 'Adidas Niña',
+    'creative': 'blp_adidas_niña',
     'position': '05'
 },
 {
+    'id': 'mujer_210619',
+    'name': 'Adidas Mujer',
+    'creative': 'blp_adidas_mujer',
+    'position': '02'
+},
+{
+    'id': 'hombre_210619',
+    'name': 'Adidas Hombre',
+    'creative': 'blp_adidas_hombre',
+    'position': '03'
+},
+{
     'id': 'nina_210619',
     'name': 'Adidas Niña',
     'creative': 'blp_adidas_niña',
-    'position': '06'
-},
-{
-    'id': 'nofakers_210619',
-    'name': 'Adidas No Fakers',
-    'creative': 'blp_adidas_nofakers',
-    'position': '07'
-},
-{
-    'id': 'ultraboost_210619',
-    'name': 'Adidas Ultraboost',
-    'creative': 'blp_adidas_ultraboost',
-    'position': '08'
-},
-{
-    'id': 'sleek_210619',
-    'name': 'Adidas Sleek',
-    'creative': 'blp_adidas_sleek',
-    'position': '09'
+    'position': '05'
 },
 {
     'id': 'nino_210619',
     'name': 'Adidas Niño',
     'creative': 'blp_adidas_niño',
-    'position': '10'
-},
-{
-    'id': 'nina_210619',
-    'name': 'Adidas Niña',
-    'creative': 'blp_adidas_niña',
-    'position': '11'
+    'position': '04'
 }
 ]
 }
