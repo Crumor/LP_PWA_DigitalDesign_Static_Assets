@@ -260,8 +260,8 @@ function myOnloadFunction(pageName,path) {
                'position':'7'
                     },		
                {
-               'id':'muebles_bebe_200420',
-               'name':'Muebles para Bebé 30% de desc',
+               'id':'festival_infantil_220420',
+               'name':'Festival Infantil 25% de desc',
                'creative':'h_banner_secun',
                'position':'8'
                     },		
