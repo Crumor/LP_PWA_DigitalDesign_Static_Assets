@@ -261,7 +261,7 @@ function myOnloadFunction(pageName,path) {
                     },		
                {
                'id':'levis_230420',
-               'name':'Levis hasta 20% de desc',
+               'name':'Levis hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'8'
                     },		
