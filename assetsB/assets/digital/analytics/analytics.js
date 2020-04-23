@@ -102,7 +102,6 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-               
                               {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
@@ -110,8 +109,8 @@ function myOnloadFunction(pageName,path) {
                'position':'A'
                     },
                {
-               'id':'pantallas_200420',
-               'name':'Pantallas hasta 55% de desc',
+               'id':'ella_230420',
+               'name':'Ella hasta 30% de desc',
                'creative':'h_banner_central',
                'position':'1'
                },
@@ -217,107 +216,113 @@ function myOnloadFunction(pageName,path) {
                     'creative':'h_banner_secun',
                     'position':'R'
                          },
+                         {
+                    'id':'slider_sets_230420',
+                    'name':'Sets para mamá',
+                    'creative':'h_banner_secun',
+                    'position':'S'
+                         },
                {
-               'id':'sonido_200420',
-               'name':'Sonido hasta 30% de desc',
+               'id':'zapatos_230420',
+               'name':'Zapatos hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'2'
                     },
                {
-               'id':'videojuegos_200420',
-               'name':'Videojuegos hasta 13 MSI',
+               'id':'relojes_230420',
+               'name':'Relojes hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'3'
                     },
                {
-               'id':'celulares_200420',
-               'name':'Celulares hasta 20% de reembolso + hasta 13 MSI',
+               'id':'el_230420',
+               'name':'Él hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'4'
                     },
                {
-               'id':'computo_200420',
-               'name':'Cómputo hasta 20% de desc',
+               'id':'tommy_230420',
+               'name':'Tommy Hilfiger hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'5'
                     },
                {
-               'id':'home_office_200420',
-               'name':'Home Office',
-               'creative':'h_banner_secun',
-               'position':'6a'
-                     },
-               {
-               'id':'linea_blanca_200420',
-               'name':'Línea Blanca hasta 40% de desc',
+               'id':'dermo_230420',
+               'name':'Dermocosmética hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'6'
                      },
                {
-               'id':'muebles_200420',
-               'name':'Muebles hasta 40% de desc',
+               'id':'deportes_230420',
+               'name':'Deportes hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'7'
                     },		
                {
-               'id':'festival_infantil_220420',
-               'name':'Festival Infantil 25% de desc',
+               'id':'levis_230420',
+               'name':'Levis hasta 20% de desc',
                'creative':'h_banner_secun',
                'position':'8'
                     },		
                {
-               'id':'cocina_200420',
-               'name':'Cocina hasta 30% de desc',
+               'id':'ae_230420',
+               'name':'American Eagle hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'9'
                     },									
                {
-               'id':'zapatos_200420',
-               'name':'Zapatos hasta 15% de desc',
+               'id':'festival_infantil_230420',
+               'name':'Festival Infantil hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'10'
                     },
                {
-               'id':'relojes_200420',
-               'name':'Relojes hasta 30% de desc',
+               'id':'aeropostale_230420',
+               'name':'Aeropostale hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'11'
                     },
                {
-               'id':'el_200420',
-               'name':'Él hasta 20% de desc',
+               'id':'north_face_230420',
+               'name':'The North Face hasta 6 MSI',
                'creative':'h_banner_secun',
                'position':'12'
                     },
                {
-               'id':'ella_200420',
-               'name':'Ella hasta 20% de desc',
+               'id':'pandora_230420',
+               'name':'Pandora - Regalo con compra',
                'creative':'h_banner_secun',
                'position':'13'
                     },
                {
-               'id':'spa_200420',
-               'name':'Spa en casa',
+               'id':'computo_230420',
+               'name':'Cómputo hasta 20% de desc',
                'creative':'h_banner_secun',
                'position':'14'
                     },
                     {
-               'id':'garmin_200420',
-               'name':'Garmin hasta 20% de desc',
+               'id':'sonido_230420',
+               'name':'Sonido hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'15'
                     },
                {
-               'id':'levis_200420',
-               'name':'Levis hasta 20% de desc',
+               'id':'videojuegos_230420',
+               'name':'Videojuegos hasta 13 MSI',
                'creative':'h_banner_secun',
                'position':'16'
                     },
                {
-               'id':'american_eagle_200420',
-               'name':'American Eagle hasta 30% de desc',
+               'id':'celulares_230420',
+               'name':'Celulares hasta 20% de reembolso + Hasta 13 MSI',
                'creative':'h_banner_secun',
                'position':'17'
+                    },
+                    {
+               'id':'pantallas_230420',
+               'name':'Pantallas hasta 55% de desc',
+               'creative':'h_banner_secun',
+               'position':'18'
                     }
 	
                         ]
