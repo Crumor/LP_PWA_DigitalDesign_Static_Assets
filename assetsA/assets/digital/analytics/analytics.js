@@ -1817,15 +1817,15 @@ dataLayer.push({
     'position': '06'
 },
 {
-    'id': 'banos_230320',
-    'name': 'Casa Bano',
-    'creative': 'blp_casa_bano',
+    'id': 'flores_230320',
+    'name': 'Casa Flores',
+    'creative': 'blp_casa_flores',
     'position': '07'
 },
 {
-    'id': 'casa_vajillas_230320',
-    'name': 'Casa Vajillas',
-    'creative': 'blp_casa_vajillas',
+    'id': 'esencias_230320',
+    'name': 'Casa Esencias',
+    'creative': 'blp_casa_esencias',
     'position': '08'
 },
 {
