@@ -103,7 +103,7 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
 
                
-                                                 {
+              {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
                'creative':'h_banner_central',
@@ -334,6 +334,114 @@ function myOnloadFunction(pageName,path) {
                {
                'id':'ropa_deportiva_270420',
                'name':'Ropa Deportiva hasta 15% de desc',
+               'creative':'h_banner_secun',
+               'position':'18'
+                    },
+               {
+               'id':'pantallas_010520',
+               'name':'Pantallas hasta 58% de desc',
+               'creative':'h_banner_central',
+               'position':'1'
+               },
+               {
+               'id':'muebles_010520',
+               'name':'Muebles hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'2'
+                    },
+               {
+               'id':'linea_blanca_010520',
+               'name':'Línea Blanca hasta 51% de desc',
+               'creative':'h_banner_secun',
+               'position':'3'
+                    },
+               {
+               'id':'casa_010520',
+               'name':'Casa hasta 35% de desc',
+               'creative':'h_banner_secun',
+               'position':'4'
+                    },
+               {
+               'id':'cocina_010520',
+               'name':'Cocina hasta 35% de desc',
+               'creative':'h_banner_secun',
+               'position':'5'
+                    },
+               {
+               'id':'computo_010520',
+               'name':'Cómputo hasta 25% de desc',
+               'creative':'h_banner_secun',
+               'position':'6'
+                    },
+               {
+               'id':'celulares_010520',
+               'name':'Celulares hasta 25% de reemb',
+               'creative':'h_banner_secun',
+               'position':'7'
+                    },
+               {
+               'id':'videojuegos_010520',
+               'name':'Videojuegos hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'8'
+                    },
+               {
+               'id':'ella_010520',
+               'name':'Ella hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'9'
+                    },
+               {
+               'id':'zapatos_010520',
+               'name':'Zapatos hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'10'
+                    },
+               {
+               'id':'pandora_010520',
+               'name':'Pandora',
+               'creative':'h_banner_secun',
+               'position':'11'
+                    },
+               {
+               'id':'fragancias_010520',
+               'name':'Set de fragancias',
+               'creative':'h_banner_secun',
+               'position':'12'
+                    },
+               {
+               'id':'ropa_deportiva_010520',
+               'name':'Ropa Deportiva hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'13'
+                    },
+               {
+               'id':'el_010520',
+               'name':'Él hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'14'
+                    },
+               {
+               'id':'relojes_010520',
+               'name':'Relojes hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'15'
+                    },
+               {
+               'id':'juguetes_010520',
+               'name':'Jugetes hasta 25% de desc',
+               'creative':'h_banner_secun',
+               'position':'16'
+                    },
+               {
+               'id':'ninos_010520',
+               'name':'Niños y Niñas hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'17'
+                    },
+               {
+               'id':'bebes_010520',
+               'name':'Bebés hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'18'
                     }
