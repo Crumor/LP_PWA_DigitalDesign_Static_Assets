@@ -429,7 +429,7 @@ function myOnloadFunction(pageName,path) {
                     },
                {
                'id':'juguetes_010520',
-               'name':'Jugetes hasta 25% de desc',
+               'name':'Juguetes hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'16'
                     },
