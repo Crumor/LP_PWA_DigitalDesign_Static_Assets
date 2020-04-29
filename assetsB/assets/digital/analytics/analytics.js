@@ -444,6 +444,18 @@ function myOnloadFunction(pageName,path) {
                'name':'Bebés hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'18'
+                    },
+               {
+               'id':'tenis_060520',
+               'name':'Tenis hasta 30% de desc',
+               'creative':'h_banner_central',
+               'position':'1'
+                    },
+               {
+               'id':'pantallas_060520',
+               'name':'Pantallas hasta 58% de desc',
+               'creative':'h_banner_secun',
+               'position':'19'
                     }
 	
                         ]
