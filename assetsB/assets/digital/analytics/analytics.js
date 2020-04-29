@@ -102,89 +102,361 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-       {
-		'id':'muebles_230320',
-		'name':'Muebles hasta 30% de desc',
-       'creative':'h_banner_central',
-       'position':'1'
-        },
-		{
-          'id':'linea_blanca_240320',
-           'name':'Línea Blanca hasta 44% de desc',
-           'creative':'h_banner_secun',
-           'position':'2'
-           },
-		{
-		'id':'colchones_230320',
-           'name':'Colchones hasta 47% de desc',
-           'creative':'h_banner_secun',
-           'position':'3'
-		},
-			{
-	'id':'cocina_230320',
-           'name':'Cocina hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'4'
-		},
-            {
-		'id':'muebles_bebes_230320',
-           'name':'Muebles de bebés hasta 40% de desc',
-           'creative':'h_banner_secun',
-           'position':'5'
-		}, 
-            {
-		'id':'pantallas_230320',
-           'name':'Pantallas hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'6'
-        },	
-        {
-         'id':'sonido_230320',
-           'name':'Sonido hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'7'
-            },
-            {
- 'id':'tablets_230320',
-           'name':'Tablets hasta 15% de desc',
-           'creative':'h_banner_secun',
-           'position':'8'
-		},				
-            {
-	'id':'videojuegos_230320',
-           'name':'Videojuegos hasta 10% de desc',
-           'creative':'h_banner_secun',
-           'position':'9'
-            },
-            {
- 'id':'ella_230320',
-           'name':'Ella hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'10'
-		},
-             {
- 'id':'el_230320',
-           'name':'Él hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'11'
-		}, {
-  'id':'deportes_230320',
-           'name':'Ropa Deportiva hasta 30% de desc',
-           'creative':'h_banner_secun',
-           'position':'12'
-		},									
-            {
-  'id':'lentes_sol_230320',
-           'name':'Lentes de Sol hasta 20% de desc',
-           'creative':'h_banner_secun',
-           'position':'13'
-		},
-            {
-  'id':'zapatos_230320',
-           'name':'Zapatos hasta 15% de desc',
-           'creative':'h_banner_secun',
-           'position':'14'
-		}
+               
+              {
+               'id':'covid19_010420',
+               'name':'Comunicado COVID-19',
+               'creative':'h_banner_central',
+               'position':'A'
+                    },
+               {
+               'id':'pantallas_270420',
+               'name':'Pantallas hasta 55% de desc',
+               'creative':'h_banner_central',
+               'position':'1'
+               },
+               {
+               'id':'credito_230320',
+               'name':'Crédito',
+               'creative':'h_banner_central',
+               'position':'B'
+                    },
+                    {
+                    'id':'slider_decoracion_010420',
+                    'name':'Decoración',
+                    'creative':'h_banner_secun',
+                    'position':'C'
+                         },                    
+                    {
+                    'id':'slider_homeoffice_300320',
+                    'name':'Home office',
+                    'creative':'h_banner_secun',
+                    'position':'D'
+                         },
+                    {
+                    'id':'slider_juegos_mesa_300320',
+                    'name':'Juegos de Mesa',
+                    'creative':'h_banner_secun',
+                    'position':'E'
+                         },
+                    {
+                    'id':'slider_yoga_300320',
+                    'name':'Yoga',
+                    'creative':'h_banner_secun',
+                    'position':'F'
+                         },
+                    {
+                    'id':'slider_instrumentos_060420',
+                    'name':'Instrumentos Musicales',
+                    'creative':'h_banner_secun',
+                    'position':'G'
+                         },
+                    {
+                    'id':'slider_ferreteria_060420',
+                    'name':'Ferreteria',
+                    'creative':'h_banner_secun',
+                    'position':'H'
+                         },
+                    {
+                    'id':'slider_detox_060420',
+                    'name':'Detox',
+                    'creative':'h_banner_secun',
+                    'position':'I'
+                         },
+                    {
+                    'id':'liverpool_pocket_080420',
+                    'name':'Descarga Liverpool Pocket',
+                    'creative':'h_banner_secun',
+                    'position':'J'
+                         },
+                    {
+                    'id':'slider_mascotas_080420',
+                    'name':'Mascotas',
+                    'creative':'h_banner_secun',
+                    'position':'K'
+                         },
+                    {
+                    'id':'slider_aspiradoras_130420',
+                    'name':'Aspiradoras',
+                    'creative':'h_banner_secun',
+                    'position':'L'
+                         },
+                    {
+                    'id':'slider_garmin_130420',
+                    'name':'Garmin',
+                    'creative':'h_banner_secun',
+                    'position':'M'
+                         },
+                     {
+                    'id':'slider_drones_150420',
+                    'name':'Drones',
+                    'creative':'h_banner_secun',
+                    'position':'N'
+                    },
+                         {
+                    'id':'slider_ventiladores_170420',
+                    'name':'ventiladores',
+                    'creative':'h_banner_secun',
+                    'position':'O'
+                         },
+                    {
+                    'id':'slider_yuya_170420',
+                    'name':'Yuya',
+                    'creative':'h_banner_secun',
+                    'position':'P'
+                         },
+                         {
+                    'id':'slider_juguetes_200420',
+                    'name':'Juguetes',
+                    'creative':'h_banner_secun',
+                    'position':'Q'
+                         },
+                    {
+                    'id':'slider_beauty_200420',
+                    'name':'Beauty',
+                    'creative':'h_banner_secun',
+                    'position':'R'
+                         },
+                          {
+                    'id':'slider_sets_230420',
+                    'name':'Sets para mamá',
+                    'creative':'h_banner_secun',
+                    'position':'S'
+                         },
+                          {
+                    'id':'slider_kiehls',
+                    'name':'Kiehls',
+                    'creative':'h_banner_secun',
+                    'position':'T'
+                         },
+               {
+               'id':'sonido_270420',
+               'name':'Sonido hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'2'
+                    },
+               {
+               'id':'videojuegos_270420',
+               'name':'Videojuegos hasta 10% de desc',
+               'creative':'h_banner_secun',
+               'position':'3'
+                    },
+               {
+               'id':'celulares_270420',
+               'name':'Celulares hasta 20% de reembolso + hasta 13 MSI',
+               'creative':'h_banner_secun',
+               'position':'4'
+                    },
+               {
+               'id':'computo_270420',
+               'name':'Cómputo hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'5'
+                    },
+               {
+               'id':'home_office_270420',
+               'name':'Home Office',
+               'creative':'h_banner_secun',
+               'position':'6a'
+                     },
+               {
+               'id':'linea_blanca_270420',
+               'name':'Línea Blanca hasta 44% de desc',
+               'creative':'h_banner_secun',
+               'position':'6'
+                     },
+               {
+               'id':'muebles_270420',
+               'name':'Muebles hasta 35% de desc',
+               'creative':'h_banner_secun',
+               'position':'7'
+                    },		
+               {
+               'id':'aires_acondicionados_270420',
+               'name':'Aires Acondicionados 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'8'
+                    },		
+               {
+               'id':'cocina_270420',
+               'name':'Cocina hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'9'
+                    },
+                    {
+               'id':'festival_infantil_270420',
+               'name':'Festival Infantil 25% de desc',
+               'creative':'h_banner_secun',
+               'position':'10'
+                    },									
+               {
+               'id':'zapatos_270420',
+               'name':'Zapatos hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'11'
+                    },
+               {
+               'id':'relojes_270420',
+               'name':'Relojes hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'12'
+                    },
+               {
+               'id':'el_270420',
+               'name':'Él hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'13'
+                    },
+               {
+               'id':'ella_270420',
+               'name':'Ella hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'14'
+                    },
+               {
+               'id':'accesorios_270420',
+               'name':'Accesorios hasta 15% de desc',
+               'creative':'h_banner_secun',
+               'position':'15'
+                    },
+                    {
+               'id':'bebes_270420',
+               'name':'Bebés hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'16'
+                    },
+               {
+               'id':'dermocosmetica_270420',
+               'name':'Dermocosmética hasta 15% de desc',
+               'creative':'h_banner_secun',
+               'position':'17'
+                    },
+               {
+               'id':'ropa_deportiva_270420',
+               'name':'Ropa Deportiva hasta 15% de desc',
+               'creative':'h_banner_secun',
+               'position':'18'
+                    },
+               {
+               'id':'pantallas_010520',
+               'name':'Pantallas hasta 58% de desc',
+               'creative':'h_banner_central',
+               'position':'1'
+               },
+               {
+               'id':'muebles_010520',
+               'name':'Muebles hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'2'
+                    },
+               {
+               'id':'linea_blanca_010520',
+               'name':'Línea Blanca hasta 51% de desc',
+               'creative':'h_banner_secun',
+               'position':'3'
+                    },
+               {
+               'id':'casa_010520',
+               'name':'Casa hasta 35% de desc',
+               'creative':'h_banner_secun',
+               'position':'4'
+                    },
+               {
+               'id':'cocina_010520',
+               'name':'Cocina hasta 35% de desc',
+               'creative':'h_banner_secun',
+               'position':'5'
+                    },
+               {
+               'id':'computo_010520',
+               'name':'Cómputo hasta 25% de desc',
+               'creative':'h_banner_secun',
+               'position':'6'
+                    },
+               {
+               'id':'celulares_010520',
+               'name':'Celulares hasta 25% de reemb',
+               'creative':'h_banner_secun',
+               'position':'7'
+                    },
+               {
+               'id':'videojuegos_010520',
+               'name':'Videojuegos hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'8'
+                    },
+               {
+               'id':'ella_010520',
+               'name':'Ella hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'9'
+                    },
+               {
+               'id':'zapatos_010520',
+               'name':'Zapatos hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'10'
+                    },
+               {
+               'id':'pandora_010520',
+               'name':'Pandora',
+               'creative':'h_banner_secun',
+               'position':'11'
+                    },
+               {
+               'id':'fragancias_010520',
+               'name':'Set de fragancias',
+               'creative':'h_banner_secun',
+               'position':'12'
+                    },
+               {
+               'id':'ropa_deportiva_010520',
+               'name':'Ropa Deportiva hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'13'
+                    },
+               {
+               'id':'el_010520',
+               'name':'Él hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'14'
+                    },
+               {
+               'id':'relojes_010520',
+               'name':'Relojes hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'15'
+                    },
+               {
+               'id':'juguetes_010520',
+               'name':'Juguetes hasta 25% de desc',
+               'creative':'h_banner_secun',
+               'position':'16'
+                    },
+               {
+               'id':'ninos_010520',
+               'name':'Niños y Niñas hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'17'
+                    },
+               {
+               'id':'bebes_010520',
+               'name':'Bebés hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'18'
+                    },
+               {
+               'id':'tenis_060520',
+               'name':'Tenis hasta 30% de desc',
+               'creative':'h_banner_central',
+               'position':'1'
+                    },
+               {
+               'id':'pantallas_060520',
+               'name':'Pantallas hasta 58% de desc',
+               'creative':'h_banner_secun',
+               'position':'19'
+                    }
 	
                         ]
                     }
@@ -608,81 +880,81 @@ dataLayer.push({
     'position': '19'
 },
 {
-    'id': 'aparatos_130220',
-    'name': 'Aparatos',
-    'creative': 'blp_deportes_aparatos',
+    'id': 'entrenacasa_010420',
+    'name': 'Entrenamiento en casa',
+    'creative': 'blp_deportes_entrenacasa',
     'position': '20'
 },
 {
-    'id': 'ropa_130220',
-    'name': 'Ropa',
-    'creative': 'blp_deportes_ropa',
+    'id': 'monitores_010420',
+    'name': 'Monitores',
+    'creative': 'blp_deportes_monitores',
     'position': '21'
 },
 {
-    'id': 'motos_130220',
-    'name': 'Motos',
-    'creative': 'blp_deportes_motos',
+    'id': 'ropa_010420',
+    'name': 'Ropa',
+    'creative': 'blp_deportes_ropa',
     'position': '22'
+},
+{
+    'id': 'aparatos_010420',
+    'name': 'Aparatos',
+    'creative': 'blp_deportes_aparatos',
+    'position': '23'
+},
+{
+    'id': 'suplementos_010420',
+    'name': 'Suplementos',
+    'creative': 'blp_deportes_suplementos',
+    'position': '24'
+},
+{
+    'id': 'deportes_acuaticos_010420',
+    'name': 'Deportes Acuaticos',
+    'creative': 'blp_deportes_deportesacuaticos',
+    'position': '25'
 },
 {
     'id': 'tenis_el130220',
     'name': 'Tenis El',
     'creative': 'blp_deportes_tenis_el',
-    'position': '23'
+    'position': '26'
 },
 {
     'id': 'tenis_ella130220',
     'name': 'Tenis Ella',
     'creative': 'blp_deportes_tenis_ella',
-    'position': '24'
+    'position': '27'
 },
 {
     'id': 'tenis_ninos130220',
     'name': 'Tenis Ninos',
     'creative': 'blp_deportes_tenis_ninos',
-    'position': '25'
+    'position': '28'
 },
 {
     'id': 'tenis_ninas130220',
     'name': 'Tenis Ninas',
     'creative': 'blp_deportes_tenis_ninas',
-    'position': '26'
-},
-{
-    'id': 'aire_libre130220',
-    'name': 'Aire Libre',
-    'creative': 'blp_deportes_aire_libre',
-    'position': '27'
-},
-{
-    'id': 'monitores130220',
-    'name': 'Monitores',
-    'creative': 'blp_deportes_monitores',
-    'position': '28'
-},
-{
-   'id': 'equipaje130220',
-    'name': 'Equipaje',
-    'creative': 'blp_deportes_equipaje',
     'position': '29'
 },
 {
-    'id': 'nike130220',
+    'id': 'nike_010420',
     'name': 'Nike',
     'creative': 'blp_deportes_nike',
     'position': '30'
 },
 {
-    'id': 'puma130220',
-    'name': 'Puma',
-    'creative': 'blp_deportes_puma',
+    'id': 'adidas_010420',
+    'name': 'Adidas',
+    'creative': 'blp_deportes_adidas',
     'position': '31'
 },
 {
-    'id': 'adidas130220',
-    'name': 'Adidas',
-    'creative': 'blp_deportes_adidas',
+    'id': 'puma_010420',
+    'name': 'Puma',
+    'creative': 'blp_deportes_puma',
     'position': '32'
 },
 {
@@ -1665,15 +1937,15 @@ dataLayer.push({
     'position': '06'
 },
 {
-    'id': 'banos_230320',
-    'name': 'Casa Bano',
-    'creative': 'blp_casa_bano',
+    'id': 'flores_230320',
+    'name': 'Casa Flores',
+    'creative': 'blp_casa_flores',
     'position': '07'
 },
 {
-    'id': 'casa_vajillas_230320',
-    'name': 'Casa Vajillas',
-    'creative': 'blp_casa_vajillas',
+    'id': 'esencias_230320',
+    'name': 'Casa Esencias',
+    'creative': 'blp_casa_esencias',
     'position': '08'
 },
 {
@@ -2947,64 +3219,52 @@ dataLayer.push({
     'position': '01'
 },
 {
-    'id': 'primeknit_210619',
-    'name': 'Adidas Primeknit',
-    'creative': 'blp_adidas_primeknit',
-    'position': '02'
-},
-{
     'id': 'mujer_210619',
     'name': 'Adidas Mujer',
     'creative': 'blp_adidas_mujer',
-    'position': '03'
+    'position': '02'
 },
 {
     'id': 'hombre_210619',
     'name': 'Adidas Hombre',
     'creative': 'blp_adidas_hombre',
+    'position': '03'
+},
+{
+    'id': 'nino_210619',
+    'name': 'Adidas Niño',
+    'creative': 'blp_adidas_niño',
     'position': '04'
 },
 {
-    'id': 'nino_210619',
-    'name': 'Adidas Niño',
-    'creative': 'blp_adidas_niño',
+    'id': 'nina_210619',
+    'name': 'Adidas Niña',
+    'creative': 'blp_adidas_niña',
     'position': '05'
 },
 {
+    'id': 'mujer_210619',
+    'name': 'Adidas Mujer',
+    'creative': 'blp_adidas_mujer',
+    'position': '02'
+},
+{
+    'id': 'hombre_210619',
+    'name': 'Adidas Hombre',
+    'creative': 'blp_adidas_hombre',
+    'position': '03'
+},
+{
     'id': 'nina_210619',
     'name': 'Adidas Niña',
     'creative': 'blp_adidas_niña',
-    'position': '06'
-},
-{
-    'id': 'nofakers_210619',
-    'name': 'Adidas No Fakers',
-    'creative': 'blp_adidas_nofakers',
-    'position': '07'
-},
-{
-    'id': 'ultraboost_210619',
-    'name': 'Adidas Ultraboost',
-    'creative': 'blp_adidas_ultraboost',
-    'position': '08'
-},
-{
-    'id': 'sleek_210619',
-    'name': 'Adidas Sleek',
-    'creative': 'blp_adidas_sleek',
-    'position': '09'
+    'position': '05'
 },
 {
     'id': 'nino_210619',
     'name': 'Adidas Niño',
     'creative': 'blp_adidas_niño',
-    'position': '10'
-},
-{
-    'id': 'nina_210619',
-    'name': 'Adidas Niña',
-    'creative': 'blp_adidas_niña',
-    'position': '11'
+    'position': '04'
 }
 ]
 }
@@ -3983,1151 +4243,6 @@ dataLayer.push({
 }
 }
 });
-   
-/*BLP BANANA REPUBLIC*/ 
-
-break;
-case '/tienda/banana-republic/catst1316206':
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_principal',
-'position': '01'
-},
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_video',
-'position': '02'
-},
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_sueteres_ella',
-'position': '03'
-},
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_blusas_ella',
-'position': '04'
-},
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_vestidos',
-'position': '05'
-},
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_sueteres_el',
-'position': '06'
-},
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_camisas_el',
-'position': '07'
-},
-{
-'id': 'banana_republic_150819',
-'name': 'banana_republic',
-'creative': 'blp_banana_republic_pantalones_el',
-'position': '08'
-},
-]
+ break;  
 }
 }
-});
-                
-/* BLP RALPH LAUREN POLO*/ 
-       
-            break;
-            case '/tienda/ralph-lauren/cat4920000':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'main_210619',
-    'name': 'RL Main',
-    'creative': 'blp_rl_main',
-    'position': '01'
-},
-{
-    'id': 'ella_210619',
-    'name': 'RL Ella',
-    'creative': 'blp_rl_ella',
-    'position': '02'
-},
-{
-    'id': 'bebes_210619',
-    'name': 'RL Bebes',
-    'creative': 'blp_rl_bebes',
-    'position': '03'
-},
-{
-    'id': 'nina_210619',
-    'name': 'RL Nina',
-    'creative': 'blp_rl_nina',
-    'position': '04'
-},
-{
-    'id': 'nino_210619',
-    'name': 'RL Nino',
-    'creative': 'blp_rl_nino',
-    'position': '05'
-}
-]
-}
-}
-});
-      
-                
-/* BLP GAIA*/ 
-       
-            break;
-            case '/tienda/gaia/catst13196369':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'main_210619',
-    'name': 'Gaia Main',
-    'creative': 'blp_gaia_main',
-    'position': '01'
-},
-{
-    'id': 'accesorios_210619',
-    'name': 'Gaia Accesorios',
-    'creative': 'blp_gaia_accesorios',
-    'position': '02'
-},
-{
-    'id': 'sofa_210619',
-    'name': 'Gaia Sofa',
-    'creative': 'blp_gaia_sofa',
-    'position': '03'
-},
-{
-    'id': 'iluminacion_210619',
-    'name': 'Gaia Iluminacion',
-    'creative': 'blp_gaia_iluminacion',
-    'position': '04'
-},
-{
-    'id': 'sillas_210619',
-    'name': 'Gaia Sillas',
-    'creative': 'blp_gaia_sillas',
-    'position': '05'
-}
-]
-}
-}
-});
-                
-/* BLP DISNEY*/ 
-       
-            break;
-            case '/tienda/disney-collection/cat21010034':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'principal_250320',
-    'name': 'Disney Principal',
-    'creative': 'blp_disney_principal',
-    'position': '01'
-},
-{
-    'id': 'ropa_050220',
-    'name': 'Disney Ropa',
-    'creative': 'blp_disney_ropa',
-    'position': '02'
-},
-{
-    'id': 'accesorios_050220',
-    'name': 'Disney Accesorios',
-    'creative': 'blp_disney_accesorios',
-    'position': '03'
-},
-{
-    'name': 'Disney Juguetes',
-    'creative': 'blp_disney_juguetes',
-    'position': '04'
-},
-{
-    'name': 'Disney Pijamas',
-    'creative': 'blp_disney_pijamas',
-    'position': '05'
-}
-]
-}
-}
-});
-                
-/* BLP LEGO*/ 
-       
-            break;
-            case '/tienda/lego/cat4050000':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'frozen_171019',
-    'name': 'Lego Frozen',
-    'creative': 'blp_lego_frozen',
-    'position': '01'
-},
-{
-    'id': 'starwars_171019',
-    'name': 'Lego Star Wars',
-    'creative': 'blp_lego_StarWars',
-    'position': '02'
-},
-{
-    'id': 'city_171019',
-    'name': 'Lego City',
-    'creative': 'blp_lego_City',
-    'position': '03'
-},
-{
-    'id': 'ninjago_171019',
-    'name': 'Lego Ninjago',
-    'creative': 'blp_lego_ninjago',
-    'position': '04'
-},
-{
-    'id': 'jurassic_171019',
-    'name': 'Lego Jurassic',
-    'creative': 'blp_lego_jurassic',
-    'position': '05'
-},
-{
-    'id': 'minecraft_171019',
-    'name': 'Lego Minecraft',
-    'creative': 'blp_lego_minecraft',
-    'position': '06'
-},
-{
-    'id': 'technic_171019',
-    'name': 'Lego Technic',
-    'creative': 'blp_lego_technic',
-    'position': '07'
-},
-{
-    'id': 'superheroesdc_171019',
-    'name': 'Lego Super Heroes DC',
-    'creative': 'blp_lego_superheroesdc',
-    'position': '08'
-},
-{
-    'id': 'superheroesmarvel_171019',
-    'name': 'Lego Super Heroes Marvel',
-    'creative': 'blp_lego_superheroesmarvel',
-    'position': '09'
-},
-{
-    'id': 'harrypotter_171019',
-    'name': 'Lego Harry Potter',
-    'creative': 'blp_lego_harry',
-    'position': '10'
-},
-{
-    'id': 'beasts_171019',
-    'name': 'Lego Beasts',
-    'creative': 'blp_lego_beasts',
-    'position': '11'
-},
-{
-    'id': 'classic_171019',
-    'name': 'Lego Classic',
-    'creative': 'blp_lego_classic',
-    'position': '12'
-},
-{
-    'id': 'duplo_171019',
-    'name': 'Lego Duplo',
-    'creative': 'blp_lego_duplo',
-    'position': '13'
-},
-{
-    'id': 'friends_171019',
-    'name': 'Lego Friends',
-    'creative': 'blp_lego_friends',
-    'position': '14'
-},
-{
-    'id': 'creator_171019',
-    'name': 'Lego Creator',
-    'creative': 'blp_lego_creator',
-    'position': '15'
-},
-{
-    'id': 'juniors_171019',
-    'name': 'Lego Juniors',
-    'creative': 'blp_lego_juniors',
-    'position': '16'
-},
-{
-    'id': 'batman_171019',
-    'name': 'Lego Batman',
-    'creative': 'blp_lego_batman',
-    'position': '17'
-},
-{
-    'id': 'speed_171019',
-    'name': 'Lego Speed',
-    'creative': 'blp_lego_speed',
-    'position': '18'
-}
-]
-}
-}
-});
-                
-                
-/* BLP SAMSUNG*/ 
-       
-            break;
-            case '/tienda/samsung/cat850172':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'main_131119',
-    'name': 'Samsung Main',
-    'creative': 'blp_samsung_main',
-    'position': '01'
-},
-{
-    'id': 'samsung_fold_131119',
-    'name': 'Samsung Fold',
-    'creative': 'blp_samsung_fold',
-    'position': '02'
-},
-{
-    'id': 'samsung_watch_131119',
-    'name': 'Samsung Watch',
-    'creative': 'blp_samsung_watch',
-    'position': '03'
-},
-{
-    'id': 'hub_131119',
-    'name': 'Samsung Hub',
-    'creative': 'blp_samsung_hub',
-    'position': '04'
-},
-{
-    'id': 'tab_131119',
-    'name': 'Samsung Tab',
-    'creative': 'blp_samsung_tab',
-    'position': '05'
-},
-{
-    'id': 'lavadora_131119',
-    'name': 'Samsung Lavadora',
-    'creative': 'blp_samsung_lavadora',
-    'position': '06'
-}
-]
-}
-}
-});
-                
-/* BLP LG*/ 
-       
-            break;
-            case '/tienda/lg/cat4990127':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'main_240619',
-'name': 'LG Main',
-'creative': 'blp_lg_main',
-'position': '01'
-},
-{
-'id': 'pantallas_240619',
-'name': 'LG Pantallas',
-'creative': 'blp_lg_pantallas',
-'position': '02'
-},
-{
-'id': 'refrigeradores_240619',
-'name': 'LG Refrigeradores',
-'creative': 'blp_lg_refrigeradores',
-'position': '03'
-},
-{
-'id': 'celulares_240619',
-'name': 'LG Celulares',
-'creative': 'blp_lg_celulares',
-'position': '04'
-}
-]
-}
-}
-});
-                
-/* BLP AEROPOSTALE*/ 
-       
-            break;
-            case '/tienda/aéropostale/cat910660':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'playeras_ella_230120',
-    'name': 'Aero Playeras Ella',
-    'creative': 'blp_aero_playeras_ella',
-    'position': '01'
-},
-{
-    'id': 'playeras_el_230120',
-    'name': 'Aero Playeras El',
-    'creative': 'blp_aero_playeras_el',
-    'position': '02'
-},
-{
-    'id': 'sudaderas_el_230120',
-    'name': 'Aero Sudaderas El',
-    'creative': 'blp_aero_sudaderas_el',
-    'position': '03'
-},
-{
-    'id': 'vestidos_ella_051119',
-    'name': 'Aero Vestidos Ella',
-    'creative': 'blp_aero_vestidos_ella',
-    'position': '04'
-},
-{
-    'id': 'ninas_051119',
-    'name': 'Aero Ninas',
-    'creative': 'blp_aero_ninas',
-    'position': '05'
-},
-{
-    'id': 'ninos_051119',
-    'name': 'Aero Ninos',
-    'creative': 'blp_aero_ninos',
-    'position': '06'
-}
-]
-}
-}
-});               
-        
-/* BLP POTTERY BARN*/ 
-       
-            break;
-            case '/tienda/pottery-barn/cat7230028':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'williams_sonoma_300719',
-    'name': 'Williams Sonoma Cintillo',
-    'creative': 'blp_pb_ws',
-    'position': '01'
-},
-{
-    'id': 'west_elm_300719',
-    'name': 'West Elm Cintillo',
-    'creative': 'blp_pb_west_elm',
-    'position': '02'
-},
-{
-    'id': 'pottery_barn_kids_300719',
-    'name': 'Pottery Barn Kids Cintillo',
-    'creative': 'blp_pb_pbk',
-    'position': '03'
-},
-{
-    'id': 'pottery_barn_teen_300719',
-    'name': 'Pottery Barn Teen Cintillo',
-    'creative': 'blp_pb_pbt',
-    'position': '04'
-},    
-{
-    'id': 'estancia_210619',
-    'name': 'PB Estancia',
-    'creative': 'blp_pb_estancia',
-    'position': '05'
-},
-{
-    'id': 'comedores_210619',
-    'name': 'PB Comedores',
-    'creative': 'blp_pb_comedores',
-    'position': '06'
-},
-{
-    'id': 'blancos_210619',
-    'name': 'PB Blancos',
-    'creative': 'blp_pb_blancos',
-    'position': '07'
-},
-{
-    'id': 'recamara_210619',
-    'name': 'PB Recamara',
-    'creative': 'blp_pb_recamara',
-    'position': '08'
-},
-{
-    'id': 'tapetes_210619',
-    'name': 'PB Tapetes',
-    'creative': 'blp_pb_tapetes',
-    'position': '09'
-},
-{
-    'id': 'decoracion_210619',
-    'name': 'PB Decoración',
-    'creative': 'blp_pb_decoracion',
-    'position': '10'
-},
-{
-    'id': 'mueblesex_210619',
-    'name': 'PB Mueblesex',
-    'creative': 'blp_pb_mueblesex',
-    'position': '11'
-},
-{
-    'id': 'mesabar_210619',
-    'name': 'PB Mesabar',
-    'creative': 'blp_pb_mesabar',
-    'position': '12'
-}
-]
-}
-}
-});
-                
-/* BLP WEST ELM*/ 
-       
-            break;
-            case '/tienda/west-elm/cat6600048':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'williams_sonoma_300719',
-    'name': 'Williams Sonoma Cintillo',
-    'creative': 'blp_we_ws',
-    'position': '01'
-},
-{
-    'id': 'pottery_barn_300719',
-    'name': 'Pottery Barn Cintillo',
-    'creative': 'blp_we_pb',
-    'position': '02'
-},
-{
-    'id': 'pottery_barn_kids_300719',
-    'name': 'Pottery Barn Kids Cintillo',
-    'creative': 'blp_we_pbk',
-    'position': '03'
-},
-{
-    'id': 'pottery_barn_teen_300719',
-    'name': 'Pottery Barn Teen Cintillo',
-    'creative': 'blp_we_pbt',
-    'position': '04'
-},
-{
-    'id': 'main_210619',
-    'name': 'West Elm Main',
-    'creative': 'blp_we_main',
-    'position': '05'
-},
-{
-    'id': 'comedores_210619',
-    'name': 'West Elm Comedores',
-    'creative': 'blp_we_comedores',
-    'position': '06'
-},
-{
-    'id': 'salas_210619',
-    'name': 'West Elm Salas',
-    'creative': 'blp_we_salas',
-    'position': '07'
-},
-{
-    'id': 'tapetes_210619',
-    'name': 'West Elm Tapetes',
-    'creative': 'blp_we_tapetes',
-    'position': '08'
-},
-{
-    'id': 'articulos_210619',
-    'name': 'West Elm Articulos',
-    'creative': 'blp_we_articulos',
-    'position': '09'
-},
-{
-    'id': 'cojines_210619',
-    'name': 'West Elm Cojines',
-    'creative': 'blp_we_cojines',
-    'position': '10'
-}
-]
-}
-}
-});                
-                
-                
-                
-                
-         
-/* BLP LANCOME*/ 
-       
-            break;
-            case '/tienda/lancôme/catst11420818':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'lancome_lavie_200819',
-    'name': 'Lancome Lavie',
-    'creative': 'blp_lancome_lavie',
-    'position': '01'
-},
-{
-    'id': 'cuidado_piel_200819',
-    'name': 'Lancome Cuidado de Piel',
-    'creative': 'blp_lancome_cuidado_piel',
-    'position': '02'
-},
-{
-    'id': 'maquillaje_200819',
-    'name': 'Lancome Maquillaje',
-    'creative': 'blp_lancome_maquillaje',
-    'position': '03'
-},
-{
-    'id': 'perfumes_200819',
-    'name': 'Lancome Perfumes',
-    'creative': 'blp_lancome_perfumes',
-    'position': '04'
-},
-{
-    'id': 'absolue_200819',
-    'name': 'Lancome Absolue',
-    'creative': 'blp_lancome_absolue',
-    'position': '05'
-}
-]
-}
-}
-});                
-   
-        
-        
-        
-        
-/* BLP WHIRLPOOL*/ 
-       
-            break;
-            case '/tienda/cat1060780':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'whirlpool_main_260819',
-    'name': 'Whirlpool Main',
-    'creative': 'blp_whirlpool_main',
-    'position': '01'
-},
-{
-    'id': 'refrigeradores_260819',
-    'name': 'Whirlpool Refrigeradores',
-    'creative': 'blp_whirlpool_refrigeradores',
-    'position': '02'
-},
-{
-    'id': 'campanas_260819',
-    'name': 'Whirlpool Campanas',
-    'creative': 'blp_whirlpool_campanas',
-    'position': '03'
-},
-{
-    'id': 'aire_260819',
-    'name': 'Whirlpool Aire',
-    'creative': 'blp_whirlpool_aire',
-    'position': '04'
-},
-{
-    'id': 'cocina_260819',
-    'name': 'Whirlpool Cocina',
-    'creative': 'blp_whirlpool_cocina',
-    'position': '05'
-},
-{
-    'id': 'lavadoras_260819',
-    'name': 'Whirlpool Lavadoras',
-    'creative': 'blp_whirlpool_lavadoras',
-    'position': '06'
-}
-]
-}
-}
-});                
-   
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-/* BLP NYX*/ 
-       
-            break;
-            case '/tienda/nyx-professional-makeup/catst14372788':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-    'id': 'nyx_main_210819',
-    'name': 'Nyx Cabeza',
-    'creative': 'blp_nyx_cabeza',
-    'position': '01'
-},
-{
-    'id': 'nyx_softmate_210819',
-    'name': 'Nyx Softmate',
-    'creative': 'blp_nyx_softmate',
-    'position': '02'
-},
-{
-    'id': 'nyx_barewithme_210819',
-    'name': 'Nyx Barewithme',
-    'creative': 'blp_nyx_bare',
-    'position': '03'
-},
-{
-    'id': 'nyx_rostro_210819',
-    'name': 'Nyx Rostro',
-    'creative': 'blp_nyx_rostro',
-    'position': '04'
-},
-{
-    'id': 'nyx_brochas_210819',
-    'name': 'Nyx Brochas',
-    'creative': 'blp_nyx_brochas',
-    'position': '05'
-},
-{
-    'id': 'nyx_ojos_210819',
-    'name': 'Nyx Ojos',
-    'creative': 'blp_nyx_ojos',
-    'position': '06'
-},
-{
-    'id': 'nyx_labios_210819',
-    'name': 'Nyx Labios',
-    'creative': 'blp_nyx_labios',
-    'position': '07'
-}
-]
-}
-}
-});  
-        
-        
-                
-                
-                
-
-
-
-/*PLP ZAPATOS EL*/ 
-
-            break;
-            case '/tienda/ver-todo/catst4865352':
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'plp_casuales_220719',
-'name': 'Él Casuales',
-'creative': 'plp_casuales',
-'position': '01'
-},
-{
-'id': 'plp_formales_220719',
-'name': 'Él Formales',
-'creative': 'plp_formales',
-'position': '02'
-},
-{
-'id': 'plp_botas_220719',
-'name': 'Él Botas',
-'creative': 'plp_botas',
-'position': '03'
-},
-{
-'id': 'plp_sneakers_220719',
-'name': 'Él Sneakers',
-'creative': 'plp_sneakers',
-'position': '04'
-},
-{
-'id': 'plp_deportivos_220719',
-'name': 'Él Deportivos',
-'creative': 'plp_deportivos',
-'position': '05'
-},
-{
-'id': 'plp_sandalias_220719',
-'name': 'Él Sandalias',
-'creative': 'plp_sandalias', 
-'position': '06'
-
-}
-]
-}
-}
-});
-
-                
-/*PLP PANTALLAS ELECTRÓNICA*/ 
-
-            break;
-            case '/tienda/pantallas/catst14457077':
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'plp_pantallas43_060320',
-'name': 'Electrónica Pantallas 43',
-'creative': 'plp_electronica_pantallas_43',
-'position': '01'
-},
-{
-'id': 'plp_pantallas49_060320',
-'name': 'Electrónica Pantallas 49',
-'creative': 'plp_electronica_pantallas_49',
-'position': '02'
-},
-{
-'id': 'plp_pantallas65_060320',
-'name': 'Electrónica Pantallas 65',
-'creative': 'plp_electronica_pantallas_65',
-'position': '03'
-}
-]
-}
-}
-});
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-
-/* BLP BUEN FIN*/ 
-       
-break;
-case '/tienda/buen-fin/cat6590007':
-
-
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'buen_fin_241019',
-'name': 'Buen_Fin_Registrate_Contador',
-'creative': 'blp_buen_fin2019_registrate_mob',
-'position': '01'
-},
-{
-'id': 'buen_fin_241019',
-'name': 'Buen_Fin_Registrate_Boletin',
-'creative': 'blp_buen_fin2019_registrate_mob',
-'position': '02'
-},
-{
-'id': 'buen_fin_241019',
-'name': 'Buen_Fin_Top',
-'creative': 'blp_buen_fin2019_top_mob',
-'position': '03'
-},
-{
-'id': 'buen_fin_241019',
-'name': 'Buen_Fin_Registrate_Contador',
-'creative': 'blp_buen_fin2019_registrate_desktop',
-'position': '01'
-},
-{
-'id': 'buen_fin_241019',
-'name': 'Buen_Fin_Registrate_Contador_Video',
-'creative': 'blp_buen_fin2019_registrate__video_desktop',
-'position': '01'
-},
-{
-'id': 'buen_fin_241019',
-'name': 'Buen_Fin_Registrate_Tops',
-'creative': 'blp_buen_fin2019_tops_desktop',
-'position': '04'
-}
-
-]
-}
-}
-});  
-
-
-
-
-
-
-
-countDownBuenFin();
-
-
-      /*PLP BOLSAS ELLA*/ 
-
-            break;
-            case '/tienda/ver-todas/catst4003463':  
-            
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'plp_cartera_080719',
-'name': 'Ella Carteras',
-'creative': 'plp_carteras',
-'position': '01'
-},
-{
-'id': 'plp_tote_080719',
-'name': 'Ella Tote',
-'creative': 'plp_tote',
-'position': '02'
-},
-{
-'id': 'plp_crossbody_080719',
-'name': 'Ella Crossbody',
-'creative': 'plp_crossbody',
-'position': '03'
-},
-{
-'id': 'plp_bowler_080719',
-'name': 'Ella Bowler',
-'creative': 'plp_bowler',
-'position': '04'
-},
-{
-'id': 'plp_satchel_080719',
-'name': 'Ella Satchel',
-'creative': 'plp_satchel',
-'position': '05'
-},
-{
-'id': 'plp_backpacks_080719',
-'name': 'Ella Backpacks',
-'creative': 'plp_backpacks',
-'position': '06'
-},
-{
-'id': 'plp_clutch_080719',
-'name': 'Ella Clutch',
-'creative': 'plp_clutch',
-'position': '07'
-}
-]
-}
-}
-});            
-       
-                
-                
-                
-                
-      /*PLP COMPUTADORAS COMPUTO Y ELECTRÓNICA */ 
-
-            break;
-            case '/tienda/computadoras/catst10075558':  
-            
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'plp_computadorasaio_170320',
-'name': 'Electrónica Computadoras AIO',
-'creative': 'plp_electronica_computadoras_aio',
-'position': '01'
-},
-{
-'id': 'plp_gamer_170320',
-'name': 'Electrónica Computadoras Gamer',
-'creative': 'plp_electronica_computadoras_gamer',
-'position': '02'
-},
-{
-'id': 'plp_laptop_170320',
-'name': 'Electrónica Computadoras Laptop',
-'creative': 'plp_electronica_computadoras_laptop',
-'position': '03'
-},
-{
-'id': 'plp_laptop21_170320',
-'name': 'Electrónica Computadoras Laptop21',
-'creative': 'plp_electronica_computadoras_laptop21',
-'position': '04'
-}
-]
-}
-}
-});                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-            /*PLP ZAPATOS ELLA*/ 
-
-            break;
-            case '/tienda/ver-todas/catst4003463':  
-            
-dataLayer.push({
-'event': 'impresionCampaign',
-'ecommerce': {
-'promoView': {
-'promotions': [ // Array of promoFieldObjects.
-{
-'id': 'plp_bota_220719',
-'name': 'Ella Bota',
-'creative': 'plp_bota',
-'position': '01'
-},
-{
-'id': 'plp_tacones_220719',
-'name': 'Ella Tacones',
-'creative': 'plp_tacones',
-'position': '02'
-},
-{
-'id': 'plp_plataforma_220719',
-'name': 'Ella Plataforma',
-'creative': 'plp_plataforma',
-'position': '03'
-},
-{
-'id': 'plp_sandalias_220719',
-'name': 'Ella Sandalias',
-'creative': 'plp_sandalias',
-'position': '04'
-},
-{
-'id': 'plp_balerinas_220719',
-'name': 'Ella Balerinas',
-'creative': 'plp_balerinas',
-'position': '05'
-},
-{
-'id': 'plp_sneakers_220719',
-'name': 'Ella Sneakers',
-'creative': 'plp_sneakers', 
-'position': '06'
-},
-{
-'id': 'plp_deportivos_220719',
-'name': 'Ella Deportivos',
-'creative': 'plp_deportivos', 
-'position': '07'
-}
-]
-}
-}
-});           
-         break;
-
-        }
-    }// JavaScript Document
-// JSON Document
