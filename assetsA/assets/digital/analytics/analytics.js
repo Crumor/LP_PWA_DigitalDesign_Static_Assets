@@ -2114,118 +2114,154 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
- 'id': 'relojes_main_200619',
- 'name': 'relojes_Principal',
- 'creative': 'blpmob_relojes_main',
- 'position': '01'
+    'id': 'relojes_principal_080520',
+    'name': 'Relojes Principal',
+    'creative': 'blp_relojes_principal',
+    'position': '01'
 },
 {
- 'id': 'relojes_main_200619',
- 'name': 'relojes_Principal',
- 'creative': 'blp_relojes_main',
- 'position': '02'
+    'id': 'relojes_ella_080520',
+    'name': 'Relojes Ella',
+    'creative': 'blp_relojes_ella',
+    'position': '02'
 },
 {
 
- 'id': 'relojes_joyeria_200619',
- 'name': 'relojes_Joyería',
- 'creative': 'blp_relojes_joyería',
- 'position': '03'
+    'id': 'relojes_el_080520',
+    'name': 'Relojes El',
+    'creative': 'blp_relojes_el',
+    'position': '03'
                                                 
 },
 {
- 'id': 'relojes_ella_200619',
- 'name': 'relojes_Ella',
- 'creative': 'blp_relojes_ella',
- 'position': '04'
+    'id': 'relojes_luxury_080520',
+    'name': 'Relojes Luxury',
+    'creative': 'blp_relojes_luxury',
+    'position': '04'
 },
 {	
 
- 'id': 'relojes_el_200619',
- 'name': 'relojes_El',
- 'creative': 'blp_relojes_el',
- 'position': '05'
+    'id': 'relojes_alta_080520',
+    'name': 'Relojes Alta',
+    'creative': 'blp_relojes_alta',
+    'position': '05'
 },
 {	
- 'id': 'lentes_ella_200619',
- 'name': 'lentes_ella',
- 'creative': 'blp_lentes_ella',
- 'position': '06'
+    'id': 'armazones_080520',
+    'name': 'Relojes Armazones',
+    'creative': 'blp_relojes_armazones',
+    'position': '06'
 
 },
 {
 	
- 'id': 'lentes_el_200619',
- 'name': 'lentes_el',
- 'creative': 'blp_lentes_el',
- 'position': '07'
+    'id': 'solares_080520',
+    'name': 'Relojes Solares',
+    'creative': 'blp_relojes_solares',
+    'position': '07'
 },
 {
 	
- 'id': 'relojes_bomberg_200619',
- 'name': 'relojes_bomberg',
- 'creative': 'blp_relojes_bomberg',
- 'position': '08'
+    'id': 'parael_080520',
+    'name': 'Relojes para el',
+    'creative': 'blp_relojes_parael',
+    'position': '08'
 },
 {
- 'id': 'relojes_longines_200619',
- 'name': 'relojes_longines',
- 'creative': 'blp_relojes_longines',
- 'position': '09'
+    'id': 'paraella_080520',
+    'name': 'Relojes para ella',
+    'creative': 'blp_relojes_paraella',
+    'position': '09'
 },
 {
 
- 'id': 'relojes_michael_kors_200619',
- 'name': 'relojes_michael_kors',
- 'creative': 'blp_michael_kors',
- 'position': '10'
+    'id': 'pulseras_080520',
+    'name': 'Relojes Pulseras',
+    'creative': 'blp_relojes_pulseras',
+    'position': '10'
                                                 
 },
 {
- 'id': 'relojes_mido_200619',
- 'name': 'relojes_mido',
- 'creative': 'blp_mido',
- 'position': '11'
+    'id': 'aretes_080520',
+    'name': 'Relojes Aretes',
+    'creative': 'blp_relojes_aretes',
+    'position': '11'
 },
 {	
 
- 'id': 'relojes_montblanc_200619',
- 'name': 'relojes_montblanc',
- 'creative': 'blp_montblanc',
- 'position': '12'
+    'id': 'collares_080520',
+    'name': 'Relojes Collares',
+    'creative': 'blp_relojes_collares',
+    'position': '12'
 },
 {	
- 'id': 'relojes_rado_200619',
- 'name': 'relojes_rado',
- 'creative': 'blp_rado',
- 'position': '13'
+    'id': 'todo_080520',
+    'name': 'Relojes Todo',
+    'creative': 'blp_relojes_todo',
+    'position': '13'
 
 },
 {
 	
- 'id': 'relojes_rayban_200619',
- 'name': 'relojes_rayban',
- 'creative': 'blp_rayban',
- 'position': '14'
+    'id': 'bomberg_080520',
+    'name': 'Relojes Bomberg',
+    'creative': 'blp_relojes_bomberg',
+    'position': '14'
 },
 {
 	
- 'id': 'relojes_swarovski_200619',
- 'name': 'relojes_swarovski',
- 'creative': 'blp_swarovski',
- 'position': '15'
+    'id': 'longines_080520',
+    'name': 'Relojes Longines',
+    'creative': 'blp_relojes_longines',
+    'position': '15'
 },
 {	
- 'id': 'relojes_tag_200619',
- 'name': 'relojes_tag',
- 'creative': 'blp_tag',
- 'position': '16'
+    'id': 'mk_080520',
+    'name': 'Relojes mk',
+    'creative': 'blp_relojes_mk',
+    'position': '16'
 },
 {		
- 'id': 'relojes_tissot_200619',
- 'name': 'relojes_tissot',
- 'creative': 'blp_tissot',
- 'position': '17'
+    'id': 'mido_080520',
+    'name': 'Relojes mido',
+    'creative': 'blp_relojes_mido',
+    'position': '17'
+},
+{		
+    'id': 'mont_080520',
+    'name': 'Relojes Mont',
+    'creative': 'blp_relojes_mont',
+    'position': '18'
+},
+{		
+    'id': 'rado_080520',
+    'name': 'Relojes Rado',
+    'creative': 'blp_relojes_rado',
+    'position': '19'
+},
+{		
+    'id': 'rayban_080520',
+    'name': 'Relojes Rayban',
+    'creative': 'blp_relojes_rayban',
+    'position': '20'
+},
+{		
+    'id': 'swarovski_080520',
+    'name': 'Relojes Swarovski',
+    'creative': 'blp_relojes_swarovski',
+    'position': '21'
+},
+{		
+    'id': 'tag_080520',
+    'name': 'Relojes Tag',
+    'creative': 'blp_relojes_tag',
+    'position': '22'
+},
+{		
+    'id': 'tisso_080520',
+    'name': 'Relojes Tisso',
+    'creative': 'blp_relojes_tisso',
+    'position': '23'
 }
 ]
 }
