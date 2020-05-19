@@ -110,11 +110,41 @@ function myOnloadFunction(pageName,path) {
                'position':'A'
                     },
                {
-                'id':'linea_blanca_110520',
-                'name':'Línea blanca hasta 47% de desc',
+                'id':'muebles_180520',
+                'name':'Muebles hasta 40% de desc',
                 'creative':'h_banner_central',
                 'position':'1'
                },
+               {
+                    'id':'descuentos_clic_180520',
+                    'name':'Descuentos a un click hasta 40% de desc',
+                    'creative':'h_banner_central',
+                    'position':'2'
+                   },
+                   {
+                    'id':'muebles_comoda_180520',
+                    'name':'Muebles cómoda',
+                    'creative':'h_banner_central',
+                    'position':'3'
+                   },
+                   {
+                    'id':'comedor_muebles_180520',
+                    'name':'Comedor muebles',
+                    'creative':'h_banner_central',
+                    'position':'4'
+                   },
+                   {
+                    'id':'estudio_muebles_180520',
+                    'name':'Estudio muebles',
+                    'creative':'h_banner_central',
+                    'position':'5'
+                   },
+                   {
+                    'id':'sofa_muebles_180520',
+                    'name':'Muebles Sofás',
+                    'creative':'h_banner_central',
+                    'position':'6'
+                   },
                {
                'id':'credito_230320',
                'name':'Crédito',
@@ -230,76 +260,82 @@ function myOnloadFunction(pageName,path) {
                     'position':'T'
                          },
                {
-                'id':'muebles_110520',
-                'name':'Muebles hasta 40% de desc',
+                'id':'cocina_180520',
+                'name':'Cocina hasta 30% de desc',
                 'creative':'h_banner_secun',
-                'position':'2'
+                'position':'7'
                },
                {
-                'id':'muebles_bebe_110520',
-                'name':'Muebles de bebé hasta 30% de desc',
+                'id':'colchones_180520',
+                'name':'Colchones hasta 40% de desc',
                 'creative':'h_banner_secun',
-                'position':'3'
+                'position':'8'
                },
                {
-                'id':'cocina_110520',
-                'name':'Cocina hasta 20% de desc',
+                'id':'linea_blanca_180520',
+                'name':'Línea blanca hasta 40% de desc',
                 'creative':'h_banner_secun',
-                'position':'4'
+                'position':'9'
                },
                {
-               'id':'celulares_110520',
-               'name':'Celulares hasta 13 msi',
-               'creative':'h_banner_secun',
-               'position':'5'
-                    },
-               {
-               'id':'computo_110520',
+               'id':'computo_180520',
                'name':'Cómputo hasta 10% de desc',
-               'creative':'h_banner_secun',
-               'position':'6'
-                    },
-               {
-               'id':'videojuegos_110520',
-               'name':'Videojuegos hasta 10% de desc',
-               'creative':'h_banner_secun',
-               'position':'7'
-                    },
-               {
-               'id':'electricos_belleza_110520',
-               'name':'Eléctricos de belleza hasta 30% de desc',
-               'creative':'h_banner_secun',
-               'position':'8'
-                    },
-               {
-               'id':'american_eagle_110520',
-               'name':'American Eagle hasta 40% de desc',
-               'creative':'h_banner_secun',
-               'position':'9'
-                    },
-               {
-               'id':'zapatos_110520',
-               'name':'Zapatos hasta 20% de desc',
                'creative':'h_banner_secun',
                'position':'10'
                     },
                {
-               'id':'ropa_deportiva_110520',
-               'name':'Ropa deportiva hasta 20% de desc',
+               'id':'videojuegos_180520',
+               'name':'Videojuegos hasta 10% de desc',
                'creative':'h_banner_secun',
                'position':'11'
                     },
                {
-               'id':'juguetes_110520',
-               'name':'Juguetes hasta 20% de desc',
+               'id':'ella_180520',
+               'name':'Ella hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'12'
                     },
                {
-               'id':'mascotas_110520',
-               'name':'Mascotas hasta 30% de desc',
+               'id':'el_180520',
+               'name':'Él hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'13'
+                    },
+               {
+               'id':'kbeauty_180520',
+               'name':'Kbeauty',
+               'creative':'h_banner_secun',
+               'position':'14'
+                    },
+               {
+               'id':'aeropostale_180520',
+               'name':'Aeropostale hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'15'
+                    },
+               {
+               'id':'zapatos_180520',
+               'name':'Zapatos hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'16'
+                    },
+               {
+               'id':'ropa_deportiva_180520',
+               'name':'Ropa deportiva hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'17'
+                    },
+               {
+               'id':'ferreteria_180520',
+               'name':'Ferretería hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'18'
+                    },
+               {
+               'id':'mascotas_180520',
+               'name':'Mascotas hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'19'
                     }
                
                         ]
