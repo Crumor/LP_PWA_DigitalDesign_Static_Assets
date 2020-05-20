@@ -101,8 +101,8 @@ function myOnloadFunction(pageName,path) {
                 'ecommerce': {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
-		 
-		{
+
+               {
      'id':'pantallas_220520',
      'name':'Pantallas hasta 58% de desc',
      'creative':'h_banner_central',
@@ -266,10 +266,14 @@ function myOnloadFunction(pageName,path) {
      'name':'Levi´s hasta 40% de desc',
      'creative':'h_banner_secun',
      'position':'21'
-     },		
-				
-				
-		{
+     },
+              {
+               'id':'covid19_010420',
+               'name':'Comunicado COVID-19',
+               'creative':'h_banner_central',
+               'position':'A'
+                    },
+               {
                 'id':'muebles_180520',
                 'name':'Muebles hasta 40% de desc',
                 'creative':'h_banner_central',
@@ -305,14 +309,6 @@ function myOnloadFunction(pageName,path) {
                     'creative':'h_banner_central',
                     'position':'6'
                    },
-               
-              {
-               'id':'covid19_010420',
-               'name':'Comunicado COVID-19',
-               'creative':'h_banner_central',
-               'position':'A'
-                    },
-                
                {
                'id':'credito_230320',
                'name':'Crédito',
@@ -2049,6 +2045,125 @@ dataLayer.push({
 }
 });	
 				
+                
+                
+                
+/*HOT SALE LANDING*/ 
+
+            break;
+            case '/tienda/paginas/hot-sale':
+            
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'el_200520',
+    'name': 'Hot Sale El',
+    'creative': 'blp_hs_el',
+    'position': '01'
+},
+{
+    'id': 'ella_200520',
+    'name': 'Hot Sale Ella',
+    'creative': 'blp_hs_ella',
+    'position': '02'
+},
+{
+    'id': 'zapatos_200520',
+    'name': 'Hot Sale Zapatos',
+    'creative': 'blp_hs_zapatos',
+    'position': '03'
+                                                
+},
+{
+    'id': 'lb_200520',
+    'name': 'Hot Sale lb',
+    'creative': 'blp_hs_lb',
+    'position': '04'
+},
+{
+    'id': 'computo_200520',
+    'name': 'Hot Sale Computo',
+    'creative': 'blp_hs_computo',
+    'position': '05'                                           
+},
+{
+    'id': 'muebles_200520',
+    'name': 'Hot Sale Muebles',
+    'creative': 'blp_hs_muebles',
+    'position': '06'
+
+},
+{
+    'id': 'casa_200520',
+    'name': 'Hot Sale Casa',
+    'creative': 'blp_hs_casa',
+    'position': '07'
+
+},
+{
+     'id': 'videojuegos_200520',
+     'name': 'Hot Sale Videojuegos',
+     'creative': 'blp_hs_videojuegos',
+     'position': '08'
+
+},
+{
+     'id': 'deportes_200520',
+     'name': 'Hot Sale Deportes',
+     'creative': 'blp_hs_deportes',
+     'position': '09'
+},
+{
+     'id': 'cocina_200520',
+     'name': 'Hot Sale Cocina',
+     'creative': 'blp_hs_cocina',
+     'position': '10'
+},
+{
+     'id': 'belleza_200520',
+     'name': 'Hot Sale Belleza',
+     'creative': 'blp_hs_belleza',
+     'position': '11'
+},
+{
+     'id': 'ninos_200520',
+     'name': 'Hot Sale Ninos',
+     'creative': 'blp_hs_ninos',
+     'position': '12'
+},
+{
+     'id': 'bebes_200520',
+     'name': 'Hot Sale Bebes',
+     'creative': 'blp_hs_bebes',
+     'position': '13'
+}
+]
+}
+}
+});					
+
+		
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
 				
 /*PRIMER NIVEL CELULARES*/ 
 
@@ -2061,9 +2176,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'cyber_main_071119',
-    'name': 'Cyber Main',
-    'creative': 'blp_celulares_cyber_main',
+    'id': 'hs_mayo_200520',
+    'name': 'Hot Sale Celulares',
+    'creative': 'blp_celulares_hs',
     'position': '01'
 },
 {
