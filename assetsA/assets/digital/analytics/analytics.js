@@ -102,7 +102,171 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
 
-               
+               {
+     'id':'pantallas_220520',
+     'name':'Pantallas hasta 58% de desc',
+     'creative':'h_banner_central',
+     'position':'1'
+             },
+     
+                    {
+                    'id':'muebles_220520',
+                    'name':'Muebles hasta 50% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'2a'
+                    },
+                    {
+                    'id':'mesas_220520',
+                    'name':'Mesas',
+                    'creative':'h_banner_secun',
+                    'position':'2b'
+                    },
+                    {
+                    'id':'aires_acondicionados_220520',
+                    'name':'Aires Acondicionados hasta 51% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'2c'
+                    },
+                    {
+                    'id':'colchones_220520',
+                    'name':'Colchones hasta 47% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'2d'
+                    }, 
+                    {
+                    'id':'decoracion_220520',
+                    'name':'Decoración hasta 40% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'2e'
+                    },
+                    {
+                    'id':'lamparas_220520',
+                    'name':'Lámparas',
+                    'creative':'h_banner_secun',
+                    'position':'2f'
+                    },
+                    {
+                    'id':'sillas_sillones_220520',
+                    'name':'Sillas y Sillones',
+                    'creative':'h_banner_secun',
+                    'position':'2g'
+                    }, 
+                    
+     {
+     'id':'casa_220520',
+     'name':'Casa hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'3'
+     },
+     {
+     'id':'linea_blanca_220520',
+     'name':'Línea Blanca hasta 51% de desc',
+     'creative':'h_banner_secun',
+     'position':'4'
+     },
+     {
+     'id':'cocina_220520',
+     'name':'Cocina hasta 32% de desc',
+     'creative':'h_banner_secun',
+     'position':'5'
+     },
+                 {
+     'id':'computo_220520',
+     'name':'Cómputo hasta 20% de desc',
+     'creative':'h_banner_secun',
+     'position':'6'
+     },
+                 {
+     'id':'videojuegos_220520',
+     'name':'Videojuegos hasta 15% de desc',
+     'creative':'h_banner_secun',
+     'position':'7'
+     },
+                 {
+     'id':'celulares_220520',
+     'name':'Celulares hasta 25% de reemb + hasta 15 MSI ó hasta 24 MSI',
+     'creative':'h_banner_secun',
+     'position':'8'
+     },
+                 {
+     'id':'bebes_220520',
+     'name':'Bebés hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'9'
+     },
+                 {
+     'id':'niños_220520',
+     'name':'Niños hasta 30% de desc',
+     'creative':'h_banner_secun',
+     'position':'10'
+     },
+                 {
+     'id':'el_220520',
+     'name':'El hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'11'
+     },
+                      {
+     'id':'ella_220520',
+     'name':'Ella hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'12'
+     },
+                 {
+     'id':'zapatos_220520',
+     'name':'Zapatos hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'13'
+     },          
+                 {
+     'id':'relojes_220520',
+     'name':'Relojes hasta 50% de desc',
+     'creative':'h_banner_secun',
+     'position':'14'
+     },
+                
+                 {
+     'id':'foreo_220520',
+     'name':'Foreo hasta 15% de desc',
+     'creative':'h_banner_secun',
+     'position':'15'
+     },
+                 {
+     'id':'deportes_220520',
+     'name':'Deportes hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'16'
+     },          
+                 {
+     'id':'nike_220520',
+     'name':'Nike hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'17'
+     },          
+                 {
+     'id':'tous_220520',
+     'name':'Tous hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'18'
+     },    
+                 {
+     'id':'american_eagle_220520',
+     'name':'American Eagle hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'19'
+     },    
+                  {
+     'id':'swarovski_220520',
+     'name':'Swarovski hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'20'
+     },    
+                 {
+     'id':'levis_220520',
+     'name':'Levi´s hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'21'
+     },
               {
                'id':'covid19_010420',
                'name':'Comunicado COVID-19',
