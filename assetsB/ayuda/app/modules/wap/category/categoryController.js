@@ -126,14 +126,23 @@
                 if( $scope.linkCategory2!="" ){
                     defaultUrlContent = "/cont/"+$scope.linkCategory+"/"+$scope.linkCategory2+"/"+n.link;
                 }
-                if( n.subnivel.length>0 ){
-                 
+                
+                if( n.subnivel){
+                  if(n.subnivel.length>0){
                     idExpetionAnswers.forEach( function( d ){
                             if(n.idMenu === d){
                                 defaultUrl ="/faq/"
                             };
                     });
                     $location.path( defaultUrl+"/");
+                  }else{
+                                          idExpetionAnswers.forEach( function( d ){
+                            if(n.idMenu === d){
+                                defaultUrlContent ="/faq/"+n.link+"/";
+                            };
+                    });          
+                    $location.path( defaultUrlContent);
+                  }
                 }else{
                       
                     idExpetionAnswers.forEach( function( d ){
