@@ -2,6 +2,7 @@ body {
     background-color: white;
     font-family: "Roboto";
     overflow-x: hidden;
+    margin: 0px;
 }
 
 .grid-container {
@@ -356,6 +357,7 @@ div.bootom-footer ul.breadcrumb.bread-rights li {
     margin: 17px 0px 30px 0px;
     display: inline-block;
     text-align: center;
+    padding: 20px;
 }
 
 .squareContact a>p {
@@ -500,6 +502,7 @@ div.bootom-footer ul.breadcrumb.bread-rights li {
 .subContent {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    float: none;
 }
 
 .subContent h1 {
@@ -792,7 +795,7 @@ p.quest {
     color: #777777;
     padding: 10px 20px;
     display: inline-flex;
-    width: 84%;
+    width: 81%;
     background: transparent;
 }
 
@@ -818,7 +821,6 @@ p {
     padding: 10px 10px;
     font-size: 14px;
     line-height: 18px;
-    background-color: white;
     line-height: 22px;
 }
 
@@ -840,6 +842,12 @@ ratings.question {
     font-size: 14px;
     background-color: white;
     margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bloquerespuesta {
+    padding: 10px;
 }
 
 .bloquerespuesta:focus {
@@ -884,7 +892,7 @@ ratings.question {
     color: #666666;
     font-size: 11px;
     position: absolute;
-    right: 5%;
+    right: 8%;
 }
 
 .storm>span:first-child {
@@ -1067,4 +1075,12 @@ ratings.question {
     .modal-content {
         width: 100%;
     }
+}
+
+#master_footer {
+    float: left;
+}
+
+.mainCategoryMobile {
+    float: none;
 }

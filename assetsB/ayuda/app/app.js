@@ -1,12 +1,9 @@
 (function() {
-    angular.module('APP_AYUDA_WEB', ["ngRoute", "ngSanitize", "firebase", "moduleHome", "moduleCategory", "services", "componentInputSearch", "componentMenuLeft", "componentPreguntasFrecuentes", "componentRatings", 'angulartics', 'angulartics.google.analytics'])
+    angular.module('APP_AYUDA_WEB', ["ngRoute", "ngSanitize", "firebase", "moduleHome", "moduleCategory", "services", "componentInputSearch", "componentMenuLeft", "componentPreguntasFrecuentes", 'angulartics', 'angulartics.google.analytics','jsonReader'])
         .constant('myconfig', {
             "url": "app/modules/web/",
             "urlDirectives": "app/common/directives/",
-            "path": "./",
-            /*"database":"https://ayuda-b41be.firebaseio.com/",*/
-            "database": "https://liverpoolapp-ecd02.firebaseio.com/ayuda/",
-            "databaseAux": "assets/json/ayuda.json"
+            "path": "./"
 
         })
         .config(configuracion)
@@ -33,6 +30,7 @@
     };
 
     function configuracion($routeProvider, $locationProvider, $analyticsProvider, myconfig) {
+     
         $analyticsProvider.firstPageview(true); /* Records pages that don't use $state or $route */
         $analyticsProvider.withAutoBase(true); /* Records full path */
         $locationProvider.hashPrefix('');

@@ -1,12 +1,12 @@
 (function(){
-		angular.module('APP_AYUDA_WAP',["ngRoute","ngSanitize","firebase","ngAnimate","moduleWapHome","moduleWapCategory","services","componentInputSearch","componentPreguntasFrecuentes","componentRatings",'angulartics','angulartics.google.analytics'])
+		angular.module('APP_AYUDA_WAP',["ngRoute","ngSanitize","firebase","ngAnimate","moduleWapHome","moduleWapCategory","services","componentInputSearch","componentPreguntasFrecuentes",'angulartics','angulartics.google.analytics','jsonReader'])
 		.constant('myconfig',{
 			"url":"../app/modules/wap/",
 			"path":"../",
 			"urlDirectives":"../app/common/directives/",
 			"path":"../",
 			/*"database":"https://ayuda-b41be.firebaseio.com/"*/
-			"database":"https://liverpoolapp-ecd02.firebaseio.com/ayuda/"
+			"database":"https://fir-example-a0104.firebaseio.com/Ayudas/liverpool-fix-250520/"
 		})
 		.config(configuracion)
 		.run(run)
