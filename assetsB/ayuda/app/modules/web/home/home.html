@@ -41,7 +41,7 @@
     <div class="grid-70 prefix-15 sufix-75 cats-prin">
         <div class="cats"> Categorías principales</div>
         <div class="grid-100 homeContent_category">
-            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 5">
+            <div class="grid-33 cats-grid" ng-repeat="n1 in menu | limitTo: 6">
                 <div class="typhoon">
                     <span ng-bind-html="n1.icon"></span>
                     <div class="credito">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <ul class="main-topic">
-                    <li ng-repeat="n2 in n1.subnivel | limitTo: 5">
+                    <li ng-repeat="n2 in n1.subnivel | limitTo: 6">
                         <a href="#/sec/{{n1.link}}/{{n2.newLink}}" ng-bind="n2.titulo"></a>
                     </li>
                 </ul>
