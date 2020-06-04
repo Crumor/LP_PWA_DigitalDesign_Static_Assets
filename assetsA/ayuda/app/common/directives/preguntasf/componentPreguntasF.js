@@ -1,7 +1,7 @@
 (function(){
   angular.module("componentPreguntasFrecuentes",[]).
   directive("preguntasFrecuentes",preguntasFrecuentes);
-  function preguntasFrecuentes(myconfig, $routeParams, $location, serviceMenu,serviceContenido,serviceStorage, serviceUpdateVisit, serviceStorage){
+  function preguntasFrecuentes(myconfig, $routeParams, $location, serviceMenu,serviceContenido){
     return {
       restrict:'E',
       templateUrl:function(elem, attr){
