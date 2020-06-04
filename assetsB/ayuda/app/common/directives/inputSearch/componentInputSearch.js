@@ -5,7 +5,7 @@
         directive("footerWeb",footerWeb).
         directive("headerWeb",headerWeb);
 
-        function typeHead( myconfig, $routeParams, $location, serviceContenido,serviceMenu, Menu, serviceUpdateVisit, serviceStorage ){
+        function typeHead( myconfig, $routeParams, $location, serviceContenido,serviceMenu, Menu ){
 
                 return {
 
@@ -99,42 +99,7 @@
                                     $scope.resultadoContenidos = [];
                                     $scope.inputBuscar = "";
                                 };
-                                $scope.addVisit = function(idQuestion){
-                                    
-                                    if (serviceStorage.storageAvailable('localStorage')) {
-                                        var arrayVotation = localStorage.getItem('mostView');
-                                        var arrayData = [];
-                                        if(arrayVotation == null){
-                                            // first time to vote
-                                            serviceUpdateVisit.update(idQuestion,function(data){
-                                                if(typeof(data) === "boolean" && data){
-                                                    arrayData.push(String(idQuestion));
-                                                    localStorage.setItem('mostView',JSON.stringify(arrayData));  
-                                                }
-                                            })
-                                        }else{
-                                            // the variable that contains votes exists
-                                            serviceUpdateVisit.update(idQuestion,function(data){
-                                                if(typeof(data) === "boolean" && data){
-                                                    var flg = false;
-                                                    arrayData = JSON.parse(arrayVotation);
-                                                    for (var i = 0; i < arrayData.length; i++) {
-                                                        if(arrayData[i] != idQuestion){
-                                                            flg = true;
-                                                        }else{
-                                                            flg = false;
-                                                            break;
-                                                        }
-                                                    }
-                                                    if(flg){
-                                                        arrayData.push(String(idQuestion));
-                                                        localStorage.setItem('mostView',JSON.stringify(arrayData));  
-                                                    }
-                                                }
-                                            })          
-                                        }
-                                    }
-                                };
+
                                 $( ".ayuda-busqueda" ).on( "click", function() {
                                     
                                     $(".opacity").css("display", "block");
@@ -170,7 +135,19 @@
                         templateUrl: function( elem, attr ){
                                 return myconfig.urlDirectives+'inputSearch/footer.html';
                         },
-                        link: function( $scope ){}
+                        link: function( $scope ){
+
+                                    $(document).ready(function() {
+            $(".a-footer_linkOpen").click(function() {
+              $('.footer-dropdown li').removeClass('active');
+                $(this).parent().parent().find('li').addClass("active");
+            });
+
+            $(".sub-section.open-menu-footer").click(function() {
+                $(".sub-section.open-menu-footer a span.icon-liv-right-06").toggleClass("rotate");
+            })
+        })
+                        }
                 };
         }
         /*end footer*/

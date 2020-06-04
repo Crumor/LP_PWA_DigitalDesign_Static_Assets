@@ -1,67 +1,69 @@
-    <div class="grid-100 insurgentes" ng-click="validateResult()">
-      <h2>¿Cómo podemos ayudarte?</h2>
-      <type-head th="wap" class="typeHead"></type-head>
-      <div class="sexyimage">
-         <img src="../assets/images/insurgentes.jpg" alt="Ayuda Liverpool">
-      </div>
-   </div>
-        <div class="mobile-grid-100 firstBlock">
-            <div class="mobile-grid-80 mobile-prefix-10">
-                <h3 class="blockTitle">Preguntas más buscadas</h3>
-                <div class="vertodo">
-                   <a href="#/answer/1000">Ver todo </a> 
-                   <i class="icon-ayuda-flecha-derecha"></i>
-                </div>
-                <ul class="listBlock">
-                    <li ng-repeat="p in topPreguntas"><a href="#/faq/{{p.menu}}/{{p.idPregunta}}" ng-bind="p.pregunta"></a> </li>
-                    
-                </ul>
-            </div>
+<div class="grid-100 insurgentes" ng-click="validateResult()">
+    <h2>¿Cómo podemos ayudarte?</h2>
+    <type-head th="wap" class="typeHead"></type-head>
+    <div class="sexyimage">
+        <img src="../assets/images/insurgentes.jpg" alt="Ayuda Liverpool">
+    </div>
+</div>
+<div class="mobile-grid-100 firstBlock">
+    <div class="mobile-grid-80 mobile-prefix-10">
+        <h3 class="blockTitle">Preguntas más buscadas</h3>
+        <div class="vertodo">
+            <a href="#/answer/1000">Ver todo </a>
+            <i class="icon-ayuda-flecha-derecha"></i>
         </div>
-        <div class="mobile-grid-100 categoryBlock">
-            <div class="mobile-grid-80 mobile-prefix-10">
-                <h3 class="categoryTitle">Categorías principales</h3>
-                <ul class="listBlock">
-                    <li ng-click="openLevel2(n1);" ng-repeat="n1 in menu track by $index">
-                        <div class="listDiv" ng-bind-html="n1.icon">
-                            <!--<i class="icon-ayuda-cat-preguntas-frecuentes iconHelp"></i>-->
-                        </div>
-                        <div class="listDiv title">
-                           {{ n1.titulo}}
-                        </div>
-                        <div class="listDiv iconArrow">
-                            <span class="icon-ayuda-flecha-derecha"></span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="mobile-grid-100 footerBlock">
-            <div class="mobile-grid-90 mobile-prefix-5 footerSub">
-               <a href="https://www.liverpool.com.mx/tienda/m/browse/store.jsp">
-                    <div class="mobile-grid-20 iconDiv">
-                        <span class="icon-ayuda-tiendas tiendasIcon"></span>
-                    </div>
-                    <div class="mobile-grid-80 titleDiv">
-                        <h3 class="tiendasTitle">Tiendas</h3>
-                        <p class="tiendasSubtitle">Ubica tu tienda más cercana</p>
-                    </div>
-               </a>
-            </div>
-              <div class="mobile-grid-90 mobile-prefix-5 footerSub2">
-                <h3 class="contactTitle">Contáctanos</h3>
-                <p class="contactSubtitle">¿No encontraste lo que buscabas?</p>
-                <div class="mobile-grid-40 squareContact">
-                    <a href="tel:5552629999">
-                        <i class="icon-ayuda-telefono"></i>
-                        <p>Llámanos</p>
-                    </a>
+        <ul class="listBlock">
+            <li ng-repeat="p in topPreguntas">
+                <a href="#/faq/{{p.menu}}/{{p.idPregunta}}" ng-bind="p.pregunta"></a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<div class="mobile-grid-100 categoryBlock">
+    <div class="mobile-grid-80 mobile-prefix-10 mainCategoryMobile">
+        <h3 class="categoryTitle">Categorías principales</h3>
+        <ul class="listBlock">
+            <li ng-click="openLevel2(n1);" ng-repeat="n1 in menu track by $index">
+                <div class="listDiv" ng-bind-html="n1.icon">
+                    <!--<i class="icon-ayuda-cat-preguntas-frecuentes iconHelp"></i>-->
                 </div>
-                <div class="mobile-grid-40 squareContact">
-                    <a href="mailto:atencion@liverpool.com.mx">
-                        <i class="icon-ayuda-sobre"></i>
-                        <p>Escríbenos</p>
-                    </a>
+                <div class="listDiv title">
+                    {{ n1.titulo}}
                 </div>
+                <div class="listDiv iconArrow">
+                    <span class="icon-ayuda-flecha-derecha"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="mobile-grid-100 footerBlock">
+    <div class="mobile-grid-90 mobile-prefix-5 footerSub">
+        <a href="https://www.liverpool.com.mx/tienda/m/browse/store.jsp">
+            <div class="mobile-grid-20 iconDiv">
+                <span class="icon-ayuda-tiendas tiendasIcon"></span>
             </div>
+            <div class="mobile-grid-80 titleDiv">
+                <h3 class="tiendasTitle">Tiendas</h3>
+                <p class="tiendasSubtitle">Ubica tu tienda más cercana</p>
+            </div>
+        </a>
+    </div>
+    <div class="mobile-grid-90 mobile-prefix-5 footerSub2">
+        <h3 class="contactTitle">Contáctanos</h3>
+        <p class="contactSubtitle">¿No encontraste lo que buscabas?</p>
+        <div class="mobile-grid-40 squareContact">
+            <a href="tel:5552629999">
+                <i class="icon-ayuda-telefono"></i>
+                <p>Llámanos</p>
+            </a>
         </div>
+        <div class="mobile-grid-40 squareContact">
+            <a href="mailto:atencion@liverpool.com.mx">
+                <i class="icon-ayuda-sobre"></i>
+                <p>Escríbenos</p>
+            </a>
+        </div>
+    </div>
+</div>

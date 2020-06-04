@@ -47,7 +47,7 @@
                 }
 
         };
-        function answerController($scope,$routeParams,serviceContenido,serviceMenu, InfoContenido,Menu,serviceStorage,serviceUpdateVisit){
+        function answerController($scope,$routeParams,serviceContenido,serviceMenu, InfoContenido,Menu){
                 $scope.dires="app/common/directives/inpuSearch/header.html";
                 var path            = "app/modules/web/category/content/"
 
@@ -68,9 +68,7 @@
                                         if( val.idPregunta === idPregunta){
                                             existId = true;
                                             val.active = true;
-                                            visit(val.$id,function(da){
-                                                val.active = true;
-                                            });
+                                     
                                         }
                                     });
                                 };
@@ -112,7 +110,7 @@
                 });
 
                 $scope.openQuestion = function( event, obj ){
-                    visit(obj.$id,function(){});
+                 
                     var elemento       = $( event.currentTarget );
                     var _rootElement   = $('.level1');
                     var elementoNext = elemento.next();
@@ -134,45 +132,7 @@
                                 return false;
 
                 }
-               function visit(idQuestion,fn){
-                    if (serviceStorage.storageAvailable('localStorage')) {
-                        var arrayVotation = localStorage.getItem('mostView');
-                        var arrayData = [];
-                        if(arrayVotation == null){
-                            // first time to vote
-                            serviceUpdateVisit.update(idQuestion,function(data){
-                                if(typeof(data) === "boolean" && data){
-                                    arrayData.push(String(idQuestion));
-                                    localStorage.setItem('mostView',JSON.stringify(arrayData));
 
-                                }
-                            })
-                            fn(true);
-                        }else{
-                            // the variable that contains votes exists
-                            serviceUpdateVisit.update(idQuestion,function(data){
-                                if(typeof(data) === "boolean" && data){
-                                    var flg = false;
-                                    arrayData = JSON.parse(arrayVotation);
-                                    for (var i = 0; i < arrayData.length; i++) {
-                                        if(arrayData[i] != idQuestion){
-                                            flg = true;
-                                        }else{
-                                            flg = false;
-                                            break;
-                                        }
-                                    }
-                                    if(flg){
-                                        arrayData.push(String(idQuestion));
-                                        localStorage.setItem('mostView',JSON.stringify(arrayData));
-                                    }
-
-                                }
-                                fn(flg);
-                            });
-                        }
-                    }
-               }//en visit
             };
         function resultsController($scope,$routeParams,serviceContenido,serviceMenu, InfoContenido,Menu,$location){
                 var word = $routeParams.search;

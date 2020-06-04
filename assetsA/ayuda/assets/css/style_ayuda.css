@@ -160,6 +160,7 @@ h3.ayuda {
     color: #666666;
     margin: 10px 0 10px 0;
     padding-right: 5%;
+    font-weight: normal;
 }
 
 ul.main-questions {
@@ -168,7 +169,6 @@ ul.main-questions {
 }
 
 ul.main-questions li {
-    font-weight: 500;
     font-size: 14px;
     padding-top: 8px;
 }
@@ -227,6 +227,7 @@ ul.main-questions li a {
 .credito a {
     color: #666666;
     text-decoration: none;
+    font-weight: normal;
 }
 
 ul.main-topic {}
@@ -480,4 +481,16 @@ span.allrights2 {
 
 #footer_wrapper {
     margin-top: 0px !important;
+}
+
+#mainContent {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+#master_footer {
+    float: left;
+    position: relative;
+    width: 100%;
 }

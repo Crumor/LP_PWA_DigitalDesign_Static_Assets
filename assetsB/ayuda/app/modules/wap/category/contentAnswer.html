@@ -1,50 +1,51 @@
-		<div class="mobile-grid-100 searchBar">
-			<div class="mobile-grid-80 ">
-				<type-head class="categorytype" th="wap-category"><type-head>
-			</div>
-		</div>
-		<div class="mobile-grid-100 returnBar">
-			<div class="mobile-grid-80 mobile-prefix-10">
-				<div class="returnButton" ng-click="back();"><div class="arrowLeft"><i class="icon-ayuda-flecha-derecha"></i></div> Regresar</div>
-			</div>
-		</div>
-		<div class="mobile-grid-100">
-			<div class="anwersky">
-				<h3> {{ actualCategory.titulo }}  </h3>
-				<div ng-repeat="ps in contenido" class="level1 wailea" >
-				   <div class="bloquepregunta" ng-click="openQuestion($event, ps)" id="pq{{ps.idPregunta}}" ng-class="{'active':ps.active}">
-						<p class="quest storm" >
-							{{ ps.pregunta | unsafe }} 
-							
-						</p>
-						<div class="maui">
-							<i class="icon-ayuda-flecha-arriba"></i>
-						</div>
-					</div>
-					<div class="bloquerespuesta" ng-class="{'active':ps.active}">
-						<p class="ans question"  ng-bind-html="ps.respuesta | unsafe_respuesta"></p>     
-						
-					</div>
-				</div>
-			</div>
-		<div class="mobile-grid-100">
-			<ratings th="wap" class="question" ></ratings>
-		</div>
-			<preguntas-frecuentes th="wap"></preguntas-frecuentes>
-			<div class="mobile-grid-90 mobile-prefix-5 footerSub2">
-				<h3 class="contactTitle">Contáctanos</h3>
-				<p class="contactSubtitle">¿No encontraste lo que buscabas?</p>
-				<div class="mobile-grid-40 squareContact">
-					<a href="tel:5552629999">
-						<i class="icon-ayuda-telefono"></i>
-						<p>Llámanos</p>
-					</a>
-				</div>
-				<div class="mobile-grid-40 squareContact">
-					<a href="mailto:atencion@liverpool.com.mx">
-						<i class="icon-ayuda-sobre"></i>
-						<p>Escríbenos</p>
-					</a>
-				</div>
-			</div>
-		</div>
+<div class="mobile-grid-100 searchBar">
+    <div class="mobile-grid-80 ">
+        <type-head class="categorytype" th="wap-category">
+            <type-head>
+    </div>
+</div>
+<div class="mobile-grid-100 returnBar">
+    <div class="mobile-grid-90 mobile-prefix-5">
+        <div class="returnButton" ng-click="back();">
+            <div class="arrowLeft"><i class="icon-ayuda-flecha-derecha"></i></div> Regresar</div>
+    </div>
+</div>
+<div class="mobile-grid-100">
+    <div class="anwersky">
+        <h3> {{ actualCategory.titulo }} </h3>
+        <div ng-repeat="ps in contenido" class="level1 wailea">
+            <div class="bloquepregunta" ng-click="openQuestion($event, ps)" id="pq{{ps.idPregunta}}" ng-class="{'active':ps.active}">
+                <p class="quest storm">
+                    {{ ps.pregunta | unsafe }}
+
+                </p>
+                <div class="maui">
+                    <i class="icon-ayuda-flecha-arriba"></i>
+                </div>
+            </div>
+            <div class="bloquerespuesta" ng-class="{'active':ps.active}">
+                <p class="ans question" ng-bind-html="ps.respuesta | unsafe_respuesta"></p>
+
+            </div>
+        </div>
+    </div>
+
+    <preguntas-frecuentes th="wap" style="float:left;"></preguntas-frecuentes>
+
+</div>
+<div class="mobile-grid-100  footerSub2">
+    <h3 class="contactTitle">Contáctanos</h3>
+    <p class="contactSubtitle">¿No encontraste lo que buscabas?</p>
+    <div class="mobile-grid-40 squareContact">
+        <a href="tel:5552629999">
+            <i class="icon-ayuda-telefono"></i>
+            <p>Llámanos</p>
+        </a>
+    </div>
+    <div class="mobile-grid-40 squareContact">
+        <a href="mailto:atencion@liverpool.com.mx">
+            <i class="icon-ayuda-sobre"></i>
+            <p>Escríbenos</p>
+        </a>
+    </div>
+</div>
