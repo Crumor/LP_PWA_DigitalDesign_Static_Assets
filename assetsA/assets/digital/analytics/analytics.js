@@ -335,7 +335,175 @@ function myOnloadFunction(pageName,path) {
                'name':'Mascotas hasta 20% de desc',
                'creative':'h_banner_secun',
                'position':'19'
-                    }
+                    },
+				
+				
+	 {
+     'id':'hombre_100620',
+     'name':'Hombre hasta 40% de desc',
+     'creative':'h_banner_central',
+     'position':'1'
+             },
+     
+     {
+     'id':'descuentos_100620',
+     'name':'Hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'2'
+     },            
+     {
+     'id':'comunicado_100620',
+     'name':'comunicado',
+     'creative':'h_banner_secun',
+     'position':'3'
+     },
+     {
+     'id':'relojes_100620',
+     'name':'Relojes hasta 50% de desc',
+     'creative':'h_banner_secun',
+     'position':'4'
+     },
+     {
+     'id':'click_collect_100620',
+     'name':'Click&Collect',
+     'creative':'h_banner_secun',
+     'position':'5'
+     },
+                 {
+     'id':'pocket_010420',
+     'name':'Pocket',
+     'creative':'h_banner_secun',
+     'position':'A'
+     },
+                 {
+     'id':'barbershop_100620',
+     'name':'Barbershop hasta 30% de desc',
+     'creative':'h_banner_secun',
+     'position':'6'
+     },
+                 {
+     'id':'deportes_100620',
+     'name':'Deportes hasta 30% de desc',
+     'creative':'h_banner_secun',
+     'position':'7'
+     },
+                 {
+     'id':'puma_100620',
+     'name':'Puma hasta 50% de desc',
+     'creative':'h_banner_secun',
+     'position':'8'
+     },
+                 {
+     'id':'zapatos_100620',
+     'name':'Zapatos hasta 30% de desc',
+     'creative':'h_banner_secun',
+     'position':'9'
+     },
+                      {
+     'id':'pantallas_100620',
+     'name':'Pantallas hasta 58% de desc',
+     'creative':'h_banner_secun',
+     'position':'10'
+     },
+                 {
+     'id':'videojuegos_100620',
+     'name':'Videojuegos hasta 15% de desc',
+     'creative':'h_banner_secun',
+     'position':'11'
+     },          
+                 {
+     'id':'celulares_100620',
+     'name':'Celulares hasta 25% de rembolso',
+     'creative':'h_banner_secun',
+     'position':'12'
+     },
+                
+                 {
+     'id':'computo_100620',
+     'name':'Cómputo hasta 20% de desc',
+     'creative':'h_banner_secun',
+     'position':'13'
+     },
+                 {
+     'id':'muebles_100620',
+     'name':'Muebles hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'14'
+     },          
+                 {
+     'id':'colchones_100620',
+     'name':'Colchones hasta 47% de desc',
+     'creative':'h_banner_secun',
+     'position':'15'
+     },          
+                 {
+     'id':'linea_blanca_100620',
+     'name':'Línea blanca hasta 51% de desc',
+     'creative':'h_banner_secun',
+     'position':'16'
+     },  
+     {
+     'id':'casa_100620',
+     'name':'Casa hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'17'
+     }, 
+     {
+     'id':'cocina_100620',
+     'name':'Cocina hasta 30% de desc',
+     'creative':'h_banner_secun',
+     'position':'18'
+    }, 
+    {
+        'id':'mujer_100620',
+        'name':'Mujer hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'19'
+       }, 
+       {
+        'id':'ninas_ninos_100620',
+        'name':'Niñas y niños hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'20'
+       }, 
+       {
+        'id':'bebes_100620',
+        'name':'Bebés hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'21'
+       }, 
+       {
+        'id':'juguetes_100620',
+        'name':'Juguetes hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'22'
+       },   
+      {
+     'id':'american_eagle_100620',
+     'name':'American Eagle hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'23'
+     },    
+    {
+     'id':'levis_100620',
+     'name':'Levi´s hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'24'
+     }, 
+     {
+        'id':'gap_100620',
+        'name':'GAP hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'25'
+        },    
+                 {
+     'id':'dockers_100620',
+     'name':'Dockers hasta 40% de desc',
+     'creative':'h_banner_secun',
+     'position':'26'
+     }			
+				
+				
                
                         ]
                     }
