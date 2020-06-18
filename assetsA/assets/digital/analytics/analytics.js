@@ -579,7 +579,7 @@ function myOnloadFunction(pageName,path) {
      'position':'14'
      }, {
      'id':'ropa_deportiva_180620',
-     'name':'Ropa Deportiva hasta 20% de desc',
+     'name':'Ropa Deportiva hasta 30% de desc',
      'creative':'h_banner_secun',
      'position':'15'
      }, {
