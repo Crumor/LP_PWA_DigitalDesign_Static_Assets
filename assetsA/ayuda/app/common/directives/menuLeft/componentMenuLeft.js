@@ -28,7 +28,7 @@
 
                 };
                 $scope.openLevel2 = function(event,obj1,obj2, index){
-      console.log(obj2);
+  
                   var _rootElement   = $( element );
                     var elemento    = $( event.currentTarget );
                     var submenu     = $( element ).find( ".submenu .submenu" );
@@ -36,12 +36,13 @@
                     _rootElement.find( "[class*='icon-ayuda-flecha-arriba']" ).removeClass( "active" );
                     var idExpetionAnswers = ["200012","200011","200010","20001","20002","20003","20004","20005","20006","20007","20008","20009","200013"];
                     var defaultUrl = "/sec/"+obj1.link+"/";
-                    if(obj2.subnivel){//verificamos si tiene un submenu
+                    if(obj2.subnivel.length>0){//verificamos si tiene un submenu
                         if( !elemento.next().is( ":visible" ) ){
                             submenu.slideUp("slow");
                             elemento.next().slideDown( "slow" );
                             elemento.find( "[class*='icon-ayuda-flecha-arriba']" ).addClass( "active" );
                         }
+                       
                     }else{
                         submenu.slideUp("slow");
                         idExpetionAnswers.forEach(function(val){
@@ -52,7 +53,7 @@
                     }
                 };
                 $scope.openLevel3 = function(event,obj1,obj2,obj3){
-                    console.log(obj3);
+                  
                         $location.path( "/sec/"+obj1.link+"/"+obj2.link+"/"+obj3.link );
 
                 };

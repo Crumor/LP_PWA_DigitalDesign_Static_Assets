@@ -103,7 +103,9 @@
             $scope.subnivel = [];
             $scope.linkCategory = $routeParams.link;
             $scope.linkCategory2 = $routeParams.hasOwnProperty("link2") ? $routeParams.link2 : "";
+            console.log("category");
             serviceMenu.get( function( data ){
+                console.log(data);
                 var response = [];
                 if($scope.linkCategory2!="")
                     response    = Menu.resetLink( $scope.linkCategory2 );
@@ -113,6 +115,7 @@
                 $scope.subnivel = response.actualCategory.subnivel;
                 beforeCategory = response.beforeCategory;
                 nivel =  response.nivel;
+           
             });
             $scope.goTo = function(n){
                 
@@ -123,14 +126,25 @@
                 if( $scope.linkCategory2!="" ){
                     defaultUrlContent = "/cont/"+$scope.linkCategory+"/"+$scope.linkCategory2+"/"+n.link;
                 }
-                if( n.subnivel ){
+                
+                if( n.subnivel){
+                  if(n.subnivel.length>0){
                     idExpetionAnswers.forEach( function( d ){
                             if(n.idMenu === d){
                                 defaultUrl ="/faq/"
                             };
                     });
                     $location.path( defaultUrl+"/");
+                  }else{
+                                          idExpetionAnswers.forEach( function( d ){
+                            if(n.idMenu === d){
+                                defaultUrlContent ="/faq/"+n.link+"/";
+                            };
+                    });          
+                    $location.path( defaultUrlContent);
+                  }
                 }else{
+                      
                     idExpetionAnswers.forEach( function( d ){
                             if(n.idMenu === d){
                                 defaultUrlContent ="/faq/"+n.link+"/";
@@ -149,7 +163,7 @@
 
         };
         function content( $rootScope, $scope, $location, $routeParams, serviceMenu,Menu,serviceContenido,InfoContenido ){
-
+console.log("contenido");
             var beforeCategory = {};
             var nivel = 0;
             $scope.contenido ="";
@@ -158,7 +172,7 @@
 
 
             serviceContenido.getContenido( $scope.linkCategory, function( data ){
-                
+                console.log(data);
                 if(data.data != null)
                     InfoContenido.set( data.data.contenido );
                     $scope.contenido = InfoContenido.get();
@@ -183,7 +197,7 @@
              };
 
         };
-        function contentAnswer( $rootScope, $scope, $location, $routeParams, serviceMenu,Menu,serviceContenido,InfoContenido,serviceStorage,serviceUpdateVisit ){
+        function contentAnswer( $rootScope, $scope, $location, $routeParams, serviceMenu,Menu,serviceContenido,InfoContenido){
 
             var beforeCategory = {};
             var nivel = 0;
@@ -200,9 +214,7 @@
                             angular.forEach($scope.contenido,function( val, key){
                                 if( val.idPregunta === idPregunta){
                                         existId = true;
-                    visit(val.$id,function(da){
-                      val.active = true;
-                    });
+
                                 }
                             });
 
@@ -224,7 +236,7 @@
             });
 
             $scope.openQuestion = function( event, obj ){
-                visit(obj.$id,function(){});
+                
                 var elemento       = $( event.currentTarget );
                 var _rootElement   = $('.level1');
                 var elementoNext = elemento.next(); 
@@ -249,43 +261,7 @@
                         $location.path("/category/"+beforeCategory.idMenu);*/
 
              };
-       function visit(idQuestion,fn){
-            if (serviceStorage.storageAvailable('localStorage')) {
-                var arrayVotation = localStorage.getItem('mostView');
-                var arrayData = [];
-                if(arrayVotation == null){
-                    // first time to vote
-                    serviceUpdateVisit.update(idQuestion,function(data){
-                        if(typeof(data) === "boolean" && data){
-                            arrayData.push(String(idQuestion));
-                            localStorage.setItem('mostView',JSON.stringify(arrayData));  
-                        }
-                    })
-                    fn(true);
-                }else{
-                    // the variable that contains votes exists
-                    serviceUpdateVisit.update(idQuestion,function(data){
-                        if(typeof(data) === "boolean" && data){
-                            var flg = false;
-                            arrayData = JSON.parse(arrayVotation);
-                            for (var i = 0; i < arrayData.length; i++) {
-                                if(arrayData[i] != idQuestion){
-                                    flg = true;
-                                }else{
-                                    flg = false;
-                                    break;
-                                }
-                            }
-                            if(flg){
-                                arrayData.push(String(idQuestion));
-                                localStorage.setItem('mostView',JSON.stringify(arrayData));  
-                            }
-                        }
-                        fn(flg);
-                    });          
-                }
-            }
-       }//en visit
+
 
         };
 

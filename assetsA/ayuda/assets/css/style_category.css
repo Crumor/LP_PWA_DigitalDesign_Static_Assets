@@ -41,6 +41,7 @@ a:hover {
     margin: 5px 10px;
     font-size: 30px;
     line-height: 30px;
+    font-weight: normal;
 }
 
 .typeHeadCategory {
@@ -111,7 +112,6 @@ ul {
     font-size: 14px;
     line-height: 22px;
     color: #3b3b3e;
-    font-weight: 500;
 }
 
 li {
