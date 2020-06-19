@@ -529,7 +529,7 @@ function myOnloadFunction(pageName,path) {
      'position':'4'
      }, {
      'id':'ferreteria_180620',
-     'name':'Ferretería hasta 30% de desc',
+     'name':'Ferretería hasta 40% de desc',
      'creative':'h_banner_secun',
      'position':'5'
      },	{
