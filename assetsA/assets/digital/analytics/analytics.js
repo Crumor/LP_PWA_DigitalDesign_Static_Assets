@@ -109,153 +109,34 @@ function myOnloadFunction(pageName,path) {
                'position':'A'
                     },
                {
-                'id':'mujer_220620',
-                'name':'Mujer hasta 43% de desc',
+                'id':'mujer_240620',
+                'name':'Mujer hasta 40% de desc',
                 'creative':'h_banner_central',
                 'position':'1'
                },
                
                     {
-                'id':'hombre_220620',
-                'name':'Hombre hasta 43% de desc',
+                'id':'hombre_240620',
+                'name':'Hombre hasta 40% de desc',
                 'creative':'h_banner_central',
                 'position':'2'
                },
-                     {
-               'id':'descuento_adicional_220620',
-               'name':'descuento adicional',
-               'creative':'h_banner_central',
-               'position':'Z'
-                    },       
+                     
                {
-               'id':'credito_230320',
-               'name':'Crédito',
-               'creative':'h_banner_central',
-               'position':'B'
-                    },
-                    {
-                    'id':'slider_decoracion_010420',
-                    'name':'Decoración',
-                    'creative':'h_banner_secun',
-                    'position':'C'
-                         },                    
-                    {
-                    'id':'slider_homeoffice_300320',
-                    'name':'Home office',
-                    'creative':'h_banner_secun',
-                    'position':'D'
-                         },
-                    {
-                    'id':'slider_juegos_mesa_300320',
-                    'name':'Juegos de Mesa',
-                    'creative':'h_banner_secun',
-                    'position':'E'
-                         },
-                    {
-                    'id':'slider_yoga_300320',
-                    'name':'Yoga',
-                    'creative':'h_banner_secun',
-                    'position':'F'
-                         },
-                    {
-                    'id':'slider_instrumentos_060420',
-                    'name':'Instrumentos Musicales',
-                    'creative':'h_banner_secun',
-                    'position':'G'
-                         },
-                    {
-                    'id':'slider_ferreteria_060420',
-                    'name':'Ferreteria',
-                    'creative':'h_banner_secun',
-                    'position':'H'
-                         },
-                    {
-                    'id':'slider_detox_060420',
-                    'name':'Detox',
-                    'creative':'h_banner_secun',
-                    'position':'I'
-                         },
-                    {
-                    'id':'liverpool_pocket_080420',
-                    'name':'Descarga Liverpool Pocket',
-                    'creative':'h_banner_secun',
-                    'position':'J'
-                         },
-                    {
-                    'id':'slider_mascotas_080420',
-                    'name':'Mascotas',
-                    'creative':'h_banner_secun',
-                    'position':'K'
-                         },
-                    {
-                    'id':'slider_aspiradoras_130420',
-                    'name':'Aspiradoras',
-                    'creative':'h_banner_secun',
-                    'position':'L'
-                         },
-                    {
-                    'id':'slider_garmin_130420',
-                    'name':'Garmin',
-                    'creative':'h_banner_secun',
-                    'position':'M'
-                         },
-                     {
-                    'id':'slider_drones_150420',
-                    'name':'Drones',
-                    'creative':'h_banner_secun',
-                    'position':'N'
-                    },
-                         {
-                    'id':'slider_ventiladores_170420',
-                    'name':'ventiladores',
-                    'creative':'h_banner_secun',
-                    'position':'O'
-                         },
-                    {
-                    'id':'slider_fragancias_020620',
-                    'name':'Fragancias',
-                    'creative':'h_banner_secun',
-                    'position':'P'
-                         },
-                         {
-                    'id':'slider_juguetes_200420',
-                    'name':'Juguetes',
-                    'creative':'h_banner_secun',
-                    'position':'Q'
-                         },
-                    {
-                    'id':'slider_beauty_200420',
-                    'name':'Beauty',
-                    'creative':'h_banner_secun',
-                    'position':'R'
-                         },
-                          {
-                    'id':'slider_sets_230420',
-                    'name':'Sets para mamá',
-                    'creative':'h_banner_secun',
-                    'position':'S'
-                         },
-                          {
-                    'id':'slider_kiehls',
-                    'name':'Kiehls',
-                    'creative':'h_banner_secun',
-                    'position':'T'
-                         },
-               {
-               'id':'ninas_y_ninos_220620',
-            'name':'Niñas y Niños hasta 43% de desc',
+               'id':'ninas_y_ninos_240620',
+            'name':'Niñas y Niños hasta 40% de desc',
                 'creative':'h_banner_secun',
                 'position':'3'
                },
                {
-                'id':'bebes_220620',
-            'name':'Bebes hasta 43% de desc',
+                'id':'bebes_240620',
+            'name':'Bebes hasta 40% de desc',
                 'creative':'h_banner_secun',
                 'position':'4'
                },
                {
-                 'id':'zapatos_220620',
-       'name':'Zapatos hasta 43% de desc',
+                 'id':'zapatos_240620',
+       'name':'Zapatos hasta 40% de desc',
                 'creative':'h_banner_secun',
                 'position':'5'
                },
@@ -278,8 +159,8 @@ function myOnloadFunction(pageName,path) {
                'position':'8'
                     },
                {
-               'id':'deportes_220620',
-       'name':'Deportes hasta 43% de desc',
+               'id':'deportes_240620',
+       'name':'Deportes hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'9'
                     },
