@@ -1,13 +1,10 @@
-
-    function myOnloadFunction(pageName,path) {
-    	switch(path){
-
-    		case '/tienda/home':
-				dataLayer.push({
-                'event': 'impresionCampaign',
-                'ecommerce': {
-                    'promoView': {
-                        'promotions': [// Array of promoFieldObjects.
+//Impression Campaign
+window.digitalData.event = window.digitalData.event || [];
+window.digitalData.event.push({
+    eventName: 'Impression Campaign',
+    eventAction: 'customImpressionCampaign',
+    attributes:{
+        'promotions':[// Array of promoFieldObjects.
                             {
            'id':'covid19_010420',
             'name':'Comunicado COVID-19',
