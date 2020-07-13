@@ -342,12 +342,12 @@
     },
     "-Kiozl-kWi-L9rvv3CH8" : {
       "breadcrumb" : "",
-      "contenido" : "     <div class=\"title\">Garantia</div>\n<p>Muchos de los productos que comercializamos se encuentran amparados por una garantía emitida por los fabricantes e importadores de los productos, misma que se apega a las disposiciones legales aplicables.</p><br> <p>La garantía se entregará con el producto(s) adquirido(s), por lo cual te recomendamos consultarla a detalle para conocer el procedimiento para hacerla efectiva, directamente con el fabricante o importador responsable, si requieres algún apoyo te recordamos que podrás contactar al Centro de Atención a Usuarios.</p>",
+      "contenido" : "<script>\nlocation.href=\"https://www.liverpool.com.mx/tienda/paginas/garantia\";\n</script>",
       "grupo" : "",
       "idMenu" : "100012",
-      "link" : "garantia",
+      "link" : "proceso-politicas-garantia",
       "tags" : "",
-      "titulo" : "Garantía",
+      "titulo" : "Proceso y políticas para garantía",
       "visitas" : ""
     },
     "-Kiozl-kWi-L9rvv3XH8" : {
@@ -392,12 +392,12 @@
     },
     "-Kip7HcFZFIHRuVCp9eT" : {
       "breadcrumb" : "",
-      "contenido" : "<div class=\"title\">Productos con codiciones especiales.</div>\n\n<p>Por su naturaleza, así como por cuestiones de higiene y salud, se aceptará la devolución de ciertos productos cuando estos no se han consumido, aprovechado o configurado, ya que pierden su valor y/o funcionalidad:</p>\n<br>\n<p> - Lencería y ropa interior.</p>\n<br>\n<p> - Ropa de Baño.</p>\n<br> \n<p> - Productos de farmacia.</p>\n<br> \n<p> - Productos de cosméticos.</p>\n<br> \n<p> - Perfumería y belleza.</p>\n<br> \n<p> - Fajas, medias y pantimedias.</p>\n<br> \n<p> - Toallas.</p>\n<br> \n<p> - Calcetines.</p>\n<br> \n<p> - Colchones.</p>\n<br> \n<p> - Productos para cama.</p>\n<br> \n<p> - Disfraces.</p>\n<br> \n<p> - Vestidos de Noche.</p>\n<br> \n<p> - Vitaminas y suplementos alimenticios.</p>\n<br> \n<p> - Productos para el cuidado de bebés.</p>\n<br> \n<p> - Productos descargables tales como: software, videojuegos, e-books etc.</p>\n<br> \n<p> - Vinos y licores.</p>\n<br> \n<p> - Coleccionables con empaques sellados.</p>\n<br> \n<p> - Aquellos productos que sean individualizados y configurados de manera personal.</p>\n<br> \n<p> - Y otros similares.</p>\n<br> ",
+      "contenido" : "<div class=\"title\">Productos con condiciones especiales para garantía.</div>\n\n<p>Por su naturaleza, así como por cuestiones de higiene y salud, se aceptará la devolución de ciertos productos cuando estos no se han consumido, aprovechado o configurado, ya que pierden su valor y/o funcionalidad:</p>\n<br>\n<p> - Lencería y ropa interior.</p>\n<br>\n<p> - Ropa de Baño.</p>\n<br> \n<p> - Productos de farmacia.</p>\n<br> \n<p> - Productos de cosméticos.</p>\n<br> \n<p> - Perfumería y belleza.</p>\n<br> \n<p> - Fajas, medias y pantimedias.</p>\n<br> \n<p> - Toallas.</p>\n<br> \n<p> - Calcetines.</p>\n<br> \n<p> - Colchones.</p>\n<br> \n<p> - Productos para cama.</p>\n<br> \n<p> - Disfraces.</p>\n<br> \n<p> - Vestidos de Noche.</p>\n<br> \n<p> - Vitaminas y suplementos alimenticios.</p>\n<br> \n<p> - Productos para el cuidado de bebés.</p>\n<br> \n<p> - Productos descargables tales como: software, videojuegos, e-books etc.</p>\n<br> \n<p> - Vinos y licores.</p>\n<br> \n<p> - Coleccionables con empaques sellados.</p>\n<br> \n<p> - Aquellos productos que sean individualizados y configurados de manera personal.</p>\n<br> \n<p> - Y otros similares.</p>\n<br> ",
       "grupo" : "",
-      "idMenu" : "1000112",
-      "link" : "especificaciones",
+      "idMenu" : "1000122",
+      "link" : "productos-condiciones-especiales",
       "tags" : "",
-      "titulo" : "Especificaciones",
+      "titulo" : "Productos con condiciones especiales para garantía",
       "visitas" : ""
     },
     "-KxsS1eksX2evdnQM87o" : {
@@ -870,31 +870,23 @@
           "link" : "garantia",
           "navegacion" : "",
           "posicion" : 11,
-          "titulo" : "Garantía"
-        },
-        "10kjnasjag6ghj66aesks3" : {
-          "grupo" : "",
-          "idMenu" : "100011",
-          "link" : "mecanismos-devoluciones",
-          "navegacion" : "",
-          "posicion" : 10,
           "subnivel" : {
-            "292092092ajsja" : {
+            "292092092ajsjahfd76" : {
               "grupo" : "",
-              "idMenu" : "1000110",
-              "link" : "devolucion-cambio",
+              "idMenu" : "1000120",
+              "link" : "proceso-politicas-garantia",
               "posicion" : 0,
-              "titulo" : "Proceso"
+              "titulo" : "Proceso y políticas para garantía"
             },
-            "9209dlkjaslkjap0" : {
+            "9209dlkjaslkjap0lkjhg4" : {
               "grupo" : "",
-              "idMenu" : "1000112",
-              "link" : "especificaciones",
+              "idMenu" : "1000122",
+              "link" : "productos-condiciones-especiales",
               "posicion" : 1,
-              "titulo" : "Especificaciones"
+              "titulo" : "Productos con condiciones especiales para garantía"
             }
           },
-          "titulo" : "Devoluciones su proceso y especificaciones."
+          "titulo" : "Garantía Liverpool: Cambios, Devoluciones y Cancelaciones"
         },
         "10kjnasjnaskjagaesks3" : {
           "grupo" : "",
