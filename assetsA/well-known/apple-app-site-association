@@ -38,7 +38,9 @@
           "/tienda/cart",
           "/tienda/users/orderHistory",
           "/tienda/users/orderDetails?orderId=*",
-          "/tienda/users/searchOrderSoms*"
+          "/tienda/users/searchOrderSoms*",
+          "/tienda/users/confirmAccountLink",
+          "/tienda/users/confirmAccountLink/"
         ]
       }
     }
