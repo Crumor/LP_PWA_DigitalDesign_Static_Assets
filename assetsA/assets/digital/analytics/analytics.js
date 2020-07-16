@@ -205,7 +205,121 @@ function myOnloadFunction(pageName,path) {
             'name':'Automotriz hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'14'
-                    }  
+                    },
+							 {
+                'id':'abrimos_170720',
+                'name':'Ya abrimos algunas tiendas',
+                'creative':'h_banner_central',
+                'position':'1'
+               },
+							{
+                'id':'linea_blanca_170720',
+                'name':'Línea Blanca hasta 43% de desc',
+                'creative':'h_banner_central',
+                'position':'2'
+               },
+               {
+               'id':'casa_170720',
+            'name':'Casa hasta 35% de desc',
+                'creative':'h_banner_secun',
+                'position':'3'
+               },
+               {
+                'id':'colchones_170720',
+            'name':'Colchones hasta 43% de desc',
+                'creative':'h_banner_secun',
+                'position':'4'
+               },
+               {
+                 'id':'ferretería_170720',
+       'name':'Ferretería hasta 40% de desc',
+                'creative':'h_banner_secun',
+                'position':'5'
+               },
+               {
+               'id':'muebles_170720',
+       'name':'Muebles hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'6'
+                    },
+               {
+                'id':'mujer_170720',
+            'name':'Mujeres hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'7'
+                    },
+               {
+               'id':'hombre_170720',
+       'name':'Hombres hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'8'
+                    },
+               {
+               'id':'ninos_170720',
+       'name':'Niños hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'9'
+                    },
+               {
+              'id':'bebes_170720',
+            'name':'Bebés hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'10'
+                    },
+ {
+              'id':'zapatos_170720',
+            'name':'Zapatos hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'11'
+                    },
+ {
+              'id':'ropa_dep_170720',
+            'name':'Ropa Deportiva hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'12'
+                    },
+               {
+               'id':'pantallas_170720',
+        'name':'Pantallas hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'13'
+                    },
+ {
+              'id':'computo_170720',
+            'name':'Cómputo hasta 20% de desc',
+               'creative':'h_banner_secun',
+               'position':'14'
+                    },
+ {
+              'id':'videojuegos_170720',
+            'name':'Videojuegos hasta 13 MSI',
+               'creative':'h_banner_secun',
+               'position':'15'
+                    },
+               {
+              'id':'celulares_170720',
+            'name':'Celulares hasta 13 MSI',
+               'creative':'h_banner_secun',
+               'position':'16'
+                    },
+ {
+              'id':'pandora_170720',
+            'name':'Pandora hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'17'
+                    },
+ {
+              'id':'relojes_170720',
+            'name':'Relojes hasta 25% de desc',
+               'creative':'h_banner_secun',
+               'position':'18'
+                    },
+               {
+              'id':'beauty_170720',
+            'name':'Beauty hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'19'
+                    }   
                         ]
                     }
                 }
