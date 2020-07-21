@@ -109,100 +109,100 @@ function myOnloadFunction(pageName,path) {
                'position':'A'
                     },
                {
-                'id':'mujer_130720',
-                'name':'Mujer hasta 50% de desc',
+                'id':'hombre_200720',
+                'name':'Hombre hasta 50% de desc',
                 'creative':'h_banner_central',
                 'position':'1'
                },
                
                     {
-                'id':'hombre_130720',
-                'name':'Hombre hasta 50% de desc',
+                'id':'mujer_200720',
+                'name':'Mujer hasta 50% de desc',
                 'creative':'h_banner_central',
                 'position':'2'
                },
                      
                {
-               'id':'zapatos_130720',
-            'name':'Zapatos hasta 50% de desc',
+               'id':'bebes_200720',
+            'name':'Bebés hasta 50% de desc',
                 'creative':'h_banner_secun',
                 'position':'3'
                },
                {
-                'id':'bebes_130720',
-            'name':'Bebés hasta 50% de desc',
+                'id':'zapatos_200720',
+            'name':'Zapatos hasta 50% de desc',
                 'creative':'h_banner_secun',
                 'position':'4'
                },
                {
-                 'id':'niños_130720',
-       'name':'Niños hasta 50% de desc',
+                 'id':'niñas_niños_200720',
+       'name':'Niñas y niños hasta 50% de desc',
                 'creative':'h_banner_secun',
                 'position':'5'
                },
                {
-               'id':'pandora_130720',
-       'name':'Pandora hasta 40% de desc',
+               'id':'computo_200720',
+       'name':'Cómputo hasta 20% de desc',
                'creative':'h_banner_secun',
                'position':'6'
                     },
                {
-                'id':'relojes_130720',
-            'name':'Relojes hasta 25% de desc',
+                'id':'pantallas_200720',
+            'name':'Pantallas hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'7'
                     },
                {
-               'id':'dyson_130720',
-       'name':'Dyson hasta 13 msi',
+               'id':'celulares_200720',
+       'name':'Celulares hasta 13 msi',
                'creative':'h_banner_secun',
                'position':'8'
                     },
                {
-               'id':'linea_blanca_130720',
-       'name':'Línea Blanca hasta 40% de desc',
+               'id':'aires_acondicionados_200720',
+       'name':'Aires Acondicionados hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'9'
                     },
                {
-              'id':'casa_130720',
-            'name':'Casa hasta 35% de desc',
+              'id':'electricos_200720',
+            'name':'Eléctricos hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'10'
                     },
  {
-              'id':'muebles_130720',
-            'name':'Muebles hasta 30% de desc',
+              'id':'muebles_jardin_200720',
+            'name':'Muebles de Jardín hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'11'
                     },
  {
-              'id':'deportes_130720',
-            'name':'Deportes hasta 50% de desc',
+              'id':'colchones_200720',
+            'name':'colchones hasta 43% de desc',
                'creative':'h_banner_secun',
                'position':'12'
                     },
                {
-               'id':'pantallas_130720',
-        'name':'Pantallas hasta 25% de desc',
+               'id':'linea_blanca_200720',
+        'name':'Línea Blanca hasta 43% de desc',
                'creative':'h_banner_secun',
                'position':'13'
                     },
  {
-              'id':'celulares_130720',
-            'name':'Ceulares hasta 13 msi',
+              'id':'deportes_200720',
+            'name':'Deportes hasta 50% de desc',
                'creative':'h_banner_secun',
                'position':'10'
                     },
  {
-              'id':'ferreteria_130720',
-            'name':'Ferretería hasta 40% de desc',
+              'id':'pandora_200720',
+            'name':'Pandora hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'10'
                     },
                {
-              'id':'automotriz_130720',
-            'name':'Automotriz hasta 40% de desc',
+              'id':'lentes_200720',
+            'name':'Lentes hasta 50% de desc',
                'creative':'h_banner_secun',
                'position':'14'
                     },
