@@ -82,7 +82,7 @@
     },
     "-KiWehcReRMksQUcC_iH" : {
       "breadcrumb" : "",
-      "contenido" : "<div class=\"title\">Cuenta y registro</div><div class=\"subtitle\">Perfil del consumidor</div><p>Para realizar tus compras a través de nuestro portal es posible que se te solicite realizar un registro y crear una cuenta proporcionando cierta información personal, la cual será resguardada de manera confidencial, te rogamos revisar nuestro Aviso de Privacidad.  En dicha cuenta podrás asociar tu método de pago preferido para realizar tus compras, te pedimos que antes de guardar tu información personal verifiques que esta sea correcta, es responsabilidad del Cliente proporcionar datos claros y verídicos, así como de  mantenerlos actualizados.  Durante el registro deberás generar una contraseña de acceso conformada por 8 caracteres alfanuméricos, te pedimos resguardar la contraseña y datos de tu cuenta de manera confidencial, ya que con ello podrás acceder desde cualquier dispositivo electrónico, por lo anterior, el titular eres responsable de todas las actividades que ocurran bajo dicha cuenta y contraseña.  Te sugerimos restringir el acceso a tu dispositivo electrónico con los mecanismos de seguridad con los que cuenta el mismo. Cualquier uso no autorizado de tu contraseña o cuenta debe ser notificado a LIVERPOOL ya que de ninguna manera nosotros seremos responsables directa o indirectamente por cualquier pérdida o daño de cualquier tipo incurrido que resulte de la falta de cumplimiento a la presente condición.</p><br> <p>LIVERPOOL comercializa diversos productos para menores de edad; sin embargo, la(s) compra(s) y transacciones se deberán realizar por personas mayores de edad, o en su caso, estar accediendo bajo supervisión y consentimiento de tus padres o tutores. Se deberá contar con alguno de los medios de pago asociados a su cuenta, en caso de estar registrado; de lo contrario, se solicitará un método de pago válido. Para más información te sugerimos revisar dentro de nuestro sitio la sección denominada <b>PAGOS Y REGISTROS.</b></p>",
+      "contenido" : "<div class=\"title\">Cuenta y registro</div><div class=\"subtitle\">Perfil del consumidor</div>\n<div style=\"text-align:justify;\">\n<p>Para realizar tus compras a través de nuestro portal es posible que se te solicite realizar un registro y crear una cuenta proporcionando cierta información personal, la cual será resguardada de manera confidencial, te rogamos revisar nuestro Aviso de Privacidad.  En dicha cuenta podrás asociar tu método de pago preferido para realizar tus compras, te pedimos que antes de guardar tu información personal verifiques que esta sea correcta, es responsabilidad del Cliente proporcionar datos claros y verídicos, así como de  mantenerlos actualizados.  Durante el registro deberás generar una contraseña de acceso conformada por 8 caracteres alfanuméricos, te pedimos resguardar la contraseña y datos de tu cuenta de manera confidencial, ya que con ello podrás acceder desde cualquier dispositivo electrónico, por lo anterior, el titular eres responsable de todas las actividades que ocurran bajo dicha cuenta y contraseña.  Te sugerimos restringir el acceso a tu dispositivo electrónico con los mecanismos de seguridad con los que cuenta el mismo. Cualquier uso no autorizado de tu contraseña o cuenta debe ser notificado a LIVERPOOL ya que de ninguna manera nosotros seremos responsables directa o indirectamente por cualquier pérdida o daño de cualquier tipo incurrido que resulte de la falta de cumplimiento a la presente condición.</p>\n\n<p>\nPodrás generar un usuario con  tu registro en la plataforma Facebook para ingresar y realizar compras desde el portal de Liverpool y App Liverpool Pocket, te recomendamos revisar los términos y condiciones de la plataforma Facebook relacionados con la privacidad de la información, asimismo Liverpool no será responsable de la información que fue proporcionada a dicho sitio misma  que servirá para registrarse como usuario de nuestras plataformas.\n</p>\n<p>\nRecuerda que tu usuario y contraseña de Facebook puede servirte para iniciar sesión en el app de Liverpool, por ello es de suma importancia su resguardo. \n</p>\n<p>\nEs importante que revises la información que proporcionaste o en su caso que proporciones información actualizada, con el objetivo de brindarte un buen servicio, ya que de lo contrario no contaremos con elementos suficientes para procesar o entregar tus pedidos.\nEn caso de que detectemos que la cuenta de correo electrónico del perfil de Facebook  o en medio de pago (tarjeta de crédito o débito) ya se encuentra registrada con otro usuario o cuenta de correo, no podremos realizar el registro desde el perfil de Facebook y prevalecerá el registro que hayas realizado en Liverpool, hasta en tanto no lo modifiques.\n</p>\n<p>\nEn caso de que el usuario ya cuente con un registro en Liverpool y desee utilizar su usuario de Facebook, será indispensable primero seguir el proceso de autenticación que Liverpool le solicite para poder efectuarlo. \n</p>\n<p>\nDebido a que los usuarios y contraseñas de tú o tus dispositivos móviles y de las aplicaciones como Facebook, son de uso personal y sirven para validar las transacciones realizadas en la plataforma Liverpool y el APP te recomendamos  resguardarlos ya que Liverpool no será responsable del uso que se les dé, así como de las transacciones que se lleguen a realizar, por ello te recomendamos que cierres tus sesiones y cuentes con una contraseña en tu dispositivo móvil.\n\n</p>\n <p>LIVERPOOL comercializa diversos productos para menores de edad; sin embargo, la(s) compra(s) y transacciones se deberán realizar por personas mayores de edad, o en su caso, estar accediendo bajo supervisión y consentimiento de tus padres o tutores. Se deberá contar con alguno de los medios de pago asociados a su cuenta, en caso de estar registrado; de lo contrario, se solicitará un método de pago válido. Para más información te sugerimos revisar dentro de nuestro sitio la sección denominada <b>PAGOS Y REGISTROS.</b></p>\n</div>",
       "grupo" : "",
       "idMenu" : "100051",
       "link" : "perfil-consumidor",
@@ -777,17 +777,17 @@
         "10kjnasjnaskjagaesks3" : {
           "grupo" : "",
           "idMenu" : "200010",
-          "link" : "otros-temas",
+          "link" : "inicio-sesion-con-facebook",
           "navegacion" : "",
-          "posicion" : 7,
-          "titulo" : "Otros temas"
+          "posicion" : 5,
+          "titulo" : "Inicio de sesión con Facebook"
         },
         "1kjnasjnaskjaksks" : {
           "grupo" : "",
           "idMenu" : "20001",
           "link" : "preguntas-mas-buscadas",
           "navegacion" : "",
-          "posicion" : 0,
+          "posicion" : 7,
           "titulo" : "Preguntas más buscadas"
         },
         "2kjnasjnaskjaksks32" : {
@@ -795,7 +795,7 @@
           "idMenu" : "20002",
           "link" : "credito",
           "navegacion" : "",
-          "posicion" : 1,
+          "posicion" : 0,
           "titulo" : "Crédito"
         },
         "4kjnasjnaskjaksks23" : {
@@ -803,7 +803,7 @@
           "idMenu" : "20005",
           "link" : "mesa-de-regalos",
           "navegacion" : "",
-          "posicion" : 2,
+          "posicion" : 1,
           "titulo" : "Mesa de regalos"
         },
         "8kjnasjnaskjakskskjs" : {
@@ -811,7 +811,7 @@
           "idMenu" : "200020",
           "link" : "acerca-de-nosotros",
           "navegacion" : "",
-          "posicion" : 4,
+          "posicion" : 3,
           "titulo" : "Acerca de nosotros"
         },
         "9kjnasjnaskjawiursskssd" : {
@@ -819,7 +819,7 @@
           "idMenu" : "20009",
           "link" : "seguridad-del-sitio",
           "navegacion" : "",
-          "posicion" : 5,
+          "posicion" : 4,
           "titulo" : "Seguridad del Sitio"
         },
         "fjkjnasjnaskjaksks21" : {
@@ -827,7 +827,7 @@
           "idMenu" : "20006",
           "link" : "soporte-tecnico",
           "navegacion" : "",
-          "posicion" : 3,
+          "posicion" : 2,
           "titulo" : "Soporte técnico"
         }
       },
@@ -1483,39 +1483,39 @@
       "tags" : "",
       "visitas" : 2
     },
-    "-L7k38lsZNdL0v0Vv9_t" : {
+    "-MCs2iDHqTFY1FQSwCRC" : {
       "breadcrumb" : "",
       "grupo" : "",
       "idMenu" : "200010",
-      "idPregunta" : "10001011",
+      "idPregunta" : "2000101",
       "link" : "",
-      "menu" : "Otros temas",
-      "pregunta" : "¿Cómo puedo cotizar un viaje en Liverpool?",
-      "respuesta" : "<p> Puedes llamar a cualquiera de nuestras agencias que tenemos para ti, da clic<a href=\"https://wst.liverpool.com.mx/tienda/browse/store.jsp\"> aquí</a>  para conocer la tienda más cerca a tu domicilio y un asesor de viajes te brinde mayor información.   </p>",
+      "menu" : "inicio-sesion-con-facebook",
+      "pregunta" : "Creación de cuenta mediante Facebook",
+      "respuesta" : "<p>Podrás utilizar tu cuenta de Facebook para crear una cuenta en liverpool.com.mx, liverpool pocket o en las boutiques williams-sonoma.com.mx, potterybarn.com.mx, westelm.com.mx y potterybarnkids.com.mx siguiendo los siguientes pasos:<p>\n<p>\n<ul style=\"list-style-type: square;  margin-left:30px;\">\n<li>\nDesde el formulario de creación de cuenta selecciona el botón Regístrate con Facebook inicia sesión con Facebook> otorga los permisos correspondientes y tu cuenta será creada.\n</li>\n<li>\nDesde la pantalla de inicio de sesión selecciona el botón Acceder con Facebook> inicia sesión con Facebook> otorga los permisos correspondientes y tu cuenta será creada.\n</li>\n</ul>\n</p>\n<p>\nPodrás realizar los siguientes inicios de sesión mediante Facebook.\n</p>\n<p>\n<ul style=\"list-style-type: square; margin-left:30px;\">\n<li>\nUna vez creada tu cuenta puedes revisar y editar los datos obtenidos con Facebook en la sección de Mi cuenta.\n</li>\n<li>\nSi tu cuenta de Facebook fue creada por medio de tu número telefónico será necesario ingreses un correo.\n</li>\n</ul>\n</p>",
       "tags" : "",
       "visitas" : 0
     },
-    "-L7k4loqVpiIlez6DGhn" : {
+    "-MCs2rTtNXMDmH69km6L" : {
       "breadcrumb" : "",
       "grupo" : "",
       "idMenu" : "200010",
-      "idPregunta" : "10001012",
+      "idPregunta" : "2000102",
       "link" : "",
-      "menu" : "Otros temas",
-      "pregunta" : "¿Cómo puedo cotizar un viaje en Liverpool?",
-      "respuesta" : "<p>Puedes comprar en línea en la pagina de Liverpool. Da clic <a href=\"https://wst.liverpool.com.mx/tienda/browse/store.jsp\"> aquí</a> para conocer la tienda más cerca a tu domicilio.    </p>",
+      "menu" : "inicio-sesion-con-facebook",
+      "pregunta" : "Login con Facebook de cuenta preexistente",
+      "respuesta" : "<p>Si ya tienes una cuenta existente en liverpool.com.mx, liverpool pocket o en las boutiques williams-sonoma.com.mx, potterybarn.com.mx, westelm.com.mx y potterybarnkids.com.mx podrás iniciar sesión mediante Facebook siempre y cuando el correo que tienes con Facebook sea el mismo al de tu usuario previo. <p>\n<p>Si son correos diferentes se creará una nueva cuenta, te recomendamos realices la vinculación y así todos los datos de tu cuenta (métodos de pago, direcciones de entrega e historial de pedidos) se verán reflejados. <p>\n<p>Para realizar la vinculación de cuentas solo necesitarás seleccionar la opción Acceder con Facebook</p>\n<ul style=\"list-style-type: square; margin-left:30px;\">\n<li>\n ingresar el correo de tu cuenta previa</li>\n<li>autoriza la vinculación mediante el correo que te enviaremos para verificar que eres tu.</li>\n</ul>\n<p>\nPor motivos de seguridad no se podrá iniciar sesión con Facebook si tu cuenta fue creada con un número telefónico.\n</p>\n<p> En este caso te pedimos iniciar sesión mediante tu correo y contraseña y si no cuentas con tu contraseña podrás reponerla al dar click en ¿Olvidaste tu contraseña? en la pantalla de inicio de sesión.</p>",
       "tags" : "",
       "visitas" : 0
     },
-    "-L7k6ApEhYXFOl0AW3BA" : {
+    "-MCs320Pm1Db8qIK8bHk" : {
       "breadcrumb" : "",
       "grupo" : "",
-      "idMenu" : "200012",
-      "idPregunta" : "1000121",
+      "idMenu" : "200010",
+      "idPregunta" : "2000103",
       "link" : "",
-      "menu" : "Otros Temas",
-      "pregunta" : "",
-      "respuesta" : ".",
+      "menu" : "inicio-sesion-con-facebook",
+      "pregunta" : "Mesa de regalos",
+      "respuesta" : "<p>Si tienes una mesa de regalos por motivos de seguridad necesitarás tener una contraseña para hacer retiros anticipados o realizar el cierre ya sea tanto online como en tiendas físicas.</p>\n<p>\nSi creaste tu cuenta mediante Facebook puedes asignar una contraseña en la sección de Mi cuenta.\n</p>\n<p>\n\tSi ya cuentas con una contraseña pero no la recuerdas e inicias sesión mediante Facebook necesitarás:\n</p>\n<p>\n<ol style=\"list-style: decimal;margin-left: 30px;\">\n<li>Cerrar sesión</li>\n        <li>Ir a la pantalla de Iniciar sesión y dar clic en ¿Olvidaste tu contraseña?</li>\n          <li>Asignar una nueva contraseña.  </li>\n\n</ol>\n</p>\n<p>Recuerda revisar los <a href=\"https://assetspwaqa.liverpool.com.mx/ayuda/index.html#/sec/terminos-y-condiciones/cuenta-registro/perfil-consumidor\">Términos y condiciones</a> sobre la utilización de Facebook.</li></ol></p>",
       "tags" : "",
       "visitas" : 0
     },
