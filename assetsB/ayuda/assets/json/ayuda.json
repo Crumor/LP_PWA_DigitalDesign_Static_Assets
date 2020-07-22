@@ -550,6 +550,16 @@
       "titulo" : "",
       "visitas" : ""
     },
+    "-MCsW9h29dwAJJRjPois" : {
+      "breadcrumb" : "",
+      "contenido" : "<div class=\"title\">Retiros anticipados y Cierres de eventos</div>\n<p style=\"font-size: 16px; font-weight: bold;\">Cierre: </p>\n<p>Se podrá realizar el cierre una vez se haya cumplido la fecha asignada al evento, aunque no se llegue al periodo de vigencia. </p>\n<p>Si tu evento es de Gran día recibirás en monedero el monto acumulado de regalos electrónicos disponibles y el 10% de bonificación del total de tus compras y regalos recibidos*.</p> \n<p>Si tu evento es de Toda ocasión, recibirás en monedero el monto acumulado de regalos electrónicos disponibles. Si tus compras y regalos recibidos acumulan un total de $5,000 podrás seleccionar enviar a tu dirección o recoger en tienda tu regalo de cierre.</p>\n<p>*Aplica solo artículos de secciones participantes.</p>\n\n<p style=\"font-size: 16px; font-weight: bold;\">Retiros Parciales:</p>\n<p>Podrás disponer de tu dinero electrónico en monedero, restando ese monto del total de tus compras, solo no olvides ingresar nuevamente tus compras para no perder el 10% de bonificación*. </p>\n<p>En caso de regalos electrónicos y certificados de regalos, el retiro podrá estar disponible 24 hr después de la compra.</p>\n<p>*Para poder hacer el retiro será necesario contar con la Tarjeta de Liverpool DILISA, LPC o un monedero exclusivo de Mesa de Regalos.</p>\n<p style=\"font-size: 16px; font-weight: bold;\">\nUsuarios con Facebook:\n</p>\n<p>Si tienes una mesa de regalos por motivos de seguridad necesitarás tener una contraseña para hacer retiros anticipados o realizar el cierre ya sea tanto online como en tiendas físicas.</p>\n<p>\nSi creaste tu cuenta mediante Facebook puedes asignar una contraseña en la sección de Mi cuenta.\n</p>\n<p>\n\tSi ya cuentas con una contraseña pero no la recuerdas e inicias sesión mediante Facebook necesitarás:\n</p>\n<p>\n<ol style=\"list-style: decimal;margin-left: 30px;\">\n<li>Cerrar sesión</li>\n        <li>Ir a la pantalla de Iniciar sesión y dar clic en ¿Olvidaste tu contraseña?</li>\n          <li>Asignar una nueva contraseña.  </li>\n\n</ol>\n</p>\n<p>Recuerda revisar los <a href=\"https://assetspwaqa.liverpool.com.mx/ayuda/index.html#/sec/terminos-y-condiciones/cuenta-registro/perfil-consumidor\">Términos y condiciones</a> sobre la utilización de Facebook.</p>",
+      "grupo" : "",
+      "idMenu" : "30048",
+      "link" : "retiros-anticipados-cierres-eventos",
+      "tags" : "",
+      "titulo" : "",
+      "visitas" : ""
+    },
     "Ki7A7DHSHSKSHKD" : {
       "breadcrumb" : "",
       "contenido" : "<div class=\"title\">Ventas Corporativas</div><p>Ventas Corporativas de Liverpool es el canal de venta que atiende específicamente a las empresas, sin importar su giro, tamaño o ubicación.</p><p><b>*Monedero Electrónico:</b> Es la perfecta herramienta para premiar a tus clientes o colaboradores ya que se pueden abonar por cualquier monto y funcionan en todos los almacenes de Liverpool, incluyendo Boutiques (GAP, Banana Republic, Williams Sonoma, Pottery Barn, West Elm, MAC).</p> <p><b>*Mercancía por Volumen:</b> Disfruta del mejor proveedor de todo tipo de mercancía, desde una pluma hasta una pantalla.</p><p>En Ventas Corporativas de Liverpool nos adecuamos a tus necesidades, con envío sin costo a tus oficinas en una o varias ciudades.</p><p><b>*Eventos empresariales:</b> Buscas una experiencia a puerta cerrada en tienda o deseas una tienda Liverpool en tu empresa.</p><p>Contáctanos, con gusto te enviaremos información y la cotización de tu interés: </p><p><a href=\"mailto:ventascorporativas@liverpool.com.mx\">ventascorporativas@liverpool.com.mx</a></p><p>55 48 55 91 01 Sandy Flores<br>55 4855 6522   Diana Rey<br>55 4520 4052   Leon Rivero<br></p><p>Tel. 52683000 Ext. 1207, 3901, 3999 </p>",
@@ -717,21 +727,21 @@
           "grupo" : "",
           "idMenu" : "30044",
           "link" : "vx",
-          "posicion" : 3,
+          "posicion" : 2,
           "titulo" : "XV años"
         },
         "sdasdasdasdad22431" : {
           "grupo" : "",
           "idMenu" : "30043",
           "link" : "invitados",
-          "posicion" : 6,
+          "posicion" : 5,
           "titulo" : "Invitados"
         },
         "sdasdasdasdad224331" : {
           "grupo" : "",
           "idMenu" : "30045",
           "link" : "tipo-de-eventos",
-          "posicion" : 7,
+          "posicion" : 3,
           "titulo" : "Despedidas, aniversarios, comunión, bautizos, cumpleaños"
         },
         "sdasdasdasdad23" : {
@@ -752,8 +762,15 @@
           "grupo" : "",
           "idMenu" : "30047",
           "link" : "lista-de-sugerencias",
-          "posicion" : 2,
+          "posicion" : 6,
           "titulo" : "Lista de sugerencias"
+        },
+        "sdasdfghjkl8765sdfghjk" : {
+          "grupo" : "",
+          "idMenu" : "30048",
+          "link" : "retiros-anticipados-cierres-eventos",
+          "posicion" : 7,
+          "titulo" : "Retiros anticipados y Cierres de eventos"
         }
       },
       "titulo" : "Mesa de regalos"
