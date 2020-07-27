@@ -109,100 +109,94 @@ function myOnloadFunction(pageName,path) {
                'position':'A'
                     },
                {
-                'id':'hombre_200720',
-                'name':'Hombre hasta 50% de desc',
+                'id':'hombre_270720',
+                'name':'Hombre hasta 60% de desc',
                 'creative':'h_banner_central',
                 'position':'1'
                },
                
                     {
-                'id':'mujer_200720',
-                'name':'Mujer hasta 50% de desc',
+                'id':'mujer_270720',
+                'name':'Mujer hasta 60% de desc',
                 'creative':'h_banner_central',
                 'position':'2'
                },
                      
                {
-               'id':'bebes_200720',
-            'name':'Bebés hasta 50% de desc',
+               'id':'bebes_270720',
+            'name':'Bebés hasta 60% de desc',
                 'creative':'h_banner_secun',
                 'position':'3'
                },
                {
-                'id':'zapatos_200720',
-            'name':'Zapatos hasta 50% de desc',
+                'id':'niños_270720',
+            'name':'Niñoss hasta 60% de desc',
                 'creative':'h_banner_secun',
                 'position':'4'
                },
                {
-                 'id':'niñas_niños_200720',
-       'name':'Niñas y niños hasta 50% de desc',
+                 'id':'zapatos_270720',
+       'name':'Zapatos hasta 60% de desc',
                 'creative':'h_banner_secun',
                 'position':'5'
                },
                {
-               'id':'computo_200720',
-       'name':'Cómputo hasta 20% de desc',
+               'id':'ropa_deportiva_270720',
+       'name':'Ropa Deportiva hasta 60% de desc',
                'creative':'h_banner_secun',
                'position':'6'
                     },
                {
-                'id':'pantallas_200720',
-            'name':'Pantallas hasta 25% de desc',
+                'id':'computo_270720',
+            'name':'Cómputo hasta 20% de desc',
                'creative':'h_banner_secun',
                'position':'7'
                     },
                {
-               'id':'celulares_200720',
-       'name':'Celulares hasta 13 msi',
+               'id':'pantallas_270720',
+       'name':'Pantallas hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'8'
                     },
                {
-               'id':'aires_acondicionados_200720',
-       'name':'Aires Acondicionados hasta 40% de desc',
+               'id':'muebles_jardin_270720',
+       'name':'Muebles de Jardín hasta 50% de desc',
                'creative':'h_banner_secun',
                'position':'9'
                     },
                {
-              'id':'electricos_200720',
-            'name':'Eléctricos hasta 40% de desc',
+              'id':'linea_blanca_270720',
+            'name':'Línea Blanca hasta 43% de desc',
                'creative':'h_banner_secun',
                'position':'10'
                     },
  {
-              'id':'muebles_jardin_200720',
-            'name':'Muebles de Jardín hasta 30% de desc',
+              'id':'colchones_270720',
+            'name':'Colchones hasta 43% de desc',
                'creative':'h_banner_secun',
                'position':'11'
                     },
  {
-              'id':'colchones_200720',
-            'name':'colchones hasta 43% de desc',
+              'id':'aires_acondicionados_270720',
+            'name':'Aires Acondicionados hasta 40% de desc',
                'creative':'h_banner_secun',
                'position':'12'
                     },
                {
-               'id':'linea_blanca_200720',
-        'name':'Línea Blanca hasta 43% de desc',
+               'id':'lipstick_270720',
+        'name':'Lípstick Day',
                'creative':'h_banner_secun',
                'position':'13'
                     },
  {
-              'id':'deportes_200720',
-            'name':'Deportes hasta 50% de desc',
-               'creative':'h_banner_secun',
-               'position':'10'
-                    },
- {
-              'id':'pandora_200720',
-            'name':'Pandora hasta 40% de desc',
+              'id':'nyx_270720',
+            'name':'NYX hasta 30% de desc',
                'creative':'h_banner_secun',
                'position':'10'
                     },
                {
-              'id':'lentes_200720',
-            'name':'Lentes hasta 50% de desc',
+              'id':'alimentos_mascotas_270720',
+            'name':'Alimentos para Mascotas hasta 25% de desc',
                'creative':'h_banner_secun',
                'position':'14'
                     },
