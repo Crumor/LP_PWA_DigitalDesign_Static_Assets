@@ -3037,6 +3037,58 @@ dataLayer.push({
 });		
 				
 
+                
+                
+/* POLO RALPH LAUREN */ 
+
+break;
+case '/tienda/ralph-lauren/cat4920000':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_270720',
+    'name': 'RL Main',
+    'creative': 'blp_rl_main',
+    'position': '01'
+},
+{
+    'id': 'nino_270720',
+    'name': 'RL Nino',
+    'creative': 'blp_rl_nino',
+    'position': '02'
+},
+{
+    'id': 'nina_270720',
+    'name': 'RL Nina',
+    'creative': 'blp_rl_nina',
+    'position': '03'
+},
+{
+    'id': 'ella_270720',
+    'name': 'RL Ella',
+    'creative': 'blp_rl_ella',
+    'position': '04'
+},
+{
+    'id': 'bebes_270720',
+    'name': 'RL Bebes',
+    'creative': 'blp_rl_bebes',
+    'position': '05'
+}
+]
+}
+}
+});		
+		
+                
+                
+          
+                
 /* BLP west elm*/
 				
 				
