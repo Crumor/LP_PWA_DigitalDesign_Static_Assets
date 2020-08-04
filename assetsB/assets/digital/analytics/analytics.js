@@ -3893,6 +3893,70 @@ dataLayer.push({
 }
 }
 });
+        
+                
+/* BLP AEROPOSTALE*/ 
+       
+            break;
+            case '/tienda/aéropostale/cat910660':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'playeras_mujer_030820',
+    'name': 'Aero Playeras Mujer',
+    'creative': 'blp_aero_playeras_mujer',
+    'position': '01'
+},
+{
+    'id': 'playeras_hombre_030820',
+    'name': 'Aero Playeras Hombre',
+    'creative': 'blp_aero_playeras_hombre',
+    'position': '02'
+},
+{
+    'id': 'jeans_hombre_230120',
+    'name': 'Aero Jeans Hombre',
+    'creative': 'blp_aero_jeans_hombre',
+    'position': '03'
+},
+{
+    'id': 'jeans_mujer_051119',
+    'name': 'Aero Jeans Mujer',
+    'creative': 'blp_aero_jeans_mujer',
+    'position': '04'
+},
+{
+    'id': 'aerokids-ninas_170620',
+    'name': 'Aero Kids Ninas',
+    'creative': 'blp_aerokids-ninass',
+    'position': '05'
+},
+{
+    'id': 'aerokids-ninos_170620',
+    'name': 'Aero Kids Ninos',
+    'creative': 'blp_aerokids-ninos',
+    'position': '06'
+}
+]
+}
+}
+});
+                               
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
       
 /* BLP APPLE*/ 
