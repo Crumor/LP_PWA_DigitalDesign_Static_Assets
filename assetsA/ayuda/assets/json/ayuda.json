@@ -392,7 +392,7 @@
     },
     "-Kip7HcFZFIHRuVCp9eT" : {
       "breadcrumb" : "",
-      "contenido" : "<div class=\"title\">Productos con condiciones especiales para garantía.</div>\n\n<p>Por su naturaleza, así como por cuestiones de higiene y salud, se aceptará la devolución de ciertos productos cuando estos no se han consumido, aprovechado o configurado, ya que pierden su valor y/o funcionalidad:</p>\n<br>\n<p> - Lencería y ropa interior.</p>\n<br>\n<p> - Ropa de Baño.</p>\n<br> \n<p> - Productos de farmacia.</p>\n<br> \n<p> - Productos de cosméticos.</p>\n<br> \n<p> - Perfumería y belleza.</p>\n<br> \n<p> - Fajas, medias y pantimedias.</p>\n<br> \n<p> - Toallas.</p>\n<br> \n<p> - Calcetines.</p>\n<br> \n<p> - Colchones.</p>\n<br> \n<p> - Productos para cama.</p>\n<br> \n<p> - Disfraces.</p>\n<br> \n<p> - Vestidos de Noche.</p>\n<br> \n<p> - Vitaminas y suplementos alimenticios.</p>\n<br> \n<p> - Productos para el cuidado de bebés.</p>\n<br> \n<p> - Productos descargables tales como: software, videojuegos, e-books etc.</p>\n<br> \n<p> - Vinos y licores.</p>\n<br> \n<p> - Coleccionables con empaques sellados.</p>\n<br> \n<p> - Aquellos productos que sean individualizados y configurados de manera personal.</p>\n<br> \n<p> - Y otros similares.</p>\n<br> ",
+      "contenido" : "<div class=\"title\">Productos con condiciones especiales para garantía.</div>\n\n<p>Por su naturaleza, así como por cuestiones de higiene y salud, se aceptará la devolución de ciertos productos cuando estos no se han consumido, aprovechado o configurado, ya que pierden su valor y/o funcionalidad:</p>\n<br>\n<style>\n\n.ul_clji{\n\tmargin:0; padding:0; float:left; width:45%;\n\tlist-style-type: circle;\n}\n.ul_clji li{\n\tmargin-top:5px;\n}\n@media (max-width: 991px){\n.ul_clji {\nmargin-top:15px;\n   width:100%;\n}\n}\n</style>\n<div>\n<ul class=\"ul_clji\" >\n <li>Lencería y ropa interior.</li>\n\n<li> Ropa de Baño.</li>\n \n <li>Productos de farmacia.</li>\n \n <li>Productos de cosméticos.</li>\n \n <li>Perfumería y belleza.</li>\n \n <li>Fajas, medias y pantimedias.</li>\n \n <li>Toallas.</li>\n \n <li>Calcetines.</li>\n \n <li>Colchones.</li>\n \n <li>Productos para cama.</li>\n\n </ul>\n <ul class=\"ul_clji\">\n <li>Disfraces.</li>\n \n <li>Vestidos de Noche.</li>\n \n <li>Vitaminas y suplementos alimenticios.</li>\n \n <li>Productos para el cuidado de bebés.</li>\n \n <li>Productos descargables tales como: software, videojuegos, e-books etc.</li>\n \n <li>Vinos y licores.</li>\n \n <li>Coleccionables con empaques sellados.</li>\n \n <li>Aquellos productos que sean individualizados y configurados de manera personal.</li>\n \n <li>Y otros similares.</li>\n </ul>\n </div>\n ",
       "grupo" : "",
       "idMenu" : "1000122",
       "link" : "productos-condiciones-especiales",
@@ -863,7 +863,7 @@
           "idMenu" : "100019",
           "link" : "cancelaciones",
           "navegacion" : "",
-          "posicion" : 11,
+          "posicion" : 3,
           "titulo" : "Cancelaciones"
         },
         "10dsfghjkiuyoxxza1" : {
@@ -871,14 +871,14 @@
           "idMenu" : "100017",
           "link" : "contactos-notificaciones",
           "navegacion" : "",
-          "posicion" : 14,
+          "posicion" : 16,
           "titulo" : "Contacto y notificaciones"
         },
         "10dsfghjkiuytrsj29ai" : {
           "grupo" : "",
           "idMenu" : "100018",
           "link" : "productos-descargables",
-          "posicion" : 9,
+          "posicion" : 6,
           "titulo" : "Productos Descargables"
         },
         "10dsfghjkiuytrsks3" : {
@@ -886,7 +886,7 @@
           "idMenu" : "100012",
           "link" : "garantia",
           "navegacion" : "",
-          "posicion" : 11,
+          "posicion" : 2,
           "subnivel" : {
             "292092092ajsjahfd76" : {
               "grupo" : "",
@@ -903,22 +903,22 @@
               "titulo" : "Productos con condiciones especiales para garantía"
             }
           },
-          "titulo" : "Garantía Liverpool: Cambios, Devoluciones y Cancelaciones"
+          "titulo" : "Garantía Liverpool: Cambios y Devoluciones"
         },
         "10kjnasjnaskjagaesks3" : {
           "grupo" : "",
           "idMenu" : "100010",
           "link" : "dudas-reclamaciones-aclaraciones",
           "navegacion" : "",
-          "posicion" : 12,
-          "titulo" : "Dudas, reclamaciones o aclaraciones."
+          "posicion" : 7,
+          "titulo" : "Dudas, reclamaciones o aclaraciones"
         },
         "1929s8bbbkk1a9" : {
           "grupo" : "",
           "idMenu" : "100015",
           "link" : "proteccion-de-datos",
           "navegacion" : "",
-          "posicion" : 13,
+          "posicion" : 8,
           "subnivel" : {
             "lpiquw9uencv11" : {
               "grupo" : "",
@@ -949,14 +949,14 @@
               "titulo" : "Aviso de privacidad Integral Colaboradores"
             }
           },
-          "titulo" : "Protección de datos personales."
+          "titulo" : "Protección de datos personales"
         },
         "2kjnasjnaskjaksks32" : {
           "grupo" : "",
           "idMenu" : "10002",
           "link" : "identificacion-proveedor",
           "navegacion" : "",
-          "posicion" : 1,
+          "posicion" : 9,
           "titulo" : "Identificación del Proveedor"
         },
         "2kjnasrtyui309876ghks32" : {
@@ -964,7 +964,7 @@
           "idMenu" : "1000100",
           "link" : "informacion",
           "navegacion" : "",
-          "posicion" : 0,
+          "posicion" : 1,
           "titulo" : "Terminos y condiciones"
         },
         "3kjnasjnaskjaksksapsl" : {
@@ -972,7 +972,7 @@
           "idMenu" : "10003",
           "link" : "bienes-servicios",
           "navegacion" : "",
-          "posicion" : 2,
+          "posicion" : 10,
           "subnivel" : {
             "dsajcskjd2929" : {
               "grupo" : "",
@@ -996,14 +996,14 @@
               "titulo" : "Características y especificaciones de los bienes, productos y servicios."
             }
           },
-          "titulo" : "Definiciones, condiciones, características y especificaciones de los bienes, productos o servicios."
+          "titulo" : "Definiciones, condiciones, características y especificaciones de los bienes, productos o servicios"
         },
         "4kjnasjnaskjaksks23" : {
           "grupo" : "",
           "idMenu" : "10005",
           "link" : "cuenta-registro",
           "navegacion" : "",
-          "posicion" : 4,
+          "posicion" : 12,
           "subnivel" : {
             "djsaidsiuo2829" : {
               "grupo" : "",
@@ -1020,7 +1020,7 @@
           "idMenu" : "10007",
           "link" : "entregas",
           "navegacion" : "",
-          "posicion" : 6,
+          "posicion" : 4,
           "subnivel" : {
             "392828ssjs91ks" : {
               "grupo" : "",
@@ -1051,7 +1051,7 @@
           "idMenu" : "10008",
           "link" : "otras-modalidades",
           "navegacion" : "",
-          "posicion" : 7,
+          "posicion" : 13,
           "subnivel" : {
             "i2djsdjdajk9" : {
               "grupo" : "",
@@ -1076,7 +1076,7 @@
           "idMenu" : "10009",
           "link" : "disponibilidad",
           "navegacion" : "",
-          "posicion" : 8,
+          "posicion" : 14,
           "subnivel" : "",
           "titulo" : "Disponibilidad de productos"
         },
@@ -1137,22 +1137,22 @@
               "titulo" : "Paypal"
             }
           },
-          "titulo" : "Precio, métodos de pago y facturación."
+          "titulo" : "Precio, métodos de pago y facturación"
         },
         "kjsi29hhsbsbsb1" : {
           "grupo" : "",
           "idMenu" : "100016",
           "link" : "derechos-menu",
           "navegacion" : "",
-          "posicion" : 15,
-          "titulo" : "Derechos de autor, marcas y patentes."
+          "posicion" : 17,
+          "titulo" : "Derechos de autor, marcas y patentes"
         },
         "kjswjnasjnaskjaksks" : {
           "grupo" : "",
           "idMenu" : "10004",
           "link" : "pagos-precios-y-promociones",
           "navegacion" : "",
-          "posicion" : 3,
+          "posicion" : 11,
           "titulo" : "Pagos y registros"
         },
         "kjswjytre98734lcfd12dfg" : {
@@ -1160,7 +1160,7 @@
           "idMenu" : "100013",
           "link" : "seguridad-sitio-menu",
           "navegacion" : "",
-          "posicion" : 12,
+          "posicion" : 15,
           "subnivel" : {
             "jsdkjdsa9019saa55" : {
               "grupo" : "",
@@ -1170,7 +1170,7 @@
               "titulo" : "Seguridad del sitio."
             }
           },
-          "titulo" : "Mecanismos de seguridad: aceptación, prueba e identidad de la transacción."
+          "titulo" : "Mecanismos de seguridad: aceptación, prueba e identidad de la transacción"
         }
       },
       "titulo" : "Términos y condiciones"

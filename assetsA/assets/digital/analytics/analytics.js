@@ -119,6 +119,17 @@ function myOnloadFunction(pageName,path) {
                'name':'Mujer hasta 60% de desc',
                'creative':'h_banner_secun',
                'position':'2'
+                    },	{
+               'id':'last_060820',
+               'name':'The last of us II',
+               'creative':'h_banner_secun',
+               'position':'b'
+                    },
+							{
+               'id':'consola_060820',
+               'name':'Consola PlayStation 4 Fifa',
+               'creative':'h_banner_secun',
+               'position':'c'
                     },
 							{
                'id':'ninos_170720',
@@ -1985,6 +1996,14 @@ dataLayer.push({
 'creative': 'blp_Cómputo_Instrumentos_Musicales',
 'position': '05'
 
+},
+{	
+
+'id': 'computo_050820',
+'name': 'Computo Sufrace',
+'creative': 'blp_computo_surface',
+'position': '14'
+
 }
 ]
 }
@@ -3708,55 +3727,55 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'levis_main_210619',
+    'id': 'levis_main_050820',
     'name': 'Levis Main',
     'creative': 'blp_levis_main',
     'position': '01'
 },
 {
-    'id': 'el_210619',
+    'id': 'levis_el_050820',
     'name': 'Levis El',
     'creative': 'blp_levis_el',
     'position': '02'
 },
 {
-    'id': 'ella_210619',
+    'id': 'levis_ella_050820',
     'name': 'Levis Ella',
     'creative': 'blp_levis_ella',
     'position': '03'
 },
 {
-    'id': 'plus_210619',
+    'id': 'levis_plus_050820',
     'name': 'Levis Plus',
     'creative': 'blp_levis_plus',
     'position': '04'
 },
 {
-    'id': 'chamarras_210619',
+    'id': 'levis_chamarras_050820',
     'name': 'Levis Chamarras',
     'creative': 'blp_levis_chamarras',
     'position': '05'
 },
 {
-    'id': 'camisas_210619',
+    'id': 'levis_camisas_050820',
     'name': 'Levis Camisas',
     'creative': 'blp_levis_camisas',
     'position': '06'
 },
 {
-    'id': 'accesorios_210619',
+    'id': 'levis_accesorios_050820',
     'name': 'Levis Accesorios',
     'creative': 'blp_levis_accesorios',
     'position': '07'
 },
 {
-    'id': 'zapatos_210619',
+    'id': 'levis_zapatos_050820',
     'name': 'Levis Zapatos',
     'creative': 'blp_levis_zapatos',
     'position': '08'
 },
 {
-    'id': 'kids_210619',
+    'id': 'levis_kids_050820',
     'name': 'Levis Kids',
     'creative': 'blp_levis_kids',
     'position': '09'
