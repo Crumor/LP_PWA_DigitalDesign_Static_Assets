@@ -119,6 +119,17 @@ function myOnloadFunction(pageName,path) {
                'name':'Mujer hasta 60% de desc',
                'creative':'h_banner_secun',
                'position':'2'
+                    },	{
+               'id':'last_060820',
+               'name':'The last of us II',
+               'creative':'h_banner_secun',
+               'position':'b'
+                    },
+							{
+               'id':'consola_060820',
+               'name':'Consola PlayStation 4 Fifa',
+               'creative':'h_banner_secun',
+               'position':'c'
                     },
 							{
                'id':'ninos_170720',
