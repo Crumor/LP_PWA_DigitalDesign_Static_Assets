@@ -268,6 +268,11 @@ function myOnloadFunction(pageName,path) {
                'name':'Línea Blanca hasta 40% de desc'',
                'creative':'h_banner_secun',
                'position':'8'
+                    },{
+               'id':'linea_blanca_110820',
+               'name':'Línea Blanca hasta 48% de desc'',
+               'creative':'h_banner_secun',
+               'position':'8'
                     },
 							{
                'id':'muebles_100820',
