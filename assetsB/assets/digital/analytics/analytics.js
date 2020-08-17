@@ -1109,21 +1109,21 @@ dataLayer.push({
     'position': '05'
 },
 {
-    'id': 'ollas_230320',
-    'name': 'Ollas Cocina',
-    'creative': 'blp_cocina_ollas',
+    'id': 'baterias_230320',
+    'name': 'Baterias Cocina',
+    'creative': 'blp_cocina_baterias',
     'position': '06'
 },
 {
     'id': 'vajillas_230320',
     'name': 'Vajillas Cocina',
-    'creative': 'blp_cocina_frigobares',
+    'creative': 'blp_cocina_vajillas',
     'position': '07'
 },
 {
-    'id': 'baterias_230320',
-    'name': 'Baterias Cocina',
-    'creative': 'blp_cocina_baterias',
+    'id': 'ollas_230320',
+    'name': 'Ollas Cocina',
+    'creative': 'blp_cocina_ollas',
     'position': '08'
 },
 {
