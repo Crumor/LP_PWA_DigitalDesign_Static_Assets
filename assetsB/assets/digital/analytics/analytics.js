@@ -102,225 +102,106 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
  
-		{
-               'id':'covid19_030820',
-               'name':'Comunicado COVID-19',
-               'creative':'h_banner_central',
-               'position':'a'
+							{
+                'id':'ninos_170820',
+                'name':'Niños hasta 20% de desc',
+                'creative':'h_banner_secun',
+                'position':'1'
                     },
 							{
-               'id':'hombre_030820',
-               'name':'Hombre hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'1'
-                    },
-							{
-               'id':'mujer_030820',
-               'name':'Mujer hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'2'
+               'id':'ninos_170820',
+                    'name':'Niños hasta 20% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'2'
                     },	{
-               'id':'last_060820',
-               'name':'The last of us II',
-               'creative':'h_banner_secun',
-               'position':'b'
+               'id':'escolares_170820',
+                        'name':'Escolares hasta 30% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'3'
                     },
 							{
-               'id':'consola_060820',
-               'name':'Consola PlayStation 4 Fifa',
-               'creative':'h_banner_secun',
-               'position':'c'
+                'id':'computo_170820',
+                        'name':'Cómputo hasta 15% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'4'
                     },
 							{
-               'id':'ninos_170720',
-               'name':'Niños hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'3'
+               'id':'zapatos_170820',
+                        'name':'Zapatos hasta 20% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'5'
                     },
 							{
-               'id':'zapatos_030820',
-               'name':'Zapatos hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'4'
+                'id':'mujer_170820',
+            'name':'Mujer hasta 20% de desc',
+            'creative':'h_banner_secun',
+            'position':'6'
                     },
 							{
-               'id':'bebes_030820',
-               'name':'Bebés hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'5'
+                'id':'hombre_170820',
+        'name':'Hombre hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'7'
                     },
 							{
-               'id':'proteccion_desinfeccion_030820',
-               'name':'Protección y Desinfección',
-               'creative':'h_banner_secun',
-               'position':'6'
+               'id':'puma_170820',
+            'name':'Puma hasta 30% de desc',
+            'creative':'h_banner_secun',
+            'position':'8'
                     },
 							{
-               'id':'linea_blanca_030820',
-               'name':'Linea Blanca hasta 40% de desc',
-               'creative':'h_banner_secun',
-               'position':'7'
+              'id':'nike_170820',
+        'name':'Nike hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'9'
                     },
 							{
-               'id':'colchones_030820',
-               'name':'Colchones hasta 43% de desc'',
-               'creative':'h_banner_secun',
-               'position':'8'
+               'id':'american_170820',
+            'name':'American Eagle hasta 30% de desc',
+            'creative':'h_banner_secun',
+            'position':'10'
                     },
 							{
-               'id':'muebles_030820',
-               'name':'Muebles hasta 40% de desc',
-               'creative':'h_banner_secun',
-               'position':'9'
+              'id':'proteccion_170820',
+       'name':'Protección y Desinfección',
+       'creative':'h_banner_secun',
+       'position':'12'
                     },
 							{
-               'id':'videojuegos_030820',
-               'name':'Videojuegos hasta 13 MSI',
-               'creative':'h_banner_secun',
-               'position':'10'
+               'id':'muebles_170820',
+            'name':'Muebles hasta 50% de desc',
+            'creative':'h_banner_secun',
+            'position':'13'
                     },
 							{
-               'id':'computo_030820',
-               'name':'Cómpputo hasta 15% de desc',
-               'creative':'h_banner_secun',
-               'position':'11'
+              'id':'colchones_170820',
+                    'name':'Colchones hasta 43% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'14'
                     },
 							{
-               'id':'sonido_030820',
-               'name':'Protección y Desinfección',
-               'creative':'h_banner_secun',
-               'position':'12'
+               'id':'linea_blanca_170820',
+                    'name':'Línea Blanca hasta 44% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'15'
                     },
 							{
-               'id':'celulares_030820',
-               'name':'Celulares hasta 18  MSI',
-               'creative':'h_banner_secun',
-               'position':'13'
+               'id':'purificadores_170820',
+       'name':'Purificadores hasta 15% de desc',
+       'creative':'h_banner_secun',
+       'position':'16'
                     },
 							{
-               'id':'levis_030820',
-               'name':'Levi´s hasta 40% de desc',
-               'creative':'h_banner_secun',
-               'position':'14'
+               'id':'cocina_170820',
+            'name':'Cocina hasta 15% de desc',
+            'creative':'h_banner_secun',
+            'position':'17'
                     },
 							{
-               'id':'ropa_deportiva_030820',
-               'name':'Ropa Deportiva hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'15'
-                    },
-							{
-               'id':'escolares_030820',
-               'name':'Escolares hasta 30% de desc',
-               'creative':'h_banner_secun',
-               'position':'16'
-                    },
-							{
-               'id':'covid19_100820',
-               'name':'Comunicado COVID-19',
-               'creative':'h_banner_central',
-               'position':'a'
-                    },
-							{
-               'id':'hombre_100820',
-               'name':'Hombre hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'1'
-                    },
-							{
-               'id':'mujer_100820',
-               'name':'Mujer hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'2'
-                    },
-							{
-               'id':'bebes_100820',
-               'name':'Bebés hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'3'
-                    },
-							{
-               'id':'ninos_100820',
-               'name':'Niños hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'4'
-                    },
-							{
-               'id':'zapatos_100820',
-               'name':'Zapatos hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'5'
-                    },
-							{
-               'id':'proteccion_desinfeccion_100820',
-               'name':'Protección y Desinfección',
-               'creative':'h_banner_secun',
-               'position':'6'
-                    },
-							{
-               'id':'colchones_100820',
-               'name':'Colchones hasta 43% de desc',
-               'creative':'h_banner_secun',
-               'position':'7'
-                    },
-							{
-               'id':'linea_blanca_100820',
-               'name':'Línea Blanca hasta 40% de desc'',
-               'creative':'h_banner_secun',
-               'position':'8'
-                    },{
-               'id':'linea_blanca_110820',
-               'name':'Línea Blanca hasta 48% de desc'',
-               'creative':'h_banner_secun',
-               'position':'8'
-                    },
-							{
-               'id':'muebles_100820',
-               'name':'Muebles hasta 50% de desc',
-               'creative':'h_banner_secun',
-               'position':'9'
-                    },
-							{
-               'id':'pantallas_100820',
-               'name':'Pantallas hasta 30% de desc',
-               'creative':'h_banner_secun',
-               'position':'10'
-                    },
-							{
-               'id':'computo_100820',
-               'name':'Cómpputo hasta 15% de desc',
-               'creative':'h_banner_secun',
-               'position':'11'
-                    },
-							{
-               'id':'levis_100820',
-               'name':'Levi´s hasta 40% de desc',
-               'creative':'h_banner_secun',
-               'position':'12'
-                    },
-							{
-               'id':'american_eagle_100820',
-               'name':'American Eagle hasta 30% de desc',
-               'creative':'h_banner_secun',
-               'position':'13'
-                    },
-							{
-               'id':'ropa_deportiva_100820',
-               'name':'Ropa Deportiva hasta 60% de desc',
-               'creative':'h_banner_secun',
-               'position':'14'
-                    },
-							{
-               'id':'escolares_100820',
-               'name':'Escolares hasta 30% de desc',
-               'creative':'h_banner_secun',
-               'position':'15'
-                    },
-							{
-               'id':'mascota_100820',
-               'name':'Accesorios para mascota hasta 30% de desc',
-               'creative':'h_banner_secun',
-               'position':'16'
+               'id':'mueblesbebe_170820',
+            'name':'Muebles para bebé hasta 35% de desc',
+            'creative':'h_banner_secun',
+            'position':'18'
                     }
                         ]
                     }
