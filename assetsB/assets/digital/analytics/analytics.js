@@ -1047,81 +1047,81 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'jardin_180320',
-    'name': 'Jardines',
-    'creative': 'blp_muebles_jardines',
+    'id': 'salas_170820',
+    'name': 'Salas',
+    'creative': 'blp_muebles_salas',
     'position': '01'
 },
 {
-    'id': 'oficina_180320',
-    'name': 'Oficina',
-    'creative': 'blp_muebles_oficina',
+    'id': 'cdi_170820',
+    'name': 'CDI',
+    'creative': 'blp_muebles_cdi',
     'position': '02'
 },
 {
-    'id': 'salas_180320',
-    'name': 'Salas',
-    'creative': 'blp_muebles_salas',
+    'id': 'oficina_170820',
+    'name': 'Oficina',
+    'creative': 'blp_muebles_oficina',
     'position': '03'
 },
 {
-    'id': 'colchones_180320',
-    'name': 'Colchones',
-    'creative': 'blp_muebles_colchones',
+    'id': 'jardin_170820',
+    'name': 'Jardin',
+    'creative': 'blp_muebles_jardin',
     'position': '04'
 },
 {
-    'id': 'infantiles_180320',
-    'name': 'Infantiles',
-    'creative': 'blp_muebles_infantiles',
+    'id': 'colchones_170820',
+    'name': 'Colchones',
+    'creative': 'blp_muebles_colchones',
     'position': '05'
 },
 {
-    'id': 'bebe_180320',
-    'name': 'Bebe',
-    'creative': 'blp_muebles_bebe',
+    'id': 'infantiles_170820',
+    'name': 'Infantiles',
+    'creative': 'blp_muebles_infantiles',
     'position': '06'
 },
 {
-    'id': 'sillas_180320',
-    'name': 'Sillas',
-    'creative': 'blp_muebles_sillas',
+    'id': 'bebe_170820',
+    'name': 'Bebe',
+    'creative': 'blp_muebles_bebe',
     'position': '07'
 },
 {
-    'id': 'iluminacion_180320',
-    'name': 'Iluminacion',
-    'creative': 'blp_muebles_iluminacion',
+    'id': 'esculturas_170820',
+    'name': 'Esculturas',
+    'creative': 'blp_muebles_esculturas',
     'position': '08'
 },
 {
-    'id': 'portaretratos_180320',
-    'name': 'Portaretratos',
-    'creative': 'blp_muebles_portaretratos',
+   'id': 'iluminacion_170820',
+    'name': 'Iluminacion',
+    'creative': 'blp_muebles_salas',
     'position': '09'
 },
 {
-    'id': 'tapetes_180320',
-    'name': 'Tapetes',
-    'creative': 'blp_muebles_tapetes',
+    'id': 'portaretrato_170820',
+    'name': 'Portaretrato',
+    'creative': 'blp_muebles_portaretrato',
     'position': '10'
 },
 {
-    'id': 'cuadros_180320',
-    'name': 'Cuadros',
-    'creative': 'blp_muebles_cuadros',
+    'id': 'tapetes_170820',
+    'name': 'Tapetes',
+    'creative': 'blp_muebles_tapetes',
     'position': '11'
 },
 {
-    'id': 'espejos_180320',
-    'name': 'Espejos',
-    'creative': 'blp_muebles_espejos',
+    'id': 'cuadros_170820',
+    'name': 'Cuadros',
+    'creative': 'blp_muebles_cuadros',
     'position': '12'
 },
 {
-    'id': 'cdi_210619',
-    'name': 'CDI',
-    'creative': 'blp_muebles_cdi',
+    'id': 'jarrones_170820',
+    'name': 'Jarrones',
+    'creative': 'blp_muebles_jarrones',
     'position': '13'
 }
 ]
@@ -2880,58 +2880,70 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'gap_main_130220',
-'name': 'gap_Principal',
-'creative': 'blp_gap_main',
-'position': '01'
+        'id': 'gap_main_180820',
+        'name': 'Gap Principal',
+        'creative': 'blp_gap_main',
+        'position': '01'
 },
 {
-'id': 'gap_ella_130220',
-'name': 'gap_ella',
-'creative': 'blp_gap_ella',
-'position': '02'
+        'id': 'gap_mochilas_180820',
+        'name': 'Gap Mochilas',
+        'creative': 'blp_gap_mochilas',
+        'position': '02'
 },
 {
-'id': 'gap_el_130220',
-'name': 'gap_el',
-'creative': 'blp_gap_el',
-'position': '03'
+        'id': 'gap_bebeschool_180820',
+        'name': 'Gap Bebe School',
+        'creative': 'blp_gap_bebeschool',
+        'position': '03'
 },
 {
-'id': 'gap_ninos_130220',
-'name': 'gap_ninos',
-'creative': 'blp_gap_ninos',
-'position': '04'
+        'id': 'gap_ninoschool_180820',
+        'name': 'Gap Nino School',
+        'creative': 'blp_gap_ninoschool',
+        'position': '04'
 },
 {
-'id': 'gap_bebes_130220',
-'name': 'gap_bebes',
-'creative': 'blp_gap_bebes',
-'position': '05'
+        'id': 'gap_mujer_180820',
+        'name': 'Gap Mujer',
+        'creative': 'blp_gap_mujer',
+        'position': '05'
 },
 {
-'id': 'gap_mejordenim_130220',
-'name': 'gap_mejordenim',
-'creative': 'blp_gap_mejordenim',
-'position': '06'
+        'id': 'gap_hombre_180820',
+        'name': 'Gap Hombre',
+        'creative': 'blp_gap_hombre',
+        'position': '06'
 },
 {
-'id': 'gap_khaki_el_170330',
-'name': 'gap_khaki_el',
-'creative': 'blp_gap_khaki_el',
-'position': '07'
+        'id': 'gap_nina_180820',
+        'name': 'Gap Nina',
+        'creative': 'blp_gap_nina',
+        'position': '07'
 },
 {
-'id': 'gap_khaki_ella_170330',
-'name': 'gap_khaki_ella',
-'creative': 'blp_gap_khaki_ella',
-'position': '08'
+        'id': 'gap_nino_180820',
+        'name': 'Gap Nino',
+        'creative': 'blp_gap_nino',
+        'position': '08'
 },
 {
-'id': 'gap_anorak_020320',
-'name': 'gap_anorak',
-'creative': 'blp_gap_anorak',
-'position': '09'
+        'id': 'gap_bebenina_180820',
+        'name': 'Gap Bebe Nina',
+        'creative': 'blp_gap_bebe_nina',
+        'position': '09'
+},
+{
+        'id': 'gap_bebenino_180820',
+        'name': 'Gap Bebe Nino',
+        'creative': 'blp_gap_bebe_nino',
+        'position': '10'
+},
+{
+        'id': 'gap_denim_180820',
+        'name': 'Gap Denim',
+        'creative': 'blp_gap_denim',
+        'position': '11'
 }
 ]
 }
