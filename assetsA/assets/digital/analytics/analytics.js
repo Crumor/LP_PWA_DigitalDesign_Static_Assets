@@ -190,6 +190,11 @@ function myOnloadFunction(pageName,path) {
        'name':'Purificadores hasta 15% de desc',
        'creative':'h_banner_secun',
        'position':'16'
+                    },	{
+               'id':'purificadores_190820',
+       'name':'Purificadores hasta 25% de desc',
+       'creative':'h_banner_secun',
+       'position':'16'
                     },
 							{
                'id':'cocina_170820',
