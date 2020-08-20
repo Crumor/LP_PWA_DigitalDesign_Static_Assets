@@ -207,6 +207,129 @@ function myOnloadFunction(pageName,path) {
             'name':'Muebles para bebé hasta 35% de desc',
             'creative':'h_banner_secun',
             'position':'18'
+                    },
+							{
+                'id':'ninos_240820',
+                    'name':'Niños hasta 20% de desc',
+                'creative':'h_banner_secun',
+                'position':'1'
+                    },
+							{
+               'id':'ninos_240820',
+                    'name':'Niños hasta 25% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'2'
+                    },	{
+               'id':'escolares_240820',
+                        'name':'Escolares hasta 30% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'3'
+                    },
+							{
+                'id':'computo_240820',
+                        'name':'Cómputo hasta 15% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'4'
+                    },
+							{
+                'id':'zapatos_240820',
+                        'name':'Zapatos hasta 20% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'5'
+                    },
+							{
+                 'id':'tablets_240820',
+            'name':'Tablets hasta 15% de desc',
+            'creative':'h_banner_secun',
+            'position':'6'
+                    },
+							{
+                'id':'videojuegos_240820',
+            'name':'Videojuegos hasta 13 MSI',
+            'creative':'h_banner_secun',
+            'position':'7'
+                    },
+							{
+               'id':'pantallas_240820',
+            'name':'Pantallas hasta 25% de desc',
+            'creative':'h_banner_secun',
+            'position':'8'
+                    },
+							{
+               'id':'proteccion_240820',
+       'name':'Protección y Desinfección',
+       'creative':'h_banner_secun',
+       'position':'9'
+                    },
+							{
+                'id':'muebles_240820',
+            'name':'Muebles hasta 50% de desc',
+            'creative':'h_banner_secun',
+            'position':'10'
+                    },
+							{
+              'id':'linea_blanca_240820',
+                    'name':'Línea Blanca hasta 44% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'11'
+                    },
+							{
+                'id':'colchones_240820',
+                    'name':'Colchones hasta 43% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'12'
+                    },
+							{
+              'id':'hombre_240820',
+            'name':'Hombre hasta 20% de desc',
+            'creative':'h_banner_secun',
+            'position':'13'
+                    },
+							{
+                'id':'mujer_240820',
+            'name':'Mujer hasta 20% de desc',
+            'creative':'h_banner_secun',
+            'position':'14'
+                    },
+							{
+               'id':'bebes_240820',
+            'name':'Bebés hasta 20% de desc',
+            'creative':'h_banner_secun',
+            'position':'15'
+                    },	{
+              'id':'deportes_240820',
+            'name':'Deportes hasta 30% de desc',
+            'creative':'h_banner_secun',
+            'position':'16'
+                    },
+							{
+             'id':'levis_240820',
+            'name':'Levi´s hasta 40% de desc',
+            'creative':'h_banner_secun',
+            'position':'17'
+                    },
+							{
+             'id':'nike_240820',
+        'name':'Nike hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'18'
+                    },	{
+                'id':'nyx_240820',
+            'name':'NYX MakeUp hasta 30% de desc',
+            'creative':'h_banner_secun',
+            'position':'19'
+                    },
+							{
+              'id':'optica_240820',
+            'name':'Óptica hasta 20% de desc',
+            'creative':'h_banner_secun',
+            'position':'20'
+                    },
+							{
+             'id':'nike_240820',
+        'name':'Nike hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'18'
                     }
                         ]
                     }
