@@ -2452,111 +2452,111 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'zapatos_main',
-    'name': 'Zapatos Main',
-    'creative': 'blp_zapatos_main',
+    'id': 'zapatos_mujer_sneakers_190820',
+    'name': 'Zapatos Sneakers Mujer',
+    'creative': 'blp_zapatos_sneakers_mujer',
     'position': '01'
 },
 {
-    'id': 'zapatos_tacones',
-    'name': 'Zapatos Tacones',
-    'creative': 'blp_zapatos_tacones',
+    'id': 'zapatos_hombre_sneakers_190820',
+    'name': 'Zapatos Sneakers Hombre',
+    'creative': 'blp_zapatos_sneakers_hombre',
     'position': '02'
 },
 {
-    'id': 'zapatos_sandalias',
-    'name': 'Zapatos Sandalias',
-    'creative': 'blp_zapatos_sandalias',
+    'id': 'zapatos_infantiles_nina_190820',
+    'name': 'Zapatos Infantiles Nina',
+    'creative': 'blp_zapatos_infantiles_nina',
     'position': '03'
 },
 {
-    'id': 'zapatos_sneakers_ella',
-    'name': 'Zapatos Sneakers Ella',
-    'creative': 'blp_zapatos_sneakers_ella',
+    'id': 'zapatos_infantiles_bebes_190820',
+    'name': 'Zapatos Infantiles Bebes',
+    'creative': 'blp_zapatos_infantiles_bebes',
     'position': '04'
 },
 {
-    'id': 'zapatos_botas_ella',
-    'name': 'Zapatos Botas Ella',
-    'creative': 'blp_zapatos_botas_ella',
+    'id': 'zapatos_infantiles_nino_190820',
+    'name': 'Zapatos Infantiles Ninos',
+    'creative': 'blp_zapatos_infantiles_ninos',
     'position': '05'
 },
 {
-    'id': 'zapatos_ella_todo',
-    'name': 'Zapatos Ella Todo',
-    'creative': 'blp_zapatos_ella_todo',
+    'id': 'zapatos_infantiles_deportivos_190820',
+    'name': 'Zapatos Infantiles Deportivos',
+    'creative': 'blp_zapatos_infantiles_deportivos',
     'position': '06'
 },
 {
-    'id': 'zapatos_deportivo_el',
-    'name': 'Zapatos Deportivo El',
-    'creative': 'blp_zapatos_deportivo_el',
+    'id': 'zapatos_infantiles_deportivos_ninos_190820',
+    'name': 'Zapatos Infantiles Deportivos Ninos',
+    'creative': 'blp_zapatos_infantiles_deportivos_ninos',
     'position': '07'
 },
 {
-    'id': 'zapatos_deportivo_ella',
-    'name': 'Zapatos Deportivo Ella',
-    'creative': 'blp_zapatos_deportivo_ella',
+    'id': 'zapatos_infantiles_deportivos_ninas_190820',
+    'name': 'Zapatos Infantiles Deportivos Ninas',
+    'creative': 'blp_zapatos_infantiles_deportivos_ninas',
     'position': '08'
 },
 {
-    'id': 'zapatos_deportivo_ninos',
-    'name': 'Zapatos Deportivo Ninos',
-    'creative': 'blp_zapatos_deportivo_ninos',
+    'id': 'zapatos_mujer_todo_190820',
+    'name': 'Zapatos Mujer Todo',
+    'creative': 'blp_zapatos_mujer_todo',
     'position': '09'
 },
 {
-    'id': 'zapatos_deportivo_ninas',
-    'name': 'Zapatos Deportivo Ninas',
-    'creative': 'blp_zapatos_deportivo_ninas',
+    'id': 'zapatos_mujer_botas_190820',
+    'name': 'Zapatos Mujer Botas',
+    'creative': 'blp_zapatos_mujer_botas',
     'position': '10'
 },
 {
-    'id': 'zapatos_el_todo',
-    'name': 'Zapatos El Todo',
-    'creative': 'blp_zapatos_el_todo',
+    'id': 'zapatos_mujer_flats_190820',
+    'name': 'Zapatos Mujer Flats',
+    'creative': 'blp_zapatos_mujer_flats',
     'position': '11'
 },
 {
-    'id': 'zapatos_casual_el',
-    'name': 'Zapatos Casual El',
-    'creative': 'blp_zapatos_casual_el',
+    'id': 'zapatos_mujer_tacones_190820',
+    'name': 'Zapatos Mujer Tacones',
+    'creative': 'blp_zapatos_mujer_tacones',
     'position': '12'
 },
 {
-    'id': 'zapatos_formal_el',
-    'name': 'Zapatos Formal El',
-    'creative': 'blp_zapatos_formal_el',
+    'id': 'zapatos_mujer_deportivos_190820',
+    'name': 'Zapatos Mujer Deportivos',
+    'creative': 'blp_zapatos_mujer_deportivos',
     'position': '13'
 },
 {
-    'id': 'zapatos_sneaker_el',
-    'name': 'Zapatos Sneaker El',
-    'creative': 'blp_zapatos_sneaker_el',
+    'id': 'zapatos_hombre_casual_190820',
+    'name': 'Zapatos Hombre Casual',
+    'creative': 'blp_zapatos_hombre_casual',
     'position': '14'
 },
 {
-    'id': 'zapatos_bota_el',
-    'name': 'Zapatos Bota El',
-    'creative': 'blp_zapatos_bota_el',
+    'id': 'zapatos_hombre_formal_190820',
+    'name': 'Zapatos Hombre Formal',
+    'creative': 'blp_zapatos_hombre_formal',
     'position': '15'
 },
 {
-    'id': 'zapatos_nina',
-    'name': 'Zapatos Nina',
-    'creative': 'blp_zapatos_nina',
+    'id': 'zapatos_hombre_botas_190820',
+    'name': 'Zapatos Hombre Botas',
+    'creative': 'blp_zapatos_hombre_botas',
     'position': '16'
 },
 {
-    'id': 'zapatos_bebes',
-    'name': 'Zapatos Bebes',
-    'creative': 'blp_zapatos_bebes',
+    'id': 'zapatos_hombre_deportivos_190820',
+    'name': 'Zapatos Hombre Deportivos',
+    'creative': 'blp_zapatos_hombre_deportivos',
     'position': '17'
 },
 {
-    'id': 'zapatos_ninos',
-    'name': 'Zapatos Ninos',
-    'creative': 'blp_zapatos_ninos',
+    'id': 'zapatos_hombre_todo_190820',
+    'name': 'Zapatos Hombre Todo',
+    'creative': 'blp_zapatos_hombre_todo',
     'position': '18'
 }
 ]
@@ -3195,40 +3195,100 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'curvy_jeans_180220',
-    'name': 'AE Curvy Jeans',
-    'creative': 'blp_ae_curvy_jeans',
-    'position': '01'
+                                                'id': 'el_200820',
+                                                'name': 'AE EL',
+                                                'creative': 'blp_ae_el',
+                                                'position': '01'
 },
 {
-    'id': 'airflex_180220',
-    'name': 'AE AirFlex',
-    'creative': 'blp_ae_airflex',
-    'position': '02'
+                                                'id': 'ella_200820',
+                                                'name': 'AE Ella',
+                                                'creative': 'blp_ae_ella',
+                                                'position': '02'
 },
 {
-    'id': 'playeras_ella_180220',
-    'name': 'AE Playeras Ella',
-    'creative': 'blp_ae_playeras_ella',
-    'position': '03'
+                                                'id': 'bra_200820',
+                                                'name': 'AE Bra',
+                                                'creative': 'blp_ae_bra',
+                                                'position': '03'
 },
 {
-    'id': 'playeras_el_180220',
-    'name': 'AE Playeras El',
-    'creative': 'blp_ae_playeras_el',
-    'position': '04'
+                                                'id': 'undies_200820',
+                                                'name': 'AE Undies',
+                                                'creative': 'blp_ae_undies',
+                                                'position': '04'
 },
 {
-    'id': 'vestidos_180220',
-    'name': 'AE Vestidos',
-    'creative': 'blp_ae_vestidos',
-    'position': '05'
+                                                'id': 'interior_200820',
+                                                'name': 'AE Interior',
+                                                'creative': 'blp_ae_interior',
+                                                'position': '05'
 },
 {
-    'id': 'polos_180220',
-    'name': 'AE Polos',
-    'creative': 'blp_ae_polos',
-    'position': '06'
+                                                'id': 'jeans_el_200820',
+                                                'name': 'AE Jeans El',
+                                                'creative': 'blp_ae_jeans_el',
+                                                'position': '06'
+},
+{
+                                                'id': 'jeans_ella_200820',
+                                                'name': 'AE Jeans Ella',
+                                                'creative': 'blp_ae_jeans_ella',
+                                                'position': '07'
+},
+{
+                                                'id': 'boxers_el_200820',
+                                                'name': 'AE Boxers El',
+                                                'creative': 'blp_ae_boxers_el',
+                                                'position': '16'
+},
+{
+                                                'id': 'playeras_el_200820',
+                                                'name': 'AE Playeras El',
+                                                'creative': 'blp_ae_playeras_el',
+                                                'position': '08'
+},
+{
+                                                'id': 'camisas_el_200820',
+                                                'name': 'AE Camisas El',
+                                                'creative': 'blp_ae_camisas_el',
+                                                'position': '09'
+},
+{
+                                                'id': 'jumpsuit_ella_200820',
+                                                'name': 'AE Jumpsuit Ella',
+                                                'creative': 'blp_ae_jumpsuit_ella',
+                                                'position': '10'
+},
+{
+                                                'id': 'playeras_ella_200820',
+                                                'name': 'AE Playeras Ella',
+                                                'creative': 'blp_ae_playeras_ella',
+                                                'position': '11'
+},
+{
+                                                'id': 'pantalones_el_200820',
+                                                'name': 'AE Pantalones El',
+                                                'creative': 'blp_ae_pantalones_el',
+                                                'position': '12'
+},
+{
+                                                'id': 'pantalones_ella_200820',
+                                                'name': 'AE Pantalones Ella',
+                                                'creative': 'blp_ae_pantalones_ella',
+                                                'position': '13'
+},
+{
+                                                'id': 'bermudas_el_200820',
+                                                'name': 'AE Bermudas El',
+                                                'creative': 'blp_ae_bermudas_el',
+                                                'position': '14'
+},
+{
+                                                'id': 'faldas_ella_200820',
+                                                'name': 'AE Faldas Ella',
+                                                'creative': 'blp_ae_faldas_ella',
+                                                'position': '15'
 }
 ]
 }
