@@ -258,7 +258,112 @@ function myOnloadFunction(pageName,path) {
             'name':'Cómputo hasta 15% de desc',
             'creative':'h_banner_secun',
             'position':'7'
-                    }
+                    },
+				
+				
+		{
+        'id':'nike_310820',
+        'name':'Nike hasta 40% de desc',
+        'creative':'h_banner_central',
+        'position':'1'
+                    },
+                    {
+        'id':'ropa_deportiva_310820',
+        'name':'Ropa deportiva hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'2'
+                    },
+                    {
+        'id':'puma_310820',
+        'name':'Puma hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'3'
+                    },
+                    {
+        'id':'levis_310820',
+        'name':'Levi´s hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'4'
+                    },
+                    {
+        'id':'american_eagle_310820',
+        'name':'American Eagle hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'5'
+                    },
+                    {
+        'id':'aeropostale_310820',
+        'name':'Aeropostale hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'6'
+                    },
+                    {
+        'id':'foreo_310820',
+        'name':'Foreo hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'7'
+                    },
+                    {
+        'id':'bath_and_body_works_310820',
+        'name':'Bath and Body Works hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'8'
+                    },
+                    {
+        'id':'nine_west_westies_310820',
+        'name':'Nine West Westies hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'9'
+                    },
+                    {
+        'id':'zapatos_310820',
+        'name':'Zapatos hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'10'
+                    },
+                    {
+        'id':'mujer_310820',
+        'name':'Mujer hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'11'
+                    },
+                    {
+        'id':'hombre_310820',
+        'name':'Hombre hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'12'
+                    },
+                    {
+        'id':'ninos_310820',
+        'name':'Niños hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'13'
+                    },
+                    {
+        'id':'bebes_310820',
+        'name':'Bebés hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'14'
+                    },
+                    {
+        'id':'pandora_310820',
+        'name':'Pandora regalo con compra',
+        'creative':'h_banner_secun',
+        'position':'15'
+                    },
+                    {
+        'id':'joyeria_310820',
+        'name':'Joyería hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'16'
+                    },
+                    {
+        'id':'relojes_310820',
+        'name':'Relojes hasta 50% de desc',
+        'creative':'h_banner_secun',
+        'position':'17'
+                    }		
+	
                         ]
                     }
                 }
