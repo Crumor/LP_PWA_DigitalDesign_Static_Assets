@@ -102,113 +102,8 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
  
-							{
-                'id':'ninos_170820',
-                'name':'Niños hasta 20% de desc',
-                'creative':'h_banner_secun',
-                'position':'1'
-                    },
-							{
-               'id':'ninos_170820',
-                    'name':'Niños hasta 20% de desc',
-                    'creative':'h_banner_secun',
-                    'position':'2'
-                    },	{
-               'id':'escolares_170820',
-                        'name':'Escolares hasta 30% de desc',
-                        'creative':'h_banner_secun',
-                        'position':'3'
-                    },
-							{
-                'id':'computo_170820',
-                        'name':'Cómputo hasta 15% de desc',
-                        'creative':'h_banner_secun',
-                        'position':'4'
-                    },
-							{
-               'id':'zapatos_170820',
-                        'name':'Zapatos hasta 20% de desc',
-                        'creative':'h_banner_secun',
-                        'position':'5'
-                    },
-							{
-                'id':'mujer_170820',
-            'name':'Mujer hasta 20% de desc',
-            'creative':'h_banner_secun',
-            'position':'6'
-                    },
-							{
-                'id':'hombre_170820',
-        'name':'Hombre hasta 20% de desc',
-        'creative':'h_banner_secun',
-        'position':'7'
-                    },
-							{
-               'id':'puma_170820',
-            'name':'Puma hasta 30% de desc',
-            'creative':'h_banner_secun',
-            'position':'8'
-                    },
-							{
-              'id':'nike_170820',
-        'name':'Nike hasta 40% de desc',
-        'creative':'h_banner_secun',
-        'position':'9'
-                    },
-							{
-               'id':'american_170820',
-            'name':'American Eagle hasta 30% de desc',
-            'creative':'h_banner_secun',
-            'position':'10'
-                    },
-							{
-              'id':'proteccion_170820',
-       'name':'Protección y Desinfección',
-       'creative':'h_banner_secun',
-       'position':'12'
-                    },
-							{
-               'id':'muebles_170820',
-            'name':'Muebles hasta 50% de desc',
-            'creative':'h_banner_secun',
-            'position':'13'
-                    },
-							{
-              'id':'colchones_170820',
-                    'name':'Colchones hasta 43% de desc',
-                    'creative':'h_banner_secun',
-                    'position':'14'
-                    },
-							{
-               'id':'linea_blanca_170820',
-                    'name':'Línea Blanca hasta 44% de desc',
-                    'creative':'h_banner_secun',
-                    'position':'15'
-                    },
-							{
-               'id':'purificadores_170820',
-       'name':'Purificadores hasta 15% de desc',
-       'creative':'h_banner_secun',
-       'position':'16'
-                    },	{
-               'id':'purificadores_190820',
-       'name':'Purificadores hasta 25% de desc',
-       'creative':'h_banner_secun',
-       'position':'16'
-                    },
-							{
-               'id':'cocina_170820',
-            'name':'Cocina hasta 15% de desc',
-            'creative':'h_banner_secun',
-            'position':'17'
-                    },
-							{
-               'id':'mueblesbebe_170820',
-            'name':'Muebles para bebé hasta 35% de desc',
-            'creative':'h_banner_secun',
-            'position':'18'
-                    },
-							{
+							
+						{
                 'id':'ninos_240820',
                     'name':'Niños hasta 20% de desc',
                 'creative':'h_banner_secun',
@@ -330,7 +225,146 @@ function myOnloadFunction(pageName,path) {
         'name':'Nike hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'18'
+                    },{
+                'id':'consolas_290820',
+                    'name':'Consolas hasta 13 MSI',
+                    'creative':'h_banner_secun',
+                    'position':'1'
+                    },
+							{
+                'id':'videojuegos_290820',
+                        'name':'Videojuegos hasta 10% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'2'
+                    },	{
+              'id':'accesorios_gaming_290820',
+                        'name':'Accesorios Gaming hasta 10% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'3'
+                    },
+							{
+                'id':'componentes_290820',
+                        'name':'Componentes hasta 6 msi',
+                        'creative':'h_banner_secun',
+                        'position':'4'
+                    },
+							{
+                'id':'pc_gaming_290820',
+                        'name':'PC Gaming hasta 15% de desc',
+                        'creative':'h_banner_secun',
+                        'position':'5'
+                    },{
+                'id':'compu_290820',
+            'name':'Cómputo hasta 15% de desc',
+            'creative':'h_banner_secun',
+            'position':'7'
+                    },
+				
+				
+				
+		{
+        'id':'nike_310820',
+        'name':'Nike hasta 40% de desc',
+        'creative':'h_banner_central',
+        'position':'1'
+                    },
+                    {
+        'id':'ropa_deportiva_310820',
+        'name':'Ropa deportiva hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'2'
+                    },
+                    {
+        'id':'puma_310820',
+        'name':'Puma hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'3'
+                    },
+                    {
+        'id':'levis_310820',
+        'name':'Levi´s hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'4'
+                    },
+                    {
+        'id':'american_eagle_310820',
+        'name':'American Eagle hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'5'
+                    },
+                    {
+        'id':'aeropostale_310820',
+        'name':'Aeropostale hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'6'
+                    },
+                    {
+        'id':'foreo_310820',
+        'name':'Foreo hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'7'
+                    },
+                    {
+        'id':'bath_and_body_works_310820',
+        'name':'Bath and Body Works hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'8'
+                    },
+                    {
+        'id':'nine_west_westies_310820',
+        'name':'Nine West Westies hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'9'
+                    },
+                    {
+        'id':'zapatos_310820',
+        'name':'Zapatos hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'10'
+                    },
+                    {
+        'id':'mujer_310820',
+        'name':'Mujer hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'11'
+                    },
+                    {
+        'id':'hombre_310820',
+        'name':'Hombre hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'12'
+                    },
+                    {
+        'id':'ninos_310820',
+        'name':'Niños hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'13'
+                    },
+                    {
+        'id':'bebes_310820',
+        'name':'Bebés hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'14'
+                    },
+                    {
+        'id':'pandora_310820',
+        'name':'Pandora regalo con compra',
+        'creative':'h_banner_secun',
+        'position':'15'
+                    },
+                    {
+        'id':'joyeria_310820',
+        'name':'Joyería hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'16'
+                    },
+                    {
+        'id':'relojes_310820',
+        'name':'Relojes hasta 50% de desc',
+        'creative':'h_banner_secun',
+        'position':'17'
                     }
+				
                         ]
                     }
                 }
