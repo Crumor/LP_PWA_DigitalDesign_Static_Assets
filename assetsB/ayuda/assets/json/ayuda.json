@@ -82,7 +82,7 @@
     },
     "-KiWehcReRMksQUcC_iH" : {
       "breadcrumb" : "",
-      "contenido" : "<div class=\"title\">Cuenta y registro</div><div class=\"subtitle\">Perfil del consumidor</div><p>Para realizar tus compras a través de nuestro portal es posible que se te solicite realizar un registro y crear una cuenta proporcionando cierta información personal, la cual será resguardada de manera confidencial, te rogamos revisar nuestro Aviso de Privacidad.  En dicha cuenta podrás asociar tu método de pago preferido para realizar tus compras, te pedimos que antes de guardar tu información personal verifiques que esta sea correcta, es responsabilidad del Cliente proporcionar datos claros y verídicos, así como de  mantenerlos actualizados.  Durante el registro deberás generar una contraseña de acceso conformada por 8 caracteres alfanuméricos, te pedimos resguardar la contraseña y datos de tu cuenta de manera confidencial, ya que con ello podrás acceder desde cualquier dispositivo electrónico, por lo anterior, el titular eres responsable de todas las actividades que ocurran bajo dicha cuenta y contraseña.  Te sugerimos restringir el acceso a tu dispositivo electrónico con los mecanismos de seguridad con los que cuenta el mismo. Cualquier uso no autorizado de tu contraseña o cuenta debe ser notificado a LIVERPOOL ya que de ninguna manera nosotros seremos responsables directa o indirectamente por cualquier pérdida o daño de cualquier tipo incurrido que resulte de la falta de cumplimiento a la presente condición.</p><br> <p>LIVERPOOL comercializa diversos productos para menores de edad; sin embargo, la(s) compra(s) y transacciones se deberán realizar por personas mayores de edad, o en su caso, estar accediendo bajo supervisión y consentimiento de tus padres o tutores. Se deberá contar con alguno de los medios de pago asociados a su cuenta, en caso de estar registrado; de lo contrario, se solicitará un método de pago válido. Para más información te sugerimos revisar dentro de nuestro sitio la sección denominada <b>PAGOS Y REGISTROS.</b></p>",
+      "contenido" : "<div class=\"title\">Cuenta y registro</div><div class=\"subtitle\">Perfil del consumidor</div>\n<div style=\"text-align:justify;\">\n<p>Para realizar tus compras a través de nuestro portal es posible que se te solicite realizar un registro y crear una cuenta proporcionando cierta información personal, la cual será resguardada de manera confidencial, te rogamos revisar nuestro Aviso de Privacidad.  En dicha cuenta podrás asociar tu método de pago preferido para realizar tus compras, te pedimos que antes de guardar tu información personal verifiques que esta sea correcta, es responsabilidad del Cliente proporcionar datos claros y verídicos, así como de  mantenerlos actualizados.  Durante el registro deberás generar una contraseña de acceso conformada por 8 caracteres alfanuméricos, te pedimos resguardar la contraseña y datos de tu cuenta de manera confidencial, ya que con ello podrás acceder desde cualquier dispositivo electrónico, por lo anterior, el titular eres responsable de todas las actividades que ocurran bajo dicha cuenta y contraseña.  Te sugerimos restringir el acceso a tu dispositivo electrónico con los mecanismos de seguridad con los que cuenta el mismo. Cualquier uso no autorizado de tu contraseña o cuenta debe ser notificado a LIVERPOOL ya que de ninguna manera nosotros seremos responsables directa o indirectamente por cualquier pérdida o daño de cualquier tipo incurrido que resulte de la falta de cumplimiento a la presente condición.</p>\n\n<p>\nPodrás generar un usuario con  tu registro en la plataforma Facebook para ingresar y realizar compras desde el portal de Liverpool y App Liverpool Pocket, te recomendamos revisar los términos y condiciones de la plataforma Facebook relacionados con la privacidad de la información, asimismo Liverpool no será responsable de la información que fue proporcionada a dicho sitio misma  que servirá para registrarse como usuario de nuestras plataformas.\n</p>\n<p>\nRecuerda que tu usuario y contraseña de Facebook puede servirte para iniciar sesión en el app de Liverpool, por ello es de suma importancia su resguardo. \n</p>\n<p>\nEs importante que revises la información que proporcionaste o en su caso que proporciones información actualizada, con el objetivo de brindarte un buen servicio, ya que de lo contrario no contaremos con elementos suficientes para procesar o entregar tus pedidos.\nEn caso de que detectemos que la cuenta de correo electrónico del perfil de Facebook  o en medio de pago (tarjeta de crédito o débito) ya se encuentra registrada con otro usuario o cuenta de correo, no podremos realizar el registro desde el perfil de Facebook y prevalecerá el registro que hayas realizado en Liverpool, hasta en tanto no lo modifiques.\n</p>\n<p>\nEn caso de que el usuario ya cuente con un registro en Liverpool y desee utilizar su usuario de Facebook, será indispensable primero seguir el proceso de autenticación que Liverpool le solicite para poder efectuarlo. \n</p>\n<p>\nDebido a que los usuarios y contraseñas de tú o tus dispositivos móviles y de las aplicaciones como Facebook, son de uso personal y sirven para validar las transacciones realizadas en la plataforma Liverpool y el APP te recomendamos  resguardarlos ya que Liverpool no será responsable del uso que se les dé, así como de las transacciones que se lleguen a realizar, por ello te recomendamos que cierres tus sesiones y cuentes con una contraseña en tu dispositivo móvil.\n\n</p>\n <p>LIVERPOOL comercializa diversos productos para menores de edad; sin embargo, la(s) compra(s) y transacciones se deberán realizar por personas mayores de edad, o en su caso, estar accediendo bajo supervisión y consentimiento de tus padres o tutores. Se deberá contar con alguno de los medios de pago asociados a su cuenta, en caso de estar registrado; de lo contrario, se solicitará un método de pago válido. Para más información te sugerimos revisar dentro de nuestro sitio la sección denominada <b>PAGOS Y REGISTROS.</b></p>\n</div>",
       "grupo" : "",
       "idMenu" : "100051",
       "link" : "perfil-consumidor",
@@ -342,12 +342,12 @@
     },
     "-Kiozl-kWi-L9rvv3CH8" : {
       "breadcrumb" : "",
-      "contenido" : "     <div class=\"title\">Garantia</div>\n<p>Muchos de los productos que comercializamos se encuentran amparados por una garantía emitida por los fabricantes e importadores de los productos, misma que se apega a las disposiciones legales aplicables.</p><br> <p>La garantía se entregará con el producto(s) adquirido(s), por lo cual te recomendamos consultarla a detalle para conocer el procedimiento para hacerla efectiva, directamente con el fabricante o importador responsable, si requieres algún apoyo te recordamos que podrás contactar al Centro de Atención a Usuarios.</p>",
+      "contenido" : "<script>\nlocation.href=\"https://www.liverpool.com.mx/tienda/paginas/garantia\";\n</script>",
       "grupo" : "",
       "idMenu" : "100012",
-      "link" : "garantia",
+      "link" : "proceso-politicas-garantia",
       "tags" : "",
-      "titulo" : "Garantía",
+      "titulo" : "Proceso y políticas para garantía",
       "visitas" : ""
     },
     "-Kiozl-kWi-L9rvv3XH8" : {
@@ -392,12 +392,12 @@
     },
     "-Kip7HcFZFIHRuVCp9eT" : {
       "breadcrumb" : "",
-      "contenido" : "<div class=\"title\">Devoluciones su proceso y especificaciones.</div>\n<div class=\"subtitle\">Especificaciones</div>\n<p>Es importante considerar por cuestiones de higiene, salud y por naturaleza de algunos productos, se acepta la devolución de estos dentro de los 5 días posteriores a la compra siempre y cuando no hayan sido utilizados y su empaque se encuentre sellado, te recomendamos revisar el siguiente listado y en caso de duda recuerda que puedes contactarnos a través del Centro de Atención a Usuarios:</p><br> <p> - Lencería y ropa interior.</p><br> <p> - Ropa de Baño.</p><br> <p> - Productos de farmacia.</p><br> <p> - Productos de cosméticos.</p><br> <p> - Perfumería y belleza.</p><br> <p> - Fajas, medias y pantimedias.</p><br> <p> - Toallas.</p><br> <p> - Calcetines.</p><br> <p> - Colchones.</p><br> <p> - Productos para cama.</p><br> <p> - Disfraces.</p><br> <p> - Vestidos de Noche.</p><br> <p> - Vitaminas y suplementos alimenticios.</p><br> <p> - Productos para el cuidado de bebés.</p><br> <p> - Productos descargables o de transmisión inmediata (software, videojuegos, e books).</p><br> <p> - Vinos y licores.</p><br> <p>Te recordamos que en caso de presentar fallas o alguna inconformidad con la calidad de producto  contactes a nuestro Centro de Atención a Usuarios, quieres te brindarán la información necesaria, para que en su caso puedas hacer efectiva la garantía o se aplique la devolución correspondiente.</p>",
+      "contenido" : "<div class=\"title\">Productos con condiciones especiales para garantía.</div>\n\n<p>Por su naturaleza, así como por cuestiones de higiene y salud, se aceptará la devolución de ciertos productos cuando estos no se han consumido, aprovechado o configurado, ya que pierden su valor y/o funcionalidad:</p>\n<br>\n<style>\n\n.ul_clji{\n\tmargin:0; padding:0; float:left; width:45%;\n\tlist-style-type: circle;\n}\n.ul_clji li{\n\tmargin-top:5px;\n}\n@media (max-width: 991px){\n.ul_clji {\nmargin-top:15px;\n   width:100%;\n}\n}\n</style>\n<div>\n<ul class=\"ul_clji\" >\n <li>Lencería y ropa interior.</li>\n\n<li> Ropa de Baño.</li>\n \n <li>Productos de farmacia.</li>\n \n <li>Productos de cosméticos.</li>\n \n <li>Perfumería y belleza.</li>\n \n <li>Fajas, medias y pantimedias.</li>\n \n <li>Toallas.</li>\n \n <li>Calcetines.</li>\n \n <li>Colchones.</li>\n \n <li>Productos para cama.</li>\n\n </ul>\n <ul class=\"ul_clji\">\n <li>Disfraces.</li>\n \n <li>Vestidos de Noche.</li>\n \n <li>Vitaminas y suplementos alimenticios.</li>\n \n <li>Productos para el cuidado de bebés.</li>\n \n <li>Productos descargables tales como: software, videojuegos, e-books etc.</li>\n \n <li>Vinos y licores.</li>\n \n <li>Coleccionables con empaques sellados.</li>\n \n <li>Aquellos productos que sean individualizados y configurados de manera personal.</li>\n \n <li>Y otros similares.</li>\n </ul>\n </div>\n ",
       "grupo" : "",
-      "idMenu" : "1000112",
-      "link" : "especificaciones",
+      "idMenu" : "1000122",
+      "link" : "productos-condiciones-especiales",
       "tags" : "",
-      "titulo" : "Especificaciones",
+      "titulo" : "Productos con condiciones especiales para garantía",
       "visitas" : ""
     },
     "-KxsS1eksX2evdnQM87o" : {
@@ -546,6 +546,16 @@
       "grupo" : "",
       "idMenu" : "100019",
       "link" : "cancelaciones",
+      "tags" : "",
+      "titulo" : "",
+      "visitas" : ""
+    },
+    "-MCsW9h29dwAJJRjPois" : {
+      "breadcrumb" : "",
+      "contenido" : "<div class=\"title\">Retiros anticipados y Cierres de eventos</div>\n<p style=\"font-size: 16px; font-weight: bold;\">Cierre: </p>\n<p>Se podrá realizar el cierre una vez se haya cumplido la fecha asignada al evento, aunque no se llegue al periodo de vigencia. </p>\n<p>Si tu evento es de Gran día recibirás en monedero el monto acumulado de regalos electrónicos disponibles y el 10% de bonificación del total de tus compras y regalos recibidos*.</p> \n<p>Si tu evento es de Toda ocasión, recibirás en monedero el monto acumulado de regalos electrónicos disponibles. Si tus compras y regalos recibidos acumulan un total de $5,000 podrás seleccionar enviar a tu dirección o recoger en tienda tu regalo de cierre.</p>\n<p>*Aplica solo artículos de secciones participantes.</p>\n\n<p style=\"font-size: 16px; font-weight: bold;\">Retiros Parciales:</p>\n<p>Podrás disponer de tu dinero electrónico en monedero, restando ese monto del total de tus compras, solo no olvides ingresar nuevamente tus compras para no perder el 10% de bonificación*. </p>\n<p>En caso de regalos electrónicos y certificados de regalos, el retiro podrá estar disponible 24 hr después de la compra.</p>\n<p>*Para poder hacer el retiro será necesario contar con la Tarjeta de Liverpool DILISA, LPC o un monedero exclusivo de Mesa de Regalos.</p>\n<p style=\"font-size: 16px; font-weight: bold;\">\nUsuarios con Facebook:\n</p>\n<p>Si tienes una mesa de regalos por motivos de seguridad necesitarás tener una contraseña para hacer retiros anticipados o realizar el cierre ya sea tanto online como en tiendas físicas.</p>\n<p>\nSi creaste tu cuenta mediante Facebook puedes asignar una contraseña en la sección de Mi cuenta.\n</p>\n<p>\n\tSi ya cuentas con una contraseña pero no la recuerdas e inicias sesión mediante Facebook necesitarás:\n</p>\n<p>\n<ol style=\"list-style: decimal;margin-left: 30px;\">\n<li>Cerrar sesión</li>\n        <li>Ir a la pantalla de Iniciar sesión y dar clic en ¿Olvidaste tu contraseña?</li>\n          <li>Asignar una nueva contraseña.  </li>\n\n</ol>\n</p>\n<p>Recuerda revisar los <a href=\"https://assetspwaqa.liverpool.com.mx/ayuda/index.html#/sec/terminos-y-condiciones/cuenta-registro/perfil-consumidor\">Términos y condiciones</a> sobre la utilización de Facebook.</p>",
+      "grupo" : "",
+      "idMenu" : "30048",
+      "link" : "retiros-anticipados-cierres-eventos",
       "tags" : "",
       "titulo" : "",
       "visitas" : ""
@@ -717,21 +727,21 @@
           "grupo" : "",
           "idMenu" : "30044",
           "link" : "vx",
-          "posicion" : 3,
+          "posicion" : 2,
           "titulo" : "XV años"
         },
         "sdasdasdasdad22431" : {
           "grupo" : "",
           "idMenu" : "30043",
           "link" : "invitados",
-          "posicion" : 6,
+          "posicion" : 5,
           "titulo" : "Invitados"
         },
         "sdasdasdasdad224331" : {
           "grupo" : "",
           "idMenu" : "30045",
           "link" : "tipo-de-eventos",
-          "posicion" : 7,
+          "posicion" : 3,
           "titulo" : "Despedidas, aniversarios, comunión, bautizos, cumpleaños"
         },
         "sdasdasdasdad23" : {
@@ -752,8 +762,15 @@
           "grupo" : "",
           "idMenu" : "30047",
           "link" : "lista-de-sugerencias",
-          "posicion" : 2,
+          "posicion" : 6,
           "titulo" : "Lista de sugerencias"
+        },
+        "sdasdfghjkl8765sdfghjk" : {
+          "grupo" : "",
+          "idMenu" : "30048",
+          "link" : "retiros-anticipados-cierres-eventos",
+          "posicion" : 7,
+          "titulo" : "Retiros anticipados y Cierres de eventos"
         }
       },
       "titulo" : "Mesa de regalos"
@@ -777,17 +794,17 @@
         "10kjnasjnaskjagaesks3" : {
           "grupo" : "",
           "idMenu" : "200010",
-          "link" : "otros-temas",
+          "link" : "inicio-sesion-con-facebook",
           "navegacion" : "",
-          "posicion" : 7,
-          "titulo" : "Otros temas"
+          "posicion" : 5,
+          "titulo" : "Inicio de sesión con Facebook"
         },
         "1kjnasjnaskjaksks" : {
           "grupo" : "",
           "idMenu" : "20001",
           "link" : "preguntas-mas-buscadas",
           "navegacion" : "",
-          "posicion" : 0,
+          "posicion" : 7,
           "titulo" : "Preguntas más buscadas"
         },
         "2kjnasjnaskjaksks32" : {
@@ -795,7 +812,7 @@
           "idMenu" : "20002",
           "link" : "credito",
           "navegacion" : "",
-          "posicion" : 1,
+          "posicion" : 0,
           "titulo" : "Crédito"
         },
         "4kjnasjnaskjaksks23" : {
@@ -803,7 +820,7 @@
           "idMenu" : "20005",
           "link" : "mesa-de-regalos",
           "navegacion" : "",
-          "posicion" : 2,
+          "posicion" : 1,
           "titulo" : "Mesa de regalos"
         },
         "8kjnasjnaskjakskskjs" : {
@@ -811,7 +828,7 @@
           "idMenu" : "200020",
           "link" : "acerca-de-nosotros",
           "navegacion" : "",
-          "posicion" : 4,
+          "posicion" : 3,
           "titulo" : "Acerca de nosotros"
         },
         "9kjnasjnaskjawiursskssd" : {
@@ -819,7 +836,7 @@
           "idMenu" : "20009",
           "link" : "seguridad-del-sitio",
           "navegacion" : "",
-          "posicion" : 5,
+          "posicion" : 4,
           "titulo" : "Seguridad del Sitio"
         },
         "fjkjnasjnaskjaksks21" : {
@@ -827,7 +844,7 @@
           "idMenu" : "20006",
           "link" : "soporte-tecnico",
           "navegacion" : "",
-          "posicion" : 3,
+          "posicion" : 2,
           "titulo" : "Soporte técnico"
         }
       },
@@ -846,7 +863,7 @@
           "idMenu" : "100019",
           "link" : "cancelaciones",
           "navegacion" : "",
-          "posicion" : 11,
+          "posicion" : 3,
           "titulo" : "Cancelaciones"
         },
         "10dsfghjkiuyoxxza1" : {
@@ -854,14 +871,14 @@
           "idMenu" : "100017",
           "link" : "contactos-notificaciones",
           "navegacion" : "",
-          "posicion" : 14,
+          "posicion" : 16,
           "titulo" : "Contacto y notificaciones"
         },
         "10dsfghjkiuytrsj29ai" : {
           "grupo" : "",
           "idMenu" : "100018",
           "link" : "productos-descargables",
-          "posicion" : 9,
+          "posicion" : 6,
           "titulo" : "Productos Descargables"
         },
         "10dsfghjkiuytrsks3" : {
@@ -869,47 +886,39 @@
           "idMenu" : "100012",
           "link" : "garantia",
           "navegacion" : "",
-          "posicion" : 11,
-          "titulo" : "Garantía"
-        },
-        "10kjnasjag6ghj66aesks3" : {
-          "grupo" : "",
-          "idMenu" : "100011",
-          "link" : "mecanismos-devoluciones",
-          "navegacion" : "",
-          "posicion" : 10,
+          "posicion" : 2,
           "subnivel" : {
-            "292092092ajsja" : {
+            "292092092ajsjahfd76" : {
               "grupo" : "",
-              "idMenu" : "1000110",
-              "link" : "devolucion-cambio",
+              "idMenu" : "1000120",
+              "link" : "proceso-politicas-garantia",
               "posicion" : 0,
-              "titulo" : "Proceso"
+              "titulo" : "Proceso y políticas para garantía"
             },
-            "9209dlkjaslkjap0" : {
+            "9209dlkjaslkjap0lkjhg4" : {
               "grupo" : "",
-              "idMenu" : "1000112",
-              "link" : "especificaciones",
+              "idMenu" : "1000122",
+              "link" : "productos-condiciones-especiales",
               "posicion" : 1,
-              "titulo" : "Especificaciones"
+              "titulo" : "Productos con condiciones especiales para garantía"
             }
           },
-          "titulo" : "Devoluciones su proceso y especificaciones."
+          "titulo" : "Garantía Liverpool: Cambios y Devoluciones"
         },
         "10kjnasjnaskjagaesks3" : {
           "grupo" : "",
           "idMenu" : "100010",
           "link" : "dudas-reclamaciones-aclaraciones",
           "navegacion" : "",
-          "posicion" : 12,
-          "titulo" : "Dudas, reclamaciones o aclaraciones."
+          "posicion" : 7,
+          "titulo" : "Dudas, reclamaciones o aclaraciones"
         },
         "1929s8bbbkk1a9" : {
           "grupo" : "",
           "idMenu" : "100015",
           "link" : "proteccion-de-datos",
           "navegacion" : "",
-          "posicion" : 13,
+          "posicion" : 8,
           "subnivel" : {
             "lpiquw9uencv11" : {
               "grupo" : "",
@@ -940,14 +949,14 @@
               "titulo" : "Aviso de privacidad Integral Colaboradores"
             }
           },
-          "titulo" : "Protección de datos personales."
+          "titulo" : "Protección de datos personales"
         },
         "2kjnasjnaskjaksks32" : {
           "grupo" : "",
           "idMenu" : "10002",
           "link" : "identificacion-proveedor",
           "navegacion" : "",
-          "posicion" : 1,
+          "posicion" : 9,
           "titulo" : "Identificación del Proveedor"
         },
         "2kjnasrtyui309876ghks32" : {
@@ -955,7 +964,7 @@
           "idMenu" : "1000100",
           "link" : "informacion",
           "navegacion" : "",
-          "posicion" : 0,
+          "posicion" : 1,
           "titulo" : "Terminos y condiciones"
         },
         "3kjnasjnaskjaksksapsl" : {
@@ -963,7 +972,7 @@
           "idMenu" : "10003",
           "link" : "bienes-servicios",
           "navegacion" : "",
-          "posicion" : 2,
+          "posicion" : 10,
           "subnivel" : {
             "dsajcskjd2929" : {
               "grupo" : "",
@@ -987,14 +996,14 @@
               "titulo" : "Características y especificaciones de los bienes, productos y servicios."
             }
           },
-          "titulo" : "Definiciones, condiciones, características y especificaciones de los bienes, productos o servicios."
+          "titulo" : "Definiciones, condiciones, características y especificaciones de los bienes, productos o servicios"
         },
         "4kjnasjnaskjaksks23" : {
           "grupo" : "",
           "idMenu" : "10005",
           "link" : "cuenta-registro",
           "navegacion" : "",
-          "posicion" : 4,
+          "posicion" : 12,
           "subnivel" : {
             "djsaidsiuo2829" : {
               "grupo" : "",
@@ -1011,7 +1020,7 @@
           "idMenu" : "10007",
           "link" : "entregas",
           "navegacion" : "",
-          "posicion" : 6,
+          "posicion" : 4,
           "subnivel" : {
             "392828ssjs91ks" : {
               "grupo" : "",
@@ -1042,7 +1051,7 @@
           "idMenu" : "10008",
           "link" : "otras-modalidades",
           "navegacion" : "",
-          "posicion" : 7,
+          "posicion" : 13,
           "subnivel" : {
             "i2djsdjdajk9" : {
               "grupo" : "",
@@ -1067,7 +1076,7 @@
           "idMenu" : "10009",
           "link" : "disponibilidad",
           "navegacion" : "",
-          "posicion" : 8,
+          "posicion" : 14,
           "subnivel" : "",
           "titulo" : "Disponibilidad de productos"
         },
@@ -1128,22 +1137,22 @@
               "titulo" : "Paypal"
             }
           },
-          "titulo" : "Precio, métodos de pago y facturación."
+          "titulo" : "Precio, métodos de pago y facturación"
         },
         "kjsi29hhsbsbsb1" : {
           "grupo" : "",
           "idMenu" : "100016",
           "link" : "derechos-menu",
           "navegacion" : "",
-          "posicion" : 15,
-          "titulo" : "Derechos de autor, marcas y patentes."
+          "posicion" : 17,
+          "titulo" : "Derechos de autor, marcas y patentes"
         },
         "kjswjnasjnaskjaksks" : {
           "grupo" : "",
           "idMenu" : "10004",
           "link" : "pagos-precios-y-promociones",
           "navegacion" : "",
-          "posicion" : 3,
+          "posicion" : 11,
           "titulo" : "Pagos y registros"
         },
         "kjswjytre98734lcfd12dfg" : {
@@ -1151,7 +1160,7 @@
           "idMenu" : "100013",
           "link" : "seguridad-sitio-menu",
           "navegacion" : "",
-          "posicion" : 12,
+          "posicion" : 15,
           "subnivel" : {
             "jsdkjdsa9019saa55" : {
               "grupo" : "",
@@ -1161,7 +1170,7 @@
               "titulo" : "Seguridad del sitio."
             }
           },
-          "titulo" : "Mecanismos de seguridad: aceptación, prueba e identidad de la transacción."
+          "titulo" : "Mecanismos de seguridad: aceptación, prueba e identidad de la transacción"
         }
       },
       "titulo" : "Términos y condiciones"
@@ -1491,39 +1500,39 @@
       "tags" : "",
       "visitas" : 2
     },
-    "-L7k38lsZNdL0v0Vv9_t" : {
+    "-MCs2iDHqTFY1FQSwCRC" : {
       "breadcrumb" : "",
       "grupo" : "",
       "idMenu" : "200010",
-      "idPregunta" : "10001011",
+      "idPregunta" : "2000101",
       "link" : "",
-      "menu" : "Otros temas",
-      "pregunta" : "¿Cómo puedo cotizar un viaje en Liverpool?",
-      "respuesta" : "<p> Puedes llamar a cualquiera de nuestras agencias que tenemos para ti, da clic<a href=\"https://wst.liverpool.com.mx/tienda/browse/store.jsp\"> aquí</a>  para conocer la tienda más cerca a tu domicilio y un asesor de viajes te brinde mayor información.   </p>",
+      "menu" : "inicio-sesion-con-facebook",
+      "pregunta" : "Creación de cuenta mediante Facebook",
+      "respuesta" : "<p>Podrás utilizar tu cuenta de Facebook para crear una cuenta en liverpool.com.mx, liverpool pocket o en las boutiques williams-sonoma.com.mx, potterybarn.com.mx, westelm.com.mx y potterybarnkids.com.mx siguiendo los siguientes pasos:<p>\n<p>\n<ul style=\"list-style-type: square;  margin-left:30px;\">\n<li>\nDesde el formulario de creación de cuenta selecciona el botón Regístrate con Facebook inicia sesión con Facebook> otorga los permisos correspondientes y tu cuenta será creada.\n</li>\n<li>\nDesde la pantalla de inicio de sesión selecciona el botón Acceder con Facebook> inicia sesión con Facebook> otorga los permisos correspondientes y tu cuenta será creada.\n</li>\n</ul>\n</p>\n<p>\nPodrás realizar los siguientes inicios de sesión mediante Facebook.\n</p>\n<p>\n<ul style=\"list-style-type: square; margin-left:30px;\">\n<li>\nUna vez creada tu cuenta puedes revisar y editar los datos obtenidos con Facebook en la sección de Mi cuenta.\n</li>\n<li>\nSi tu cuenta de Facebook fue creada por medio de tu número telefónico será necesario ingreses un correo.\n</li>\n</ul>\n</p>",
       "tags" : "",
       "visitas" : 0
     },
-    "-L7k4loqVpiIlez6DGhn" : {
+    "-MCs2rTtNXMDmH69km6L" : {
       "breadcrumb" : "",
       "grupo" : "",
       "idMenu" : "200010",
-      "idPregunta" : "10001012",
+      "idPregunta" : "2000102",
       "link" : "",
-      "menu" : "Otros temas",
-      "pregunta" : "¿Cómo puedo cotizar un viaje en Liverpool?",
-      "respuesta" : "<p>Puedes comprar en línea en la pagina de Liverpool. Da clic <a href=\"https://wst.liverpool.com.mx/tienda/browse/store.jsp\"> aquí</a> para conocer la tienda más cerca a tu domicilio.    </p>",
+      "menu" : "inicio-sesion-con-facebook",
+      "pregunta" : "Login con Facebook de cuenta preexistente",
+      "respuesta" : "<p>Si ya tienes una cuenta existente en liverpool.com.mx, liverpool pocket o en las boutiques williams-sonoma.com.mx, potterybarn.com.mx, westelm.com.mx y potterybarnkids.com.mx podrás iniciar sesión mediante Facebook siempre y cuando el correo que tienes con Facebook sea el mismo al de tu usuario previo. <p>\n<p>Si son correos diferentes se creará una nueva cuenta, te recomendamos realices la vinculación y así todos los datos de tu cuenta (métodos de pago, direcciones de entrega e historial de pedidos) se verán reflejados. <p>\n<p>Para realizar la vinculación de cuentas solo necesitarás seleccionar la opción Acceder con Facebook</p>\n<ul style=\"list-style-type: square; margin-left:30px;\">\n<li>\n ingresar el correo de tu cuenta previa</li>\n<li>autoriza la vinculación mediante el correo que te enviaremos para verificar que eres tu.</li>\n</ul>\n<p>\nPor motivos de seguridad no se podrá iniciar sesión con Facebook si tu cuenta fue creada con un número telefónico.\n</p>\n<p> En este caso te pedimos iniciar sesión mediante tu correo y contraseña y si no cuentas con tu contraseña podrás reponerla al dar click en ¿Olvidaste tu contraseña? en la pantalla de inicio de sesión.</p>",
       "tags" : "",
       "visitas" : 0
     },
-    "-L7k6ApEhYXFOl0AW3BA" : {
+    "-MCs320Pm1Db8qIK8bHk" : {
       "breadcrumb" : "",
       "grupo" : "",
-      "idMenu" : "200012",
-      "idPregunta" : "1000121",
+      "idMenu" : "200010",
+      "idPregunta" : "2000103",
       "link" : "",
-      "menu" : "Otros Temas",
-      "pregunta" : "",
-      "respuesta" : ".",
+      "menu" : "inicio-sesion-con-facebook",
+      "pregunta" : "Mesa de regalos",
+      "respuesta" : "<p>Si tienes una mesa de regalos por motivos de seguridad necesitarás tener una contraseña para hacer retiros anticipados o realizar el cierre ya sea tanto online como en tiendas físicas.</p>\n<p>\nSi creaste tu cuenta mediante Facebook puedes asignar una contraseña en la sección de Mi cuenta.\n</p>\n<p>\n\tSi ya cuentas con una contraseña pero no la recuerdas e inicias sesión mediante Facebook necesitarás:\n</p>\n<p>\n<ol style=\"list-style: decimal;margin-left: 30px;\">\n<li>Cerrar sesión</li>\n        <li>Ir a la pantalla de Iniciar sesión y dar clic en ¿Olvidaste tu contraseña?</li>\n          <li>Asignar una nueva contraseña.  </li>\n\n</ol>\n</p>\n<p>Recuerda revisar los <a href=\"https://assetspwaqa.liverpool.com.mx/ayuda/index.html#/sec/terminos-y-condiciones/cuenta-registro/perfil-consumidor\">Términos y condiciones</a> sobre la utilización de Facebook.</li></ol></p>",
       "tags" : "",
       "visitas" : 0
     },
