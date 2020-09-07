@@ -951,7 +951,7 @@ input.inputMaterial:valid~label.placeHolderMaterial {
 }
 
 #notificacionesMenu.contentMenuNotifications .listNotification li .image {
-    padding: 0;
+    padding: 0 0 0 15px;
     text-align: center;
 }
 
@@ -960,7 +960,7 @@ input.inputMaterial:valid~label.placeHolderMaterial {
 }
 
 #notificacionesMenu.contentMenuNotifications .listNotification li .image>img {
-    width: 65%;
+    width: 100%;
 }
 
 #notificacionesMenu.contentMenuNotifications .listNotification li .image i {
