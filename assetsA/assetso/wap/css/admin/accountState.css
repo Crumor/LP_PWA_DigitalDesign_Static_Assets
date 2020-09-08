@@ -247,6 +247,15 @@
 		margin-left: 15px;
 		margin-right: 15px;
 }
+.accountState .gadgetInfoArticle.--physical{
+	margin-left: 0px;
+		margin-right: 0px;
+}
+.accountState .gadgetInfoArticle.--personal .image-thumb,.accountState .gadgetInfoArticle.--physical .image-thumb,.accountState .gadgetInfoArticle.--electronic .image-thumb{
+	padding-left: 20px;
+	padding-right:0px;
+	padding-top: 5px;
+}
 .accountState .gadgetInfoArticle > .inner {
   padding-left: 0;
   padding-right: 0;
