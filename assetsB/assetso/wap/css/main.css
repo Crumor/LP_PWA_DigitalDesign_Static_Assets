@@ -730,14 +730,14 @@ input.inputMaterial:valid ~ label.placeHolderMaterial {
   padding: 0px;
 }
 #notificationModal .listNotification li .image {
-  padding: 0;
+  padding: 0 0 0 15px;
   text-align: center;
 }
 #notificationModal .listNotification li .image.hearth {
   color: #f00;
 }
 #notificationModal .listNotification li .image >img {
-  width: 65%;
+  width: 100%;
 }
 #notificationModal .listNotification li .image i {
   color: #d3d3d3;
