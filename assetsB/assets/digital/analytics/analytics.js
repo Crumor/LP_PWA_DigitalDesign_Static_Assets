@@ -103,7 +103,7 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
  
 							
-					{
+		       {
         'id':'levis_070920',
         'name':'Levis hasta 40% de desc',
         'creative':'h_banner_central',
@@ -127,9 +127,21 @@ function myOnloadFunction(pageName,path) {
                 'creative':'h_banner_secun',
                 'position':'4a'
                             },
+                        {
+                'id':'celulares_110920',
+                'name':'Hasta 15% de bonificación + hasta 6 MSI',
+                'creative':'h_banner_secun',
+                'position':'4b'
+                        },   
+                        {
+                'id':'nintendo_110920',
+                'name':'Nintendo hasta 20% de descuento',
+                'creative':'h_banner_secun',
+                'position':'4c'
+                            },
                     {
-        'id':'pantallas_070920',
-        'name':'Pantallas hasta 25% de desc',
+        'id':'pantallas_110920',
+        'name':'Pantallas hasta 30% de desc',
         'creative':'h_banner_secun',
         'position':'4'
                     },
