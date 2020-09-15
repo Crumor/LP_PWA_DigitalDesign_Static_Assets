@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
  
-		{
+		 {
         'id':'levis_150920',
         'name':'Levis hasta 40% de desc + 10% adicional',
         'creative':'h_banner_central',
@@ -120,11 +120,29 @@ function myOnloadFunction(pageName,path) {
         'creative':'h_banner_secun',
         'position':'3'
                     },
+                        {
+                'id':'computo_170920',
+                'name':'Cómputo hasta 10% de desc',
+                'creative':'h_banner_secun',
+                'position':'2'
+                            },
                             {
+                'id':'tablets_170920',
+                'name':'Tablets hasta 10% de desc',
+                'creative':'h_banner_secun',
+                'position':'3'
+                            },
+                    {
                 'id':'technoday_170920',
                 'name':'Techno Day - Celulares hasta 20% de reembolso + hasta 15 MSI',
                 'creative':'h_banner_secun',
                 'position':'3a'
+                            },
+                            {
+                'id':'gopro_160920',
+                'name':'Lanzamiento GoPro',
+                'creative':'h_banner_secun',
+                'position':'3b'
                             },
                 {
         'id':'muebles_150920',
