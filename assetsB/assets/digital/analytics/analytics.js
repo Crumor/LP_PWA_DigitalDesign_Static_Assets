@@ -103,8 +103,8 @@ function myOnloadFunction(pageName,path) {
                         'promotions': [// Array of promoFieldObjects.
  
 	 {
-        'id':'levis_150920',
-        'name':'Levis hasta 40% de desc + 10% adicional',
+        'id':'levis_170920',
+        'name':'Levis',
         'creative':'h_banner_central',
         'position':'1'
                     },                  
