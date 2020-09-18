@@ -102,9 +102,103 @@ function myOnloadFunction(pageName,path) {
                     'promoView': {
                         'promotions': [// Array of promoFieldObjects.
  
-			{
-        'id':'levis_150920',
-        'name':'Levis hasta 40% de desc + 10% adicional',
+	   {
+                'id':'pantallas_180920',
+                'name':'Pantallas hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'1'
+                    },
+               {
+               'id':'computo_180920',
+            'name':'Cómputo hasta 10% de desc',
+               'creative':'h_banner_secun',
+               'position':'2'
+                    },
+               {
+               'id':'celulares_180920',
+            'name':'Celulares hasta 13 MSI',
+               'creative':'h_banner_secun',
+               'position':'3'
+                    },
+               {
+               'id':'muebles_180920',
+                'name':'Muebles hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'4'
+                    },
+               {
+               'id':'linea_blanca_180920',
+            'name':'Línea Blanca hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'5'
+                    },
+               {
+               'id':'casa_180920',
+            'name':'Casa hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'6'
+                     },
+               {
+               'id':'colchones_180920',
+            'name':'Colchones hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'7'
+                    },		
+               {
+               'id':'mujer_180920',
+            'name':'Mujer hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'8'
+                    },
+                    {
+              'id':'hombre_180920',
+            'name':'Hombre hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'9'
+                    },									
+               {
+              'id':'ninos_180920',
+            'name':'Niños hasta 40% de desc',
+               'creative':'h_banner_secun',
+               'position':'10'
+                    },
+               {
+               'id':'bebes_180920',
+            'name':'Bebés hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'11'
+                    },
+               {
+               'id':'deportes_180920',
+            'name':'Deportes hasta 50% de desc',
+               'creative':'h_banner_secun',
+               'position':'12'
+                    },
+               {
+               'id':'zapatos_180920',
+        'name':'Zapatos hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'13'
+                    },
+               {
+               'id':'relojes_180920',
+            'name':'Relojes hasta 30% de desc',
+               'creative':'h_banner_secun',
+               'position':'14'
+                    },
+                          {
+               'id':'bath_and_body_works_180920',
+            'name':'Bath and Body Works hasta 25% de desc',
+               'creative':'h_banner_secun',
+               'position':'15'
+                    },
+				
+				
+				
+				
+		{
+        'id':'levis_170920',
+        'name':'Levis',
         'creative':'h_banner_central',
         'position':'1'
                     },                  
@@ -120,11 +214,29 @@ function myOnloadFunction(pageName,path) {
         'creative':'h_banner_secun',
         'position':'3'
                     },
+                        {
+                'id':'computo_170920',
+                'name':'Cómputo hasta 10% de desc',
+                'creative':'h_banner_secun',
+                'position':'2'
+                            },
                             {
+                'id':'tablets_170920',
+                'name':'Tablets hasta 10% de desc',
+                'creative':'h_banner_secun',
+                'position':'3'
+                            },
+                    {
                 'id':'technoday_170920',
                 'name':'Techno Day - Celulares hasta 20% de reembolso + hasta 15 MSI',
                 'creative':'h_banner_secun',
                 'position':'3a'
+                            },
+                            {
+                'id':'gopro_160920',
+                'name':'Lanzamiento GoPro',
+                'creative':'h_banner_secun',
+                'position':'3b'
                             },
                 {
         'id':'muebles_150920',
