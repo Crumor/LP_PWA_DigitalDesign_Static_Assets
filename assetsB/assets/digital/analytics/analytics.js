@@ -116,9 +116,9 @@ function myOnloadFunction(pageName,path) {
                     },
                     {
                 'id':'technoday_240920',
-                'name':'Techno Day - Celulares hasta 20% de reembolso + hasta 15 MSI',
+                'name':'Techno Day - Tabletas Samsung hasta 15% de descuento o hasta 18 MSI',
                 'creative':'h_banner_secun',
-                'position':'2a'
+                'position':'3a'
                             },
                             {
                 'id':'gopro_200920',
