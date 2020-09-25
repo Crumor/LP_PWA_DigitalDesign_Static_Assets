@@ -90,149 +90,180 @@ function countDownBuenFin(){
             }
 }
 
-
 function myOnloadFunction(pageName,path) {
-        showBlp();
-        switch(pageName){
+    showBlp();
+    switch(pageName){
 
-            case '/tienda/home':
-                dataLayer.push({
-                'event': 'impresionCampaign',
-                'ecommerce': {
-                    'promoView': {
-                        'promotions': [// Array of promoFieldObjects.
- 
-		  {
-        'id':'mujer_200920',
+        case '/tienda/home':
+            dataLayer.push({
+            'event': 'impresionCampaign',
+            'ecommerce': {
+                'promoView': {
+                    'promotions': [// Array of promoFieldObjects.		
+            
+        {
+        'id':'mujer_280920',
         'name':'Mujer hasta 50% de desc',
         'creative':'h_banner_central',
         'position':'1'
                     },                  
                     {
-        'id':'hombre_200920',
+        'id':'hombre_280920',
         'name':'Hombre hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'2'
                     },
                     {
-                'id':'technoday_240920',
-                'name':'Techno Day - Tabletas Samsung hasta 15% de descuento o hasta 18 MSI',
+                'id':'technoday_011020',
+                'name':'Techno Day',
                 'creative':'h_banner_secun',
-                'position':'3a'
+                'position':'2a'
                             },
-                            {
-                'id':'gopro_200920',
-                'name':'Lanzamiento GoPro',
-                'creative':'h_banner_secun',
-                'position':'2b'
-                            },
-                {
-        'id':'muebles_200920',
-        'name':'Muebles hasta 30% de descuento',
+
+
+                    {
+        'id':'american_eagle_280920',
+        'name':'American Eagle hasta 30% de desc',
         'creative':'h_banner_secun',
         'position':'3'
-                    },                
-                    {
-                    'id':'colchones_200920',
-                    'name':'Colchones',
-                    'creative':'h_banner_secun',
-                    'position':'3a'
-                    },               
-                    {
-                    'id':'decoracion_200920',
-                    'name':'Decoración',
-                    'creative':'h_banner_secun',
-                    'position':'3b'
-                    },             
-                    {
-                    'id':'aires_200920',
-                    'name':'Aires acondicionados',
-                    'creative':'h_banner_secun',
-                    'position':'3c'
                     },
                     {
-        'id':'lineaBlanca_200920',
-        'name':'Línea Blanca hasta 40% de desc',
+        'id':'zapatos_280920',
+        'name':'Zapatos hasta 30% de desc',
         'creative':'h_banner_secun',
         'position':'4'
-                    },
-                    {
-        'id':'muebles_bebe_200920',
-        'name':'Muebles de bebé hasta 25% de desc',
-        'creative':'h_banner_secun',
-        'position':'5'
                 },
                     {
-        'id':'nintendo_200920',
-        'name':'Nintendo hasta 20% de desc',
+        'id':'relojes_280920',
+        'name':'Relojes hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'5'
+                    },
+                    {
+        'id':'deportes_280920',
+        'name':'Deportes hasta 50% de desc',
         'creative':'h_banner_secun',
         'position':'6'
                     },
                     {
-        'id':'pantallas_200920',
-        'name':'Pantallas hasta 30% de desc',
+        'id':'bebes_280920',
+        'name':'Bebés hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'7'
                     },
-                    {
-        'id':'deportes_200920',
-        'name':'Deportes hasta 50% de desc',
+        {
+        'id':'niños_280920',
+        'name':'Niños hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'8'
                     },
-        {
-        'id':'niños_200920',
-        'name':'Niños hasta 40% de desc',
+                    {
+        'id':'pantallas_280920',
+        'name':'Pantallas hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'9'
                     },
                     {
-        'id':'bebes_200920',
-        'name':'Bebés hasta 40% de desc',
+        'id':'muebles_280920',
+        'name':'Muebles hasta 40% de descuento',
         'creative':'h_banner_secun',
         'position':'10'
-                    },
+                    },                
+                        {
+                        'id':'colchones_280920',
+                        'name':'Colchones',
+                        'creative':'h_banner_secun',
+                        'position':'3a'
+                        },               
+                        {
+                        'id':'decoracion_280920',
+                        'name':'Decoración',
+                        'creative':'h_banner_secun',
+                        'position':'3b'
+                        },             
+                        {
+                        'id':'aires_280920',
+                        'name':'Aires acondicionados',
+                        'creative':'h_banner_secun',
+                        'position':'3c'
+                        },
                     {
-        'id':'mascotas_200920',
-        'name':'Mascotas hasta 40% de desc',
+        'id':'linea_blanca_280920',
+        'name':'Línea Blanca hasta 44% de desc',
         'creative':'h_banner_secun',
         'position':'11'
                     },
                     {
-        'id':'electricos_200920',
-        'name':'Eléctricos hasta 15% de desc',
+        'id':'cocina_280920',
+        'name':'Cocina hasta 25% de desc',
         'creative':'h_banner_secun',
         'position':'12'
                     },
                     {
-        'id':'zapatos_200920',
-        'name':'Zapatos hasta 30% de desc',
+        'id':'alimento_mascotas_280920',
+        'name':'Alimento de mascotas hasta 20% de desc',
         'creative':'h_banner_secun',
         'position':'13'
                     },
                     {
-        'id':'relojes_200920',
-        'name':'Relojes hasta 30% de desc',
+        'id':'instrumentos_musicales_280920',
+        'name':'Instrumentos musicales hasta 30% de desc',
         'creative':'h_banner_secun',
         'position':'14'
-                    },              
+                    },
+
+
+
                     {
-        'id':'ae_200920',
-        'name':'American Eagle hasta 30% de desc',
+        'id':'mujer_011020',
+        'name':'Mujer hasta 15% de desc',
+        'creative':'h_banner_central',
+        'position':'1'
+                    },                  
+                    {
+        'id':'hombre_011020',
+        'name':'Hombre hasta 15% de desc',
         'creative':'h_banner_secun',
-        'position':'15'
-                    }
-            {
-        'id':'cuidado_piel_200920',
-        'name':'Cuidado de la piel hasta 25% de desc',
+        'position':'2'
+                    },
+                    {
+        'id':'zapatos_011020',
+        'name':'Zapatos hasta 15% de desc',
         'creative':'h_banner_secun',
-        'position':'16'
-                        }
-				
-                        ]
+        'position':'4'
+                    },
+                    {
+        'id':'deportes_011020',
+        'name':'Deportes hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'6'
+                                    },
+                    {
+        'id':'bebes_011020',
+        'name':'Bebés hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'7'
+                    },
+                    {
+        'id':'niños_011020',
+        'name':'Niños hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'8'
+                    },
+                    {
+        'id':'cocina_011020',
+        'name':'Cocina hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'12'
                     }
+
+
+                    ]
                 }
-            });
+            }
+        });
+		    
+		    
             
             
  /*AQUÍ INICIA LANDING*/    
