@@ -59,7 +59,8 @@ body {
   color: #000;
 }
 .thumb {
-  width: 93px;
+  width: 90px;
+  height: 80px;
 }
 .tableDetailProduct {
   width: 100%;

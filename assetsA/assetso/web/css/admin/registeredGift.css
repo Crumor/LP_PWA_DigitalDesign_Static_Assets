@@ -123,8 +123,8 @@
 }
 .tablePersonalShopping img,
 .tableRegisteredGifts img {
-	width: 130px;
-
+	width: 100px;
+	height: 80px;
 }
 .textToLeft {
 	text-align: left;

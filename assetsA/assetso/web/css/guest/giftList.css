@@ -90,11 +90,11 @@ body {
 	color: #666;
 }
 .productContent img {
+	height: 100%;
 	object-fit: contain;
-	width: 150px;
+	width: 100%;
 }
 .titleProduct {
-	margin-top:10px;
 	height: 60px;
 	line-height: 1.2;
 	word-break: break-word;
@@ -144,6 +144,8 @@ body {
 }
 
 .productImg {
+	height: 150px;
+	padding: 20px;
 	width: 100%;
 }
 .salePrice {

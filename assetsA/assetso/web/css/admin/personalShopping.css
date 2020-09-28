@@ -64,8 +64,8 @@
 	text-decoration: none;
 }
 .tablePersonalShopping img {
-	width: 130px;
-	
+	width: 100px;
+	height: 80px;
 }
 .tablePersonalShopping div {
 	display: block;

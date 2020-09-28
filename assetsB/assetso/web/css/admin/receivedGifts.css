@@ -15,8 +15,8 @@
   text-decoration: none;
 }
 .tableReceivedGifts img {
-  width: 130px;
-
+  width: 100px;
+  height: 80px;
 }
 .tableReceivedGifts div {
   display: block;
