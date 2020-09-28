@@ -90,257 +90,179 @@ function countDownBuenFin(){
             }
 }
 
-
 function myOnloadFunction(pageName,path) {
-        showBlp();
-        switch(pageName){
+    showBlp();
+    switch(pageName){
 
-            case '/tienda/home':
-                dataLayer.push({
-                'event': 'impresionCampaign',
-                'ecommerce': {
-                    'promoView': {
-                        'promotions': [// Array of promoFieldObjects.
+        case '/tienda/home':
+            dataLayer.push({
+            'event': 'impresionCampaign',
+            'ecommerce': {
+                'promoView': {
+                    'promotions': [// Array of promoFieldObjects.		
+            
+        {
+        'id':'mujer_280920',
+        'name':'Mujer hasta 50% de desc',
+        'creative':'h_banner_central',
+        'position':'1'
+                    },                  
+                    {
+        'id':'hombre_280920',
+        'name':'Hombre hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'2'
+                    },
+                    {
+                'id':'technoday_011020',
+                'name':'Techno Day',
+                'creative':'h_banner_secun',
+                'position':'2a'
+                            },
 
-               {
-               'id':'covid19_010420',
-               'name':'Comunicado COVID-19',
-               'creative':'h_banner_central',
-               'position':'A'
-                    },
-               {
-                'id':'muebles_020620',
-                'name':'Muebles hasta 30% de desc',
-                'creative':'h_banner_central',
-                'position':'1'
-               },
-               {
-                    'id':'descuentos_clic_020620',
-                    'name':'Descuentos a un click hasta 30% de desc',
-                    'creative':'h_banner_central',
-                    'position':'2'
-                   },
-                   {
-                    'id':'muebles_comoda_020620',
-                    'name':'Muebles cómoda',
-                    'creative':'h_banner_central',
-                    'position':'3'
-                   },
-                   {
-                    'id':'comedor_muebles_020620',
-                    'name':'Comedor muebles',
-                    'creative':'h_banner_central',
-                    'position':'4'
-                   },
-                   {
-                    'id':'estudio_muebles_020620',
-                    'name':'Estudio muebles',
-                    'creative':'h_banner_central',
-                    'position':'5'
-                   },
-                   {
-                    'id':'sofa_muebles_020620',
-                    'name':'Muebles Sofás',
-                    'creative':'h_banner_central',
-                    'position':'6'
-                   },
-               {
-               'id':'credito_230320',
-               'name':'Crédito',
-               'creative':'h_banner_central',
-               'position':'B'
+
+                    {
+        'id':'american_eagle_280920',
+        'name':'American Eagle hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'3'
                     },
                     {
-                    'id':'slider_decoracion_010420',
-                    'name':'Decoración',
-                    'creative':'h_banner_secun',
-                    'position':'C'
-                         },                    
+        'id':'zapatos_280920',
+        'name':'Zapatos hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'4'
+                },
                     {
-                    'id':'slider_homeoffice_300320',
-                    'name':'Home office',
-                    'creative':'h_banner_secun',
-                    'position':'D'
-                         },
-                    {
-                    'id':'slider_juegos_mesa_300320',
-                    'name':'Juegos de Mesa',
-                    'creative':'h_banner_secun',
-                    'position':'E'
-                         },
-                    {
-                    'id':'slider_yoga_300320',
-                    'name':'Yoga',
-                    'creative':'h_banner_secun',
-                    'position':'F'
-                         },
-                    {
-                    'id':'slider_instrumentos_060420',
-                    'name':'Instrumentos Musicales',
-                    'creative':'h_banner_secun',
-                    'position':'G'
-                         },
-                    {
-                    'id':'slider_ferreteria_060420',
-                    'name':'Ferreteria',
-                    'creative':'h_banner_secun',
-                    'position':'H'
-                         },
-                    {
-                    'id':'slider_detox_060420',
-                    'name':'Detox',
-                    'creative':'h_banner_secun',
-                    'position':'I'
-                         },
-                    {
-                    'id':'liverpool_pocket_080420',
-                    'name':'Descarga Liverpool Pocket',
-                    'creative':'h_banner_secun',
-                    'position':'J'
-                         },
-                    {
-                    'id':'slider_mascotas_080420',
-                    'name':'Mascotas',
-                    'creative':'h_banner_secun',
-                    'position':'K'
-                         },
-                    {
-                    'id':'slider_aspiradoras_130420',
-                    'name':'Aspiradoras',
-                    'creative':'h_banner_secun',
-                    'position':'L'
-                         },
-                    {
-                    'id':'slider_garmin_130420',
-                    'name':'Garmin',
-                    'creative':'h_banner_secun',
-                    'position':'M'
-                         },
-                     {
-                    'id':'slider_drones_150420',
-                    'name':'Drones',
-                    'creative':'h_banner_secun',
-                    'position':'N'
+        'id':'relojes_280920',
+        'name':'Relojes hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'5'
                     },
-                         {
-                    'id':'slider_ventiladores_170420',
-                    'name':'ventiladores',
-                    'creative':'h_banner_secun',
-                    'position':'O'
-                         },
                     {
-                    'id':'slider_fragancias_020620',
-                    'name':'Fragancias',
-                    'creative':'h_banner_secun',
-                    'position':'P'
-                         },
-                         {
-                    'id':'slider_juguetes_200420',
-                    'name':'Juguetes',
-                    'creative':'h_banner_secun',
-                    'position':'Q'
-                         },
+        'id':'deportes_280920',
+        'name':'Deportes hasta 50% de desc',
+        'creative':'h_banner_secun',
+        'position':'6'
+                    },
                     {
-                    'id':'slider_beauty_200420',
-                    'name':'Beauty',
-                    'creative':'h_banner_secun',
-                    'position':'R'
-                         },
-                          {
-                    'id':'slider_sets_230420',
-                    'name':'Sets para mamá',
-                    'creative':'h_banner_secun',
-                    'position':'S'
-                         },
-                          {
-                    'id':'slider_kiehls',
-                    'name':'Kiehls',
-                    'creative':'h_banner_secun',
-                    'position':'T'
-                         },
-               {
-               'id':'cocina_020620',
-               'name':'Cocina hasta 25% de desc',
-                'creative':'h_banner_secun',
-                'position':'7'
-               },
-               {
-                'id':'colchones_020620',
-                'name':'Colchones hasta 40% de desc',
-                'creative':'h_banner_secun',
-                'position':'8'
-               },
-               {
-                'id':'linea_blanca_020620',
-                'name':'Línea blanca hasta 40% de desc',
-                'creative':'h_banner_secun',
-                'position':'9'
-               },
-               {
-               'id':'computo_020620',
-               'name':'Cómputo hasta 10% de desc',
-               'creative':'h_banner_secun',
-               'position':'10'
+        'id':'bebes_280920',
+        'name':'Bebés hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'7'
                     },
-               {
-               'id':'celulares_020620',
-                'name':'Celulares hasta 13 MSI',
-               'creative':'h_banner_secun',
-               'position':'11'
+        {
+        'id':'niños_280920',
+        'name':'Niños hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'8'
                     },
-               {
-               'id':'american_eagle_020620',
-               'name':'American Eagle hasta 30% de desc',
-               'creative':'h_banner_secun',
-               'position':'12'
+                    {
+        'id':'pantallas_280920',
+        'name':'Pantallas hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'9'
                     },
-               {
-               'id':'el_020620',
-               'name':'Él hasta 20% de desc',
-               'creative':'h_banner_secun',
-               'position':'13'
+                    {
+        'id':'muebles_280920',
+        'name':'Muebles hasta 40% de descuento',
+        'creative':'h_banner_secun',
+        'position':'10'
+                    },                
+                        {
+                        'id':'colchones_280920',
+                        'name':'Colchones',
+                        'creative':'h_banner_secun',
+                        'position':'3a'
+                        },               
+                        {
+                        'id':'decoracion_280920',
+                        'name':'Decoración',
+                        'creative':'h_banner_secun',
+                        'position':'3b'
+                        },             
+                        {
+                        'id':'aires_280920',
+                        'name':'Aires acondicionados',
+                        'creative':'h_banner_secun',
+                        'position':'3c'
+                        },
+                    {
+        'id':'linea_blanca_280920',
+        'name':'Línea Blanca hasta 44% de desc',
+        'creative':'h_banner_secun',
+        'position':'11'
                     },
-               {
-               'id':'barber_shop_020620',
-               'name':'Barber Shop',
-               'creative':'h_banner_secun',
-               'position':'14'
+                    {
+        'id':'cocina_280920',
+        'name':'Cocina hasta 25% de desc',
+        'creative':'h_banner_secun',
+        'position':'12'
                     },
-               {
-               'id':'relojes_020620',
-               'name':'Relojes hasta 20% de desc',
-               'creative':'h_banner_secun',
-               'position':'15'
+                    {
+        'id':'alimento_mascotas_280920',
+        'name':'Alimento de mascotas hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'13'
                     },
-               {
-               'id':'zapatos_020620',
-               'name':'Zapatos hasta 20% de desc',
-               'creative':'h_banner_secun',
-               'position':'16'
+                    {
+        'id':'instrumentos_musicales_280920',
+        'name':'Instrumentos musicales hasta 30% de desc',
+        'creative':'h_banner_secun',
+        'position':'14'
                     },
-               {
-               'id':'ropa_deportiva_020620',
-               'name':'Ropa deportiva hasta 20% de desc',
-               'creative':'h_banner_secun',
-               'position':'17'
+
+
+
+                    {
+        'id':'mujer_011020',
+        'name':'Mujer hasta 15% de desc',
+        'creative':'h_banner_central',
+        'position':'1'
+                    },                  
+                    {
+        'id':'hombre_011020',
+        'name':'Hombre hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'2'
                     },
-               {
-               'id':'ferreteria_020620',
-               'name':'Ferretería hasta 20% de desc',
-               'creative':'h_banner_secun',
-               'position':'18'
+                    {
+        'id':'zapatos_011020',
+        'name':'Zapatos hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'4'
                     },
-               {
-               'id':'mascotas_020620',
-               'name':'Mascotas hasta 20% de desc',
-               'creative':'h_banner_secun',
-               'position':'19'
+                    {
+        'id':'deportes_011020',
+        'name':'Deportes hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'6'
+                                    },
+                    {
+        'id':'bebes_011020',
+        'name':'Bebés hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'7'
+                    },
+                    {
+        'id':'niños_011020',
+        'name':'Niños hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'8'
+                    },
+                    {
+        'id':'cocina_011020',
+        'name':'Cocina hasta 15% de desc',
+        'creative':'h_banner_secun',
+        'position':'12'
                     }
-               
-                        ]
-                    }
+
+
+                    ]
                 }
-            });
+            }
+        });
+
             
             
  /*AQUÍ INICIA LANDING*/    
@@ -1124,21 +1046,21 @@ dataLayer.push({
     'position': '05'
 },
 {
-    'id': 'ollas_230320',
-    'name': 'Ollas Cocina',
-    'creative': 'blp_cocina_ollas',
+    'id': 'baterias_230320',
+    'name': 'Baterias Cocina',
+    'creative': 'blp_cocina_baterias',
     'position': '06'
 },
 {
     'id': 'vajillas_230320',
     'name': 'Vajillas Cocina',
-    'creative': 'blp_cocina_frigobares',
+    'creative': 'blp_cocina_vajillas',
     'position': '07'
 },
 {
-    'id': 'baterias_230320',
-    'name': 'Baterias Cocina',
-    'creative': 'blp_cocina_baterias',
+    'id': 'ollas_230320',
+    'name': 'Ollas Cocina',
+    'creative': 'blp_cocina_ollas',
     'position': '08'
 },
 {
@@ -1176,81 +1098,81 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'jardin_180320',
-    'name': 'Jardines',
-    'creative': 'blp_muebles_jardines',
+    'id': 'salas_170820',
+    'name': 'Salas',
+    'creative': 'blp_muebles_salas',
     'position': '01'
 },
 {
-    'id': 'oficina_180320',
-    'name': 'Oficina',
-    'creative': 'blp_muebles_oficina',
+    'id': 'cdi_170820',
+    'name': 'CDI',
+    'creative': 'blp_muebles_cdi',
     'position': '02'
 },
 {
-    'id': 'salas_180320',
-    'name': 'Salas',
-    'creative': 'blp_muebles_salas',
+    'id': 'oficina_170820',
+    'name': 'Oficina',
+    'creative': 'blp_muebles_oficina',
     'position': '03'
 },
 {
-    'id': 'colchones_180320',
-    'name': 'Colchones',
-    'creative': 'blp_muebles_colchones',
+    'id': 'jardin_170820',
+    'name': 'Jardin',
+    'creative': 'blp_muebles_jardin',
     'position': '04'
 },
 {
-    'id': 'infantiles_180320',
-    'name': 'Infantiles',
-    'creative': 'blp_muebles_infantiles',
+    'id': 'colchones_170820',
+    'name': 'Colchones',
+    'creative': 'blp_muebles_colchones',
     'position': '05'
 },
 {
-    'id': 'bebe_180320',
-    'name': 'Bebe',
-    'creative': 'blp_muebles_bebe',
+    'id': 'infantiles_170820',
+    'name': 'Infantiles',
+    'creative': 'blp_muebles_infantiles',
     'position': '06'
 },
 {
-    'id': 'sillas_180320',
-    'name': 'Sillas',
-    'creative': 'blp_muebles_sillas',
+    'id': 'bebe_170820',
+    'name': 'Bebe',
+    'creative': 'blp_muebles_bebe',
     'position': '07'
 },
 {
-    'id': 'iluminacion_180320',
-    'name': 'Iluminacion',
-    'creative': 'blp_muebles_iluminacion',
+    'id': 'esculturas_170820',
+    'name': 'Esculturas',
+    'creative': 'blp_muebles_esculturas',
     'position': '08'
 },
 {
-    'id': 'portaretratos_180320',
-    'name': 'Portaretratos',
-    'creative': 'blp_muebles_portaretratos',
+   'id': 'iluminacion_170820',
+    'name': 'Iluminacion',
+    'creative': 'blp_muebles_salas',
     'position': '09'
 },
 {
-    'id': 'tapetes_180320',
-    'name': 'Tapetes',
-    'creative': 'blp_muebles_tapetes',
+    'id': 'portaretrato_170820',
+    'name': 'Portaretrato',
+    'creative': 'blp_muebles_portaretrato',
     'position': '10'
 },
 {
-    'id': 'cuadros_180320',
-    'name': 'Cuadros',
-    'creative': 'blp_muebles_cuadros',
+    'id': 'tapetes_170820',
+    'name': 'Tapetes',
+    'creative': 'blp_muebles_tapetes',
     'position': '11'
 },
 {
-    'id': 'espejos_180320',
-    'name': 'Espejos',
-    'creative': 'blp_muebles_espejos',
+    'id': 'cuadros_170820',
+    'name': 'Cuadros',
+    'creative': 'blp_muebles_cuadros',
     'position': '12'
 },
 {
-    'id': 'cdi_210619',
-    'name': 'CDI',
-    'creative': 'blp_muebles_cdi',
+    'id': 'jarrones_170820',
+    'name': 'Jarrones',
+    'creative': 'blp_muebles_jarrones',
     'position': '13'
 }
 ]
@@ -2118,6 +2040,14 @@ dataLayer.push({
 'creative': 'blp_Cómputo_Instrumentos_Musicales',
 'position': '05'
 
+},
+{	
+
+'id': 'computo_050820',
+'name': 'Computo Sufrace',
+'creative': 'blp_computo_surface',
+'position': '14'
+
 }
 ]
 }
@@ -2450,111 +2380,111 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'zapatos_main',
-    'name': 'Zapatos Main',
-    'creative': 'blp_zapatos_main',
+    'id': 'zapatos_mujer_sneakers_190820',
+    'name': 'Zapatos Sneakers Mujer',
+    'creative': 'blp_zapatos_sneakers_mujer',
     'position': '01'
 },
 {
-    'id': 'zapatos_tacones',
-    'name': 'Zapatos Tacones',
-    'creative': 'blp_zapatos_tacones',
+    'id': 'zapatos_hombre_sneakers_190820',
+    'name': 'Zapatos Sneakers Hombre',
+    'creative': 'blp_zapatos_sneakers_hombre',
     'position': '02'
 },
 {
-    'id': 'zapatos_sandalias',
-    'name': 'Zapatos Sandalias',
-    'creative': 'blp_zapatos_sandalias',
+    'id': 'zapatos_infantiles_nina_190820',
+    'name': 'Zapatos Infantiles Nina',
+    'creative': 'blp_zapatos_infantiles_nina',
     'position': '03'
 },
 {
-    'id': 'zapatos_sneakers_ella',
-    'name': 'Zapatos Sneakers Ella',
-    'creative': 'blp_zapatos_sneakers_ella',
+    'id': 'zapatos_infantiles_bebes_190820',
+    'name': 'Zapatos Infantiles Bebes',
+    'creative': 'blp_zapatos_infantiles_bebes',
     'position': '04'
 },
 {
-    'id': 'zapatos_botas_ella',
-    'name': 'Zapatos Botas Ella',
-    'creative': 'blp_zapatos_botas_ella',
+    'id': 'zapatos_infantiles_nino_190820',
+    'name': 'Zapatos Infantiles Ninos',
+    'creative': 'blp_zapatos_infantiles_ninos',
     'position': '05'
 },
 {
-    'id': 'zapatos_ella_todo',
-    'name': 'Zapatos Ella Todo',
-    'creative': 'blp_zapatos_ella_todo',
+    'id': 'zapatos_infantiles_deportivos_190820',
+    'name': 'Zapatos Infantiles Deportivos',
+    'creative': 'blp_zapatos_infantiles_deportivos',
     'position': '06'
 },
 {
-    'id': 'zapatos_deportivo_el',
-    'name': 'Zapatos Deportivo El',
-    'creative': 'blp_zapatos_deportivo_el',
+    'id': 'zapatos_infantiles_deportivos_ninos_190820',
+    'name': 'Zapatos Infantiles Deportivos Ninos',
+    'creative': 'blp_zapatos_infantiles_deportivos_ninos',
     'position': '07'
 },
 {
-    'id': 'zapatos_deportivo_ella',
-    'name': 'Zapatos Deportivo Ella',
-    'creative': 'blp_zapatos_deportivo_ella',
+    'id': 'zapatos_infantiles_deportivos_ninas_190820',
+    'name': 'Zapatos Infantiles Deportivos Ninas',
+    'creative': 'blp_zapatos_infantiles_deportivos_ninas',
     'position': '08'
 },
 {
-    'id': 'zapatos_deportivo_ninos',
-    'name': 'Zapatos Deportivo Ninos',
-    'creative': 'blp_zapatos_deportivo_ninos',
+    'id': 'zapatos_mujer_todo_190820',
+    'name': 'Zapatos Mujer Todo',
+    'creative': 'blp_zapatos_mujer_todo',
     'position': '09'
 },
 {
-    'id': 'zapatos_deportivo_ninas',
-    'name': 'Zapatos Deportivo Ninas',
-    'creative': 'blp_zapatos_deportivo_ninas',
+    'id': 'zapatos_mujer_botas_190820',
+    'name': 'Zapatos Mujer Botas',
+    'creative': 'blp_zapatos_mujer_botas',
     'position': '10'
 },
 {
-    'id': 'zapatos_el_todo',
-    'name': 'Zapatos El Todo',
-    'creative': 'blp_zapatos_el_todo',
+    'id': 'zapatos_mujer_flats_190820',
+    'name': 'Zapatos Mujer Flats',
+    'creative': 'blp_zapatos_mujer_flats',
     'position': '11'
 },
 {
-    'id': 'zapatos_casual_el',
-    'name': 'Zapatos Casual El',
-    'creative': 'blp_zapatos_casual_el',
+    'id': 'zapatos_mujer_tacones_190820',
+    'name': 'Zapatos Mujer Tacones',
+    'creative': 'blp_zapatos_mujer_tacones',
     'position': '12'
 },
 {
-    'id': 'zapatos_formal_el',
-    'name': 'Zapatos Formal El',
-    'creative': 'blp_zapatos_formal_el',
+    'id': 'zapatos_mujer_deportivos_190820',
+    'name': 'Zapatos Mujer Deportivos',
+    'creative': 'blp_zapatos_mujer_deportivos',
     'position': '13'
 },
 {
-    'id': 'zapatos_sneaker_el',
-    'name': 'Zapatos Sneaker El',
-    'creative': 'blp_zapatos_sneaker_el',
+    'id': 'zapatos_hombre_casual_190820',
+    'name': 'Zapatos Hombre Casual',
+    'creative': 'blp_zapatos_hombre_casual',
     'position': '14'
 },
 {
-    'id': 'zapatos_bota_el',
-    'name': 'Zapatos Bota El',
-    'creative': 'blp_zapatos_bota_el',
+    'id': 'zapatos_hombre_formal_190820',
+    'name': 'Zapatos Hombre Formal',
+    'creative': 'blp_zapatos_hombre_formal',
     'position': '15'
 },
 {
-    'id': 'zapatos_nina',
-    'name': 'Zapatos Nina',
-    'creative': 'blp_zapatos_nina',
+    'id': 'zapatos_hombre_botas_190820',
+    'name': 'Zapatos Hombre Botas',
+    'creative': 'blp_zapatos_hombre_botas',
     'position': '16'
 },
 {
-    'id': 'zapatos_bebes',
-    'name': 'Zapatos Bebes',
-    'creative': 'blp_zapatos_bebes',
+    'id': 'zapatos_hombre_deportivos_190820',
+    'name': 'Zapatos Hombre Deportivos',
+    'creative': 'blp_zapatos_hombre_deportivos',
     'position': '17'
 },
 {
-    'id': 'zapatos_ninos',
-    'name': 'Zapatos Ninos',
-    'creative': 'blp_zapatos_ninos',
+    'id': 'zapatos_hombre_todo_190820',
+    'name': 'Zapatos Hombre Todo',
+    'creative': 'blp_zapatos_hombre_todo',
     'position': '18'
 }
 ]
@@ -2565,7 +2495,7 @@ dataLayer.push({
 
 // PRIMER NIVEL Halloween
 break;
-case '/tienda/halloween/catst1718701':
+case '/tienda/halloween-y-navidad/catst21474918':
 
 dataLayer.push({
 'event': 'impresionCampaign',
@@ -2575,28 +2505,136 @@ dataLayer.push({
 
 
 {
-'id': 'halloween_270819',
-'name': 'Halloween',
-'creative': 'blp_Halloween_disfraces',
-'position': '02'
+    'id': 'hanav_halloween_260820',
+    'name': 'Halloween Main',
+    'creative': 'blp_halloween_main',
+    'position': '01'
 },
 {
-'id': 'halloween_270819',
-'name': 'Halloween',
-'creative': 'blp_Halloween_decoracion',
-'position': '03'
+    'id': 'hanav_navidad_m_260820',
+    'name': 'Navidad Main m',
+    'creative': 'blp_navidad_main_m',
+    'position': '02'
 },
 {
-'id': 'halloween_270819',
-'name': 'Halloween',
-'creative': 'blp_Halloween_accesorios',
-'position': '04'
+    'id': 'hanav_halloween_decoracion_260820',
+    'name': 'Halloween Decoracion',
+    'creative': 'blp_halloween_decoracion',
+    'position': '03'
 },
 {
-'id': 'halloween_270819',
-'name': 'Halloween',
-'creative': 'blp_Halloween_tradiciones',
-'position': '06'
+    'id': 'hanav_halloween_decoracion_animada_260820',
+    'name': 'Halloween Decoracion Animada',
+    'creative': 'blp_halloween_decoracion_animada',
+    'position': '04'
+},
+{
+    'id': 'hanav_halloween_diamuertos_260820',
+    'name': 'Halloween Dia Muertos',
+    'creative': 'blp_halloween_dia_muertos',
+    'position': '05'
+},
+{
+    'id': 'hanav_halloween_accesorios_260820',
+    'name': 'Halloween Accesorios',
+    'creative': 'blp_halloween_accesorios',
+    'position': '06'
+},
+{
+    'id': 'hanav_navidad_260820',
+    'name': 'Navidad Main',
+    'creative': 'blp_navidad_main',
+    'position': '07'
+},
+{
+    'id': 'hanav_navidad_wonderful_260820',
+    'name': 'Navidad Wonderful',
+    'creative': 'blp_navidad_wonderful',
+    'position': '08'
+},
+{
+    'id': 'hanav_navidad_dorada_260820',
+    'name': 'Navidad Dorada',
+    'creative': 'blp_navidad_dorada',
+    'position': '09'
+},
+{
+    'id': 'hanav_navidad_plata_260820',
+    'name': 'Navidad Plata',
+    'creative': 'blp_navidad_plata',
+    'position': '10'
+},
+{
+    'id': 'hanav_navidad_cascanueces_260820',
+    'name': 'Navidad Cascanueces',
+    'creative': 'blp_navidad_cascanueces',
+    'position': '11'
+},
+{
+    'id': 'hanav_navidad_retro_260820',
+    'name': 'Navidad Retro',
+    'creative': 'blp_navidad_retro',
+    'position': '12'
+},
+{
+    'id': 'hanav_navidad_polar_260820',
+    'name': 'Navidad Polar',
+    'creative': 'blp_navidad_polar',
+    'position': '13'
+},
+{
+    'id': 'hanav_navidad_merry_260820',
+    'name': 'Navidad Merry',
+    'creative': 'blp_navidad_merry',
+    'position': '14'
+},
+{
+    'id': 'hanav_navidad_natural_260820',
+    'name': 'Navidad Natural',
+    'creative': 'blp_navidad_natural',
+    'position': '15'
+},
+{
+    'id': 'hanav_navidad_cobre_260820',
+    'name': 'Navidad Cobre',
+    'creative': 'blp_navidad_cobre',
+    'position': '16'
+},
+{
+    'id': 'hanav_navidad_rosa_260820',
+    'name': 'Navidad Rosa',
+    'creative': 'blp_navidad_rosa',
+    'position': '17'
+},
+{
+    'id': 'hanav_navidad_arbol_260820',
+    'name': 'Navidad Arbol',
+    'creative': 'blp_navidad_arbol',
+    'position': '18'
+},
+{
+    'id': 'hanav_navidad_viste_260820',
+    'name': 'Navidad Viste',
+    'creative': 'blp_navidad_viste',
+    'position': '19'
+},
+{
+    'id': 'hanav_navidad_decora_260820',
+    'name': 'Navidad Decora',
+    'creative': 'blp_navidad_decora',
+    'position': '20'
+},
+{
+    'id': 'hanav_navidad_nacimientos_260820',
+    'name': 'Navidad Nacimientos',
+    'creative': 'blp_navidad_nacimientos',
+    'position': '21'
+},
+{
+    'id': 'hanav_navidad_decoracion_260820',
+    'name': 'Navidad Decoracion',
+    'creative': 'blp_navidad_decoracion',
+    'position': '22'
 }
 
 ]
@@ -3001,58 +3039,70 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-'id': 'gap_main_130220',
-'name': 'gap_Principal',
-'creative': 'blp_gap_main',
-'position': '01'
+        'id': 'gap_main_180820',
+        'name': 'Gap Principal',
+        'creative': 'blp_gap_main',
+        'position': '01'
 },
 {
-'id': 'gap_ella_130220',
-'name': 'gap_ella',
-'creative': 'blp_gap_ella',
-'position': '02'
+        'id': 'gap_mochilas_180820',
+        'name': 'Gap Mochilas',
+        'creative': 'blp_gap_mochilas',
+        'position': '02'
 },
 {
-'id': 'gap_el_130220',
-'name': 'gap_el',
-'creative': 'blp_gap_el',
-'position': '03'
+        'id': 'gap_bebeschool_180820',
+        'name': 'Gap Bebe School',
+        'creative': 'blp_gap_bebeschool',
+        'position': '03'
 },
 {
-'id': 'gap_ninos_130220',
-'name': 'gap_ninos',
-'creative': 'blp_gap_ninos',
-'position': '04'
+        'id': 'gap_ninoschool_180820',
+        'name': 'Gap Nino School',
+        'creative': 'blp_gap_ninoschool',
+        'position': '04'
 },
 {
-'id': 'gap_bebes_130220',
-'name': 'gap_bebes',
-'creative': 'blp_gap_bebes',
-'position': '05'
+        'id': 'gap_mujer_180820',
+        'name': 'Gap Mujer',
+        'creative': 'blp_gap_mujer',
+        'position': '05'
 },
 {
-'id': 'gap_mejordenim_130220',
-'name': 'gap_mejordenim',
-'creative': 'blp_gap_mejordenim',
-'position': '06'
+        'id': 'gap_hombre_180820',
+        'name': 'Gap Hombre',
+        'creative': 'blp_gap_hombre',
+        'position': '06'
 },
 {
-'id': 'gap_khaki_el_170330',
-'name': 'gap_khaki_el',
-'creative': 'blp_gap_khaki_el',
-'position': '07'
+        'id': 'gap_nina_180820',
+        'name': 'Gap Nina',
+        'creative': 'blp_gap_nina',
+        'position': '07'
 },
 {
-'id': 'gap_khaki_ella_170330',
-'name': 'gap_khaki_ella',
-'creative': 'blp_gap_khaki_ella',
-'position': '08'
+        'id': 'gap_nino_180820',
+        'name': 'Gap Nino',
+        'creative': 'blp_gap_nino',
+        'position': '08'
 },
 {
-'id': 'gap_anorak_020320',
-'name': 'gap_anorak',
-'creative': 'blp_gap_anorak',
-'position': '09'
+        'id': 'gap_bebenina_180820',
+        'name': 'Gap Bebe Nina',
+        'creative': 'blp_gap_bebe_nina',
+        'position': '09'
+},
+{
+        'id': 'gap_bebenino_180820',
+        'name': 'Gap Bebe Nino',
+        'creative': 'blp_gap_bebe_nino',
+        'position': '10'
+},
+{
+        'id': 'gap_denim_180820',
+        'name': 'Gap Denim',
+        'creative': 'blp_gap_denim',
+        'position': '11'
 }
 ]
 }
@@ -3060,6 +3110,58 @@ dataLayer.push({
 });		
 				
 
+                
+                
+/* POLO RALPH LAUREN */ 
+
+break;
+case '/tienda/ralph-lauren/cat4920000':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+    'id': 'main_270720',
+    'name': 'RL Main',
+    'creative': 'blp_rl_main',
+    'position': '01'
+},
+{
+    'id': 'nino_270720',
+    'name': 'RL Nino',
+    'creative': 'blp_rl_nino',
+    'position': '02'
+},
+{
+    'id': 'nina_270720',
+    'name': 'RL Nina',
+    'creative': 'blp_rl_nina',
+    'position': '03'
+},
+{
+    'id': 'ella_270720',
+    'name': 'RL Ella',
+    'creative': 'blp_rl_ella',
+    'position': '04'
+},
+{
+    'id': 'bebes_270720',
+    'name': 'RL Bebes',
+    'creative': 'blp_rl_bebes',
+    'position': '05'
+}
+]
+}
+}
+});		
+		
+                
+                
+          
+                
 /* BLP west elm*/
 				
 				
@@ -3129,40 +3231,100 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'curvy_jeans_180220',
-    'name': 'AE Curvy Jeans',
-    'creative': 'blp_ae_curvy_jeans',
-    'position': '01'
+                                                'id': 'el_200820',
+                                                'name': 'AE EL',
+                                                'creative': 'blp_ae_el',
+                                                'position': '01'
 },
 {
-    'id': 'airflex_180220',
-    'name': 'AE AirFlex',
-    'creative': 'blp_ae_airflex',
-    'position': '02'
+                                                'id': 'ella_200820',
+                                                'name': 'AE Ella',
+                                                'creative': 'blp_ae_ella',
+                                                'position': '02'
 },
 {
-    'id': 'playeras_ella_180220',
-    'name': 'AE Playeras Ella',
-    'creative': 'blp_ae_playeras_ella',
-    'position': '03'
+                                                'id': 'bra_200820',
+                                                'name': 'AE Bra',
+                                                'creative': 'blp_ae_bra',
+                                                'position': '03'
 },
 {
-    'id': 'playeras_el_180220',
-    'name': 'AE Playeras El',
-    'creative': 'blp_ae_playeras_el',
-    'position': '04'
+                                                'id': 'undies_200820',
+                                                'name': 'AE Undies',
+                                                'creative': 'blp_ae_undies',
+                                                'position': '04'
 },
 {
-    'id': 'vestidos_180220',
-    'name': 'AE Vestidos',
-    'creative': 'blp_ae_vestidos',
-    'position': '05'
+                                                'id': 'interior_200820',
+                                                'name': 'AE Interior',
+                                                'creative': 'blp_ae_interior',
+                                                'position': '05'
 },
 {
-    'id': 'polos_180220',
-    'name': 'AE Polos',
-    'creative': 'blp_ae_polos',
-    'position': '06'
+                                                'id': 'jeans_el_200820',
+                                                'name': 'AE Jeans El',
+                                                'creative': 'blp_ae_jeans_el',
+                                                'position': '06'
+},
+{
+                                                'id': 'jeans_ella_200820',
+                                                'name': 'AE Jeans Ella',
+                                                'creative': 'blp_ae_jeans_ella',
+                                                'position': '07'
+},
+{
+                                                'id': 'boxers_el_200820',
+                                                'name': 'AE Boxers El',
+                                                'creative': 'blp_ae_boxers_el',
+                                                'position': '16'
+},
+{
+                                                'id': 'playeras_el_200820',
+                                                'name': 'AE Playeras El',
+                                                'creative': 'blp_ae_playeras_el',
+                                                'position': '08'
+},
+{
+                                                'id': 'camisas_el_200820',
+                                                'name': 'AE Camisas El',
+                                                'creative': 'blp_ae_camisas_el',
+                                                'position': '09'
+},
+{
+                                                'id': 'jumpsuit_ella_200820',
+                                                'name': 'AE Jumpsuit Ella',
+                                                'creative': 'blp_ae_jumpsuit_ella',
+                                                'position': '10'
+},
+{
+                                                'id': 'playeras_ella_200820',
+                                                'name': 'AE Playeras Ella',
+                                                'creative': 'blp_ae_playeras_ella',
+                                                'position': '11'
+},
+{
+                                                'id': 'pantalones_el_200820',
+                                                'name': 'AE Pantalones El',
+                                                'creative': 'blp_ae_pantalones_el',
+                                                'position': '12'
+},
+{
+                                                'id': 'pantalones_ella_200820',
+                                                'name': 'AE Pantalones Ella',
+                                                'creative': 'blp_ae_pantalones_ella',
+                                                'position': '13'
+},
+{
+                                                'id': 'bermudas_el_200820',
+                                                'name': 'AE Bermudas El',
+                                                'creative': 'blp_ae_bermudas_el',
+                                                'position': '14'
+},
+{
+                                                'id': 'faldas_ella_200820',
+                                                'name': 'AE Faldas Ella',
+                                                'creative': 'blp_ae_faldas_ella',
+                                                'position': '15'
 }
 ]
 }
@@ -3182,49 +3344,49 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'puma_cabeza_210619',
+    'id': 'puma_cabeza_270820',
     'name': 'Cabeza Puma',
     'creative': 'blp_puma_cabeza',
     'position': '01'
 },
 {
-    'id': 'sportstyle_210619',
+    'id': 'sportstyle_280820',
     'name': 'SportStyle Puma',
     'creative': 'blp_puma_sportstyle',
     'position': '02'
 },
 {
-    'id': 'futbol_210619',
+    'id': 'futbol_280820',
     'name': 'Futbol Puma',
     'creative': 'blp_puma_futbol',
     'position': '03'
 },
 {
-    'id': 'training_210619',
+    'id': 'training_280820',
     'name': 'Training Puma',
     'creative': 'blp_puma_training',
     'position': '04'
 },
 {
-    'id': 'woman_210619',
+    'id': 'woman_280820',
     'name': 'Woman Puma',
     'creative': 'blp_puma_woman',
     'position': '05'
 },
 {
-    'id': 'accesorios_210619',
+    'id': 'accesorios_280820',
     'name': 'Accesorios Puma',
     'creative': 'blp_puma_accesorios',
     'position': '06'
 },
 {
-    'id': 'motosport_210619',
+    'id': 'motosport_280820',
     'name': 'Motosport Puma',
     'creative': 'blp_puma_motosport',
     'position': '07'
 },
 {
-    'id': 'kids_210619',
+    'id': 'kids_280820',
     'name': 'Kids Puma',
     'creative': 'blp_puma_kids',
     'position': '08'
@@ -3789,55 +3951,55 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'levis_main_210619',
+    'id': 'levis_main_050820',
     'name': 'Levis Main',
     'creative': 'blp_levis_main',
     'position': '01'
 },
 {
-    'id': 'el_210619',
+    'id': 'levis_el_050820',
     'name': 'Levis El',
     'creative': 'blp_levis_el',
     'position': '02'
 },
 {
-    'id': 'ella_210619',
+    'id': 'levis_ella_050820',
     'name': 'Levis Ella',
     'creative': 'blp_levis_ella',
     'position': '03'
 },
 {
-    'id': 'plus_210619',
+    'id': 'levis_plus_050820',
     'name': 'Levis Plus',
     'creative': 'blp_levis_plus',
     'position': '04'
 },
 {
-    'id': 'chamarras_210619',
+    'id': 'levis_chamarras_050820',
     'name': 'Levis Chamarras',
     'creative': 'blp_levis_chamarras',
     'position': '05'
 },
 {
-    'id': 'camisas_210619',
+    'id': 'levis_camisas_050820',
     'name': 'Levis Camisas',
     'creative': 'blp_levis_camisas',
     'position': '06'
 },
 {
-    'id': 'accesorios_210619',
+    'id': 'levis_accesorios_050820',
     'name': 'Levis Accesorios',
     'creative': 'blp_levis_accesorios',
     'position': '07'
 },
 {
-    'id': 'zapatos_210619',
+    'id': 'levis_zapatos_050820',
     'name': 'Levis Zapatos',
     'creative': 'blp_levis_zapatos',
     'position': '08'
 },
 {
-    'id': 'kids_210619',
+    'id': 'levis_kids_050820',
     'name': 'Levis Kids',
     'creative': 'blp_levis_kids',
     'position': '09'
@@ -3859,40 +4021,16 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'principal_171219',
-    'name': 'Hugo Main Movil',
-    'creative': 'blp_hugo_main_movil',
+    'id': 'el_070920',
+    'name': 'Hugo El',
+    'creative': 'blp_hugo_el',
     'position': '01'
 },
 {
-    'id': 'el_171219',
-    'name': 'Hugo El',
-    'creative': 'blp_hugo_el',
-    'position': '02'
-},
-{
-    'id': 'ella_171219',
+    'id': 'el_070920',
     'name': 'Hugo Ella',
     'creative': 'blp_hugo_ella',
-    'position': '03'
-},
-{
-    'id': 'playeras_171219',
-    'name': 'Hugo Playeras',
-    'creative': 'blp_hugo_playeras',
-    'position': '04'
-},
-{
-    'id': 'calzado_171219',
-    'name': 'Hugo Calzado',
-    'creative': 'blp_hugo_calzado',
-    'position': '05'
-},
-{
-    'id': 'ropa_interior_171219',
-    'name': 'Hugo Ropa Interior',
-    'creative': 'blp_hugo_ropa_interior',
-    'position': '06'
+    'position': '02'
 }
 ]
 }
@@ -3974,6 +4112,76 @@ dataLayer.push({
 }
 }
 });
+        
+                
+/* BLP AEROPOSTALE*/ 
+       
+            break;
+            case '/tienda/aéropostale/cat910660':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+                'id': 'sudaderas_mujer_080920',
+                'name': 'Aero Sudaderas Mujer',
+                'creative': 'blp_aero_sudaderas_mujer',
+                'position': '01'
+},
+{
+                'id': 'camisetas_mujer_080920',
+                'name': 'Aero Camisetas Mujer',
+                'creative': 'blp_aero_camisetas_mujer',
+                'position': '02'
+},
+{
+                'id': 'sudaderas_hombre_080920',
+                'name': 'Aero Sudaderas Hombre',
+                'creative': 'blp_aero_sudaderas_hombre',
+                'position': '03'
+},
+{
+                'id': 'camisas_hombre_080920',
+                'name': 'Aero Camisas Hombre',
+                'creative': 'blp_aero_camisas_hombre',
+                'position': '04'
+},
+{
+                'id': 'pantalones_hombre_080920',
+                'name': 'Aero Pantalones Hombre',
+                'creative': 'blp_aero_pantalones_hombre',
+                'position': '05'
+},
+{
+                'id': 'ninas_80920',
+                'name': 'Aero Ninas',
+                'creative': 'blp_aero_ninas',
+                'position': '06'
+},
+{
+                'id': 'ninos_80920',
+                'name': 'Aero Ninos',
+                'creative': 'blp_aero_ninos',
+                'position': '07'
+}
+]
+}
+}
+});
+                               
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
       
 /* BLP APPLE*/ 
@@ -4163,6 +4371,68 @@ dataLayer.push({
 }
 }
 });
+
+
+/*PRIMER BACK TO SCHOOL*/ 
+       
+break;
+case '/tienda/back-to-school/cat5800034':
+
+
+dataLayer.push({
+'event': 'impresionCampaign',
+'ecommerce': {
+'promoView': {
+'promotions': [ // Array of promoFieldObjects.
+{
+'id': 'blp-back-to-school-010820',
+'name': 'Back to School',
+'creative': 'blp_back-to-school',
+'position': '00'
+},
+{
+'id': 'blp-back-to-school-010820',
+'name': 'Back to School',
+'creative': 'blp_back-to-school',
+'position': '01'
+},
+{
+'id': 'blp-back-to-school-010820',
+'name': 'Tecnología',
+'creative': 'blp_back-to-school',
+'position': '02'
+},
+{
+'id': 'blp-back-to-school-010820',
+'name': 'Librería',
+'creative': 'back-to-school',
+'position': '03'
+},
+{
+'id': 'blp-back-to-school-010820',
+'name': 'Homeschooling',
+'creative': 'back-to-school',
+'position': '04'
+},
+{
+'id': 'blp-back-to-school-010820',
+'name': 'Básicos',
+'creative': 'back-to-school',
+'position': '05'
+},
+{
+'id': 'blp-back-to-school-010820',
+'name': 'Escritura',
+'creative': 'blp_back-to-school',
+'position': '06'
+}
+]
+}
+}
+});
+
+
+
                 
 /* BLP CATERPILLAR CAT*/ 
        
@@ -4280,3 +4550,5 @@ dataLayer.push({
  break;  
 }
 }
+
+

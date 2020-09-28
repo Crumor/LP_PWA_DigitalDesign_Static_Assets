@@ -94,7 +94,8 @@
                             "productos-descargables":"200011",
                             "sorteos":"200012",
                             "otros-temas":"200010",
-                            "click-and-collect":"200013"
+                            "click-and-collect":"200013",
+                            "inicio-sesion-con-facebook":"200010"
                         };
                         var idMenu=0;
                         if( x.hasOwnProperty($scope.linkCategory)){
