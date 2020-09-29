@@ -255,6 +255,108 @@ function myOnloadFunction(pageName,path) {
         'name':'Cocina hasta 15% de desc',
         'creative':'h_banner_secun',
         'position':'12'
+                    },
+						{
+        'id':'pantallas_021020',
+      'name':'Pantallas hasta 57% de desc',
+       'creative':'h_banner_central',
+       'position':'1'
+                    },                  
+                    {
+       'id':'muebles_021020',
+        'name':'Muebles hasta 50% de desc',
+        'creative':'h_banner_secun',
+        'position':'2'
+                    },{
+        'id':'linea_blanca_021020',
+        'name':'Línea Blanca hasta 47% de desc',
+        'creative':'h_banner_secun',
+        'position':'3'
+                    },{
+         'id':'colchones_021020',
+                    'name':'Colchones hasta 43% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'4'
+                    },{
+         'id':'muebles_bebe_021020',
+                    'name':'Muebles para bebé hasta 35% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'5'
+                    },{
+       'id':'casa_021020',
+                    'name':'Casa hasta 35% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'6'
+                    },{
+        'id':'cocina_021020',
+                    'name':'Cocina hasta 30% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'7'
+                    },{
+        'id':'computo_021020',
+        'name':'Cómputo hasta 20% de desc',
+        'creative':'h_banner_secun',
+        'position':'8'
+                    },{
+        'id':'celulares_021020',
+                    'name':'Celulares hasta 10% de reembolso',
+                    'creative':'h_banner_secun',
+                    'position':'9'
+                    },{
+         'id':'videojuegos_021020',
+                    'name':'Videojuegos hasta 20 MSI',
+                    'creative':'h_banner_secun',
+                    'position':'10'
+                    },{
+       'id':'hombre_021020',
+                    'name':'Hombre hasta 30% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'11'
+                    },{
+        'id':'relojes_021020',
+                    'name':'Relojes hasta 50% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'12'
+                    },{
+        'id':'mujer_021020',
+                    'name':'Mujer hasta 30% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'13'
+                    },{
+       'id':'bolsas_021020',
+                    'name':'Bolsas hasta 25% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'14'
+                    },{
+         'id':'ninos_021020',
+                    'name':'Niños hasta 25% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'15'
+                    },{
+      'id':'zapatos_021020',
+                    'name':'Zapatos hasta 25% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'16'
+                    },{
+       'id':'bath_body_021020',
+                    'name':'Bath&Body Works hasta 30% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'17'
+                    },{
+        'id':'joyeria_021020',
+                    'name':'Joyería hasta 25% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'18'
+                    },{
+        'id':'foreo_021020',
+                    'name':'Foreo hasta 15% de desc',
+                    'creative':'h_banner_secun',
+                    'position':'19'
+                    },{
+     'id':'deportes_021020',
+        'name':'Deportes hasta 40% de desc',
+        'creative':'h_banner_secun',
+        'position':'20'
                     }
 
 
@@ -262,7 +364,8 @@ function myOnloadFunction(pageName,path) {
                 }
             }
         });
-
+		    
+		    
             
             
  /*AQUÍ INICIA LANDING*/    
