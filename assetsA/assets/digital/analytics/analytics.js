@@ -2036,9 +2036,9 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'hs_mayo_200520',
-    'name': 'Hot Sale Celulares',
-    'creative': 'blp_celulares_hs',
+    'id': 'venta_nocturna_septiembre_300920',
+    'name': 'Venta Nocturna Septiembre',
+    'creative': 'blp_celulares_vseptiembre',
     'position': '01'
 },
 {
