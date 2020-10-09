@@ -292,112 +292,130 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'blazers_060320',
-    'name': 'Blazers Él',
-    'creative': 'blp_el_blazers',
-    'position': '01'
+            'id': 'main_ff_081020',
+            'name': 'Main Él FF',
+            'creative': 'blp_el_main_ff',
+            'position': '01'
 },
 {
-    'id': 'camisas_060320',
-    'name': 'Camisas Él',
-    'creative': 'blp_el_camisas',
+    'id': 'chamarras_050620',
+    'name': 'Chamarras Él',
+    'creative': 'blp_el_chamarras',
     'position': '02'
 },
 {
-    'id': 'pantalones_060320',
-    'name': 'Pantalones Él',
-    'creative': 'blp_el_pantalones',
+    'id': 'sueteres_050620',
+    'name': 'Suéteres Él',
+    'creative': 'blp_el_sueteres',
     'position': '03'
 },
 {
-    'id': 'jeans_060320',
-    'name': 'Jeans Él',
-    'creative': 'blp_el_jeans',
+    'id': 'blazers_050620',
+    'name': 'Blazers Él',
+    'creative': 'blp_el_blazers',
     'position': '04'
 },
 {
-    'id': 'zapatos_060320',
-    'name': 'Zapatos Él',
-    'creative': 'blp_el_zapatos',
+    'id': 'camisas_050620',
+    'name': 'Camisas Él',
+    'creative': 'blp_el_camisas',
     'position': '05'
 },
 {
-    'id': 'polos_060320',
-    'name': 'Polos Él',
-    'creative': 'blp_el_polos',
+    'id': 'pantalones_050620',
+    'name': 'Pantalones Él',
+    'creative': 'blp_el_pantalones',
     'position': '06'
 },
 {
-    'id': 'trajesbano_060320',
-    'name': 'Trajes Bano Él',
-    'creative': 'blp_el_trajesbano',
+    'id': 'jeans_050620',
+    'name': 'Jeans Él',
+    'creative': 'blp_el_jeans',
     'position': '07'
 },
 {
-    'id': 'solares_060320',
-    'name': 'Solares Él',
-    'creative': 'blp_el_solares',
+    'id': 'relojes_050620',
+    'name': 'Relojes Él',
+    'creative': 'blp_el_relojes',
     'position': '08'
 },
 {
-    'id': 'sudaderas_060320',
-    'name': 'Sudaderas Él',
-    'creative': 'blp_el_sudaderas',
+    'id': 'accesorios_050620',
+    'name': 'Accesorios Él',
+    'creative': 'blp_el_accesorios',
     'position': '09'
 },
 {
-    'id': 'joggers_060320',
-    'name': 'Joggers Él',
-    'creative': 'blp_el_joggers',
+    'id': 'cuidado_050620',
+    'name': 'Cuidado Él',
+    'creative': 'blp_el_cuidado',
     'position': '10'
 },
 {
-    'id': 'sneakers_060320',
-    'name': 'Sneakers Él',
-    'creative': 'blp_el_sneakers',
+    'id': 'playeras_050620',
+    'name': 'Playeras Él',
+    'creative': 'blp_el_playeras',
     'position': '11'
 },
 {
-    'id': 'accesorios_060320',
-    'name': 'Accesorios Él',
-    'creative': 'blp_el_accesorios',
+    'id': 'sudaderas_050620',
+    'name': 'Sudaderas Él',
+    'creative': 'blp_el_sudaderas',
     'position': '12'
+},
+{
+    'id': 'joggers_050620',
+    'name': 'Joggers Él',
+    'creative': 'blp_el_joggers',
+    'position': '13'
+},
+{
+    'id': 'sneakers_050620',
+    'name': 'Sneakers Él',
+    'creative': 'blp_el_sneakers',
+    'position': '14'
 },
 {
     'id': 'hugo_060320',
     'name': 'Hugo Él',
     'creative': 'blp_el_hugo',
-    'position': '13'
+    'position': '15'
 },
 {
     'id': 'banana_060320',
     'name': 'Banana Él',
     'creative': 'blp_el_banana',
-    'position': '14'
+    'position': '16'
 },
 {
     'id': 'american_060320',
     'name': 'American Él',
     'creative': 'blp_el_american',
-    'position': '15'
+    'position': '17'
 },
 {
     'id': 'psycho_060320',
     'name': 'Psycho Él',
     'creative': 'blp_el_psycho',
-    'position': '16'
+    'position': '18'
 },
 {
     'id': 'gap_060320',
     'name': 'GAP Él',
     'creative': 'blp_el_gap',
-    'position': '17'
+    'position': '19'
 },
 {
     'id': 'ralph_060320',
     'name': 'Ralph Él',
     'creative': 'blp_el_ralph',
-    'position': '18'
+    'position': '20'
+},
+{
+    'id': 'dior_el_250820',
+    'name': 'Dior El',
+    'creative': 'blp_el_dior',
+    'position': '21'
 }
 ]
 }
