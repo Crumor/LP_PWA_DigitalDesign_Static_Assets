@@ -1076,6 +1076,12 @@ dataLayer.push({
     'position': '05'
 },
 {
+    'id': 'cuberteria_161020',
+    'name': 'Cuberteria Cocina',
+    'creative': 'blp_cocina_cuberteria',
+    'position': '06'
+},
+{
     'id': 'baterias_230320',
     'name': 'Baterias Cocina',
     'creative': 'blp_cocina_baterias',
