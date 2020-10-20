@@ -897,6 +897,12 @@ dataLayer.push({
         'position': '01'
 },
 {
+        'id': 'cerveza_oktober_300120',
+        'name': 'Cerveza Oktober',
+        'creative': 'blp_vinos_cerveza_oktober',
+        'position': '01'
+},
+{
         'id': 'cerveza_obs_300120',
         'name': 'Cervez Obscura',
         'creative': 'blp_vinos_cervezaob',
