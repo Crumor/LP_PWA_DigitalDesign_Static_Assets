@@ -2473,9 +2473,9 @@ dataLayer.push({
     'position': '13'
 },
 {
-    'id': 'zapatos_hombre_casual_190820',
-    'name': 'Zapatos Hombre Casual',
-    'creative': 'blp_zapatos_hombre_casual',
+    'id': 'zapatos_hombre_sandalias_261020',
+    'name': 'Zapatos Hombre Sandalias',
+    'creative': 'blp_zapatos_hombre_sandalias',
     'position': '14'
 },
 {

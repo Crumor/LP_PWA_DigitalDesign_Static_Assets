@@ -101,7 +101,7 @@ function myOnloadFunction(pageName,path) {
                 'promoView': {
                     'promotions': [// Array of promoFieldObjects.		
             
-       				            
+       			            
         {
         'id':'lb_221020',
         'name':'Línea Blanca hasta 47% de desc',
@@ -2473,9 +2473,9 @@ dataLayer.push({
     'position': '13'
 },
 {
-    'id': 'zapatos_hombre_casual_190820',
-    'name': 'Zapatos Hombre Casual',
-    'creative': 'blp_zapatos_hombre_casual',
+    'id': 'zapatos_hombre_sandalias_261020',
+    'name': 'Zapatos Hombre Sandalias',
+    'creative': 'blp_zapatos_hombre_sandalias',
     'position': '14'
 },
 {
