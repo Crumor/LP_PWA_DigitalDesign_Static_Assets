@@ -1362,10 +1362,10 @@ dataLayer.push({
 'promoView': {
 'promotions': [ // Array of promoFieldObjects.
 {
-    'id': 'consola_acm_270220',
-    'name': 'Animal Crossing Consola m',
-    'creative': 'blp_videojuegos_consola_ac_m',
-    'position': '01'
+    'id': 'preventa_xbox_261020',
+    'name': 'Preventa XBOX',
+    'creative': 'blp_videojuegos_preventa_xbox',
+    'position': '24'
 },
 {
     'id': 'nintendo_marca_090819',
