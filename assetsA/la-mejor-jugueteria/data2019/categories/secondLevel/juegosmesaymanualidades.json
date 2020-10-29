@@ -1,153 +1,225 @@
 {
-	"principal-banner":{
+    "principal-banner": {
         "picture": "./assets/images/categorias/11_juegosdemesa_art.png",
-        "patron":"./assets/images/categorias/11_patron_juegosdemesa.png",
-        "colorFondo":"#eb5e00",
-        "analytics":"juegos-mesa-manualidades"
-	},
-	"categories": {
-		"category-main":[
-		  {
-			"info":{
-			"categoryid": "catst1857465",
-			"label": "Juegos de Mesa",
-        	"picture": "./assets/images/categorias/subcategorias/juegos-mesa/1juegos_de_mesajpg.jpg",
-        	"video":"","catid":"1060124392",
-			"navigationState": "juegos-de-mesa/N-35vd",
-            "colorfondo":"#00d5ff"
-			},
-			"toys": [{
-	  "id": "1080884857",
-	  "image": "https://ss425.liverpool.com.mx/lg/1080884857.jpg",
-	  "description": "Set Fortnite Hasbro Gaming Monopoly",
-	  "longDescription": ""
-	}, {
-	  "id": "1070513699",
-	  "image": "https://ss424.liverpool.com.mx/lg/1070513699.jpg",
-	  "description": "Monopoly Hasbro Mario Kart",
-	  "longDescription": ""
-	}, {
-	  "id": "1077396868",
-	  "image": "https://ss424.liverpool.com.mx/lg/1077396868.jpg",
-	  "description": "Catan El Juego Devir",
-	  "longDescription": ""
-	}, {
-	  "id": "1068973569",
-	  "image": "https://ss424.liverpool.com.mx/lg/1068973569.jpg",
-	  "description": "Destreza Hasbro Gaming",
-	  "longDescription": ""
-	}, {
-	  "id": "1052838491",
-	  "image": "https://ss424.liverpool.com.mx/lg/1052838491.jpg",
-	  "description": "Desafío Pastelazo Hasbro",
-	  "longDescription": ""
-	}, {
-	  "id": "1086755935",
-	  "image": "https://ss424.liverpool.com.mx/lg/1086755935.jpg",
-	  "description": "Set Vamos a Pescar Baby Shark Spin Master",
-	  "longDescription": ""
-	}, {
-	  "id": "1067218589",
-	  "image": "https://ss424.liverpool.com.mx/lg/1067218589.jpg",
-	  "description": "Pulgas Locas Hasbro",
-	  "longDescription": ""
-	}, {
-	  "id": "1086864203",
-	  "image": "https://ss424.liverpool.com.mx/lg/1086864203.jpg",
-	  "description": "Monopoly L.O.L. Surprise! Hasbro Gaming",
-	  "longDescription": ""
-	}, {
-	  "id": "1082718041",
-	  "image": "https://ss424.liverpool.com.mx/lg/1082718041.jpg",
-	  "description": "Lotería Avengers Novelty",
-	  "longDescription": ""
-	}, {
-	  "id": "1060672349",
-	  "image": "https://ss424.liverpool.com.mx/lg/1060672349.jpg",
-	  "description": "Juego de mesa Hasbro Monopoly Gamer",
-	  "longDescription": ""
-	}]		  },{
-		  "info":{
-			"categoryid": "catst1857466",
-			"label": "Manualidades",
-        	"picture": "./assets/images/categorias/subcategorias/juegos-mesa/2juegos_de_mesa_manualidades.jpg",
-        	"video":"","catid":"1056714037",
-			"navigationState": "Manualidades/N-35ve",
-            "colorfondo":"#ff60f0"
-			},
-			"toys":[
-				{"id":"1079908475","image":"https://ss424.liverpool.com.mx/lg/1079908475.jpg","description":"Mystery English Clementoni","longDescription":""}
-				,{"id":"1081663811","image":"https://ss424.liverpool.com.mx/lg/1081663811.jpg","description":"Set Cadetes de la Creatividad Play-Doh Top Wing","longDescription":""},
-				{"id":"1059256692","image":"https://ss424.liverpool.com.mx/lg/1059256692.jpg","description":"Mesa de Juego Spin Master Kinetic Sand","longDescription":"Con la increíble mesa de juego ¡Todo será más divertido! Podrás hacer tus mejores creaciones y coleccionar todos los productos de Kinetic Sand para hacer más cosas."},
-				{"id":"86524082","image":"https://ss424.liverpool.com.mx/lg/86524082.jpg","description":"Laboratorio de Askerobromas Mi Alegría","longDescription":"Completísimo juego con todo lo necesario para crear asquerosos granos, horribles cortadas y sorprendentes ojos falsos."},
-				{"id":"1069427738","image":"https://ss424.liverpool.com.mx/lg/1069427738.jpg","description":"Set Mariposas Efervescentes Creativity For Kids","longDescription":""},
-				{"id":"1085080233","image":"https://ss424.liverpool.com.mx/lg/1085080233.jpg","description":"Set 3D Maker Jr. Creativakids rojo","longDescription":""},
-				{"id":"1069431174","image":"https://ss424.liverpool.com.mx/lg/1069431174.jpg","description":"Set de Viaje Bunchems Spin Master","longDescription":""},
-				{"id":"1078784209","image":"https://ss424.liverpool.com.mx/lg/1078784209.jpg","description":"Mesa de Actividad Play-Doh","longDescription":""},
-				{"id":"7605131","image":"https://ss424.liverpool.com.mx/lg/7605131.jpg","description":"Pottery cool Studio","longDescription":""},
-				{"id":"1029015313","image":"https://ss424.liverpool.com.mx/lg/1029015313.jpg","description":"Mi Alegría Química Equipo 2","longDescription":""}]
-			},{
-			"info":{
-			"categoryid": "catst1857467",
-			"label": "Rompecabezas",
-        	"picture": "./assets/images/categorias/subcategorias/juegos-mesa/3juegos_de_mesa_rompecabezas.jpg",
-        	"video":"","catid":"",
-			"navigationState": "rompecabezas/N-35vf",
-            "colorfondo":"#ff41a3"
-			},
-			"toys":[
-			{
-		  "id": "1077569011",
-		  "image": "https://ss424.liverpool.com.mx/lg/1077569011.jpg",
-		  "description": "Rompecabezas Aterciopelado para Colorear Novelty Frozen",
-		  "longDescription": ""
-		}, {
-		  "id": "1058317027",
-		  "image": "https://ss424.liverpool.com.mx/lg/1058317027.jpg",
-		  "description": "Rompecabezas Panorámico Novelty Paw Patrol",
-		  "longDescription": ""
-		}, {
-		  "id": "1083829466",
-		  "image": "https://ss424.liverpool.com.mx/lg/1083829466.jpg",
-		  "description": "Rompecabezas Novelty Toy Story 4",
-		  "longDescription": ""
-		}, {
-		  "id": "1083858091",
-		  "image": "https://ss424.liverpool.com.mx/lg/1083858091.jpg",
-		  "description": "Rompecabezas Musical Spin Master Baby Shark",
-		  "longDescription": ""
-		}, {
-		  "id": "1016968303",
-		  "image": "https://ss424.liverpool.com.mx/lg/1016968303.jpg",
-		  "description": "Mickey Rompecabezas 1000 Piezas",
-		  "longDescription": ""
-		}, {
-		  "id": "1082792933",
-		  "image": "https://ss424.liverpool.com.mx/lg/1082792933.jpg",
-		  "description": "Rompecabezas 3D Yatch Mary Imori Kits",
-		  "longDescription": ""
-		}, {
-		  "id": "1067237001",
-		  "image": "https://ss424.liverpool.com.mx/lg/1067237001.jpg",
-		  "description": "Rompecabezas Disney Collection Increíbles 2",
-		  "longDescription": ""
-		}, {
-		  "id": "1082792976",
-		  "image": "https://ss424.liverpool.com.mx/lg/1082792976.jpg",
-		  "description": "Rompecabezas 3D Dollhouse Carries Imori Kits",
-		  "longDescription": ""
-		}, {
-		  "id": "1089471288",
-		  "image": "https://ss424.liverpool.com.mx/lg/1089471288.jpg",
-		  "description": "Rompecabezas LOL Spin Master",
-		  "longDescription": ""
-		}, {
-		  "id": "7656983",
-		  "image": "https://ss424.liverpool.com.mx/lg/7656983.jpg",
-		  "description": "Rompecabezas 3 en 1 Novelty Masha y el Oso",
-		  "longDescription": ""
-		}]					}
-
-
-	  ]}
-	  }
+        "patron": "./assets/images/categorias/11_patron_juegosdemesa.png",
+        "colorFondo": "#eb5e00",
+        "analytics": "juegos-mesa-manualidades"
+    },
+    "categories": {
+        "category-main": [
+            {
+                "info": {
+                    "categoryid": "catst1857465",
+                    "label": "Juegos de Mesa",
+                    "picture": "./assets/images/categorias/subcategorias/juegos-mesa/1juegos_de_mesajpg.jpg",
+                    "video": "",
+                    "catid": "1060124392",
+                    "navigationState": "juegos-de-mesa/N-35vd",
+                    "colorfondo": "#00d5ff"
+                },
+                "toys": [
+                    {
+                        "id": "1097896255",
+                        "description": "Rubik's Impossible Hasbro Gaming",
+                        "longDescription": "Conoce a Rubik's Impossible, el rompecabezas de cubos de Rubik de 3 x 3 que cambia de color cuando se ve desde diferentes ángulos. Las piezas crean un nivel adicional de dificultad, ya que los colores cambian de un lado a otro. Eso significa que hay 2 posibles soluciones a este rompecabezas. ¿Quién está preparado para el desafío? Para 1 jugador, mayores de 8 años",
+                        "image": "https://ss424.liverpool.com.mx/xl/1097896255.jpg"
+                    },
+                    {
+                        "id": "1097881291",
+                        "description": "Jenga Hasbro Super Mario",
+                        "longDescription": "Inspirado en los queridos videojuegos Super Mario, este juego de Jenga: Edición Super Mario te permite asaltar la torre con Mario, Luigi, Peach o Toad. Cada personaje tiene su propia tarjeta de personaje para utilizar como referencia durante el juego. Los jugadores ganan puntos y recolectan monedas mientras apilan, escalan, roban y derrotan a Bowser. Pero, cuidado, si la torre se derrumba en tu turno, pierdes monedas y se acaba el juego",
+                        "image": "https://ss424.liverpool.com.mx/xl/1097881291.jpg"
+                    },
+                    {
+                        "id": "1096294928",
+                        "description": "Dominó Doble 12 Cardinal Brands",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096294928.jpg"
+                    },
+                    {
+                        "id": "1096293573",
+                        "description": "Set Arcoíris de Colores Kinetic Sand",
+                        "longDescription": "Una emocionante forma de jugar con tu arena favorita Kinetic Sand y su nuevo set de Arcoíris de colores. ¡Usa capas de colores de arena diferentes para mezclar y recrear fantásticas formas visuales!, o mezcla para crear nuevos colores y revela patrones divertidas al aplastarla",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096293573.jpg"
+                    },
+                    {
+                        "id": "1096293115",
+                        "description": "Domino Doble Cardinal Brands",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096293115.jpg"
+                    },
+                    {
+                        "id": "1096293107",
+                        "description": "Upwords: Palabras Pa'arriba Spin Master",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096293107.jpg"
+                    },
+                    {
+                        "id": "1096055524",
+                        "description": "Rompecabezas Panorámico 3 en 1 Novelty Frozen II",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096055524.jpg"
+                    },
+                    {
+                        "id": "1096054714",
+                        "description": "El Juego Abremente Novelty",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096054714.jpg"
+                    },
+                    {
+                        "id": "1096054668",
+                        "description": "Índice de Desgracia Shit Happens Novelty",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096054668.jpg"
+                    },
+                    {
+                        "id": "1095793866",
+                        "description": "Dominó Doble de 9 Cardinal Brands",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1095793866.jpg"
+                    }
+                ]
+            },
+            {
+                "info": {
+                    "categoryid": "catst1857466",
+                    "label": "Manualidades",
+                    "picture": "./assets/images/categorias/subcategorias/juegos-mesa/2juegos_de_mesa_manualidades.jpg",
+                    "video": "",
+                    "catid": "1056714037",
+                    "navigationState": "Manualidades/N-35ve",
+                    "colorfondo": "#ff60f0"
+                },
+                "toys": [
+                    {
+                        "id": "1100124722",
+                        "description": "Set de Manualidades para Niñas, Pulseras",
+                        "longDescription": "Los colores pueden variar a los mostrados en la imagen. Crea Pulseras, hazlo tú mismo, incluye todo lo que necesitas para hacerlo. Excelente actividad para el desarrollo de la atención, coordinación ojo-mano, concentración, psicomotricidad fina, desarrollo artístico, y la imaginación. Contenido: 6 pulseras de metal, Hilo, Círculos de metal y caras (emojis) de metal (21 piezas)",
+                        "image": "https://ss424.liverpool.com.mx/xl/1100124722.jpg"
+                    },
+                    {
+                        "id": "1100122401",
+                        "description": "Set de Manualidades Pintor de Tapetes",
+                        "longDescription": "Los colores pueden variar a los mostrados en la imagen. Tapete para pintar de 80 x 80 cm hazlo tu mismo, incluye todo lo que necesitas para pintarlo. Excelente actividad para el desarrollo de la atención, coordinación ojo-mano, concentración, psicomotricidad fina, desarrollo artístico, y la imaginación. Úsalo y lávalo para volver a usarlo.Contenido: 6 plumones de colores y 1 tapete de 80 x 80 cm (7 piezas). Edad: 4+",
+                        "image": "https://ss424.liverpool.com.mx/xl/1100122401.jpg"
+                    },
+                    {
+                        "id": "1030787907",
+                        "description": "Fábrica de Marcadores Crayola",
+                        "longDescription": "La fábrica de marcadores Crayola llevará a tu pequeño a pasar extraordinarios momentos de diversión gracias a cada una de las características que lo rodean. A través de esta especial fábrica, podrá darle libertad a su imaginación creando marcadores tan únicos como él. La fábrica de marcadores Crayola cuenta con estación de trabajo, 3 botes de tinta, guía de color, tubos para medir, 2 cajas para plumones, así como fascinantes materiales para la mejor fabricación, descúbrelo solo en Liverpool",
+                        "image": "https://ss424.liverpool.com.mx/xl/1030787907.jpg"
+                    },
+                    {
+                        "id": "1085049671",
+                        "description": "Fábrica de Slime Mi Alegría Unicornio",
+                        "longDescription": "Crea tu propio slime suave, colorido y con aroma",
+                        "image": "https://ss424.liverpool.com.mx/xl/1085049671.jpg"
+                    },
+                    {
+                        "id": "1027369851",
+                        "description": "Máquina de Helados Toy Plus Taste'n Fun",
+                        "longDescription": "Obsequia el Toy Plus Taste'n Fun Máquina de Helados a tus hijos, en ella podrás preparar deliciosos sabores de este increíble postre, podrá utilizar las 3 recetas y el instructivo que incluye para prepararlos fácilmente, también cuenta con disepnsadores de toppings, 4 vasos y 4 cucharas. Con el magnífico Toy Plus Taste'n Fun Máquina de Helados tus pequeños pondrán a prueba su creatividad creando sabores deliciosos, cremosos y llenos de intensidad, se convertirá en su juguete favorito",
+                        "image": "https://ss424.liverpool.com.mx/xl/1027369851.jpg"
+                    },
+                    {
+                        "id": "1063003146",
+                        "description": "Peque Robótica Solar Mi Alegría",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/7384884.jpg"
+                    },
+                    {
+                        "id": "1085052175",
+                        "description": "Fábrica de Slime Mi Alegría Galáctico",
+                        "longDescription": "Crea tu propio slime galáctico que brilla en la obscuridad",
+                        "image": "https://ss424.liverpool.com.mx/xl/1085052175.jpg"
+                    },
+                    {
+                        "id": "1085049689",
+                        "description": "Laboratorio de Slime Mi Alegría",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1085049689.jpg"
+                    },
+                    {
+                        "id": "1085049654",
+                        "description": "Set Fábrica de Slime Mi Alegría Sirena",
+                        "longDescription": "Crea tu slime de colores con mágicos destellos",
+                        "image": "https://ss424.liverpool.com.mx/xl/1085049654.jpg"
+                    }
+                ]
+            },
+            {
+                "info": {
+                    "categoryid": "catst1857467",
+                    "label": "Rompecabezas",
+                    "picture": "./assets/images/categorias/subcategorias/juegos-mesa/3juegos_de_mesa_rompecabezas.jpg",
+                    "video": "",
+                    "catid": "",
+                    "navigationState": "rompecabezas/N-35vf",
+                    "colorfondo": "#ff41a3"
+                },
+                "toys": [
+                    {
+                        "id": "1091752502",
+                        "description": "Rompecabezas Princesas Novelty",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1091752502.jpg"
+                    },
+                    {
+                        "id": "1089471288",
+                        "description": "Rompecabezas LOL Spin Master",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1089471288.jpg"
+                    },
+                    {
+                        "id": "1087797542",
+                        "description": "Rompecabezas en Lata Cardinal Brands L.O.L. Surprise",
+                        "longDescription": "Las muñequitas de LOL están listas para que armes este increíble rompecabezas, además podrás llevarlas a todos lados gracias a su empaque transportable",
+                        "image": "https://ss424.liverpool.com.mx/xl/1087797542.jpg"
+                    },
+                    {
+                        "id": "1077582343",
+                        "description": "Rompecabezas Novelty Harry Potter",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1077582343.jpg"
+                    },
+                    {
+                        "id": "1077582360",
+                        "description": "Rompecabezas Aterciopelado Mandalas Novelty",
+                        "longDescription": "Descubre el rompecabezas aterciopelado Mandalas Novelty y prepárate con él a disfrutar de tranquilizantes y relajantes momentos de entretenimiento, descubre las increíbles formas que podrás crear, además, su especial diseño te permitirá darle matices de color a cada figura gracias a los cuatro marcadores que incluye",
+                        "image": "https://ss424.liverpool.com.mx/xl/1077582360.jpg"
+                    },
+                    {
+                        "id": "1077569011",
+                        "description": "Rompecabezas Aterciopelado para Colorear Novelty Frozen",
+                        "longDescription": "",
+                        "image": "https://ss424.liverpool.com.mx/xl/1077569011.jpg"
+                    },
+                    {
+                        "id": "1063443723",
+                        "description": "Rompecabezas 5 en 1 Novelty Paw Patrol",
+                        "longDescription": "Diviértete armando a los 5 personajes principales de la serie Paw Patrol, con este rompecabezas 5 en 1",
+                        "image": "https://ss424.liverpool.com.mx/xl/7382655.jpg"
+                    },
+                    {
+                        "id": "1083858091",
+                        "description": "Rompecabezas Musical Spin Master Baby Shark",
+                        "longDescription": "Encuentra el rompecabezas musical de Baby Shark, con sus piezas de madera podrás escuchar el sonido que tiene cada uno de los 5 tiburones",
+                        "image": "https://ss424.liverpool.com.mx/xl/1083858091.jpg"
+                    },
+                    {
+                        "id": "1058317027",
+                        "description": "Rompecabezas Panorámico Novelty Paw Patrol",
+                        "longDescription": "Los rompecabezas mejoran las habilidades cognitivas como concentración y visión espacial. Ayudan a los niños a trabajar la motricidad fina de los dedos a través de la manipulación de las piezas. Desarrolla la capacidad lógica y el ingenio. Contribuye a la resolución de problemas. ¡Emprende una aventura con Paw Patrol!",
+                        "image": "https://ss424.liverpool.com.mx/xl/1058317027.jpg"
+                    },
+                    {
+                        "id": "1097142102",
+                        "description": "Rompecabezas Ravensburger Frozen II 200 piezas",
+                        "longDescription": "Los rompecabezas Ravensburger son ideales para relajarse tras una larga jornada o para divertirse en familia durante un día lluvioso. Conviértete en una de las millones de personas en experimentar un nuevo mundo de diversión con los productos de calidad Ravensburger, mundialmente conocidos por su excelencia",
+                        "image": "https://ss424.liverpool.com.mx/xl/1097142102.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}

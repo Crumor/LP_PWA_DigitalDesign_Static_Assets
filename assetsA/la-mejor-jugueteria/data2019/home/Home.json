@@ -8,18 +8,15 @@
                 "navigationState": ""
             },
             "toys": [
-                { "id": "1086718274", "idOriginal": "1086718274", "image": "https://ss424.liverpool.com.mx/lg/1086718274.jpg", "description": "Peluche Cubby The curious Bear Furreal", "longDescription": "si" },
-                { "id": "1070747525", "idOriginal": "1070747525", "image": "https://ss424.liverpool.com.mx/lg/1070747525.jpg", "description": "Dinosaurio Tyrannosaurus Rex Mattel Jurassic World", "longDescription": "no" },
-                { "id": "1085218731", "idOriginal": "1085218731", "image": "https://ss424.liverpool.com.mx/lg/1085218731.jpg", "description": "Set de Construcción Mundo del Revés Lego Stranger Things", "longDescription": "no" },
-                { "id": "1085296732", "idOriginal": "1085296732", "image": "https://ss424.liverpool.com.mx/lg/1085296732.jpg", "description": "Juego de Mesa Risk Edición 60 Años Hasbro Gaming", "longDescription": "no" },
-                { "id": "1087402629", "idOriginal": "1087402629", "image": "https://ss424.liverpool.com.mx/lg/1087402629.jpg", "description": "Set Mini Chilloncitos Lagrimas Mágicas Fotorama", "longDescription": "si" },
-                { "id": "1087250900", "idOriginal": "1087250900", "image": "https://ss425.liverpool.com.mx/lg/1087250900.jpg", "description": "Figura Gran Jett con Voz Fotorama Super Wings", "longDescription": "no" },
-                { "id": "1087081881", "idOriginal": "1087081881", "image": "https://ss424.liverpool.com.mx/lg/1087081881.jpg", "description": "Set de Muñecas Disney Ralph Wi-Fi", "longDescription": "no" },
-                { "id": "1066066262", "idOriginal": "1066066262", "image": "https://ss628.liverpool.com.mx/lg/1066066262.jpg", "description": "Set de Figuras Disney Collection Frozen", "longDescription": "no" },
-                { "id": "1086969641", "idOriginal": "1086969641", "image": "https://ss628.liverpool.com.mx/lg/1086969641.jpg", "description": "Consola Portátil Nintendo Switch Lite 32 GB", "longDescription": "no" },
-                { "id": "1075177921", "idOriginal": "1075177921", "image": "https://ss424.liverpool.com.mx/lg/1075177921.jpg", "description": "Set de Casa de los Sueños Barbie", "longDescription": "no" }
-
-
+                { "id": "1097594976", "idOriginal": "1097594976", "image": "https://ss424.liverpool.com.mx/xl/1097594976.jpg", "description": "Muñeca Baby Grows Up Baby Alive", "longDescription": "si" },
+                { "id": "1098388504", "idOriginal": "1098388504", "image": "https://ss424.liverpool.com.mx/xl/1098388504_2p.jpg", "description": "Set de Construcción Avalancha de Bill Balazo Lego Super Mario", "longDescription": "si" },
+                { "id": "1075177921", "idOriginal": "1075177921", "image": "https://ss424.liverpool.com.mx/xl/1075177921.jpg", "description": "Set de Casa de los Sueños Barbie", "longDescription": "no" },
+                { "id": "1097875908", "idOriginal": "1097875908", "image": "https://ss423.liverpool.com.mx/xl/1097875908_3p.jpg", "description": "FIFA 21 Xbox One", "longDescription": "no" },
+                { "id": "1097785194", "idOriginal": "1097785194", "image": "https://ss424.liverpool.com.mx/xl/1097785194_1p.jpg", "description": "Figura de Acción Dragonoid Bakugan", "longDescription": "no" },
+                { "id": "1093081826", "idOriginal": "1093081826", "image": "https://ss424.liverpool.com.mx/xl/1093081826.jpg", "description": "Figura de Acción Batman Rebirth Tactical", "longDescription": "si" },
+                { "id": "1040811962", "idOriginal": "1040811962", "image": "https://ss424.liverpool.com.mx/xl/1040811962.jpg", "description": "Tablet de Aprendizaje Fisher-Price Ríe y Aprende", "longDescription": "no" },
+                { "id": "1082762007", "idOriginal": "1082762007", "image": "https://ss424.liverpool.com.mx/xl/1082762007.jpg", "description": "Set Mini Chilloncitos Fotorama", "longDescription": "no" },
+                { "id": "1046792340", "idOriginal": "1046792340", "image": "https://ss424.liverpool.com.mx/xl/1058813500.jpg", "description": "Montable Prinsel Mini Cooper Push", "longDescription": "no" }
             ]
         }]
     }

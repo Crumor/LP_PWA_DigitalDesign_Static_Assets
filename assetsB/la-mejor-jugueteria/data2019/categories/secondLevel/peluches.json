@@ -1,27 +1,61 @@
 {
-    "principal-banner":{
+    "principal-banner": {
         "picture": "./assets/images/categorias/06_peuches_art.png",
-        "patron":"./assets/images/categorias/06_patron_peluches.png",
-        "colorFondo":"#5a4aff",
-        "analytics":"peluches"
+        "patron": "./assets/images/categorias/06_patron_peluches.png",
+        "colorFondo": "#5a4aff",
+        "analytics": "peluches"
     },
-
     "categories": {
-        "category-main":[
-         {
-          "info":{
-            "categoryid": "catst1833808",
-            "label": "Peluches",
-            "picture": "./assets/images/categorias/subcategorias/peluches/1peluche.jpg",
-            "video":"","catid":"1057726225",
-            "navigationState": "/Peluches/N-35uw",
-            "colorfondo":"#f9beba"
-            },
-            "toys":[
-                    {"id":"1028193137","image":"https://ss425.liverpool.com.mx/lg/1028193137.jpg","description":"Peluche Disney Collection Mickey Mouse Grande","longDescription":""},{"id":"1037061774","image":"https://media19.liverpool.com.mx/web/images/products/es_MX/lg/1037061774.jpg","description":"DC PELUCHE MEDIANO SULLEY Q4 15","longDescription":""},{"id":"1037061758","image":"https://ss425.liverpool.com.mx/lg/1037061758.jpg","description":"Disney Collection Peluche Rajah ","longDescription":""},{"id":"1053696933","image":"https://ss425.liverpool.com.mx/lg/1053696933.jpg","description":"Disney Collection Peluche de Bambi","longDescription":""},{"id":"1058202793","image":"https://ss424.liverpool.com.mx/lg/1058202793.jpg","description":"Peluche Wild Republic Cuddlekins Lechuza Blanca","longDescription":""},{"id":"1045984474","image":"https://media11.liverpool.com.mx/web/images/products/es_MX/lg/1045984474.jpg","description":"DC PELUCHE MEDIANO CHESHIRE","longDescription":""},{"id":"1053019605","image":"https://ss424.liverpool.com.mx/lg/1053019605.jpg","description":"Peluche Masha Spin Master 2 en 1","longDescription":""},{"id":"1057726225","image":"https://ss424.liverpool.com.mx/lg/1057726225.jpg","description":"Peluche Aurora Sassy Scents Leopardo frambuesa","longDescription":""},{"id":"1057725717","image":"https://ss424.liverpool.com.mx/lg/1057725717.jpg","description":"Peluche Aurora Sassy Scents Pingüino uva","longDescription":""},{"id":"1054452043","image":"https://ss424.liverpool.com.mx/lg/1054452043.jpg","description":"Aurora Taddle Toes Águila Rayas Calvas de Peluche","longDescription":""}
-
+        "category-main": [
+            {
+                "info": {
+                    "categoryid": "catst1833808",
+                    "label": "Peluches",
+                    "picture": "./assets/images/categorias/subcategorias/peluches/1peluche.jpg",
+                    "video": "",
+                    "catid": "1057726225",
+                    "navigationState": "/Peluches/N-35uw",
+                    "colorfondo": "#f9beba"
+                },
+                "toys": [
+                    {
+                        "id": "1076876092",
+                        "description": "Peluche Disney Collection Forky Toy Story mini",
+                        "longDescription": "",
+                        "image": "https://ss425.liverpool.com.mx/xl/1076876092.jpg"
+                    },
+                    {
+                        "id": "1076875797",
+                        "description": "Peluche Disney Collection Duck Toy Story 4",
+                        "longDescription": "",
+                        "image": "https://ss425.liverpool.com.mx/xl/1076875797.jpg"
+                    },
+                    {
+                        "id": "1037061812",
+                        "description": "Peluche Disney Collection Golfo mediano",
+                        "longDescription": "Elige el peluche Disney Collection Golfo mediano como el complemento perfecto de diversión y entretenimiento de tu pequeño. El tierno, valiente y especial Golfo, de la Dama y el Vagabundo lo encontrarás solo en Liverpool, con una selección de materiales de especial suavidad, toque de ligereza y dimensiones perfectas para que lo lleve siempre con él a cualquier emocionante aventura que emprenda",
+                        "image": "https://ss425.liverpool.com.mx/xl/1037061812.jpg"
+                    },
+                    {
+                        "id": "1040634297",
+                        "description": "Peluche Disney Collection Marie mediano",
+                        "longDescription": "Sorprende con el peluche Disney Collection Marie mediano a tu pequeña, con este especial diseño, tu princesa se sentirá acompañada en cualquier ocasión y momento por este tierno personaje de Los Aristogatos, mismo que reúne dimensiones perfectas, tonalidades ideales, sutiles detalles y rasgos bordados. Descubre el peluche Disney Collection Marie mediano y más personajes solo en Liverpool",
+                        "image": "https://ss425.liverpool.com.mx/xl/1040634297.jpg"
+                    },
+                    {
+                        "id": "1066070472",
+                        "description": "Peluche Disney Collection Mickey Mouse mediano",
+                        "longDescription": "Elige el peluche Disney Collection Mickey Mouse mediano solo en La Mejor Juguetería de Liverpool y descubre con este especial personaje al compañero perfecto de tu pequeño. Este tierno diseño ha sido confeccionado con materiales de inigualable suavidad, dimensiones que le permitirán llevarlo con practicidad a cualquier lugar así como tonalidades de fascinante contraste",
+                        "image": "https://ss425.liverpool.com.mx/xl/1066070472.jpg"
+                    },
+                    {
+                        "id": "1066063182",
+                        "description": "Peluche Disney Collection Minnie Mouse mediano",
+                        "longDescription": "Consiéntelos con el peluche Disney Collection Minnie Mouse mediano, ya que este increíble personaje podrá acompañarlos a todas partes tanto dentro como fuera de casa, por lo que se convertirá en su mejor compañera de juegos. Debido a su suave textura como tamaño este peluche Disney Collection Minnie Mouse mediano es ideal para que tus pequeños lo abracen todo el tiempo. Sin duda les encantará tenerlo en casa",
+                        "image": "https://ss425.liverpool.com.mx/xl/1066063182.jpg"
+                    }
                 ]
-            }   
-            
-      ]}
-      }
+            }
+        ]
+    }
+}
