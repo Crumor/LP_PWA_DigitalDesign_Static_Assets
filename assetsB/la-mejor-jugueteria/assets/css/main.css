@@ -1864,9 +1864,9 @@ footer {
     padding: 5px;
     border-radius: 50%;
     background-color: #ffd300;
-    width: 140px;
+    width: 120px;
     margin: 0px 10px;
-    height: 140px;
+    height: 120px;
     padding-top: 20px;
     margin: 0 auto;
 }
@@ -1984,7 +1984,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
     /*background-image: url('../images/home/banner_lmj.jpg')*/
-    background-image: url('../images/home/banner_home_01_mobile.png')
+    background-image: url('../images/home/banner_home_01_mobile.jpg')
 }
 
 .mejorMarca::first-letter {
@@ -2108,8 +2108,6 @@ footer {
     font-size: 1em;
     height: 40px;
 }
-
-
 
 @media (max-width:991px) {
     .icon_carta {
