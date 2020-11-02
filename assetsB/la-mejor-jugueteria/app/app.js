@@ -527,12 +527,12 @@
 	function cartaControllerFelicidades( $rootScope,$scope, serviceStorePedidos,$location ){
 		var  pedidos = serviceStorePedidos.getPedidos();
 		if(pedidos.length <= 0){
-			$location.path("/index.html")
+			$location.path("/indexqa.html")
 		}else{
 		   	$rootScope.cartaExito = false;
 			serviceStorePedidos.deleteAllPedidos();
 			 	$scope.regresar=function(){
-			 		$location.path("/index.html");
+			 		$location.path("/indexqa.html");
 			 	}
 		 }
 	}
@@ -551,11 +551,13 @@
         $scope.banner = null;
         if( $routeParams.hasOwnProperty("categoria")){
             serviceProducto.getCategoria( $routeParams.categoria, function( data ){
+               
                 if( data.success ){
                     $scope.banner = data.data.principal;
                     $scope.idCategoria = $routeParams.categoria;
                     $timeout(function(){
                         $scope.categorias = data.data.subcategorias;
+        
                         $scope.loaded = false;
                     },500);
                 }else{
@@ -567,6 +569,7 @@
         }
     }
     function subCategoriaController( $scope, serviceProducto, $routeParams,$timeout,$location,$http ){
+  
         $scope.categorias = [];
         $scope.label = "";
         $scope.idCategoria = "";
@@ -932,12 +935,6 @@
 
 (function() {
     angular.module('paths', []).constant('myConfig', {
-        pathServices: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/plp?category-id=catst13886215",
-        pathServiceSearch:"https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/typeahead?search-string=",
-        pathServicePlp:"https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/plp?",
-        pathServicePdp:"https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/pdp?productId=",
-        pathServiceSubCategoria: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/plp?category-id=",
-        pathServiceSubCategoriaPLP: "https://shoppapp.liverpool.com.mx/appclienteservices/services/v3/plp?page-number=1&sort-option=&force-plp=true&hybridProduct=false&number-of-items-per-page=40&category-id=",
         pathHost: "https://www.liverpool.com.mx",
         pathJsonLocal: "data2019/",
         jsonCategorias: "data2019/categories/menu/categoriesLMJ.json",
@@ -1046,8 +1043,8 @@
                 if (word !== "" && word.length > 2) {
                     serviceBlackList.init(function(data) {
                         if (!serviceBlackList.find(word)) {
-                      /* $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})*/
-                        var url = "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word;
+                      /*  $http({url: "https://us-central1-lamejorjugueteriaqa.cloudfunctions.net/dataLMJ2019/typeahead/"+word})*/
+                        var url = myConfig.pathServiceSearch+word;
                           $http.get(url).then(function(data) {
                                         var contents = data.data;
                                             if (word !== "") {
@@ -1375,11 +1372,12 @@
                   $http.get(pathServiceSubCategoriaPLP).then(function(data) {
                       if (data.data.hasOwnProperty('plpResults')) {
                         var respuesta = data.data.plpResults.records;
+                        
                         var totalPages = Math.ceil(data.data.plpResults.plpState.totalNumRecs / data.data.plpResults.plpState.recsPerPage);
                         newObj = respuesta.map(function(val) {
                             var obj = serviceModel.producto();
-                            obj.id = val.productId;
-                            obj.idOriginal = val.repositoryId;
+                            obj.id = val.skuRepositoryId;
+                            obj.idOriginal = val.skuRepositoryId;
                             obj.description = val.productDisplayName
                             obj.imageBg = val.xlImage;
                             obj.imageSm = val.smImage;
@@ -1408,7 +1406,7 @@
                         newObj = respuesta.map(function(val) {
                             var obj = serviceModel.producto();
                             obj.id = val.productId;
-                            obj.idOriginal = val.repositoryId;
+                            obj.idOriginal = val.skuRepositoryId;
                             obj.description = val.productDisplayName
                             obj.imageBg = val.xlImage;
                             obj.imageSm = val.smImage;
