@@ -6,47 +6,60 @@
         "analytics": "construccion-armables"
     },
     "categories": {
-        "category-main": [
-            {
+        "category-main": [{
                 "info": {
-                    "categoryid": "catst1857455",
+                    "categoryid": "catst1833793",
                     "label": "Niña",
                     "picture": "./assets/images/categorias/subcategorias/construccion/3const_ninas.jpg",
                     "video": "",
                     "catid": "1053759307",
-                    "navigationState": "nina/N-35up",
+                    "navigationState": "Consruccion-y-Armables/N-35tx",
                     "colorfondo": "#ffec55"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1091979591",
                         "description": "Set de Construcción Glamping en la Naturaleza Lego Friends",
-                        "longDescription": "Deja que tu peque simule que juega al aire libre con estilo explorando la naturaleza y socializando con amigas con el set de juego LEGO de casa de campaña de juguete",
                         "image": "https://ss424.liverpool.com.mx/xl/1091979591.jpg"
+                    },
+                    {
+                        "id": "1091980785",
+                        "description": "Set de Construcción Hospital de Heartlake City Lego Friends",
+                        "image": "https://ss424.liverpool.com.mx/xl/1091980785.jpg"
+                    },
+                    {
+                        "id": "1091980769",
+                        "description": "Set de Construcción Competencia de Reposte Lego Friends",
+                        "image": "https://ss424.liverpool.com.mx/xl/1091980769.jpg"
                     },
                     {
                         "id": "1096105122",
                         "description": "Set de construcción Transforming Vehicle Dizzy Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096105122.jpg"
                     },
                     {
                         "id": "1096103715",
                         "description": "Set de construcción Transforming Vehicle Jett Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096103715.jpg"
                     },
                     {
                         "id": "1096105131",
                         "description": "Set de construcción Transforming Vehicle Donnie Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096105131.jpg"
                     },
                     {
                         "id": "1095507995",
                         "description": "Set de Construcción Mi Cafetería Playmobil City Life",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1095507995.jpg"
+                    },
+                    {
+                        "id": "1095507987",
+                        "description": "Set Maletín Grande Colegio Playmobil City Life",
+                        "image": "https://ss424.liverpool.com.mx/xl/1095507987.jpg"
+                    },
+                    {
+                        "id": "1095507189",
+                        "description": "Set de Construcción Unidad de Buceo Playmobil",
+                        "image": "https://ss424.liverpool.com.mx/xl/1095507189.jpg"
                     }
                 ]
             },
@@ -60,36 +73,55 @@
                     "navigationState": "nino/N-35uq",
                     "colorfondo": "#ffb1b1"
                 },
-                "toys": [
+                "toys": [{
+                        "id": "1056913595",
+                        "description": "Playmobil Slimer con Stand de Hot Dogs",
+                        "image": "https://ss424.liverpool.com.mx/xl/1056913595.jpg"
+                    },
                     {
                         "id": "1095506697",
                         "description": "Set de Construcción Comisaría Fuerzas Especiales Playmobile City Action",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1095506697.jpg"
                     },
                     {
                         "id": "1094961021",
                         "description": "Set de Construcción Delorean Playmobil Volver al Futuro",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1094961021.jpg"
                     },
                     {
                         "id": "1094706978",
                         "description": "Set de Figuras Scooby Doo & Shaggy con Fantasma Playmobil",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1094706978.jpg"
+                    },
+                    {
+                        "id": "1098991774",
+                        "description": "Set Spinjitzu Burst: Cole Lego Ninjago",
+                        "image": "https://ss424.liverpool.com.mx/xl/1098991774.jpg"
+                    },
+                    {
+                        "id": "1098388512",
+                        "description": "Set de Expansión Casa del Tesoro de Toad Lego Super Mario",
+                        "image": "https://ss424.liverpool.com.mx/xl/1098388512.jpg"
+                    },
+                    {
+                        "id": "1097522258",
+                        "description": "Set de construcción Hedwig Lego Harry Potter",
+                        "image": "https://ss424.liverpool.com.mx/xl/1097522258.jpg"
                     },
                     {
                         "id": "1091980777",
                         "description": "Set de Construcción Tokyo Lego Architecture",
-                        "longDescription": "¡Exhibe este colorido y detallado modelo coleccionable LEGO Architecture Skyline Collection de las estructuras más representativas de Tokio para construir con bricks!",
                         "image": "https://ss424.liverpool.com.mx/xl/1091980777.jpg"
                     },
                     {
                         "id": "1091980751",
                         "description": "Set de Construcción Base Blanca Lego Classic",
-                        "longDescription": "Ofrece a los fans de LEGO una manera más grande y brillante de construir y exhibir sus propias creaciones (y de jugar con ellas) con esta Base Blanca de 32x32 espigas",
                         "image": "https://ss424.liverpool.com.mx/xl/1091980751.jpg"
+                    },
+                    {
+                        "id": "1097521979",
+                        "description": "Set de construcción Sala de los Requerimiento Lego Harry Potter",
+                        "image": "https://ss424.liverpool.com.mx/xl/1097521979.jpg"
                     }
                 ]
             },
@@ -103,35 +135,54 @@
                     "navigationState": "bebes/N-35ur",
                     "colorfondo": "#44efff"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1083657975",
                         "description": "Set Caja de Construcción Mega Bloks",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1083657975.jpg"
+                    },
+                    {
+                        "id": "1087342456",
+                        "description": "Montable Cocodrilo Mega Bloks",
+                        "image": "https://ss424.liverpool.com.mx/xl/1087342456.jpg"
                     },
                     {
                         "id": "1098499063",
                         "description": "Set Jardín Hada de Las Flores Mega Blocks First Builders",
-                        "longDescription": "¡Tu pequeña bailará con alegría cuando construya el Jardín de Flores de Hadas de las Flores! ¡Vuela a la hora de jugar cuando tu pequeña constructora utilice bloques de construcción grandes y brillantes para construir un Jardín de Flores! ",
                         "image": "https://ss424.liverpool.com.mx/xl/1098499063.jpg"
+                    },
+                    {
+                        "id": "1083656693",
+                        "description": "Set Mega Caja de Construcción Mega Bloks",
+                        "image": "https://ss424.liverpool.com.mx/xl/1083656693.jpg"
+                    },
+                    {
+                        "id": "1086207733",
+                        "description": "Set de Construcción Jirafa Cuenta y Rueda Mega Bloks",
+                        "image": "https://ss424.liverpool.com.mx/xl/1086207733.jpg"
+                    },
+                    {
+                        "id": "1098499063",
+                        "description": "Set Jardín Hada de Las Flores Mega Blocks First Builders",
+                        "image": "https://ss424.liverpool.com.mx/xl/1098499063.jpg"
+                    },
+                    {
+                        "id": "1086721216",
+                        "description": "Set de Orquesta de la Casita de Árbol Mega Bloks",
+                        "image": "https://ss424.liverpool.com.mx/xl/1086721216.jpg"
                     },
                     {
                         "id": "1099231277",
                         "description": "Juguete Cachorrito Paseos Mega Bloks",
-                        "longDescription": "Los pequeños se sorprenderán con el Perrito los 15 bloques de construcción grandes. Pueden alimentar a su perrito colocando los bloques en su boca. Lo mejor de todo es que pueden jalar la correa y llevarlo a pasear para que haga bloques de popó. Luego, pueden usar los bloques grandes para construir directamente sobre la cabeza, el lomo y la nariz del perrito. Ideal para pequeños constructores de 1 año en adelante",
                         "image": "https://ss424.liverpool.com.mx/xl/1099231277.jpg"
                     },
                     {
                         "id": "1082905690",
                         "description": "Pequeño Camión Volcador Mega Bloks CAT",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1082905690.jpg"
                     },
                     {
                         "id": "1086207733",
                         "description": "Set de Construcción Jirafa Cuenta y Rueda Mega Bloks",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1086207733.jpg"
                     }
                 ]

@@ -311,6 +311,13 @@
                     label: "hot wheels"
                 },
                 {
+                    "color1": "#FDD44B",
+                    "color2": "none",
+                    "color3": "#FF5E70",
+                    fondo: "#f6cfe4",
+                    label: "montables"
+                },
+                {
                     color1: "#97F34E",
                     color2: "none",
                     color3: "#FC3491",
@@ -551,7 +558,7 @@
         $scope.banner = null;
         if( $routeParams.hasOwnProperty("categoria")){
             serviceProducto.getCategoria( $routeParams.categoria, function( data ){
-               
+               console.log(data);
                 if( data.success ){
                     $scope.banner = data.data.principal;
                     $scope.idCategoria = $routeParams.categoria;
@@ -584,9 +591,9 @@
         var _data = [];
         $scope.banner = {};
         if( $routeParams.hasOwnProperty("categoria") && $routeParams.hasOwnProperty("subcategoria")){
-            if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1833808" === $routeParams.subcategoria){
+            if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1896485" === $routeParams.subcategoria){
                 serviceProducto.getSubSubCategoria($routeParams.subcategoria, pageActual, responseSubSubCategoria);
-                if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria || "catst1833808" === $routeParams.subcategoria){
+                if("catst1896485" === $routeParams.subcategoria || "catst1833807" === $routeParams.subcategoria || "catst1833811" === $routeParams.subcategoria  || "catst1896485" === $routeParams.subcategoria){
                   serviceProducto.getSubCategoria( $routeParams.categoria,$routeParams.subcategoria,pageActual, function( data ){
                       _data= data;
                           $scope.banner = _data.data.principal;
@@ -1156,6 +1163,7 @@
                 $http.get(myConfig.jsonCategorias).then(function(data) {
 
                     categorias = data.data.categories.category;
+                   
                     JsonCategorias.setCategorias(categorias);
                     getSubCategoria(categorias, categoryId, fn);
                 }, function(data) {
@@ -1182,7 +1190,7 @@
                         var principal = data.data["principal-banner"];
                         var respuesta = (data.data.categories) ? data.data.categories["category-main"] || [] : '';
                         var newObj = [];
-                        if(respuesta != '' && principal.analytics != 'radio-control' && principal.analytics != 'coleccionables' && principal.analytics != 'peluches'){
+                        if(respuesta != '' && principal.analytics != 'radio-control' && principal.analytics != 'coleccionables'){
                           respuesta.forEach(function(val) {
                               var tmpObj = { index: "", label: "", categoryid: "", pathJson: "", navigationState: "", categoria: "", toys: [], info: {} };
                               tmpObj.index = categoryId;
@@ -2186,7 +2194,7 @@
                 }
 
                 scope.irA = function(direccion){
-                  if("exteriores" === direccion || "drones" === direccion || "coleccionables" === direccion || "peluches" === direccion){
+                  if("exteriores" === direccion || "drones" === direccion || "coleccionables" === direccion){
                       switch (direccion) {
                         case "exteriores":
                           $location.path("/subcategoria/exteriores/catst1896485");
@@ -2200,10 +2208,7 @@
                               $location.path("/subcategoria/coleccionables/catst1833811");
                               $('#menu-categorias-mobile-content').fadeOut(0);
                               break;
-                              case "peluches":
-                                $location.path("/subcategoria/peluches/catst1833808");
-                                $('#menu-categorias-mobile-content').fadeOut(0);
-                                break;
+                 
                         default:
 
                       }

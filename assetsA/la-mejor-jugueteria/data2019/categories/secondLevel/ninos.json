@@ -6,64 +6,54 @@
         "analytics": "ninos"
     },
     "categories": {
-        "category-main": [
-            {
+        "category-main": [{
                 "info": {
                     "categoryid": "catst13926584",
                     "label": "Autopistas",
                     "picture": "---",
                     "video": "",
                     "catid": "---",
-                    "navigationState": "---",
+                    "navigationState": "autopistas",
                     "colorfondo": "#96fe8b"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1096236952",
                         "description": "Pista Mega Match Raceway Toy Town Wave Racers",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096236952.jpg"
                     },
                     {
                         "id": "1086746570",
                         "description": "Set Pista Slot Mario y Luigi Carrera Mario Kart",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1086746570.jpg"
                     },
                     {
                         "id": "1095722837",
                         "description": "Pista Armable Robo Tiburón Hot Wheels",
-                        "longDescription": "Hot Wheels City está bajo el ataque de un gigantesco tiburón robótico. Los niños querrán averiguar si sus autos son lo suficientemente rápidos como para atravesar la ola sin ser devorados. Los niños comienzan su viaje heroico sumergiendo sus vehículos en la primera cámara de agua fría, luego levantan la palanca para cargar el vehículo en el lanzador y se preparan para correr a través de la ola. La boca del tiburón se abre y, si la acrobacia falla, los niños caen en su panza. ¡Oh, no, eres almuerzo de tiburón! Cuando está en la panza del gigantesco tiburón robótico, el vehículo cambia de color mágicamente. Las increíbles acrobacias y la acción de cambio de color hacen de este nuevo set un favorito en cualquier colección. Perfecto para incentivar la imaginación y para crear historias mientras desarrollan habilidades motoras. Se puede conectar con otros sets de Hot Wheels (se venden por separado) y pistas naranjas. Incluye un vehículo de cambio de color Hot Wheels",
                         "image": "https://ss424.liverpool.com.mx/xl/1095722837.jpg"
                     },
                     {
                         "id": "1082528900",
                         "description": "Pista Mega Camión Hot Wheels",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1082528900.jpg"
                     },
                     {
                         "id": "1035500541",
                         "description": "Set de juego Hot Wheels Laboratorio Científico",
-                        "longDescription": "Maximiza con el set de juego Hot Wheels Laboratorio Científico los momentos de entretenimiento de tu pequeño con un inigualable plus de diversión, estamos seguros que una vez que lo descubra, no querrá dejar de jugar con él, además podrá en marcha su creatividad, al diseñar fascinantes aventuras en donde el color y la velocidad serán los protagonistas perfectos",
                         "image": "https://ss424.liverpool.com.mx/xl/1035500541.jpg"
                     },
                     {
                         "id": "1095715954",
                         "description": "Lanzador Súper Remolque Hot Wheels",
-                        "longDescription": "Con Hot Wheels Súper Remolque la diversión nunca termina. ¡Aprovecha el lanzador de autos para salir a toda velocidad! Supera todos los Retos que tiene para ti. Se conecta con otros sets Hot Wheels",
                         "image": "https://ss424.liverpool.com.mx/xl/1095715954.jpg"
                     },
                     {
                         "id": "1086430831",
                         "description": "Set de Coches Monster Trucks Hot Wheels",
-                        "longDescription": "¡Las Monster Trucks Demolition Doubles  de Hot Wheels. A escala 1:64 se preparan para aplastar a sus archirrivales! Estos paquetes de dos Monster Trucks que se preparan para lanzar ataques de choques épicos están emparejados específicamente para tener batallas cara a cara con sus llantas GIGANTES y sus grandes personalidades. Cada paquete incluye dos oponentes y, además, contiene estadísticas para cada uno, incluidos el nombre, el tipo de Monster truck, la fuerza, el ataque único de choque y la motivación para grandes historias y mucha diversión. Se venden por separado y están sujetos a disponibilidad. Los colores y las decoraciones pueden variar",
                         "image": "https://ss424.liverpool.com.mx/xl/1086430831.jpg"
                     },
                     {
                         "id": "1077869367",
                         "description": "Mega Garage Mattel Hot Wheels",
-                        "longDescription": "\"¡Echa un vistazo al Mega Garage Giratorio para disfrutar de historias interminables y juegos de vehículos realistas! Este enorme garaje vertical tiene carruseles que almacenan autos y una pista para una carrera de dos carriles desde lo alto de la torre. El tamaño del Mega Garage es impresionante pero también es compacto con estacionamiento para más de 35 autos. Alimente la imaginación de su niño cuando carguen los autos en los carruseles y use la manivela manual para llevarlos a la cima de la torre para el inicio de la carrera. Emocionante pista de descenso lado a lado que permite a los niños competir con amigos y terminar con un final de salto de aire! En la base del Mega Garage los niños pueden sintonizar sus autos y repostar antes de regresar a otra carrera de dos carriles! Portabilidad fácil de agarrar y llevar con el conveniente diseño de la manija superior. El garaje también tiene múltiples puntos de conexión para conectar a otros sets de Hot Wheels para un mundo personalizable de seguimiento y reproducción",
                         "image": "https://ss424.liverpool.com.mx/xl/1077869367.jpg"
                     }
                 ]
@@ -78,65 +68,54 @@
                     "navigationState": "Figuras-de-Accion/N-35u1",
                     "colorfondo": "#ffc100"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1092924048",
                         "description": "Set de Figuras Disney Collection Spider-Man",
-                        "longDescription": "",
                         "image": "https://ss425.liverpool.com.mx/xl/1092924048.jpg"
                     },
                     {
                         "id": "1096239137",
                         "description": "Figura de Acción Jedi Knight Revan Star Wars The Black Series",
-                        "longDescription": "¡Tanto los niños como los coleccionistas pueden imaginar las más grandes batallas y misiones de la saga de Star Wars con las figuras de Star Wars The Black Series! Con características y decorado premium, esta serie establece el estándar de calidad y realismo que esperan los fans de Star Wars. Star Wars The Black Series incluye figuras, vehículos y artículos para juego de rol inspirados en los más de 40 años de legado que nos ha dado la galaxia de Star Wars, incluyendo las historietas, películas y series animadas. (Los productos adicionales se venden por separado. Sujeto a disponibilidad)",
                         "image": "https://ss424.liverpool.com.mx/xl/1096239137.jpg"
                     },
                     {
                         "id": "1093125092",
                         "description": "Figura de Acción Superman DC Comics",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1093125092.jpg"
                     },
                     {
                         "id": "1093080862",
                         "description": "Figura de Acción Harley Quinn Batman",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1093080862.jpg"
                     },
                     {
                         "id": "1093080854",
                         "description": "Figura de Acción The Joker Batman",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1093080854.jpg"
                     },
                     {
                         "id": "1081266120",
                         "description": "Coche a Control Remoto Spin Master Megalodon",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1081266120.jpg"
                     },
                     {
                         "id": "1077610401",
                         "description": "Escudo Magnético Capitán América Hasbro Avengers",
-                        "longDescription": "Con este escudo magnético y guantelete de Capitana América, ¡los chicos pueden imaginar que son Capitana América! El escudo se fija al guantelete magnético al igual que el escudo del primer Avenger, ¡y puede desprenderse y lanzarse como lo hace Capitana América en la batalla! Con el escudo magnético y guantelete de Capitana América, los jóvenes héroes pueden imaginar que se unen a la batalla por la justicia como el superhéroe más patriótico de los Avengers",
                         "image": "https://ss424.liverpool.com.mx/xl/1077610401.jpg"
                     },
                     {
                         "id": "1076521405",
                         "description": "Figura de Acción Bumblebee Hasbro Transformers",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1076521405.jpg"
                     },
                     {
                         "id": "1020652604",
                         "description": "Figura Tiburón Blanco Schleich",
-                        "longDescription": "La figura Tiburón Blanco Schleich será perfecta para agregar a la colección de tus hijos, porque este fabuloso diseño es una estupenda elección para que se diviertan imaginando una travesía por las profundidades del mar. El realismo que podrán experimentar con esta figura Tiburón Blanco Schleich será increíble, porque cada detalle de este modelo es fantástico, les encantará tenerlo en casa",
                         "image": "https://ss424.liverpool.com.mx/xl/1020652604.jpg"
                     },
                     {
                         "id": "1079501448",
                         "description": "Figura de Acción Buzz Disney Collection Toy Story blanco",
-                        "longDescription": "Obsequia la figura de acción Buzz Disney Collection Toy Story blanco a tus hijos, porque este increíble personaje de su película favorita es increíble, ya que cuenta con magníficas características como luz LED en color rojo que simula un rayo láser y un sistema en sus alas para que puedan abrirlas, así como cerrarlas en el momento que lo decidan. Esta figura de scción Buzz Disney Collection Toy Story blanco será su juguete favorito",
                         "image": "https://ss425.liverpool.com.mx/xl/1079501448.jpg"
                     }
                 ]
@@ -151,59 +130,49 @@
                     "navigationState": "Lanzadores/N-35u3",
                     "colorfondo": "#ff6300"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1079482061",
                         "description": "Objetivo Digital Nerf",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1079482061.jpg"
                     },
                     {
                         "id": "1056418535",
                         "description": "Lanzador Nerf Disruptor Elite",
-                        "longDescription": "¡Experimenta la emoción, energía y la actitud de Nerf con los lanzadores Mega! Haz un ataque doble con el nuevo lanzador Nerf N-Strike Doublebreach",
                         "image": "https://ss424.liverpool.com.mx/xl/1056418535.jpg.jpg"
                     },
                     {
                         "id": "1093744248",
                         "description": "Lanzador Power Moves Nerf Marvel Spider-Man",
-                        "longDescription": "Para ser un superhéroe se necesita más que una capa y un traje imponente. Un superhéroe es ante todo un defensor de la justicia, y siempre sabe cuando necesita luchar en equipo. Los niños pueden imaginar que se equipan para la acción junto a sus superhéroes favoritos como Iron Man, Capitán América, Hombre Araña, Black Widow, Hulk, Pantera Negra, Thor y otros, con las figuras y artículos de juego de rol Avengers. ¡Vengadores unidos!",
                         "image": "https://ss424.liverpool.com.mx/xl/1093744248.jpg"
                     },
                     {
                         "id": "1041786279",
                         "description": "Lanzador Firestrike Nerf Elite",
-                        "longDescription": "Obsequia el lanzador Firestrike Nerf Elite a tus pequeños, porque gracias a este increíble juguete podrán pasar momentos de fabulosa diversión tanto en casa como en su lugar favorito para vacacionar, ya que armarán las mejores batallas, así como competencias de tiro. Este lanzador Firestrike Nerf Elite es una excelente elección para que disfruten al máximo sus momentos libres con actividades que los mantendrán activos",
                         "image": "https://ss424.liverpool.com.mx/xl/1041786279.jpg"
                     },
                     {
                         "id": "1079984244",
                         "description": "Mochila con Lanzador de Agua Kiddieland Toy Story",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1079984244.jpg"
                     },
                     {
                         "id": "1093744540",
                         "description": "Lanzador Thor Golpe de Martillo Marvel Nerf Power Moves",
-                        "longDescription": "Con el juguete para juego de rol Nerf Power Moves Marvel Avengers Golpe de martillo de Thor, niños y niñas de 5 años en adelante pueden imaginar que se equipan para el combate con el poder del poderoso Mjolnir ¡como el guerrero Thor! Les encantará jugar a ser Thor presionando el botón del juguete Golpe de martillo y haciendo el movimiento golpe de martillo para lanzar un dardo Nerf",
                         "image": "https://ss424.liverpool.com.mx/xl/1093744540.jpg"
                     },
                     {
                         "id": "1097279141",
                         "description": "Lanzador Micro Peely Nerf Fortnite",
-                        "longDescription": "Este lanzador Nerf MicroShots Fortnite Micro Peely está inspirado en el icónico personaje Peely del popular videojuego Fortnite Battle Royale. Incluye 2 dardos oficiales Nerf Elite y lanza 1 dardo a la vez con acción manual (no se requieren baterías). Cargue 1 dardo en la parte delantera del lanzador, jale hacia abajo el mango para asegurar y apriete el gatillo para lanzar. Disponible como sólido y surtido",
                         "image": "https://ss424.liverpool.com.mx/xl/1097279141.jpg"
                     },
                     {
                         "id": "1097207557",
                         "description": "Lanzador Roundhouse XX-1500 Hasbro Nerf Rival",
-                        "longDescription": "¡Lánzate a la acción con el lanzador Nerf Rival Roundhouse XX-1500! Cuenta con una cámara giratoria transparente con capacidad para 6 proyectiles de espuma. Cuando preparas el lanzador, la cámara gira y coloca el proyectil en posición y recarga otro. Los 5 cargadores integrados tienen capacidad para 3 proyectiles cada uno, sumando un total de 15 proyectiles para abrumar a tus enemigos. Mientras lanzas, puedes ver cuántos proyectiles te quedan dentro de la cámara y así saber cuándo es hora de recargar",
                         "image": "https://ss424.liverpool.com.mx/xl/1097207557.jpg"
                     },
                     {
                         "id": "1074982308",
                         "description": "Lanzador Stinger Xpand Blast Toy Plus",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1074982308.jpg"
                     }
                 ]
@@ -218,59 +187,49 @@
                     "navigationState": "Vehiculos/N-35u5",
                     "colorfondo": "#fe3346"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1078908013",
                         "description": "Coche a Control Remoto Disney Collection Rayo McQueen",
-                        "longDescription": "Sorprende con el coche a control remoto Disney Collection Rayo McQueen a tu pequeño y bríndale con este cautivante e icónico personaje, increíbles momentos de diversión y entretenimiento. Descubre solo en Liverpool este genuino diseño de Rayo McQueen, mismo que cuenta con fascinantes dimensiones, funcionalidad de especial precisión e icónico diseño",
                         "image": "https://ss425.liverpool.com.mx/xl/1078908013.jpg"
                     },
                     {
                         "id": "1063598271",
                         "description": "Coche a Control Remoto Cruz Ramírez Disney Collection",
-                        "longDescription": "Este coche a control remoto Cruz Ramírez Disney Collection será el juguete indicado para consentir a tus hijos, porque podrán llevarlo a toda velocidad por cualquier lugar, así que usarán su imaginación al máximo para hacer de cada instante con este coche a control remoto Cruz Ramírez Disney Collection una fabulosa aventura; es fácil de controlar, por lo que les fascinará la practicidad de sus maravillosas funciones",
                         "image": "https://ss425.liverpool.com.mx/xl/1063598271.jpg"
                     },
                     {
                         "id": "1060350279",
                         "description": "Set de Coches Jackson Storm y Rookie Racer Disney Collection Cars",
-                        "longDescription": "Con el set de coches Jackson Storm y Rookie Racer Disney Collection Cars tus pequeños tendrán horas de diversión, porque podrán usar su imaginación al máximo en cada uno de sus juegos, ya que armarán las mejores carreras. Estos personajes del set de coches Jackson Storm y Rookie Racer Disney Collection Cars serán sus favoritos para llevarlos a todas partes",
                         "image": "https://ss425.liverpool.com.mx/xl/1060350279.jpg"
                     },
                     {
                         "id": "1086430831",
                         "description": "Set de Coches Monster Trucks Hot Wheels",
-                        "longDescription": "¡Las Monster Trucks Demolition Doubles  de Hot Wheels. A escala 1:64 se preparan para aplastar a sus archirrivales! Estos paquetes de dos Monster Trucks que se preparan para lanzar ataques de choques épicos están emparejados específicamente para tener batallas cara a cara con sus llantas GIGANTES y sus grandes personalidades. Cada paquete incluye dos oponentes y, además, contiene estadísticas para cada uno, incluidos el nombre, el tipo de Monster truck, la fuerza, el ataque único de choque y la motivación para grandes historias y mucha diversión. Se venden por separado y están sujetos a disponibilidad. Los colores y las decoraciones pueden variar",
                         "image": "https://ss424.liverpool.com.mx/xl/1086430831.jpg"
                     },
                     {
                         "id": "1081266146",
                         "description": "Coche a Control Remoto Monster Mutt Spin Master Monster Jam",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1081266146.jpg"
                     },
                     {
                         "id": "1060501935",
                         "description": "Tráiler Mack Disney Collection Cars 3",
-                        "longDescription": "Descubre el tráiler Mack Disney Collection Cars 3, este encantador personaje que lleva a Rayo McQueen de una carrera a otra cuenta con una excelente elaboración que lo hace lucir idéntico al de la película, además complementa esto con 10 frases del personaje que lo convierten en la mejor opción para que tu nene empiece a armar una colección de Cars. El tráiler Mack Disney Collection Cars 3 será la primer pieza para crear aventuras inigualables en compañía de estos divertidos personajes, le fascinará imaginar todas sus aventuras",
                         "image": "https://ss425.liverpool.com.mx/xl/1060501935.jpg"
                     },
                     {
                         "id": "1081266120",
                         "description": "Coche a Control Remoto Spin Master Megalodon",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1081266120.jpg"
                     },
                     {
                         "id": "1072774899",
                         "description": "Coche Ford F150 Raptor Adventure Dickie Toys",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1072774899.jpg"
                     },
                     {
                         "id": "1098403317",
                         "description": "Coche a Control Remoto Stunt Shot Spin Master Air Hogs",
-                        "longDescription": "Moonshot es el único radio control con una increíble potencia interior que puede ir a donde ningún RC puede! Con tecnología patentada de peso ligero. Con carga turbo, listo para saltos y acrobacias!",
                         "image": "https://ss424.liverpool.com.mx/xl/1098403317.jpg"
                     }
                 ]
@@ -285,53 +244,44 @@
                     "navigationState": "Autopistas/N-35u4",
                     "colorfondo": "#3456fe"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1085830909",
                         "description": "Montable Prinsel Mercedes Amg Basic rojo",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1085830909.jpg"
                     },
                     {
                         "id": "1056953783",
                         "description": "Triciclo Prinsel BMW 1200",
-                        "longDescription": "El Triciclo MBW cuenta con un diseño realista para los pequeños aventureros. Sus ruedas anchas son elaboradas en goma. Posee un compartimiento en el asiento para guardar accesorios. Su asiento ergonómico es ideal para realizar paseos llenos de diversión sin que lastime la postura del pequeño",
                         "image": "https://ss424.liverpool.com.mx/xl/1056953783.jpg"
                     },
                     {
                         "id": "1047022297",
                         "description": "Moto Feber Paw Patrol",
-                        "longDescription": "La moto Feber Paw Patrol será su juguete favorito, pues en ella encontrará detalles alusivos a la patrulla canina más increíble, en compañía de estos adorables personajes tu pequeño explorará su entorno. Esta moto Feber Paw Patrol elaborada para ser una pieza resistente además de muy segura posee un claxon en el manillar y un diseño moderno lleno de color que le fascinará; tu pequeño podrá divertirse y desarrollar sus habilidades motrices al mismo tiempo",
                         "image": "https://ss424.liverpool.com.mx/xl/1047022297.jpg"
                     },
                     {
                         "id": "1030332802",
                         "description": "Scooter Apache Frozen",
-                        "longDescription": "Sorprende con el scooter Apache Frozen a tu princesa y bríndale con este increíble modelo un plus de diversión y entretenimiento al máximo. Este scooter, cuenta con materiales de especial resistencia, dimensiones perfectas, colorido y contrastante diseño así como bolsa delantera con la imagen de Ana y Elsa en la cual podrá guardar sus accesorios más especiales, además la luz en la llanta delantera, le dará un plus en cada trayecto recorrido. Descubre el scooter Apache Frozen así como complementos que maximizarán su seguridad solo en Liverpool",
                         "image": "https://ss424.liverpool.com.mx/xl/1030332802.jpg"
                     },
                     {
                         "id": "1096668283",
                         "description": "Montable Eléctrico Prinsel Mercedes Benz GL Class rojo",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096668283.jpg"
                     },
                     {
                         "id": "1045997487",
                         "description": "Montable Prinsel Audi blanco",
-                        "longDescription": "Con el montable Prinsel Audi blanco sorprenderás a tu pequeño a través de este increíble diseño que le dará fascinantes momentos de entretenimiento y a ti, simultáneamente te permitirá disfrutar de máxima comodidad en cada paseo recorrido. Elige solo en Liverpool este modelo que ha sido elaborado con una selección ideal de materiales, dimensiones de máximo confort, fascinante plus de realismo gracias a la delicadeza de cada uno de sus detalles, así como volante de increíbles sonidos, ¡descúbrelo!",
                         "image": "https://ss424.liverpool.com.mx/xl/1045997487.jpg"
                     },
                     {
                         "id": "1096668305",
                         "description": "Montable Eléctrico Prinsel Chevrolet Colorado ZR2 rojo",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096668305.jpg"
                     },
                     {
                         "id": "1096668275",
                         "description": "Montable Eléctrico Prinsel BMW M8 GTE blanco",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096668275.jpg"
                     }
                 ]
@@ -346,48 +296,55 @@
                     "navigationState": "Consruccion-y-Armables/N-35ub",
                     "colorfondo": "#0088ff"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1096103626",
                         "description": "Set Gear Building Bucket Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096103626.jpg"
                     },
                     {
                         "id": "1096105149",
                         "description": "Set Uncle Karl Makes Waffle Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096105149.jpg"
                     },
                     {
                         "id": "1096105785",
                         "description": "Set de bloques Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096105785.jpg"
                     },
                     {
                         "id": "1098388636",
                         "description": "Set de Construcción Batalla Final en el Castillo de Bowser Lego Super Mario",
-                        "longDescription": "¡Un divertido set de expansión con un puente para hacer caer a Bowser a sacudidas!",
                         "image": "https://ss424.liverpool.com.mx/xl/1098388636.jpg"
                     },
                     {
                         "id": "1098388628",
                         "description": "Set de Construcción Fortaleza Acorazada Lego Super Mario",
-                        "longDescription": "¡Un divertido set de expansión con un Bob-omba y un Koopa!",
                         "image": "https://ss424.liverpool.com.mx/xl/1098388628.jpg"
+                    },
+                    {
+                        "id": "1056913617",
+                        "description": "Playmobil Ecto-1 Ghostbusters",
+                        "image": "https://ss424.liverpool.com.mx/xl/1056913617.jpg"
+                    },
+                    {
+                        "id": "1094961021",
+                        "description": "Set de Construcción Delorean Playmobil Volver al Futuro",
+                        "image": "https://ss424.liverpool.com.mx/xl/1094961021.jpg"
                     },
                     {
                         "id": "1095507481",
                         "description": "Set de Construcción Mi Casa de Ciudad Playmobil City Life",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1095507481.jpg"
                     },
                     {
                         "id": "1091985019",
                         "description": "Set de Construcción Expert Harley-Davidson Fat Lego Creator",
-                        "longDescription": "¡Construye y luce tu propia Harley-Davidson Fat Boy!",
                         "image": "https://ss424.liverpool.com.mx/xl/1091985019.jpg"
+                    },
+                    {
+                        "id": "1094961021",
+                        "description": "Set de Construcción Delorean Playmobil Volver al Futuro",
+                        "image": "https://ss424.liverpool.com.mx/xl/1094961021.jpg"
                     }
                 ]
             },
@@ -401,59 +358,49 @@
                     "navigationState": "bicicletas/N-35xb",
                     "colorfondo": "#0088ff"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1056953783",
                         "description": "Triciclo Prinsel BMW 1200",
-                        "longDescription": "El Triciclo MBW cuenta con un diseño realista para los pequeños aventureros. Sus ruedas anchas son elaboradas en goma. Posee un compartimiento en el asiento para guardar accesorios. Su asiento ergonómico es ideal para realizar paseos llenos de diversión sin que lastime la postura del pequeño",
                         "image": "https://ss424.liverpool.com.mx/xl/1056953783.jpg"
                     },
                     {
                         "id": "38388886",
                         "description": "Apache Bicileyca Triciclo con Bastón",
-                        "longDescription": "<p>Maximiza con la <b>bicileyca triciclo Apache con bastón</b> los momentos de diversión de tu pequeño. Con ella, disfrutará de extraordinaria innovación en sus instantes de entretenimiento, mientras explora y recorre increíbles lugares con este clásico diseño. Su especial selección de colores llamativos, así como bolsa y cajuela para transportar sus objetos indispensables le encantarán, además, cuenta con llantas antiderrapantes que le brindarán mayor agarre y durabilidad. Descubre el extraordinario plus en la barra que permitirá colocar velocidad y dirección</p>",
                         "image": "https://ss424.liverpool.com.mx/xl/38388886.jpg"
                     },
                     {
                         "id": "1090488950",
                         "description": "Bicicleta Mercurio R12 para niña",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1090488950.jpg"
                     },
                     {
                         "id": "1079239336",
                         "description": "Bicicleta Turbo Racing 2.0 R20 azul",
-                        "longDescription": "Con la bicicleta Turbo Racing 2.0 R20 azul prepárate para descubrir el poder de la velocidad. Elige solo en Liverpool este extraordinario modelo, que cuenta con llantas todo terreno, gracias a las cuales, podrás recorrer innumerables superficies, experimentado emocionante adrenalina a cada momento; materiales de extraordinaria calidad y 6 velocidades, además su fascinante diseño y selección de color te encantará. Descubre la bicicleta Turbo Racing 2.0 R20 azul así como los mejores complementos de seguridad para que disfrutes al máximo, solo aquí",
                         "image": "https://ss424.liverpool.com.mx/xl/1079239336.jpg"
                     },
                     {
                         "id": "1078911502",
                         "description": "Bicicleta Turbo Fussion R20 negra",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1078911502.jpg"
                     },
                     {
                         "id": "1051678342",
                         "description": "Bicicleta para Niño Turbo Racing R16 amarilla",
-                        "longDescription": "¡Convierte los paseos con tu familia en una aventura! La Bicicleta Bucanero R-16 cuenta con llantas estabilizadoras que le darán a tu pequeño la seguridad que necesita para empezar a andar por su cuenta, por lo que los viajes de tus hijos evolucionarán en cada rodada. Está diseñada para niños de 110 a 130 centímetros",
                         "image": "https://ss424.liverpool.com.mx/xl/1051678342.jpg"
                     },
                     {
                         "id": "1051678326",
                         "description": "Bicicleta Turbo R-16 Bucanero rojo",
-                        "longDescription": "¡Convierte los paseos con tu familia en una aventura! Con la nueva Bicicleta Bucanero R-16, los paseos de tus pequeños evolucionarán junto a ellos, ya que cuenta con llantas estabilizadoras que le darán a tu pequeño la seguridad que necesita para empezar a andar por su cuenta, diseñada para niños de 110 a 130 centímetros",
                         "image": "https://ss424.liverpool.com.mx/xl/1051678326.jpg"
                     },
                     {
                         "id": "1050679108",
                         "description": "Bicicleta Mercurio DH Xpert R16 para niño",
-                        "longDescription": "Con la bicicleta Mercurio DH Xpert R16 para niño podrás brindarle a tu pequeño un inigualable plus de entretenimiento y diversión a cada recorrido que desee emprender. Elige solo en La Mejor Juguetería este fascinante diseño que cuenta con dimensiones perfectas, asiento ajustable, manubrio de 2 alturas, puños antiderrapantes e increíble tonalidad",
                         "image": "https://ss424.liverpool.com.mx/xl/1050679108.jpg"
                     },
                     {
                         "id": "1094113322",
                         "description": "Triciclo Super Trike Prinsel Boy",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1094113322.jpg"
                     }
                 ]
