@@ -6,8 +6,7 @@
         "analytics": "ninas"
     },
     "categories": {
-        "category-main": [
-            {
+        "category-main": [{
                 "info": {
                     "categoryid": "catst13886215",
                     "label": "Muñecas y accesorios",
@@ -17,65 +16,54 @@
                     "navigationState": "munecas-y-accesorios/N-35tl",
                     "colorfondo": "#00c3d5"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1084100672",
                         "description": "Set Maletín de Belleza Toy Town",
-                        "longDescription": "Lucirá con el set Maletín de Belleza Toy Town ¡increíble!, porque este fabuloso paquete cuenta con todo lo que ella necesita para jugar al salón de belleza en el momento que lo desee, así como en el lugar a donde vayan, ya que cuenta con 21 piezas para que simule retocarse los labios, los ojos, al igual que el cabello. La práctica forma que posee este set Maletín de Belleza Toy Town le permitirá llevarlo cómodamente en la mano ¡Será su juguete favorito! En La Mejor Juguetería de Liverpool encontrarás maravillosas opciones de juguetes Toy Town para tu princesa",
                         "image": "https://ss424.liverpool.com.mx/xl/1084100672.jpg"
                     },
                     {
                         "id": "1096779077",
                         "description": "Juguete Lol Surprise Boys",
-                        "longDescription": "¡Desempaqueta al hermano de una de las muñecas LOL Surprise favoritas de los fanáticos con LOL Surprise Boys! Cada personaje tiene un estilo feroz similar al de su hermana, pero con su propio toque único. Busca a King Bee, hermano de Queen Bee, Smarty Pants, hermano de Teacher's Pet y otros hermanos increíbles, ¡para que pueda reunir a toda la familia! ¿a quién desempacarás?",
                         "image": "https://ss424.liverpool.com.mx/xl/1096779077.jpg"
                     },
                     {
                         "id": "1084100699",
                         "description": "Set Maletín de Cocina Toy Town",
-                        "longDescription": "Llevará el set Maletín de Cocina Toy Town a todas partes, porque este increíble juguete portátil será fácil de transportar en el auto, maleta, mochila e incluso en mano, por lo que jamás querrá salir de casa sin él. A través de las 33 piezas con las que cuenta este set Maletín de Cocina Toy Town tu pequeño disfrutará de una maravillosa diversión, ya que podrá imaginar a la perfección la preparación de sus platillos favoritos; las frutas, verduras, al igual que los utensilios que posee le fascinarán. Bríndale en cada una de sus etapas un excelente desarrollo con los juguetes que encontrarás en La Mejor Juguetería de Liverpool",
                         "image": "https://ss424.liverpool.com.mx/xl/1084100699.jpg"
                     },
                     {
                         "id": "1095630428",
                         "description": "Set de Muñeca Casa Club Polly Pocket",
-                        "longDescription": "¡Polly Pocket ha construido la casa club definitiva! Comienza la diversión abriendo la casa club para revelar 2 niveles que incluyen un dormitorio para pasar la noche con la muñeca Pollyy sus amigos; un área de cocina para preparar comida y bocadillos; ¡y un tobogán que la muñeca Polly puede deslizar hacia abajo para aterrizar afuera! El Super Secret Clubhouse también viene con un sofá y una silla para pasar el rato y relajarse e incluye una muñeca Polly de 3 pulgadas con un lindo mameluco, zapatos y su relicario. ¡Su perro Peaches también está allí para hacerle compañía y cuando sus amigos llegan, pueden celebrar con un pedazo de pastel! Ñam! ¡Es muy divertido pasar el rato en la casa club! Los colores y las decoraciones pueden variar. Muñeca Polly incluida, otras muñecas se venden por separado, sujetas a disponibilidad. Para mayores de 4 años",
                         "image": "https://ss424.liverpool.com.mx/xl/1095630428.jpg"
                     },
                     {
                         "id": "1092230186",
                         "description": "Set Buenas Noches Peppa Jazwares",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1092230186.jpg"
                     },
                     {
                         "id": "1087397561",
                         "description": "Set La Mega Casa de Katie Fotorama Mini Chilloncitos",
-                        "longDescription": "¡Descubre la casa del mundo Lágrimas Mágicas! Juega con Katie en su mega casa. Súbela en el ascensor, dale un baño relajante o prepara algo en la cocina. Además, dale de beber con su biberón, aprieta su barriga y ¡llorará lágrimas de verdad! Esta casa es mágica, cuando echas la lágrima de Katie en el depósito de lágrimas... ¡salen burbujas de la chimenea y suenan melodías!",
                         "image": "https://ss424.liverpool.com.mx/xl/1087397561.jpg"
                     },
                     {
                         "id": "1080266843",
                         "description": "Set Guardería de Perritos Barbie",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1080266843_0p.jpg"
                     },
                     {
                         "id": "1059822841",
                         "description": "Bebé Sigoto Distroller Pinguiñita",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1059822841.jpg"
                     },
                     {
                         "id": "1081717865",
                         "description": "Muñeca Anna Disney Collection Frozen",
-                        "longDescription": "",
                         "image": "https://ss425.liverpool.com.mx/xl/1081717865.jpg"
                     },
                     {
                         "id": "1073698673",
                         "description": "Muñeca Disney Collection Toddler Ariel",
-                        "longDescription": "La muñeca Disney Collection Toddler Ariel le brindará un genuino twist de diversión a tu princesa, descúbrela solo en Liverpool y déjate sorprender con el conjunto de características que reúne, como materiales de especial resistencia, dimensiones que le permitirán llevarla con practicidad, así como fascinantes detalles que en conjunto no dejarán de sumar. Descubre esta especial Sirenita solo aquí",
                         "image": "https://ss425.liverpool.com.mx/xl/1073698673.jpg"
                     }
                 ]
@@ -90,59 +78,49 @@
                     "navigationState": "accesorios-de-belleza/N-35to",
                     "colorfondo": "#ffa600"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1084100273",
                         "description": "Set Pulseras 2 en 1 Joyería Oro Rosa So Beads",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1084100273.jpg"
                     },
                     {
                         "id": "1094385705",
                         "description": "Set Laboratorio de Manicura Tasia Beauty Nail Collection",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1094385705.jpg"
                     },
                     {
                         "id": "1084100231",
                         "description": "Set Estuche de Joyería So Beads So you",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1084100231.jpg"
                     },
                     {
                         "id": "1084100222",
                         "description": "Set Pulseras Deluxe Loome Tasia So You",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1084100222.jpg"
                     },
                     {
                         "id": "1097326297",
                         "description": "Set Peluquería de Lujo Tasia So You",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1097326297.jpg"
                     },
                     {
                         "id": "1084100249",
                         "description": "Set Joyería Mágica So Beads So you",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1084100249.jpg"
                     },
                     {
                         "id": "1082215847",
                         "description": "Set Fabrica de Jabones Mi Alegría",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1082215847.jpg"
                     },
                     {
                         "id": "1056358257",
                         "description": "Diadema de Orejas Disney Collection Pink Minnie",
-                        "longDescription": "Obsequia la diadema de Orejas Disney Collection Pink Minnie a tu princesa, porque este increíble accesorio será perfecto para que luzca divina con sus diferentes looks casuales, ya que es un magnífico modelo con dimensiones y colores ideales para lucir como su personaje de Disney favorito. Si su cumpleaños es temático o está invitada a la fiesta de una amiga la diadema de Orejas Disney Collection Pink Minnie es perfecta para ello",
                         "image": "https://ss425.liverpool.com.mx/xl/1056358257.jpg"
                     },
                     {
                         "id": "1066070561",
                         "description": "Tiara Disney Collection Cenicienta",
-                        "longDescription": "",
                         "image": "https://ss425.liverpool.com.mx/xl/1066070561.jpg"
                     }
                 ]
@@ -157,65 +135,54 @@
                     "navigationState": "manualidades/N-35tq",
                     "colorfondo": "#ffdc3a"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1093745139",
                         "description": "Set 6 Variedades Play-Doh",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1093745139.jpg"
                     },
                     {
                         "id": "13104808",
                         "description": "Cubo de Formas Playskool",
-                        "longDescription": "<p>Con el <b>cubo de Formas Playskool</b> maximiza no solo los momentos de entretenimiento de tu pequeño, sino también de ideal aprendizaje. Descubre solo en <b>Liverpool</b> este extraordinario diseño, que reúne las características de las que buscas siempre que disfrute, como perfecto dinamismo a través de cada una de las especiales piezas geométricas, diversas texturas, múltiple selección de color y dimensiones perfectas. Fomenta al máximo su temprano aprendizaje solo aquí</p>",
                         "image": "https://ss424.liverpool.com.mx/xl/13104808.jpg"
                     },
                     {
                         "id": "1096293573",
                         "description": "Set Arcoíris de Colores Kinetic Sand",
-                        "longDescription": "Una emocionante forma de jugar con tu arena favorita Kinetic Sand y su nuevo set de Arcoíris de colores. ¡Usa capas de colores de arena diferentes para mezclar y recrear fantásticas formas visuales!, o mezcla para crear nuevos colores y revela patrones divertidas al aplastarla",
                         "image": "https://ss424.liverpool.com.mx/xl/1096293573.jpg"
                     },
                     {
                         "id": "1095793572",
                         "description": "Set de 10 Contenedores Kinetic Sand",
-                        "longDescription": "¡Kinetic Sand fomenta la creatividad! Nunca se seca, por lo que puede crear una y otra vez. Cree cualquier cosa que pueda imaginar: ¡con Kinetic Sand, las posibilidades creativas son infinitas!",
                         "image": "https://ss424.liverpool.com.mx/xl/1095793572.jpg"
                     },
                     {
                         "id": "1089769724",
                         "description": "Set Kinetic Sand Spin Master",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1089769724.jpg"
                     },
                     {
                         "id": "1085052175",
                         "description": "Fábrica de Slime Mi Alegría Galáctico",
-                        "longDescription": "Crea tu propio slime galáctico que brilla en la obscuridad",
                         "image": "https://ss424.liverpool.com.mx/xl/1085052175.jpg"
                     },
                     {
                         "id": "1085049689",
                         "description": "Laboratorio de Slime Mi Alegría",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1085049689.jpg"
                     },
                     {
                         "id": "1085049671",
                         "description": "Fábrica de Slime Mi Alegría Unicornio",
-                        "longDescription": "Crea tu propio slime suave, colorido y con aroma",
                         "image": "https://ss424.liverpool.com.mx/xl/1085049671.jpg"
                     },
                     {
                         "id": "1085049654",
                         "description": "Set Fábrica de Slime Mi Alegría Sirena",
-                        "longDescription": "Crea tu slime de colores con mágicos destellos",
                         "image": "https://ss424.liverpool.com.mx/xl/1085049654.jpg"
                     },
                     {
                         "id": "1078674284",
                         "description": "Aqua Moléculas Mi Alegría",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1078674284.jpg"
                     }
                 ]
@@ -230,72 +197,61 @@
                     "navigationState": "Vehiculos/N-35tr",
                     "colorfondo": "#9af7ff"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1086374109",
                         "description": "Bicicleta Bolo Mony R16 para niña",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1086374109.jpg"
                     },
                     {
                         "id": "1090488933",
                         "description": "Bicicleta Mercurio R16 para niña",
-                        "longDescription": "Especial para la niña que ama los personajes de tendencia, le gusta el colorido y los accesorios que la hacen ver diferente, y gracias a su asiento trasero podrá compartir las mejores aventuras en compañía de quien quiera",
                         "image": "https://ss424.liverpool.com.mx/xl/1090488933.jpg"
                     },
                     {
                         "id": "1030332802",
                         "description": "Scooter Apache Frozen",
-                        "longDescription": "Sorprende con el scooter Apache Frozen a tu princesa y bríndale con este increíble modelo un plus de diversión y entretenimiento al máximo. Este scooter, cuenta con materiales de especial resistencia, dimensiones perfectas, colorido y contrastante diseño así como bolsa delantera con la imagen de Ana y Elsa en la cual podrá guardar sus accesorios más especiales, además la luz en la llanta delantera, le dará un plus en cada trayecto recorrido. Descubre el scooter Apache Frozen así como complementos que maximizarán su seguridad solo en Liverpool",
                         "image": "https://ss424.liverpool.com.mx/xl/1030332802.jpg"
                     },
                     {
                         "id": "1016754885",
                         "description": "Triciclo Princesas Disney Apache",
-                        "longDescription": "<p>El <b>triciclo Princesas Disney Apache</b> es el indicado para esta etapa de su vida, ya que además de brindarle excelentes horas de diversión, contribuirá a reforzar su desarrollo psicomotor, así como equilibrio. Este <b>triciclo Princesas Disney Apache</b>, cuenta con llantas antiderrapantes para un mejor agarre, estructura de alta resistencia, barra empujadora para que tú tengas el control de la velocidad, por lo que te asegurarás de su protección en todo momento, además de un arnés con idóneos puntos de sujeción. El <b>triciclo Princesas Disney Apache</b>, posee colgantes en colores llamativos, bolsa en manubrio y canastilla para que traslade sus juguetes favoritos a donde ella lo decida, este <b>triciclo Princesas Disney Apache</b> será su vehículo preferido</p>",
                         "image": "https://ss424.liverpool.com.mx/xl/1016754885.jpg"
                     },
                     {
                         "id": "1079239336",
                         "description": "Bicicleta Turbo Racing 2.0 R20 azul",
-                        "longDescription": "Con la bicicleta Turbo Racing 2.0 R20 azul prepárate para descubrir el poder de la velocidad. Elige solo en Liverpool este extraordinario modelo, que cuenta con llantas todo terreno, gracias a las cuales, podrás recorrer innumerables superficies, experimentado emocionante adrenalina a cada momento; materiales de extraordinaria calidad y 6 velocidades, además su fascinante diseño y selección de color te encantará. Descubre la bicicleta Turbo Racing 2.0 R20 azul así como los mejores complementos de seguridad para que disfrutes al máximo, solo aquí",
                         "image": "https://ss424.liverpool.com.mx/xl/1079239336.jpg"
                     },
                     {
                         "id": "1088182088",
                         "description": "Triciclo con Sombrilla Mytoy Fancy Trike rosa",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1088182088.jpg"
                     },
                     {
                         "id": "1088182118",
                         "description": "Triciclo con Sombrilla Mytoy Hello Ninny",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1088182118.jpg"
                     },
                     {
                         "id": "1097390378",
                         "description": "Scooter Apache Frozen",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1097390378.jpg"
                     },
                     {
                         "id": "1097390386",
                         "description": "Scooter Apache Minnie Mouse",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1097390386.jpg"
                     },
                     {
                         "id": "1097390416",
                         "description": "Scooter Flying Wheel Bala",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1097390416.jpg"
                     }
                 ]
             },
             {
                 "info": {
-                    "categoryid": "catst1857455",
+                    "categoryid": "catst1833793",
                     "label": "Construcción y Armables",
                     "picture": "./assets/images/categorias/subcategorias/ninas/6ninas_constructibles.jpg",
                     "video": "",
@@ -303,36 +259,50 @@
                     "navigationState": "Consruccion-y-Armables/N-35tx",
                     "colorfondo": "#5332fd"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1091979591",
                         "description": "Set de Construcción Glamping en la Naturaleza Lego Friends",
-                        "longDescription": "Deja que tu peque simule que juega al aire libre con estilo explorando la naturaleza y socializando con amigas con el set de juego LEGO de casa de campaña de juguete",
                         "image": "https://ss424.liverpool.com.mx/xl/1091979591.jpg"
+                    },
+                    {
+                        "id": "1098388636",
+                        "description": "Set de Construcción Batalla Final en el Castillo de Bowser Lego Super Mario",
+                        "image": "https://ss424.liverpool.com.mx/xl/1098388636.jpg"
+                    },
+                    {
+                        "id": "1098388636",
+                        "description": "Set de Construcción Batalla Final en el Castillo de Bowser Lego Super Mario",
+                        "image": "https://ss424.liverpool.com.mx/xl/1098388636.jpg"
                     },
                     {
                         "id": "1096105122",
                         "description": "Set de construcción Transforming Vehicle Dizzy Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096105122.jpg"
                     },
                     {
                         "id": "1096103715",
                         "description": "Set de construcción Transforming Vehicle Jett Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096103715.jpg"
                     },
                     {
                         "id": "1096105131",
                         "description": "Set de construcción Transforming Vehicle Donnie Toy Town Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096105131.jpg"
                     },
                     {
                         "id": "1095507995",
                         "description": "Set de Construcción Mi Cafetería Playmobil City Life",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1095507995.jpg"
+                    },
+                    {
+                        "id": "1056913617",
+                        "description": "Playmobil Ecto-1 Ghostbusters",
+                        "image": "https://ss424.liverpool.com.mx/xl/1056913617.jpg"
+                    },
+                    {
+                        "id": "1094961021",
+                        "description": "Set de Construcción Delorean Playmobil Volver al Futuro",
+                        "image": "https://ss424.liverpool.com.mx/xl/1094961021.jpg"
                     }
                 ]
             },
@@ -346,7 +316,53 @@
                     "navigationState": "juegos-didacticos/N-35tz",
                     "colorfondo": "#5332fd"
                 },
-                "toys": []
+                "toys": [{
+                        "id": "1027366232",
+                        "description": "Tambor Battat",
+                        "image": "https://ss424.liverpool.com.mx/xl/1027366232.jpg"
+                    },
+                    {
+                        "id": "1040811962",
+                        "description": "Tablet de Aprendizaje Fisher-Price Ríe y Aprende",
+                        "image": "https://ss424.liverpool.com.mx/xl/1040811962.jpg"
+                    },
+                    {
+                        "id": "1065888129",
+                        "description": "Casita de Animales Chicco",
+                        "image": "https://ss424.liverpool.com.mx/xl/1065888129.jpg"
+                    },
+                    {
+                        "id": "1067535193",
+                        "description": "Set de Juego Helados Deliciosos Play-Doh",
+                        "image": "https://ss424.liverpool.com.mx/xl/1067535193.jpg"
+                    },
+                    {
+                        "id": "1080881831",
+                        "description": "Piano Sonidos Divertidos Fisher-Price",
+                        "image": "https://ss424.liverpool.com.mx/xl/1080881831.jpg"
+                    },
+                    {
+                        "id": "1089468465",
+                        "description": "Set de Vehículos Die Cast Paw Patrol Migthy Twins",
+                        "image": "https://ss424.liverpool.com.mx/xl/1089468465.jpg"
+                    },
+                    {
+                        "id": "1093317161",
+                        "description": "Actividad al volante Kiddieland",
+                        "image": "https://ss424.liverpool.com.mx/xl/1093317161.jpg"
+                    },
+                    {
+                        "id": "1096183441",
+                        "description": "Figura Bello Alpha Super Wings",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096183441.jpg"
+                    },
+                    {
+                        "id": "1097106823",
+                        "description": "Pizarrón Mágico Toy Town",
+                        "image": "https://ss424.liverpool.com.mx/xl/1097106823.jpg"
+                    }
+
+                ]
             },
             {
                 "info": {
@@ -358,7 +374,53 @@
                     "navigationState": "Rompecabezas/N-35ta",
                     "colorfondo": "#5332fd"
                 },
-                "toys": []
+                "toys": [{
+                        "id": "1060695021",
+                        "description": "Rompecabezas 3D Cubic Fun Dreamy Dollhouse",
+                        "image": "https://ss424.liverpool.com.mx/xl/1060695021.jpg"
+                    },
+                    {
+                        "id": "1077569011",
+                        "description": "Rompecabezas Aterciopelado para Colorear Novelty Frozen",
+                        "image": "https://ss424.liverpool.com.mx/xl/1077569011.jpg"
+                    },
+                    {
+                        "id": "1077582360",
+                        "description": "Rompecabezas Aterciopelado Mandalas Novelty",
+                        "image": "https://ss424.liverpool.com.mx/xl/1077582360.jpg"
+                    },
+                    {
+                        "id": "1087797542",
+                        "description": "Rompecabezas en Lata Cardinal Brands L.O.L. Surprise",
+                        "image": "https://ss424.liverpool.com.mx/xl/1087797542.jpg"
+                    },
+                    {
+                        "id": "1089471288",
+                        "description": "Rompecabezas LOL Spin Master",
+                        "image": "https://ss424.liverpool.com.mx/xl/1089471288.jpg"
+                    },
+                    {
+                        "id": "1091752502",
+                        "description": "Rompecabezas Princesas Novelty",
+                        "image": "https://ss424.liverpool.com.mx/xl/1091752502.jpg"
+                    },
+                    {
+                        "id": "1091752782",
+                        "description": "Rompecabezas Novelty Frozen II",
+                        "image": "https://ss424.liverpool.com.mx/xl/1091752782.jpg"
+                    },
+                    {
+                        "id": "1094870182",
+                        "description": "Rompecabezas 4 en 1 Novelty Unidos Disney Pixar",
+                        "image": "https://ss424.liverpool.com.mx/xl/1094870182.jpg"
+                    },
+                    {
+                        "id": "1096055524",
+                        "description": "Rompecabezas Panorámico 3 en 1 Novelty Frozen II",
+                        "image": "https://ss424.liverpool.com.mx/xl/1096055524.jpg"
+                    }
+
+                ]
             }
         ]
     }
