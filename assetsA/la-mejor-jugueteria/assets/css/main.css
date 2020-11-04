@@ -1818,7 +1818,7 @@ footer {
         font-size: 1.3em;
     }
     .mediaItemImage {
-        height: 340px;
+        height: 370px !important;
     }
 }
 
@@ -1850,7 +1850,7 @@ footer {
         border-radius: 3px;
     }
     .controldetalle .mediaItemImage {
-        height: 430px;
+        height: 500px;
     }
     .mediaItemImage {
         height: 390px;
@@ -2117,7 +2117,7 @@ footer {
         z-index: 999;
     }
     .mediaItemImage {
-        height: 230px;
+        height: 270px;
     }
     .itemIteractivoCaroucel .descripcion {
         text-align: center;

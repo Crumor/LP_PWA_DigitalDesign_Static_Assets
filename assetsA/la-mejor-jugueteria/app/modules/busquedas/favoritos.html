@@ -15,52 +15,52 @@
             <etiqueta-categoria information="getPleca"></etiqueta-categoria>
         </div>
     </div>
-        <div class="row" style="margin-bottom: 20px;">
+    <div class="row" style="margin-bottom: 20px;">
 
-            <ul class="gridPlp">
-                <li id="vide" class="itemPlp firstElement video" ng-if="firstItemType === 'video'">
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/EoVgnCuev4c" frameborder="0" allowfullscreen ng-show="isVideoOf===1"></iframe>
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/H79vPYzylQM" frameborder="0" allowfullscreen ng-show="isVideoOf===2"></iframe>
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/f0FsJV8aaMo" frameborder="0" allowfullscreen ng-show="isVideoOf===0"></iframe>
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/6IYAzJeGkD8" frameborder="0" allowfullscreen ng-show="isVideoOf===3"></iframe>
-                    <iframe width="100%" height="370" src="https://www.youtube.com/embed/etbHsNoUN6o" frameborder="0" allowfullscreen ng-show="isVideoOf===4"></iframe>
-                </li>
-                <li class="itemPlp resultSearch"     ng-repeat="res in resultadosBusqueda">
-                    <figure class="itemFigure">
-                        <a href="#/detalle/{{res.id}}">
-                            <img  lazy-src="{{res.imageBg}}" lazy-load/>
-                            <p class="loader_generic"></p>
-                            <figcaption>{{res.description}}</figcaption>
-                        </a>
-                    </figure>
-                    <p class="addToy hidden-xs hidden-sm">
-                        <agregar-pedidos producto="res"></agregar-pedidos>
-                    </p>
-                    <agregar-pedidos producto="res" class="hidden-lg"></agregar-pedidos>
-                </li>
-            </ul>
-        </div>
-        <div class="row" ng-show="seeMore">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <p class="text-center">
-                    <a href ng-click="nextPage()" class="ver-mas">Ver más</a>
+        <ul class="gridPlp">
+            <li id="vide" class="itemPlp firstElement video" ng-if="firstItemType === 'video'">
+                <iframe width="100%" height="370" src="https://www.youtube.com/embed/EoVgnCuev4c" frameborder="0" allowfullscreen ng-show="isVideoOf===1"></iframe>
+                <iframe width="100%" height="370" src="https://www.youtube.com/embed/H79vPYzylQM" frameborder="0" allowfullscreen ng-show="isVideoOf===2"></iframe>
+                <iframe width="100%" height="370" src="https://www.youtube.com/embed/f0FsJV8aaMo" frameborder="0" allowfullscreen ng-show="isVideoOf===0"></iframe>
+                <iframe width="100%" height="370" src="https://www.youtube.com/embed/6IYAzJeGkD8" frameborder="0" allowfullscreen ng-show="isVideoOf===3"></iframe>
+                <iframe width="100%" height="370" src="https://www.youtube.com/embed/etbHsNoUN6o" frameborder="0" allowfullscreen ng-show="isVideoOf===4"></iframe>
+            </li>
+            <li class="itemPlp resultSearch" ng-repeat="res in resultadosBusqueda">
+                <figure class="itemFigure">
+                    <a href="#/detalle/{{res.id}}">
+                        <img lazy-src="{{res.imageBg}}" lazy-load/>
+                        <p class="loader_generic"></p>
+                        <figcaption>{{res.description}}</figcaption>
+                    </a>
+                </figure>
+                <p class="addToy hidden-xs hidden-sm">
+                    <agregar-pedidos producto="res"></agregar-pedidos>
                 </p>
+                <agregar-pedidos producto="res" class="hidden-lg"></agregar-pedidos>
+            </li>
+        </ul>
+    </div>
+    <div class="row" ng-show="seeMore">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <p class="text-center">
+                <a href ng-click="nextPage()" class="ver-mas">Ver más</a>
+            </p>
+        </div>
+    </div>
+    <div class="row" ng-show="loaded">
+        <div class="col-md-12 col-xs-12">
+            <div style="position:relative;margin:-3em auto 0 auto; width:187px;">
+                <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif" />
             </div>
         </div>
-        <div class="row" ng-show="loaded">
-                <div class="col-md-12 col-xs-12">
-                <div style="position:relative;margin:-3em auto 0 auto; width:187px;">
-                        <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif"/>
-                        </div>
-                </div>
-        </div>
+    </div>
     <div class="row">
         <div class="col-md-12 pleca-micarta hidden-xs">
-             <i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
+            <i>¡Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
             <button type="button" class="btn-ir-micarta" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
         <div class="col-md-12 pleca-micarta-mobil hidden-lg hidden-sm">
-             <div><i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
+            <div><i>¡Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
             <button type="button" class="btn-ir-micarta-mobil" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
     </div>
