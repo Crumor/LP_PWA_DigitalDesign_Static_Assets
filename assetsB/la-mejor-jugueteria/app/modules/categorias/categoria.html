@@ -10,50 +10,52 @@
         <etiqueta-categoria categoria="idCategoria" width="dimension.width"></etiqueta-categoria>
     </div>
 </div>
-<div class="container container-fluid" >
+<div class="container container-fluid">
 
     <div class="row" style="margin-bottom:4.5%;">
         <div class="col-md-12">
-            <div class="row"  style="margin-top:6%;" ng-repeat =" c in categorias" ng-hide="loaded">
+            <div class="row" style="margin-top:6%;" ng-repeat=" c in categorias" ng-hide="loaded">
                 <div class="col-md-12 col-xs-12 position-z-dos">
-                      <div class="row">
+                    <div class="row">
                         <div class="col-md-4 col-xs-8 p-l-0">
 
-                            <a href="#/subcategoria/{{idCategoria+'/'+c.categoryid}}" style="text-decoration:none;"><h3 class="style1" ng-bind = "c.label"></h3></a>
+                            <a href="#/subcategoria/{{idCategoria+'/'+c.categoryid}}" style="text-decoration:none;">
+                                <h3 class="style1" ng-bind="c.label"></h3>
+                            </a>
                         </div>
 
                         <div class="col-md-8 col-xs-4 p-r-0">
-                            <a href="#/subcategoria/{{idCategoria+'/'+c.categoryid}}" class="ver-todo" analytics-on="click" title="{{c.label}}" analytics-event="ver-todo-{{banner.analytics}}/{{c.navigationState}}" value="clp-{{banner.analytics}}" >
+                            <a href="#/subcategoria/{{idCategoria+'/'+c.categoryid}}" class="ver-todo" analytics-on="click" title="{{c.label}}" analytics-event="ver-todo-{{banner.analytics}}/{{c.navigationState}}" value="clp-{{banner.analytics}}">
                                 <span class="ver-todo-span">Ver todo </span>
-                                <span class="icon-flecha-slider_der" >
+                                <span class="icon-flecha-slider_der">
                                 </span>
                             </a>
 
                         </div>
-                      </div>
+                    </div>
 
                 </div>
                 <div class="row clp-line"></div>
                 <div class="col-md-12 col-sm-12 col-xs-12  p-l-0 p-r-0">
-                    <owl-caroucel  id-element="{{'slider'+$index}}" items="5" elements="c.toys" type-owl="4" class-controls="{{'slider-controls'+$index}}"></owl-caroucel>
+                    <owl-caroucel id-element="{{'slider'+$index}}" items="5" elements="c.toys" type-owl="4" class-controls="{{'slider-controls'+$index}}"></owl-caroucel>
                 </div>
             </div>
-               <div class="row" ng-show="loaded">
-                    <div class="col-md-12 col-xs-12">
-                        <div style="position:relative;margin:0 auto; width:187px;">
-                            <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif"/>
-                        </div>
+            <div class="row" ng-show="loaded">
+                <div class="col-md-12 col-xs-12">
+                    <div style="position:relative;margin:0 auto; width:187px;">
+                        <img src="http://assets.liverpool.com.mx/assets/images/ajax-loader.gif" />
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 pleca-micarta hidden-xs">
-             <i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
+            <i>¡Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i>
             <button type="button" class="btn-ir-micarta" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
         <div class="col-md-12 pleca-micarta-mobil hidden-lg hidden-sm">
-             <div><i>!Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
+            <div><i>¡Ya seleccionaste tus regalos, no olvides enviar tu carta a Santa Claus!</i></div>
             <button type="button" class="btn-ir-micarta-mobil" onClick="javascript:location.href='#/micarta'">ir a mi carta&nbsp;&nbsp;<i class="icon-flecha_gruesa_derecha" aria-hidden="true"></i></button>
         </div>
     </div>

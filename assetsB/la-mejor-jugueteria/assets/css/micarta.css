@@ -1,136 +1,160 @@
-.bodyFiguras{
-	background: #f2f2f2;
+.bodyFiguras {
+    background: #f2f2f2;
+    background-image: url(../images/peluches.png);
+}
 
-	background-image:url(../images/peluches.png);
+.bodyCarta {
+    background: #ffffff;
+    margin: 0 auto;
+    float: none;
+    padding: 25px;
+    margin: 100px auto;
 }
-.bodyCarta{
-	background: #ffffff;
-	margin: 0 auto;
-	float: none;
-	padding: 25px;
-	margin: 100px auto;
-}
-.bodyCongrats{
-	text-align: center;
-	margin: 25% 0 30%;
-}
-.back{
-	margin-top: 3%;
 
+.bodyCongrats {
+    text-align: center;
+    margin: 25% 0 30%;
 }
-.felicidades{
-	font-size: 3.5em;
-	color:#df4d60;
-}
-.sended{
-	font-weight: bold;
-	font-size: 1.5em;
-}
-.ups{
-	font-size: 2em;
-	font-weight: bold;
 
-	display: inline-block;
+.back {
+    margin-top: 3%;
 }
-a:hover{
-	text-decoration: none;
+
+.felicidades {
+    font-size: 3.5em;
+    color: #df4d60;
 }
-.ups-image{
- display: inline-block;
+
+.sended {
+    font-weight: bold;
+    font-size: 1.5em;
 }
-.ups-image img{
- height: 60px;
+
+.ups {
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+.ups-image {
+    display: inline-block;
+}
+
+.ups-image img {
+    height: 60px;
+}
+
 @media only screen and (max-width:991px) {
-	.texto-carta-titulo{
-		position: absolute;
-		top: 0px;
-		width:100%;
-		z-index:20;
-	}
-	#svgetiqueta{
-		height: 150px !important;
-	}
+    .texto-carta-titulo {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        z-index: 20;
+    }
+    #svgetiqueta {
+        height: 80px !important;
+    }
 }
 
 @media only screen and (min-width:992px) {
-	.texto-carta-titulo{
-		position: absolute;
-		top: 0px;
-		left: 26%;
-		width:100%;
-		z-index:20;
-	}
+    .texto-carta-titulo {
+        position: absolute;
+        top: 0px;
+        left: 26%;
+        width: 100%;
+        z-index: 20;
+    }
 }
-.form-group{
-	margin-top: 30px;
-	position: relative;
+
+.form-group {
+    margin-top: 30px;
+    position: relative;
 }
-.texto-carta-tusregalos{
-	font-size:1.5em;
-	font-weight: bold;
+
+.texto-carta-tusregalos {
+    font-size: 1.5em;
+    font-weight: bold;
 }
-#mic, #mic2, #mic3{
-	outline: none;
-	cursor: pointer;
-	display: block;
-	height: 30px;
-	width: 30px;;
-	background: url(../images/micro/inactivo.png);
-	position: absolute;
-	right: 5px;
-	bottom: 10px;
-	background-size: 30px !important;
+
+#mic,
+#mic2,
+#mic3 {
+    outline: none;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    width: 30px;
+    ;
+    background: url(../images/micro/inactivo.png);
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background-size: 30px !important;
 }
-#mic3{
-	top: 33px;
+
+#mic3 {
+    top: 33px;
 }
-.fa-heart-o{
-	position: absolute;
-	cursor: pointer;
+
+.fa-heart-o {
+    position: absolute;
+    cursor: pointer;
 }
+
 .fa-heart-o:hover:before {
-   content: "\f004";
-   color: #e10098;
+    content: "\f004";
+    color: #e10098;
 }
+
 .descriptionMicarta {
-	height: 50px;
+    height: 50px;
 }
-.descriptionMicarta p{
-	font-size: 0.9em;
-	height: 35px;
-	overflow: hidden;
+
+.descriptionMicarta p {
+    font-size: 0.9em;
+    height: 35px;
+    overflow: hidden;
 }
-.myGifts{
-	margin: 10px 0px 0px 0;
-	min-height: 230px;
+
+.myGifts {
+    margin: 10px 0px 0px 0;
+    min-height: 230px;
 }
-.myGifts:hover .btn-eliminar{
-	display: block;
+
+.myGifts:hover .btn-eliminar {
+    display: block;
 }
-.btn-eliminar{
-	display: none;
+
+.btn-eliminar {
+    display: none;
 }
-.fa-heart{
-	color: #e10098;
-	position: absolute;
+
+.fa-heart {
+    color: #e10098;
+    position: absolute;
 }
+
 .fa-heart.baby {
-	position: relative;
-}
-.marcaFav{
-	color: #a1a1a1;
-	display: inline-block;
-	line-height: 2em;
+    position: relative;
 }
 
-.btn-enviar-carta{
-	width: 50% !important;
-	margin-top: 10px;
+.marcaFav {
+    color: #a1a1a1;
+    display: inline-block;
+    line-height: 2em;
 }
-@media all and (max-width: 480px){
 
-				.felicidades {
-					font-size: 3em;
-				}
-			}
+.btn-enviar-carta {
+    width: 50% !important;
+    margin-top: 10px;
+}
+
+@media all and (max-width: 480px) {
+    .felicidades {
+        font-size: 3em;
+    }
+}
