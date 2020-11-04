@@ -1,87 +1,87 @@
 {
 
-    "subCategories":{
-        "color1":"#FFD300",
-        "color2":"none",
-        "color3":"#FF4C61",
-        "label":"Niñas",
-         "fondo":"#f6cfe4"
+    "subCategories": {
+        "color1": "#FFD300",
+        "color2": "none",
+        "color3": "#FF4C61",
+        "label": "Niñas",
+        "fondo": "#f6cfe4"
     },
-        "niños":{
-        "color1":"#E8B25B",
-        "color2":"none",
-        "color3":"#9ABDCA",
-        "label":"Niños",
-        "fondo":"#0464dd"
+    "niños": {
+        "color1": "#E8B25B",
+        "color2": "none",
+        "color3": "#9ABDCA",
+        "label": "Niños",
+        "fondo": "#0464dd"
     },
-        "construccion-y-armables":{
-        "color1":"#94F0F3",
-        "color2":"none",
-        "color3":"#FFA200",
-        "label":"Construcción",
-        "fondo":"#ff4d53"
+    "construccion-y-armables": {
+        "color1": "#94F0F3",
+        "color2": "none",
+        "color3": "#FFA200",
+        "label": "Construcción",
+        "fondo": "#ff4d53"
     },
-        "bebés":{
-        "color1":"#F4CFB2",
-        "color2":"none",
-        "color3":"#07C0A6",
-        "label":"Bebés",
-        "fondo":"#ff9801"
+    "bebés": {
+        "color1": "#F4CFB2",
+        "color2": "none",
+        "color3": "#07C0A6",
+        "label": "Bebés",
+        "fondo": "#ff9801"
     },
-        "vehículos":{
-        "color1":"#FDD44B",
-        "color2":"none",
-        "color3":"#FF5E70",
-        "label":"Vehículos",
-        "fondo":"#9af7ff"
+    "vehículos": {
+        "color1": "#FDD44B",
+        "color2": "none",
+        "color3": "#FF5E70",
+        "label": "Vehículos",
+        "fondo": "#9af7ff"
     },
-        "exteriores":{
-        "color1":"#92E8DF",
-        "color2":"none",
-        "color3":"#FF4C60",
-        "label":"Exteriores",
-        "fondo":"#e5ff3c"
+    "catst1896485": {
+        "color1": "#92E8DF",
+        "color2": "none",
+        "color3": "#FF4C60",
+        "label": "Exteriores",
+        "fondo": "#e5ff3c"
     },
-        "catst1833807":{
-        "color1":"#00D0FF",
-        "color2":"none",
-        "color3":"#053062",
-        "label":"Radio Control",
-        "fondo":"#8f25eb"
+    "catst1833807": {
+        "color1": "#00D0FF",
+        "color2": "none",
+        "color3": "#053062",
+        "label": "Radio Control",
+        "fondo": "#8f25eb"
     },
-        "juegos-de-mesa":{
-        "color1":"#FF4600",
-        "color2":"none",
-        "color3":"#1BB5A0",
-        "label":"Juegos de Mesa y Manualidades",
-        "fondo":"#ffdb2b"
+    "juegos-de-mesa": {
+        "color1": "#FF4600",
+        "color2": "none",
+        "color3": "#1BB5A0",
+        "label": "Juegos de Mesa y Manualidades",
+        "fondo": "#ffdb2b"
     },
-        "catst1833811":{
-        "color1":"#B9C3CB",
-        "color2":"none",
-        "color3":"#33CAF7",
-        "label":"Coleccionables",
-        "fondo":"#1b1b1b"
+    "catst1833811": {
+        "color1": "#B9C3CB",
+        "color2": "none",
+        "color3": "#33CAF7",
+        "label": "Coleccionables",
+        "fondo": "#1b1b1b"
     },
-        "catst1833808":{
-        "color1":"#FF9544",
-        "color2":"none",
-        "color3":"#F4C939",
-        "label":"Peluches",
-        "fondo":"#f9beba"
+    "peluches": {
+        "color1": "#FF9544",
+        "color2": "none",
+        "color3": "#F4C939",
+        "label": "Peluches",
+        "fondo": "#f9beba"
     },
-        "disfraces":{
-        "color1":"#ACC1D2",
-        "color2":"none",
-        "color3":"#FF877C",
-        "label":"Disfraces",
-        "fondo":"#ff4a97"
+    "disfraces": {
+        "color1": "#ACC1D2",
+        "color2": "none",
+        "color3": "#FF877C",
+        "label": "Disfraces",
+        "fondo": "#ff4a97"
     },
-        "videojuegos":{
-        "color1":"#0DC6AB",
-        "color2":"none",
-        "color3":"#FF475C",
-        "label":"Videojuegos",
-        "fondo":"#e3e3e3"
+    "videojuegos": {
+        "color1": "#0DC6AB",
+        "color2": "none",
+        "color3": "#FF475C",
+        "label": "Videojuegos",
+        "fondo": "#e3e3e3"
     }
 }

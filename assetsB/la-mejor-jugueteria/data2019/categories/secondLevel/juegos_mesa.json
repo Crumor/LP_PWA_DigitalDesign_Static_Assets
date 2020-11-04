@@ -1,95 +1,264 @@
 {
-	"principal-banner":{
-        "picture": "./assets/images/categorias/11_juegosdemesa_art.png",
-        "patron":"./assets/images/categorias/11_patron_juegosdemesa.png",
-        "colorFondo":"#eb5e00",
-        "analytics":"juegos-mesa"
+	"principal-banner": {
+		"picture": "./assets/images/categorias/11_juegosdemesa_art.png",
+		"patron": "./assets/images/categorias/11_patron_juegosdemesa.png",
+		"colorFondo": "#eb5e00",
+		"analytics": "juegos-mesa"
 	},
 	"categories": {
-    "category-main": [
-      {
-        "info":{
-        "categoryid": "catst1857454",
-        "label": "Bloques",
-		"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_bloques.jpg",
-		"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_bloques.jpg",
-		"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_bl.png",
-        "navigationState": "bloques/N-35uo",
-        "colorfondo":"#b2f653"
-        },
-        "toys":[{"id":"1049103359","image":"http://ss424.liverpool.com.mx/lg/1049103359.jpg","description":"Mattel Blaze Construye y Lanza","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Piezas que Incluye:12 piezas</li><li>Modelo:DPH74</li><li>Color:Multicolor</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Niño</li><li>Material:Plástico</li></ol>"},
-				{"id":"1049103391","image":"http://ss424.liverpool.com.mx/lg/1049103391.jpg","description":"Mattel Vehículo Blindado de Carga","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Piezas que Incluye:50 Piezas aproximadamente</li><li>Marca:MEGA BLOKS</li><li>Modelo:DPB57</li><li>Color:Multicolor</li><li>Edad Recomendada:Mas de 10 años</li><li>Género:Niño</li><li>Material:Plástico</li></ol>"},
-				{"id":"1049103383","image":"http://ss424.liverpool.com.mx/lg/1049103383.jpg","description":"Mattel Carrera en la Jungla","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Piezas que Incluye:50 piezas</li><li>Modelo:DPH78</li><li>Color:Multicolor</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Niño</li><li>Material:Plástico</li></ol>"},
-				{"id":"1038809535","image":"http://ss424.liverpool.com.mx/lg/1038809535.jpg","description":"Mega Blocks Halo Bacchus","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Número de Piezas:173 piezas armables</li><li>Otra Información:Edad recomendada: 8 años en adelante. No requiere baterias</li><li>Piezas que Incluye:Halo figura de acción, nave Bacchus Banshee, armadura desmontable y accesorios</li><li>Marca:MEGA BLOKS</li><li>Advertencias:Se recomienda supervisión de un adulto</li><li>Material:Plástico</li><li>Modelo:CNG65</li><li>Edad Recomendada:Mas de 10 años</li><li>Género:Niño</li></ol>"},
-				{"id":"1035500266","image":"http://ss424.liverpool.com.mx/lg/1035500266.jpg","description":"Mega Bloks Minions Laboratorio de Gelatina","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Laboratorio Minions</li><li>Marca:MEGA BLOKS</li><li>Número de Piezas:86</li><li>Baterías Requeridas:No</li><li>Otra Información:Un personaje Minion para construir con piezas intercambiables que incluyen gafas, sombrero, brazos y pies Laboratorio de gelatina totalmente para construir con palancas móviles, válvulas, frascos y tubos¡Colecciónalos todos y crea tu propia travesura!</li><li>Incluye:Laboratorio de Gelatina Minions</li><li>Marca:MEGA BLOKS</li><li>Material:Plástico</li><li>Modelo:CNC76</li><li>Edad Recomendada:5 a 10 años</li><li>Género:Unisex</li></ol>"},
-				{"id":"1037729309","image":"http://ss424.liverpool.com.mx/lg/1037729309.jpg","description":"MATTEL MG CAT CAMIÓN DE DEPÓSITO JR","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Material:Plástico</li><li>Modelo:DGP00</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Niño</li></ol>"},
-				{"id":"1030480411","image":"http://ss424.liverpool.com.mx/lg/1030480411.jpg","description":"Mega Blocks Halo Fire Team Venom","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Número de Piezas:128 piezas armables</li><li>Otra Información:Edad recomendada: 8 años en adelante. No requiere baterias</li><li>Piezas que Incluye:4 figuras de acción</li><li>Incluye:Spartan Oceánico, Aviador Spartan, Spartan Gungnir, Spartan Ejecutor y Spartan Scout. Lanzacohetes, Rifle de asalto, Escopeta táctica, Cañon de Riel, Rifle de Batalla, LMG, SMG, Granadas Frag, Cápsula de desembarco de armas, M6 Socom, Bolsas de arena, Cápsula de misiles con trípode y bandera</li><li>Marca:MEGA BLOKS</li><li>Advertencias:Manéjese bajo la supervisión de un adulto</li><li>Material:Plástico</li><li>Modelo:DGN96</li><li>Edad Recomendada:Mas de 10 años</li><li>Género:Niño</li></ol>"},
-				{"id":"1025905969","image":"http://ss424.liverpool.com.mx/lg/1025905969.jpg","description":"Mega Bloks Paquete de Tropas Surtido","longDescription":"<ol class='detalle_producto_bullets'><li>Número de Piezas:150</li><li>Baterías Requeridas:No</li><li>Piezas que Incluye:Paquete de tropas</li><li>Marca:MEGA BLOKS</li><li>Material:Plástico</li><li>Modelo:DGM64</li><li>Edad Recomendada:Mas de 10 años</li><li>Género:Niño</li></ol>"},
-				{"id":"1026975553","image":"http://ss424.liverpool.com.mx/lg/1026975553.jpg","description":"Mejicoro Figura Plantas VS Zombies Wall / Pirate","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Figura Plantas VS Zombies Wall</li><li>Marca:KNEX</li><li>Número de Piezas:2</li><li>Marca:KNEX</li><li>Material:Plástico</li><li>Licencia:PLANTAS VS ZOMBIES</li><li>Modelo:53806</li><li>Edad Recomendada:Todas edades</li><li>Género:Unisex</li></ol>"},
-				{"id":"1039969277","image":"http://ss424.liverpool.com.mx/lg/1039969277.jpg","description":"Mega Bloks Figura Jul 'Mdama y Vehículo Armable","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Número de Piezas:1 juego (116 piezas)</li><li>Piezas que Incluye:Piezas para armar vehiculo con diseño propio de la licencia</li><li>Incluye:Vehículo fantasma y microfigura de acción Jul 'Mdama con diseño detallado y articulado</li><li>Marca:MEGA BLOKS</li><li>Material:Plástico</li><li>Dimensiones con Empaque:18.7 centímetros x 4.52 centímetros x 15.24 centímetros</li><li>Modelo:CNH23</li><li>Edad Recomendada:Mas de 10 años</li><li>Género:Niño</li><li>Franquicia:Halo</li></ol>"}]
-      },
-	  {
-	  "info":{
-        "categoryid": "catst1857455",
-        "label": "Construcción Niña",
-		"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_set_construccion_nina.jpg",
-		"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_set_construccion_nina.jpg",
-		"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_ninas.png",
-        "navigationState": "nina/N-35up",
-        "colorfondo":"#5332fd"
-        },
-        "toys":[{"id":"1040684162","image":"http://ss424.liverpool.com.mx/lg/1040684162.jpg","description":"Lego Friends Jet Privado de Heartlake ","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:2 minifiguras, jet, mostrador y accesorios</li><li>Marca:LEGO</li><li>Número de Piezas:230</li><li>Marca:LEGO</li><li>Material:Plástico</li><li>Modelo:41100</li><li>Edad Recomendada:Todas edades</li><li>Género:Niña</li></ol>"},
-				{"id":"1049031773","image":"http://ss424.liverpool.com.mx/lg/1049031773.jpg","description":"Playmobil Figura XXL de Princesa","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:PLAYMOBIL</li><li>Otra Información:Figura en Set que desarrolla la actividad motriz e intelectual de los niños. La base principal del juego es estimular la imaginación y la creatividad, de este modo, se promueve el desarrollo infantil; con Playmobil, los niños y niñas pueden asumir una infinidad de roles, además de recrear y experimentar el mundo en miniatura</li><li>Marca:PLAYMOBIL</li><li>Modelo:4896</li><li>Licencia:PEPPA PIG</li><li>Dimensiones:62 centímetros</li><li>Edad Recomendada:2+ años</li><li>Género:Niña</li><li>Material:Polipropileno</li></ol>"},
-				{"id":"1050599180","image":"http://ss424.liverpool.com.mx/lg/1050599180.jpg","description":"Lego Día Espacial de Rapunzel","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:145</li><li>Peso:320 gramos</li><li>Modelo:41065</li><li>Características:¡Corre con Rapunzel y su amigo, el caballo Maximus, y disfruta de un día especial! Diviértete en el columpio mientras ella sumerge los pies en el agua por primera vez y toca la flor mágica para renovar sus poderes, crea hermosos cuadros con la brocha y toma después una manzana del árbol para Maximus, también puedes ofrecerle agua y heno para que descanse mientras preparas algo de comer en la cocina de la torre. ¡Vaya día tan asombroso!</li><li>Dimensiones:Ancho 19.1 centímetros x longitud 20.5 centímetros x altura 6.1 centímetros</li></ol>"},
-				{"id":"1050599392","image":"http://ss424.liverpool.com.mx/lg/1050599392.jpg","description":"Lego Set de Corner Deli","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:467</li><li>Otra Información:Edad recomendada de 8 a 12</li><li>Peso:0.79 kilogramos</li><li>Modelo:31050</li><li>Dimensiones:26.2 x 38.2 x 5.65 centímetros</li></ol>"},
-				{"id":"1050599384","image":"http://ss424.liverpool.com.mx/lg/1050599384.jpg","description":"Lego Set de Diversión en el Parque","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:157</li><li>Otra Información:Edad recomendada de 5 a 12</li><li>Peso:0.25 kilogramos</li><li>Modelo:60134</li><li>Dimensiones:19.1 x 26.2 x 4.6 centímetros</li></ol>"},
-				{"id":"1050599112","image":"http://ss424.liverpool.com.mx/lg/1050599112.jpg","description":"Lego Camión de Helados de Emma","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:136</li><li>Peso:330 gramos</li><li>Modelo:10727</li><li>Características:Pasea hasta el Camión de helados de Emma con Andrea para comprar un poco de delicioso helado y saborearlo bajo el sol, siéntate junto a la mesa y diviértete platicando antes de volver a la playa, ayuda a Emma a limpiarlo todo y prepararse para los próximos clientes. ¡El verano es una época fantástica para salir con tus amigas!</li><li>Dimensiones:Ancho 19.1 centímetros x longitud 26.2 centímetros x alto 6.2 centímetros</li></ol>"},
-				{"id":"1047021894","image":"http://ss424.liverpool.com.mx/lg/1047021894.jpg","description":"Playmobil Maletín Princesa","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:PLAYMOBIL</li><li>Otra Información:Maletín portátil de cuenta con el tema de Princesa. Cuidados: Esterilizar antes de cada uso, limpiar con un paño semihúmedo cuando sea necesario, puede usar agua y jabón</li><li>Piezas que Incluye:Figura de princesa, espejo, mesa, corona, florero</li><li>Modelo:5650</li><li>Edad Recomendada:5 a 10 años</li><li>Género:Unisex</li><li>Material:Plástico</li></ol>"},
-				{"id":"1044458345","image":"http://ss424.liverpool.com.mx/lg/1044458345.jpg","description":"LEGO Pop Star: El Estudio de Grabación","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Material:Plástico</li><li>Modelo:41103</li><li>Edad Recomendada:Todas edades</li><li>Género:Niño</li></ol>"},
-				{"id":"1023296442","image":"http://ss424.liverpool.com.mx/lg/1023296442.jpg","description":"Princesas Castillo de Cenicienta Lego","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Incluye 2 minimuñecos: Cenicienta y el príncipe Azul. Incluye también a Lucifer el gato y a Bruno el perro, cuenta con altas torres, banderas, un trono, un reloj, el dormitorio de Cenicienta, camas para Lucifer y Bruno, un área exterior para comer, un río, un puente, flores y un columpio</li><li>Marca:PRINCESAS</li><li>Número de Piezas:646</li><li>Baterías Requeridas:No</li><li>Marca:PRINCESAS</li><li>Material:Plástico</li><li>Modelo:41055</li><li>Edad Recomendada:5 a 10 años</li><li>Género:Niña</li></ol>"},
-				{"id":"1033792847","image":"http://ss424.liverpool.com.mx/lg/1033792847.jpg","description":"Lego La Peluquería de Heartlake Friends","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Incluye 2 minimuñecas: Emma y Natasha la estilista, cuenta con un edificio de 1 planta con puerta abatible, sillón giratorio y reclinable, estación de lavado con lavabo, estación de estilismo con espejo y cajón, carrito, máquina de café, mostrador y expositor de accesorios, accesorios incluidos</li><li>Marca:LEGO</li><li>Número de Piezas:316</li><li>Marca:LEGO</li><li>Material:Plástico</li><li>Modelo:41093</li><li>Edad Recomendada:5 a 10 años</li><li>Género:Niña</li></ol>"}]
-		},
-		{"info":{
-        "categoryid": "catst1857508",
-        "label": "Construcción Niño",
-		"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_set_construccion_nino.jpg",
-		"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_set_construccion_nino.jpg",
-		"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_ninos.png",
-        "navigationState": "nino/N-35uq",
-        "colorfondo":"#4accfd"
-        },
-        "toys":[{"id":"1044458621","image":"http://ss424.liverpool.com.mx/lg/1044458621.jpg","description":"Lego Barco Patrulla de Policía","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:200</li><li>Piezas que Incluye:Incluye 4 minifiguras: un agente de policía, una agente de policía, una ladrona y un ladrón</li><li>Otra Información:Limpiar con un paño húmedo</li><li>Incluye:Cuenta con un barco patrulla de la policía y la lancha de los ladrones, el barco patrulla de la policía cuenta con foco para construir y celda con función de huida, la lancha de los ladrones cuenta con ancla y cadena, una señal de parada, una radio, unas esposas, unos prismáticos, tazas, una linterna,2 billetes y una mochila</li><li>Marca:LEGO</li><li>Advertencias:Contiene piezas pequeñas que pueden suponer riesgo de asfixia</li><li>Material:Plástico</li><li>Modelo:60129</li><li>Edad Recomendada:Todas edades</li><li>Género:Niño</li></ol>"},
-				{"id":"1047022181","image":"http://ss424.liverpool.com.mx/lg/1047022181.jpg","description":"Playmobil Caravana de Verano","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:PLAYMOBIL</li><li>Otra Información:Figura en Set que desarrolla la actividad motriz e intelectual de los niños, la base principal del juego es estimular la imaginación y la creatividad, de este modo, se promueve el desarrollo infantil: Con Playmobil®, los niños y niñas pueden asumir una infinidad de roles, además de recrear y experimentar el mundo en miniatura.Poseedoras de múltiples talentos, estas alegres figuras superan con éxito todo tipo de desafíos: caballeros y piratas en escenarios históricos, trabajadores de construcción, veterinarios/as, policías o agentes secretos en mundos virtuales, entre otros. Esterilizar antes de cada uso. Limpiar con un paño semihúmedo cuando sea necesario, puede usar agua y jabón</li><li>Piezas que Incluye:Figuras de Playmobil dos adultos y dos niños, mesa, silla, patín, tabla de surf, 2 camas, utensilios de cocina, platos y tazas, sartén grande y chico, camioneta , extinguidor, cámara, comida </li><li>Marca:PLAYMOBIL</li><li>Modelo:6671</li><li>Licencia:PEPPA PIG</li><li>Edad Recomendada:4 a 10 años</li><li>Género:Unisex</li><li>Material:Plástico</li></ol>"},
-				{"id":"1050599422","image":"http://ss424.liverpool.com.mx/lg/1050599422.jpg","description":"Lego Ataque del Monstruo de Lava","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:95</li><li>Otra Información:Edad recomendada de 7 a 14</li><li>Peso:0.12 kilogramos</li><li>Modelo:70318</li><li>Dimensiones:12.2 x 14.1 x 4.6 centímetros</li></ol>"},
-				{"id":"1050599457","image":"http://ss424.liverpool.com.mx/lg/1050599457.jpg","description":"Lego Maquina de Asedio Infernal","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:516</li><li>Otra Información:Edad recomendada de 8 a 14</li><li>Peso:0.83 kilogramos</li><li>Modelo:70321</li><li>Dimensiones:38.2 x 26.2 x 7.05 centímetros</li></ol>"},
-				{"id":"1050599481","image":"http://ss424.liverpool.com.mx/lg/1050599481.jpg","description":"Lego Nexo Knights AXL","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:69</li><li>Otra Información:Edad recomendada de 8 a 14</li><li>Peso:0.1 kilogramos</li><li>Modelo:70336</li><li>Dimensiones:23.8 x 14 x 5.2 centímetros</li></ol>"},
-				{"id":"1050599473","image":"http://ss424.liverpool.com.mx/lg/1050599473.jpg","description":"Lego Castillo con Guardia Volcánica","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:1186</li><li>Otra Información:Edad recomendada de 9 a 14</li><li>Peso:2.07 kilogramos</li><li>Modelo:70323</li><li>Dimensiones:37.8 x 58.2 x 8.7 centímetros</li></ol>"},
-				{"id":"1050599503","image":"http://ss424.liverpool.com.mx/lg/1050599503.jpg","description":"Lego Nexo Knights General Magmar","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:64</li><li>Otra Información:Edad recomendada de 7 a 14</li><li>Peso:0.1 kilogramos</li><li>Modelo:70338</li><li>Dimensiones:23.8 x 14 x 5.2 centímetros</li></ol>"},
-				{"id":"1047021878","image":"http://ss424.liverpool.com.mx/lg/1047021878.jpg","description":"Playmobil Policía en Motocicleta","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:PLAYMOBIL</li><li>Otra Información:Esterilizar antes de cada uso, limpiar con un paño semihúmedo cuando sea necesario, puede usar agua y jabón</li><li>Piezas que Incluye:Figura de policía con motocicleta, bastón, esposas, lámpara, señal de alto y pistola</li><li>Modelo:5648</li><li>Edad Recomendada:5 a 10 años</li><li>Género:Unisex</li><li>Material:Plástico</li></ol>"},
-				{"id":"1041424539","image":"http://ss424.liverpool.com.mx/lg/1041424539.jpg","description":"Playmobil Super 4 Technopolis Auto Camaleón","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:PLAYMOBIL</li><li>Número de Piezas:15 piezas (conductor, auto y accesorios)</li><li>Otra Información:Edad recomendada 5 años en adelante.No requiere baterías. Utiliza únicamente los proyectiles PLAYMOBIL suministrados. No apuntar a los ojos ni a la cara. No apto para niños menores de 3 años debido a que existe peligro de asfixia por la presencia de piezas pequeñas</li><li>Modelo:6692</li><li>Características:Con cañón lateral, asientos individuales y muchas más características. Planifica la misión, asegúrate de que hay combustible suficiente e imagina aventuras como las de la serie de TV</li></ol>"},
-				{"id":"1030236625","image":"http://media22.liverpool.com.mx/web/images/products/es_MX/lg/1030236625.jpg","description":"RELOJ LEGO SUPER HERO, 25","longDescription":"<ol class='detalle_producto_bullets'></ol>"}]
-		},
-
-		{"info":{
-        "categoryid": "catst1857461",
-        "label": "Bebés",
-		"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_set_construccion_preescolar.jpg",
-		"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_set_construccion_preescolar.jpg",
-		"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_be.png",
-        "navigationState": "bebes/N-35ur",
-        "colorfondo":"#fce889"
-        },
-
-        "toys":[{"id":"1014253323","image":"http://ss424.liverpool.com.mx/lg/1014253323.jpg","description":"El Tren de los Números Lego","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Incluye una figura LEGO® DUPLO® de un niño, 10 ladrillos numerados, un perro, 3 bases con ruedas y un surtido de ladrillos</li><li>Marca:DUPLO</li><li>Número de Piezas:31</li><li>Otra Información:Ideal para enseñar a los niños a contar mientras juegan con este práctico set de Lego</li><li>Marca:DUPLO</li><li>Material:Plástico</li><li>Modelo:10558</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Unisex</li></ol>"},
-				{"id":"1050599171","image":"http://ss424.liverpool.com.mx/lg/1050599171.jpg","description":"Lego Exotraje Flexible de Miles","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:LEGO</li><li>Número de Piezas:37 piezas para armar</li><li>Otra Información:Edad recomendada de 2 años en adelante </li><li>Peso:580 gramos</li><li>Modelo:10825</li><li>Características:A los fans de Miles les encantará sentarlo en la cabina de este increíble traje robótico y prepararse para explorar nuevos planetas, ayuda a Miles a usar las grandes palas del exotraje flexible articulado para recoger y examinar rocas espaciales, los más pequeños podrán usar los bricks para crear sus propios robots e inventar grandes aventuras en el futuro</li><li>Dimensiones:Ancho 26.2 centímetros x longitud 28.2 x altura 7.6 centímetros</li></ol>"},
-				{"id":"1049103383","image":"http://ss424.liverpool.com.mx/lg/1049103383.jpg","description":"Mattel Carrera en la Jungla","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Piezas que Incluye:50 piezas</li><li>Modelo:DPH78</li><li>Color:Multicolor</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Niño</li><li>Material:Plástico</li></ol>"},
-				{"id":"1049103332","image":"http://ss424.liverpool.com.mx/lg/1049103332.jpg","description":"Mattel Pequeño Jeep Aventurero Azul","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Piezas que Incluye:6 piezas</li><li>Marca:MEGA BLOKS</li><li>Modelo:DPJ61</li><li>Color:Multicolor</li><li>Edad Recomendada:0 a 2 años</li><li>Género:Unisex</li><li>Material:Plástico</li></ol>"},
-				{"id":"1049103341","image":"http://ss424.liverpool.com.mx/lg/1049103341.jpg","description":"Mattel Puesto de Comida 2 en 1","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Piezas que Incluye:31 piezas</li><li>Marca:MEGA BLOKS</li><li>Modelo:DPJ54</li><li>Color:Multicolor</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Unisex</li><li>Material:Plástico</li></ol>"},
-				{"id":"1044458230","image":"http://ss424.liverpool.com.mx/lg/1044458230.jpg","description":"Lego Taller de Mickey","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Figura Duplo: Mickey Mouse</li><li>Número de Piezas:18 piezas</li><li>Baterías Requeridas:No requiere baterías</li><li>Otra Información:El gran coche rojo proporciona horas de diversión; el set incluye también ladrillos especiales decorados con herramientas, sándwiches y el símbolo de un taller para ayudarlos a poner en marcha sus propias historias. Es fácil construir con los divertidos ladrillos Lego Duplo de colores, diseñados especialmente para pequeños constructores</li><li>Marca:LEGO</li><li>Franquicia:Taller Mickey</li><li>Material:Plástico</li><li>Modelo:10829</li><li>Edad Recomendada:Todas edades</li><li>Género:Unisex</li><li>Advertencias:Riesgo de asfixia. No apto para niños menores de 3 años</li></ol>"},
-				{"id":"1037729520","image":"http://ss424.liverpool.com.mx/lg/1037729520.jpg","description":"Mattel Mega Blocks Vehículos de Carrera ","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Vehículo veloz de carreras</li><li>Marca:MEGA BLOKS</li><li>Número de Piezas:1</li><li>Baterías Requeridas:No</li><li>Piezas que Incluye:Una carrocería intercambiable y cinco bloques que se convierten en obstáculos</li><li>Otra Información:Edad sugerida: De 1 a 5 años</li><li>Incluye:Vehículo velóz de carreras</li><li>Marca:MEGA BLOKS</li><li>Material:Plástico</li><li>Modelo:CND64</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Unisex</li></ol>"},
-				{"id":"1040684138","image":"http://ss424.liverpool.com.mx/lg/1040684138.jpg","description":"Lego Casa Familiar","longDescription":"<ol class='detalle_producto_bullets'><li>Incluye:Mini figuras de papá, mamá, niño, una mascota, casa familiar con accesorios</li><li>Marca:LEGO</li><li>Número de Piezas:226</li><li>Marca:LEGO</li><li>Material:Plástico</li><li>Modelo:10686</li><li>Edad Recomendada:Todas edades</li><li>Género:Niña</li></ol>"},
-				{"id":"1033789986","image":"http://media10.liverpool.com.mx/web/images/products/es_MX/lg/1033789986.jpg","description":"LEGO DUPLO SET DE REGALOS. TODO EN UNO","longDescription":"<ol class='detalle_producto_bullets'></ol>"},
-				{"id":"1037729309","image":"http://ss424.liverpool.com.mx/lg/1037729309.jpg","description":"MATTEL MG CAT CAMIÓN DE DEPÓSITO JR","longDescription":"<ol class='detalle_producto_bullets'><li>Marca:MEGA BLOKS</li><li>Material:Plástico</li><li>Modelo:DGP00</li><li>Edad Recomendada:2 a 4 años</li><li>Género:Niño</li></ol>"}]
-		}
-	]}
+		"category-main": [
+			{
+				"info": {
+					"categoryid": "catst1857454",
+					"label": "Bloques",
+					"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_bloques.jpg",
+					"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_bloques.jpg",
+					"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_bl.png",
+					"navigationState": "bloques/N-35uo",
+					"colorfondo": "#b2f653"
+				},
+				"toys": [
+					{
+						"id": "1049103359",
+						"image": "http://ss424.liverpool.com.mx/lg/1049103359.jpg",
+						"description": "Mattel Blaze Construye y Lanza"
+					},
+					{
+						"id": "1049103391",
+						"image": "http://ss424.liverpool.com.mx/lg/1049103391.jpg",
+						"description": "Mattel Vehículo Blindado de Carga"
+					},
+					{
+						"id": "1049103383",
+						"image": "http://ss424.liverpool.com.mx/lg/1049103383.jpg",
+						"description": "Mattel Carrera en la Jungla"
+					},
+					{
+						"id": "1038809535",
+						"image": "http://ss424.liverpool.com.mx/lg/1038809535.jpg",
+						"description": "Mega Blocks Halo Bacchus"
+					},
+					{
+						"id": "1035500266",
+						"image": "http://ss424.liverpool.com.mx/lg/1035500266.jpg",
+						"description": "Mega Bloks Minions Laboratorio de Gelatina"
+					},
+					{
+						"id": "1037729309",
+						"image": "http://ss424.liverpool.com.mx/lg/1037729309.jpg",
+						"description": "MATTEL MG CAT CAMIÓN DE DEPÓSITO JR"
+					},
+					{
+						"id": "1030480411",
+						"image": "http://ss424.liverpool.com.mx/lg/1030480411.jpg",
+						"description": "Mega Blocks Halo Fire Team Venom"
+					},
+					{
+						"id": "1025905969",
+						"image": "http://ss424.liverpool.com.mx/lg/1025905969.jpg",
+						"description": "Mega Bloks Paquete de Tropas Surtido"
+					},
+					{
+						"id": "1026975553",
+						"image": "http://ss424.liverpool.com.mx/lg/1026975553.jpg",
+						"description": "Mejicoro Figura Plantas VS Zombies Wall / Pirate"
+					},
+					{
+						"id": "1039969277",
+						"image": "http://ss424.liverpool.com.mx/lg/1039969277.jpg",
+						"description": "Mega Bloks Figura Jul 'Mdama y Vehículo Armable"
+					}
+				]
+			},
+			{
+				"info": {
+					"categoryid": "catst1857455",
+					"label": "Construcción Niña",
+					"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_set_construccion_nina.jpg",
+					"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_set_construccion_nina.jpg",
+					"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_ninas.png",
+					"navigationState": "nina/N-35up",
+					"colorfondo": "#5332fd"
+				},
+				"toys": [
+					{
+						"id": "1040684162",
+						"image": "http://ss424.liverpool.com.mx/lg/1040684162.jpg",
+						"description": "Lego Friends Jet Privado de Heartlake "
+					},
+					{
+						"id": "1049031773",
+						"image": "http://ss424.liverpool.com.mx/lg/1049031773.jpg",
+						"description": "Playmobil Figura XXL de Princesa"
+					},
+					{
+						"id": "1050599180",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599180.jpg",
+						"description": "Lego Día Espacial de Rapunzel"
+					},
+					{
+						"id": "1050599392",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599392.jpg",
+						"description": "Lego Set de Corner Deli"
+					},
+					{
+						"id": "1050599384",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599384.jpg",
+						"description": "Lego Set de Diversión en el Parque"
+					},
+					{
+						"id": "1050599112",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599112.jpg",
+						"description": "Lego Camión de Helados de Emma"
+					},
+					{
+						"id": "1047021894",
+						"image": "http://ss424.liverpool.com.mx/lg/1047021894.jpg",
+						"description": "Playmobil Maletín Princesa"
+					},
+					{
+						"id": "1044458345",
+						"image": "http://ss424.liverpool.com.mx/lg/1044458345.jpg",
+						"description": "LEGO Pop Star: El Estudio de Grabación"
+					},
+					{
+						"id": "1023296442",
+						"image": "http://ss424.liverpool.com.mx/lg/1023296442.jpg",
+						"description": "Princesas Castillo de Cenicienta Lego"
+					},
+					{
+						"id": "1033792847",
+						"image": "http://ss424.liverpool.com.mx/lg/1033792847.jpg",
+						"description": "Lego La Peluquería de Heartlake Friends"
+					}
+				]
+			},
+			{
+				"info": {
+					"categoryid": "catst1857508",
+					"label": "Construcción Niño",
+					"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_set_construccion_nino.jpg",
+					"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_set_construccion_nino.jpg",
+					"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_ninos.png",
+					"navigationState": "nino/N-35uq",
+					"colorfondo": "#4accfd"
+				},
+				"toys": [
+					{
+						"id": "1044458621",
+						"image": "http://ss424.liverpool.com.mx/lg/1044458621.jpg",
+						"description": "Lego Barco Patrulla de Policía"
+					},
+					{
+						"id": "1047022181",
+						"image": "http://ss424.liverpool.com.mx/lg/1047022181.jpg",
+						"description": "Playmobil Caravana de Verano"
+					},
+					{
+						"id": "1050599422",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599422.jpg",
+						"description": "Lego Ataque del Monstruo de Lava"
+					},
+					{
+						"id": "1050599457",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599457.jpg",
+						"description": "Lego Maquina de Asedio Infernal"
+					},
+					{
+						"id": "1050599481",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599481.jpg",
+						"description": "Lego Nexo Knights AXL"
+					},
+					{
+						"id": "1050599473",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599473.jpg",
+						"description": "Lego Castillo con Guardia Volcánica"
+					},
+					{
+						"id": "1050599503",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599503.jpg",
+						"description": "Lego Nexo Knights General Magmar"
+					},
+					{
+						"id": "1047021878",
+						"image": "http://ss424.liverpool.com.mx/lg/1047021878.jpg",
+						"description": "Playmobil Policía en Motocicleta"
+					},
+					{
+						"id": "1041424539",
+						"image": "http://ss424.liverpool.com.mx/lg/1041424539.jpg",
+						"description": "Playmobil Super 4 Technopolis Auto Camaleón"
+					},
+					{
+						"id": "1030236625",
+						"image": "http://media22.liverpool.com.mx/web/images/products/es_MX/lg/1030236625.jpg",
+						"description": "RELOJ LEGO SUPER HERO, 25"
+					}
+				]
+			},
+			{
+				"info": {
+					"categoryid": "catst1857461",
+					"label": "Bebés",
+					"picture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop_actual/bn_bg_set_construccion_preescolar.jpg",
+					"pictureWap": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_wap_actual/bn_set_construccion_preescolar.jpg",
+					"tagPicture": "http://assets.liverpool.com.mx/la-mejor-jugueteria/json/2015/categories/secondLevel/banners_desktop/bn_construccion_be.png",
+					"navigationState": "bebes/N-35ur",
+					"colorfondo": "#fce889"
+				},
+				"toys": [
+					{
+						"id": "1014253323",
+						"image": "http://ss424.liverpool.com.mx/lg/1014253323.jpg",
+						"description": "El Tren de los Números Lego"
+					},
+					{
+						"id": "1050599171",
+						"image": "http://ss424.liverpool.com.mx/lg/1050599171.jpg",
+						"description": "Lego Exotraje Flexible de Miles"
+					},
+					{
+						"id": "1049103383",
+						"image": "http://ss424.liverpool.com.mx/lg/1049103383.jpg",
+						"description": "Mattel Carrera en la Jungla"
+					},
+					{
+						"id": "1049103332",
+						"image": "http://ss424.liverpool.com.mx/lg/1049103332.jpg",
+						"description": "Mattel Pequeño Jeep Aventurero Azul"
+					},
+					{
+						"id": "1049103341",
+						"image": "http://ss424.liverpool.com.mx/lg/1049103341.jpg",
+						"description": "Mattel Puesto de Comida 2 en 1"
+					},
+					{
+						"id": "1044458230",
+						"image": "http://ss424.liverpool.com.mx/lg/1044458230.jpg",
+						"description": "Lego Taller de Mickey"
+					},
+					{
+						"id": "1037729520",
+						"image": "http://ss424.liverpool.com.mx/lg/1037729520.jpg",
+						"description": "Mattel Mega Blocks Vehículos de Carrera "
+					},
+					{
+						"id": "1040684138",
+						"image": "http://ss424.liverpool.com.mx/lg/1040684138.jpg",
+						"description": "Lego Casa Familiar"
+					},
+					{
+						"id": "1033789986",
+						"image": "http://media10.liverpool.com.mx/web/images/products/es_MX/lg/1033789986.jpg",
+						"description": "LEGO DUPLO SET DE REGALOS. TODO EN UNO"
+					},
+					{
+						"id": "1037729309",
+						"image": "http://ss424.liverpool.com.mx/lg/1037729309.jpg",
+						"description": "MATTEL MG CAT CAMIÓN DE DEPÓSITO JR"
+					}
+				]
+			}
+		]
+	}
 }

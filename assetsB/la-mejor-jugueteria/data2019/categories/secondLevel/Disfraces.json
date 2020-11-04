@@ -1,158 +1,138 @@
 {
-    "principal-banner": {
-        "picture": "./assets/images/categorias/disfraces_art.png",
-        "patron": "./assets/images/categorias/12_patron_disfraces.png",
-        "colorFondo": "#ff8c03",
-        "analytics": "disfraces"
-    },
-    "categories": {
-        "category-main": [
-            {
-                "info": {
-                    "categoryid": "catst1857462",
-                    "label": "Disfraces",
-                    "picture": "./assets/images/categorias/subcategorias/disfraces/1disefrases.jpg",
-                    "video": "",
-                    "catid": "1057738215",
-                    "navigationState": "disfraces/N-35v4",
-                    "colorfondo": "#ffef51"
-                },
-                "toys": [
-                    {
-                        "id": "1056194233",
-                        "description": "Disfraz Anna Disney Collection Frozen",
-                        "longDescription": "Encuentra el disfraz Anna Disney Collection Frozen un excelente opción para que tu nena se sienta parte de esta emocionante película, le encantará la autenticidad de esta pieza ya que lucirá exactamente como su princesa favorita; con aplicación de glitter en la parte inferior, ajuste elástico, peluche en el cuello y aplicación de corazón, tu nena se sentirá lista para rescatar a Elsa y restablecer la tranquilidad en el reino, la calidad de su confección la hace perfecta para darle la comodidad ideal a tu princesa. Este disfraz Anna Disney Collection Frozen se convertirá en su favorito",
-                        "image": "https://ss425.liverpool.com.mx/xl/1056194233.jpg"
-                    },
-                    {
-                        "id": "1082442579",
-                        "description": "Disfraz Elsa Disney Collection Frozen II",
-                        "longDescription": "",
-                        "image": "https://ss425.liverpool.com.mx/xl/1082442579.jpg"
-                    },
-                    {
-                        "id": "1051083077",
-                        "description": "Disney Collection Disfraz de Princesa Moana",
-                        "longDescription": "Sorprende con el disfraz de princesa Moana Disney Collection el cual posee un hermoso estampado que transportará a tu pequeña al paradisíaco universo de Moana, cada uno de sus hermosos detalles ayudarán a que tu pequeña se sienta parte de esta singular aventura. \n Este disfraz de princesa Moana Disney Collection es ideal para que tu niña se divierta al máximo, perfecto para sorprender a sus amigos en esa fiesta de disfraces, para una tarde divertida en casa o para salir a pedir sus dulces favoritos.\n Con el disfraz de princesa Moana Disney Collection tendrá el estilo perfecto para lucir como este hermoso personaje, como complemento solo necesitará unas hermosas sandalias y listo lucirá tan perfecta, fresca y encantadora como Moana. Bríndale las mejores aventuras a tu pequeña con el disfraz de princesa Moana Disney Collection",
-                        "image": "https://ss425.liverpool.com.mx/xl/1051083077.jpg"
-                    },
-                    {
-                        "id": "1069787313",
-                        "description": "Disfraz Disney Collection Cenicienta",
-                        "longDescription": "Este disfraz Disney Collection Cenicienta es una estupenda elección para que tu pequeña se sienta y luzca como su princesa favorita, además cada uno de los detalles que posee este disfraz Disney Collection Cenicienta hacen que sea único, sin duda será perfecto para hacer de su fiesta temática todo un éxito, sin duda vivirá momentos inolvidables con lo mejor para esta etapa de su niñez",
-                        "image": "https://ss425.liverpool.com.mx/xl/1069787313.jpg"
-                    },
-                    {
-                        "id": "1037752782",
-                        "description": "Disney Collection Disfraz Buzz Lightyear",
-                        "longDescription": "Sorprende con el disfraz Buzz Lightyear Disney Collection a tu pequeño y bríndale increíbles momentos de entretenimiento y diversión. Porque merece darle libertad a su creatividad e imaginación, descubre solo en Liverpool este fascinante diseño que cuenta con velcro en espalda, cómodos detalles con relleno y capucha de increíble contraste, tonalidades perfectas y materiales que te permitirán disfrutar de suavidad así como extraordinario confort. Con el disfraz Buzz Lightyear Disney Collection tu pequeño creará historias que llegarán al infinito y más allá",
-                        "image": "https://ss425.liverpool.com.mx/xl/1037752782.jpg"
-                    },
-                    {
-                        "id": "1053694201",
-                        "description": "Disfraz Disney Collection Minnie Mouse",
-                        "longDescription": "Este disfraz Disney Collection Minnie Mouse es el ideal para que tu princesa luzca increíble en cada ocasión, porque además de ser una prenda idónea para festejar su cumpleaños con la temática de su personaje de Disney favorito, también puede ser la prenda que la acompañe en algún festival escolar o para asistir a la fiesta de alguna de sus amigas. Permite que viva la fantasía de su niñez al máximo con este disfraz Disney Collection Minnie Mouse, le encantará usarlo en todo momento",
-                        "image": "https://ss425.liverpool.com.mx/xl/1053694201.jpg"
-                    },
-                    {
-                        "id": "1057974798",
-                        "description": "Disfraz Disney Collection Toy Story Woody",
-                        "longDescription": "Encuentra el disfraz Toy Story Woody Disney Collection y bríndale a tu pequeño una aventura inigualable con este entrañable personaje, podrán organizar una perfecta fiesta temática de personajes de Disney o de sus favoritos de Toy Story; tu pequeño sorprenderá con los detalles de este disfraz.\n Este disfraz Toy Story Woody Disney Collection incluye todos los elementos para lucir como el auténtico vaquero tales como camisa, pantalón, chaleco, paliacate e incluso la estrella que lo identificará como el comisario; el ajuste de este disfraz es perfecto, por sus botones frontales y en muñecas, además su suave material será delicado con la piel de tu pequeño. Se convertirá muy pronto en el elemento favorito de su guardarropa.\n Para complementar el disfraz Toy Story Woody Disney Collection tu niño podrá llevar botas, zapatos o incluso tenis, recuerda que la comodidad será su mejor aliado",
-                        "image": "https://ss425.liverpool.com.mx/xl/1057974798.jpg"
-                    },
-                    {
-                        "id": "1069788034",
-                        "description": "Disfraz Disney Collection Rapunzel",
-                        "longDescription": "Con el disfraz Disney Collection Rapunzel tu nena lucirá increíble, con detalles como su impresionante color, falda con transparencia y el dibujo de la torre. Este disfraz Disney Collection Rapunzel cuenta con una hermosa combinación de colores que tu nena amará, pues la hará sentir como una verdadera princesa debido a su magnífico estilo",
-                        "image": "https://ss425.liverpool.com.mx/xl/1069788034.jpg"
-                    },
-                    {
-                        "id": "1069788085",
-                        "description": "Disfraz Disney Collection Blancanieves",
-                        "longDescription": "Te encantará el disfraz Disney Collection Blancanieves, una pieza con todos los detalles que destacan a esta hermosa princesa y con los que tu pequeña se sentirá identificada. Este  disfraz Disney Collection Blancanieves se complementará perfecto con balerinas o sandalias de color y una hermosa tiara, que la hará lucir como una verdadera princesa",
-                        "image": "https://ss425.liverpool.com.mx/xl/1069788085.jpg"
-                    },
-                    {
-                        "id": "1085491635",
-                        "description": "Disfraz Disney Collection Mulan",
-                        "longDescription": "",
-                        "image": "https://ss425.liverpool.com.mx/xl/1085491635.jpg"
-                    }
-                ]
-            },
-            {
-                "info": {
-                    "categoryid": "catst1857463",
-                    "label": "Accesorios",
-                    "picture": "./assets/images/categorias/subcategorias/disfraces/2disefrases_accesorios.jpg",
-                    "video": "",
-                    "catid": "1041414100",
-                    "navigationState": "accesorios/N-35v5",
-                    "colorfondo": "#ff7e8a"
-                },
-                "toys": [
-                    {
-                        "id": "1085491635",
-                        "description": "Disfraz Disney Collection Mulan",
-                        "longDescription": "",
-                        "image": "https://ss425.liverpool.com.mx/xl/1085491635.jpg"
-                    },
-                    {
-                        "id": "1037751215",
-                        "description": "Peluca para Niña Disney Collection Elsa Frozen",
-                        "longDescription": "Dale con la Disney Collection Peluca para Niña la posibilidad de lucir a tu nena el look helado de la reina Elsa, una de las características principales de este hermoso personaje es su rubia cabellera que lleva en una perfecta trenza, por lo que tu nena tendrá un componente principal para comenzar a armar su disfraz, solo agrega un vestido azul y unos lindo zapatos plateados y estará lista para lucir como el personaje de Frozen, además la Disney Collection Peluca para Niña será súper cómoda y fácil de llevar",
-                        "image": "https://ss425.liverpool.com.mx/xl/1037751215.jpg"
-                    },
-                    {
-                        "id": "1068973488",
-                        "description": "Máscara Electrónica Spider-Man Hasbro Marvel",
-                        "longDescription": "",
-                        "image": "https://ss424.liverpool.com.mx/xl/1068973488.jpg"
-                    },
-                    {
-                        "id": "1056358257",
-                        "description": "Diadema de Orejas Disney Collection Pink Minnie",
-                        "longDescription": "Obsequia la diadema de Orejas Disney Collection Pink Minnie a tu princesa, porque este increíble accesorio será perfecto para que luzca divina con sus diferentes looks casuales, ya que es un magnífico modelo con dimensiones y colores ideales para lucir como su personaje de Disney favorito. Si su cumpleaños es temático o está invitada a la fiesta de una amiga la diadema de Orejas Disney Collection Pink Minnie es perfecta para ello",
-                        "image": "https://ss425.liverpool.com.mx/xl/1056358257.jpg"
-                    },
-                    {
-                        "id": "1066070561",
-                        "description": "Tiara Disney Collection Cenicienta",
-                        "longDescription": "",
-                        "image": "https://ss425.liverpool.com.mx/xl/1066070561.jpg"
-                    },
-                    {
-                        "id": "1093080668",
-                        "description": "Máscara con sonidos Batman DC Comics",
-                        "longDescription": "",
-                        "image": "https://ss424.liverpool.com.mx/xl/1093080668.jpg"
-                    },
-                    {
-                        "id": "1094587481",
-                        "description": "Disfraz Batman spin Master",
-                        "longDescription": "¡Conviértete en Batman, el caballero de la noche, con esta increíble máscara y capa!",
-                        "image": "https://ss424.liverpool.com.mx/xl/1094587481.jpg"
-                    },
-                    {
-                        "id": "1093188493",
-                        "description": "Sombrero de Jessie Disney Collection Toy Story rojo",
-                        "longDescription": "",
-                        "image": "https://ss425.liverpool.com.mx/xl/1093188493.jpg"
-                    },
-                    {
-                        "id": "1096366180",
-                        "description": "Guante Batman Spin Master",
-                        "longDescription": "Conviértete en el héroe de Ciudad Gótica con el guante de Batman. ¡Ingresa en la baticomputadora y realiza misiones para luchar contra todos los villanos! 2 modos de juego. Modo misión: presiona el botón para hablar con la computadora para obtener información sobre la misión. Modo de batalla: lucha contra los villanos con efectos de sonido reales",
-                        "image": "https://ss424.liverpool.com.mx/xl/1096366180.jpg"
-                    },
-                    {
-                        "id": "1070518020",
-                        "description": "Super Web Slinger Hasbro Spider-Man",
-                        "longDescription": "",
-                        "image": "https://ss424.liverpool.com.mx/xl/1070518020.jpg"
-                    }
-                ]
-            }
-        ]
-    }
+	"principal-banner": {
+		"picture": "./assets/images/categorias/disfraces_art.png",
+		"patron": "./assets/images/categorias/12_patron_disfraces.png",
+		"colorFondo": "#ff8c03",
+		"analytics": "disfraces"
+	},
+	"categories": {
+		"category-main": [
+			{
+				"info": {
+					"categoryid": "catst1833810",
+					"label": "Disfraces",
+					"picture": "./assets/images/categorias/subcategorias/disfraces/1disefrases.jpg",
+					"video": "",
+					"catid": "1057738215",
+					"navigationState": "disfraces",
+					"colorfondo": "#ffef51"
+				},
+				"toys": [
+					{
+						"id": "1056194233",
+						"description": "Disfraz Anna Disney Collection Frozen",
+						"image": "https://ss425.liverpool.com.mx/xl/1056194233.jpg"
+					},
+					{
+						"id": "1082442579",
+						"description": "Disfraz Elsa Disney Collection Frozen II",
+						"image": "https://ss425.liverpool.com.mx/xl/1082442579.jpg"
+					},
+					{
+						"id": "1051083077",
+						"description": "Disney Collection Disfraz de Princesa Moana",
+						"image": "https://ss425.liverpool.com.mx/xl/1051083077.jpg"
+					},
+					{
+						"id": "1069787313",
+						"description": "Disfraz Disney Collection Cenicienta",
+						"image": "https://ss425.liverpool.com.mx/xl/1069787313.jpg"
+					},
+					{
+						"id": "1037752782",
+						"description": "Disney Collection Disfraz Buzz Lightyear",
+						"image": "https://ss425.liverpool.com.mx/xl/1037752782.jpg"
+					},
+					{
+						"id": "1053694201",
+						"description": "Disfraz Disney Collection Minnie Mouse",
+						"image": "https://ss425.liverpool.com.mx/xl/1053694201.jpg"
+					},
+					{
+						"id": "1057974798",
+						"description": "Disfraz Disney Collection Toy Story Woody",
+						"image": "https://ss425.liverpool.com.mx/xl/1057974798.jpg"
+					},
+					{
+						"id": "1069788034",
+						"description": "Disfraz Disney Collection Rapunzel",
+						"image": "https://ss425.liverpool.com.mx/xl/1069788034.jpg"
+					},
+					{
+						"id": "1069788085",
+						"description": "Disfraz Disney Collection Blancanieves",
+						"image": "https://ss425.liverpool.com.mx/xl/1069788085.jpg"
+					},
+					{
+						"id": "1085491635",
+						"description": "Disfraz Disney Collection Mulan",
+						"image": "https://ss425.liverpool.com.mx/xl/1085491635.jpg"
+					}
+				]
+			},
+			{
+				"info": {
+					"categoryid": "catst1833810",
+					"label": "Accesorios",
+					"picture": "./assets/images/categorias/subcategorias/disfraces/2disefrases_accesorios.jpg",
+					"video": "",
+					"catid": "1041414100",
+					"navigationState": "disfraces",
+					"colorfondo": "#ff7e8a"
+				},
+				"toys": [
+					{
+						"id": "1085491635",
+						"description": "Disfraz Disney Collection Mulan",
+						"image": "https://ss425.liverpool.com.mx/xl/1085491635.jpg"
+					},
+					{
+						"id": "1037751215",
+						"description": "Peluca para Niña Disney Collection Elsa Frozen",
+						"image": "https://ss425.liverpool.com.mx/xl/1037751215.jpg"
+					},
+					{
+						"id": "1068973488",
+						"description": "Máscara Electrónica Spider-Man Hasbro Marvel",
+						"image": "https://ss424.liverpool.com.mx/xl/1068973488.jpg"
+					},
+					{
+						"id": "1056358257",
+						"description": "Diadema de Orejas Disney Collection Pink Minnie",
+						"image": "https://ss425.liverpool.com.mx/xl/1056358257.jpg"
+					},
+					{
+						"id": "1066070561",
+						"description": "Tiara Disney Collection Cenicienta",
+						"image": "https://ss425.liverpool.com.mx/xl/1066070561.jpg"
+					},
+					{
+						"id": "1093080668",
+						"description": "Máscara con sonidos Batman DC Comics",
+						"image": "https://ss424.liverpool.com.mx/xl/1093080668.jpg"
+					},
+					{
+						"id": "1094587481",
+						"description": "Disfraz Batman spin Master",
+						"image": "https://ss424.liverpool.com.mx/xl/1094587481.jpg"
+					},
+					{
+						"id": "1093188493",
+						"description": "Sombrero de Jessie Disney Collection Toy Story rojo",
+						"image": "https://ss425.liverpool.com.mx/xl/1093188493.jpg"
+					},
+					{
+						"id": "1096366180",
+						"description": "Guante Batman Spin Master",
+						"image": "https://ss424.liverpool.com.mx/xl/1096366180.jpg"
+					},
+					{
+						"id": "1070518020",
+						"description": "Super Web Slinger Hasbro Spider-Man",
+						"image": "https://ss424.liverpool.com.mx/xl/1070518020.jpg"
+					}
+				]
+			}
+		]
+	}
 }

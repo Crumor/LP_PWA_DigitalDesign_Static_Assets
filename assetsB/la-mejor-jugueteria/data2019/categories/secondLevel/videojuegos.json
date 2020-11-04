@@ -6,8 +6,7 @@
         "analytics": "videojuegos"
     },
     "categories": {
-        "category-main": [
-            {
+        "category-main": [{
                 "info": {
                     "categoryid": "cat940612",
                     "label": "Consolas",
@@ -17,59 +16,54 @@
                     "navigationState": "consolas/N-2yn4",
                     "colorfondo": "#f0f0f0"
                 },
-                "toys": [
+                "toys": [{
+                        "id": "1100460731",
+                        "description": "Consola Nintendo Switch 1.1 32 GB",
+                        "image": "https://ss423.liverpool.com.mx/xl/1100460731.jpg"
+                    },
                     {
                         "id": "1098804052",
                         "description": "Bundle Consola PlayStation 4 1 TB Mega Pack",
-                        "longDescription": "PlayStation MEGA PACK es el máximo paquete de entretenimiento con 3 fascinantes juegos físicos: Grand Theft Auto V Premium Edition, God of War y Death Stranding. Además incluye un cupón de 3 meses para PS Plus con el que podrás descargar 2 juegos digitales adicionales por mes (durante la duración de la suscripción), jugar online con tus amigos y mucho más",
                         "image": "https://ss423.liverpool.com.mx/xl/1098804052.jpg"
                     },
                     {
                         "id": "1094448227",
                         "description": "Consola Nintendo Switch Special Edition Animal Crossing: New Horizons 32 GB",
-                        "longDescription": "¡Comienza una nueva vida en una isla desierta con este pack especial de Nintendo Switch! Incluye una consola Nintendo Switch, una base y un par de mandos Joy-Con con sus correas, todo decorado con motivos isleños",
                         "image": "https://ss423.liverpool.com.mx/xl/1094448227.jpg"
                     },
                     {
                         "id": "1100460731",
                         "description": "Consola Nintendo Switch 1.1 32 GB",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1100460731.jpg"
                     },
                     {
                         "id": "1100460749",
                         "description": "Consola Portátil Nintendo Switch Lite 32 GB",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1100460749.jpg"
                     },
                     {
                         "id": "1099421238",
                         "description": "Consola Portátil Nintendo 2DS XL Bundle Mario Kart 7 JANSBADBUSZ",
-                        "longDescription": "Juega en 2D con esta consola puedes jugar en 2D todos los juegos de Nintendo 3DS, New Nintendo 3DS y la mayoría de juegos de Nintendo DS. Diseño ergonómico y plegable. Fácil de guardar cuando la lleves contigo. Pantallas grandes. Pantallas un 82% más grandes que las de la consola Nintendo 2DS El NFC está integrado en la pantalla táctil. Al poner un Amiibo (a la venta por separado) sobre la pantalla táctil usando un software compatible, la consola podrá leer y grabar datos en el Amiibo y los juegos te ofrecerán nuevas posibilidades",
                         "image": "https://ss423.liverpool.com.mx/xl/1099421238.jpg"
                     },
                     {
                         "id": "1098262179",
                         "description": "Consola Xbox One S 1 TB",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1098262179.jpg"
                     },
                     {
                         "id": "1100019660",
                         "description": "Bundle Consola Xbox One X 1 TB Tom Clancy's The Division 2",
-                        "longDescription": "Con el bundle Xbox One X Tom Clancy’s, The Division 2, pon el destino de la nación en tus manos. Lidera un equipo\nde agentes de élite para salvar un país que está a punto de colapsar mientras exploras el mundo abierto, dinámico y\nhostil de Washington, DC. Este paquete incluye la descarga completa del juego Tom Clancy’s, The Division 2, un mes de\nsuscripción de Xbox Live Gold y un mes de prueba de Xbox Game Pass. Con un verdadero juego 4K y 40% más potencia\nque cualquier otra consola, nunca ha habido un mejor momento para jugar con Xbox One X",
                         "image": "https://ss423.liverpool.com.mx/xl/1100019660.jpg"
                     },
                     {
                         "id": "1090765562",
                         "description": "Consola PlayStation 4 Slim Mega Pack 1 TB",
-                        "longDescription": "El PlayStation MEGA PACK es el máximo paquete de entretenimiento con 3 fascinantes juegos de Horizon Zero Dawn Complete Edition, Days Gone, Grand Theft Auto V Premium Edition, Fortnite Voucher, y un cupón de 3 meses para PS Plus",
                         "image": "https://ss423.liverpool.com.mx/xl/1090765562.jpg"
                     },
                     {
                         "id": "1100019651",
                         "description": "Consola Xbox One X 1 TB negro",
-                        "longDescription": "Los juegos son mejores en Xbox One X. Disfruta de un 40 % más de potencia que cualquier otra consola. Gracias a 6 Teraflops de capacidad de procesamiento gráfico y un reproductor 4K Blu-ray, los juegos y el entretenimiento son más envolventes. Diviértete con la mejor comunidad de jugadores en la red multijugador más avanzada",
                         "image": "https://ss423.liverpool.com.mx/xl/1100019651.jpg"
                     }
                 ]
@@ -84,65 +78,54 @@
                     "navigationState": "preventas/N-372y",
                     "colorfondo": "#e3e3e3"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1097875908",
                         "description": "FIFA 21 Xbox One",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1097875908.jpg"
                     },
                     {
                         "id": "1097877731",
                         "description": "FIFA 21 PlayStation 4",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1097877731.jpg"
                     },
                     {
                         "id": "1097974523",
                         "description": "FIFA 21 Nintendo Switch Legacy Edition",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1097974523.jpg"
                     },
                     {
                         "id": "1085170003",
                         "description": "Cyberpunk 2077 PlayStation 4",
-                        "longDescription": "Cyberpunk 2077 PlayStation 4 te permitirá adentrarte a un mundo repleto de adrenalina, en donde podrás jugar como un mercenario forajido, convirtiéndote en un mercenario urbano equipado con mejoras cibernéticas, creando tu leyenda en las calles de Night City, la ciudad futurista y prepárate para comenzar la búsqueda del implante que te concederá la inmortalidad. Disfruta de la fascinante calidad de sus gráficos, vibrante tonalidad, escenas de sorprendente realidad y poderoso audio en cada hazaña",
                         "image": "https://ss423.liverpool.com.mx/xl/1085170003.jpg"
                     },
                     {
                         "id": "1085170011",
                         "description": "Cyberpunk 2077 Xbox One",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1085170011.jpg"
                     },
                     {
                         "id": "1097248598",
                         "description": "Assassin's Creed Valhalla Xbox One",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1097248598.jpg"
                     },
                     {
                         "id": "1097248580",
                         "description": "Assassin's Creed Valhalla PlayStation 4",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1097248580.jpg"
                     },
                     {
                         "id": "1088204600",
                         "description": "Ring Fit Adventure Nintendo Switch",
-                        "longDescription": "¡En el modo Aventura, derrota a los enemigos con ataques basados en ejercicios de la vida real! Mientras trabajas en cada nivel (y posiblemente empiezas a sudar) obtendrás puntos de experiencia. Entre combates podrías encontrar algunos métodos de transporte inusuales, ¡como plataformas de lanzamiento impulsadas por sentadillas y más!",
                         "image": "https://ss423.liverpool.com.mx/xl/1088204600.jpg"
                     },
                     {
                         "id": "1093486524",
                         "description": "Marvel's Avengers PlayStation 4",
-                        "longDescription": "Captain America, Iron Man, Hulk, Black Widow y Thor están inaugurando un cuartel general de los Avengers de alta tecnología en San Francisco, acontecimiento que incluye la revelación de su propio helitransporte que funciona con una nueva fuente de energía experimental",
                         "image": "https://ss423.liverpool.com.mx/xl/1093486524.jpg"
                     },
                     {
                         "id": "1093486532",
                         "description": "Marvel's Avengers Xbox One",
-                        "longDescription": "Captain America, Iron Man, Hulk, Black Widow y Thor están inaugurando un cuartel general de los Avengers de alta tecnología en San Francisco, acontecimiento que incluye la revelación de su propio helitransporte que funciona con una nueva fuente de energía experimental",
                         "image": "https://ss423.liverpool.com.mx/xl/1093486532.jpg"
                     }
                 ]
@@ -157,53 +140,44 @@
                     "navigationState": "accesorios/N-2we0",
                     "colorfondo": "#ffffff"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1056365075",
                         "description": "Joy-Con Nintendo Switch Control L/R Neón",
-                        "longDescription": "Joy-Con Switch Control L/R neón es lo que necesitas tener para hacer de cada una de tus experiencias de juego la más completa, ya que gracias a las funciones de este increíble accesorio tendrás un mando convencional y a la vez si decides utilizar estas piezas por separado sus características individuales te fascinarán. Prueba tu destreza, ya que este Joy-Con Switch Control L/R neón se podrá utilizar también de forma vertical u horizontal, además de poder tener a la vez uno en cada mano. Descubre con este Joy-Con Switch Control L/R neón todas las funciones y modos de juego que puede brindarte",
                         "image": "https://ss423.liverpool.com.mx/xl/1056365075.jpg"
                     },
                     {
                         "id": "1070482483",
                         "description": "Audífonos Inalámbricos PlayStation Over Ear Serie Oro negros",
-                        "longDescription": "Haz con los audífonos inalámbricos PlayStation Over Ear Serie Oro negros que la experiencia auditiva en todos tus videojuegos sea inigualable, ya que este excelente accesorio te brinda una variedad de características que te fascinarán en cada ocasión que decidas usarlos. Almohadillas, adaptador USB, fácil acceso a los controles tanto de volumen como de micrófono, batería recargable y un diseño elegante es lo que estos audífonos inalámbricos PlayStation Over Ear Serie Oro negros tienen para ti, sin duda serán tu accesorio favorito",
                         "image": "https://ss423.liverpool.com.mx/xl/1070482483.jpg"
                     },
                     {
                         "id": "1100143824",
                         "description": "Audífonos Gaming Turtle Beach Over-Ear Recon 70",
-                        "longDescription": "Prepara tu próxima victoria y las hazañas venideras con los auriculares para juegos multiplataforma Turtle Beach Recon 70. Nuevo diseño ligero y cómodo de Turtle Beach, altavoces de 40 mm de gran calidad y almohadillas de piel sintética prémium para jugar durante horas y oír graves y agudos nítidamente y sin ruido. El micrófono de alta sensibilidad de Turtle Beach capta tu voz alta y clara, y se silencia elevándolo. El versátil conector de 3,5 mm te permite usarlos con mandos de PS4 y Xbox One, la consola Nintendo Switch y dispositivos móviles compatibles",
                         "image": "https://ss423.liverpool.com.mx/xl/1100143824.jpg"
                     },
                     {
                         "id": "1054270476",
                         "description": "DualShock Jet Black PlayStation 4",
-                        "longDescription": "Elige el control PlayStation 4 DualShock Jet Black, te sorprenderás con la variedad de funciones y el absoluto control que tendrás sobre tus personajes.\n Con el control PlayStation 4 DualShock Jet Black podrás jugar de la manera más cómoda posible, su forma ergonómica está específicamente diseñada para adaptarse a tu mano del modo más fácil, podrás alargar tus sesiones de juego gracias a su excelente funcionalidad.\n Sabemos que tus horas de entretenimiento son imprescindibles para deshacerte del estrés de tus actividades cotidianas por eso en compañía de PlayStation te proporcionamos las más innovadoras tecnologías en productos; el control PlayStation 4 DualShock Jet Black cuenta con mayor sensibilidad y mejoras tanto en los sticks como en los botones, que te dan la precisión necesaria para jugar al máximo en todo momento, también cuenta con funciones tales como touch pad, barra luminosa, entrada para bocinas o audífonos que te permite disfrutar de una mejor ambientación, todo esto completado por la facilidad de recarga y su elegante color.\n Este control PlayStation 4 DualShock Jet Black te permite compartir tus mejores momentos de juego fácilmente pues incluye la función SHARE, podrás cargar videos, capturar pantallas o transmitirlas en directo sin interrumpir tu juego. Diviértete compitiendo con tus amigos y compartiéndoles tus progresos en todo momento.\n En Liverpool encontrarás el control PlayStation 4 DualShock Jet Black para brindarte la comodidad, funcionalidad e innovación que te mereces, juega en grande y disfrútalo al máximo con todos los accesorios que tenemos para ti",
                         "image": "https://ss423.liverpool.com.mx/xl/1054270476.jpg"
                     },
                     {
                         "id": "1096272533",
                         "description": "Control Inalámbrico Xbox One Edición Especial Phantom morado",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1096272533.jpg"
                     },
                     {
                         "id": "1097147562",
                         "description": "Control Inalámbrico PlayStation DualShock 4 Sunset Orange",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1097147562.jpg"
                     },
                     {
                         "id": "1087753014",
                         "description": "Control Nintendo Joy-Con",
-                        "longDescription": "",
                         "image": "https://ss423.liverpool.com.mx/xl/1087753014.jpg"
                     },
                     {
                         "id": "1095023521",
                         "description": "Audífonos Gaming Turtle Beach Over-Ear Modelo Recon 70 Camo verde militar",
-                        "longDescription": "Prepara tu próxima victoria y las hazañas venideras con los auriculares para juegos multiplataforma Turtle Beach Recon 70. Nuevo diseño ligero y cómodo de Turtle Beach, altavoces de 40 mm de gran calidad y almohadillas de piel sintética Premium para jugar durante horas y oír graves y agudos nítidamente y sin ruido. El micrófono de alta sensibilidad de Turtle Beach capta tu voz alta y clara, y se silencia elevándolo. El versátil conector de 3,5 mm te permite usarlos con mandos de PS4 y Xbox One, la consola Nintendo Switch y dispositivos móviles compatibles",
                         "image": "https://ss423.liverpool.com.mx/xl/1095023521.jpg"
                     }
                 ]
