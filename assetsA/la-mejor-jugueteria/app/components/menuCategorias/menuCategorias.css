@@ -1,208 +1,264 @@
-.armables{
-
+.armables {
     background-image: url("../../../assets/images/menu-categorias/armables_700.svg");
 }
-.plecaArmables{
-    background-color:#fe952c;
+
+.plecaArmables {
+    background-color: #fe952c;
 }
-.bebes{
+
+.bebes {
     background-image: url("../../../assets/images/menu-categorias/bebes_700.svg");
 }
-.plecaBebes{
-    background-color:#01bfa6;
+
+.plecaBebes {
+    background-color: #01bfa6;
 }
-.coleccionables{
+
+.coleccionables {
     background-image: url("../../../assets/images/menu-categorias/coleccionables_800.svg");
 }
-.plecaColeccionables{
-    background-color:#eaeff3;
+
+.plecaColeccionables {
+    background-color: #eaeff3;
 }
-.disfraces{
+
+.disfraces {
     background-image: url("../../../assets/images/menu-categorias/disfraces_800.svg");
 }
-.plecaDisfraces{
-    background-color:#ff8978;
+
+.plecaDisfraces {
+    background-color: #ff8978;
 }
-.drones{
+
+.drones {
     background-image: url("../../../assets/images/menu-categorias/drones_800.svg");
 }
-.plecaDrones{
-    background-color:#00d0fe;
+
+.plecaDrones {
+    background-color: #00d0fe;
 }
-.exteriores{
+
+.exteriores {
     background-image: url("../../../assets/images/menu-categorias/exteriores_800.svg");
 }
-.plecaExteriores{
-    background-color:#fdb640;
+
+.plecaExteriores {
+    background-color: #fdb640;
 }
-.juegosdemesa{
+
+.juegosdemesa {
     background-image: url("../../../assets/images/menu-categorias/juegosdemesa_800.svg");
 }
-.plecaJuegosdemesa{
-    background-color:#fde9b4;
+
+.plecaJuegosdemesa {
+    background-color: #fde9b4;
 }
-.ninas{
+
+.ninas {
     background-image: url("../../../assets/images/menu-categorias/ninas_800.svg");
 }
-.plecaNinas{
-    background-color:#fcd753;
+
+.plecaNinas {
+    background-color: #fcd753;
 }
-.ninos{
-    width:120px;
+
+.ninos {
+    width: 120px;
     background-image: url("../../../assets/images/menu-categorias/ninos_960.svg");
 }
-.plecaNinos{
-    background-color:#9abfd1;
+
+.plecaNinos {
+    background-color: #9abfd1;
 }
-.peluches{
+
+.peluches {
     background-image: url("../../../assets/images/menu-categorias/peluches_800.svg");
 }
-.plecaPeluches{
+
+.plecaPeluches {
     background-color: #ffd650;
 }
-.vehiculos{
+
+.vehiculos {
     background-image: url("../../../assets/images/menu-categorias/montable_800.svg");
 }
-.plecaVehiculos{
-    background-color:#ff4c62;
+
+.plecaVehiculos {
+    background-color: #ff4c62;
 }
-.videojuegos{
+
+.videojuegos {
     background-image: url("../../../assets/images/menu-categorias/videojuegos_800.svg");
 }
-.micarta{
-/*background-image: url("../../../assets/images/home/Carta-Desktop.png");*/
-background-image: url("../../../assets/images/menu-categorias/cdesktop.png");
 
+.micarta {
+    /*background-image: url("../../../assets/images/home/Carta-Desktop.png");*/
+    background-image: url("../../../assets/images/menu-categorias/cdesktop.png");
 }
-.micartaMobile{
+
+.micartaMobile {
     background-image: url("../../../assets/images/menu-categorias/Carta_mobile.svg");
-  }
-
-.plecaVideojuegos{
-    background-color:#8c797f;
 }
 
+.plecaVideojuegos {
+    background-color: #8c797f;
+}
 
-
-.icono{
+.icono {
     margin: 10px auto 0px auto;
-
-    height:35px;
-
+    height: 35px;
 }
-.superContentMenu{
-    height:136px;
+
+.superContentMenu {
+    height: 136px;
     background: #f2f2f2;
 }
-.contentMenu{
-    z-index:995;
-    top:0;
-    width:100%;
-    left:0;
 
+.contentMenu {
+    z-index: 995;
+    top: 0;
+    width: 100%;
+    left: 0;
 }
-.menu-categorias{
-    background-image:url('../../../assets/images/menuSlipBackGround.jpg');
+
+.menu-categorias {
+    background-image: url('../../../assets/images/menuSlipBackGround.jpg');
     background-repeat: repeat-x;
     background-position: 0px -10px;
     background-color: #fff;
-    height:130px;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.1);
+    height: 130px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .1);
     margin-bottom: 5px;
 }
-.plecas_menu{
-    background-image:url('../../../assets/images/menuSlipBackGround.jpg');
+
+.plecas_menu {
+    background-image: url('../../../assets/images/menuSlipBackGround.jpg');
     background-repeat: repeat-x;
     background-position: 0px -10px;
     background-color: #fff;
 }
-.menu-categorias ul,.plecas_menu ul{
+
+.menu-categorias ul,
+.plecas_menu ul {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     background-color: #fff;
     padding: 0px;
     margin: 0px;
 }
-.menu-categorias ul li,.plecas_menu ul li{
+
+.menu-categorias ul li,
+.plecas_menu ul li {
     list-style: none;
-    width:100%;
-    box-sizing:border-box;
+    width: 100%;
+    box-sizing: border-box;
 }
-.menu-categorias ul li:hover{
-    background-color:#f4f2f3;
+
+.menu-categorias ul li:hover {
+    background-color: #f4f2f3;
 }
-.menu-categorias ul li a{
+
+.menu-categorias ul li a {
     text-decoration: none;
 }
-.menu-categorias ul .titleMenu{
-    margin-top:10px;
+
+.menu-categorias ul .titleMenu {
+    margin-top: 10px;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    height:30px;
+    height: 30px;
 }
-.menu-categorias ul li a:hover{
+
+.menu-categorias ul li a:hover {
     color: #e10098;
 }
-.pleca{
-    height:5px;
-}
-.action{
-    float:left;
-    text-decoration:none;
-    color:#000;
-    padding-bottom:10px;
-    width:100%;
-}
-.menu-categorias-mobile{
-    background-color: #fff;
 
+.pleca {
+    height: 5px;
 }
-#menu-categorias-mobile-content{
+
+.action {
+    float: left;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.menu-categorias-mobile {
+    background-color: #fff;
+}
+
+#menu-categorias-mobile-content {
     position: absolute;
     left: 0;
-    top:0;
-    z-index:16000;
-    width:100%;
-    display:none;
+    top: 0;
+    z-index: 16000;
+    width: 100%;
+    display: none;
     font-size: 1.5em;
     height: 110vh;
 }
-.menu-categorias-mobile ul{
+
+.menu-categorias-mobile ul {
     list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-.menu-categorias-mobile ul > li {
+
+.menu-categorias-mobile ul>li {
     margin: 0;
     border-bottom: 1px solid#CCCCCC;
     vertical-align: middle;
 }
-.menu-categorias-mobile ul > li > a {
+
+.menu-categorias-mobile ul>li>a {
     padding: 0.4em;
     display: block;
     text-decoration: none;
     color: #646060;
     font-weight: bold;
-    border-left:solid 5px;
+    border-left: solid 5px;
     border-color: #ff0000;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
-    justify-content:flex-start;
-    align-items:center;
+    justify-content: flex-start;
+    align-items: center;
 }
-.menu-categorias-mobile .imgMenu{
-    width:31px;
-    height:36px;
-    background-size:248px 100%;
+
+.menu-categorias-mobile .imgMenu {
+    width: 31px;
+    height: 36px;
+    background-size: 248px 100%;
     margin-right: 1em;
-};
-.st0{fill:#FFFFFF;stroke:#FFD300;stroke-width:3;stroke-miterlimit:10;}
-.st1{fill:none;}
-.st2{fill:#FF4C61;}
+}
+
+;
+.st0 {
+    fill: #FFFFFF;
+    stroke: #FFD300;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.st1 {
+    fill: none;
+}
+
+.st2 {
+    fill: #FF4C61;
+}
+
+.menu-categorias-mobile a[value*="Veh"] .imgMenu {
+    width: 31px;
+    height: 36px;
+    background-size: 124px 100% !important;
+    margin-right: 1em;
+}
