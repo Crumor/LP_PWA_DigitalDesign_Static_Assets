@@ -799,9 +799,9 @@ dataLayer.push({
         'position': '01'
 },
 {
-        'id': 'cerveza_oktober_300120',
-        'name': 'Cerveza Oktober',
-        'creative': 'blp_vinos_cerveza_oktober',
+        'id': 'canastas_navidenas_051120',
+        'name': 'Canastas 2020',
+        'creative': 'blp_vinos_canastas',
         'position': '01'
 },
 {
@@ -2567,6 +2567,12 @@ dataLayer.push({
     'name': 'Navidad Decoracion',
     'creative': 'blp_navidad_decoracion',
     'position': '22'
+},
+{
+        'id': 'canastas_navidenas_051120',
+        'name': 'Canastas 2020',
+        'creative': 'blp_vinos_canastas',
+        'position': '01'
 }
 
 ]
