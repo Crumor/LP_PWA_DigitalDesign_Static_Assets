@@ -6,158 +6,129 @@
         "analytics": "bebes"
     },
     "categories": {
-        "category-main": [
-            {
+        "category-main": [{
                 "info": {
-                    "categoryid": "N-zna0s8",
+                    "categoryid": "catst15093746",
                     "label": "Set de Juegos Didactivos",
                     "picture": "---",
                     "video": "",
                     "catid": "---",
-                    "navigationState": "---",
+                    "navigationState": "juegos-didácticos",
                     "colorfondo": "#96fe8b"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "13104808",
                         "description": "Cubo de Formas Playskool",
-                        "longDescription": "<p>Con el <b>cubo de Formas Playskool</b> maximiza no solo los momentos de entretenimiento de tu pequeño, sino también de ideal aprendizaje. Descubre solo en <b>Liverpool</b> este extraordinario diseño, que reúne las características de las que buscas siempre que disfrute, como perfecto dinamismo a través de cada una de las especiales piezas geométricas, diversas texturas, múltiple selección de color y dimensiones perfectas. Fomenta al máximo su temprano aprendizaje solo aquí</p>",
                         "image": "https://ss424.liverpool.com.mx/xl/13104808.jpg"
                     },
                     {
                         "id": "1056792372",
                         "description": "Escritura Interactiva Leap Frog",
-                        "longDescription": "Con el juguete Escritura Interactiva Leap Frog Aprende a Escribir tus pequeños estimularán las habilidades finas de una forma súper divertida; se les hará práctico familiarizarse con las letras, números y formas. Proporcionales con Escritura Interactiva Leap Frog Aprende a Escribir el aprendizaje esencial para su día a día ¡Les encantará!",
                         "image": "https://ss424.liverpool.com.mx/xl/1056792372.jpg"
                     },
                     {
                         "id": "1056714070",
                         "description": "Masa modeladora Hasbro Play-Doh Confetti",
-                        "longDescription": "Con este pack de 6 latas de Play-Doh Confetti, ¡cada creación es una celebración! Cada lata contiene un diferente color clásico con mucho confetti. Es un festival para la creatividad",
                         "image": "https://ss424.liverpool.com.mx/xl/1056714070.jpg"
                     },
                     {
                         "id": "1046140059",
                         "description": "Libro ABC de Perrito Fisher Price Ríe y Aprende",
-                        "longDescription": "Este libro ABC de Perrito Fisher Price Ríe y Aprende es justo lo que tu pequeño necesita para divertirse al máximo, pues en sus 26 páginas podrá encontrar las letras del alfabeto y una canción creada para las letras representadas. Con este libro ABC de Perrito Fisher Price Ríe y Aprende ayudarás al desarrollo de tu pequeño, pues en cada página aprenderá canciones, letras, colores y formas que le permitirán desenvolverse  en el mundo que lo rodea",
                         "image": "https://ss424.liverpool.com.mx/xl/1046140059.jpg"
                     },
                     {
                         "id": "1046140024",
                         "description": "Cebra Andadera de Aprendizaje Fisher Price",
-                        "longDescription": "La Cebra Andadera de Aprendizaje es el tipo de primer amigo que usted desea para su bebé! Esta cebra está llena de actividades, prácticas para los bebés sentados. Su pequeño puede girar la página del libro o presionar los botones de iluminación para escuchar todo sobre ABC y 123 a través de cantar canciones y frases con nuevos amigos animales! Y cuando el pequeño está aprendiendo a caminar, el asa de fácil agarre y la robusta base de 4 ruedas ayudan a estabilizar esos primeros pasos tambaleantes. ¡Muchas frases divertidas, música y canciones invitan y premian aún más moviendo y ayudando a los pequeños a ponerse aún más firmes en sus pies!",
                         "image": "https://ss424.liverpool.com.mx/xl/1046140024.jpg"
                     },
                     {
                         "id": "1040811962",
                         "description": "Tablet de Aprendizaje Fisher-Price Ríe y Aprende",
-                        "longDescription": "¡El primer dispositivo inteligente de tu bebé! 28 botones de aplicaciones fáciles de presionar le enseñan a tu bebé las letras de la A a la Z, así como primeros objetos del abecedario con sonidos graciosos, música y canciones populares",
                         "image": "https://ss424.liverpool.com.mx/xl/1040811962.jpg"
                     },
                     {
                         "id": "1038809497",
                         "description": "Tortuga de Aprendizaje Fisher Price",
-                        "longDescription": "Adquiere la tortuga de aprendizaje Fisher Price para tu pequeño, este hermoso juguete fomentará la motricidad gruesa, el equilibrio y la coordinación, además de la capacidad de razonamiento de tu pequeño. El diseño de esta tortuga de aprendizaje Fisher Price llena de colores y con pequeñas ruedas le permite dirigirla hacia donde el necesite, se convertirá en un excelente acompañante de sus mejores aventuras",
                         "image": "https://ss424.liverpool.com.mx/xl/1038809497.jpg"
                     },
                     {
                         "id": "1057538909",
                         "description": "Monstruo Presiona y Persigue Fisher Price",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1057538909.jpg"
                     },
                     {
                         "id": "1077080658",
                         "description": "Carriola Camina Conmigo Fisher-Price Ríe y Aprende",
-                        "longDescription": "¡Vamos a pasear, bebé! Esta caminadora con tema de carriola ayuda a que los primeros pasos del bebé sean más seguros con canciones motivadoras y sonidos que mantienen sus piecitos en movimiento. La charola de actividades interactivas ofrece emocionante juego práctico que introduce los colores, las formas, los números y más. Además, la tecnología Crece Conmigo te permite cambiar el contenido educativo ¡cuando el bebé esté listo!",
                         "image": "https://ss424.liverpool.com.mx/xl/1077080658.jpg"
+                    },
+                    {
+                        "id": "1056792372",
+                        "description": "Escritura Interactiva Leap Frog",
+                        "image": "https://ss424.liverpool.com.mx/xl/1056792372.jpg"
                     }
                 ]
             },
             {
                 "info": {
-                    "categoryid": "N-1v52c3t",
+                    "categoryid": "catst1858331",
                     "label": "Recien Nacidos",
                     "picture": "---",
                     "video": "",
                     "catid": "---",
-                    "navigationState": "---",
+                    "navigationState": "0-a-24-meses",
                     "colorfondo": "#96fe8b"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1096181813",
                         "description": "Figura Dizzy Alpha Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096181813.jpg"
                     },
                     {
                         "id": "1096183433",
                         "description": "Figura Grand Albert Alpha Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096183433.jpg"
                     },
                     {
                         "id": "1096183450",
                         "description": "Figura Mira Alpha Super Wings",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1096183450.jpg"
                     },
                     {
                         "id": "1035142301",
                         "description": "Set Plastilina Brillante Play-Doh",
-                        "longDescription": "Con Play-Doh brillante, tus creaciones serán diferentes y únicas; además de incluir colores que te encantarán, estas masas poseen destellos que harán brillar tus diseños. Ideal para diseñar accesorios, pastelitos y todo lo que se te ocurra; con Play-Doh el único límite es tu imaginación",
                         "image": "https://ss424.liverpool.com.mx/xl/1035142301.jpg"
                     },
                     {
                         "id": "1077220603",
                         "description": "Sonaja Fisher Price",
-                        "longDescription": "",
                         "image": "https://ss417.liverpool.com.mx/xl/1077220603.jpg"
                     },
                     {
                         "id": "1091141911",
                         "description": "Juguete portátil Bright Starts para bebé",
-                        "longDescription": "",
                         "image": "https://ss417.liverpool.com.mx/xl/1091141911.jpg"
                     },
                     {
                         "id": "1059900583",
                         "description": "Juguete portátil Bright Starts para bebé",
-                        "longDescription": "",
                         "image": "https://ss417.liverpool.com.mx/xl/1059900583.jpg"
                     },
                     {
                         "id": "1056023913",
                         "description": "Móvil musical Fisher-Price Butterfly Dreams",
-                        "longDescription": "El móvil Butterfly Dreams se adapta al crecimiento del niño. En la primera etapa se puede usar como móvil de cuna con movimientos motorizados, proyecciones de estrellas y tres opciones de sonidos relajantes. En la segunda etapa se convierte en un proyector musical de mesa o en un móvil portátil para la carriola",
                         "image": "https://ss417.liverpool.com.mx/xl/1056023913.jpg"
                     },
                     {
                         "id": "1056770492",
                         "description": "Sonajero Chicco Mr. Giraffe",
-                        "longDescription": "Sonajero en forma de jirafa, detalles bordados, dos mordederas, esfera con traqueteo y patas arrugables",
                         "image": "https://ss417.liverpool.com.mx/xl/1056770492.jpg"
                     },
                     {
                         "id": "1050987864",
                         "description": "Proyector de cuna Chicco Next 2 Stars",
-                        "longDescription": "Con el proyector de cuna Chicco para niña, tendrás el aliado ideal para que tu pequeña disfrute de estupendos momentos de relajación, ya que gracias a sus increíbles melodías de música clásica, jazz, soft rock, new age y sonidos de la naturaleza, ella percibirá las vibraciones adecuadas para estar en calma y así conciliar el sueño, además este proyector de cuna Chicco para niña, posee 3 intensidades de luz, así como un tierno peluche extraíble para que la acompañe en todo momento",
                         "image": "https://ss417.liverpool.com.mx/xl/1050987864.jpg"
                     }
                 ]
-            },
-            {
-                "info": {
-                    "categoryid": "catst9223351",
-                    "label": "Aprendizaje",
-                    "picture": "./assets/images/categorias/subcategorias/bebes/1bbs_gimnacios_tapetes.jpg",
-                    "video": "",
-                    "catid": "carriolas",
-                    "navigationState": "aprendizaje/N-35uf",
-                    "colorfondo": "#96fe8b"
-                },
-                "toys": []
             },
             {
                 "info": {
@@ -169,74 +140,57 @@
                     "navigationState": "aprendizaje/N-35uf",
                     "colorfondo": "#96fe8b"
                 },
-                "toys": [
-                    {
+                "toys": [{
                         "id": "1080881831",
                         "description": "Piano Sonidos Divertidos Fisher-Price",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1080881831.jpg"
                     },
                     {
                         "id": "1077869251",
                         "description": "Laptop aprende conmigo Fisher Price",
-                        "longDescription": "¡Esta laptop de juguete mantiene a los bebés ocupados con cantidad de juego práctico! Conforme tu pequeño genio presiona, voltea y desliza las diferentes actividades, escuchará emocionantes canciones, sonidos y frases ¡que introducen los números, colores, formas y más! Así que regístrate, ingresa ¡y empieza a aprender!",
                         "image": "https://ss424.liverpool.com.mx/xl/1077869251.jpg"
                     },
                     {
                         "id": "1077869171",
                         "description": "Caballito de mar dulces sueños Fisher-Price",
-                        "longDescription": "El suave y tierno juguete de peluche ayuda a relajar y arrullar al bebé con una suave y reconfortante luz, 8 canciones de cuna y melodías clásicas y relajantes sonidos del mar. Después de aproximadamente 5 minutos de operación continua, los sonidos y la música se acaban y la luz pierde su intensidad hasta apagarse. Si el bebé despierta durante la noche, otro abrazo también despierta al caballito de mar, para 5 minutos más de relajación",
                         "image": "https://ss424.liverpool.com.mx/xl/1077869171.jpg"
                     },
                     {
                         "id": "1046140091",
                         "description": "Set de Figuras Super Héroes Mattel Imaginext",
-                        "longDescription": "",
                         "image": "https://ss424.liverpool.com.mx/xl/1046140091.jpg"
                     },
                     {
                         "id": "1046140059",
                         "description": "Libro ABC de Perrito Fisher Price Ríe y Aprende",
-                        "longDescription": "Este libro ABC de Perrito Fisher Price Ríe y Aprende es justo lo que tu pequeño necesita para divertirse al máximo, pues en sus 26 páginas podrá encontrar las letras del alfabeto y una canción creada para las letras representadas. Con este libro ABC de Perrito Fisher Price Ríe y Aprende ayudarás al desarrollo de tu pequeño, pues en cada página aprenderá canciones, letras, colores y formas que le permitirán desenvolverse  en el mundo que lo rodea",
                         "image": "https://ss424.liverpool.com.mx/xl/1046140059.jpg"
                     },
                     {
                         "id": "1046140024",
                         "description": "Cebra Andadera de Aprendizaje Fisher Price",
-                        "longDescription": "La Cebra Andadera de Aprendizaje es el tipo de primer amigo que usted desea para su bebé! Esta cebra está llena de actividades, prácticas para los bebés sentados. Su pequeño puede girar la página del libro o presionar los botones de iluminación para escuchar todo sobre ABC y 123 a través de cantar canciones y frases con nuevos amigos animales! Y cuando el pequeño está aprendiendo a caminar, el asa de fácil agarre y la robusta base de 4 ruedas ayudan a estabilizar esos primeros pasos tambaleantes. ¡Muchas frases divertidas, música y canciones invitan y premian aún más moviendo y ayudando a los pequeños a ponerse aún más firmes en sus pies!",
                         "image": "https://ss424.liverpool.com.mx/xl/1046140024.jpg"
                     },
                     {
                         "id": "1046139964",
                         "description": "Corn Popper Fisher Price",
-                        "longDescription": "Obsequia el Corn Popper Fisher Price a los pequeños, este renovado clásico de Fisher Price es increíble para deslizar mientras la bolitas saltan y se escuchan sonidos como de palomitas en el microondas, podrá llevarlo por toda la casa disfrutando de los increíbles colores de las pelotitas, así como de la coordinación necesaria para llevarlo de un lado a otro, no solo tendrá un juguete que cuenta con brillantes colores, también disfrutará del movimiento y de sus divertidos sonidos",
                         "image": "https://ss424.liverpool.com.mx/xl/1046139964.jpg"
                     },
                     {
                         "id": "1008538294",
                         "description": "Perrito Aprende Conmigo Mattel Fisher Price",
-                        "longDescription": "El perrito aprende conmigo Mattel Fisher Price es el ideal para que tu bebé además de divertirse aprenda a desarrollar increíbles habilidades y refuerce las que ya ha ido adquiriendo hasta esta etapa de su desarrollo, porque gracias a este diseño el perrito aprende conmigo Mattel Fisher Price le enseñará a colocar las figuras en el lugar correcto, así como identificar los colores, además posee tres modos de juego, quince canciones y efectos de sonido, le encantará jugar con él todos los días",
                         "image": "https://ss424.liverpool.com.mx/xl/1008538294.jpg"
                     },
                     {
                         "id": "1002557556",
                         "description": "Erizo Estímulos Fisher Price Mattel",
-                        "longDescription": "Maximiza con el erizo estímulos Fisher Price Mattel los momentos de diversión y simultáneamente de aprendizaje de tu pequeño. Descubre solo en Liverpool este extraordinario y tierno personaje que cuenta con características que motivarán su aprendizaje, curiosidad y dinamismo al máximo; podrá explorar desde su ruidosa nariz, hasta su textura en el interior, descubriendo sus texturas y características intermedias, además su fascinante selección de diversos colores le encantará y a ti, el plus de sus perfectas dimensiones, te permitirá llevarlo siempre a cualquier lugar",
                         "image": "https://ss424.liverpool.com.mx/xl/1002557556.jpg"
+                    },
+                    {
+                        "id": "1046140091",
+                        "description": "Set de Figuras Super Héroes Mattel Imaginext",
+                        "image": "https://ss424.liverpool.com.mx/xl/1046140091.jpg"
                     }
                 ]
-            },
-            {
-                "info": {
-                    "categoryid": "catst1857461",
-                    "label": "Construcción y Armables",
-                    "picture": "./assets/images/categorias/subcategorias/bebes/6bbs_construccion.jpg",
-                    "video": "",
-                    "catid": "1040811636",
-                    "navigationState": "construccion-y-armables/N-35ub",
-                    "colorfondo": "#fce889"
-                },
-                "toys": []
             }
         ]
     }

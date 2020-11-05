@@ -1,15 +1,215 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:ng="http://angularjs.org" lang="es">
 
 <head>
-   
+    <meta http-equiv="cache-control" content="max-age=86400" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="43200" />
+    <meta charset="utf-8">
+    <meta name="fragment" content="!">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>La Mejor Juguetería Liverpool</title>
+    <meta name="author" content="Servicios Liverpool S.A. de C.V.">
+    <meta property="og:title" content="La Mejor Juguetería Liverpool">
+    <meta property="og:type" content="product.group">
+    <meta property="og:description" content="La Mejor Juguetería Liverpool">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@liverpoolmexico">
+    <meta name="twitter:title" content="La Mejor Juguetería">
+
+    <meta name="description" content="">
+    <!--css-->
+    <!--web-->
+    <link rel="shortcut icon" href="https://lamejorjugueteria.liverpool.com.mx/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/fonts/font_face.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/owl-carousel-1/owl.carousel.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/owl-carousel-1/owl.theme.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/owl-carousel-1/owl.transitions.css">
+
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/css/bootstrap-custom.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/css/main.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/css/gridPlp.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/css/animate.css">
+
+    <link type="text/css" href="https://lamejorjugueteria.liverpool.com.mx/app/components/menuCategorias/menuCategorias.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://lamejorjugueteria.liverpool.com.mx/assets/css/micarta.css">
+    <link rel="stylesheet" href="https://lamejorjugueteria.liverpool.com.mx/assets/css/media.css">
+    <!--end css-->
 </head>
 
-<body>
-   <script>
-       
-       window.location.href="https://www.liverpool.com.mx/tienda/home";
-   </script>
+<body ng-app="APP_JUGUETERIA">
+    <icon-carta class="icon_carta"></icon-carta>
+    <dialogs></dialogs>
+    <div class="container container-full-header-ipad">
+        <header>
+            <nav class="navbar navbar-custom">
+                <div class="container-fluid">
+                    <!--web version-->
+                    <div class="navbar-header" id="header-menu">
+                        <div class="menuCol logoLmj">
+                            <a href="#/">
+                                <img src="https://lamejorjugueteria.liverpool.com.mx/assets/images/lmj_logo.svg" style="float:left;" id="logo" class="img-responsive" />
+                            </a>
+                        </div>
+                        <input-buscar class="menuCol inputSearch"></input-buscar>
+                        <div class="menuCol myLetter text-center">
+                            <!--<a href="#/micarta">
+                                <p class="total">{{totalPedidos}}</p>
+                                <img style="height:35px" src="https://lamejorjugueteria.liverpool.com.mx/assets/images/carta_icono.svg" />
+                                <p>Mi carta</p>
+                            </a>-->
+                        </div>
+                        <div class="menuCol logoLiver">
+                            <a href="//www.liverpool.com.mx">
+                                <img src="https://lamejorjugueteria.liverpool.com.mx/assets/images/home/logo_rosa.svg" class="img-responsive" style="float:right;" />
+                            </a>
+                        </div>
+                    </div>
+                    <!--mobil-->
+                    <div class="navbar-header" id="movil-header-menu">
+                        <div class="row header-mobile-ipad" style="border-bottom:1px solid #EDEDED; margin-bottom:2%; ">
+                            <div class="col-xs-3" style="padding-left:0;">
+                                <div id="abrir-menu-movil">
+                                    <img src="https://lamejorjugueteria.liverpool.com.mx/assets/images/menu.png" class="img-responsive" />
+                                </div>
+                            </div>
+                            <div class="col-xs-6 p-r-0 p-l-0">
+                                <a href="#/">
+                                    <img src="https://lamejorjugueteria.liverpool.com.mx/assets/images/lmj_logo.svg" style="margin: 7px 0px;" id="logo" class="img-responsive mobile-img logo-mobile" />
+                                </a>
+
+                            </div>
+                            <div class="col-xs-3 my-letter-mobile">
+                                <a href="#/micarta">
+                                    <img src="https://lamejorjugueteria.liverpool.com.mx/assets/images/home/carta_mobile_header.svg" class="img-responsive mobile-img" style="float:right; width:65px;margin: 5px 0px;" />
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input-buscar class="menuCol inputSearch"></input-buscar>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end web version-->
+                </div>
+                <!--/.container-fluid -->
+
+            </nav>
+        </header>
+    </div>
+    <!--menu de mobile-->
+    <menu-categorias-mobil id="menu-categorias-mobile-content"></menu-categorias-mobil>
+    <!-- Modal -->
+    <div class="contenidoPrincipal" ng-view style="width:100%; min-height:300px;">
+        <!--Con stytenidos-->
+    </div>
+    <footer ng-class="{'footerTopWhite':actualPath!='/'}">
+        <div class="container-fluid zig-zag hidden-xs hidden-sm" ng-class="{'zig-zag-white':actualPath!='/'}">
+        </div>
+
+        <div class="footer-web">
+            <div style="position:relative;height:auto;overflow:hidden;">
+                <img src="https://lamejorjugueteria.liverpool.com.mx/assets/images/animation/home/base2.png" style="width:100%;" />
+                <div class="animationMainBig level4">
+                    <img src="https://lamejorjugueteria.liverpool.com.mx/assets/images/animation/home/footer_desktop.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div class="container terminoscondiciones">
+            <p class="text-muted text-center" style="font-size:12px;">
+                <a href="https://assetspwa.liverpool.com.mx/ayuda/?#/sec/terminos-y-condiciones/informacion">Términos y condiciones</a> | <a href="https://assetspwa.liverpool.com.mx/ayuda/?#/sec/otros-temas/terminos-y-condiciones/aviso-de-privacidad-integral">Aviso de privacidad</a>                © | Liverpool | Todos los derechos reservados D.R. ®
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/angular-1.6.2/angular.min.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/angular-1.6.2/angular-route.min.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/angular-1.6.2/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/owl-carousel-1/owl.carousel.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/AnimationSvg.js"></script>
+    <!-- end frameworks-->
+    <!--Analytics-->
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/angulartics/angulartics.min.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/angulartics/angulartics-facebook-pixel.min.js"></script>
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/assets/frameworks/angulartics-google-analytics/dist/angulartics-ga.min.js"></script>
+    <!--Analytics-->
+    <!--Angular-->
+    <script type="text/javascript" src="https://lamejorjugueteria.liverpool.com.mx/app/app.js"></script>
+    <!--seccion components-->
+    <!--modules-->
+
+    <!--end angular-->
+    <script type="text/javascript">
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1722881697989878');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1722881697989878&ev=PageView&noscript=1"
+        /></noscript>
+    <script type="text/javascript">
+        /*var _mfq = _mfq || [];                                                                                                                                                                                                                                                                                                           ;*/
+        Array.prototype.unique = function(a) {
+            return function() {
+                return this.filter(a)
+            }
+        }(
+            function(a, b, c) {
+                return c.indexOf(a, b + 1) < 0
+            }
+        );
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-4668284-26', 'auto');
+        ga('send', 'pageview');
+        $(document).ready(function() {
+            var device = navigator.userAgent;
+            var isMovil = false;
+            var data = sessionStorage.getItem('first');
+            if (device.match(/Iphone/i) || device.match(/Ipod/i) || device.match(/Android/i) || device.match(/J2ME/i) || device.match(/BlackBerry/i) || device.match(/iPhone|iPad|iPod/i) || device.match(/Opera Mini/i) || device.match(/IEMobile/i) || device.match(/Mobile/i) || device.match(/Windows Phone/i) || device.match(/windows mobile/i) || device.match(/windows ce/i) || device.match(/webOS/i) || device.match(/palm/i) || device.match(/bada/i) || device.match(/series60/i) || device.match(/nokia/i) || device.match(/symbian/i) || device.match(/HTC/i)) {
+                isMovil = true;
+            }
+            $("#abrir-menu-movil").click(function() {
+                $('#menu-categorias-mobile-content').fadeToggle(300);
+            });
+
+        });
+    </script>
+
 </body>
 
 </html>
