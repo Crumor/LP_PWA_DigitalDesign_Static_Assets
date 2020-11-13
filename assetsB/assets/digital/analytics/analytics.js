@@ -102,101 +102,155 @@ function myOnloadFunction(pageName,path) {
                     'promotions': [// Array of promoFieldObjects.		
             
        			            
-          {
-        'id':'pantallas_091120',
-        'name':'Pantallas hasta 55% de desc',
+        {
+        'id':'zapatos_131120',
+        'name':'Zapatos hasta 30% de desc',
         'creative':'h_banner_central',
         'position':'1'
-                    },                  
+                    },       
+                {
+                'id':'zapatosmujer_131120',
+                'name':'Zapatos mujeres hasta 30% de desc',
+                'creative':'h_banner_central',
+                'position':'1a'
+                },    
+                {
+                'id':'zapatoshombre_131120',
+                'name':'Zapatos hombres hasta 30% de desc',
+                'creative':'h_banner_central',
+                'position':'1b'
+                },    
+                {
+                'id':'zapatostenis_131120',
+                'name':'Zapatos tenis hasta 30% de desc',
+                'creative':'h_banner_central',
+                'position':'1c'
+                },    
+                {
+                'id':'zapatosninos_131120',
+                'name':'Zapatos niños hasta 30% de desc',
+                'creative':'h_banner_central',
+                'position':'1d'
+                }, 
+                {
+        'id':'cart_131120',
+        'name':'Cart Analytics',
+        'creative':'h_banner_secun',
+        'position':'2a'
+                    },         
                     {
-        'id':'celulares_091120',
-        'name':'Celulares hasta 10% de reembolso + hasta 18 MSI o hasta 24 MSI',
+        'id':'relojes_131120',
+        'name':'Relojes hasta 50% de desc',
         'creative':'h_banner_secun',
         'position':'2'
                     },
                     {
-        'id':'computo_091120',
-        'name':'Cómputo hasta 20% de descuento',
+        'id':'deportes_131120',
+        'name':'Deportes hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'3'
                     },                
                     {
-        'id':'sonido_091120',
-        'name':'Sonido hasta 40% de desc',
+        'id':'ninos_131120',
+        'name':'Niños hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'4'
                     },
                     {
-        'id':'videojuegos_091120',
-        'name':'Videojuegos hasta 20% de desc',
+        'id':'belleza_131120',
+        'name':'Belleza hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'5'
                     },
                     {
-        'id':'juguetes_091120',
-        'name':'Juguetes hasta 35% de desc',
+        'id':'muebles_131120',
+        'name':'Muebles hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'6'
                     },
+                {
+                'id':'iluminacion_131120',
+                'name':'Iluminación hasta 40% de desc',
+                'creative':'h_banner_secun',
+                'position':'6a'
+                },
+                {
+                'id':'decoracion_131120',
+                'name':'Decoración hasta 40% de desc',
+                'creative':'h_banner_secun',
+                'position':'6b'
+                },
+                {
+                'id':'blancos_131120',
+                'name':'Blancos hasta 40% de desc',
+                'creative':'h_banner_secun',
+                'position':'6c'
+                },
                     {
-        'id':'muebles_091120',
-        'name':'Muebles hasta 40% de desc',
+        'id':'casa_131120',
+        'name':'Casa hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'7'
                     },
                     {
-        'id':'linea_blanca_091120',
-        'name':'Línea Blanca hasta 51% de desc',
+        'id':'home_office_131120',
+        'name':'Home Office hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'8'
                     },
                     {
-        'id':'cocina_091120',
-        'name':'Cocina hasta 40% de desc',
+        'id':'muebles_bebe_131120',
+        'name':'Muebles de Bebés hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'9'
                     },
-                    {
-        'id':'zapatos_091120',
-        'name':'Zapatos hasta 30% de desc',
+        {
+        'id':'colchones_131120',
+        'name':'Colchones hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'10'
                     },
                     {
-        'id':'hombre_091120',
-        'name':'Hombre hasta 30% de desc',
+        'id':'linea_blanca_131120',
+        'name':'Línea Blanca hasta 51% de desc',
         'creative':'h_banner_secun',
         'position':'11'
                     },
                     {
-        'id':'mujer_091120',
-        'name':'Mujer hasta 40% de desc',
+        'id':'cocina_131120',
+        'name':'Cocina hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'12'
                     },
                     {
-        'id':'niños_091120',
-        'name':'Niños hasta 40% de desc',
+        'id':'sonido_131120',
+        'name':'Sonido hasta 40% de desc',
         'creative':'h_banner_secun',
         'position':'13'
                     },
                     {
-        'id':'deportes_091120',
-        'name':'Deportes hasta 40% de desc',
+        'id':'computo_131120',
+        'name':'Cómputo hasta 20% de desc',
         'creative':'h_banner_secun',
         'position':'14'
                     },              
                     {
-        'id':'belleza_091120',
-        'name':'Belleza hasta 40% de desc',
+        'id':'celulares_131120',
+        'name':'Celulares hasta 10% de reembolso',
         'creative':'h_banner_secun',
         'position':'15'
                     }
                     {
-        'id':'joyeria_091120',
-        'name':'Joyería hasta 25% de desc',
+        'id':'pantallas_131120',
+        'name':'Pantallas hasta 55% de desc',
         'creative':'h_banner_secun',
         'position':'16'
+                    },
+                    {
+        'id':'juguetes_131120',
+        'name':'Juguetes hasta 35% de desc',
+        'creative':'h_banner_secun',
+        'position':'17'
                     }
 						
                     ]
