@@ -239,7 +239,7 @@ function myOnloadFunction(pageName,path) {
         'name':'Celulares hasta 10% de reembolso',
         'creative':'h_banner_secun',
         'position':'15'
-                    }
+                    },
                     {
         'id':'pantallas_131120',
         'name':'Pantallas hasta 55% de desc',

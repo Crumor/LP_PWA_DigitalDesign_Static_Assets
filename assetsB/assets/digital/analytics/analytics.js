@@ -102,7 +102,7 @@ function myOnloadFunction(pageName,path) {
                     'promotions': [// Array of promoFieldObjects.		
             
        			            
-        {
+         {
         'id':'zapatos_131120',
         'name':'Zapatos hasta 30% de desc',
         'creative':'h_banner_central',
@@ -239,7 +239,7 @@ function myOnloadFunction(pageName,path) {
         'name':'Celulares hasta 10% de reembolso',
         'creative':'h_banner_secun',
         'position':'15'
-                    }
+                    },
                     {
         'id':'pantallas_131120',
         'name':'Pantallas hasta 55% de desc',
